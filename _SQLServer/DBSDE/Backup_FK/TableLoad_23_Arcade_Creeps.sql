@@ -4,7 +4,7 @@
 
 
 --Citrine Slime --CardIndex 340	--CharacterIndex 255	--ArcadeCharacterIndex 3
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Citrine Slime',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (340, 'Citrine Slime',
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Citrine_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Citrine_Slime_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Creeps/Citrine_Slime.xhtml', 
@@ -22,7 +22,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (3, 272); 
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (3, 197); --Citrine Goop
 
 --Emerald Slime --CardIndex 341	--CharacterIndex 256	--ArcadeCharacterIndex 4
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Emerald Slime',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (341, 'Emerald Slime',
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Emerald_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Emerald_Slime_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Creeps/Emerald_Slime.xhtml', 
@@ -40,7 +40,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 272); 
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 215); --Emerald Glop
 
 --Ghost --CardIndex 342	--CharacterIndex 257	--ArcadeCharacterIndex 5
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghost',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (342, 'Ghost',
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghost_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghost_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Creeps/Ghost.xhtml', 
@@ -57,7 +57,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (5, 217); 
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (5, 272); --Invader
 
 --Giri --CardIndex 343	--CharacterIndex 258	--ArcadeCharacterIndex 6
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Giri',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (343, 'Giri',
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Giri_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Giri_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Creeps/Giri.xhtml', 
@@ -74,7 +74,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (6, 270); 
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (6, 452); --New Crop
 
 --Rabid Squirrel --CardIndex 344	--CharacterIndex 259	--ArcadeCharacterIndex 7
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rabid Squirrel',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (344, 'Rabid Squirrel',
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Rabid_Squirrel_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Rabid_Squirrel_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Creeps/Rabid_Squirrel.xhtml', 
@@ -92,7 +92,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (7, 272); 
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (7, 269); --In Your Pants
 
 --Rattlebone --CardIndex 345	--CharacterIndex 260	--ArcadeCharacterIndex 8
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rattlebone',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (345, 'Rattlebone',
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Rattlebone_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Rattlebone_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Creeps/Rattlebone.xhtml', 
@@ -109,7 +109,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (8, 239); 
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (8, 270); --Insignificant
 
 --Ruby Slime --CardIndex 346	--CharacterIndex 261	--ArcadeCharacterIndex 9
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ruby Slime',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (346, 'Ruby Slime',
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Ruby_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Ruby_Slime_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Creeps/Ruby_Slime.xhtml', 
@@ -127,7 +127,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (9, 272); 
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (9, 318); --Ruby Goo
 
 --Sapphire Slime --CardIndex 347	--CharacterIndex 262	--ArcadeCharacterIndex 10
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sapphire Slime',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (347, 'Sapphire Slime',
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Sapphire_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Sapphire_Slime_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Creeps/Sapphire_Slime.xhtml', 

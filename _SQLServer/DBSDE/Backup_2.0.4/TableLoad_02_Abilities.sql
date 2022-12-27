@@ -50,6 +50,8 @@
 /*Drusilla Says												--Index 2277*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 	'Drusilla Says', 			'Action', 'Offense', 	0, -1, 5, 	'If this attack inflicts a wound, the target must immediately make one basic attack action targeting the closest other Hero.');
 /*Feeling Weak, Love?										--Index 2278*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 	'Feeling Weak, Love?', 		'Action', 'Offense', 	0, 1, 5, 	'BANE');
 
+/*Blistering Armor											--Index 2279*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 	'Blistering Armor', 		'Action', 'Support', 	0, -1, -1, 	'Wave 3, Push 3, KNOCKDOWN');
+/*Armor Piercing Shell										--Index 2280*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 	'Armor Piercing Shell', 	'Action', 'Offense', 	0, 1, 10, 	'MASSIVE DAMAGE, +2ST STR');
 
 
 

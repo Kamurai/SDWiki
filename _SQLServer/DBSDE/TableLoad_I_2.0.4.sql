@@ -92,7 +92,7 @@
 
 
 --Fire Breath Potion --CardIndex 2362 --EquipmentIndex 787
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2362, 
 'Fire Breath Potion',
 'http://htkb.info/SDE/2.0/Cards/Relics/Character/Card_Relic_Fire_Breath_Potion_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
@@ -105,7 +105,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (787, 1
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (787, 1134); --Black-Handed Henry: Arcade
 
 --Icy Armor Potion --CardIndex 2363 --EquipmentIndex 788
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2363, 
 'Icy Armor Potion',
 'http://htkb.info/SDE/2.0/Cards/Relics/Character/Card_Relic_Icy_Armor_Potion_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
@@ -118,7 +118,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (788, 1
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (788, 1134); --Black-Handed Henry: Arcade
 
 --Invulnerability Potion --CardIndex 2364 --EquipmentIndex 789
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2364, 
 'Invulnerability Potion',
 'http://htkb.info/SDE/2.0/Cards/Relics/Character/Card_Relic_Invulnerability_Potion_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
@@ -131,7 +131,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (789, 1
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (789, 1134); --Black-Handed Henry: Arcade
 
 --Speed Potion --CardIndex 2365 --EquipmentIndex 790
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2365, 
 'Speed Potion',
 'http://htkb.info/SDE/2.0/Cards/Relics/Character/Card_Relic_Speed_Potion_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
@@ -148,7 +148,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (790, 1
 
 --SDE
 --2.0.4 
---Utility Cards
+--Terrain Cards
 
 
 --name --CardIndex cXXX --UtilityIndex uXXX --TerrainIndex tXXX
@@ -193,13 +193,13 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (790, 1
 
 
 --Cursed Rider --CardIndex 2366	--CharacterIndex 1207	--ExploreCharacterIndex 867
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2366, 
 'Cursed Rider', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cursed_Rider_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cursed_Rider_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Cursed_Rider.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'"Where is my head" the rider would call,<br>The fog rises up, engulfing us all,<br>we brandish our weapons, blind to the sky,<br>What can we do to that which won''t die.');
 insert into Characters (CardIndex) VALUES (2366);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1207, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -218,13 +218,13 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (867, 2); --Armor
 
 --Demon Matchmaker --CardIndex 2367	--CharacterIndex 1208	--ExploreCharacterIndex 868
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2367, 
 'Demon Matchmaker', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Demon_Matchmaker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Demon_Matchmaker_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Demon_Matchmaker.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Araphel makes use of countless succubi in her shadow war against the light of Crystalia.  These succubi are skilled in the art of seduction, persuasion, and deception.  However, every once in a while, a succubus realizes that her favorite part of her job is making people love her.  Realizing that love is more than a weapon, such a succubus will leave Araphel''s halls, looking to spread love.  And so a Demon  Matchmaker is born.  Demon Matchmakers make mistakes along the way, not everyone needs to be in love, but they are doing their best.');
 insert into Characters (CardIndex) VALUES (2367);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1208, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -241,13 +241,13 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (868, 2); --Armor
 
 --Skeleton Lich --CardIndex 2368	--CharacterIndex 1209	--ExploreCharacterIndex 869
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2368, 
 'Skeleton Lich', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Skeleton_Lich_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Skeleton_Lich_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Skeleton_Lich.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'A lich is a master of the undead, going so far as becoming undead themselves.  It is rare Liches do the work of the Goddess, and any adventure involving a lich won''t likely have her blessings, but liches bring their own blessings to the table.  living for untold centuries, each lich tends to gain a horde of both knowledge and treasure which can be life or death for any party of heroes lucky enough to have one along.  Assuming, of course, the lich''s interests happen to align with those of the heroes... for now...');
 insert into Characters (CardIndex) VALUES (2368);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1209, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -264,13 +264,13 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (8
 
 
 --Spider Guild Otaku --CardIndex 2369	--CharacterIndex 1210	--ExploreCharacterIndex 870
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2369, 
 'Spider Guild Otaku', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Spider_Guild_Otaku_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Spider_Guild_Otaku_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Spider_Guild_Otaku.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'It is well known that the servants of the Dark Consul love spiders.  But some of them just love spiders... too much.  There are only so many spiders one nether elf needs.  At least, that''s what most Spider Guild Otaku''s friends would tell them before they got tired of hearing it and struck out on their own.  And if one can love spiders, maybe there are more creepy crawlies to love out there to be found?');
 insert into Characters (CardIndex) VALUES (2369);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1210, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -292,13 +292,13 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (8
 
 
 --Enthralled Minion --CardIndex 2370	--CharacterIndex 1211	--ExploreCharacterIndex 871
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2370, 
 'Enthralled Minion',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Enthralled_Minion_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Enthralled_Minion_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Enthralled_Minion.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Once, I was like you!  Yes, it''s true, a simple kobold fighting over petty things like food and who had the biggest club.  But I has seen the light!  The mistress loves us!  Yes, she does!  Give up your wicked ways of hoarding treasure and making hero stew and hear the call of the mistress!  The mistress is good!  The mistress is great!  Be saved!');
 insert into Characters (CardIndex) VALUES (2370);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1211, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -319,13 +319,13 @@ insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (871, 0, -1);
 
 
 --The Crownless Princess --CardIndex 2371	--CharacterIndex 1212	--ExploreCharacterIndex 872
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2371, 
 'Crownless Princess, The',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Crownless_Princess_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Crownless_Princess_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Crownless_Princess_The.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
-'');
+'Across the Witches Weald, the story of the Crownless Princess is a warning to those who are impatient when asking for a boon from the Witch Queen Beatrix.  When it was demanded that Beatrix help a young regent ensure her kingdoms crown was on her head.  She gave a wry smile, and the head was jointed with the crown.  Just without it''s owners body.  The Crownless Princess has since roamed the mist strewn countryside, looking for her head and the crown that would make her queen.');
 insert into Characters (CardIndex) VALUES (2371);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1212, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -343,13 +343,13 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (8
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (872, 'MiniBoss', 'Super', 4);
 
 --Drusilla Demonica --CardIndex 2372	--CharacterIndex 1213	--ExploreCharacterIndex 873
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2372, 
 'Drusilla Demonica',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Drusilla_Demonica_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Drusilla_Demonica_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Drusilla_Demonica.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
-'');
+'Araphel''s court is the perfect place for any succubus.  Well, most any succubus.  Drusilla Demonica got tired of dancing to Araphel''s tune.  Araphel, Araphel, Araphel!  With Araphel around, who would ever notice Drusilla?  Driven by an envy only succubi can feel, Drusilla struck out on her own to wreak havoc on Crystalia and prove to the Dark Consul once and for all that she is deserving of her own court.');
 insert into Characters (CardIndex) VALUES (2372);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1213, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -372,13 +372,13 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (873
 
 
 --The Crownless Princess --CardIndex 2373	--CharacterIndex 1214	--ArcadeCharacterIndex 340
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2373, 
 'Crownless Princess, The',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Crownless_Princess_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Crownless_Princess_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Crownless_Princess_The.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
-'');
+'Across the Witches Weald, the story of the Crownless Princess is a warning to those who are impatient when asking for a boon from the Witch Queen Beatrix.  When it was demanded that Beatrix help a young regent ensure her kingdoms crown was on her head.  She gave a wry smile, and the head was jointed with the crown.  Just without it''s owners body.  The Crownless Princess has since roamed the mist strewn countryside, looking for her head and the crown that would make her queen.');
 insert into Characters (CardIndex) VALUES (2373);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (1214, 373, -1);
@@ -386,19 +386,19 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1214, 0)
 --GangMemberIndex 476
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (340, 0, 'Crownless Princess, The', 'Undead', 'MiniBoss', 7, 7, 3, 872);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (476, 1174); --Pumpkin Patch
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (476, 1173); --Pumpkin Patch
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (476, 2274); --Exploding Pumpkin
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (476, 2275); --Catvalry Charge
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (476, 2276); --Pumpkin Toss
 
 --Drusilla Demonica --CardIndex 2374	--CharacterIndex 1215	--ArcadeCharacterIndex 341
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2374, 
 'Drusilla Demonica',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Drusilla_Demonica_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Drusilla_Demonica_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Drusilla_Demonica.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
-'');
+'Araphel''s court is the perfect place for any succubus.  Well, most any succubus.  Drusilla Demonica got tired of dancing to Araphel''s tune.  Araphel, Araphel, Araphel!  With Araphel around, who would ever notice Drusilla?  Driven by an envy only succubi can feel, Drusilla struck out on her own to wreak havoc on Crystalia and prove to the Dark Consul once and for all that she is deserving of her own court.');
 insert into Characters (CardIndex) VALUES (2374);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (1215, 373, -1);
@@ -418,24 +418,24 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (477, 2278
 
 
 --My Beautiful Skull --CardIndex 2375 --EquipmentIndex 2366
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2375, 
 'My Beautiful Skull',
 'http://htkb.info/SDE/2.0/Cards/Loot/Character/Card_Loot_My_Beautiful_Skull_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Character/Card_Loot_My_Beautiful_Skull_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Character/My_Beautiful_Skull.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2375, 'Character Loot', '', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (2366, 1175); --My Beautiful Skull Quest
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (2366, 1175); --A Good Head On My Shoulders
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2366, 2361); --Cursed Rider: Hero
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2366, 2366); --The Crownless Princess: Explore
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2366, 2368); --The Crownless Princess: Arcade
 
 --Cape of Potions --CardIndex 2376 --EquipmentIndex 2367
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2376, 
 'Cape of Potions',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Cape_of_Potions_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Cape_of_Potions_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Cape_of_Potions.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Just a taste can''t hurt, right?');
@@ -446,10 +446,10 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2367, 
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2367, 2369); --Drusilla Demonica: Arcade
 
 --Warning Bell --CardIndex 2377 --EquipmentIndex 2368
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2377, 
 'Warning Bell',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Warning_Bell_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Warning_Bell_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Warning_Bell.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'They''re coming...');
@@ -467,7 +467,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2368, 
 
 
 --Curse Raven (Bonded) --CardIndex 2378	--CharacterIndex 1216	--ExploreCharacterIndex 874
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2378, 
 'Curse Raven (Bonded)',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Curse_Raven_bonded_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Curse_Raven_bonded_2.0_back.png', 
@@ -499,7 +499,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (874
 
 
 --Curse Raven (Bonded)	--CardIndex 2379	--CharacterIndex 1217	--ArcadeCharacterIndex 342
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2379, 
 'Curse Raven (Bonded)',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Curse_Raven_bonded_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Curse_Raven_bonded_2.0_back.png', 
@@ -517,3 +517,85 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (478, 471)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (478, 790); --Parade of Death
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (478, 1007); --Despair
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (478, 990); --Deathmark
+--SDE
+--2.0.4 
+--Terrain Cards
+
+
+---Difficult Terrain --CardIndex 2380 --UtilityIndex 133 --TerrainIndex 27
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES (2380, 'Difficult Terrain',
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DP/Card_Terrain_Difficult_Terrain_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/DP/Cards/Terrain_Cards/Difficult_Terrain.xhtml', 
+'Terrain', '2.0', '2.0 DP Tile Pack', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2380, ''); 
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (133, 1099); --Difficult Terrain
+
+--Goddess --CardIndex 2381 --UtilityIndex 134 --TerrainIndex 28
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES (2381, 'Goddess',
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DP/Card_Terrain_Goddess_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/DP/Cards/Terrain_Cards/Goddess.xhtml', 
+'Terrain', '2.0', '2.0 DP Tile Pack', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2381, ''); 
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (134, 465); --Blessing
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (134, 1101); --Goddess
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (134, 1016); --Structure
+
+--Lava --CardIndex 2382 --UtilityIndex 135 --TerrainIndex 29
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES (2382, 'Lava',
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DP/Card_Terrain_Lava_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/DP/Cards/Terrain_Cards/Lava.xhtml', 
+'Terrain', '2.0', '2.0 DP Tile Pack', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2004, ''); 
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (135, 1102); --Lava
+
+--Secret Passage --CardIndex 2383 --UtilityIndex 136 --TerrainIndex 29
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES (2383, 'Secret Passage',
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DP/Card_Terrain_Secret_Passage_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/DP/Cards/Terrain_Cards/Secret_Passage.xhtml', 
+'Terrain', '2.0', '2.0 DP Tile Pack', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2383, ''); 
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (136, 1177); --Secret Passage
+
+--Sentinel --CardIndex 2384 --UtilityIndex 137 --TerrainIndex 29
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES (2384, 'Sentinel',
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DP/Card_Terrain_Sentinel_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/DP/Cards/Terrain_Cards/Sentinel.xhtml', 
+'Terrain', '2.0', '2.0 DP Tile Pack', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2384, ''); 
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (137, 465); --Blessing
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (137, 1016); --Structure
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (137, 1178); --Sentinel
+
+--Spawn Location  --CardIndex 2385 --UtilityIndex 138 --TerrainIndex 30
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES (2385, 'Spawn Location',
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DP/Card_Terrain_Spawn_Location_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/DP/Cards/Terrain_Cards/Spawn_Location.xhtml', 
+'Terrain', '2.0', '2.0 DP Tile Pack', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2385, ''); 
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (138, 1103); --Spawn Location
+
+--Structure  --CardIndex 2386 --UtilityIndex 139 --TerrainIndex 31
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES (2386, 'Structure',
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DP/Card_Terrain_Structure_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/DP/Cards/Terrain_Cards/Structure.xhtml', 
+'Terrain', '2.0', '2.0 DP Tile Pack', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2386, ''); 
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (139, 1016); --Structure
+
+
+
+

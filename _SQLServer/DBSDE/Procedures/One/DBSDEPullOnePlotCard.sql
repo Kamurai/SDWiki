@@ -1,11 +1,11 @@
---drop PROCEDURE DBSDEPullOnePlot;
+--drop PROCEDURE DBSDEPullOnePlotCard;
 
-CREATE OR ALTER PROCEDURE DBSDEPullOnePlot(
+CREATE OR ALTER PROCEDURE DBSDEPullOnePlotCard(
 	@intCardLink varChar(150)
 )
 AS
 BEGIN
 	select * 
-	from PlotsView
+	from PlotCardsView
 	where Link = @intCardLink;
 END

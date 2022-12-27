@@ -4,7 +4,7 @@
 
 
 --Black-Handed Henry     --CardIndex 2259   --BossSpawnIndex 32
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2259, 
 'Black-Handed Henry', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Black_Handed_Henry_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Black_Handed_Henry_2.0_back.png',

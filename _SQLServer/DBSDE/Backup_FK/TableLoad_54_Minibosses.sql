@@ -4,7 +4,7 @@
 
 
 --Clan Earth Shrine Oni --CardIndex 738	--CharacterIndex 348	--ExploreCharacterIndex 253
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (738, 
 'Clan Earth Shrine Oni',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Clan_Earth_Shrine_Oni_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Clan_Earth_Shrine_Oni_FK_back.png', 
@@ -29,7 +29,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (253
 
 
 --Clan Air Shrine Oni --CardIndex 739	--CharacterIndex 349	--ExploreCharacterIndex 254
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (739, 
 'Clan Air Shrine Oni',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Clan_Air_Shrine_Oni_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Clan_Air_Shrine_Oni_FK_back.png', 

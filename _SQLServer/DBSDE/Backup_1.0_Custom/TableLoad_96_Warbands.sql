@@ -5,7 +5,7 @@
 
 --Slimes
 --Slime Stack --Card Index 2356	--CharacterIndex 1202 --ExploreCharacterIndex 863
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2356, 
 'Slime Stack',
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Stack_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Stack_1.0_Custom_back.png', 
@@ -22,7 +22,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (863, 1147); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (863, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (863, 'Spawning Point', 'Start', 0); 
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2356,
 'Aaron Bergman',
 'https://boardgamegeek.com/thread/750633/my-dragon-quest-slimes-cards-miniatures'

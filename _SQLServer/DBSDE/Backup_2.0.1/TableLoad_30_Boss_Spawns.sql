@@ -2,8 +2,9 @@
 --2.0.1
 --Boss Spawns
 
+
 --Bomechan     --CardIndex 1490   --BossSpawnIndex 10  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bomechan', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1490, 'Bomechan', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Bomechan_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Bomechan_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Bomechan.xhtml', 
@@ -17,7 +18,7 @@ VALUES (1490, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (10, 659); --Bomechan
 
 --Demon Queen Araphel     --CardIndex 1491   --BossSpawnIndex 11  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Demon Queen Araphel', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1491, 'Demon Queen Araphel', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Demon_Queen_Araphel_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Demon_Queen_Araphel_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Demon_Queen_Araphel.xhtml', 
@@ -31,7 +32,7 @@ VALUES (1491, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (11, 661); 
 
 --Destroyer, The     --CardIndex 1492   --BossSpawnIndex 12  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Destroyer, The', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1492, 'Destroyer, The', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Destroyer_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Destroyer_The_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Destroyer_The.xhtml', 
@@ -45,7 +46,7 @@ VALUES (1492, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (12, 662); 
 
 --Elrik The Lich King     --CardIndex 1493   --BossSpawnIndex 13  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elrik The Lich King', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1493, 'Elrik The Lich King', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Elrik_The_Lich_King_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Elrik_The_Lich_King_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Elrik_The_Lich_King.xhtml', 
@@ -59,7 +60,7 @@ VALUES (1493, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (13, 663); 
 
 --Gnomish Excavator     --CardIndex 1494   --BossSpawnIndex 14  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnomish Excavator', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1494, 'Gnomish Excavator', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Gnomish_Excavator_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Gnomish_Excavator_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Gnomish_Excavator.xhtml', 
@@ -73,7 +74,7 @@ VALUES (1494, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (14, 664); 
 
 --Guth, The     --CardIndex 1495   --BossSpawnIndex 15  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guth, The', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1495, 'Guth, The', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Guth_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Guth_The_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Guth_The.xhtml', 
@@ -87,7 +88,7 @@ VALUES (1495, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (15, 665); 
 
 --Hoarfang     --CardIndex 1496   --BossSpawnIndex 16  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hoarfang', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1496, 'Hoarfang', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Hoarfang_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Hoarfang_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Hoarfang.xhtml', 
@@ -101,7 +102,7 @@ VALUES (1496, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (16, 666); 
 
 --Jorogumo     --CardIndex 1497   --BossSpawnIndex 17  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jorogumo', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1497, 'Jorogumo', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Jorogumo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Jorogumo_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Jorogumo.xhtml', 
@@ -115,7 +116,7 @@ VALUES (1497, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (17, 667); 
 
 --Krampus     --CardIndex 1498   --BossSpawnIndex 18  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Krampus', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1498, 'Krampus', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Krampus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Krampus_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Krampus.xhtml', 
@@ -129,7 +130,7 @@ VALUES (1498, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (18, 668); 
 
 --Lord Vulcanis     --CardIndex 1499   --BossSpawnIndex 19  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Vulcanis', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1499, 'Lord Vulcanis', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Lord_Vulcanis_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Lord_Vulcanis_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Lord_Vulcanis.xhtml', 
@@ -143,7 +144,7 @@ VALUES (1499, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (19, 669); 
 
 --Midnight Queen, The     --CardIndex 1500   --BossSpawnIndex 20  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Midnight Queen, The', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1500, 'Midnight Queen, The', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Midnight_Queen_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Midnight_Queen_The_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Midnight_Queen_The.xhtml', 
@@ -157,7 +158,7 @@ VALUES (1500, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (20, 670); 
 
 --Mordred the Accursed     --CardIndex 1501   --BossSpawnIndex 21  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mordred the Accursed', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1501, 'Mordred the Accursed', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Mordred_the_Accursed_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Mordred_the_Accursed_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Mordred_the_Accursed.xhtml', 
@@ -171,7 +172,7 @@ VALUES (1501, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (21, 671); 
 
 --Mother Noctua     --CardIndex 1502   --BossSpawnIndex 22  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mother Noctua', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1502, 'Mother Noctua', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Mother_Noctua_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Mother_Noctua_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Mother_Noctua.xhtml', 
@@ -185,7 +186,7 @@ VALUES (1502, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (22, 672); 
 
 --Nightsong the Eternal     --CardIndex 1503   --BossSpawnIndex 23  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nightsong the Eternal', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1503, 'Nightsong the Eternal', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Nightsong_the_Eternal_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Nightsong_the_Eternal_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Nightsong_the_Eternal.xhtml', 
@@ -199,7 +200,7 @@ VALUES (1503, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (23, 674); 
 
 --Onibaba     --CardIndex 1504   --BossSpawnIndex 24  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Onibaba', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1504, 'Onibaba', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Onibaba_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Onibaba_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Onibaba.xhtml', 
@@ -213,7 +214,7 @@ VALUES (1504, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (24, 675); 
 
 --Onryo     --CardIndex 1505   --BossSpawnIndex 25  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Onryo', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1505, 'Onryo', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Onryo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Onryo_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Onryo.xhtml', 
@@ -227,7 +228,7 @@ VALUES (1505, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (25, 676); 
 
 --Pauper Prince     --CardIndex 1506   --BossSpawnIndex 26  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pauper Prince', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1506, 'Pauper Prince', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Pauper_Prince_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Pauper_Prince_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Pauper_Prince.xhtml', 
@@ -241,7 +242,7 @@ VALUES (1506, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (26, 677); 
 
 --Professor Cackle-Clink     --CardIndex 1507   --BossSpawnIndex 27  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Professor Cackle-Clink', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1507, 'Professor Cackle-Clink', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Professor_Cackle_Clink_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Professor_Cackle_Clink_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Professor_Cackle_Clink.xhtml', 
@@ -255,7 +256,7 @@ VALUES (1507, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (27, 678);
 
 --Starfire     --CardIndex 1508   --BossSpawnIndex 28  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Starfire', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1508, 'Starfire', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Starfire.xhtml', 
@@ -269,7 +270,7 @@ VALUES (1508, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (28, 679); 
 
 --Testudo Tower     --CardIndex 1509   --BossSpawnIndex 29  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1509, 
 'Testudo Tower', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Testudo_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Testudo_Tower_2.0_back.png',
@@ -284,7 +285,7 @@ VALUES (1509, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (29, 680); 
 
 --Thresher, The     --CardIndex 1510   --BossSpawnIndex 30  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Thresher, The', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1510, 'Thresher, The', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Thresher_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Thresher_The_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Thresher_The.xhtml', 
@@ -298,7 +299,7 @@ VALUES (1510, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (30, 681); 
 
 --Ugg     --CardIndex 1511   --BossSpawnIndex 31  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ugg', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1511, 'Ugg', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Ugg_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Ugg_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Ugg.xhtml', 

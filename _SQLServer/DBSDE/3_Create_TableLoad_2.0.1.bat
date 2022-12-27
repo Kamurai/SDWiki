@@ -101,6 +101,7 @@ type .\Backup_2.0.1\TableLoad_01_Keywords.sql >> TableLoad_C_2.0.1.sql
 type .\Backup_2.0.1\TableLoad_02_Abilities.sql >> TableLoad_C_2.0.1.sql
 
 type _Tables.sql >> TableLoad_Main.sql
+type _Card_Components.sql >> TableLoad_Main.sql
 type TableLoad_Keywords.sql >> TableLoad_Main.sql
 type TableLoad_Abilities.sql >> TableLoad_Main.sql
 type TableLoad_A_1.0.1.sql >> TableLoad_Main.sql

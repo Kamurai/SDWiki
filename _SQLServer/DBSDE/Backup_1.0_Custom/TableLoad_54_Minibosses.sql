@@ -2,8 +2,9 @@
 --1.0 Custom
 --Mini Boss
 
+
 --Medusa --Card Index 2346	--CharacterIndex 1192 --ExploreCharacterIndex 853
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2346, 
 'Medusa',
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Medusa_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Medusa_1.0_Custom_back.png', 
@@ -23,14 +24,14 @@ VALUES (1192,
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (853, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (853, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (853, 'MiniBoss', '16 bit', 4);
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2346,
 'TBD',
 'https://cf.geekdo-images.com/Lhucw6SFK53zf1EO9wmsHg__imagepage/img/7Hzn9NNVJWz3rG2F7CkFeVpqQcI=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1788397.jpg'
 );
 
 --Minos --Card Index 2347	--CharacterIndex 1193 --ExploreCharacterIndex 854
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2347, 
 'Minos',
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Minos_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Minos_1.0_Custom_back.png', 
@@ -49,7 +50,7 @@ VALUES (1193,
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (854, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (854, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (854, 'MiniBoss', '16 bit', 4);
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2347,
 'TBD',
 'https://cf.geekdo-images.com/ga0Vehcm2VL0b-mH1bpLKw__imagepage/img/FnlOHzxBb2Q5Hgvix_7HRTqysNk=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1788396.jpg'

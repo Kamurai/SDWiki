@@ -4,7 +4,7 @@
 
 
 --Quimera --Card Index 2348	--CharacterIndex 1194 --ExploreCharacterIndex 855
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2348, 
 'Quimera',
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Quimera_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Quimera_1.0_Custom_back.png', 
@@ -23,14 +23,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (855, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (855, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (855, 'Boss', 'SUPER', 4);
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2348,
 'TBD',
 'https://cf.geekdo-images.com/CM40bMWSchpalZ2xM4QH9w__imagepage/img/LkUrekG8Czi2pcOjQFceOvrqh0c=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1788781.jpg'
 );
 
 --Venger --Card Index 2349	--CharacterIndex 1195 --ExploreCharacterIndex 856
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2349, 
 'Venger',
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Venger_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Venger_1.0_Custom_back.png', 
@@ -49,7 +49,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (856, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (856, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (856, 'Boss', 'SUPER', 4);
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2349,
 'TBD',
 'https://cf.geekdo-images.com/7tLapKucrZJa8Lk6KINh0A__imagepage/img/P4YM0X7l_z7MrAHre0PoGHOhzas=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1788412.jpg'

@@ -4,7 +4,7 @@
 
 
 --Bomechan --CardIndex 1049 --CharacterIndex 659 --ExploreCharacterIndex 554
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bomechan',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1049, 'Bomechan',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Bomechan_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Bomechan_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/DI/Explore/Cards/Bosses/Bomechan.xhtml', 
@@ -30,7 +30,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (554, 'Boss', 'Super', 4);
 
 --Daemonus --CardIndex 1050 --CharacterIndex 660 --ExploreCharacterIndex 555
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Daemonus',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1050, 'Daemonus',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Daemonus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Daemonus_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Daemonus.xhtml', 
@@ -55,7 +55,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (555, 'Boss', '16 bit', 2);
 
 --Demon Queen Araphel --CardIndex 1051 --CharacterIndex 661 --ExploreCharacterIndex 556
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Demon Queen Araphel',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1051, 'Demon Queen Araphel',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Demon_Queen_Araphel_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Demon_Queen_Araphel_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Demon_Queen_Araphel.xhtml', 
@@ -78,7 +78,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (556, 'Boss', 'Super', 4);
 
 --Destroyer, The --CardIndex 1052 --CharacterIndex 662 --ExploreCharacterIndex 557
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Destroyer, The',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1052, 'Destroyer, The',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Destroyer_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Destroyer_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Destroyer_The.xhtml', 
@@ -106,7 +106,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (557, 'Boss', 'Super', 4);
 
 --Elrik The Lich King --CardIndex 1053 --CharacterIndex 663 --ExploreCharacterIndex 558
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elrik The Lich King',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1053, 'Elrik The Lich King',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Elrik_The_Lich_King_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Elrik_The_Lich_King_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Elrik_The_Lich_King.xhtml', 
@@ -135,7 +135,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (558, 'Boss', 'Super', 4);
 
 --Gnomish Excavator --CardIndex 1054 --CharacterIndex 664 --ExploreCharacterIndex 559
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnomish Excavator',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1054, 'Gnomish Excavator',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Gnomish_Excavator_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Gnomish_Excavator_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Gnomish_Excavator.xhtml', 
@@ -163,7 +163,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (559, 'Boss', 'Super', 4);
 
 --Guth, The --CardIndex 1055 --CharacterIndex 665 --ExploreCharacterIndex 560
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guth, The',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1055, 'Guth, The',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Guth_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Guth_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Guth_The.xhtml', 
@@ -191,7 +191,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (560, 'Boss', 'Super', 4);
 
 --Hoarfang --CardIndex 1056 --CharacterIndex 666 --ExploreCharacterIndex 561
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hoarfang',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1056, 'Hoarfang',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Hoarfang_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Hoarfang_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Hoarfang.xhtml', 
@@ -220,7 +220,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (561, 'Boss', 'Super', 4);
 
 --Jorogumo --CardIndex 1057 --CharacterIndex 667 --ExploreCharacterIndex 562
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jorogumo',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1057, 'Jorogumo',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Jorogumo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Jorogumo_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Jorogumo.xhtml', 
@@ -247,7 +247,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (562, 'Boss', 'Super', 4);
 
 --Krampus --CardIndex 1058 --CharacterIndex 668 --ExploreCharacterIndex 563
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Krampus',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1058, 'Krampus',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Krampus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Krampus_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Krampus.xhtml', 
@@ -275,7 +275,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (563, 'Boss', 'Super', 4);
 
 --Lord Vulcanis --CardIndex 1059 --CharacterIndex 669 --ExploreCharacterIndex 564
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Vulcanis',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1059, 'Lord Vulcanis',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Lord_Vulcanis_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Lord_Vulcanis_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Lord_Vulcanis.xhtml', 
@@ -299,7 +299,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (564, 'Boss', 'Super', 4);
 
 --Midnight Queen, The --CardIndex 1060 --CharacterIndex 670 --ExploreCharacterIndex 565
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Midnight Queen, The',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1060, 'Midnight Queen, The',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Midnight_Queen_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Midnight_Queen_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Midnight_Queen_The.xhtml', 
@@ -325,7 +325,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (565, 'Boss', 'Super', 4);
 
 --Mordred the Accursed --CardIndex 1061 --CharacterIndex 671 --ExploreCharacterIndex 566
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mordred the Accursed',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1061, 'Mordred the Accursed',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mordred_the_Accursed_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mordred_the_Accursed_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Mordred_the_Accursed.xhtml', 
@@ -352,7 +352,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (566, 'Boss', 'Super', 4);
 
 --Mother Noctua --CardIndex 1062 --CharacterIndex 672 --ExploreCharacterIndex 567
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mother Noctua',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1062, 'Mother Noctua',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mother_Noctua_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mother_Noctua_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Mother_Noctua.xhtml', 
@@ -377,7 +377,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (567, 'Boss', 'Super', 4);
 
 --Mugg --CardIndex 1063 --CharacterIndex 673 --ExploreCharacterIndex 568
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mugg',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1063, 'Mugg',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mugg_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mugg_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Mugg.xhtml', 
@@ -401,7 +401,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (568, 'Boss', 'Super', 4);
 
 --Nightsong the Eternal --CardIndex 1064 --CharacterIndex 674 --ExploreCharacterIndex 569
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nightsong the Eternal',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1064, 'Nightsong the Eternal',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Nightsong_the_Eternal_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Nightsong_the_Eternal_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Nightsong_the_Eternal.xhtml', 
@@ -430,7 +430,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (569, 'Boss', 'Super', 4);
 
 --Onibaba --CardIndex 1065 --CharacterIndex 675 --ExploreCharacterIndex 570
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Onibaba',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1065, 'Onibaba',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Onibaba_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Onibaba_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Onibaba.xhtml', 
@@ -456,7 +456,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (570, 'Boss', 'Super', 4);
 
 --Onryo --CardIndex 1066 --CharacterIndex 676 --ExploreCharacterIndex 571
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Onryo',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1066, 'Onryo',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Onryo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Onryo_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Onryo.xhtml', 
@@ -483,7 +483,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (571, 'Boss', 'Super', 4);
 
 --Pauper Prince --CardIndex 1067 --CharacterIndex 677 --ExploreCharacterIndex 572
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pauper Prince',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1067, 'Pauper Prince',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Pauper_Prince_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Pauper_Prince_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Pauper_Prince.xhtml', 
@@ -509,7 +509,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (572, 'Boss', 'Super', 4);
 
 --Professor Cackle-Clink --CardIndex 1068 --CharacterIndex 678 --ExploreCharacterIndex 573
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Professor Cackle-Clink',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1068, 'Professor Cackle-Clink',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Professor_Cackle_Clink_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Professor_Cackle_Clink_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Professor_Cackle_Clink.xhtml', 
@@ -537,7 +537,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (573, 'Boss', 'Super', 4);
 
 --Starfire --CardIndex 1069 --CharacterIndex 679 --ExploreCharacterIndex 574
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Starfire',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1069, 'Starfire',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Starfire_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Starfire_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Starfire.xhtml', 
@@ -563,7 +563,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (574, 'Boss', 'Super', 4);
 
 --Testudo Tower --CardIndex 1070 --CharacterIndex 680 --ExploreCharacterIndex 575
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1070, 
 'Testudo Tower',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Testudo_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Testudo_Tower_2.0_back.png', 
@@ -590,7 +590,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (575, 'Boss', 'Super', 4);
 
 --Thresher, The --CardIndex 1071 --CharacterIndex 681 --ExploreCharacterIndex 576
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Thresher, The',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1071, 'Thresher, The',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Thresher_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Thresher_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Thresher_The.xhtml', 
@@ -617,7 +617,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (576, 'Boss', 'Super', 4);
 
 --Ugg --CardIndex 1072 --CharacterIndex 682 --ExploreCharacterIndex 577
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ugg',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1072, 'Ugg',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Ugg_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Ugg_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Ugg.xhtml', 
@@ -641,7 +641,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (577, 'Boss', 'Super', 4);
 
 --Ymnaur Wintersson --CardIndex 1073 --CharacterIndex 683 --ExploreCharacterIndex 578
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ymnaur Wintersson',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1073, 'Ymnaur Wintersson',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Ymnaur_Wintersson_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Ymnaur_Wintersson_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Ymnaur_Wintersson.xhtml', 

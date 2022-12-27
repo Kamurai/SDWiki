@@ -208,9 +208,11 @@ type .\Backup_2.0.4\TableLoad_64_Arcade_MiniBosses.sql >> TableLoad_I_2.0.4.sql
 type .\Backup_2.0.4\TableLoad_71_Equipment.sql >> TableLoad_I_2.0.4.sql
 type .\Backup_2.0.4\TableLoad_93_Creeps.sql >> TableLoad_I_2.0.4.sql
 type .\Backup_2.0.4\TableLoad_103_Arcade_Creeps.sql >> TableLoad_I_2.0.4.sql
+type .\Backup_2.0.4\TableLoad_120_Terrain.sql >> TableLoad_I_2.0.4.sql
 
 
 type _Tables.sql >> TableLoad_Main.sql
+type _Card_Components.sql >> TableLoad_Main.sql
 type TableLoad_Keywords.sql >> TableLoad_Main.sql
 type TableLoad_Abilities.sql >> TableLoad_Main.sql
 type TableLoad_A_1.0.1.sql >> TableLoad_Main.sql

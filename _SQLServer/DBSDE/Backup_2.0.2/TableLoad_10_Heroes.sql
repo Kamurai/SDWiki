@@ -4,7 +4,7 @@
 
 
 --Black-Handed Henry --CardIndex 2228	--CharacterIndex 1106	--ExploreCharacterIndex 774
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2228, 
 'Black-Handed Henry', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Black_Handed_Henry_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Black_Handed_Henry_2.0_back.png', 
@@ -28,7 +28,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (774, 2); --Armor
 
 --Cheeto --CardIndex 2229	--CharacterIndex 1107	--ExploreCharacterIndex 775
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2229, 
 'Cheeto', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cheeto_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cheeto_2.0_back.png', 
@@ -51,7 +51,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (775, 2); --Armor
 
 --D'Shaun (Alt) --CardIndex 2230	--CharacterIndex 1108	--ExploreCharacterIndex 776
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2230, 
 'D''Shaun (Alt)', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_D_Shaun_alt_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_D_Shaun_alt_2.0_back.png', 
@@ -75,7 +75,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (776, 2); --Armor
 
 --Deepwater Diver --CardIndex 2231	--CharacterIndex 1109	--ExploreCharacterIndex 777
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2231, 
 'Deepwater Diver', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deepwater_Diver_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deepwater_Diver_2.0_back.png', 
@@ -99,7 +99,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (777, 2); --Armor
 
 --Eiko Ando --CardIndex 2232	--CharacterIndex 1110	--ExploreCharacterIndex 778
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2232, 
 'Eiko Ando', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Eiko_Ando_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Eiko_Ando_2.0_back.png', 
@@ -122,7 +122,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (778, 2); --Armor
 
 --Hermit Swordmage --CardIndex 2233	--CharacterIndex 1111	--ExploreCharacterIndex 779
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2233, 
 'Hermit Swordmage', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hermit_Swordmage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hermit_Swordmage_2.0_back.png', 
@@ -146,7 +146,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (779, 2); --Armor
 
 --Magoichi --CardIndex 2234	--CharacterIndex 1112	--ExploreCharacterIndex 780
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2234, 
 'Magoichi', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Magoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Magoichi_2.0_back.png', 
@@ -169,7 +169,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (780
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (780, 2); --Armor
 
 --Pirate Captain --CardIndex 2235	--CharacterIndex 1113	--ExploreCharacterIndex 781
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2235, 
 'Pirate Captain', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Pirate_Captain_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Pirate_Captain_2.0_back.png', 
@@ -193,7 +193,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (781, 2); --Armor
 
 --Skuttle Knight --CardIndex 2236	--CharacterIndex 1114	--ExploreCharacterIndex 782
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2236, 
 'Skuttle Knight', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Skuttle_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Skuttle_Knight_2.0_back.png', 

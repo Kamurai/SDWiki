@@ -4,7 +4,7 @@
 
 
 --Chochin-Obake	--CardIndex 1264	--CharacterIndex 874	--ArcadeCharacterIndex 106
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chochin-Obake',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1264, 'Chochin-Obake',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Chochin_Obake_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Chochin_Obake_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Chochin_Obake.xhtml', 
@@ -22,7 +22,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (154, 681)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (154, 1669); --Siphon Life
 
 --Curse Raven	--CardIndex 1265	--CharacterIndex 875	--ArcadeCharacterIndex 107
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Curse Raven',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1265, 'Curse Raven',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Curse_Raven_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Curse_Raven_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Curse_Raven.xhtml', 
@@ -41,7 +41,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (155, 1007
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (155, 990); --Deathmark
 
 --Demolitions Expert	--CardIndex 1266	--CharacterIndex 876	--ArcadeCharacterIndex 108
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Demolitions Expert',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1266, 'Demolitions Expert',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Demolitions_Expert_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Demolitions_Expert_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Demolitions_Expert.xhtml', 
@@ -61,7 +61,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (156, 1060
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (156, 1339); --Kaboom
 
 --Fire Flower	--CardIndex 1267	--CharacterIndex 877	--ArcadeCharacterIndex 109
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fire Flower',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1267, 'Fire Flower',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Fire_Flower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Fire_Flower_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Fire_Flower.xhtml', 
@@ -79,7 +79,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (157, 674)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (157, 691); --Insignificant
 
 --Forge Gnome	--CardIndex 1268	--CharacterIndex 878	--ArcadeCharacterIndex 110
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Forge Gnome',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1268, 'Forge Gnome',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Forge_Gnome_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Forge_Gnome_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Forge_Gnome.xhtml', 
@@ -95,7 +95,7 @@ VALUES (110, 0, 'Forge Gnome', 'Gnome', 'Creep', 4, 1, 0, 493);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (158, 1758); --Stoke the Bellows
 
 --Frost Imp	--CardIndex 1269	--CharacterIndex 879	--ArcadeCharacterIndex 111
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frost Imp',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1269, 'Frost Imp',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Frost_Imp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Frost_Imp_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Frost_Imp.xhtml', 
@@ -113,7 +113,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (159, 691)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (159, 1981); --Snowball Fight!
 
 --Ghostflame	--CardIndex 1270	--CharacterIndex 880	--ArcadeCharacterIndex 112
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghostflame',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1270, 'Ghostflame',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghostflame_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghostflame_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Ghostflame.xhtml', 
@@ -130,7 +130,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (160, 809)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (160, 894); --Skittish
 
 --Kodead	--CardIndex 1271	--CharacterIndex 881	--ArcadeCharacterIndex 113
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kodead',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1271, 'Kodead',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Kodead_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Kodead_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Kodead.xhtml', 
@@ -146,7 +146,7 @@ VALUES (113, 0, 'Kodead', 'Undead Kobold', 'Creep', 5, 1, 0, 497);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (161, 795); --Past Life
 
 --Nether Imp	--CardIndex 1272	--CharacterIndex 882	--ArcadeCharacterIndex 114
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Imp',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1272, 'Nether Imp',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Nether_Imp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Nether_Imp_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Nether_Imp.xhtml', 
@@ -164,7 +164,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (162, 588)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (162, 1462); --Nether Fire
 
 --Rotten Pumpkin	--CardIndex 1273	--CharacterIndex 883	--ArcadeCharacterIndex 115
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rotten Pumpkin',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1273, 'Rotten Pumpkin',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Rotten_Pumpkin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Rotten_Pumpkin_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Rotten_Pumpkin.xhtml', 
@@ -180,7 +180,7 @@ VALUES (115, 0, 'Rotten Pumpkin', '', 'Creep', 5, 1, 0, 499);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (163, 903); --Smashing Pumpkins
 
 --Spiker	--CardIndex 1274	--CharacterIndex 884	--ArcadeCharacterIndex 116
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spiker',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1274, 'Spiker',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Spiker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Spiker_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Spiker.xhtml', 
@@ -197,7 +197,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (164, 693)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (164, 708); --Knockdown
 
 --Spiteful Cherub	--CardIndex 1275	--CharacterIndex 885	--ArcadeCharacterIndex 117
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spiteful Cherub',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1275, 'Spiteful Cherub',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Spiteful_Cherub_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Spiteful_Cherub_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Spiteful_Cherub.xhtml', 
@@ -214,7 +214,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (165, 695)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (165, 995); --Spiteful Whispers
 
 --Squigly	--CardIndex 1276	--CharacterIndex 886	--ArcadeCharacterIndex 118
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Squigly',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1276, 'Squigly',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Squigly_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Squigly_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Squigly.xhtml', 
@@ -232,7 +232,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (166, 900)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (166, 1680); --Slimy Hug
 
 --Underdead Crow	--CardIndex 1277	--CharacterIndex 887	--ArcadeCharacterIndex 119
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Underdead Crow',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1277, 'Underdead Crow',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Underdead_Crow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Underdead_Crow_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Underdead_Crow.xhtml', 
@@ -249,7 +249,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (167, 565)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (167, 693); --Insignificant
 
 --Waystone	--CardIndex 1278	--CharacterIndex 888	--ArcadeCharacterIndex 120
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Waystone',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1278, 'Waystone',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Waystone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Waystone_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Waystone.xhtml', 
@@ -266,7 +266,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (168, 681)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (168, 1019); --Sturdy
 
 --Yowling	--CardIndex 1279	--CharacterIndex 889	--ArcadeCharacterIndex 121
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yowling',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1279, 'Yowling',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yowling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yowling_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Yowling.xhtml', 
@@ -284,7 +284,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (169, 722)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (169, 1310); --In Your Pockets
 
 --Yurei Bushi	--CardIndex 1280	--CharacterIndex 890	--ArcadeCharacterIndex 122
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Bushi',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1280, 'Yurei Bushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yurei_Bushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yurei_Bushi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Yurei_Bushi.xhtml', 

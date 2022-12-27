@@ -1,3 +1,10 @@
+--SDE
 --2.0.2 
 --Plot Cards
---Acid Fog	--CardIndex cXXX --PlotIndex pXXX
+
+
+--Name	--CardIndex cXXX --PlotIndex pXXX
+
+
+
+

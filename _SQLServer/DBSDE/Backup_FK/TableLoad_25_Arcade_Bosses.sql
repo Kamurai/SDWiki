@@ -4,7 +4,7 @@
 
 
 --Beatrix the Witch Queen --CardIndex 372	--CharacterIndex 287	--ArcadeCharacterIndex 35
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Beatrix the Witch Queen',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (372, 'Beatrix the Witch Queen',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Beatrix_the_Witch_Queen_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Beatrix_the_Witch_Queen_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Bosses/Beatrix_the_Witch_Queen.xhtml', 
@@ -26,7 +26,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (35, 253);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (35, 495); --Pumpkin Charge
 
 --The Forgotten King --CardIndex 373	--CharacterIndex 288	--ArcadeCharacterIndex 36
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (373, 
 'Forgotten King, The',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Forgotten_King_The_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Forgotten_King_The_FK_back.png', 
@@ -48,7 +48,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (36, 603);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (36, 504); --Primal Roar
 
 --Goro --CardIndex 374	--CharacterIndex 289	--ArcadeCharacterIndex 37
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Goro',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (374, 'Goro',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Goro_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Goro_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Bosses/Goro.xhtml', 
@@ -70,7 +70,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (37, 271);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (37, 436); --Meddlesome Giri
 
 --King Starfire --CardIndex 375	--CharacterIndex 290	--ArcadeCharacterIndex 38
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('King Starfire',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (375, 'King Starfire',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_King_Starfire_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_King_Starfire_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Bosses/King_Starfire.xhtml', 
@@ -91,7 +91,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (38, 403);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (38, 291); --Dragon Horn
 
 --Nocturne --CardIndex 376	--CharacterIndex 291	--ArcadeCharacterIndex 39
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nocturne',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (376, 'Nocturne',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Nocturne_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Nocturne_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Bosses/Nocturne.xhtml', 
@@ -111,7 +111,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (39, 315);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (39, 261); --Dead Cold
 
 --Ragin' Roxor v1 --CardIndex 377	--CharacterIndex 292	--ArcadeCharacterIndex 40
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ragin'' Roxor (v1)',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (377, 'Ragin'' Roxor (v1)',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Ragin_Roxor_v1_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Ragin_Roxor_v1_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Bosses/Ragin_Roxor_v1.xhtml', 
@@ -131,7 +131,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (40, 664);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (40, 444); --Molten Steel
 
 --Ragin' Roxor v2 --CardIndex 378	--CharacterIndex 293	--ArcadeCharacterIndex 41
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ragin'' Roxor (v2)',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (378, 'Ragin'' Roxor (v2)',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Ragin_Roxor_v2_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Ragin_Roxor_v2_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Bosses/Ragin_Roxor_v2.xhtml', 
@@ -151,7 +151,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (41, 664);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (41, 444); --Molten Steel
 
 --Rockin' Roxor v1 --CardIndex 379	--CharacterIndex 294	--ArcadeCharacterIndex 42
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rockin'' Roxor (v1)',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (379, 'Rockin'' Roxor (v1)',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Rockin_Roxor_v1_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Rockin_Roxor_v1_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Bosses/Rockin_Roxor_v1.xhtml', 
@@ -171,7 +171,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (42, 225);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (42, 643); --Tremors
 
 --Rockin' Roxor v2 --CardIndex 380	--CharacterIndex 295	--ArcadeCharacterIndex 43
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rockin'' Roxor (v2)',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (380, 'Rockin'' Roxor (v2)',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Rockin_Roxor_v2_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Rockin_Roxor_v2_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Bosses/Rockin_Roxor_v2.xhtml', 
@@ -191,7 +191,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (43, 225);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (43, 643); --Tremors
 
 --Starfire --CardIndex 381	--CharacterIndex 296	--ArcadeCharacterIndex 44
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Starfire',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (381, 'Starfire',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Starfire_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Starfire_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Bosses/Starfire.xhtml', 
@@ -210,7 +210,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (44, 403);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (44, 620); --Tail Sweep
 
 --Von Drakk --CardIndex 382	--CharacterIndex 297	--ArcadeCharacterIndex 45
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Von Drakk',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (382, 'Von Drakk',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Von_Drakk_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Von_Drakk_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Bosses/Von_Drakk.xhtml', 

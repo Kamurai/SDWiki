@@ -4,7 +4,7 @@
 
 
 --Chochin-Obake --CardIndex 983	--CharacterIndex 593	--ExploreCharacterIndex 488
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chochin-Obake',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (983, 'Chochin-Obake',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Chochin-Obake_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Chochin-Obake_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Chochin_Obake.xhtml', 
@@ -26,7 +26,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (488, '', '8 Bit', 1);
 
 --Curse Raven --CardIndex 984	--CharacterIndex 594	--ExploreCharacterIndex 489
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Curse Raven',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (984, 'Curse Raven',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Curse_Raven_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Curse_Raven_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Curse_Raven.xhtml', 
@@ -48,7 +48,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (489, '', '8 Bit', 1);
 
 --Demolitions Expert --CardIndex 985	--CharacterIndex 595	--ExploreCharacterIndex 490
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Demolitions Expert',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (985, 'Demolitions Expert',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Demolitions_Expert_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Demolitions_Expert_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Demolitions_Expert.xhtml', 
@@ -71,7 +71,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (490, '', '8 Bit', 0);
 
 --Dirty Rat --CardIndex 986	--CharacterIndex 596	--ExploreCharacterIndex 491
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dirty Rat',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (986, 'Dirty Rat',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Dirty_Rat_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Dirty_Rat_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Dirty_Rat.xhtml', 
@@ -93,7 +93,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (491, '', '8 Bit', 1);
 
 --Fire Flower --CardIndex 987	--CharacterIndex 597	--ExploreCharacterIndex 492
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fire Flower',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (987, 'Fire Flower',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Fire_Flower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Fire_Flower_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Fire_Flower.xhtml', 
@@ -116,7 +116,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (492, '', '8 Bit', 0);
 
 --Forge Gnome --CardIndex 988	--CharacterIndex 598	--ExploreCharacterIndex 493
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Forge Gnome',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (988, 'Forge Gnome',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Forge_Gnome_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Forge_Gnome_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Forge_Gnome.xhtml', 
@@ -137,7 +137,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (493, '', '8 Bit', 0);
 
 --Frost Imp --CardIndex 989	--CharacterIndex 599	--ExploreCharacterIndex 494
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frost Imp',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (989, 'Frost Imp',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Frost_Imp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Frost_Imp_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Frost_Imp.xhtml', 
@@ -158,7 +158,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (494, '', '8 Bit', 1);
 
 --Ghostflame --CardIndex 990	--CharacterIndex 600	--ExploreCharacterIndex 495
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghostflame',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (990, 'Ghostflame',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Ghostflame_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Ghostflame_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Ghostflame.xhtml', 
@@ -179,7 +179,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (495, '', '8 Bit', 0);
 
 --Kabomb --CardIndex 991	--CharacterIndex 601	--ExploreCharacterIndex 496
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kabomb',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (991, 'Kabomb',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Kabomb_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Kabomb_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Kabomb.xhtml', 
@@ -200,7 +200,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (496, '', '8 Bit', 1);
 
 --Kodead --CardIndex 992	--CharacterIndex 602	--ExploreCharacterIndex 497
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kodead',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (992, 'Kodead',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Kodead_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Kodead_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Kodead.xhtml', 
@@ -221,7 +221,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (497, '', '8 Bit', 0);
 
 --Nether Imp --CardIndex 993	--CharacterIndex 603	--ExploreCharacterIndex 498
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Imp',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (993, 'Nether Imp',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Nether_Imp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Nether_Imp_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Nether_Imp.xhtml', 
@@ -243,7 +243,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (498, '', '8 Bit', 0);
 
 --Rotten Pumpkin --CardIndex 994	--CharacterIndex 604	--ExploreCharacterIndex 499
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rotten Pumpkin',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (994, 'Rotten Pumpkin',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Rotten_Pumpkin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Rotten_Pumpkin_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Rotten_Pumpkin.xhtml', 
@@ -265,7 +265,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (499, '', '8 Bit', 1);
 
 --Spiker --CardIndex 995	--CharacterIndex 605	--ExploreCharacterIndex 500
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spiker',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (995, 'Spiker',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Spiker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Spiker_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Spiker.xhtml', 
@@ -286,7 +286,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (500, '', '8 Bit', 1);
 
 --Spiteful Cherub --CardIndex 996	--CharacterIndex 606	--ExploreCharacterIndex 501
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spiteful Cherub',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (996, 'Spiteful Cherub',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Spiteful_Cherub_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Spiteful_Cherub_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Spiteful_Cherub.xhtml', 
@@ -306,7 +306,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (501, '', '8 Bit', 1);
 
 --Squigly --CardIndex 997	--CharacterIndex 607	--ExploreCharacterIndex 502
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Squigly',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (997, 'Squigly',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Squigly_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Squigly_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Squigly.xhtml', 
@@ -327,7 +327,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (502, '', '8 Bit', 0);
 
 --Underdead Crow --CardIndex 998	--CharacterIndex 608	--ExploreCharacterIndex 503
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Underdead Crow',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (998, 'Underdead Crow',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Underdead_Crow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Underdead_Crow_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Underdead_Crow.xhtml', 
@@ -351,7 +351,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (503, '', '8 Bit', 1);
 
 --Waystone --CardIndex 999	--CharacterIndex 609	--ExploreCharacterIndex 504
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Waystone',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (999, 'Waystone',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Waystone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Waystone_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Waystone.xhtml', 
@@ -373,7 +373,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (504, '', '8 Bit', 0);
 
 --Yowling --CardIndex 1000	--CharacterIndex 610	--ExploreCharacterIndex 505
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yowling',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1000, 'Yowling',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Yowling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Yowling_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Yowling.xhtml', 
@@ -393,7 +393,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (505, '', '8 Bit', 0);
 
 --Yurei Bushi --CardIndex 1001	--CharacterIndex 611	--ExploreCharacterIndex 506
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Bushi',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1001, 'Yurei Bushi',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Yurei_Bushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Yurei_Bushi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Yurei_Bushi.xhtml', 

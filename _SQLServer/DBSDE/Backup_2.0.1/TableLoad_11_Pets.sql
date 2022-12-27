@@ -2,8 +2,9 @@
 --2.0
 --Pets
 
+
 --Admiral Fuzzybottom --CardIndex 931	--CharacterIndex 541	--ExploreCharacterIndex 436 
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Admiral Fuzzybottom',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (931, 'Admiral Fuzzybottom',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Admiral_Fuzzybottom_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Admiral_Fuzzybottom_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Admiral_Fuzzybottom.xhtml', 
@@ -24,7 +25,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (436, 2, 3);
 
 --Blossom --CardIndex 932	--CharacterIndex 542	--ExploreCharacterIndex 437
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blossom',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (932, 'Blossom',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Blossom_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Blossom_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Blossom.xhtml', 
@@ -44,7 +45,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (437, 2, -1);
 
 --Colonel, The --CardIndex 933	--CharacterIndex 543	--ExploreCharacterIndex 438
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Colonel, The',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (933, 'Colonel, The',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Colonel_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Colonel_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Colonel_The.xhtml', 
@@ -66,7 +67,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (438, 2, -1);
 
 --Cupid --CardIndex 934	--CharacterIndex 544	--ExploreCharacterIndex 439
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cupid',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (934, 'Cupid',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Cupid_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Cupid_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Cupid.xhtml', 
@@ -88,7 +89,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (439, 2, 2);
 
 --Ex-Crow --CardIndex 935	--CharacterIndex 545	--ExploreCharacterIndex 440
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ex-Crow',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (935, 'Ex-Crow',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ex_Crow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ex_Crow_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Ex_Crow.xhtml', 
@@ -110,7 +111,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (440, 1, -1);
 
 --General Kai --CardIndex 936	--CharacterIndex 546	--ExploreCharacterIndex 441
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('General Kai',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (936, 'General Kai',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_General_Kai_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_General_Kai_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/General_Kai.xhtml', 
@@ -132,7 +133,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (441, 2, -1);
 
 --Gentle Natsuko --CardIndex 937	--CharacterIndex 547	--ExploreCharacterIndex 442
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gentle Natsuko',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (937, 'Gentle Natsuko',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Gentle_Natsuko_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Gentle_Natsuko_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Gentle_Natsuko.xhtml', 
@@ -154,7 +155,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (442, 2, -1);
 
 --Hey Lissin --CardIndex 938	--CharacterIndex 548	--ExploreCharacterIndex 443
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hey Lissin',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (938, 'Hey Lissin',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Hey_Lissin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Hey_Lissin_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Hey_Lissin.xhtml', 
@@ -176,7 +177,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (443, 1, -1);
 
 --Ice Hard Buttinski --CardIndex 939	--CharacterIndex 549	--ExploreCharacterIndex 444
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ice Hard Buttinski',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (939, 'Ice Hard Buttinski',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ice_Hard_Buttinski_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ice_Hard_Buttinski_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Ice_Hard_Buttinski.xhtml', 
@@ -199,7 +200,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (444, 2, 6);
 
 --Inspector Honeyscout --CardIndex 940	--CharacterIndex 550	--ExploreCharacterIndex 445
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Inspector Honeyscout',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (940, 'Inspector Honeyscout',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Inspector_Honeyscout_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Inspector_Honeyscout_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Inspector_Honeyscout.xhtml', 
@@ -222,7 +223,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (445, 2, 2);
 
 --Lady Turlington Firemon --CardIndex 941	--CharacterIndex 551	--ExploreCharacterIndex 446
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lady Turlington Firemon',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (941, 'Lady Turlington Firemon',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lady_Turlington_Firemon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lady_Turlington_Firemon_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Lady_Turlington_Firemon.xhtml', 
@@ -245,7 +246,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (446, 3, 8);
 
 --Lord Gruff v1 --CardIndex 942	--CharacterIndex 552	--ExploreCharacterIndex 447
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Gruff v1',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (942, 'Lord Gruff v1',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Gruff_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Gruff_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Lord_Gruff_v1.xhtml', 
@@ -267,7 +268,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (447, 2, 2);
 
 --Lord Nevermore --CardIndex 943	--CharacterIndex 553	--ExploreCharacterIndex 448
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Nevermore',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (943, 'Lord Nevermore',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Nevermore_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Nevermore_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Lord_Nevermore.xhtml', 
@@ -290,7 +291,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (448, 1, 2);
 
 --Lord Spike Rage --CardIndex 944	--CharacterIndex 554	--ExploreCharacterIndex 449
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Spike Rage',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (944, 'Lord Spike Rage',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Spike_Rage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Spike_Rage_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Lord_Spike_Rage.xhtml', 
@@ -312,7 +313,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (449, 2, 2);
 
 --Lord Turlington Icemon --CardIndex 945	--CharacterIndex 555	--ExploreCharacterIndex 450
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Turlington Icemon',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (945, 'Lord Turlington Icemon',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Turlington_Icemon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Turlington_Icemon_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Lord_Turlington_Icemon.xhtml', 
@@ -335,7 +336,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (450, 3, 8);
 
 --Madam Hilde v1 --CardIndex 946	--CharacterIndex 556	--ExploreCharacterIndex 451
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Madam Hilde v1',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (946, 'Madam Hilde v1',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Madam_Hilde_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Madam_Hilde_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Madam_Hilde_v1.xhtml', 
@@ -357,7 +358,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (451, 2, 3);
 
 --Magus Crawley --CardIndex 947	--CharacterIndex 557	--ExploreCharacterIndex 452
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Magus Crawley',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (947, 'Magus Crawley',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Magus_Crawley_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Magus_Crawley_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Magus_Crawley.xhtml', 
@@ -378,7 +379,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (452, 2, -1);
 
 --Mighty Kowalski --CardIndex 948	--CharacterIndex 558	--ExploreCharacterIndex 453
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mighty Kowalski',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (948, 'Mighty Kowalski',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mighty_Kowalski_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mighty_Kowalski_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Mighty_Kowalski.xhtml', 
@@ -398,7 +399,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (453, 2, -1);
 
 --Miss G. Snorts v1 --CardIndex 949	--CharacterIndex 559	--ExploreCharacterIndex 454
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Miss G. Snorts v1',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (949, 'Miss G. Snorts v1',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Miss_G_Snorts_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Miss_G_Snorts_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Miss_G_Snorts_v1.xhtml', 
@@ -420,7 +421,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (454, 2, 2);
 
 --Miss Serenity Brown --CardIndex 950	--CharacterIndex 560	--ExploreCharacterIndex 455
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Miss Serenity Brown',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (950, 'Miss Serenity Brown',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Miss_Serenity_Brown_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Miss_Serenity_Brown_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Miss_Serenity_Brown.xhtml', 
@@ -443,7 +444,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (455, 2, -1);
 
 --Mister Bligh --CardIndex 951	--CharacterIndex 561	--ExploreCharacterIndex 456
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mister Bligh',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (951, 'Mister Bligh',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mister_Bligh_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mister_Bligh_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Mister_Bligh.xhtml', 
@@ -466,7 +467,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (456, 2, 2);
 
 --Mister Chompers --CardIndex 952	--CharacterIndex 562	--ExploreCharacterIndex 457
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mister Chompers',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (952, 'Mister Chompers',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mister_Chompers_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mister_Chompers_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Mister_Chompers.xhtml', 
@@ -488,7 +489,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (457, 2, 2);
 
 --Mr. Bitey --CardIndex 953	--CharacterIndex 563	--ExploreCharacterIndex 458
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mr. Bitey',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (953, 'Mr. Bitey',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mr_Bitey_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mr_Bitey_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Mr_Bitey.xhtml', 
@@ -510,7 +511,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (458, 3, 1);
 
 --Mr. Milky --CardIndex 954	--CharacterIndex 564	--ExploreCharacterIndex 459
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mr. Milky',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (954, 'Mr. Milky',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mr_Milky_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mr_Milky_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Mr_Milky.xhtml', 
@@ -531,7 +532,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (459, 2, 2);
 
 --Mr. Thaddius Stout --CardIndex 955	--CharacterIndex 565	--ExploreCharacterIndex 460
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mr. Thaddius Stout',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (955, 'Mr. Thaddius Stout',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mr_Thaddius_Stout_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mr_Thaddius_Stout_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Mr_Thaddius_Stout.xhtml', 
@@ -554,7 +555,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (460, 2, 8);
 
 --Never-Lost Cola --CardIndex 956	--CharacterIndex 566	--ExploreCharacterIndex 461
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Never-Lost Cola',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (956, 'Never-Lost Cola',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Never_Lost_Cola_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Never_Lost_Cola_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Never_Lost_Cola.xhtml', 
@@ -576,7 +577,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (461, 2, 3);
 
 --Overlord Okami --CardIndex 957	--CharacterIndex 567	--ExploreCharacterIndex 462
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Overlord Okami',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (957, 'Overlord Okami',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Overlord_Okami_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Overlord_Okami_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Overlord_Okami.xhtml', 
@@ -598,7 +599,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (462, 3, -1);
 
 --Pet Citrine Slime --CardIndex 958	--CharacterIndex 568	--ExploreCharacterIndex 463
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Citrine Slime',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (958, 'Pet Citrine Slime',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Citrine_Slime_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Citrine_Slime_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Citrine_Slime.xhtml', 
@@ -619,7 +620,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (463, 1, -1);
 
 --Pet Demolitions Expert --CardIndex 959	--CharacterIndex 569	--ExploreCharacterIndex 464
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Demolitions Expert',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (959, 'Pet Demolitions Expert',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Demolitions_Expert_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Demolitions_Expert_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Demolitions_Expert.xhtml', 
@@ -644,7 +645,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (464, 1, 8);
 
 --Pet Emerald Slime --CardIndex 960	--CharacterIndex 570	--ExploreCharacterIndex 465
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Emerald Slime',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (960, 'Pet Emerald Slime',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Emerald_Slime_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Emerald_Slime_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Emerald_Slime.xhtml', 
@@ -665,7 +666,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (465, 1, -1);
 
 --Pet Fire Flower --CardIndex 961	--CharacterIndex 571	--ExploreCharacterIndex 466
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Fire Flower',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (961, 'Pet Fire Flower',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Fire_Flower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Fire_Flower_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Fire_Flower.xhtml', 
@@ -689,7 +690,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (466, 1, 4);
 
 --Buttons --CardIndex 962	--CharacterIndex 572	--ExploreCharacterIndex 467
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Buttons',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (962, 'Buttons',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Buttons_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Buttons_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Buttons.xhtml', 
@@ -710,7 +711,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (467, 2, 2);
 
 --Pet Ghost --CardIndex 963	--CharacterIndex 573	--ExploreCharacterIndex 468
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Ghost',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (963, 'Pet Ghost',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ghost_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ghost_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Ghost.xhtml', 
@@ -733,7 +734,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (468, 0, -1);
 
 --Pet Giri --CardIndex 964	--CharacterIndex 574	--ExploreCharacterIndex 469
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Giri',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (964, 'Pet Giri',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Giri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Giri_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Giri.xhtml', 
@@ -754,7 +755,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (469, 2, -1);
 
 --Pet Rabid Squirrel --CardIndex 965	--CharacterIndex 575	--ExploreCharacterIndex 470
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Rabid Squirrel',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (965, 'Pet Rabid Squirrel',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Rabid_Squirrel_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Rabid_Squirrel_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Rabid_Squirrel.xhtml', 
@@ -774,7 +775,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (470, 2, -1);
 
 --Pet Rattlebone --CardIndex 966	--CharacterIndex 576	--ExploreCharacterIndex 471
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Rattlebone',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (966, 'Pet Rattlebone',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Rattlebone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Rattlebone_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Rattlebone.xhtml', 
@@ -795,7 +796,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (471, 3, -1);
 
 --Pet Ruby Slime --CardIndex 967	--CharacterIndex 577	--ExploreCharacterIndex 472
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Ruby Slime',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (967, 'Pet Ruby Slime',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ruby_Slime_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ruby_Slime_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Ruby_Slime.xhtml', 
@@ -816,7 +817,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (472, 1, -1);
 
 --Pet Sapphire Slime --CardIndex 968	--CharacterIndex 578	--ExploreCharacterIndex 473
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Sapphire Slime',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (968, 'Pet Sapphire Slime',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sapphire_Slime_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sapphire_Slime_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Sapphire_Slime.xhtml', 
@@ -837,7 +838,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (473, 1, -1);
 
 --Pet Squigly --CardIndex 969	--CharacterIndex 579	--ExploreCharacterIndex 474
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Squigly',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (969, 'Pet Squigly',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Squigly_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Squigly_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Squigly.xhtml', 
@@ -861,7 +862,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (474, 2, 2);
 
 --Poe --CardIndex 970	--CharacterIndex 580	--ExploreCharacterIndex 475
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Poe',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (970, 'Poe',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Poe_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Poe_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Poe.xhtml', 
@@ -883,7 +884,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (475, 2, 2);
 
 --Puddin' --CardIndex 971	--CharacterIndex 581	--ExploreCharacterIndex 476
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Puddin''',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (971, 'Puddin''',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Puddin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Puddin_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Puddin.xhtml', 
@@ -903,7 +904,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (476, 2, -1);
 
 --Sabertooth Kitty --CardIndex 972	--CharacterIndex 582	--ExploreCharacterIndex 477
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sabertooth Kitty',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (972, 'Sabertooth Kitty',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sabertooth_Kitty_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sabertooth_Kitty_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Sabertooth_Kitty.xhtml', 
@@ -923,7 +924,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (477, 2, -1);
 
 --Sage Aumar --CardIndex 973	--CharacterIndex 583	--ExploreCharacterIndex 478
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sage Aumar',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (973, 'Sage Aumar',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sage_Aumar_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sage_Aumar_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Sage_Aumar.xhtml', 
@@ -944,7 +945,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (478, 1, -1);
 
 --Ser Slither --CardIndex 974	--CharacterIndex 584	--ExploreCharacterIndex 479
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Slither',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (974, 'Ser Slither',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ser_Slither_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ser_Slither_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Ser_Slither.xhtml', 
@@ -969,7 +970,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (479, 2, -1);
 
 --Sergeant of Winterwatch --CardIndex 975	--CharacterIndex 585	--ExploreCharacterIndex 480
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sergeant of Winterwatch',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (975, 'Sergeant of Winterwatch',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sergeant_of_Winterwatch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sergeant_of_Winterwatch_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Sergeant_of_Winterwatch.xhtml', 
@@ -994,7 +995,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (480, 3, -1);
 
 --Shmellow Powderpuff --CardIndex 976	--CharacterIndex 586	--ExploreCharacterIndex 481
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shmellow Powderpuff',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (976, 'Shmellow Powderpuff',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Shmellow_Powderpuff_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Shmellow_Powderpuff_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Shmellow_Powderpuff.xhtml', 
@@ -1015,7 +1016,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (481, 2, -1);
 
 --Static --CardIndex 977	--CharacterIndex 587	--ExploreCharacterIndex 482
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Static',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (977, 'Static',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Static_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Static_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Static.xhtml', 
@@ -1036,7 +1037,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (482, 2, 2);
 
 --Tame Gourd --CardIndex 978	--CharacterIndex 588	--ExploreCharacterIndex 483
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tame Gourd',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (978, 'Tame Gourd',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Tame_Gourd_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Tame_Gourd_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Tame_Gourd.xhtml', 
@@ -1057,7 +1058,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (483, 2, 2);
 
 --Troopa Doug --CardIndex 979	--CharacterIndex 589	--ExploreCharacterIndex 484
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Troopa Doug',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (979, 'Troopa Doug',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Troopa_Doug_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Troopa_Doug_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Troopa_Doug.xhtml', 
@@ -1077,7 +1078,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (484, 1, -1);
 
 --Willard --CardIndex 980	--CharacterIndex 590	--ExploreCharacterIndex 485
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Willard',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (980, 'Willard',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Willard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Willard_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Willard.xhtml', 

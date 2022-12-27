@@ -2,8 +2,9 @@
 --1.0 Custom
 --Mini Boss
 
+
 --Barry --Card Index 2355	--CharacterIndex 1201 --ExploreCharacterIndex 862
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2355, 
 'Medusa',
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Barry_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Barry_1.0_Custom_back.png', 
@@ -24,7 +25,7 @@ VALUES (1201,
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (862, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (862, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (862, 'MiniBoss', 'Special', 4);
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2355,
 'John Robinson, @Voidsign',
 'https://boardgamegeek.com/filepage/77889/super-dungeon-explore-dwelling-monsters'

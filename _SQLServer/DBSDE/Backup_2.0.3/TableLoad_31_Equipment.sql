@@ -4,10 +4,10 @@
 
 
 --Pie-Rat --CardIndex 2361 --EquipmentIndex 786
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2361, 
 'Pie-Rat',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Pie_Rat_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Pie_Rat_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Pie_Rat.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');

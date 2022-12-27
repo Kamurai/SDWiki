@@ -4,7 +4,7 @@
 
 
 --Dread Scarlett --CardIndex 2359	--CharacterIndex 1205	--ExploreCharacterIndex 866
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2359, 
 'Dread Scarlett',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Dread_Scarlett_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Dread_Scarlett_2.0_back.png', 

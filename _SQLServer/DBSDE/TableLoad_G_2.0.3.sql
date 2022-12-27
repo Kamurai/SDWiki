@@ -4,7 +4,7 @@
 
 
 --Scarlett Cutlass --CardIndex 2357	--CharacterIndex 1203	--ExploreCharacterIndex 864
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2357, 
 'Scarlett Cutlass', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Scarlett_Cutlass_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Scarlett_Cutlass_2.0_back.png', 
@@ -41,7 +41,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (8
 
 
 --Jawge --CardIndex 2358	--CharacterIndex 1204	--ExploreCharacterIndex 865
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2358, 
 'Jawge',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Jawge_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Jawge_2.0_back.png', 
@@ -87,7 +87,7 @@ insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (865, 2, -1);
 
 
 --Dread Scarlett --CardIndex 2359	--CharacterIndex 1205	--ExploreCharacterIndex 866
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2359, 
 'Dread Scarlett',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Dread_Scarlett_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Dread_Scarlett_2.0_back.png', 
@@ -141,7 +141,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (866
 
 
 --Dread Scarlett	--CardIndex 2360	--CharacterIndex 1206	--ArcadeCharacterIndex 339
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2360, 
 'Dread Scarlett',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Dread_Scarlett_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Dread_Scarlett_2.0_back.png', 
@@ -186,10 +186,10 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (877, 2251
 
 
 --Pie-Rat --CardIndex 2361 --EquipmentIndex 786
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2361, 
 'Pie-Rat',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Pie_Rat_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Pie_Rat_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Pie_Rat.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
@@ -211,7 +211,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (786, 1
 
 --SDE
 --2.0.3 
---Utility Cards
+--Terrain Cards
 
 
 --name --CardIndex cXXX --UtilityIndex uXXX --TerrainIndex tXXX

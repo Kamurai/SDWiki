@@ -4,7 +4,7 @@
 
 
 --Boo Booty --Index 25
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (25, 
 'Boo Booty',
 'http://htkb.info/SDE/1.0/Cards/Booty/Card_Booty_Boo_Booty_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Booty/Card_Booty_Boo_Booty_1.0_back.png', 

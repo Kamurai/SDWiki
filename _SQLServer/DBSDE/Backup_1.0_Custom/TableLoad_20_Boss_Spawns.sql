@@ -4,7 +4,7 @@
 
 
 --Brown Wizard --Card Index 2343   --BossSpawnIndex 33
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2343, 
 'Brown Wizard', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Brown_Wizard_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Brown_Wizard_1.0_Custom.png',
@@ -21,14 +21,14 @@ insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (33, 1135);
 insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (33, 1136); --Magic Sapping Blades
 insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (33, 1137); --Curse
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (33, 1173); --Brown Wizard
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2343,
 'Adam Porter, @Adam78',
 'https://boardgamegeek.com/image/1238025/adam78'
 );
 
 --Chaos Warrior --Card Index 2344   --BossSpawnIndex 34
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2344, 
 'Chaos Warrior', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Chaos_Warrior_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Chaos_Warrior_1.0_Custom.png',
@@ -47,7 +47,7 @@ insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (34, 1140);
 insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (34, 1141); --Explosion
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (34, 1174); --Chaos Warrior
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (34, 1175); --Chaos Warrior (Mounted)
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2344,
 'Adam Porter, @Adam78',
 'https://boardgamegeek.com/image/1238025/adam78'
