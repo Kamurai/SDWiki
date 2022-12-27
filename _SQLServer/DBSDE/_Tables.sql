@@ -1,4 +1,4 @@
---drop table Cards, Characters, Affinities, AffinityAssignments, Keywords, KeywordAssignments, Abilities, AbilityAssignments, ExploreCharacters, Attributes, OffenseAssignments, DefenseAssignments, Pets, Monsters, ArcadeCharacters, StatLines, GangMembers, Equipment, EquipmentAssignments, Mechs, BossSpawns, BossSpawnAssignments, Utilities, Explores, ExploreTraps, ExploreCreeps, ExploreAssignments, Challenges, ChallengeAssignments, Plots, MightyMonsters, CustomComponents, Difficulties, DifficultyAssignments, Components;
+--drop table Cards, Characters, Affinities, AffinityAssignments, Keywords, KeywordAssignments, Abilities, AbilityAssignments, ExploreCharacters, Attributes, OffenseAssignments, DefenseAssignments, Pets, Monsters, ArcadeCharacters, StatLines, GangMembers, Equipment, EquipmentAssignments, Mechs, BossSpawns, BossSpawnAssignments, Utilities, Explores, ExploreTraps, ExploreCreeps, ExploreAssignments, Challenges, ChallengeAssignments, Plots, MightyMonsters, CustomComponents, Difficulties, DifficultyAssignments, Components, UtilityAssignments;
 --drop table Keywords
 --drop table KeywordAssignments
 --drop table KeywordAssignments, AbilityAssignments, OffenseAssignments, DefenseAssignments
@@ -6,7 +6,7 @@
 --drop table Mechs;
 
 CREATE TABLE Components (ComponentIndex bigint IDENTITY(0,1) PRIMARY KEY);
-CREATE TABLE Cards (CardIndex bigint IDENTITY(0,1) PRIMARY KEY, ComponentIndex bigint not null, Name varchar(50) not null, PictureFront varchar(150) not null, PictureBack varchar(150) not null, Link varchar(150) not null, CardType varchar(20) not null, ProductSet varchar(20) not null, ProductModule varchar(20) not null, PlayMode varchar(10) not null, Flavor varchar(1250));
+CREATE TABLE Cards (CardIndex bigint IDENTITY(0,1) PRIMARY KEY, ComponentIndex bigint not null, Name varchar(60) not null, PictureFront varchar(150) not null, PictureBack varchar(150) not null, Link varchar(150) not null, CardType varchar(20) not null, ProductSet varchar(20) not null, ProductModule varchar(20) not null, PlayMode varchar(10) not null, Flavor varchar(1250));
 CREATE TABLE Characters (CharacterIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null);
 CREATE TABLE Affinities (AffinityIndex bigint IDENTITY(0,1) PRIMARY KEY, AffinityType varchar(50) not null);
 insert into Affinities (AffinityType) VALUES ('Amethyst'); --0
@@ -50,6 +50,8 @@ CREATE TABLE BossSpawns (BossSpawnIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIn
 CREATE TABLE BossSpawnAssignments (BossSpawnAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, BossSpawnIndex bigint, CharacterIndex bigint not null);
 
 CREATE TABLE Utilities (UtilityIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, UtilityDescription varchar(1000) not null);
+CREATE TABLE UtilityAssignments (UtilityAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, UtilityIndex bigint, CharacterIndex bigint not null);
+
 
 --drop table Explores, Challenges, Plots, MightyMonsters
 

@@ -208,6 +208,9 @@ type .\Backup_2.0.4\TableLoad_64_Arcade_MiniBosses.sql >> TableLoad_I_2.0.4.sql
 type .\Backup_2.0.4\TableLoad_71_Equipment.sql >> TableLoad_I_2.0.4.sql
 type .\Backup_2.0.4\TableLoad_93_Creeps.sql >> TableLoad_I_2.0.4.sql
 type .\Backup_2.0.4\TableLoad_103_Arcade_Creeps.sql >> TableLoad_I_2.0.4.sql
+type .\Backup_2.0.4\TableLoad_130_Heroes.sql >> TableLoad_I_2.0.4.sql
+
+type .\Backup_2.0.4\TableLoad_500_Plus.sql >> TableLoad_I_2.0.4.sql
 
 type .\Backup_Custom\TableLoad_10_Heroes.sql >> TableLoad_J_Custom.sql
 type .\Backup_Custom\TableLoad_11_Pets.sql >> TableLoad_J_Custom.sql

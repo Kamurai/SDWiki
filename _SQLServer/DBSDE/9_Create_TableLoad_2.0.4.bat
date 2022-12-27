@@ -209,6 +209,9 @@ type .\Backup_2.0.4\TableLoad_71_Equipment.sql >> TableLoad_I_2.0.4.sql
 type .\Backup_2.0.4\TableLoad_93_Creeps.sql >> TableLoad_I_2.0.4.sql
 type .\Backup_2.0.4\TableLoad_103_Arcade_Creeps.sql >> TableLoad_I_2.0.4.sql
 type .\Backup_2.0.4\TableLoad_120_Terrain.sql >> TableLoad_I_2.0.4.sql
+type .\Backup_2.0.4\TableLoad_130_Heroes.sql >> TableLoad_I_2.0.4.sql
+
+type .\Backup_2.0.4\TableLoad_500_Plus.sql >> TableLoad_I_2.0.4.sql
 
 
 type _Tables.sql >> TableLoad_Main.sql

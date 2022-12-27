@@ -3,7 +3,7 @@
 --Equipment
 
 
---My Beautiful Skull --CardIndex 2375 --EquipmentIndex 2366
+--My Beautiful Skull --CardIndex 2375 --EquipmentIndex 791
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2375, 
 'My Beautiful Skull',
 'http://htkb.info/SDE/2.0/Cards/Loot/Character/Card_Loot_My_Beautiful_Skull_2.0.png', 
@@ -12,12 +12,12 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Loot', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2375, 'Character Loot', '', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (2366, 1175); --A Good Head On My Shoulders
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2366, 2361); --Cursed Rider: Hero
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2366, 2366); --The Crownless Princess: Explore
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2366, 2368); --The Crownless Princess: Arcade
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (791, 1175); --A Good Head On My Shoulders
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (791, 2361); --Cursed Rider: Hero
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (791, 2366); --The Crownless Princess: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (791, 2368); --The Crownless Princess: Arcade
 
---Cape of Potions --CardIndex 2376 --EquipmentIndex 2367
+--Cape of Potions --CardIndex 2376 --EquipmentIndex 792
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2376, 
 'Cape of Potions',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Cape_of_Potions_2.0.png', 
@@ -26,12 +26,12 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Just a taste can''t hurt, right?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2376, 'Character Treasure', 'Bottom', '+1R WILL, +1PO');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (2367, 813); --Potion Master
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2367, 2362); --Demon Matchmaker: Hero
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2367, 2367); --Drusilla Demonica: Explore
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2367, 2369); --Drusilla Demonica: Arcade
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (792, 813); --Potion Master
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (792, 2362); --Demon Matchmaker: Hero
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (792, 2367); --Drusilla Demonica: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (792, 2369); --Drusilla Demonica: Arcade
 
---Warning Bell --CardIndex 2377 --EquipmentIndex 2368
+--Warning Bell --CardIndex 2377 --EquipmentIndex 793
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2377, 
 'Warning Bell',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Warning_Bell_2.0.png', 
@@ -40,10 +40,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'They''re coming...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2377, 'Character Treasure', 'Bottom', '+1G ARM');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (2368, 813); --Jingle Jingle
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2368, 2361); --Cursed Rider: Hero
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2368, 2366); --The Crownless Princess: Explore
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2368, 2368); --The Crownless Princess: Arcade
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (793, 813); --Jingle Jingle
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (793, 2361); --Cursed Rider: Hero
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (793, 2366); --The Crownless Princess: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (793, 2368); --The Crownless Princess: Arcade
 
 
 

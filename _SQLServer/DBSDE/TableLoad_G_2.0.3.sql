@@ -163,7 +163,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (877, 2251
 
 --SDE
 --2.0.3
---Bosses
+--Arcade Bosses
 
 
 --Black-Handed Henry	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex aXXX

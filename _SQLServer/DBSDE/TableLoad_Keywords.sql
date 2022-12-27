@@ -1267,9 +1267,33 @@
 
 /*Jingle Jingle					--Index 1176*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Jingle Jingle', 				'After enemies spawn this Hero may move up to three squares.');
 
-
 /*Secret Passage				--Index 1177*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Secret Passage', 				'When a model enters a Secret Passage square immediately place it in any other unoccuipied Secret Passage square in the dungeon.<br><br>A large model must be able to be placed in the new location or Secret Passage has no effect.');
 /*Sentinel						--Index 1178*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Sentinel', 					'Models that are adjacent to a Sentinel structure add +1ST to all defense rolls.');
+
+/*Gifts of Darkness				--Index 1179*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Gifts of Darkness', 			'TBD.');
+
+/*Help Meeeee!					--Index 1180*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Help Meeeee!', 				'TBD.');
+/*Pork and Giftst				--Index 1181*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Pork and Giftst', 				'TBD.');
+
+/*The Unwrapping				--Index 1182*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Unwrapping, The', 				'Spawn four Dark Presents within four squares of the Dungeon Boss.');
+/*Bacon!						--Index 1183*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Bacon!', 						'Spawn four Truffle Hogs from any Dungeon Exit.');
+
+/*								--Index 1184*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('', 		'', 	'', 							'');
+
+/*Sharp Tusks					--Index 1185*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Sharp Tusks', 					'All Truffle Hogs gain KNOCKDOWN.');
+/*Naughty or Nice				--Index 1186*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Naughty or Nice', 				'If the Dungeon Boss is defending against an offensive action and wins the roll, the model making the offensive action suffers one wound.');
+/*Well Wrapped					--Index 1187*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Well Wrapped', 				'All Dark Presents gain +1ST ARM.');
+
+/*Fueled by Fire				--Index 1188*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fueled by Fire', 				'A model with Fueled by Fire adds +1R to all offensive rolls for each enemy model suffering FIRE.');
+
+/*Keep the Drinks Flowing		--Index 1189*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Keep the Drinks Flowing', 		'A model with Keep The Drinks Flowing may drink two potions per turn (both Hero and Consul), so long as the potions are different.  During the party''s power-up, if the model has no potion tokens, it suffers one wound.');
+
+/*Giddyup						--Index 1190*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Giddyup', 						'TBD.');
+
+/*Helpful Gifts					--Index 1191*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Helpful Gifts', 				'TBD.');
+
+/*The Unwrapping				--Index 1192*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Unwrapping, The', 				'Spawn four Dark Presents within four squares of the Dungeon Boss.');
+/*Bacon!						--Index 1193*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Bacon!', 						'Spawn four Truffle Hogs from any Dungeon Exit.');
 --Custom Keywords
 /*Ball						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('Custom', 'Default', 'Ball', 'See Ball Card for more information.');
 /*Bouncing					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('Custom', 'Default', 'Bouncing', 'Whenever this model is moved by other models, when it ends its movement, roll 1G.<br><br>Number of Stars:<br><br>1: 1 space left.<br>2: 1 space forward-left<br>3: 1 space forward.<br>4: 1 space forward-right.<br>5: 1 space right.<br>else: 1 space backwards. ');

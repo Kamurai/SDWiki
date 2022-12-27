@@ -73,7 +73,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (869
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (869, 3, 4); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (869, 2); --Armor
 
-
 --Spider Guild Otaku --CardIndex 2369	--CharacterIndex 1210	--ExploreCharacterIndex 870
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2369, 
 'Spider Guild Otaku', 
