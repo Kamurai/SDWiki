@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head />
+    <h:body>
+        <title>
+            <h:outputText value="#{SDEMightyMonsterBean.getMightyMonsterCard().getName()} " escape="true" /> <h:outputText value="#{SDEMightyMonsterBean.getMightyMonsterCard().getVersion()}" escape="true" />
+        </title>
+        <h2>
+            <h:outputText value="#{SDEMightyMonsterBean.getMightyMonsterCard().getName()} " escape="true" /> <h:outputText value="#{SDEMightyMonsterBean.getMightyMonsterCard().getVersion()}" escape="true" />
+        </h2>
+        <div id="idCenterContent">
+            <div>
+                <div class="cardPictureContainer">
+                    <!-- Front of Card -->
+                    <img class="cardPicture" src="#{SDEMightyMonsterBean.getMightyMonsterCard().getPictureFront()}"/>
+                </div>
+                <div class="cardPictureContainer">
+                    <!-- Back of Card -->
+                    <img class="cardPicture" src="#{SDEMightyMonsterBean.getMightyMonsterCard().getPictureBack()}"/>
+                </div>
+            </div>
+            
+            <!-- replace with table -->
+            <div>
+                <div>
+                    <div class="inline">
+                        Card Type: <h:outputText value="#{SDEMightyMonsterBean.getMightyMonsterCard().getCardType()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Version: <h:outputText value="#{SDEMightyMonsterBean.getMightyMonsterCard().getVersion()}" escape="false" />
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Product Module: <h:outputText value="#{SDEMightyMonsterBean.getMightyMonsterCard().getModule()}" escape="false" />
+                    </div>
+                </div>
+            </div>
+            <ui:fragment rendered="#{SDEMightyMonsterBean.getMightyMonsterCard().validateTargets()}">
+                <div>
+                    Targets: <h:outputText value="#{SDEMightyMonsterBean.getMightyMonsterCard().getTargets()}" escape="false" />
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEMightyMonsterBean.getMightyMonsterCard().validateBonus()}">
+                <div>
+                    Bonus: <h:outputText value="#{SDEMightyMonsterBean.getMightyMonsterCard().getBonus()}" escape="false" />
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEMightyMonsterBean.getMightyMonsterCard().validateCondition()}">
+                <div>
+                    Condition: <h:outputText value="#{SDEMightyMonsterBean.getMightyMonsterCard().getCondition()}" escape="false" />
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEMightyMonsterBean.getMightyMonsterCard().validateFlavor()}">
+                <div>
+                    Flavor Text: <h:outputText value="#{SDEMightyMonsterBean.getMightyMonsterCard().getFlavor()}" escape="false" />
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEMightyMonsterBean.getMightyMonsterCard().isCustom()}">
+                <div>
+                    Author: <h:outputText value="#{SDEMightyMonsterBean.getMightyMonsterCard().getAuthor()}" escape="false" />
+                </div>
+                <div>
+                    Source: <h:outputText value="#{SDEMightyMonsterBean.getMightyMonsterCard().getSourceURL()}" escape="false" />
+                </div>
+            </ui:fragment>
+        </div>
+    </h:body>
+</html>
+

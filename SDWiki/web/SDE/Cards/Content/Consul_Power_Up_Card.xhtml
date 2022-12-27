@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head />
+    <h:body>
+        <title>
+            <h:outputText value="#{SDEConsulPowerUpBean.getConsulPowerUpCard().getName()} " escape="true" /> <h:outputText value="#{SDEConsulPowerUpBean.getConsulPowerUpCard().getVersion()}" escape="true" />
+        </title>
+        <h2>
+            <h:outputText value="#{SDEConsulPowerUpBean.getConsulPowerUpCard().getName()} " escape="true" /> <h:outputText value="#{SDEConsulPowerUpBean.getConsulPowerUpCard().getVersion()}" escape="true" />
+        </h2>
+        <div id="idCenterContent">
+            <div>
+                <div class="cardPictureContainer">
+                    <!-- Front of Card -->
+                    <img class="cardPicture" src="#{SDEConsulPowerUpBean.getConsulPowerUpCard().getPictureFront()}"/>
+                </div>
+                <div class="cardPictureContainer">
+                    <!-- Back of Card -->
+                    <img class="cardPicture" src="#{SDEConsulPowerUpBean.getConsulPowerUpCard().getPictureBack()}"/>
+                </div>
+            </div>
+            
+            <!-- replace with table -->
+            <div>
+                <div>
+                    <div class="inline">
+                        Card Type: <h:outputText value="#{SDEConsulPowerUpBean.getConsulPowerUpCard().getCardType()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Version: <h:outputText value="#{SDEConsulPowerUpBean.getConsulPowerUpCard().getVersion()}" escape="false" />
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Product Module: <h:outputText value="#{SDEConsulPowerUpBean.getConsulPowerUpCard().getModule()}" escape="false" />
+                    </div>
+                </div>
+            </div>
+            <ui:fragment rendered="#{SDEConsulPowerUpBean.getConsulPowerUpCard().validateDescription()}">
+                <div>
+                    Power-Up: <h:outputText value="#{SDEConsulPowerUpBean.getConsulPowerUpCard().getDescription()}" escape="false" />
+                </div>
+            </ui:fragment>
+            <!-- List of Keywords -->
+            <ui:fragment rendered="#{SDEConsulPowerUpBean.getConsulPowerUpCard().validateKeywordList()}">
+                <div>Keywords:</div>
+                <ui:repeat var="x" value="#{SDEConsulPowerUpBean.getConsulPowerUpCard().getKeywords()}" size="#{SDEConsulPowerUpBean.getConsulPowerUpCard().getKeywords().size()}" varStatus="myVarStatus" >
+                    <ui:fragment rendered="#{x.validateKeyword()}">
+                        <ui:include src="/Content/Keyword.xhtml">
+                            <ui:param name="keyword" value="x"/>
+                        </ui:include>
+                    </ui:fragment>
+                </ui:repeat>
+                <br/>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEConsulPowerUpBean.getConsulPowerUpCard().validateFlavor()}">
+                <div>
+                    Flavor Text: <h:outputText value="#{SDEConsulPowerUpBean.getConsulPowerUpCard().getFlavor()}" escape="false" />
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEConsulPowerUpBean.getConsulPowerUpCard().isCustom()}">
+                <div>
+                    Author: <h:outputText value="#{SDEConsulPowerUpBean.getConsulPowerUpCard().getAuthor()}" escape="false" />
+                </div>
+                <div>
+                    Source: <h:outputText value="#{SDEConsulPowerUpBean.getConsulPowerUpCard().getSourceURL()}" escape="false" />
+                </div>
+            </ui:fragment>
+        </div>
+    </h:body>
+</html>
+

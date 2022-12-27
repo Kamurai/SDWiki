@@ -7,11 +7,11 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <h:head />
     <h:body>
-         <title>
-            #{SDEArcadeMonsterBean.getMonster().getName()} #{SDEArcadeMonsterBean.getMonster().getVersion()} 
+        <title>
+            <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getName()} " escape="true" /> <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getVersion()}" escape="true" />
         </title>
         <h2>
-            #{SDEArcadeMonsterBean.getMonster().getName()} #{SDEArcadeMonsterBean.getMonster().getVersion()}
+            <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getName()} " escape="true" /> <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getVersion()}" escape="true" />
         </h2>
         <div id="idCenterContent">
             <div>
@@ -29,26 +29,26 @@
             <div>
                 <div>
                     <div class="inline">
-                        Card Type: #{SDEArcadeMonsterBean.getMonster().getCardType()}
+                        Card Type: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getCardType()}" escape="false" />
                     </div>
                     <div class="inline">
-                        Version: #{SDEArcadeMonsterBean.getMonster().getVersion()}
-                    </div>
-                </div>
-                <div>
-                    <div class="inline">
-                        Product Module: #{SDEArcadeMonsterBean.getMonster().getModule()}
+                        Version: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getVersion()}" escape="false" />
                     </div>
                 </div>
                 <div>
                     <div class="inline">
-                        Play Mode: #{SDEArcadeMonsterBean.getMonster().getMode()}
+                        Product Module: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getModule()}" escape="false" />
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Play Mode: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getMode()}" escape="false" />
                     </div>
                 </div>
             </div>
             <div>
                 <div class="inline">
-                    Affinity: #{SDEArcadeMonsterBean.getMonster().getAffinity()}
+                    Affinity: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getAffinity()}" escape="false" />
                 </div>
             </div>
            
@@ -59,13 +59,13 @@
                     Solo Statline
                 </div>
                 <div class="inline">
-                    Actions: #{SDEArcadeMonsterBean.getMonster().getSoloStatLine().getAction()}
+                    Actions: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getSoloStatLine().getAction()}" escape="false" />
                 </div>
                 <div class="inline">
-                    Strength: #{SDEArcadeMonsterBean.getMonster().getSoloStatLine().getStrength()}
+                    Strength: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getSoloStatLine().getStrength()}" escape="false" />
                 </div>
                 <div class="inline">
-                    Range: #{SDEArcadeMonsterBean.getMonster().getSoloStatLine().getRange()}
+                    Range: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getSoloStatLine().getRange()}" escape="false" />
                 </div>
             </ui:fragment>
            
@@ -75,13 +75,13 @@
                     Gang Statline
                 </div>
                 <div class="inline">
-                    Actions: #{SDEArcadeMonsterBean.getMonster().getGangStatLine().getAction()}
+                    Actions: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getGangStatLine().getAction()}" escape="false" />
                 </div>
                 <div class="inline">
-                    Strength: #{SDEArcadeMonsterBean.getMonster().getGangStatLine().getStrength()}
+                    Strength: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getGangStatLine().getStrength()}" escape="false" />
                 </div>
                 <div class="inline">
-                    Range: #{SDEArcadeMonsterBean.getMonster().getGangStatLine().getRange()}
+                    Range: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getGangStatLine().getRange()}" escape="false" />
                 </div>
             </ui:fragment>
            
@@ -89,122 +89,86 @@
             <div>
                 Gang Size: #{SDEArcadeMonsterBean.getMonster().getGangMembers().size()}
             </div>
-            <ui:repeat var="x" value="#{SDEArcadeMonsterBean.getMonster().getGangMembers()}" size="#{SDEArcadeMonsterBean.getMonster().getGangMembers().size()}" varStatus="myVarStatus" >
+            <ui:repeat var="z" value="#{SDEArcadeMonsterBean.getMonster().getGangMembers()}" size="#{SDEArcadeMonsterBean.getMonster().getGangMembers().size()}" varStatus="myVarStatus" >
                 <div>
-                    #{x.getName()}
+                    <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getCardType()}" escape="false" />#{z.getName()}
                 </div>
                 <div>
                      <div class="relatedCharacterBlock inline">
-                        <a href="#{x.getLink()}">
+                        <a href="#{z.getLink()}">
                             <div class="inline">
-                               <img class="galleryPicture" src="#{x.getPictureFront()}"/>
+                               <img class="galleryPicture" src="#{z.getPictureFront()}"/>
                             </div> 
                         </a>
                      </div>
                     <div class="relatedCharacterBlock inline">
-                        <img class="galleryPicture" src="#{x.getStandieFront()}"/>
+                        <img class="galleryPicture" src="#{z.getStandieFront()}"/>
                     </div>
                     <div class="inline">
                         <div>
                             <div class="inline">
-                                Card Type: #{x.getCreatureType()}
+                                Card Type: <h:outputText value="#{z.getCreatureType()}" escape="false" />
                             </div>
                             <div class="inline">
-                                Rank: #{x.getRank()}
+                                Rank: <h:outputText value="#{z.getRank()}" escape="false" />
                             </div>
                             <div class="inline">
-                                Model Size: #{x.getModelSize()}
+                                Model Size: <h:outputText value="#{z.getModelSize()}" escape="false" />
                             </div>
 
                             <div class="inline">
-                                Gender: #{x.getGender()}
+                                Gender: <h:outputText value="#{z.getGender()}" escape="false" />
                             </div>
                         </div>
                         <div>
                             <div class="inline">
-                               Movement: #{x.getMovement()}
+                               Movement: <h:outputText value="#{z.getMovement()}" escape="false" />
                             </div>
                             <div class="inline">
-                               Actions: #{x.getHealth()}
+                               Actions: <h:outputText value="#{z.getHealth()}" escape="false" />
                             </div>
                             <div class="inline">
-                               Armor #{x.getArmor()}
+                               Armor <h:outputText value="#{z.getArmor()}" escape="false" />
                             </div>
                         </div>
                     </div>
                 </div>
                 
                 <!-- List of Keywords -->
-                <ui:repeat var="y" value="#{x.getKeywords()}" size="#{x.getKeywords().size()}" varStatus="myVarStatus" >
-                    <ui:fragment rendered="#{y.validateKeyword()}">
-                        <div class="xRow">
-                           <div class="inline"><!-- Keyword -->#{y.getName()}</div>
-                           <tab/>
-                           <div class="inline"><!-- Definition -->#{y.getDescription()}</div>
-                        </div>
-                    </ui:fragment>
-                </ui:repeat>
+                <ui:fragment rendered="#{z.validateKeywordList()}">
+                    <div>Keywords:</div>
+                    <ui:repeat var="x" value="#{z.getKeywords()}" size="#{z.getKeywords().size()}" varStatus="myVarStatus" >
+                        <ui:fragment rendered="#{x.validateKeyword()}">
+                            <ui:include src="/Content/Keyword.xhtml">
+                                <ui:param name="keyword" value="x"/>
+                            </ui:include>
+                        </ui:fragment>
+                    </ui:repeat>
+                </ui:fragment>
+                
                 <!-- List of Abilities -->
-                <ui:repeat var="y" value="#{x.getAbilities()}" size="#{x.getAbilities().size()}" varStatus="myVarStatus" >
-                    <ui:fragment rendered="#{y.validateAbility()}">
-                        <div class="xRow">
-                            <div class="inline"><!-- Ability Name -->#{y.getName()}: </div>                     
-                            <div class="inline"><!-- Ability Cost -->#{y.getCost()}</div>                     
-                            <div class="inline"><!-- Ability Resource -->#{y.getResource()}</div>                     
-                            <div class="inline"><!-- Ability Type -->#{y.getType()}:</div>
-                            <tab/>
-
-                            <div class="inline">
-                                <c:choose>
-                                    <c:when test="#{y.getAttribute().compareTo('0') == 0 }">
-                                       Attack
-                                    </c:when>
-                                    <c:when test="#{y.getAttribute().compareTo('1') == 0 }">
-                                       Strength
-                                    </c:when>
-                                    <c:when test="#{y.getAttribute().compareTo('2') == 0 }">
-                                       Armor
-                                    </c:when>
-                                    <c:when test="#{y.getAttribute().compareTo('3') == 0 }">
-                                       Will
-                                    </c:when>
-                                    <c:when test="#{y.getAttribute().compareTo('4') == 0 }">
-                                       Dexterity
-                                    </c:when>
-                                    <c:otherwise>
-                                       Error
-                                    </c:otherwise>
-                                </c:choose>
-                            </div>
-
-                            <div class="inline">
-                                <c:choose>
-                                    <c:when test="#{y.getRange() > 0 }">
-                                       #{y.getRange()}
-                                    </c:when>
-                                    <c:when test="#{y.getRange() == 0 }">
-                                       Self
-                                    </c:when>
-                                    <c:otherwise>                                    
-                                    </c:otherwise>
-                                </c:choose>
-                            </div>
-                            <div class="inline"><!-- Ability Description -->#{y.getDescription()}</div>
-                       </div>
-                   </ui:fragment>
-                </ui:repeat>
+                <ui:fragment rendered="#{z.validateAbilityList()}">
+                    <ui:repeat var="x" value="#{z.getAbilities()}" size="#{z.getAbilities().size()}" varStatus="myVarStatus" >
+                        <ui:fragment rendered="#{x.validateAbility()}">
+                            <ui:include src="/Content/Ability.xhtml">
+                                <ui:param name="ability" value="x"/>
+                            </ui:include>
+                        </ui:fragment>
+                    </ui:repeat>
+                </ui:fragment>
             </ui:repeat>
+            
             <ui:fragment rendered="#{ SDEArcadeMonsterBean.getMonster().validateFlavor() }">
                 <div>
-                    Flavor Text: #{SDEArcadeMonsterBean.getMonster().getFlavor()}
+                    Flavor Text: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getFlavor()}" escape="false" />
                 </div>
             </ui:fragment>
             <ui:fragment rendered="#{SDEArcadeMonsterBean.getMonster().isCustom()}">
                 <div>
-                    Author: #{SDEArcadeMonsterBean.getMonster().getAuthor()}
+                    Author: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getAuthor()}" escape="false" />
                 </div>
                 <div>
-                    Source: #{SDEArcadeMonsterBean.getMonster().getSourceURL()}
+                    Source: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getSourceURL()}" escape="false" />
                 </div>
             </ui:fragment>
         </div>

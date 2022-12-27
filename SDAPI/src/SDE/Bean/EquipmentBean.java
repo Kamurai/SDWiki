@@ -15,7 +15,7 @@ import Database.SDE.*;
 public class EquipmentBean extends CardBean{
     private Equipment equipment;
     private List<SDE.NavItem> equipmentList;
-    private String layout = "/SDE/Cards/Layouts/Equipment.xhtml";
+    private String LAYOUT = "/SDE/Cards/Layouts/Equipment.xhtml";
             
     public EquipmentBean(){
         super();
@@ -56,10 +56,14 @@ public class EquipmentBean extends CardBean{
 //            result = "../Layout.xhtml";
 //        }
         
-        return layout;
+        return LAYOUT;
     }
 
     public List<SDE.NavItem> getEquipmentList() {
         return this.equipmentList;
+    }
+    
+    public List<SDE.NavItem> getCharacterList() {
+        return equipment.getCharacterList();
     }
 }

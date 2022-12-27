@@ -13,10 +13,10 @@ public class ChallengeCard extends UtilityCard implements CharacterInterface{
     
     public ChallengeCard(){
         super();
-        this.trap            = "";
-        this.challenge       = "";
-        this.characterName       = "";
-        this.characterLink   = "";
+        this.trap           = "";
+        this.challenge      = "";
+        this.characterName  = "";
+        this.characterLink  = "";
         this.characterList  = new ArrayList();
     }
         
@@ -106,6 +106,10 @@ public class ChallengeCard extends UtilityCard implements CharacterInterface{
     @Override
     public void setCharacterList(List<NavItem> characterList) {
         this.characterList = characterList;
+    }
+    
+    public boolean validateTrap(){
+        return ((trap != null && !trap.isEmpty()));
     }
     
     @Override

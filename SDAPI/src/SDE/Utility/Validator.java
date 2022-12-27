@@ -26,6 +26,8 @@ public class Validator {
             result = true;
         } else if(input.equals("2.0 DI")){
             result = true;
+        } else if(input.equals("2.0 PP")){
+            result = true;
         } else if(input.equals("Custom")){
             result = true;
         } else {
@@ -54,6 +56,8 @@ public class Validator {
                     result = true;
                 } else if(input.equals("2.0 DI")){
                     result = true;
+                } else if(input.equals("2.0 PP")){
+                    result = true;
                 } else if(input.equals("Custom")){
                     result = true;
                 } else {
@@ -68,6 +72,8 @@ public class Validator {
                     result = true;
                 } else if(input.equals("2.0 DI")){
                     result = true;
+                } else if(input.equals("2.0 PP")){
+                    result = true;
                 } else if(input.equals("Custom")){
                     result = true;
                 } else {
@@ -77,6 +83,8 @@ public class Validator {
                 if(input.equals("2.0")){
                     result = true;
                 } else if(input.equals("2.0 DI")){
+                    result = true;
+                } else if(input.equals("2.0 PP")){
                     result = true;
                 } else if(input.equals("Custom")){
                     result = true;
@@ -131,6 +139,8 @@ public class Validator {
                 } else if(input.equals("2.0")){
                     result = true;
                 } else if(input.equals("2.0 DI")){
+                    result = true;
+                } else if(input.equals("2.0 PP")){
                     result = true;
                 } else if(input.equals("Custom")){
                     result = true;

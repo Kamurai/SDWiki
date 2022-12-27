@@ -15,7 +15,8 @@ import Database.SDE.*;
 public class TreasureBean extends EquipmentBean{
     private Equipment equipment;
     private List<SDE.NavItem> equipmentList;
-            
+    private String layout = "/SDE/Cards/Layouts/Treasure.xhtml";
+    
     public TreasureBean(){
         super();
         this.uni            = new Universal();
@@ -37,7 +38,7 @@ public class TreasureBean extends EquipmentBean{
         }
         this.equipmentList  = SDEDAONavigation.pullNavigationForTreasure();
         
-        return "./Layout.xhtml";
+        return layout;
     }
     
     public String setDisplayPage(String link, String version){
@@ -48,7 +49,7 @@ public class TreasureBean extends EquipmentBean{
         }
         this.equipmentList  = SDEDAONavigation.pullNavigationForTreasure(version);
         
-        return "./Layout.xhtml";
+        return layout;
     }
 
     public List<SDE.NavItem> getEquipmentList() {

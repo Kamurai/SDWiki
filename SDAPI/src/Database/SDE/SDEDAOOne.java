@@ -724,7 +724,7 @@ public class SDEDAOOne extends SDEDAO{
             rs = stmt.executeQuery();
             
             while(rs.next()){
-                newCard         = ((rs.getInt("CardIndex")       != previousCardIndex));
+                newCard         = (rs.getInt("CardIndex")       != previousCardIndex);
                 newKeyword      = (rs.getInt("KeywordIndex")    != previousKeywordIndex);
                 newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
                 
@@ -748,7 +748,7 @@ public class SDEDAOOne extends SDEDAO{
                     result.setCharacterLink(rs.getString("CharacterLink"));
                 }
                 
-               //if on new keyword
+                //if on new keyword
                 if(newKeyword){
                     //if keyword is valid
                     if(
@@ -926,6 +926,58 @@ public class SDEDAOOne extends SDEDAO{
         return result;
     }
     
+    //Pull One Consul Power Up Card
+    public static SDE.ConsulPowerUpCard pullOneConsulPowerUpCard(String link){
+        CallableStatement stmt;
+        ResultSet rs;
+        SDE.ConsulPowerUpCard result = new SDE.ConsulPowerUpCard();
+        
+        int     previousCardIndex       = -1;
+        int     previousKeywordIndex    = -1;
+        
+        boolean newCard                 = false;
+        boolean newKeyword              = false;
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call DBSDEPullOneConsulPowerUpCard(?)}");
+            stmt.setString(1, link);
+            rs = stmt.executeQuery();
+            
+            while(rs.next()){
+                newCard         = (rs.getInt("CardIndex")       != previousCardIndex);
+//                newKeyword      = (rs.getInt("KeywordIndex")    != previousKeywordIndex);
+                
+                //run only on new card
+                if(newCard){
+                    result = SDEDAOProcessor.processConsulPowerUp(rs);
+                }
+                                
+//                result.setPowerUp(rs.getString("PowerUp"));
+                
+                //if on new keyword
+//                if(newKeyword){
+                    //add new keyword to last gang member
+//                    result.addKeyword(
+//                        SDEDAOProcessor.getKeyword(rs)
+//                    );
+                    
+//                    previousKeywordIndex = rs.getInt("KeywordIndex");
+//                }
+                //Previous card index
+                previousCardIndex = rs.getInt("CardIndex");
+            }
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
     //Pull One Explore Card
     public static SDE.ExploreCard pullOneExploreCard(String link){
         System.out.print(link);
@@ -1057,18 +1109,18 @@ public class SDEDAOOne extends SDEDAO{
         int     previousCharacterIndex  = -1;
         
         boolean newCard                 = false;
-        boolean newCharacter            = false;
+//        boolean newCharacter            = false;
         
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call DBSDEPullOneChallenge(?)}");
+            stmt = getConnect().prepareCall("{call DBSDEPullOneChallengeCard(?)}");
             stmt.setString(1, link);
             rs = stmt.executeQuery();
             
             while(rs.next()){
                 newCard         = (rs.getInt("CardIndex")       != previousCardIndex);
-                newCharacter    = (rs.getInt("CharacterIndex")  != previousCharacterIndex);
+//                newCharacter    = (rs.getInt("CharacterIndex")  != previousCharacterIndex);
                 
                 //run only on new card
                 if(newCard){
@@ -1089,25 +1141,25 @@ public class SDEDAOOne extends SDEDAO{
                 }
                 
                 //if on new related character
-                if(newCharacter){
-                    if(
-                            rs.getInt("CharacterIndex") != 0
-                    ){
-                        result.addCharacter(
-                            rs.getString("CharacterName"),
-                            rs.getString("CharacterVersion"),
-                            rs.getString("CharacterLink"),
-                            rs.getString("CharacterPicture")
-                        );
-                        
-                    }
-                    
-                    if(result.getCharacterList().size() > 0){
-                        System.out.print("Related Character: " + result.getCharacterList().get(0).getName());
-                    }
-                    
-                    previousCharacterIndex = rs.getInt("CharacterIndex");
-                }
+//                if(newCharacter){
+//                    if(
+//                            rs.getInt("CharacterIndex") != 0
+//                    ){
+//                        result.addCharacter(
+//                            rs.getString("CharacterName"),
+//                            rs.getString("CharacterVersion"),
+//                            rs.getString("CharacterLink"),
+//                            rs.getString("CharacterPicture")
+//                        );
+//                        
+//                    }
+//                    
+//                    if(result.getCharacterList().size() > 0){
+//                        System.out.print("Related Character: " + result.getCharacterList().get(0).getName());
+//                    }
+//                    
+//                    previousCharacterIndex = rs.getInt("CharacterIndex");
+//                }
                 
                 //Previous card index
                 previousCardIndex = rs.getInt("CardIndex");
@@ -1131,7 +1183,7 @@ public class SDEDAOOne extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call DBSDEPullOneBossChallenge(?)}");
+            stmt = getConnect().prepareCall("{call DBSDEPullOneBossChallengeCard(?)}");
             stmt.setString(1, link);
             rs = stmt.executeQuery();
             
@@ -1172,7 +1224,7 @@ public class SDEDAOOne extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call DBSDEPullOneMightyMonster(?)}");
+            stmt = getConnect().prepareCall("{call DBSDEPullOneMightyMonsterCard(?)}");
             stmt.setString(1, link);
             rs = stmt.executeQuery();
             
@@ -1312,6 +1364,44 @@ public class SDEDAOOne extends SDEDAO{
             closeConnection();
         }
                 
+        return result;
+    }
+    
+    //Pull One Difficulty Card
+    public static SDE.DifficultyCard pullOneDifficultyCard(String link){
+        CallableStatement stmt;
+        ResultSet rs;
+        SDE.DifficultyCard result = new SDE.DifficultyCard();
+        
+        int     previousCardIndex       = -1;
+        
+        boolean newCard                 = false;
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call DBSDEPullOneDifficultyCard(?)}");
+            stmt.setString(1, link);
+            rs = stmt.executeQuery();
+            
+            while(rs.next()){
+                newCard         = (rs.getInt("CardIndex")       != previousCardIndex);
+                
+                //run only on new card
+                if(newCard){
+                    result = SDEDAOProcessor.processDifficultyCard(rs);
+                }
+
+                //Previous card index
+                previousCardIndex = rs.getInt("CardIndex");
+            }
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
         return result;
     }
 }

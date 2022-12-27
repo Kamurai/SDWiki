@@ -15,7 +15,8 @@ import Database.SDE.*;
 public class ArcadeMonsterBean extends CardBean{
     private ArcadeCharacter monster;
     private List<SDE.NavItem> monsterList;
-   
+    private final String LAYOUT = "/SDE/Cards/Layouts/ArcadeMonster.xhtml";
+    
     public ArcadeMonsterBean(){
         super();
         this.uni            = new Universal();
@@ -31,7 +32,6 @@ public class ArcadeMonsterBean extends CardBean{
     @Override
     public String setDisplayPage(String link){
         String path = uni.getAppPath()+link;
-        String result = "./Layout.xhtml";
         
         if(path.compareTo("") != 0){
             this.monster        = SDEDAOOne.pullOneArcadeMonster(path);
@@ -50,12 +50,8 @@ public class ArcadeMonsterBean extends CardBean{
 //        }else{
 //            this.monsterList  = navDAO.pullNavigationForMonsters(this.monster.getVersion());
 //        }
-        
-        if((this.monster.getCardType().compareTo("Warband") == 0) || (link.contains("Warband")) ){
-            result = "../Layout.xhtml";
-        }
-        
-        return result;
+                
+        return LAYOUT;
     }
 
     public List<SDE.NavItem> getMonsterList() {

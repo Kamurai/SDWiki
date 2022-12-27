@@ -8,8 +8,14 @@
     <h:head />
     <h:body>
         <div class="xRow">
-            <div class="underline"><!-- Keyword -->#{x.getName()}</div>
-            <div class="inline"><!-- Definition -->#{x.getDescription()}</div>
+            <!-- Keyword -->
+            <div class="underline">
+                <h:outputText value="#{x.getName()}" escape="false" />
+            </div>
+            <!-- Definition -->
+            <div class="inline">
+                <h:outputText value="#{x.getDescription()}" escape="false" />
+            </div>
         </div>
     </h:body>
 </html>

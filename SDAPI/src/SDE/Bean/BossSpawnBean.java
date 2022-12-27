@@ -15,7 +15,7 @@ import Database.SDE.*;
 public class BossSpawnBean extends CardBean{
     private BossSpawn bossSpawn;
     private List<SDE.NavItem> bossSpawnList;
-    private String layout = "/SDE/Cards/Layouts/Boss_Spawn.xhtml";
+    private String LAYOUT = "/SDE/Cards/Layouts/Boss_Spawn.xhtml";
     
     public BossSpawnBean(){
         super();
@@ -37,7 +37,7 @@ public class BossSpawnBean extends CardBean{
         }
 //        this.bossSpawnList  = SDEDAONavigation.pullNavigationForBossSpawns();
         
-        return layout;
+        return LAYOUT;
     }
 
 //    public String setDisplayPage(String link, String version){

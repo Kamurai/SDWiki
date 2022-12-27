@@ -1181,6 +1181,95 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
+    //Pull Navigation for Prayer Slips
+    public static ArrayList<SDE.NavItem> pullNavigationForPrayerSlips(){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call DBSDEPullNavigationPrayerSlips}");
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
+    public static ArrayList<SDE.NavItem> pullNavigationForPrayerSlips(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call DBSDEPullNavigationPrayerSlipsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
+    public static ArrayList<SDE.NavItem> pullNavigationForPrayerSlipsByPlayMode(String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call DBSDEPullNavigationPrayerSlipsByPlayMode(?)}");
+            stmt.setString(1, playMode);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
+    public static ArrayList<SDE.NavItem> pullNavigationForPrayerSlips(String version, String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call DBSDEPullNavigationPrayerSlipsByProductSetAndPlayMode(?,?)}");
+            stmt.setString(1, version);
+            stmt.setString(2, playMode);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+
     //Pull Navigation for Loot
     public static ArrayList<SDE.NavItem> pullNavigationForLoot(){
         CallableStatement stmt = null;
