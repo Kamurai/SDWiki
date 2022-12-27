@@ -7,11 +7,11 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <h:head />
     <h:body>
-         <title>
-            #{SDEExploreCardBean.getExploreCard().getName()} #{SDEExploreCardBean.getExploreCard().getVersion()}
+        <title>
+            <h:outputText value="#{SDEExploreCardBean.getExploreCard().getName()} " escape="true" /> <h:outputText value="#{SDEExploreCardBean.getExploreCard().getVersion()}" escape="true" />
         </title>
         <h2>
-            #{SDEExploreCardBean.getExploreCard().getName()} #{SDEExploreCardBean.getExploreCard().getVersion()}
+            <h:outputText value="#{SDEExploreCardBean.getExploreCard().getName()} " escape="true" /> <h:outputText value="#{SDEExploreCardBean.getExploreCard().getVersion()}" escape="true" />
         </h2>
         <div id="idCenterContent">
             <div>
@@ -29,15 +29,15 @@
             <div>
                 <div>
                     <div class="inline">
-                        Card Type: #{SDEExploreCardBean.getExploreCard().getCardType()}
+                        Card Type: <h:outputText value="#{SDEExploreCardBean.getExploreCard().getCardType()}" escape="false" />
                     </div>
                     <div class="inline">
-                        Version: #{SDEExploreCardBean.getExploreCard().getVersion()}
+                        Version: <h:outputText value="#{SDEExploreCardBean.getExploreCard().getVersion()}" escape="false" />
                     </div>
                 </div>
                 <div>
                     <div class="inline">
-                        Product Module: #{SDEExploreCardBean.getExploreCard().getModule()}
+                        Product Module: <h:outputText value="#{SDEExploreCardBean.getExploreCard().getModule()}" escape="false" />
                     </div>
                 </div>
             </div>
@@ -48,14 +48,14 @@
             </ui:fragment>
             <ui:fragment rendered="#{SDEExploreCardBean.getExploreCard().validateTrapDefense()}">
                 <div>
-                    Trap Defense: #{SDEExploreCardBean.getExploreCard().getTrapDefense()}
+                    Trap Defense: <h:outputText value="#{SDEExploreCardBean.getExploreCard().getTrapDefense()}" escape="false" />
                 </div>
                 <div>
-                    Trap Layout: #{SDEExploreCardBean.getExploreCard().getTrapLayout()}
+                    Trap Layout: <h:outputText value="#{SDEExploreCardBean.getExploreCard().getTrapLayout()}" escape="false" />
                 </div>
             </ui:fragment>
             <div>
-                Card Effect: #{SDEExploreCardBean.getExploreCard().getDescription()}
+                Card Effect: <h:outputText value="#{SDEExploreCardBean.getExploreCard().getDescription()}" escape="false" />
             </div>
             <br/>
             
@@ -80,22 +80,22 @@
                             <div>
                                 <img class="galleryPicture" src="#{x.getPicture()}"/>
                             </div>
-                            #{x.getName()}
+                            <h:outputText value="#{x.getName()}" escape="false" />
                         </a>
                     </div>
                 </ui:repeat>
             </ui:fragment>
-            <ui:fragment rendered="#{ SDEExploreCardBean.getExploreCard().validateFlavor() }">
+            <ui:fragment rendered="#{SDEExploreCardBean.getExploreCard().validateFlavor()}">
                 <div>
-                    Flavor Text: #{SDEExploreCardBean.getExploreCard().getFlavor()}
+                    Flavor Text: <h:outputText value="#{SDEExploreCardBean.getExploreCard().getFlavor()}" escape="false" />
                 </div>
             </ui:fragment>
             <ui:fragment rendered="#{SDEExploreCardBean.getExploreCard().isCustom()}">
                 <div>
-                    Author: #{SDEExploreCardBean.getExploreCard().getAuthor()}
+                    Author: <h:outputText value="#{SDEExploreCardBean.getExploreCard().getAuthor()}" escape="false" />
                 </div>
                 <div>
-                    Source: #{SDEExploreCardBean.getExploreCard().getSourceURL()}
+                    Source: <h:outputText value="#{SDEExploreCardBean.getExploreCard().getSourceURL()}" escape="false" />
                 </div>
             </ui:fragment>
         </div>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head />
+    <h:body>
+        <title>
+            <h:outputText value="#{SDEDifficultyBean.getDifficultyCard().getName()} " escape="true" /> <h:outputText value="#{SDEDifficultyBean.getDifficultyCard().getVersion()}" escape="true" />
+        </title>
+        <h2>
+            <h:outputText value="#{SDEDifficultyBean.getDifficultyCard().getName()} " escape="true" /> <h:outputText value="#{SDEDifficultyBean.getDifficultyCard().getVersion()}" escape="true" />
+        </h2>
+        <div id="idCenterContent">
+            <div>
+                <div class="cardPictureContainer">
+                    <!-- Front of Card -->
+                    <img class="cardPicture" src="#{SDEDifficultyBean.getDifficultyCard().getPictureFront()}"/>
+                </div>
+                <div class="cardPictureContainer">
+                    <!-- Back of Card -->
+                    <img class="cardPicture" src="#{SDEDifficultyBean.getDifficultyCard().getPictureBack()}"/>
+                </div>
+            </div>
+            
+            <!-- replace with table -->
+            <div>
+                <div>
+                    <div class="inline">
+                        Card Type: <h:outputText value="#{SDEDifficultyBean.getDifficultyCard().getCardType()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Version: <h:outputText value="#{SDEDifficultyBean.getDifficultyCard().getVersion()}" escape="false" />
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Difficulty Mode: <h:outputText value="#{SDEDifficultyBean.getDifficultyCard().getDifficultyMode()}" escape="false" />
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Product Module: <h:outputText value="#{SDEDifficultyBean.getDifficultyCard().getModule()}" escape="false" />
+                    </div>
+                </div>
+            </div>
+            <ui:fragment rendered="#{SDEDifficultyBean.getDifficultyCard().validateDescription()}">
+                <div>
+                    Card Effect: <h:outputText value="#{SDEDifficultyBean.getDifficultyCard().getDescription()}" escape="false" />
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{ SDEDifficultyBean.getDifficultyCard().validateFlavor() }">
+                <div>
+                    Flavor Text: <h:outputText value="#{SDEDifficultyBean.getDifficultyCard().getFlavor()}" escape="false" />
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEDifficultyBean.getDifficultyCard().isCustom()}">
+                <div>
+                    Author: <h:outputText value="#{SDEDifficultyBean.getDifficultyCard().getAuthor()}" escape="false" />
+                </div>
+                <div>
+                    Source: <h:outputText value="#{SDEDifficultyBean.getDifficultyCard().getSourceURL()}" escape="false" />
+                </div>
+            </ui:fragment>
+        </div>
+    </h:body>
+</html>
+

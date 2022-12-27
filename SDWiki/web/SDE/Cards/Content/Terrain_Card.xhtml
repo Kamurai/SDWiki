@@ -7,11 +7,11 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <h:head />
     <h:body>
-         <title>
-            #{SDETerrainBean.getTerrainCard().getName()} #{SDETerrainBean.getTerrainCard().getVersion()}
+        <title>
+            <h:outputText value="#{SDETerrainBean.getTerrainCard().getName()} " escape="true" /> <h:outputText value="#{SDETerrainBean.getTerrainCard().getVersion()}" escape="true" />
         </title>
         <h2>
-            #{SDETerrainBean.getTerrainCard().getName()} #{SDETerrainBean.getTerrainCard().getVersion()}
+            <h:outputText value="#{SDETerrainBean.getTerrainCard().getName()} " escape="true" /> <h:outputText value="#{SDETerrainBean.getTerrainCard().getVersion()}" escape="true" />
         </h2>
         <div id="idCenterContent">
             <div>
@@ -29,22 +29,22 @@
             <div>
                 <div>
                     <div class="inline">
-                        Card Type: #{SDETerrainBean.getTerrainCard().getCardType()}
+                        Card Type: <h:outputText value="#{SDETerrainBean.getTerrainCard().getCardType()}" escape="false" />
                     </div>
                     <div class="inline">
-                        Version: #{SDETerrainBean.getTerrainCard().getVersion()}
+                        Version: <h:outputText value="#{SDETerrainBean.getTerrainCard().getVersion()}" escape="false" />
                     </div>
                 </div>
                 <div>
                     <div class="inline">
-                        Product Module: #{SDETerrainBean.getTerrainCard().getModule()}
+                        Product Module: <h:outputText value="#{SDETerrainBean.getTerrainCard().getModule()}" escape="false" />
                     </div>
                 </div>
             </div>
             <br/>
             
             <!-- List of Keywords -->
-            <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().validateKeywordList()}">
+            <ui:fragment rendered="#{SDETerrainBean.getTerrainCard().validateKeywordList()}">
                 <div>Keywords:</div>
                 <ui:repeat var="x" value="#{SDETerrainBean.getTerrainCard().getKeywords()}" size="#{SDETerrainBean.getTerrainCard().getKeywords().size()}" varStatus="myVarStatus" >
                     <ui:fragment rendered="#{x.validateKeyword()}">
@@ -55,26 +55,24 @@
                 </ui:repeat>
                 <br/>
             </ui:fragment>
-            
-            <div>
-                Card Effect: #{SDETerrainBean.getTerrainCard().getDescription()}
-            </div>
-            
-            
-            <ui:fragment rendered="#{ SDETerrainBean.getTerrainCard().validateFlavor() }">
+            <ui:fragment rendered="#{SDETerrainBean.getTerrainCard().validateDescription()}">
                 <div>
-                    Flavor Text: #{SDETerrainBean.getTerrainCard().getFlavor()}
+                    Card Effect: <h:outputText value="#{SDETerrainBean.getTerrainCard().getDescription()}" escape="false" />
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDETerrainBean.getTerrainCard().validateFlavor()}">
+                <div>
+                    Flavor Text: <h:outputText value="#{SDETerrainBean.getTerrainCard().getFlavor()}" escape="false" />
                 </div>
             </ui:fragment>
             <ui:fragment rendered="#{SDETerrainBean.getTerrainCard().isCustom()}">
                 <div>
-                    Author: #{SDETerrainBean.getTerrainCard().getAuthor()}
+                    Author: <h:outputText value="#{SDETerrainBean.getTerrainCard().getAuthor()}" escape="false" />
                 </div>
                 <div>
-                    Source: #{SDETerrainBean.getTerrainCard().getSourceURL()}
+                    Source: <h:outputText value="#{SDETerrainBean.getTerrainCard().getSourceURL()}" escape="false" />
                 </div>
             </ui:fragment>
-
         </div>
     </h:body>
 </html>

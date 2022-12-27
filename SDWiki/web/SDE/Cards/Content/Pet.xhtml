@@ -7,11 +7,11 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <h:head />
     <h:body>
-         <title>
-            #{SDEPetBean.getPet().getName()} #{SDEPetBean.getPet().getVersion()}
+        <title>
+            <h:outputText value="#{SDEPetBean.getPet().getName()} " escape="true" /> <h:outputText value="#{SDEPetBean.getPet().getVersion()}" escape="true" />
         </title>
         <h2>
-            #{SDEPetBean.getPet().getName()} #{SDEPetBean.getPet().getVersion()}
+            <h:outputText value="#{SDEPetBean.getPet().getName()} " escape="true" /> <h:outputText value="#{SDEPetBean.getPet().getVersion()}" escape="true" />
         </h2>
         <div id="idCenterContent">
             <div>
@@ -39,39 +39,39 @@
             <div>
                 <div>
                     <div class="inline">
-                        Card Type: #{SDEPetBean.getPet().getCardType()}
+                        Card Type: <h:outputText value="#{SDEPetBean.getPet().getCardType()}" escape="false" />
                     </div>
                     <div class="inline">
-                        Version: #{SDEPetBean.getPet().getVersion()}
-                    </div>
-                </div>
-                <div>
-                    <div class="inline">
-                        Creature Type: #{SDEPetBean.getPet().getCreatureType()}
-                    </div>
-                    <div class="inline">
-                        Product Module: #{SDEPetBean.getPet().getModule()}
+                        Version: <h:outputText value="#{SDEPetBean.getPet().getVersion()}" escape="false" />
                     </div>
                 </div>
                 <div>
                     <div class="inline">
-                        Model Size: #{SDEPetBean.getPet().getModelSize()}
+                        Creature Type: <h:outputText value="#{SDEPetBean.getPet().getCreatureType()}" escape="false" />
                     </div>
                     <div class="inline">
-                        Play Mode: #{SDEPetBean.getPet().getMode()}
+                        Product Module: <h:outputText value="#{SDEPetBean.getPet().getModule()}" escape="false" />
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Model Size: <h:outputText value="#{SDEPetBean.getPet().getModelSize()}" escape="false" />
                     </div>
                     <div class="inline">
-                        Gender: #{SDEPetBean.getPet().getGender()}
+                        Play Mode: <h:outputText value="#{SDEPetBean.getPet().getMode()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Gender: <h:outputText value="#{SDEPetBean.getPet().getGender()}" escape="false" />
                     </div>
                 </div>
             </div>
             
             <div>
                  <div class="inline">
-                     Movement: #{SDEPetBean.getPet().getMovement()}
+                     Movement: <h:outputText value="#{SDEPetBean.getPet().getMovement()}" escape="false" />
                  </div>
                 <div class="inline">
-                    Actions: #{SDEPetBean.getPet().getActions()}
+                    Actions: <h:outputText value="#{SDEPetBean.getPet().getActions()}" escape="false" />
                 </div>
             </div>
             <div>
@@ -143,7 +143,7 @@
                     </div>
                     <div>
                         <c:choose>
-                            <c:when test ="#{ ( SDEPetBean.getPet().getOffense('Dexterity').getRange() >= 0)}">
+                            <c:when test ="#{(SDEPetBean.getPet().getOffense('Dexterity').getRange() >= 0)}">
                                 <!-- Dexterity Offense -->#{ ( SDEPetBean.getPet().getOffense('Dexterity').getRange() )}
                             </c:when>
                             <c:otherwise>
@@ -177,18 +177,19 @@
             
             <div>
                 <div class="inline">
-                    Affinity: #{SDEPetBean.getPet().getAffinity()}
+                    Affinity: <h:outputText value="#{SDEPetBean.getPet().getAffinity()}" escape="false" />
                 </div>
                 <div class="inline">
-                    Health: #{SDEPetBean.getPet().getHealth()}
+                    Health: <h:outputText value="#{SDEPetBean.getPet().getHealth()}" escape="false" />
                 </div>
                 <div class="inline">
-                    Potions: #{SDEPetBean.getPet().getPotions()}
+                    Potions: <h:outputText value="#{SDEPetBean.getPet().getPotions()}" escape="false" />
                 </div>
             </div>
             <br/>
+            
             <!-- List of Keywords -->
-            <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().validateKeywordList()}">
+            <ui:fragment rendered="#{SDEPetBean.getPet().validateKeywordList()}">
                 <div>Keywords:</div>
                 <ui:repeat var="x" value="#{SDEPetBean.getPet().getKeywords()}" size="#{SDEPetBean.getPet().getKeywords().size()}" varStatus="myVarStatus" >
                     <ui:fragment rendered="#{x.validateKeyword()}">
@@ -201,10 +202,10 @@
             </ui:fragment>
             
             <!-- List of Abilities -->
-            <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().validateAbilityList()}">
+            <ui:fragment rendered="#{SDEPetBean.getPet().validateAbilityList()}">
                 <div>Abilities:</div>
                 <ui:repeat var="x" value="#{SDEPetBean.getPet().getAbilities()}" size="#{SDEPetBean.getPet().getAbilities().size()}" varStatus="myVarStatus" >
-                    <ui:fragment rendered="#{y.validateAbility()}">
+                    <ui:fragment rendered="#{x.validateAbility()}">
                         <ui:include src="/Content/Ability.xhtml">
                             <ui:param name="ability" value="x"/>
                         </ui:include>
@@ -212,17 +213,18 @@
                 </ui:repeat>
                 <br/>
             </ui:fragment>
-            <ui:fragment rendered="#{ SDEPetBean.getPet().validateFlavor() }">
+            
+            <ui:fragment rendered="#{SDEPetBean.getPet().validateFlavor()}">
                 <div>
-                    Flavor Text: #{SDEPetBean.getPet().getFlavor()}
+                    Flavor Text: <h:outputText value="#{SDEPlotBean.getPlotCard().getCardType()}" escape="false" />
                 </div>
             </ui:fragment>
             <ui:fragment rendered="#{SDEPetBean.getPet().isCustom()}">
                 <div>
-                    Author: #{SDEPetBean.getPet().getAuthor()}
+                    Author: <h:outputText value="#{SDEPetBean.getPet().getAuthor()}" escape="false" />
                 </div>
                 <div>
-                    Source: #{SDEPetBean.getPet().getSourceURL()}
+                    Source: <h:outputText value="#{SDEPetBean.getPet().getSourceURL()}" escape="false" />
                 </div>
             </ui:fragment>
         </div>

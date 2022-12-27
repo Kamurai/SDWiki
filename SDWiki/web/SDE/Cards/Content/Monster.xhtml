@@ -7,11 +7,11 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <h:head />
     <h:body>
-         <title>
-            #{SDEMonsterBean.getMonster().getName()} #{SDEMonsterBean.getMonster().getVersion()}
+        <title>
+            <h:outputText value="#{SDEMonsterBean.getMonster().getName()} " escape="true" /> <h:outputText value="#{SDEMonsterBean.getMonster().getVersion()}" escape="true" />
         </title>
         <h2>
-            #{SDEMonsterBean.getMonster().getName()} #{SDEMonsterBean.getMonster().getVersion()}
+            <h:outputText value="#{SDEMonsterBean.getMonster().getName()} " escape="true" /> <h:outputText value="#{SDEMonsterBean.getMonster().getVersion()}" escape="true" />
         </h2>
         <div id="idCenterContent">
             <div>
@@ -39,48 +39,48 @@
             <div>
                 <div>
                     <div class="inline">
-                        Card Type: #{SDEMonsterBean.getMonster().getCardType()}
+                        Card Type: <h:outputText value="#{SDEMonsterBean.getMonster().getCardType()}" escape="false" />
                     </div>
                     <div class="inline">
-                        Version: #{SDEMonsterBean.getMonster().getVersion()}
-                    </div>
-                </div>
-                <div>
-                    <div class="inline">
-                        Creature Type: #{SDEMonsterBean.getMonster().getCreatureType()}
-                    </div>
-                    <div class="inline">
-                        Rank: #{SDEMonsterBean.getMonster().getRank()}
-                    </div>
-                    <div class="inline">
-                        Product Module: #{SDEMonsterBean.getMonster().getModule()}
+                        Version: <h:outputText value="#{SDEMonsterBean.getMonster().getVersion()}" escape="false" />
                     </div>
                 </div>
                 <div>
                     <div class="inline">
-                        Model Size: #{SDEMonsterBean.getMonster().getModelSize()}
+                        Creature Type: <h:outputText value="#{SDEMonsterBean.getMonster().getCreatureType()}" escape="false" />
                     </div>
                     <div class="inline">
-                        Play Mode: #{SDEMonsterBean.getMonster().getMode()}
+                        Rank: <h:outputText value="#{SDEMonsterBean.getMonster().getRank()}" escape="false" />
                     </div>
                     <div class="inline">
-                        Gender: #{SDEMonsterBean.getMonster().getGender()}
+                        Product Module: <h:outputText value="#{SDEMonsterBean.getMonster().getModule()}" escape="false" />
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Model Size: <h:outputText value="#{SDEMonsterBean.getMonster().getModelSize()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Play Mode: <h:outputText value="#{SDEMonsterBean.getMonster().getMode()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Gender: <h:outputText value="#{SDEMonsterBean.getMonster().getGender()}" escape="false" />
                     </div>
                 </div>
             </div>
             <div>
                  <div class="inline">
-                     Movement: #{SDEMonsterBean.getMonster().getMovement()}
+                     Movement: <h:outputText value="#{SDEMonsterBean.getMonster().getMovement()}" escape="false" />
                  </div>
                 <div class="inline">
-                    Actions: #{SDEMonsterBean.getMonster().getActions()}
+                    Actions: <h:outputText value="#{SDEMonsterBean.getMonster().getActions()}" escape="false" />
                 </div>
             </div>
             <div>
                 <div class="inline">
                     <div>Attributes</div>
                     <c:choose>
-                        <c:when test="#{ ( SDEMonsterBean.getMonster().getVersion() == '1.0' )}">
+                        <c:when test="#{(SDEMonsterBean.getMonster().getVersion() == '1.0' )}">
                             <div>Attack: </div>
                         </c:when>
                         <c:otherwise>
@@ -94,15 +94,15 @@
                 <div class="inline">
                     <div>Offense</div>
                     <c:choose>
-                        <c:when test="#{ ( SDEMonsterBean.getMonster().getVersion() == '1.0' )}">
+                        <c:when test="#{(SDEMonsterBean.getMonster().getVersion() == '1.0' )}">
                             <div><!-- Attack Offense -->#{ ( SDEMonsterBean.getMonster().containsOffense("Attack") )}</div>
                         </c:when>
                         <c:otherwise>
                             <div><!-- Strength Offense -->#{ ( SDEMonsterBean.getMonster().containsOffense("Strength") )}</div>
                         </c:otherwise>
                     </c:choose>
-                    <div><!-- Armor Offense -->#{ ( SDEMonsterBean.getMonster().containsOffense("Armor") )}</div>
-                    <div><!-- Will Offense -->#{ ( SDEMonsterBean.getMonster().containsOffense("Will") )}</div>
+                    <div><!-- Armor Offense -->#{(SDEMonsterBean.getMonster().containsOffense("Armor") )}</div>
+                    <div><!-- Will Offense -->#{(SDEMonsterBean.getMonster().containsOffense("Will") )}</div>
                     <div><!-- Dexterity Offense -->#{ ( SDEMonsterBean.getMonster().containsOffense("Dexterity") )}</div>
                 </div>
                 <div class="inline">
@@ -179,96 +179,62 @@
             
             <div>
                 <div class="inline">
-                    Affinity: #{SDEMonsterBean.getMonster().getAffinity()}
+                    Affinity: <h:outputText value="#{SDEMonsterBean.getMonster().getAffinity()}" escape="false" />
                 </div>
                 <div class="inline">
-                    Health: #{SDEMonsterBean.getMonster().getHealth()}
+                    Health: <h:outputText value="#{SDEMonsterBean.getMonster().getHealth()}" escape="false" />
                 </div>
                 <div class="inline">
-                    Potions: #{SDEMonsterBean.getMonster().getPotions()}
+                    Potions: <h:outputText value="#{SDEMonsterBean.getMonster().getPotions()}" escape="false" />
                 </div>
             </div>
             
             <div>
                 <div class="inline">
-                    Skulls: #{SDEMonsterBean.getMonster().getSkulls()}
+                    Skulls: <h:outputText value="#{SDEMonsterBean.getMonster().getSkulls()}" escape="false" />
                 </div>
                 <div class="inline">
-                    Bits: #{SDEMonsterBean.getMonster().getBits()}
+                    Bits: <h:outputText value="#{SDEMonsterBean.getMonster().getBits()}" escape="false" />
                 </div>
             </div>
             
             <!-- List of Keywords -->
-            <ui:repeat var="x" value="#{SDEMonsterBean.getMonster().getKeywords()}" size="#{SDEMonsterBean.getMonster().getKeywords().size()}" varStatus="myVarStatus" >
-                <ui:fragment rendered="#{x.validateKeyword()}">
-                    <div class="xRow">
-                        <div class="inline"><!-- Keyword -->#{x.getName()}</div>
-                        <tab/>
-                        <div class="inline"><!-- Definition -->#{x.getDescription()}</div>
-                    </div>
-                </ui:fragment>
-            </ui:repeat>
+            <ui:fragment rendered="#{SDEMonsterBean.getMonster().validateKeywordList()}">
+                <div>Keywords:</div>
+                <ui:repeat var="x" value="#{SDEMonsterBean.getMonster().getKeywords()}" size="#{SDEMonsterBean.getMonster().getKeywords().size()}" varStatus="myVarStatus" >
+                    <ui:fragment rendered="#{x.validateKeyword()}">
+                        <ui:include src="/Content/Keyword.xhtml">
+                            <ui:param name="keyword" value="x"/>
+                        </ui:include>
+                    </ui:fragment>
+                </ui:repeat>
+                <br/>
+            </ui:fragment>
             
             <!-- List of Abilities -->
-            <ui:repeat var="x" value="#{SDEMonsterBean.getMonster().getAbilities()}" size="#{SDEMonsterBean.getMonster().getAbilities().size()}" varStatus="myVarStatus" >
-                <ui:fragment rendered="#{x.validateAbility()}">
-                    <div class="xRow">
-                        <div class="inline"><!-- Ability Name -->#{x.getName()}: </div>                     
-                        <div class="inline"><!-- Ability Cost -->#{x.getCost()}</div>                     
-                        <div class="inline"><!-- Ability Resource -->#{x.getResource()}</div>                     
-                        <div class="inline"><!-- Ability Type -->#{x.getType()}:</div>
-                        <tab/>
-
-                        <div class="inline">
-                            <c:choose>
-                                <c:when test="#{x.getAttribute().compareTo('0') == 0 }">
-                                    Attack
-                                </c:when>
-                                <c:when test="#{x.getAttribute().compareTo('1') == 0 }">
-                                    Strength
-                                </c:when>
-                                <c:when test="#{x.getAttribute().compareTo('2') == 0 }">
-                                    Armor
-                                </c:when>
-                                <c:when test="#{x.getAttribute().compareTo('3') == 0 }">
-                                    Will
-                                </c:when>
-                                <c:when test="#{x.getAttribute().compareTo('4') == 0 }">
-                                    Dexterity
-                                </c:when>
-                                <c:otherwise>
-                                    Error
-                                </c:otherwise>
-                            </c:choose>
-                        </div>
-
-                        <div class="inline">
-                            <c:choose>
-                                <c:when test="#{x.getRange() > 0 }">
-                                    #{x.getRange()}
-                                </c:when>
-                                <c:when test="#{x.getRange() == 0 }">
-                                    Self
-                                </c:when>
-                                <c:otherwise>                                    
-                                </c:otherwise>
-                            </c:choose>
-                        </div>
-                         <div class="inline"><!-- Ability Description -->#{x.getDescription()}</div>
-                    </div>
-                </ui:fragment>
-            </ui:repeat>
-            <ui:fragment rendered="#{ SDEMonsterBean.getMonster().validateFlavor() }">
+            <ui:fragment rendered="#{SDEMonsterBean.getMonster().validateAbilityList()}">
+                <div>Abilities:</div>
+                <ui:repeat var="x" value="#{SDEMonsterBean.getMonster().getAbilities()}" size="#{SDEMonsterBean.getMonster().getAbilities().size()}" varStatus="myVarStatus" >
+                    <ui:fragment rendered="#{x.validateAbility()}">
+                        <ui:include src="/Content/Ability.xhtml">
+                            <ui:param name="ability" value="x"/>
+                        </ui:include>
+                    </ui:fragment>
+                </ui:repeat>
+                <br/>
+            </ui:fragment>
+            
+            <ui:fragment rendered="#{SDEMonsterBean.getMonster().validateFlavor()}">
                 <div>
-                    Flavor Text: #{SDEMonsterBean.getMonster().getFlavor()}
+                    Flavor Text: <h:outputText value="#{SDEMonsterBean.getMonster().getFlavor()}" escape="false" />
                 </div>
             </ui:fragment>
             <ui:fragment rendered="#{SDEMonsterBean.getMonster().isCustom()}">
                 <div>
-                    Author: #{SDEMonsterBean.getMonster().getAuthor()}
+                    Author: <h:outputText value="#{SDEMonsterBean.getMonster().getAuthor()}" escape="false" />
                 </div>
                 <div>
-                    Source: #{SDEMonsterBean.getMonster().getSourceURL()}
+                    Source: <h:outputText value="#{SDEMonsterBean.getMonster().getSourceURL()}" escape="false" />
                 </div>
             </ui:fragment>
         </div>

@@ -7,11 +7,11 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <h:head />
     <h:body>
-         <title>
-            #{SDEBossSpawnBean.getBossSpawn().getName()} #{SDEBossSpawnBean.getBossSpawn().getVersion()}
+        <title>
+            <h:outputText value="#{SDEBossSpawnBean.getBossSpawn().getName()} " escape="true" /> <h:outputText value="#{SDEBossSpawnBean.getBossSpawn().getVersion()}" escape="true" />
         </title>
         <h2>
-            #{SDEBossSpawnBean.getBossSpawn().getName()} #{SDEBossSpawnBean.getBossSpawn().getVersion()}
+            <h:outputText value="#{SDEBossSpawnBean.getBossSpawn().getName()} " escape="true" /> <h:outputText value="#{SDEBossSpawnBean.getBossSpawn().getVersion()}" escape="true" />
         </h2>
         <div id="idCenterContent">
             <div>
@@ -29,34 +29,34 @@
             <div>
                 <div>
                     <div class="inline">
-                        Card Type: #{SDEBossSpawnBean.getBossSpawn().getCardType()}
+                        Card Type: <h:outputText value="#{SDEBossSpawnBean.getBossSpawn().getCardType()}" escape="false" />
                     </div>
                     <div class="inline">
-                        Version: #{SDEBossSpawnBean.getBossSpawn().getVersion()}
+                        Version: <h:outputText value="#{SDEBossSpawnBean.getBossSpawn().getVersion()}" escape="false" />
                     </div>
                 </div>
                 <div>
                     <div class="inline">
-                        Product Module: #{SDEBossSpawnBean.getBossSpawn().getModule()}
+                        Product Module: <h:outputText value="#{SDEBossSpawnBean.getBossSpawn().getModule()}" escape="false" />
                     </div>
                 </div>
             </div>
             <div>
                 Dungeon Effects:
                 <div>
-                    #{SDEBossSpawnBean.getBossSpawn().getDungeonEffect()}
+                    <h:outputText value="#{SDEBossSpawnBean.getBossSpawn().getDungeonEffect()}" escape="false" />
                 </div>
             </div>
             <div>
                 Boss Fight Effects:
                 <div>
-                    #{SDEBossSpawnBean.getBossSpawn().getBossSpawnEffect()}
+                   <h:outputText value="#{SDEBossSpawnBean.getBossSpawn().getBossSpawnEffect()}" escape="false" />
                 </div>
             </div>
             <div>
                 Timeout Effect:
                 <div>
-                    #{SDEBossSpawnBean.getBossSpawn().getTimeoutEffect()}
+                    <h:outputText value="#{SDEBossSpawnBean.getBossSpawn().getTimeoutEffect()}" escape="false" />
                 </div>
             </div>
             <ui:fragment rendered="#{SDEBossSpawnBean.getBossSpawn().validateCharacterList()}">
@@ -67,25 +67,22 @@
                             <div>
                                 <img class="galleryPicture" src="#{x.getPicture()}"/>
                             </div>
-                            #{x.getName()}
+                            <h:outputText value="#{x.getName()}" escape="false" />
                         </a>
                     </div>
                 </ui:repeat>
             </ui:fragment>
-            <div>
-                Summon List: TBD
-            </div>
             <c:if test="#{ SDEBossSpawnBean.getBossSpawn().validateFlavor() }">
                 <div>
-                    Flavor Text: #{SDEBossSpawnBean.getBossSpawn().getFlavor()}
+                    Flavor Text: <h:outputText value="#{SDEBossSpawnBean.getBossSpawn().getFlavor()}" escape="false" />
                 </div>
             </c:if>
             <ui:fragment rendered="#{SDEMonsterBean.getMonster().isCustom()}">
                 <div>
-                    Author: #{SDEMonsterBean.getMonster().getAuthor()}
+                    Author: <h:outputText value="#{SDEMonsterBean.getMonster().getAuthor()}" escape="false" />
                 </div>
                 <div>
-                    Source: #{SDEMonsterBean.getMonster().getSourceURL()}
+                    Source: <h:outputText value="#{SDEMonsterBean.getMonster().getSourceURL()}" escape="false" />
                 </div>
             </ui:fragment>
         </div>

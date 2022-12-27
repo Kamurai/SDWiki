@@ -7,11 +7,11 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <h:head />
     <h:body>
-         <title>
-            #{SDEUtilityBean.getUtilityCard().getName()} #{SDEUtilityBean.getUtilityCard().getVersion()}
+        <title>
+            <h:outputText value="#{SDEUtilityBean.getUtilityCard().getName()} " escape="true" /> <h:outputText value="#{SDEUtilityBean.getUtilityCard().getVersion()}" escape="true" />
         </title>
         <h2>
-            #{SDEUtilityBean.getUtilityCard().getName()} #{SDEUtilityBean.getUtilityCard().getVersion()}
+            <h:outputText value="#{SDEUtilityBean.getUtilityCard().getName()} " escape="true" /> <h:outputText value="#{SDEUtilityBean.getUtilityCard().getVersion()}" escape="true" />
         </h2>
         <div id="idCenterContent">
             <div>
@@ -29,38 +29,36 @@
             <div>
                 <div>
                     <div class="inline">
-                        Card Type: #{SDEUtilityBean.getUtilityCard().getCardType()}
+                        Card Type: <h:outputText value="#{SDEUtilityBean.getUtilityCard().getCardType()}" escape="false" />
                     </div>
                     <div class="inline">
-                        Version: #{SDEUtilityBean.getUtilityCard().getVersion()}
+                        Version: <h:outputText value="#{SDEUtilityBean.getUtilityCard().getVersion()}" escape="false" />
                     </div>
                 </div>
                 <div>
                     <div class="inline">
-                        Product Module: #{SDEUtilityBean.getUtilityCard().getModule()}
+                        Product Module: <h:outputText value="#{SDEUtilityBean.getUtilityCard().getModule()}" escape="false" />
                     </div>
                 </div>
             </div>
-            
-            <div>
-                Card Effect: #{SDEUtilityBean.getUtilityCard().getDescription()}
-            </div>
-            
-            
+            <ui:fragment rendered="#{SDEUtilityBean.getUtilityCard().validateDescription()}">
+                <div>
+                    Card Effect: <h:outputText value="#{SDEUtilityBean.getUtilityCard().getDescription()}" escape="false" />
+                </div>
+            </ui:fragment>
             <ui:fragment rendered="#{ SDEUtilityBean.getUtilityCard().validateFlavor() }">
                 <div>
-                    Flavor Text: #{SDEUtilityBean.getUtilityCard().getFlavor()}
+                    Flavor Text: <h:outputText value="#{SDEUtilityBean.getUtilityCard().getFlavor()}" escape="false" />
                 </div>
             </ui:fragment>
             <ui:fragment rendered="#{SDEUtilityBean.getUtilityCard().isCustom()}">
                 <div>
-                    Author: #{SDEUtilityBean.getUtilityCard().getAuthor()}
+                    Author: <h:outputText value="#{SDEUtilityBean.getUtilityCard().getAuthor()}" escape="false" />
                 </div>
                 <div>
-                    Source: #{SDEUtilityBean.getUtilityCard().getSourceURL()}
+                    Source: <h:outputText value="#{SDEUtilityBean.getUtilityCard().getSourceURL()}" escape="false" />
                 </div>
             </ui:fragment>
-
         </div>
     </h:body>
 </html>

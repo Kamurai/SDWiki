@@ -8,14 +8,26 @@
     <h:head />
     <h:body>
          <div class="xRow">
-            <div class="underline"><!-- Ability Name -->#{x.getName()} </div>                     
-            <div class="inline"><!-- Ability Cost -->Cost: #{x.getCost()}</div>                     
-            <div class="inline"><!-- Ability Resource -->#{x.getResource()}</div>                     
-            <div class=""><!-- Ability Type -->Type: #{x.getType()}:</div>
+            <!-- Ability Name -->
+            <div class="underline">
+                <h:outputText value="#{x.getName()}" escape="false" />
+            </div>
+            <!-- Ability Cost -->
+            <div class="inline">
+                Cost: <h:outputText value="#{x.getCost()}" escape="false" />
+            </div>                     
+            <!-- Ability Resource -->
+            <div class="inline">
+                <h:outputText value="#{x.getResource()}" escape="false" />
+            </div>                     
+            <!-- Ability Type -->
+            <div class="">
+                Type: <h:outputText value="#{x.getType()}" escape="false" />
+            </div>
             <tab/>
 
             <div class="inline">
-                Attribute: #{x.getAttribute()}
+                Attribute: <h:outputText value="#{x.getAttribute()}" escape="false" />
             </div>
 
             <div class="">

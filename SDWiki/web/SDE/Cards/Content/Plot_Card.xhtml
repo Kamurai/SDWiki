@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head />
+    <h:body>
+        <title>
+            <h:outputText value="#{SDEPlotBean.getPlotCard().getName()} " escape="true" /> <h:outputText value="#{SDEPlotBean.getPlotCard().getVersion()}" escape="true" />
+        </title>
+        <h2>
+            <h:outputText value="#{SDEPlotBean.getPlotCard().getName()} " escape="true" /> <h:outputText value="#{SDEPlotBean.getPlotCard().getVersion()}" escape="true" />
+        </h2>
+        <div id="idCenterContent">
+            <div>
+                <div class="cardPictureContainer">
+                    <!-- Front of Card -->
+                    <img class="cardPicture" src="#{SDEPlotBean.getPlotCard().getPictureFront()}"/>
+                </div>
+                <div class="cardPictureContainer">
+                    <!-- Back of Card -->
+                    <img class="cardPicture" src="#{SDEPlotBean.getPlotCard().getPictureBack()}"/>
+                </div>
+            </div>
+            
+            <!-- replace with table -->
+            <div>
+                <div>
+                    <div class="inline">
+                        Card Type: <h:outputText value="#{SDEPlotBean.getPlotCard().getCardType()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Version: <h:outputText value="#{SDEPlotBean.getPlotCard().getVersion()}" escape="false" />
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Product Module: <h:outputText value="#{SDEPlotBean.getPlotCard().getModule()}" escape="false" />
+                    </div>
+                </div>
+            </div>
+            <ui:fragment rendered="#{SDEPlotBean.getPlotCard().validateDescription()}">
+                <div>
+                    Card Effect: <h:outputText value="#{SDEPlotBean.getPlotCard().getDescription()}" escape="false" />
+                </div>
+            </ui:fragment>
+            <div>
+                Power-Up: <h:outputText value="#{SDEPlotBean.getPlotCard().getPowerUp()}" escape="false" />
+            </div>
+            <div>
+                Plot: <h:outputText value="#{SDEPlotBean.getPlotCard().getPlot()}" escape="false" />
+            </div>
+            <ui:fragment rendered="#{SDEPlotBean.getPlotCard().validateFlavor()}">
+                <div>
+                    Flavor Text: <h:outputText value="#{SDEPlotBean.getPlotCard().getFlavor()}" escape="false" />
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEPlotBean.getPlotCard().isCustom()}">
+                <div>
+                    Author: <h:outputText value="#{SDEPlotBean.getPlotCard().getAuthor()}" escape="false" />
+                </div>
+                <div>
+                    Source: <h:outputText value="#{SDEPlotBean.getPlotCard().getSourceURL()}" escape="false" />
+                </div>
+            </ui:fragment>
+        </div>
+    </h:body>
+</html>
+

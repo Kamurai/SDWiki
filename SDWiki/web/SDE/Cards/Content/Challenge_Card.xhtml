@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head />
+    <h:body>
+        <title>
+            <h:outputText value="#{SDEChallengeBean.getChallengeCard().getName()} " escape="true" /> <h:outputText value="#{SDEChallengeBean.getChallengeCard().getVersion()}" escape="true" />
+        </title>
+        <h2>
+            <h:outputText value="#{SDEChallengeBean.getChallengeCard().getName()} " escape="true" /> <h:outputText value="#{SDEChallengeBean.getChallengeCard().getVersion()}" escape="true" />
+        </h2>
+        <div id="idCenterContent">
+            <div>
+                <div class="cardPictureContainer">
+                    <!-- Front of Card -->
+                    <img class="cardPicture" src="#{SDEChallengeBean.getChallengeCard().getPictureFront()}"/>
+                </div>
+                <div class="cardPictureContainer">
+                    <!-- Back of Card -->
+                    <img class="cardPicture" src="#{SDEChallengeBean.getChallengeCard().getPictureBack()}"/>
+                </div>
+            </div>
+            
+            <!-- replace with table -->
+            <div>
+                <div>
+                    <div class="inline">
+                        Card Type: <h:outputText value="#{SDEChallengeBean.getChallengeCard().getCardType()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Version: <h:outputText value="#{SDEChallengeBean.getChallengeCard().getVersion()}" escape="false" />
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Product Module: <h:outputText value="#{SDEChallengeBean.getChallengeCard().getModule()}" escape="false" />
+                    </div>
+                </div>
+            </div>
+            <ui:fragment rendered="#{SDEChallengeBean.getChallengeCard().validateDescription()}">
+                <div>
+                    Card Effect: <h:outputText value="#{SDEChallengeBean.getChallengeCard().getDescription()}" escape="false" />
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEChallengeBean.getChallengeCard().validateTrap()}">
+                <div>
+                    Trap: <h:outputText value="#{SDEChallengeBean.getChallengeCard().getTrap()}" escape="false" />
+                </div>
+            </ui:fragment>
+            <div>
+                Challenge: <h:outputText value="#{SDEChallengeBean.getChallengeCard().getChallenge()}" escape="false" />
+            </div>
+            <ui:fragment rendered="#{SDEChallengeBean.getChallengeCard().validateFlavor()}">
+                <div>
+                    Flavor Text: <h:outputText value="#{SDEChallengeBean.getChallengeCard().getFlavor()}" escape="false" />
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEChallengeBean.getChallengeCard().isCustom()}">
+                <div>
+                    Author: <h:outputText value="#{SDEChallengeBean.getChallengeCard().getAuthor()}" escape="false" />
+                </div>
+                <div>
+                    Source: <h:outputText value="#{SDEChallengeBean.getChallengeCard().getSourceURL()}" escape="false" />
+                </div>
+            </ui:fragment>
+        </div>
+    </h:body>
+</html>
+
