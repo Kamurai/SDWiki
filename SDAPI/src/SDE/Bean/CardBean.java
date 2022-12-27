@@ -67,6 +67,10 @@ public class CardBean extends SDE.Bean.Bean{
             this.title      = "Warband Monsters";
             this.header     = "Warband Monsters";
             this.cardList   = SDEDAONavigation.pullNavigationForWarbands();
+        }else if(type.compareTo("Prayer_Slips") == 0){
+            this.title      = "Prayer Slips";
+            this.header     = "Prayer Slips";
+            this.cardList   = SDEDAONavigation.pullNavigationForPrayerSlips();
         }else if(type.compareTo("Loot") == 0){
             this.title      = "Loot";
             this.header     = "Loot";
@@ -154,6 +158,17 @@ public class CardBean extends SDE.Bean.Bean{
             this.title      = "Warbands";
             this.header     = "Warbands";
             this.cardList   = SDEDAONavigation.pullNavigationForWarbandsByProductSet(version);
+        }else if(type.compareTo("Prayer_Slips") == 0){
+            this.title      = "Prayer Slips";
+            this.header     = "Prayer Slips";
+            
+            if(version.compareTo("All") == 0){
+                this.cardList   = SDEDAONavigation.pullNavigationForPrayerSlips();
+            }else if(Validator.validateVersion(version)){
+                this.cardList   = SDEDAONavigation.pullNavigationForPrayerSlips(version);
+            }else{
+                this.cardList   = SDEDAONavigation.pullNavigationForPrayerSlips();
+            }
         }else if(type.compareTo("Loot") == 0){
             this.title      = "Loot";
             this.header     = "Loot";
@@ -164,8 +179,7 @@ public class CardBean extends SDE.Bean.Bean{
                 this.cardList   = SDEDAONavigation.pullNavigationForLoot(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForLoot();
-            }
-            
+            }            
         }else if(type.compareTo("Treasure") == 0){
             this.title      = "Treasure";
             this.header     = "Treasure";
@@ -176,8 +190,7 @@ public class CardBean extends SDE.Bean.Bean{
                 this.cardList   = SDEDAONavigation.pullNavigationForTreasure(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForTreasure();
-            }
-            
+            }            
         }else if(type.compareTo("Relics") == 0){
             this.title      = "Relics";
             this.header     = "Relics";
@@ -303,10 +316,23 @@ public class CardBean extends SDE.Bean.Bean{
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForUtilities();
             }
+        }else if(type.compareTo("Prayer_Slips") == 0){
+            this.title      = "Prayer Slips";
+            this.header     = "Prayer Slips";
+            
+            if(version.compareTo("All") == 0){
+                this.cardList   = SDEDAONavigation.pullNavigationForPrayerSlips();
+            }else if(Validator.validateVersion(version)){
+                this.cardList   = SDEDAONavigation.pullNavigationForPrayerSlips(version);
+            }else{
+                this.cardList   = SDEDAONavigation.pullNavigationForPrayerSlips();
+            }
         }else if(type.compareTo("Loot") == 0){
             this.title      = "Loot";
             this.header     = "Loot";
-            if(Validator.includeUpToVersion(version, "FK")){
+            if(version.compareTo("All") == 0){
+                this.cardList   = SDEDAONavigation.pullNavigationForLoot();
+            }else if(Validator.includeUpToVersion(version, "FK")){
                 this.cardList   = SDEDAONavigation.pullNavigationForLoot(version);
             }else if(version.compareTo("2.0") == 0){
                 this.cardList   = SDEDAONavigation.pullNavigationForLoot(version, playMode);
@@ -371,6 +397,16 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Plot_Cards") == 0){
             this.title      = "Plot Cards";
             this.header     = "Plot Cards";
+            if(version.compareTo("All") == 0){
+                this.cardList   = SDEDAONavigation.pullNavigationForTreasureByPlayMode(playMode);
+            }else if(version.compareTo("2.0") == 0){
+                this.cardList   = SDEDAONavigation.pullNavigationForPlotCardsByProductSetAndPlayMode(version, playMode);
+            }else if(version.compareTo("2.0 PP") == 0){
+                this.cardList   = SDEDAONavigation.pullNavigationForPlotCards(version);
+            }else{
+                this.cardList   = SDEDAONavigation.pullNavigationForPlotCards();
+            }
+            
             if(Validator.includeFromVersion(version, "2.0")){
                 this.cardList   = SDEDAONavigation.pullNavigationForPlotCardsByProductSetAndPlayMode(version, playMode);
             }else{

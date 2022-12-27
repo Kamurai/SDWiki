@@ -14,7 +14,7 @@ import java.util.List;
 public class ExploreCharacterBean extends CardBean{
     private ExploreCharacter exploreCharacter;
     private List<SDE.NavItem> exploreCharacterList;
-    private String layout = "/SDE/Cards/Layouts/ExploreCharacter.xhtml";
+    private final String LAYOUT = "/SDE/Cards/Layouts/ExploreCharacter.xhtml";
     
     public ExploreCharacterBean(){
         super();
@@ -37,7 +37,7 @@ public class ExploreCharacterBean extends CardBean{
         }
 //        this.exploreCharacterList  = SDEDAONavigation.pullNavigationForHeroes();
         
-        return layout;
+        return LAYOUT;
     }
 
     public String setDisplayPage(String link, String version){
@@ -48,7 +48,7 @@ public class ExploreCharacterBean extends CardBean{
         }
 //        this.exploreCharacterList  = SDEDAONavigation.pullNavigationForHeroesByProductSet(version);
         
-        return layout;
+        return LAYOUT;
     }
 
     public List<SDE.NavItem> getExploreCharacterList() {

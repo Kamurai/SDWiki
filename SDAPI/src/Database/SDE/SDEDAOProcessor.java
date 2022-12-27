@@ -1,13 +1,6 @@
 package Database.SDE;
 
-import SDE.Card;
-import SDE.Character;
-import SDE.ExploreCharacter;
-import SDE.Pet;
-import SDE.Keyword;
-import SDE.Ability;
-import SDE.Offense;
-import SDE.Defense;
+import SDE.*;
 import java.sql.ResultSet;
 
 public class SDEDAOProcessor {
@@ -42,8 +35,8 @@ public class SDEDAOProcessor {
         return result;
     }
     
-    public static Character getCharacter(ResultSet rs){
-        Character result = new Character();
+    public static SDE.Character getCharacter(ResultSet rs){
+        SDE.Character result = new SDE.Character();
     
         try{
             result.setAffinity(rs.getString("AffinityType"));
@@ -103,18 +96,81 @@ public class SDEDAOProcessor {
         return result;
     }
     
+    public static UtilityCard getUtilityCard(ResultSet rs){
+        UtilityCard result = new UtilityCard();
+    
+        try{
+            result.setDescription(rs.getString("UtilityDescription"));
+        }catch(Exception e){
+            e.printStackTrace();
+            
+            System.out.print(e.getMessage());
+        }finally{
+            //closeConnection();
+        }
+    
+        return result;
+    }
+    
+    public static ConsulPowerUpCard getConsulPowerUp(ResultSet rs){
+        ConsulPowerUpCard result = new ConsulPowerUpCard();
+    
+        try{
+            result.setPowerUp(rs.getString("PowerUp"));
+        }catch(Exception e){
+            e.printStackTrace();
+            
+            System.out.print(e.getMessage());
+        }finally{
+            //closeConnection();
+        }
+    
+        return result;
+    }
+    
+    public static DifficultyCard getDifficultyCard(ResultSet rs){
+        DifficultyCard result = new DifficultyCard();
+    
+        try{
+            result.setDifficultyMode(rs.getString("DifficultyMode"));
+        }catch(Exception e){
+            e.printStackTrace();
+            
+            System.out.print(e.getMessage());
+        }finally{
+            //closeConnection();
+        }
+    
+        return result;
+    }
+    
     public static Pet processPet(ResultSet rs){
         Pet result = new Pet();
-        
-//        result.clone(getPet(rs));
-//        result.clone(getExploreCharacter(rs));
-//        result.clone(getCharacter(rs));
-//        result.clone(getCard(rs));
         
         result.partialClone(getCard(rs));
         result.partialClone(getCharacter(rs));
         result.partialClone(getExploreCharacter(rs));
         result.partialClone(getPet(rs));
+        
+        return result;
+    }
+    
+    public static ConsulPowerUpCard processConsulPowerUp(ResultSet rs){
+        ConsulPowerUpCard result = new ConsulPowerUpCard();
+        
+        result.partialClone(getCard(rs));
+        result.partialClone(getUtilityCard(rs));
+//        result.partialClone(getConsulPowerUp(rs));
+        
+        return result;
+    }
+    
+    public static DifficultyCard processDifficultyCard(ResultSet rs){
+        DifficultyCard result = new DifficultyCard();
+        
+        result.partialClone(getCard(rs));
+        result.partialClone(getUtilityCard(rs));
+        result.partialClone(getDifficultyCard(rs));
         
         return result;
     }

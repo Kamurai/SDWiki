@@ -39,6 +39,18 @@ public class UtilityCard extends Card{
         );
         this.description = description;
     }
+    
+    public void clone(UtilityCard source){
+        partialClone(source);
+        clone((Card) source);
+    }
+    
+    public void partialClone(UtilityCard source){
+        System.out.print("partialClone: this.description = "+this.description);
+        System.out.print("partialClone: source.description = "+source.description);
+        
+        this.description   = source.description;
+    }
 
     public String getDescription() {
         return description;
@@ -46,5 +58,13 @@ public class UtilityCard extends Card{
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public boolean validateDescription() {
+        boolean result = false;
+        if (getDescription().compareTo("") != 0) {
+            result = true;
+        }
+        return result;
     }
 }

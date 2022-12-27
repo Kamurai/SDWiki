@@ -15,6 +15,7 @@ import Database.SDE.*;
 public class UtilityBean extends CardBean{
     private UtilityCard utilityCard;
     private List<SDE.NavItem> utilityCardList;
+    private String layout = "/SDE/Cards/Layouts/Utility_Card.xhtml";
     
     public UtilityBean(){
         super();
@@ -35,9 +36,9 @@ public class UtilityBean extends CardBean{
         if(path.compareTo("") != 0){
             this.utilityCard  = SDEDAOOne.pullOneUtilityCard(path);
         }
-        this.utilityCardList  = SDEDAONavigation.pullNavigationForUtilitiesByProductSet(utilityCard.getVersion());
+//        this.utilityCardList  = SDEDAONavigation.pullNavigationForUtilitiesByProductSet(utilityCard.getVersion());
         
-        return "./Layout.xhtml";
+        return layout;
     }
 
     public List<SDE.NavItem> getUtilityCardList() {

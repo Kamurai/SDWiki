@@ -51,6 +51,30 @@ public class MightyMonsterCard extends UtilityCard {
         this.condition  = condition;
     }
 
+    public boolean validateTargets() {
+        boolean result = false;
+        if (getTargets().compareTo("") != 0) {
+            result = true;
+        }
+        return result;
+    }
+
+    public boolean validateBonus() {
+        boolean result = false;
+        if (getBonus().compareTo("") != 0) {
+            result = true;
+        }
+        return result;
+    }
+
+    public boolean validateCondition() {
+        boolean result = false;
+        if (getCondition().compareTo("") != 0) {
+            result = true;
+        }
+        return result;
+    }
+
     public String getTargets() {
         return targets;
     }

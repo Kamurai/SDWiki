@@ -1,5 +1,6 @@
 package Main;
 
+import Main.Utility.Validator;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -85,10 +86,7 @@ public class LinkFetcher{
         String extension = input.substring(inputSize-4, inputSize);
         
         if(
-           extension.compareTo(".png") == 0 || 
-           extension.compareTo(".jpg") == 0 || 
-           extension.compareTo(".txt") == 0 || 
-           extension.compareTo(".pdf") == 0 
+           Validator.validateFileExtension(extension)
         ){
             result = true;
         }

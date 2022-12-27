@@ -14,7 +14,7 @@ import Database.SDE.*;
 @RequestScoped
 public class TerrainBean extends CardBean{
     private TerrainCard terrainCard;
-    private List<SDE.NavItem> terrainCardList;
+//    private List<SDE.NavItem> terrainCardList;
     private String layout = "/SDE/Cards/Layouts/Terrain_Card.xhtml";
     
     public TerrainBean(){
@@ -22,7 +22,7 @@ public class TerrainBean extends CardBean{
         this.uni                = new Universal();
         
         this.terrainCard        = new TerrainCard();
-        this.terrainCardList    = new ArrayList<SDE.NavItem>();
+//        this.terrainCardList    = new ArrayList<SDE.NavItem>();
     }
 
     public TerrainCard getTerrainCard() {
@@ -52,7 +52,7 @@ public class TerrainBean extends CardBean{
 //        return layout;
 //    }
 
-    public List<SDE.NavItem> getTerrainCardList() {
-        return terrainCardList;
-    }
+//    public List<SDE.NavItem> getTerrainCardList() {
+//        return terrainCardList;
+//    }
 }
