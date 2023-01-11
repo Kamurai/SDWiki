@@ -15,25 +15,21 @@
         </h2>
         <div id="idCenterContent">
             <p>
-                These are the Keywords available in Super Dungeon.
+                These are the Keywords available in Ninja All Stars.
             </p>
-            #{NASBean.pullKeywords()}
+            #{NASLexiconBean.pullKeywords()}
             
             <div class="xRow">
                 <div class="inline keyword version">Version</div>
-                <tab/>
-                <div class="inline keyword playMode">PlayMode</div>
                 <tab/>
                 <div class="inline keyword name">Keyword</div>
                 <tab/>
                 <div class="inline keyword definition">Definition</div>
             </div>
-            <ui:repeat var="x" value="#{NASBean.getKeywords()}" size="#{NASBean.getKeywords().size()}" varStatus="myVarStatus" >
+            <ui:repeat var="x" value="#{NASLexiconBean.getKeywords()}" size="#{NASLexiconBean.getKeywords().size()}" varStatus="myVarStatus" >
                 <ui:fragment rendered="#{x.validateKeyword()}">
                     <div class="xRow">
                         <div class="inline keyword version"><!-- Version -->#{x.getVersion()}</div>
-                        <tab/>
-                        <div class="inline keyword playMode"><!-- PlayMode -->#{x.getPlayMode()}</div>
                         <tab/>
                         <div class="inline keyword name"><!-- Keyword -->#{x.getName()}</div>
                         <tab/>

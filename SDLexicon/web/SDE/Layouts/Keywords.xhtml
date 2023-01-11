@@ -16,7 +16,7 @@
             <Header id="idHeaderRow">
                 <div id="idHeaderRowCenter">
                     <h:form>
-                        <ui:include src="./Universal/Logo.xhtml"></ui:include>
+                        <ui:include src="/SDE/Universal/Logo.xhtml"></ui:include>
                     </h:form>
                 </div>
             </Header>
@@ -34,12 +34,12 @@
                         <ui:include src="/Universal/NavigationHeader.xhtml"></ui:include>
                     </h:form>
                     <h:form>
-                        <ui:include src="/NAS/Navigation.xhtml"></ui:include>
+                        <ui:include src="/SDE/Navigation.xhtml"></ui:include>
                     </h:form>
                 </div>
                 <div id="idCenterRowMain">
                     <h:form>
-                       <ui:include src="#{NASLexiconBean.getContent()}"></ui:include>
+                       <ui:include src="#{SDELexiconBean.getContent()}"></ui:include>
                     </h:form>
                 </div>
                 <div id="idCenterRowRight">

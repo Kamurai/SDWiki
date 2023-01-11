@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://java.sun.com/jsf/html"
       xmlns:f="http://java.sun.com/jsf/core"
@@ -9,7 +9,8 @@
     </h:head>
     <h:body>
         <h:form>
-            <ui:include src="#{NASLexiconBean.setLayout('Index')}"></ui:include>
+            <!-- #{RRILexiconBean.setPage("Keywords")} -->
+            <ui:include src="#{RRILexiconBean.setLayout('Keywords')}"></ui:include>
         </h:form>
     </h:body>
 </html>
