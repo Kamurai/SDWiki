@@ -1,10 +1,10 @@
 package NAS.Bean;
 
-import Database.SDE.SDEDAOAll;
+import Database.NAS.NASDAOAll;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
-import SDE.*;
+import NAS.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,37 +12,31 @@ import java.util.List;
 @RequestScoped
 public class LexiconBean extends Main.Bean.LexiconBean{
     private List<Keyword>   keywords;
-    private List<Ability>   abilities;
+    private final String LAYOUT = "/NAS/Layouts/Keywords.xhtml";
     
     public LexiconBean(){
         super();
         
         this.keywords   = new ArrayList<Keyword>();
-        this.abilities  = new ArrayList<Ability>();
     }
 
     public List<Keyword> getKeywords() {
         return keywords;
     }
 
-    public List<Ability> getAbilities() {
-        return abilities;
-    }
-    
     public void pullKeywords(){
         if(version.equals("")){
-            keywords = SDEDAOAll.pullAllKeywords();
+            keywords = NASDAOAll.pullAllKeywords();
         }else{
-            keywords = SDEDAOAll.pullAllKeywords(version);
+            keywords = NASDAOAll.pullAllKeywords(version);
         }
     }
     
-    public void pullAbilities(){
-        if(version.equals("")){
-            abilities = SDEDAOAll.pullAllAbilities();
-        }else{
-            abilities = SDEDAOAll.pullAllAbilities(version);
-        }
+    @Override
+    public String setLayout(String page){
+        this.page = page;
+        
+        return LAYOUT;
     }
     
     @Override
@@ -50,11 +44,9 @@ public class LexiconBean extends Main.Bean.LexiconBean{
         String result = "";
         
         if(page.compareTo("Index") == 0){
-            result = "./Content/Index.xhtml";
+            result = "/NAS/Content/Index.xhtml";
         }else if(page.compareTo("Keywords") == 0){
-            result = "../Content/Keywords.xhtml";
-        }else if(page.compareTo("Abilities") == 0){
-            result = "../Content/Abilities.xhtml";
+            result = "/NAS/Content/Keywords.xhtml";
         }
         
         return result;

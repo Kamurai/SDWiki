@@ -14,6 +14,7 @@ import java.util.List;
 public class LexiconBean extends Main.Bean.LexiconBean{
     private List<Keyword>   keywords;
     private List<Ability>   abilities;
+    private final String LAYOUT = "/SDE/Layouts/Keywords.xhtml";
     
     public LexiconBean(){
         super();
@@ -47,15 +48,22 @@ public class LexiconBean extends Main.Bean.LexiconBean{
     }
     
     @Override
+    public String setLayout(String page){
+        this.page = page;
+        
+        return LAYOUT;
+    }
+    
+    @Override
     public String getContent(){
         String result = "";
         
         if(page.compareTo("Index") == 0){
-            result = "./Content/Index.xhtml";
+            result = "/SDE/Content/Index.xhtml";
         }else if(page.compareTo("Keywords") == 0){
-            result = "../Content/Keywords.xhtml";
+            result = "/SDE/Content/Keywords.xhtml";
         }else if(page.compareTo("Abilities") == 0){
-            result = "../Content/Abilities.xhtml";
+            result = "/SDE/Content/Abilities.xhtml";
         }
         
         return result;
