@@ -29,7 +29,7 @@ public class NASDAOAll extends NASDAO{
                 result.add(
                     NASDAOProcessor.getKeyword(rs)
                 );
-                System.out.print(result.get(result.size()-1).getName());
+//                System.out.print(result.get(result.size()-1).getName());
             }
         }catch(Exception e){
             e.printStackTrace();
@@ -52,10 +52,13 @@ public class NASDAOAll extends NASDAO{
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
+            System.out.print("NAS Keywords by version");
+            
             while(rs.next()){
                 result.add(
                     NASDAOProcessor.getKeyword(rs)
                 );
+//                System.out.print(result.get(result.size()-1).getName());
             }
         }catch(Exception e){
             e.printStackTrace();

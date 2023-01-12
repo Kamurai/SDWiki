@@ -29,7 +29,7 @@ public class RRIDAOAll extends RRIDAO{
                 result.add(
                     RRIDAOProcessor.getKeyword(rs)
                 );
-                System.out.print(result.get(result.size()-1).getName());
+//                System.out.print(result.get(result.size()-1).getName());
             }
         }catch(Exception e){
             e.printStackTrace();
@@ -52,10 +52,13 @@ public class RRIDAOAll extends RRIDAO{
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
+            System.out.print("RRI Keywords by version");
+            
             while(rs.next()){
                 result.add(
                     RRIDAOProcessor.getKeyword(rs)
                 );
+//                System.out.print(result.get(result.size()-1).getName());
             }
         }catch(Exception e){
             e.printStackTrace();

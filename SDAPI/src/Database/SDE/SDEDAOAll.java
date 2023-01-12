@@ -26,13 +26,10 @@ public class SDEDAOAll extends SDEDAO{
             
             while(rs.next()){
                 result.add(
-                    new Keyword(
-                        rs.getString("KeywordName"),
-                        rs.getString("KeywordDescription"),
-                        rs.getString("KeywordVersion"),
-                        rs.getString("PlayMode")
-                    )
+                    SDEDAOProcessor.getKeyword(rs)
                 );
+                
+                System.out.print(result.get(result.size()-1).getName());
             }
         }catch(Exception e){
             e.printStackTrace();
@@ -57,13 +54,10 @@ public class SDEDAOAll extends SDEDAO{
             
             while(rs.next()){
                 result.add(
-                    new Keyword(
-                        rs.getString("KeywordName"),
-                        rs.getString("KeywordDescription"),
-                        rs.getString("KeywordVersion"),
-                        rs.getString("PlayMode")
-                    )
+                    SDEDAOProcessor.getKeyword(rs)
                 );
+                
+                System.out.print(result.get(result.size()-1).getName());
             }
         }catch(Exception e){
             e.printStackTrace();
@@ -101,6 +95,8 @@ public class SDEDAOAll extends SDEDAO{
                         rs.getString("PlayMode")
                     )
                 );
+                
+                System.out.print(result.get(result.size()-1).getName());
             }
         }catch(Exception e){
             e.printStackTrace();
@@ -138,6 +134,8 @@ public class SDEDAOAll extends SDEDAO{
                         rs.getString("PlayMode")
                     )
                 );
+                
+                System.out.print(result.get(result.size()-1).getName());
             }
         }catch(Exception e){
             e.printStackTrace();
