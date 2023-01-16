@@ -1,4 +1,4 @@
---drop table Affinities, Attributes, Teams, Keywords, Cards, Shinobi, MoonCards, Utilities, AffinityAssignments, KeywordAssignments, TeamAssignments;
+--drop table Affinities, Attributes, Teams, Keywords, Cards, Shinobi, MoonCards, Utilities, AffinityAssignments, KeywordAssignments, TeamAssignments, Components, CustomComponents;
 
 create table Affinities (AffinityIndex bigint IDENTITY(0,1) PRIMARY KEY, AffinityType varchar(50) not null);
 insert into Affinities (AffinityType) VALUES ('Air'); --0
@@ -13,6 +13,9 @@ insert into Attributes (Attribute) VALUES ('Movement'); --0
 insert into Attributes (Attribute) VALUES ('Attack'); --1
 insert into Attributes (Attribute) VALUES ('Defense'); --2
 insert into Attributes (Attribute) VALUES ('Koban'); --3
+
+--Components
+CREATE TABLE Components (ComponentIndex bigint IDENTITY(0,1) PRIMARY KEY);
 
 --Teams
 create table Teams (TeamIndex bigint IDENTITY(0,1) PRIMARY KEY, TeamName varchar(20) not null, Quickplay varchar(100) not null);
@@ -35,6 +38,88 @@ create table Utilities (UtilityIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex
 create table AffinityAssignments (AffinityAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, AffinityIndex bigint not null, ShinobiIndex bigint, TeamIndex bigint, MoonCardIndex bigint);
 create table KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordIndex bigint not null, ShinobiIndex bigint, TeamIndex bigint, UtilityIndex bigint);
 create table TeamAssignments (TeamAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, TeamIndex bigint not null, ShinobiIndex bigint not null);
+
+--Custom Components
+CREATE TABLE CustomComponents (CustomComponentIndex bigint IDENTITY(0,1) PRIMARY KEY, ComponentIndex bigint not null, Author varchar(30) not null, SourceURL varchar(250) not null);
+
+
+insert into Components DEFAULT VALUES; --0
+insert into Components DEFAULT VALUES; --1
+insert into Components DEFAULT VALUES; --2
+insert into Components DEFAULT VALUES; --3
+insert into Components DEFAULT VALUES; --4
+insert into Components DEFAULT VALUES; --5
+insert into Components DEFAULT VALUES; --6
+insert into Components DEFAULT VALUES; --7
+insert into Components DEFAULT VALUES; --8
+insert into Components DEFAULT VALUES; --9
+
+insert into Components DEFAULT VALUES; --20
+insert into Components DEFAULT VALUES; --21
+insert into Components DEFAULT VALUES; --22
+insert into Components DEFAULT VALUES; --23
+insert into Components DEFAULT VALUES; --24
+insert into Components DEFAULT VALUES; --25
+insert into Components DEFAULT VALUES; --26
+insert into Components DEFAULT VALUES; --27
+insert into Components DEFAULT VALUES; --28
+insert into Components DEFAULT VALUES; --29
+
+insert into Components DEFAULT VALUES; --30
+insert into Components DEFAULT VALUES; --31
+insert into Components DEFAULT VALUES; --32
+insert into Components DEFAULT VALUES; --33
+insert into Components DEFAULT VALUES; --34
+insert into Components DEFAULT VALUES; --35
+insert into Components DEFAULT VALUES; --36
+insert into Components DEFAULT VALUES; --37
+insert into Components DEFAULT VALUES; --38
+insert into Components DEFAULT VALUES; --39
+
+insert into Components DEFAULT VALUES; --40
+insert into Components DEFAULT VALUES; --41
+insert into Components DEFAULT VALUES; --42
+insert into Components DEFAULT VALUES; --43
+insert into Components DEFAULT VALUES; --44
+insert into Components DEFAULT VALUES; --45
+insert into Components DEFAULT VALUES; --46
+insert into Components DEFAULT VALUES; --47
+insert into Components DEFAULT VALUES; --48
+insert into Components DEFAULT VALUES; --49
+
+insert into Components DEFAULT VALUES; --50
+insert into Components DEFAULT VALUES; --51
+insert into Components DEFAULT VALUES; --52
+insert into Components DEFAULT VALUES; --53
+insert into Components DEFAULT VALUES; --54
+insert into Components DEFAULT VALUES; --55
+insert into Components DEFAULT VALUES; --56
+insert into Components DEFAULT VALUES; --57
+insert into Components DEFAULT VALUES; --58
+insert into Components DEFAULT VALUES; --59
+
+insert into Components DEFAULT VALUES; --60
+insert into Components DEFAULT VALUES; --61
+insert into Components DEFAULT VALUES; --62
+insert into Components DEFAULT VALUES; --63
+insert into Components DEFAULT VALUES; --64
+insert into Components DEFAULT VALUES; --65
+insert into Components DEFAULT VALUES; --66
+insert into Components DEFAULT VALUES; --67
+insert into Components DEFAULT VALUES; --68
+insert into Components DEFAULT VALUES; --69
+
+insert into Components DEFAULT VALUES; --70
+insert into Components DEFAULT VALUES; --71
+insert into Components DEFAULT VALUES; --72
+insert into Components DEFAULT VALUES; --73
+insert into Components DEFAULT VALUES; --74
+insert into Components DEFAULT VALUES; --75
+insert into Components DEFAULT VALUES; --76
+insert into Components DEFAULT VALUES; --77
+insert into Components DEFAULT VALUES; --78
+--insert into Components DEFAULT VALUES; --79
+
 --Table Load 1
 --NAS
 --Keywords
@@ -140,67 +225,163 @@ create table TeamAssignments (TeamAssignmentIndex bigint IDENTITY(0,1) PRIMARY K
 --Teams
 
 --Air Shrine Clan --CardIndex 0 --TeamIndex 0
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Air Shrine Clan', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Air_Shrine_Clan.png', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Air_Shrine_Clan_back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Teams/Air_Shrine_Clan.xhtml', 
+'Team', '1.0', 'NAS Core Set',
+''
+);
 insert into Teams (TeamName, Quickplay)
 values('Air Shrine Clan', '1x Chunin<br>1x Madoushi<br>2x Kunoichi<br>2x Yajiri<br>3x Kaiken');
 insert into AffinityAssignments (TeamIndex, AffinityIndex) VALUES (0, 0); --Air
 insert into KeywordAssignments (TeamIndex, KeywordIndex) VALUES (0, 0); --Combat Results
 
 --Earth Shrine Clan --CardIndex 1 --TeamIndex 1
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Earth Shrine Clan', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Earth_Shrine_Clan.png', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Earth_Shrine_Clan_back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Teams/Earth_Shrine_Clan.xhtml', 
+'Team', '1.0', 'NAS Core Set',
+''
+);
 insert into Teams (TeamName, Quickplay)
 values('Earth Shrine Clan', '1x Chunin<br>1x Madoushi<br>2x Kunoichi<br>2x Yajiri<br>3x Kaiken');
 insert into AffinityAssignments (TeamIndex, AffinityIndex) VALUES (1, 1); --Earth
 insert into KeywordAssignments (TeamIndex, KeywordIndex) VALUES (1, 0); --Combat Results
 
 --Fire Shrine Clan --CardIndex 2 --TeamIndex 2
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Fire Shrine Clan', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Fire_Shrine_Clan.png', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Fire_Shrine_Clan_back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Teams/Fire_Shrine_Clan.xhtml', 
+'Team', '1.0', 'NAS Core Set',
+''
+);
 insert into Teams (TeamName, Quickplay)
 values('Fire Shrine Clan', '1x Chunin<br>1x Madoushi<br>2x Kunoichi<br>2x Yajiri<br>3x Kaiken');
 insert into AffinityAssignments (TeamIndex, AffinityIndex) VALUES (2, 2); --Fire
 insert into KeywordAssignments (TeamIndex, KeywordIndex) VALUES (2, 0); --Combat Results
 
 --Spirit Shrine Clan --CardIndex 3 --TeamIndex 3
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Spirit Shrine Clan', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Spirit_Shrine_Clan.png', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Spirit_Shrine_Clan_back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Teams/Spirit_Shrine_Clan.xhtml', 
+'Team', '1.0', 'NAS Core Set',
+''
+);
 insert into Teams (TeamName, Quickplay)
 values('Spirit Shrine Clan', '1x Chunin<br>1x Madoushi<br>2x Kunoichi<br>2x Yajiri<br>3x Kaiken');
 insert into AffinityAssignments (TeamIndex, AffinityIndex) VALUES (3, 3); --Spirit
 insert into KeywordAssignments (TeamIndex, KeywordIndex) VALUES (3, 0); --Combat Results
 
 --Void Shrine Clan --CardIndex 4 --TeamIndex 4
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Void Shrine Clan', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Void_Shrine_Clan.png', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Void_Shrine_Clan_back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Teams/Void_Shrine_Clan.xhtml', 
+'Team', '1.0', 'NAS Core Set',
+''
+);
 insert into Teams (TeamName, Quickplay)
 values('Void Shrine Clan', '1x Chunin<br>1x Madoushi<br>2x Kunoichi<br>2x Yajiri<br>3x Kaiken');
 insert into AffinityAssignments (TeamIndex, AffinityIndex) VALUES (4, 4); --Void
 insert into KeywordAssignments (TeamIndex, KeywordIndex) VALUES (4, 0); --Combat Results
 
 --Water Shrine Clan --CardIndex 5 --TeamIndex 5
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Water Shrine Clan', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Water_Shrine_Clan.png', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Water_Shrine_Clan_back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Teams/Water_Shrine_Clan.xhtml', 
+'Team', '1.0', 'NAS Core Set',
+''
+);
 insert into Teams (TeamName, Quickplay)
 values('Water Shrine Clan', '1x Chunin<br>1x Madoushi<br>2x Kunoichi<br>2x Yajiri<br>3x Kaiken');
 insert into AffinityAssignments (TeamIndex, AffinityIndex) VALUES (5, 5); --Water
 insert into KeywordAssignments (TeamIndex, KeywordIndex) VALUES (5, 0); --Combat Results
 
 --Ijin Clan --CardIndex 6 --TeamIndex 6
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Ijin Clan', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Ijin_Clan.png', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Ijin_Clan_back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Teams/Ijin_Clan.xhtml', 
+'Team', '1.0', 'NAS Core Set',
+''
+);
 insert into Teams (TeamName, Quickplay)
 values('Ijin Clan', '');
 insert into AffinityAssignments (TeamIndex, AffinityIndex) VALUES (6, 4); --Void
 
 --Ika Clan --CardIndex 7 --TeamIndex 7
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Ika Clan', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Ika_Clan.png', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Ika_Clan_back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Teams/Ika_Clan.xhtml', 
+'Team', '1.0', 'NAS Core Set',
+''
+);
 insert into Teams (TeamName, Quickplay)
 values('Ika Clan', '');
 insert into AffinityAssignments (TeamIndex, AffinityIndex) VALUES (7, 5); --Water
 
 --Kitsune Clan --CardIndex 8 --TeamIndex 8
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Kitsune Clan', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Kitsune_Clan.png', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Kitsune_Clan_back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Teams/Kitsune_Clan.xhtml', 
+'Team', '1.0', 'NAS Core Set',
+''
+);
 insert into Teams (TeamName, Quickplay)
 values('Kitsune Clan', '');
 insert into AffinityAssignments (TeamIndex, AffinityIndex) VALUES (8, 3); --Spirit
 
 --Tanchyo Clan --CardIndex 9 --TeamIndex 9
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Tanchyo Clan', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Tanchyo_Clan.png', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Tanchyo_Clan_back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Teams/Tanchyo_Clan.xhtml', 
+'Team', '1.0', 'NAS Core Set',
+''
+);
 insert into Teams (TeamName, Quickplay)
 values('Tanchyo Clan', '');
 insert into AffinityAssignments (TeamIndex, AffinityIndex) VALUES (9, 0); --Air
 
 --Tora Clan --CardIndex 10 --TeamIndex 10
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Tora Clan', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Tora_Clan.png', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Tora_Clan_back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Teams/Tora_Clan.xhtml', 
+'Team', '1.0', 'NAS Core Set',
+''
+);
 insert into Teams (TeamName, Quickplay)
 values('Tora Clan', '');
 insert into AffinityAssignments (TeamIndex, AffinityIndex) VALUES (10, 2); --Fire
 
 --Yamazaru Clan --CardIndex 11 --TeamIndex 11
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Yamazaru Clan', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Yamazaru_Clan.png', 
+'http://htkb.info/NAS/Cards/Teams/Card_Team_Yamazaru_Clan_back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Teams/Yamazaru_Clan.xhtml', 
+'Team', '1.0', 'NAS Core Set',
+''
+);
 insert into Teams (TeamName, Quickplay)
 values('Yamazaru Clan', '');
 insert into AffinityAssignments (TeamIndex, AffinityIndex) VALUES (11, 1); --Earth
@@ -213,10 +394,10 @@ insert into AffinityAssignments (TeamIndex, AffinityIndex) VALUES (11, 1); --Ear
 --Bomechan --CardIndex 12 --ShinobiIndex 0
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Bomechan', 
-'http://htkb.info/NAS/Cards/Shinobi/Ijin_Bomechan.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ijin_Bomechan_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ijin_Bomechan.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ijin_Bomechan_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Bomechan.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'The Moon Palace is just another castle, and castles were built to fall.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
@@ -236,10 +417,10 @@ insert into TeamAssignments (ShinobiIndex, TeamIndex) VALUES (0, 6); --Clan Ijin
 --Yobuko --CardIndex 13 --ShinobiIndex 1
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Yobuko', 
-'http://htkb.info/NAS/Cards/Shinobi/Ijin_Yobuko.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ijin_Yobuko_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ijin_Yobuko.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ijin_Yobuko_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Yobuko.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 ''
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
@@ -260,10 +441,10 @@ insert into TeamAssignments (ShinobiIndex, TeamIndex) VALUES (1, 6); --Clan Ijin
 --Akkorokamui --CardIndex 14 --ShinobiIndex 2
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Akkorokamui', 
-'http://htkb.info/NAS/Cards/Shinobi/Ika_Akkorokamui.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ika_Akkorokamui_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ika_Akkorokamui.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ika_Akkorokamui_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Akkorokamui.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Oh, there''s a fat fish.  Swing wide.  We''ll take them as they turn into the wind.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
@@ -283,10 +464,10 @@ insert into TeamAssignments (ShinobiIndex, TeamIndex) VALUES (2, 7); --Clan Ika
 --Mizuchi --CardIndex 15 --ShinobiIndex 3
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Mizuchi', 
-'http://htkb.info/NAS/Cards/Shinobi/Ika_Mizuchi.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ika_Mizuchi_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ika_Mizuchi.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ika_Mizuchi_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Mizuchi.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Come about!  There.  Hold that course, and stand by the gunnels.  Ramming speed!'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
@@ -306,10 +487,10 @@ insert into TeamAssignments (ShinobiIndex, TeamIndex) VALUES (3, 7); --Clan Ika
 --Tamamo No Mae --CardIndex 16 --ShinobiIndex 4
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Tamamo No Mae', 
-'http://htkb.info/NAS/Cards/Shinobi/Kitsune_Tamamo_No_Mae.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Kitsune_Tamamo_No_Mae_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Kitsune_Tamamo_No_Mae.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Kitsune_Tamamo_No_Mae_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Tamamo_No_Mae.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Come closer.  You remind me of someone I knew - long ago.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
@@ -327,10 +508,10 @@ insert into TeamAssignments (ShinobiIndex, TeamIndex) VALUES (4, 8); --Clan Kits
 --Uzumaki --CardIndex 17 --ShinobiIndex 5
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Uzumaki', 
-'http://htkb.info/NAS/Cards/Shinobi/Kitsune_Uzumaki.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Kitsune_Uzumaki_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Kitsune_Uzumaki.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Kitsune_Uzumaki_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Uzumaki.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'There''s more to life than these haunted trees, and I''m going to find it!  You''ll see!'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
@@ -349,10 +530,10 @@ insert into TeamAssignments (ShinobiIndex, TeamIndex) VALUES (5, 8); --Clan Kits
 --Karura --CardIndex 18 --ShinobiIndex 6
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Uzumaki', 
-'http://htkb.info/NAS/Cards/Shinobi/Tanchyo_Karura.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Tanchyo_Karura_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Tanchyo_Karura.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Tanchyo_Karura_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Karura.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Running won''t save you, little man.  I can fly!'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
@@ -369,10 +550,10 @@ insert into TeamAssignments (ShinobiIndex, TeamIndex) VALUES (6, 9); --Clan Tanc
 --Zenyo Ryu --CardIndex 19 --ShinobiIndex 7
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Uzumaki', 
-'http://htkb.info/NAS/Cards/Shinobi/Tanchyo_Karura.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Tanchyo_Karura_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Tanchyo_Karura.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Tanchyo_Karura_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Karura.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Running won''t save you, little man.  I can fly!'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
@@ -392,10 +573,10 @@ insert into TeamAssignments (ShinobiIndex, TeamIndex) VALUES (7, 9); --Clan Tanc
 --Byakko --CardIndex 20 --ShinobiIndex 8
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Byakko', 
-'http://htkb.info/NAS/Cards/Shinobi/Tora_Byakko.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Tora_Byakko_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Tora_Byakko.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Tora_Byakko_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Byakko.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'I am not touched or blessed<br>by the White Tiger.<br>I am the White Tiger!'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
@@ -403,8 +584,8 @@ VALUES (20,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Byakko.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Byakko_back.png', 
 'Masculine', 'Small', 'Hero', 5, 4, 3, 24, 0, 1, '');
-insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (8, 0); --Earth
-insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (8, 0); --Fire
+insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (8, 1); --Earth
+insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (8, 2); --Fire
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (8, 13); --Close Combat Master
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (8, 37); --Hero
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (8, 52); --Precision Strike
@@ -417,10 +598,10 @@ insert into TeamAssignments (ShinobiIndex, TeamIndex) VALUES (8, 10); --Clan Tor
 --Ryu --CardIndex 21 --ShinobiIndex 9
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Ryu', 
-'http://htkb.info/NAS/Cards/Shinobi/Tora_Ryu.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Tora_Ryu_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Tora_Ryu.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Tora_Ryu_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Ryu.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'I learned much in my time away from the Tora.  Here, let me show you.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
@@ -428,7 +609,7 @@ VALUES (21,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Ryu.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Ryu_back.png', 
 'Masculine', 'Small', 'Hero', 5, 3, 4, 21, 0, 1, '');
-insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (9, 0); --Fire
+insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (9, 2); --Fire
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (9, 25); --Engulf
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (9, 28); --Fire Mastery
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (9, 37); --Hero
@@ -439,10 +620,10 @@ insert into TeamAssignments (ShinobiIndex, TeamIndex) VALUES (9, 10); --Clan Tor
 --Mizaru --CardIndex 22 --ShinobiIndex 10
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Mizaru', 
-'http://htkb.info/NAS/Cards/Shinobi/Yamazaru_Mizaru.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Yamazaru_Mizaru_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Yamazaru_Mizaru.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Yamazaru_Mizaru_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Mizaru.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'It''s amazing what you can see when you stop looking.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
@@ -450,7 +631,7 @@ VALUES (22,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Mizaru.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Mizaru_back.png', 
 'Masculine', 'Small', 'Hero', 5, 2, 4, 23, 0, 1, '');
-insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (10, 0); --Earth
+insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (10, 1); --Earth
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (10, 13); --Close Combat Master
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (10, 31); --Focus
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (10, 36); --Guard
@@ -462,10 +643,10 @@ insert into TeamAssignments (ShinobiIndex, TeamIndex) VALUES (10, 11); --Clan Ya
 --Son Goku --CardIndex 23 --ShinobiIndex 11
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Son Goku', 
-'http://htkb.info/NAS/Cards/Shinobi/Yamazaru_Son_Goku.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Yamazaru_Son_Goku_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Yamazaru_Son_Goku.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Yamazaru_Son_Goku_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Son_Goku.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'That thing is huge!  Look at the size of those fangs.  Oh, this is going to be fun!'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
@@ -473,7 +654,7 @@ VALUES (23,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Son_Goku.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Son_Goku_back.png', 
 'Masculine', 'Small', 'Hero', 5, 2, 4, 23, 0, 1, '');
-insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (11, 0); --Earth
+insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (11, 1); --Earth
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (11, 23); --Earth Mastery
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (11, 37); --Hero
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (11, 43); --Leap
@@ -484,26 +665,26 @@ insert into TeamAssignments (ShinobiIndex, TeamIndex) VALUES (11, 11); --Clan Ya
 --Samurai Sentry --CardIndex 24 --ShinobiIndex 12
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Samurai Sentry', 
-'http://htkb.info/NAS/Cards/Sentry/Sentry_Samurai.png', 
-'http://htkb.info/NAS/Cards/Sentry/Sentry_Samurai_back.png', 
+'http://htkb.info/NAS/Cards/Sentry/Card_Sentry_Samurai.png', 
+'http://htkb.info/NAS/Cards/Sentry/Card_Sentry_Samurai_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Sentry/Samurai_Sentry.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 ''
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (24,
 'http://htkb.info/NAS/Cards/Sentry/Standies/Samurai.png', 
 'http://htkb.info/NAS/Cards/Sentry/Standies/Samurai_back.png', 
-'Either', 'Small', 'Hero', 5, 3, 3, 0, 0, 1, '');
+'Either', 'Small', 'Sentry', 5, 3, 3, 0, 0, 1, '');
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (12, 63); --Samurai Sentry
 
 --Arashikage --CardIndex 25 --ShinobiIndex 13
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Arashikage', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Arashikage.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Arashikage_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Arashikage.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Arashikage_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Arashikage.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'I can kill him, yes, but only if you tell me what I need to know.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
@@ -525,10 +706,10 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (13, 14); --C
 --Bakusho Mondai --CardIndex 26 --ShinobiIndex 14
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Bakusho Mondai', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Bakusho_Mondai.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Bakusho_Mondai_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Bakusho_Mondai.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Bakusho_Mondai_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Bakusho_Mondai.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'HOOOOOOOOOOOOO!'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
@@ -548,10 +729,10 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (14, 67); --S
 --Benkei --CardIndex 27 --ShinobiIndex 15
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Benkei', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Benkei.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Benkei_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Benkei.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Benkei_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Benkei.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Stand, villain!  In the Princess''s name!'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
@@ -566,17 +747,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (15, 58); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (15, 62); --Ronin
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (15, 41); --Immovable
 
---Blind Swordsman --CardIndex 27 --ShinobiIndex 16
+--Blind Swordsman --CardIndex 28 --ShinobiIndex 16
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Blind Swordsman', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Blind_Swordsman.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Blind_Swordsman_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Blind_Swordsman.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Blind_Swordsman_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Blind_Swordsman.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Why don''t you put that sword away before I show you how to use it?'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (27,
+VALUES (28,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Blind_Swordsman.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Blind_Swordsman_back.png', 
 'Masculine', 'Small', 'Ronin', 5, 3, 2, 16, 5, 1, '');
@@ -589,17 +770,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (16, 58); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (16, 62); --Ronin
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (16, 81); --Uncanny Awareness
 
---Goemon --CardIndex 28 --ShinobiIndex 17
+--Goemon --CardIndex 29 --ShinobiIndex 17
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Goemon', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Goemon.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Goemon_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Goemon.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Goemon_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Goemon.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Oh, ho, what''s this?  A fat man with a fat purse; my favorite kind of stranger.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (28,
+VALUES (29,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Goemon.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Goemon_back.png', 
 'Masculine', 'Small', 'Ronin', 6, 4, 3, 23, 7, 1, '');
@@ -613,17 +794,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (17, 76); --S
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (17, 94); --Vigilance
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (17, 56); --Redistribution
 
---Hanzo --CardIndex 29 --ShinobiIndex 18
+--Hanzo --CardIndex 30 --ShinobiIndex 18
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Hanzo', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Hanzo.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Hanzo_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Hanzo.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Hanzo_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Hanzo.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Calm down, jaybird.  You wouldn''t last a month in Kaedo with that attitude.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (29,
+VALUES (30,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_back.png', 
 'Masculine', 'Small', 'Ronin', 5, 4, 3, 25, 7, 1, '');
@@ -638,17 +819,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (18, 64); --S
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (18, 68); --Sneaky
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (18, 46); --Master Assassin
 
---Air Hanzo --CardIndex 30 --ShinobiIndex 19
+--Air Hanzo --CardIndex 31 --ShinobiIndex 19
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Air Hanzo', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Hanzo_Air.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Hanzo_Air_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Hanzo_Air.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Hanzo_Air_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Air_Hanzo.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'As I mastered the school of winds'' teachings, I was more amazed that my feet knew to carry me before I gave them commands, and my opponents were just as likely to fend off a breeze with their swords, least of all, my blades.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (30,
+VALUES (31,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Air.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Air_back.png', 
 'Masculine', 'Small', 'Ronin', 7, 3, 3, 21, 5, 3, '');
@@ -660,17 +841,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (19, 62); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (19, 73); --Sprint
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (19, 32); --The Force of a Great Typhoon
 
---Earth Hanzo --CardIndex 31 --ShinobiIndex 20
+--Earth Hanzo --CardIndex 32 --ShinobiIndex 20
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Earth Hanzo', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Hanzo_Earth.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Hanzo_Earth_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Hanzo_Earth.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Hanzo_Earth_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Earth_Hanzo.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Earth mastery implies more than resolve and toughness - it is a warriors art that encompasses enlightment, always seeking truth, constant training, and tremendous focus on one''s duty.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (31,
+VALUES (32,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Earth.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Earth_back.png', 
 'Masculine', 'Small', 'Ronin', 5, 4, 4, 24, 6, 1, '');
@@ -682,17 +863,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (20, 62); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (20, 80); --Tough
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (20, 16); --Crusha
 
---Fire Hanzo --CardIndex 32 --ShinobiIndex 21
+--Fire Hanzo --CardIndex 33 --ShinobiIndex 21
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Fire Hanzo', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Hanzo_Fire.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Hanzo_Fire_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Hanzo_Fire.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Hanzo_Fire_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Fire_Hanzo.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'The mastery of fire is to be considered for all who wish to dominate in battle.  To fight such a warrior, is as fighting a raging inferno.  To even raise your head to look at the fire will burn you.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (32,
+VALUES (33,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Fire.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Fire_back.png', 
 'Masculine', 'Small', 'Ronin', 6, 5, 3, 22, 6, 1, '');
@@ -703,17 +884,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (21, 58); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (21, 62); --Ronin
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (21, 74); --Strength of a Raging Fire
 
---Spirit Hanzo --CardIndex 33 --ShinobiIndex 22
+--Spirit Hanzo --CardIndex 34 --ShinobiIndex 22
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Spirit Hanzo', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Hanzo_Spirit.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Hanzo_Spirit_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Hanzo_Spirit.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Hanzo_Spirit_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Spirit_Hanzo.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Pour out your spirit into your training like a hot white light.  Whether it directs the tip of your blade, or the notes of your shakuhachi, you are truly following the path when your wellspring does not dry up.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (33,
+VALUES (34,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Spirit.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Spirit_back.png', 
 'Masculine', 'Small', 'Ronin', 6, 4, 3, 24, 6, 1, '');
@@ -724,17 +905,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (22, 58); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (22, 62); --Ronin
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (22, 19); --Dimension Door
 
---Void Hanzo --CardIndex 34 --ShinobiIndex 23
+--Void Hanzo --CardIndex 35 --ShinobiIndex 23
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Void Hanzo', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Hanzo_Void.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Hanzo_Void_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Hanzo_Void.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Hanzo_Void_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Void_Hanzo.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Regarding the void, there is no evil on a path where one sets his way into places beyond his knowledge - to be skilled in the arts of this emptiness, that is the true way of the void.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (34,
+VALUES (35,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Void.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Void_back.png', 
 'Masculine', 'Small', 'Ronin', 5, 4, 4, 23, 6, 1, '');
@@ -745,17 +926,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (23, 58); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (23, 62); --Ronin
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (23, 49); --Mysterious as the Dark Side of the Moon
 
---Water Hanzo --CardIndex 35 --ShinobiIndex 24
+--Water Hanzo --CardIndex 36 --ShinobiIndex 24
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Water Hanzo', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Hanzo_Water.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Hanzo_Water_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Hanzo_Water.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Hanzo_Water_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Water_Hanzo.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Schooling in a water doctrine means your body, eyes, and weapons are extensions of your spirit.  Seek the least resistance, flow around spear points, and know where you stand in a duel, or a battlefield of thousand duels.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (35,
+VALUES (36,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Water.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Water_back.png', 
 'Masculine', 'Small', 'Ronin', 5, 3, 5, 20, 5, 1, '');
@@ -766,19 +947,19 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (24, 58); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (24, 62); --Ronin
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (24, 77); --Swift as a Coursing River
 
---Howl & Yip --CardIndex 36 --ShinobiIndex 25
+--Howl & Yip --CardIndex 37 --ShinobiIndex 25
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Howl & Yip', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Howl_And_Yip.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Howl_And_Yip_back.png', 
-'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Howl_And_Yip.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Howl_and_Yip.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Howl_and_Yip_back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Howl_and_Yip.xhtml', 
+'Shinobi', '1.0', 'NAS Core Set',
 'Many miles still to go, little one.  Many miles still to go.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (36,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Howl_And_Yip.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Howl_And_Yip_back.png', 
+VALUES (37,
+'http://htkb.info/NAS/Cards/Shinobi/Standies/Howl_and_Yip.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Standies/Howl_and_Yip_back.png', 
 'Masculine', 'Small', 'Ronin', 5, 3, 4, 23, 5, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (25, 1); --Earth
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (25, 2); --Fire
@@ -789,17 +970,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (25, 62); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (25, 80); --Tough
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (25, 47); --Master Swordsman
 
---Inu Clan Kaiken --CardIndex 37 --ShinobiIndex 26
+--Inu Clan Kaiken --CardIndex 38 --ShinobiIndex 26
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Inu Clan Kaiken', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Inu_Clan_Kaiken.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Inu_Clan_Kaiken_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Inu_Clan_Kaiken.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Inu_Clan_Kaiken_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Inu_Clan_Kaiken.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Funny, you don''t look like a rat.  So why do you smell like one?'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (37,
+VALUES (38,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Inu_Clan_Kaiken.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Inu_Clan_Kaiken_back.png', 
 'Masculine', 'Small', 'Ronin', 6, 2, 3, 13, 3, 1, '');
@@ -810,17 +991,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (26, 58); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (26, 62); --Ronin
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (26, 10); --Best Friends
 
---Jorogumo --CardIndex 38 --ShinobiIndex 27
+--Jorogumo --CardIndex 39 --ShinobiIndex 27
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Jorogumo', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Jorogumo.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Jorogumo_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Jorogumo.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Jorogumo_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Jorogumo.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Come in, come in.  Here.  Sit, by my fire.  Stay a while.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (38,
+VALUES (39,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Jorogumo.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Jorogumo_back.png', 
 'Feminine', 'Large', 'Ronin', 5, 2, 2, 16, 5, 1, '');
@@ -834,17 +1015,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (27, 84); --W
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (27, 72); --Spider Legs
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (27, 11); --Binding Bride
 
---Kappa --CardIndex 39 --ShinobiIndex 28
+--Kappa --CardIndex 40 --ShinobiIndex 28
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Kappa', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Kappa.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Kappa_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Kappa.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Kappa_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Kappa.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Stare not too long into pools of still water, for the kappa may stare back.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (39,
+VALUES (40,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Kappa.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Kappa_back.png', 
 'Either', 'Small', 'Ronin', 4, 2, 4, 20, 5, 1, '');
@@ -861,14 +1042,14 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (28, 34); --F
 --Komuso --CardIndex 40 --ShinobiIndex 29
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Komuso', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Komuso.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Komuso_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Komuso.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Komuso_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Komuso.xhtml', 
-'Masculine', 'NAS', 'NAS Core Set',
+'Masculine', '1.0', 'NAS Core Set',
 'All life flows with the elements.  Here, let me demonstrate with my spear.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (40,
+VALUES (41,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Komuso.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Komuso_back.png', 
 'Either', 'Small', 'Ronin', 5, 1, 2, 13, 5, 1, '');
@@ -881,17 +1062,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (29, 80); --T
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (29, 60); --Resolute Melody
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (29, 27); --Elixir of Courage
 
---Kunoichi Candy --CardIndex 41 --ShinobiIndex 30
+--Kunoichi Candy --CardIndex 42 --ShinobiIndex 30
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Kunoichi Candy', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Kunoichi_Candy.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Kunoichi_Candy_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Kunoichi_Candy.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Kunoichi_Candy_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Kunoichi_Candy.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Here, tough guy; have a swig of this.  Cola brews it himself.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (41,
+VALUES (42,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Kunoichi_Candy.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Kunoichi_Candy_back.png', 
 'Feminine', 'Small', 'Ronin', 8, 3, 2, 18, 4, 1, '');
@@ -906,17 +1087,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (30, 62); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (30, 80); --Tough
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (30, 88); --Yatta
 
---Miyamoto Musashi --CardIndex 42 --ShinobiIndex 31
+--Miyamoto Musashi --CardIndex 43 --ShinobiIndex 31
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Miyamoto Musashi', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Miyamoto_Musashi.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Miyamoto_Musashi_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Miyamoto_Musashi.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Miyamoto_Musashi_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Miyamoto_Musashi.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'These?  Oh, they''re just in case anyone makes trouble.  Or I find a boat.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (42,
+VALUES (43,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Miyamoto_Musashi.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Miyamoto_Musashi_back.png', 
 'Masculine', 'Small', 'Ronin', 5, 4, 3, 20, 6, 1, '');
@@ -927,17 +1108,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (31, 58); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (31, 62); --Ronin
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (31, 42); --Indomitable
 
---Mochizuki --CardIndex 43 --ShinobiIndex 32
+--Mochizuki --CardIndex 44 --ShinobiIndex 32
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Mochizuki', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Mochizuki.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Mochizuki_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Mochizuki.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Mochizuki_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Mochizuki.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'You never hear the thunder until it is upon you.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (43,
+VALUES (44,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Mochizuki.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Mochizuki_back.png', 
 'Feminine', 'Small', 'Ronin', 6, 2, 2, 18, 6, 5, '+2 ATTACK');
@@ -951,17 +1132,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (32, 58); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (32, 62); --Ronin
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (32, 29); --Firearm Flurry
 
---Momotaro --CardIndex 44 --ShinobiIndex 33
+--Momotaro --CardIndex 45 --ShinobiIndex 33
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Momotaro', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Momotaro.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Momotaro_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Momotaro.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Momotaro_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Momotaro.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Injustice is a wound that festers.  The cure should be swift and strong.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (44,
+VALUES (45,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Momotaro.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Momotaro_back.png', 
 'Masculine', 'Small', 'Ronin', 5, 5, 4, 21, 6, 1, '');
@@ -972,17 +1153,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (33, 58); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (33, 62); --Ronin
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (33, 70); --Spirit Hunter
 
---Moon Princess --CardIndex 44 --ShinobiIndex 33
+--Moon Princess --CardIndex 46 --ShinobiIndex 33
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Moon Princess', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Moon_Princess.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Moon_Princess_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Moon_Princess.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Moon_Princess_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Moon_Princess.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'I suggest we wait for the moon to rise.  Then we shall have the advantage.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (44,
+VALUES (46,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Moon_Princess.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Moon_Princess_back.png', 
 'Feminine', 'Small', 'Ronin', 7, 2, 2, 18, 6, 1, '');
@@ -1003,17 +1184,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (33, 62); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (33, 73); --Sprint
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (33, 90); --Zenith
 
---Ondori Clan Kaiken --CardIndex 45 --ShinobiIndex 34
+--Ondori Clan Kaiken --CardIndex 47 --ShinobiIndex 34
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Ondori Clan Kaiken', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Ondori_Clan_Kaiken.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Ondori_Clan_Kaiken_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Ondori_Clan_Kaiken.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Ondori_Clan_Kaiken_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Ondori_Clan_Kaiken.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Well, well.  What do you say now, my fine, featherless friend?'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (45,
+VALUES (47,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Ondori_Clan_Kaiken.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Ondori_Clan_Kaiken_back.png', 
 'Masculine', 'Small', 'Ronin', 6, 3, 2, 14, 3, 1, '');
@@ -1023,17 +1204,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (34, 62); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (34, 73); --Sprint
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (34, 51); --Ondori's Beak
 
---Onibaba --CardIndex 46 --ShinobiIndex 35
+--Onibaba --CardIndex 48 --ShinobiIndex 35
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Onibaba', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Onibaba.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Onibaba_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Onibaba.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Onibaba_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Onibaba.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Oh, there''s a pretty thing, a pretty thing.  He won''t be needing it anymore, no, no.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (46,
+VALUES (48,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Onibaba.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Onibaba_back.png', 
 'Feminine', 'Small', 'Ronin', 5, 2, 2, 14, 5, 1, '');
@@ -1043,17 +1224,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (35, 62); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (35, 83); --Void Mastery
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (35, 91); --Dark Curse
 
---Onryo --CardIndex 47 --ShinobiIndex 36
+--Onryo --CardIndex 49 --ShinobiIndex 36
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Onryo', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Onryo.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Onryo_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Onryo.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Onryo_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Onryo.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Into the darkness, under the trees, into the water, follow me please.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (47,
+VALUES (49,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Onryo.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Onryo_back.png', 
 'Feminine', 'Small', 'Ronin', 6, 2, 2, 16, 4, 1, '');
@@ -1066,17 +1247,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (36, 73); --S
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (36, 83); --Void Mastery
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (36, 61); --The Ring
 
---Shojo --CardIndex 48 --ShinobiIndex 37
+--Shojo --CardIndex 50 --ShinobiIndex 37
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Shojo', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Shojo.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Shojo_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Shojo.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Shojo_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Shojo.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'We''ve got a hold full of saki, and we''ll sail while the saiki holds!'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (48,
+VALUES (50,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Shojo.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Shojo_back.png', 
 'Feminine', 'Small', 'Ronin', 6, 2, 2, 16, 6, 1, '');
@@ -1090,17 +1271,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (37, 62); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (37, 89); --Yopparai
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (37, 65); --Shrewd Negotiator
 
---Stealth Cola --CardIndex 49 --ShinobiIndex 38
+--Stealth Cola --CardIndex 51 --ShinobiIndex 38
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Stealth Cola', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Stealth_Cola.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Stealth_Cola_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Stealth_Cola.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Stealth_Cola_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Stealth_Cola.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Shake it up really well, it makes it work better.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (49,
+VALUES (51,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Stealth_Cola.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Stealth_Cola_back.png', 
 'Masculine', 'Small', 'Ronin', 7, 2, 3, 16, 4, 1, '');
@@ -1113,17 +1294,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (38, 68); --S
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (38, 87); --Yamazaru's Tail
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (38, 69); --Sparkleburst
 
---Sun Empire Wandering Samurai --CardIndex 50 --ShinobiIndex 39
+--Sun Empire Wandering Samurai --CardIndex 52 --ShinobiIndex 39
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Sun Empire Wandering Samurai', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Sun_Empire_Wandering_Samurai.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Sun_Empire_Wandering_Samurai_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Sun_Empire_Wandering_Samurai.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Sun_Empire_Wandering_Samurai_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Sun_Empire_Wandering_Samurai.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Come at me, boy.  I''ll show you how true warriors fight.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (50,
+VALUES (52,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Sun_Empire_Wandering_Samurai.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Sun_Empire_Wandering_Samurai_back.png', 
 'Masculine', 'Small', 'Ronin', 4, 4, 4, 22, 6, 1, '');
@@ -1136,17 +1317,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (39, 62); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (39, 64); --Sensei
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (39, 39); --Honor
 
---Tengu --CardIndex 51 --ShinobiIndex 40
+--Tengu --CardIndex 53 --ShinobiIndex 40
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Tengu', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Tengu.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Tengu_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Tengu.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Tengu_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Tengu.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Do not meddle in the affairs of the tengu, for they are strange and quick to anger.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (51,
+VALUES (53,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Tengu.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Tengu_back.png', 
 'Either', 'Small', 'Ronin', 8, 2, 2, 14, 5, 1, '');
@@ -1157,17 +1338,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (40, 62); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (40, 78); --Tanchyo's Wings
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (40, 86); --Wind Gust
 
---Yagyu Jubei --CardIndex 52 --ShinobiIndex 41
+--Yagyu Jubei --CardIndex 54 --ShinobiIndex 41
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Yagyu Jubei', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Yagyu_Jubei.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Yagyu_Jubei_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Yagyu_Jubei.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Yagyu_Jubei_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Yagyu_Jubei.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Wait, wait.  Attack me again.  I simply must learn how you did that.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (52,
+VALUES (54,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Yagyu_Jubei.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Yagyu_Jubei_back.png', 
 'Either', 'Small', 'Ronin', 5, 5, 4, 24, 6, 1, '');
@@ -1180,17 +1361,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (41, 62); --R
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (41, 64); --Sensei
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (41, 9); --Banzai
 
---Yokozuna --CardIndex 53 --ShinobiIndex 42
+--Yokozuna --CardIndex 55 --ShinobiIndex 42
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Yokozuna', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Yokozuna.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Yokozuna_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Yokozuna.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Card_Ronin_Yokozuna_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Yokozuna.xhtml', 
-'Shinobi', 'NAS', 'NAS Core Set',
+'Shinobi', '1.0', 'NAS Core Set',
 'Up you go, boss.  You haven''t had enough, but you''ve had all you can handle.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
-VALUES (53,
+VALUES (55,
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Yokozuna.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Standies/Yokozuna_back.png', 
 'Either', 'Small', 'Ronin', 4, 5, 4, 25, 6, 1, '');
@@ -1208,340 +1389,332 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (42, 1); --10
 --NAS
 --Moon Cards
 
---Adrenaline --CardIndex 54 --MoonCardIndex 0
+--Adrenaline --CardIndex 56 --MoonCardIndex 0
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Adrenaline', 
-'http://htkb.info/RRI/Cards/Moon/Card_Loot_Earth_Adrenaline.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Adrenaline.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
-''
-);
-insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
-VALUES (54, 
-'After a friendly model makes an attack or ranged attack roll, play this card to reroll one of its dice.', 
-'Earth Moon - The model rerolls all of its dice.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (0, 1); --Earth
-
-
-
---Ameratsu's Gaze --CardIndex 55 --MoonCardIndex 1
-insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Raizin''s Spark', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Spirit_Ameratsus_Gaze.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Ameratsus_Gaze.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
-''
-);
-insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
-VALUES (55, 
-'After a roll is made, play this card to reroll a VOID result.', 
-'Spirit Moon - During combat, instead of rerolling a VOID result, add a die to your roll with a SPIRIT result on it.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (1, 3); --Spirit
-
-
-
-
-
---Banzai! --CardIndex 56 --MoonCardIndex 2
-insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Banzai!', 
-'http://htkb.info/RRI/Cards/Moon/Card_Loot_Earth_Banzai.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Banzai.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+'http://htkb.info/NAS/Cards/Moon/Card_Loot_Earth_Adrenaline.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Adrenaline.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (56, 
-'When a friendly model that has moved at least four spaces this turn attacks, play this card to give it +2 ATTACK.', 
-'Earth Moon - The model gets +2 ATTACK, even if it did not move.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (2, 1); --Earth
+'After a friendly model makes an attack or ranged attack roll, play this card to reroll one of its dice.', 
+'Earth Moon - The model rerolls all of its dice.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (0, 1); --Earth
 
-
-
---Darkest Night --CardIndex 57 --MoonCardIndex 3
+--Ameratsu's Gaze --CardIndex 57 --MoonCardIndex 1
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Darkest Night', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Void_Darkest_Night.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Darkest_Night.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ('Raizin''s Spark', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Spirit_Ameratsus_Gaze.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Ameratsus_Gaze.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (57, 
-'When a friendly model activates, play this card to give it Moon Power.', 
-'Void Moon - One additional friendly model also gets Moon Power.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (3, 4); --Void
+'After a roll is made, play this card to reroll a VOID result.', 
+'Spirit Moon - During combat, instead of rerolling a VOID result, add a die to your roll with a SPIRIT result on it.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (1, 3); --Spirit
 
---Decoy --CardIndex 58 --MoonCardIndex 4
+--Banzai! --CardIndex 58 --MoonCardIndex 2
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Decoy', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Air_Decoy.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Decoy.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ('Banzai!', 
+'http://htkb.info/NAS/Cards/Moon/Card_Loot_Earth_Banzai.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Banzai.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (58, 
-'When a friendly model activates, play this card to have the model switch places with a friendly model within six spaces.  No LOS is required.', 
-'Air Moon - The model may switch places with any model with eight spaces.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (4, 0); --Air
+'When a friendly model that has moved at least four spaces this turn attacks, play this card to give it +2 ATTACK.', 
+'Earth Moon - The model gets +2 ATTACK, even if it did not move.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (2, 1); --Earth
 
---Fire Aura --CardIndex 59 --MoonCardIndex 5
+--Darkest Night --CardIndex 59 --MoonCardIndex 3
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Decoy', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Fire_Fire_Aura.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Fire_Aura.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ('Darkest Night', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Void_Darkest_Night.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Darkest_Night.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (59, 
-'When a friendly model attacks and does not have an assist bonus, play this card to get +2 ATTACK.', 
-'Fire Moon - The model gets +3 ATTACK instead.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (5, 2); --Fire
+'When a friendly model activates, play this card to give it Moon Power.', 
+'Void Moon - One additional friendly model also gets Moon Power.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (3, 4); --Void
 
---Fuzin's Breath --CardIndex 60 --MoonCardIndex 6
+--Decoy --CardIndex 60 --MoonCardIndex 4
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Fuzin''s Breath', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Air_Fuzins_Breath.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Fuzins_Breath.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ('Decoy', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Air_Decoy.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Decoy.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (60, 
-'After a roll is made, play this card to reroll an EARTH result.', 
-'Air Moon - During combat, instead of rerolling an EARTH result, add a die to your roll with an AIR result on it.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (6, 0); --Air
+'When a friendly model activates, play this card to have the model switch places with a friendly model within six spaces.  No LOS is required.', 
+'Air Moon - The model may switch places with any model with eight spaces.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (4, 0); --Air
 
---Igazani's Bounty --CardIndex 61 --MoonCardIndex 7
+--Fire Aura --CardIndex 61 --MoonCardIndex 5
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Igazani''s Bounty', 
-'http://htkb.info/RRI/Cards/Moon/Card_Loot_Earth_Igazanis_Bounty.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Igazanis_Bounty.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ('Decoy', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Fire_Fire_Aura.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Fire_Aura.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (61, 
-'After a roll is made, play this card to reroll an AIR result.', 
-'Earth Moon - During combat, instead of rerolling an AIR result, add a die to your roll with an EARTH result on it.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (7, 1); --Earth
+'When a friendly model attacks and does not have an assist bonus, play this card to get +2 ATTACK.', 
+'Fire Moon - The model gets +3 ATTACK instead.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (5, 2); --Fire
 
---Ika's Depths --CardIndex 62 --MoonCardIndex 8
+--Fuzin's Breath --CardIndex 62 --MoonCardIndex 6
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Ika''s Depths', 
-'http://htkb.info/RRI/Cards/Moon/Card_Loot_Water_Ikas_Depths.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Ikas_Depths.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ('Fuzin''s Breath', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Air_Fuzins_Breath.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Fuzins_Breath.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (62, 
-'Play this card when a friendly model is attacked.  It gets +1 DEFENSE.', 
-'Water Moon - The model also gets Resilient.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (8, 5); --Water
+'After a roll is made, play this card to reroll an EARTH result.', 
+'Air Moon - During combat, instead of rerolling an EARTH result, add a die to your roll with an AIR result on it.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (6, 0); --Air
 
---Inazami's Embrace --CardIndex 63 --MoonCardIndex 9
+--Igazani's Bounty --CardIndex 63 --MoonCardIndex 7
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ( 'Inazami''s Embrace', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Void_Inazamis_Embrace.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Inazamis_Embrace.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ('Igazani''s Bounty', 
+'http://htkb.info/NAS/Cards/Moon/Card_Loot_Earth_Igazanis_Bounty.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Igazanis_Bounty.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (63, 
-'After a roll is made, play this card to reroll a SPIRIT result.', 
-'Void Moon - During combat, instead of rerolling a SPIRIT result, add a die to your roll with a VOID result on it.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (9, 4); --Void
+'After a roll is made, play this card to reroll an AIR result.', 
+'Earth Moon - During combat, instead of rerolling an AIR result, add a die to your roll with an EARTH result on it.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (7, 1); --Earth
 
---Incredible Luck --CardIndex 64 --MoonCardIndex 10
+--Ika's Depths --CardIndex 64 --MoonCardIndex 8
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Incredible Luck', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Spirit_Incredible_Luck.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Incredible_Luck.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ('Ika''s Depths', 
+'http://htkb.info/NAS/Cards/Moon/Card_Loot_Water_Ikas_Depths.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Ikas_Depths.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (64, 
-'Play this card before rolling for combat.  If you roll fewer dice than your opponent, you get to choose the combat result.', 
-'Spirit Moon - If you roll the same number or fewer dice than your opponent, you get to choose the combat result.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (10, 3); --Spirit
+'Play this card when a friendly model is attacked.  It gets +1 DEFENSE.', 
+'Water Moon - The model also gets Resilient.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (8, 5); --Water
 
---Mamoru --CardIndex 65 --MoonCardIndex 11
+--Inazami's Embrace --CardIndex 65 --MoonCardIndex 9
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Mamoru', 
-'http://htkb.info/RRI/Cards/Moon/Card_Loot_Water_Mamoru.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Mamoru.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ( 'Inazami''s Embrace', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Void_Inazamis_Embrace.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Inazamis_Embrace.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (65, 
-'When a friendly model is defending and has a lower total DEFENSE than the attacker''s total ATTACK, play this card to give the defender +1 DEFENSE.', 
-'Water Moon - When a friendly model is defending, play this card before the combat rolls to choose the combat result.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (11, 5); --Water
+'After a roll is made, play this card to reroll a SPIRIT result.', 
+'Void Moon - During combat, instead of rerolling a SPIRIT result, add a die to your roll with a VOID result on it.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (9, 4); --Void
 
---Pressure Point --CardIndex 66 --MoonCardIndex 12
+--Incredible Luck --CardIndex 66 --MoonCardIndex 10
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Pressure Point', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Fire_Pressure_Point.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Pressure_Point.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ('Incredible Luck', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Spirit_Incredible_Luck.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Incredible_Luck.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (66, 
-'When a friendly model makes an attack or ranged attack, play this card to give it +1 ATTACK.', 
-'Fire Moon - The model gets +2 ATTACK instead.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (12, 2); --Fire
+'Play this card before rolling for combat.  If you roll fewer dice than your opponent, you get to choose the combat result.', 
+'Spirit Moon - If you roll the same number or fewer dice than your opponent, you get to choose the combat result.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (10, 3); --Spirit
 
---Raizin's Spark --CardIndex 67 --MoonCardIndex 13
+--Mamoru --CardIndex 67 --MoonCardIndex 11
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Raizin''s Spark', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Fire_Raizins_Spark.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Raizins_Spark.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ('Mamoru', 
+'http://htkb.info/NAS/Cards/Moon/Card_Loot_Water_Mamoru.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Mamoru.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (67, 
-'After a roll is made, play this card to reroll a WATER result.', 
-'Fire Moon - During combat, instead of rerolling a WATER result, add a die to your roll with a FIRE result on it.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (13, 2); --Fire
+'When a friendly model is defending and has a lower total DEFENSE than the attacker''s total ATTACK, play this card to give the defender +1 DEFENSE.', 
+'Water Moon - When a friendly model is defending, play this card before the combat rolls to choose the combat result.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (11, 5); --Water
 
---Rushing River --CardIndex 68 --MoonCardIndex 14
+--Pressure Point --CardIndex 68 --MoonCardIndex 12
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Rushing River', 
-'http://htkb.info/RRI/Cards/Moon/Card_Loot_Water_Rushing_River.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Rushing_River.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ('Pressure Point', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Fire_Pressure_Point.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Pressure_Point.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (68, 
-'Before a model moves, play this card to give it +4 MOVEMENT.', 
-'Water Moon - Instead of getting +4 MOVEMENT, the model may run and attack this turn.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (14, 5); --Water
+'When a friendly model makes an attack or ranged attack, play this card to give it +1 ATTACK.', 
+'Fire Moon - The model gets +2 ATTACK instead.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (12, 2); --Fire
 
---Sidestep --CardIndex 69 --MoonCardIndex 15
+--Raizin's Spark --CardIndex 69 --MoonCardIndex 13
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Sidestep', 
-'http://htkb.info/RRI/Cards/Moon/Card_Loot_Water_Sidestep.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Sidestep.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ('Raizin''s Spark', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Fire_Raizins_Spark.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Raizins_Spark.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (69, 
-'When a friendly model fails to dodge, play this card to reroll the affinity test.', 
-'Water Moon - Play before rolling to automatically succeed a dodge attempt.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (15, 5); --Water
+'After a roll is made, play this card to reroll a WATER result.', 
+'Fire Moon - During combat, instead of rerolling a WATER result, add a die to your roll with a FIRE result on it.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (13, 2); --Fire
 
---Smoke Bomb --CardIndex 70 --MoonCardIndex 16
+--Rushing River --CardIndex 70 --MoonCardIndex 14
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Smoke Bomb', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Void_Smoke_Bomb.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Smoke_Bomb.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ('Rushing River', 
+'http://htkb.info/NAS/Cards/Moon/Card_Loot_Water_Rushing_River.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Rushing_River.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (70, 
-'When a friendly model activates, if no enemy model has LOS to it, play this card to give it Stealth.', 
-'Void Moon - The model may get Stealth, even if an enemy model has LOS to it.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (16, 4); --Void
+'Before a model moves, play this card to give it +4 MOVEMENT.', 
+'Water Moon - Instead of getting +4 MOVEMENT, the model may run and attack this turn.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (14, 5); --Water
 
---Stellar Alignment --CardIndex 71 --MoonCardIndex 17
+--Sidestep --CardIndex 71 --MoonCardIndex 15
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Stellar Alignment', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Spirit_Stellar_Alignment.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Stellar_Alignment.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ('Sidestep', 
+'http://htkb.info/NAS/Cards/Moon/Card_Loot_Water_Sidestep.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Sidestep.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (71, 
-'Play this card at the beginning of the round, before anything else happens.  Roll a die.  Change the Moon Phase to match the result rolled.', 
-'Spirit Moon - Choose the new Moon Phase instead of rolling.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (17, 3); --Spirit
+'When a friendly model fails to dodge, play this card to reroll the affinity test.', 
+'Water Moon - Play before rolling to automatically succeed a dodge attempt.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (15, 5); --Water
 
---Suinij's Depths --CardIndex 72 --MoonCardIndex 18
+--Smoke Bomb --CardIndex 72 --MoonCardIndex 16
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Suinij''s Depths', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Spirit_Suinijs_Depths.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Suinijs_Depths.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ('Smoke Bomb', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Void_Smoke_Bomb.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Smoke_Bomb.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (72, 
-'After a roll is made, play this card to reroll a FIRE result.', 
-'Water Moon - During combat, instead of rerolling a FIRE result, add a die to your roll with a WATER result on it.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (18, 5); --Water
+'When a friendly model activates, if no enemy model has LOS to it, play this card to give it Stealth.', 
+'Void Moon - The model may get Stealth, even if an enemy model has LOS to it.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (16, 4); --Void
 
---Third Eye --CardIndex 73 --MoonCardIndex 19
+--Stellar Alignment --CardIndex 73 --MoonCardIndex 17
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Third Eye', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Spirit_Third_Eye.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Third_Eye.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ('Stellar Alignment', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Spirit_Stellar_Alignment.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Stellar_Alignment.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (73, 
-'When a friendly model activates, play this card to make an affinity test.  If the test is successful, remove Stealth from one model within four spaces.  No LOS is required.', 
-'Spirit Moon - The affinity test automatically succeeds.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (19, 3); --Spirit
+'Play this card at the beginning of the round, before anything else happens.  Roll a die.  Change the Moon Phase to match the result rolled.', 
+'Spirit Moon - Choose the new Moon Phase instead of rolling.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (17, 3); --Spirit
 
---Tumble --CardIndex 74 --MoonCardIndex 20
+--Suinij's Depths --CardIndex 74 --MoonCardIndex 18
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Tumble', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Fire_Tumble.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Tumble.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ('Suinij''s Depths', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Spirit_Suinijs_Depths.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Suinijs_Depths.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (74, 
-'When a friendly model moves to a space of non-elevated terrain from elevated terrain play this card to give it +2 MOVEMENT.', 
-'Fire Moon - The model gets +4 MOVEMENT instead.');
-insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (20, 2); --Fire
+'After a roll is made, play this card to reroll a FIRE result.', 
+'Water Moon - During combat, instead of rerolling a FIRE result, add a die to your roll with a WATER result on it.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (18, 5); --Water
 
---Vault --CardIndex 75 --MoonCardIndex 21
+--Third Eye --CardIndex 75 --MoonCardIndex 19
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Vault', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Air_Vault.png', 
-'http://htkb.info/RRI/Cards/Moon/Card_Moon_Back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Moon/Vault.xhtml', 
-'Moon', 'RRI', 'RRI Core Set',
+VALUES ('Third Eye', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Spirit_Third_Eye.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Third_Eye.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
 ''
 );
 insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
 VALUES (75, 
+'When a friendly model activates, play this card to make an affinity test.  If the test is successful, remove Stealth from one model within four spaces.  No LOS is required.', 
+'Spirit Moon - The affinity test automatically succeeds.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (19, 3); --Spirit
+
+--Tumble --CardIndex 76 --MoonCardIndex 20
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Tumble', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Fire_Tumble.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Tumble.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
+''
+);
+insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
+VALUES (76, 
+'When a friendly model moves to a space of non-elevated terrain from elevated terrain play this card to give it +2 MOVEMENT.', 
+'Fire Moon - The model gets +4 MOVEMENT instead.');
+insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (20, 2); --Fire
+
+--Vault --CardIndex 77 --MoonCardIndex 21
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Vault', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Air_Vault.png', 
+'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Moon/Vault.xhtml', 
+'Moon', '1.0', 'NAS Core Set',
+''
+);
+insert into MoonCards (CardIndex, MoonCardCondition, MoonCardAffinityMatch) 
+VALUES (77, 
 'When a friendly model moves to a space of elevated terrain, play this card to have the movement cost 1 MOVEMENT point', 
 'Air Moon - The model also gets +1 ATTACK until the end of the turn.');
 insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (21, 0); --Air
@@ -1551,14 +1724,76 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (21, 0); -
 --NAS
 --Utility Cards
 
---Dice Guide --CardIndex 76 --UtilityIndex 0
+--Dice Guide --CardIndex 78 --UtilityIndex 0
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Dice Guide', 
-'http://htkb.info/RRI/Cards/Utility/Card_Utility_Dice_Guide.png', 
-'http://htkb.info/RRI/Cards/Utility/Card_Utility_Dice_Guide.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Utility/Dice_Guide.xhtml', 
-'Utility', 'RRI', 'RRI Core Set',
+'http://htkb.info/NAS/Cards/Utility/Card_Utility_Dice_Guide.png', 
+'http://htkb.info/NAS/Cards/Utility/Card_Utility_Dice_Guide.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Utility/Dice_Guide.xhtml', 
+'Utility', '1.0', 'NAS Core Set',
 ''
 );
-insert into Utilities (CardIndex, UtilityDescription) VALUES (76, 
+insert into Utilities (CardIndex, UtilityDescription) VALUES (78, 
 '');
+--Table Load 500
+--NAS
+--Customs
+
+
+--Teams
+--Yurei Clan --CardIndex 79 --TeamIndex 12
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Yurei Clan', 
+'http://htkb.info/NAS/Custom/Cards/Teams/Card_Team_Yurei_Clan.png', 
+'http://htkb.info/NAS/Custom/Cards/Teams/Card_Team_Yurei_Clan.png', 
+'http://htkb.online/SDWiki/NAS/Custom/Cards/Teams/Yurei_Clan.xhtml', 
+'Team', 'Custom', 'NAS Custom Set',
+''
+);
+insert into Teams (TeamName, Quickplay)
+values('Yurei Clan', '');
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
+79,
+'TBD.',
+'Discord'
+);
+
+--Shinobi
+--Magouichi --CardIndex 80 --ShinobiIndex 43
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Magouichi', 
+'http://htkb.info/NAS/Custom/Cards/Shinobi/Card_Sohei_Magoichi.png', 
+'http://htkb.info/NAS/Custom/Cards/Shinobi/Card_Sohei_Magoichi_back.png', 
+'http://htkb.online/SDWiki/NAS/Custom/Cards/Shinobi/Magoichi.xhtml', 
+'Shinobi', 'Custom', 'NAS Custom Set',
+'Calm down, jaybird.  You wouldn''t last a month in Kaedo with that attitude.'
+);
+insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+VALUES (80,
+'http://htkb.info/SDE/Standies/NAS/Magoichi.png', 
+'http://htkb.info/SDE/Standies/NAS/Magoichi_back.png', 
+'Masculine', 'Small', 'Hero', 7, 3, 2, 22, 0, 1, '');
+insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (43, 0); --Air
+insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (43, 2); --Fire
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (43, 5); --Air Mastery
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (43, 46); --Master Assassin
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (43, 50); --Nimble
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (43, 52); --Precision Strike
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (43, 58); --Resilient
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (43, 62); --Ronin
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (43, 64); --Sensei
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (43, 68); --Sneaky
+--insert into TeamAssignments (ShinobiIndex, TeamIndex) VALUES (43, 8); --Clan Sohei
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
+80,
+'TBD.',
+'Discord'
+);
+
+
+
+
+
+
+
+

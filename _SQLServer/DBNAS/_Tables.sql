@@ -1,4 +1,4 @@
---drop table Affinities, Attributes, Teams, Keywords, Cards, Shinobi, MoonCards, Utilities, AffinityAssignments, KeywordAssignments, TeamAssignments;
+--drop table Affinities, Attributes, Teams, Keywords, Cards, Shinobi, MoonCards, Utilities, AffinityAssignments, KeywordAssignments, TeamAssignments, Components, CustomComponents;
 
 create table Affinities (AffinityIndex bigint IDENTITY(0,1) PRIMARY KEY, AffinityType varchar(50) not null);
 insert into Affinities (AffinityType) VALUES ('Air'); --0
@@ -13,6 +13,9 @@ insert into Attributes (Attribute) VALUES ('Movement'); --0
 insert into Attributes (Attribute) VALUES ('Attack'); --1
 insert into Attributes (Attribute) VALUES ('Defense'); --2
 insert into Attributes (Attribute) VALUES ('Koban'); --3
+
+--Components
+CREATE TABLE Components (ComponentIndex bigint IDENTITY(0,1) PRIMARY KEY, Link varchar(150) /*not null*/);
 
 --Teams
 create table Teams (TeamIndex bigint IDENTITY(0,1) PRIMARY KEY, TeamName varchar(20) not null, Quickplay varchar(100) not null);
@@ -35,3 +38,8 @@ create table Utilities (UtilityIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex
 create table AffinityAssignments (AffinityAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, AffinityIndex bigint not null, ShinobiIndex bigint, TeamIndex bigint, MoonCardIndex bigint);
 create table KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordIndex bigint not null, ShinobiIndex bigint, TeamIndex bigint, UtilityIndex bigint);
 create table TeamAssignments (TeamAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, TeamIndex bigint not null, ShinobiIndex bigint not null);
+
+--Custom Components
+CREATE TABLE CustomComponents (CustomComponentIndex bigint IDENTITY(0,1) PRIMARY KEY, ComponentIndex bigint not null, Author varchar(30) not null, SourceURL varchar(250) not null);
+
+
