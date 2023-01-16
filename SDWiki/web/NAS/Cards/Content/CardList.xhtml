@@ -8,14 +8,14 @@
     <h:head />
     <h:body>
          <title>
-            #{SDECardBean.getTitle()}
+            #{NASCardBean.getTitle()}
         </title>
         <h2>
-            #{SDECardBean.getHeader()}
+            #{NASCardBean.getHeader()}
         </h2>
         <div id="idCenterContent">
             <!-- List of Abilities -->
-            <ui:repeat var="x" value="#{SDECardBean.getCardList()}" size="#{SDECardBean.getCardList().size()}" varStatus="myVarStatus" >
+            <ui:repeat var="x" value="#{NASCardBean.getCardList()}" size="#{NASCardBean.getCardList().size()}" varStatus="myVarStatus" >
                 <div class="galleryPictureContainer">
                     <a href="#{x.getLink()}">
                         <div>
