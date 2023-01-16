@@ -1,6 +1,9 @@
---drop table Keywords, Cards, Characters, Raiders, Lawbots, HighNoonCards, LongArmOfTheLawCards, LootCards, Utilities, KeywordAssignments;
+--drop table Keywords, Cards, Characters, Raiders, Lawbots, HighNoonCards, LongArmOfTheLawCards, LootCards, Utilities, KeywordAssignments, Components, CustomComponents;
 
 create table Keywords (KeywordIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordVersion varchar(20) not null, KeywordName varchar(50) not null, KeywordDescription varchar(2500) not null);
+
+--Components
+CREATE TABLE Components (ComponentIndex bigint IDENTITY(0,1) PRIMARY KEY);
 
 create table Cards (CardIndex bigint IDENTITY(0,1) PRIMARY KEY, CardName varchar(50) not null, PictureFront varchar(150) not null, PictureBack varchar(150) not null, Link varchar(125) not null, CardType varchar(20) not null, ProductSet varchar(20) not null, ProductModule varchar(20) not null, Flavor varchar(1250), Lore varchar(1000));
 
@@ -25,6 +28,123 @@ create table Utilities (UtilityIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex
 
 create table KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordIndex bigint not null, RaiderIndex bigint, LawbotIndex bigint, HighNoonCardIndex bigint, LongArmOfTheLawCardIndex bigint, LootIndex bigint, UtilityIndex bigint);
 
+CREATE TABLE CustomComponents (CustomComponentIndex bigint IDENTITY(0,1) PRIMARY KEY, ComponentIndex bigint not null, Author varchar(30) not null, SourceURL varchar(250) not null);
+
+
+
+
+
+insert into Components DEFAULT VALUES; --0
+insert into Components DEFAULT VALUES; --1
+insert into Components DEFAULT VALUES; --2
+insert into Components DEFAULT VALUES; --3
+insert into Components DEFAULT VALUES; --4
+insert into Components DEFAULT VALUES; --5
+insert into Components DEFAULT VALUES; --6
+insert into Components DEFAULT VALUES; --7
+insert into Components DEFAULT VALUES; --8
+insert into Components DEFAULT VALUES; --9
+
+insert into Components DEFAULT VALUES; --20
+insert into Components DEFAULT VALUES; --21
+insert into Components DEFAULT VALUES; --22
+insert into Components DEFAULT VALUES; --23
+insert into Components DEFAULT VALUES; --24
+insert into Components DEFAULT VALUES; --25
+insert into Components DEFAULT VALUES; --26
+insert into Components DEFAULT VALUES; --27
+insert into Components DEFAULT VALUES; --28
+insert into Components DEFAULT VALUES; --29
+
+insert into Components DEFAULT VALUES; --30
+insert into Components DEFAULT VALUES; --31
+insert into Components DEFAULT VALUES; --32
+insert into Components DEFAULT VALUES; --33
+insert into Components DEFAULT VALUES; --34
+insert into Components DEFAULT VALUES; --35
+insert into Components DEFAULT VALUES; --36
+insert into Components DEFAULT VALUES; --37
+insert into Components DEFAULT VALUES; --38
+insert into Components DEFAULT VALUES; --39
+
+insert into Components DEFAULT VALUES; --40
+insert into Components DEFAULT VALUES; --41
+insert into Components DEFAULT VALUES; --42
+insert into Components DEFAULT VALUES; --43
+insert into Components DEFAULT VALUES; --44
+insert into Components DEFAULT VALUES; --45
+insert into Components DEFAULT VALUES; --46
+insert into Components DEFAULT VALUES; --47
+insert into Components DEFAULT VALUES; --48
+insert into Components DEFAULT VALUES; --49
+
+insert into Components DEFAULT VALUES; --50
+insert into Components DEFAULT VALUES; --51
+insert into Components DEFAULT VALUES; --52
+insert into Components DEFAULT VALUES; --53
+insert into Components DEFAULT VALUES; --54
+insert into Components DEFAULT VALUES; --55
+insert into Components DEFAULT VALUES; --56
+insert into Components DEFAULT VALUES; --57
+insert into Components DEFAULT VALUES; --58
+insert into Components DEFAULT VALUES; --59
+
+insert into Components DEFAULT VALUES; --60
+insert into Components DEFAULT VALUES; --61
+insert into Components DEFAULT VALUES; --62
+insert into Components DEFAULT VALUES; --63
+insert into Components DEFAULT VALUES; --64
+insert into Components DEFAULT VALUES; --65
+insert into Components DEFAULT VALUES; --66
+insert into Components DEFAULT VALUES; --67
+insert into Components DEFAULT VALUES; --68
+insert into Components DEFAULT VALUES; --69
+
+insert into Components DEFAULT VALUES; --70
+insert into Components DEFAULT VALUES; --71
+insert into Components DEFAULT VALUES; --72
+insert into Components DEFAULT VALUES; --73
+insert into Components DEFAULT VALUES; --74
+insert into Components DEFAULT VALUES; --75
+insert into Components DEFAULT VALUES; --76
+insert into Components DEFAULT VALUES; --77
+insert into Components DEFAULT VALUES; --78
+insert into Components DEFAULT VALUES; --79
+
+
+
+
+insert into Components DEFAULT VALUES; --80
+insert into Components DEFAULT VALUES; --81
+insert into Components DEFAULT VALUES; --82
+insert into Components DEFAULT VALUES; --83
+insert into Components DEFAULT VALUES; --84
+insert into Components DEFAULT VALUES; --85
+insert into Components DEFAULT VALUES; --86
+insert into Components DEFAULT VALUES; --87
+insert into Components DEFAULT VALUES; --88
+insert into Components DEFAULT VALUES; --89
+
+insert into Components DEFAULT VALUES; --90
+insert into Components DEFAULT VALUES; --91
+insert into Components DEFAULT VALUES; --92
+insert into Components DEFAULT VALUES; --93
+insert into Components DEFAULT VALUES; --94
+insert into Components DEFAULT VALUES; --95
+insert into Components DEFAULT VALUES; --96
+insert into Components DEFAULT VALUES; --97
+insert into Components DEFAULT VALUES; --98
+insert into Components DEFAULT VALUES; --99
+
+insert into Components DEFAULT VALUES; --100
+insert into Components DEFAULT VALUES; --101
+insert into Components DEFAULT VALUES; --102
+insert into Components DEFAULT VALUES; --103
+insert into Components DEFAULT VALUES; --104
+insert into Components DEFAULT VALUES; --105
+insert into Components DEFAULT VALUES; --106
+insert into Components DEFAULT VALUES; --107
+insert into Components DEFAULT VALUES; --108
 --Table Load 1
 --RRI
 --Keywords
@@ -146,6 +266,7 @@ create table KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRI
 /*Small Time						--Index   105*/		insert into Keywords (KeywordVersion, KeywordName, KeywordDescription) VALUES ('1.0', 'Small Time',				'Score 1[$$].');
 /*Spacetime Sarsaparilla			--Index   106*/		insert into Keywords (KeywordVersion, KeywordName, KeywordDescription) VALUES ('1.0', 'Spacetime Sarsaparilla',	'Equipment:  Discard this card during your turn to move to any car with another raider on it.');
 
+/*Claptrap							--Index   107*/		insert into Keywords (KeywordVersion, KeywordName, KeywordDescription) VALUES ('1.0', 'Claptrap',				'When you roll rank 8: Move all Raiders and Lawbots to an adjacent car and replace with "Blown-Out Car".');
 
 
 
@@ -178,20 +299,21 @@ create table KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRI
 --RRI
 --Raiders
 
+
 --Apprentice, The --CardIndex 0 --CharacterIndex 0 --RaiderIndex 0
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Apprentice, The', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Apprentice_The.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Apprentice_The_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Apprentice_The.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Apprentice_The.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Apprentice_The_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Apprentice_The.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"What is it?"', 
 'C.O.W. ruthlessly guards its position in the galaxy. While raiders prove to be an irritation to the galactic organization, the damage raiders actually inflict rarely goes beyond minor PR disasters and momentary hits to C.O.W.''s bottom line. When this is taken into consideration, C.O.W.''s obvious desperation to capture the raider known only as "The Apprentice" is dumbfounding. Already boasting a bounty higher than raiders of far more renown, The Apprentice remains a precocious enigma to all that cross its path.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (0,
-'http://htkb.info/RRI/Cards/Characters/Standies/Apprentice_The.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Apprentice_The_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Apprentice_The.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Apprentice_The_back.png', 
 'Either');
 insert into Raiders (CharacterIndex) VALUES (0);
 insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (0, 0); --Apprentice, The
@@ -199,17 +321,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (0, 0); --Appr
 --Bakusho Mondai  --CardIndex 1--CharacterIndex 1 --RaiderIndex 1
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Bakusho Mondai', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Bakusho_Mondai.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Bakusho_Mondai_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Bakusho_Mondai.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Bakusho_Mondai.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Bakusho_Mondai_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Bakusho_Mondai.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"Take cover! This one''s a big ''un."', 
 'Bakusho_Mondai''s gregarious nature and boisterous personality made him a natural master of festivals and celebrations. He is eager to join raiding parties and lend his dance-kata and fireworks, exquisitely choreographed to the thumping rhythm of taiko drums.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (1,
-'http://htkb.info/RRI/Cards/Characters/Standies/Bakusho_Mondai.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Bakusho_Mondai_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Bakusho_Mondai.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Bakusho_Mondai_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) VALUES (1);
 insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (1, 1); --Bakusho Mondai
@@ -217,17 +339,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (1, 1); --Baku
 --Cactus Zak --CardIndex 2 --CharacterIndex 2 --RaiderIndex 2
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Cactus Zak', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Cactus_Zak.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Cactus_Zak_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Cactus_Zak.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Cactus_Zak.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Cactus_Zak_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Cactus_Zak.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"Rustlin'' cattle or coin; makes no difference to me."', 
 'In the wildest regions of the galactic frontier, the only crime more dagerous than raiding government trains is poaching space cattle. And the only man daring enough to make his living at both is Cactus Zak. Once an honest man making a hard living as a space cattle rancher, Zak now risks life and limb in daring heists against the shipments of the Galactic Central Bank for their part in the loss of his family. Branded an outlaw, the man known as Cactus Zak will not rest until he has justice or revenge, whichever comes first.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (2,
-'http://htkb.info/RRI/Cards/Characters/Standies/Cactus_Zak.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Cactus_Zak_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Cactus_Zak.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Cactus_Zak_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) VALUES (2);
 insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (2, 2); --Cactus Zak
@@ -235,17 +357,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (2, 2); --Cact
 --Canton Cobb --CardIndex 3 --CharacterIndex 3 --RaiderIndex 3
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Canton Cobb', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Canton_Cobb.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Canton_Cobb_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Canton_Cobb.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Canton_Cobb.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Canton_Cobb_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Canton_Cobb.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"Shiny. Let''s be bad guys."', 
 'Known across the galaxy as the hero of Serene City, Canton Cobb has an uncanny knack for getting into trouble and committing unintentional acts of heroism. On more than one occaision, he''s hidden loot in a small town only to return later to find a grateful community who believe he left the money for them. Despite his unintended reputation and big damn heroics, Canton is a mercenary through and through who will take any job to make a buck. His favorite pastimes include gambling, cleaning Betty (his favorite gun), and spending alone time in his bunk.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (3,
-'http://htkb.info/RRI/Cards/Characters/Standies/Canton_Cobb.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Canton_Cobb_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Canton_Cobb.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Canton_Cobb_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (3);
@@ -254,17 +376,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (3, 3); --Cant
 --Chuy --CardIndex 4 --CharacterIndex 4 --RaiderIndex 4
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Chuy', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Chuy.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Chuy_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Chuy.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Chuy.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Chuy_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Chuy.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"He''s no use to me dead."', 
 'Part-time bounty hunter, part-time bandit, and full-time butt-kicker, Chuy''s name is legendary amongst the scum and villainy of the outer rim. While not much is known about the history of this renowned warrior, what is clear is that when the bounty hunting business is slow, Chuy isn''t opposed to robbing space haulers to make a little extra on the side. With his wide array of weapons and sweet-looking armor, he can take down the fiercest bounties and toughest Lawbots. With the ever increasing amounts of loot being sent across the galaxy, it''s clear that stories of Chuy''s exploits will continue to be told across the stars.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (4,
-'http://htkb.info/RRI/Cards/Characters/Standies/Chuy.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Chuy_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Chuy.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Chuy_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (4);
@@ -273,17 +395,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (4, 4); --Chuy
 --Cowpunch Candy --CardIndex 5 --CharacterIndex 5 --RaiderIndex 5
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Cowpuncher Candy', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Cowpuncher_Candy.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Cowpuncher_Candy_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Cowpuncher_Candy.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Cowpuncher_Candy.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Cowpuncher_Candy_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Cowpuncher_Candy.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"There is a funny story about how she got her moniker, and no, she won''t tell you."', 
 'With her surprising blaster skills and can-do attitude, Candy has developed quite the reputation and a devoted fan following. Originally a loner, she formed a special connection with the mysterious raider El Cola, and now there''s no one she would rather have on her side. The two of them make one of the most effective bandit teams in all the outer rim. She believes in El Cola''s mission to collect loot and help those in need, but she does save what she can to someday fulfill her own dream: to sample every candy and soda shop in the core worlds.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (5,
-'http://htkb.info/RRI/Cards/Characters/Standies/Cowpuncher_Candy.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Cowpuncher_Candy_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Cowpuncher_Candy.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Cowpuncher_Candy_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (5);
@@ -292,17 +414,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (5, 5); --Cowp
 --El Cola --CardIndex 6 --CharacterIndex 6 --RaiderIndex 6
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('El Cola', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_El_Cola.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_El_Cola_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/El_Cola.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_El_Cola.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_El_Cola_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/El_Cola.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"That masked squirrel-thing is the greatest fighter I have ever met!"', 
 'No one knows where this mysteriously furry swashbuckling hero comes from, but everyone across the space rails knows not to get in his way - unless they want to suffer a flurry of blindingly quick rapier slashes! El Cola met Cowpuncher Candy shortly after taking up banditry, and they immediately began working together as if they''d known each other all their lives. The pair have become best friends and partners in crime, both sharing a love of adventure, justice, and delicious soda goodness.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (6,
-'http://htkb.info/RRI/Cards/Characters/Standies/El_Cola.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/El_Cola_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/El_Cola.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/El_Cola_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (6);
@@ -311,17 +433,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (6, 6); --El C
 --Huckleberry --CardIndex 7 --CharacterIndex 7 --RaiderIndex 7
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Huckleberry', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Huckleberry.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Huckleberry_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Huckleberry.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Huckleberry.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Huckleberry_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Huckleberry.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"Don''t start a game you aint''t ready to finish."', 
 'The Huckleberry is the quintessential gambler, gunfighter, and gentleman. Easily the smoothest dude in the outer rim, he is famously as loyal to his friends and allies as he is vengeful of cheats, thieves, and double-crossers. No one who ever tried to play him dirty at cards or in a heist lived to tell the tale. For Huckleberry, a blaster duel is just another type of gambling, where speed is as crucial as luck and the stakes are your life. As skilled with the gun as he is with a pack of cards, Huckleberry knows that as long as he lives a life worth living, the odds will always be in his favor.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (7,
-'http://htkb.info/RRI/Cards/Characters/Standies/Huckleberry.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Huckleberry_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Huckleberry.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Huckleberry_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (7);
@@ -330,17 +452,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (7, 7); --Huck
 --John Grizzly --CardIndex 8 --CharacterIndex 8 --RaiderIndex 8
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('John Grizzly', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_John_Grizzly.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_John_Grizzly_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/John_Grizzly.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_John_Grizzly.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_John_Grizzly_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/John_Grizzly.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"I fight for all those who served"', 
 'A man of few words and fewer wasted actions, John Grizzly is one of the few outlaws in the galaxy who can claim that his heists on C.O.W. shipments are just a way of evening the score. Overcome with a fierce need to help those who had given so much for the causes of various star systems, as well as a desire to get back at the Galactic Congress for discarding their veterans, John began taking part in dangerous space rail heists for big loot. With courage and dedication, John once again took up arms for a cause he believes in, and isn''t afraid to blast a hole in a few Tinstars to help a fellow soldier in need.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (8,
-'http://htkb.info/RRI/Cards/Characters/Standies/John_Grizzly.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/John_Grizzly_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/John_Grizzly.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/John_Grizzly_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (8);
@@ -349,17 +471,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (8, 8); --John
 --Josie Oakley --CardIndex 9 --CharacterIndex 9 --RaiderIndex 9
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Josie Oakley', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Josie_Oakley.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Josie_Oakley_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Josie_Oakley.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Josie_Oakley.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Josie_Oakley_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Josie_Oakley.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"She''s the best shot in the stars."', 
 'As the only daughter of legendary outlaw and pistoleer Jumpin'' Wayne Oakley, Josie learned to shoot almost as soon as she could walk. When she was old enough, Josie took everything she learned from her father and followed in his footsteps, becoming one of the most renowned gunfighters and loot-stealing bandits in all the outer rim. Rumor has it she is also the only living person ever to best JR Dallas in a draw. No one knows if there''s any truth to it, but Dallas seems to have an intense rivalry with Josie. In the end, Josie is forging her own path to fame and fortune with the business end of her blaster pistol.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (9,
-'http://htkb.info/RRI/Cards/Characters/Standies/Josie_Oakley.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Josie_Oakley_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Josie_Oakley.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Josie_Oakley_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (9);
@@ -368,17 +490,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (9, 9); --Josi
 --JR Dallas --CardIndex 10 --CharacterIndex 10 --RaiderIndex 10
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('JR Dallas', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_JR_Dallas.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_JR_Dallas_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/JR_Dallas.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Jr_Dallas.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Jr_Dallas_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Jr_Dallas.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"Ain''t no tin-plated Lawbot ever gonna outdraw me!"', 
 'As the almost-undisputed fastest draw in the galaxy, JR Dallas'' reputation makes him the toast of any tavern he graces with his presence. He gladly regales everyone within earshot with tales of his many victories against some of the most legendary names in the outer rim. While some of the details of these stories may be slightly exaggerated, JR knows how to weave an exciting tale, and many patrons are willing to run up their bar tabs buying drinks in exchange for one of his stories. A truly incredible gunfighter, JR is the consummate thrill-seeker, earning big loot from a shootout and promptly losing it all in high-stakes card games, only to do it all again the next day.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (10,
-'http://htkb.info/RRI/Cards/Characters/Standies/JR_Dallas.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/JR_Dallas_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/JR_Dallas.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/JR_Dallas_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (10);
@@ -387,17 +509,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (10, 10); --JR
 --Kid, The --CardIndex 11 --CharacterIndex 11 --RaiderIndex 11
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Kid, The', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Kid_The.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Kid_The_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Kid_The.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Kid_The.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Kid_The_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Kid_The.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"I''m the fastest there ever was."', 
 'As the youngest brother (and subsequent member) of the infamous Black Hat Gang, The Kid was quite literally born to be an outlaw. Loving the adventures he had with his brothers, The Kid was all too eager to be included in the gang''s largest score to date. During the heist, a surprisingly large posse of Tinstars lead by Lt. Deadeye captured most of the gang, The Kid only being saved by his eldest brother''s sacrifice. Since that day, The Kid has gathered as much money as he can and worked to find a way to free his brothers from jail. No Lawbot, bandit, or government official will get in the way of The Kid and his share of the loot.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (11,
-'http://htkb.info/RRI/Cards/Characters/Standies/Kid_The.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Kid_The_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Kid_The.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Kid_The_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (11);
@@ -406,17 +528,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (11, 11); --Ki
 --Kingsman --CardIndex 12 --CharacterIndex 12 --RaiderIndex 12
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Kingsman', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Kingsman.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Kingsman_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Kingsman.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Kingsman.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Kingsman_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Kingsman.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"I say, I do so wish these Tinstars made for better sport."', 
 'Born to a high class family in the core worlds, the Kingsman cast aside the comforts and privileges that his family''s vast fortune afforded him and instead dedicating his youth to hunting the most dangerous and cunning beasts in the galaxy. A horrible hunting accident involving astro-dynamite required that his body be rebuilt with robotic prosthesis, and Kingsman has returned to the hunt, as well as the occasional train heist, in order to pay for the costly hospital bills. With his incredible aim enhanced by his augmentations, Kingsman has truly become one of the most dangerous men in the galaxy.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (12,
-'http://htkb.info/RRI/Cards/Characters/Standies/Kingsman.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Kingsman_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Kingsman.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Kingsman_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (12);
@@ -425,17 +547,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (12, 12); --Ki
 --Mutha Superior --CardIndex 13 --CharacterIndex 13 --RaiderIndex 13
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Mutha Superior', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Mutha_Superior.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Mutha_Superior_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Mutha_Superior.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Mutha_Superior.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Mutha_Superior_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Mutha_Superior.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"Don''t think of it as robbery, my child. I''m just forcibly asking for a donation."', 
 'Once a ruthless and terrifying bandit, known for putting down anyone who stood in her way, Mutha Superior has found a new path, one that on the surface seems quite a lot like her old one. Having had a profound religious "awakening" during a heist, she left behind her ill-gotten goods and dedicated herself to her new found faith and piety, eventually settling in as a nun at a remote orphanage. Times are tough, as recent wars have brought in an ever growing influx of little mouths to feed, and an ever depleting sum in the donation box. Finding no other option, Mutha Superior returned to her old train robbing ways, but this time for the good of the children.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (13,
-'http://htkb.info/RRI/Cards/Characters/Standies/Mutha_Superior.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Mutha_Superior_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Mutha_Superior.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Mutha_Superior_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (13);
@@ -444,17 +566,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (13, 13); --Mu
 --Pancho Perfecto --CardIndex 14 --CharacterIndex 14 --RaiderIndex 14
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Pancho Perfecto', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Pancho_Perfecto.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Pancho_Perfecto_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Pancho_Perfecto.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Pancho_Perfecto.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Pancho_Perfecto_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Pancho_Perfecto.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"Ugly? I''ll show you ugly!"', 
 'Known as Pancho The Ugly, Pancho The Rat and Pancho Of The Grinning Machete, as well as several other names not fit to print, Pancho Perfecto is an outlaw renowned as much for his fighting prowess as he is for just plain meanness. Having escaped custody from Lawbot officials on two separate occasions, the last one during the middle of a trial, Pancho Perfecto has taken to working alone, targeting lucrative train routes and always looking for the big score. With his trusty ionic revolver and carbon tritanium machete, Maria, this desperado of the stars won''t rest until he makes his fortune or is put down for good.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (14,
-'http://htkb.info/RRI/Cards/Characters/Standies/Pancho_Perfecto.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Pancho_Perfecto_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Pancho_Perfecto.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Pancho_Perfecto_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (14);
@@ -463,17 +585,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (14, 14); --Pa
 --Pearl Heart --CardIndex 15 --CharacterIndex 15 --RaiderIndex 15
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Pearl Heart', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Pearl_Heart.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Pearl_Heart_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Pearl_Heart.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Pearl_Heart.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Pearl_Heart_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Pearl_Heart.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"Her smile could melt the heart of a Lawbot just as fast as her gun could blast it to smithereens."', 
 'Anyone who spends time in the outer rim has heard of the Shooting Star Saloon and its beloved star singer and showgirl, Pearl Heart. While now famous for her amazing performances, Pearl lead the life of a bandit and raider long before becoming a star on the stage. She still partakes in the occasional heist, mainly to avoid boredom, but also to stay limber and to liberate a little of the wealth from the galaxy''s great and good (who are notoriously bad tippers). When she encounters other bandits during a raid, she is known for charming her way not just into alliances, but also into a larger cut of the loot.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (15,
-'http://htkb.info/RRI/Cards/Characters/Standies/Pearl_Heart.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Pearl_Heart_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Pearl_Heart.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Pearl_Heart_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (15);
@@ -482,17 +604,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (15, 15); --Pe
 --Rhinestone --CardIndex 16 --CharacterIndex 16 --RaiderIndex 16
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Rhinestone', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Rhinestone.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Rhinestone_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Rhinestone.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Rhinestone.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Rhinestone_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Rhinestone.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"Those who tell you to never bring a knife don''t know how to use a knife."', 
 'With a clash of thunder and the howling of a dozen blades, the beautiful barbarian queen Rhinestone, has become a true terror of the space rails. Rumor has it that she hails from the unexplored territories beyond the outer rim or even another galaxy. The C.O.W. central command continues to raise the bounty on her head exponentially, but to no avail. Of note, the mysterious Conductor has taken an interest in Rhinestone''s dealings, and the pair seem to have a strange connection. Whatever her origins, Rhinestone is equal parts ruthlessness and beauty, never letting anything get in the way of good fight and a big score.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (16,
-'http://htkb.info/RRI/Cards/Characters/Standies/Rhinestone.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Rhinestone_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Rhinestone.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Rhinestone_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (16);
@@ -501,17 +623,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (16, 16); --Rh
 --Star Princess Candy --CardIndex 17 --CharacterIndex 17 --RaiderIndex 17
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Star Princess Candy', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Star_Princess_Candy.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Star_Princess_Candy_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Star_Princess_Candy.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Star_Princess_Candy.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Star_Princess_Candy_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Star_Princess_Candy.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"Aren''t you a little short for a lawbot?"', 
 'The ultimate rebel, Star Princess Candy fights for justice throughout the galaxy with boldness, determination, and a knack to get out of the toughest situations. Star Princess Candy has developed a knack for obtaining secret plans and codes which allow her to raid the rails with uncanny precision.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (17,
-'http://htkb.info/RRI/Cards/Characters/Standies/Star_Princess_Candy.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Star_Princess_Candy_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Star_Princess_Candy.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Star_Princess_Candy_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (17);
@@ -520,17 +642,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (17, 17); --St
 --Steelhorse Candy --CardIndex 18 --CharacterIndex 18 --RaiderIndex 18
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Steelhorse Candy', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Steelhorse_Candy.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Steelhorse_Candy_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Steelhorse_Candy.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Steelhorse_Candy.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Steelhorse_Candy_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Steelhorse_Candy.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"Ride ''Em Cowgirl!"', 
 'With her surprising blaster skills and can-do attitude, Candy has developed quite the reputation and a devoted fan following. Originally a loner, she formed a special connection with the mysterious raider El Cola, and now there''s no one she would rather have on her side. The two of them make one of the most effective bandit teams in all the outer rim. She believes in El Cola''s mission to collect loot and help those in need, but she does save what she can to someday fulfill her own dream: to sample every candy and soda shop in the core worlds.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (18,
-'http://htkb.info/RRI/Cards/Characters/Standies/Steelhorse_Candy.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Steelhorse_Candy_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Steelhorse_Candy.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Steelhorse_Candy_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (18);
@@ -539,17 +661,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (18, 18); --St
 --Swordmage Acolyte --CardIndex 19 --CharacterIndex 19 --RaiderIndex 19
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Swordmage Acolyte', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Swordmage_Acolyte.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Swordmage_Acolyte_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Swordmage_Acolyte.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Swordmage_Acolyte.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Swordmage_Acolyte_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Swordmage_Acolyte.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"This is between you and me!"', 
 'Swordmages have a long history of leading the resistance against the oppressive regime of C.O.W. and the Galactic Central Bank. Sadly, these rare and charismatic leaders are ruthlessly hunted down across the galaxy. As fewer and fewer children with innate talents to become swordmages are discovered each year, they have become a dying breed. Now, the swordmages are reduced to a mere handful of grizzled veterans and their young acolytes.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (19,
-'http://htkb.info/RRI/Cards/Characters/Standies/Swordmage_Acolyte.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Swordmage_Acolyte_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Swordmage_Acolyte.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Swordmage_Acolyte_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (19);
@@ -558,17 +680,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (19, 19); --Sw
 --Tazak Geronimo --CardIndex 20 --CharacterIndex 20 --RaiderIndex 20
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Tazak Geronimo', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Tazak_Geronimo.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Tazak_Geronimo_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Tazak_Geronimo.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Tazak_Geronimo.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Tazak_Geronimo_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Tazak_Geronimo.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"Even wise men need loot."', 
 'As second son of the chief of the Star Runner tribe, Tazak always tried to do the best for his family and his people. A great warrior and tracker, Geronimo took on only the toughest scouting missions. Eventually, this led to a surprising partnership with a mysterious masked bandit who had become impressed with Tazak''s cunning and fighting prowess. Soon, Tazak was sending unprecedented amounts of double-dollars back to his people and had resigned himself to this new life as a bandit. While the pair work well together, they will just as often go off on separate capers. Double the jobs means double the loot, and Tazak needs to do all he can to help his tribe.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (20,
-'http://htkb.info/RRI/Cards/Characters/Standies/Tazak_Geronimo.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Tazak_Geronimo_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Tazak_Geronimo.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Tazak_Geronimo_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (20);
@@ -577,17 +699,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (20, 20); --Ta
 --Thorne --CardIndex 21 --CharacterIndex 21 --RaiderIndex 21
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Thorne', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Thorne.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Thorne_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Thorne.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Thorne.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Thorne_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Thorne.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"Bang."', 
 'Some call him a wild man, others call him a cowboy. The man known as Thorne refers to himself as a simple bounty hunter. Most people find this laid-back and cool customer very easy to get along with, even though he rarely shares much of his past. No matter the danger, Thorne is a man in his element, using fast thinking and even faster reflexes to get out of any jam. As a lifelong fan of martial arts movie star, Brock Li, Thorne is also a kenpo expert, which he enjoys using on any Lawbots fixin'' to keep him from the next big score.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (21,
-'http://htkb.info/RRI/Cards/Characters/Standies/Thorne.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Thorne_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Thorne.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Thorne_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (21);
@@ -596,17 +718,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (21, 21); --Th
 --Typhoon --CardIndex 22 --CharacterIndex 22 --RaiderIndex 22
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Typhoon', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Typhoon.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Typhoon_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Typhoon.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Typhoon.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Typhoon_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Typhoon.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"Love and peace!"', 
 'In an ironic twist of fate, one of the galaxy''s greatest bounty hunters also has the largest bounty in the galaxy on his head: 6 billion double-dollars. A pacifist at his core, Typhoon will go to great lengths to save lives, even his opponents'', and he brings nearly all of his bounties in alive. When the bounty hunting business is slow, Typhoon is also known to take on the occasional heist job, feeling more at ease battling Tinstar robots. Even then, he avoids headshots to allow the individual Lawbots to fight another day. Part deadly gunfighter and part peace-loving hippie, Typhoon will continue to live his life by his own set of rules: love, peace, and loot.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (22,
-'http://htkb.info/RRI/Cards/Characters/Standies/Typhoon.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Typhoon_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Typhoon.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Typhoon_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (22);
@@ -615,17 +737,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (22, 22); --Ty
 --Umbra --CardIndex 23 --CharacterIndex 23 --RaiderIndex 23
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Umbra', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Umbra.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Umbra_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Umbra.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Umbra.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Umbra_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Umbra.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"Rest in Pieces."', 
 'Dr. Umbra, PhD is man who has spent his whole life dealing with death as a profession. Cleaning up after botched heists was definitely a strange and less than illustrious career, but Dr. Umbra enjoyed his work, saving up his earnings to buy a custom made astro-hearse, which he lovingly named Morticia. One day tragedy struck, as Dr. Umbra arrived early to a post-heist clean up, poor Morticia was riddled with laser holes by stray Lawbot blasts. When C.O.W. refused to reimburse for the damages, Dr. Umbra decided he would seek reparations by other means, namely by starting a new life as a bandit and outlaw, robbing from any C.O.W. rail shipments and blasting holes in Tinstars with scalpel-like precision.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (23,
-'http://htkb.info/RRI/Cards/Characters/Standies/Umbra.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Umbra_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Umbra.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Umbra_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (23);
@@ -634,17 +756,17 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (23, 23); --Um
 --Whistlin Pete --CardIndex 24 --CharacterIndex 24 --RaiderIndex 24
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Whistlin Pete', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Whistlin_Pete.png', 
-'http://htkb.info/RRI/Cards/Characters/Card_Character_Whistlin_Pete_back.png', 
-'http://htkb.online/SDWiki/RRI/Cards/Characters/Whistlin_Pete.xhtml', 
-'Raider', 'RRI', 'RRI Core Set',  
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Whistlin_Pete.png', 
+'http://htkb.info/RRI/Cards/Raiders/Card_Character_Whistlin_Pete_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Whistlin_Pete.xhtml', 
+'Raider', '1.0', 'RRI Core Set',  
 '"I don''t know what was more unsettling, the way he whistled before the gunfight or the way he cackled during it."', 
 'Insane, strange, and a little bit smelly all accurately describe this mysterious prospector turned space bandit. While his unkempt beard, old worn hat, and slack-jawed grin may make him seem harmless, do not be fooled. One moment, Whistling Pete is a rambling but harmless madman, and the next, he becomes a hollerin'' tornado of death and blaster bolts. As his legend grows, so do the unconfirmed rumors of a tragic past. Wherever he''s from, Whistling Pete and Bessie Omega, his invisible telepathic space cow, travel the space rails, eagerly fighting to claim the C.O.W.''s and the Galactic Bank''s fortunes.'
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (24,
-'http://htkb.info/RRI/Cards/Characters/Standies/Whistlin_Pete.png', 
-'http://htkb.info/RRI/Cards/Characters/Standies/Whistlin_Pete_back.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Whistlin_Pete.png', 
+'http://htkb.info/RRI/Cards/Raiders/Standies/Whistlin_Pete_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (24);
@@ -653,13 +775,14 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (24, 24); --Wh
 --RRI
 --Lawbots
 
+
 --Deputy --CharacterIndex 25 --CardIndex 25 --LawbotIndex 0
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Deputy', 
 'http://htkb.info/RRI/Cards/Lawbots/Card_Lawbots.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Lawbots/Deputy.xhtml', 
-'Lawbot', 'RRI', 'RRI Core Set',  
+'Lawbot', '1.0', 'RRI Core Set',  
 '', 
 ''
 );
@@ -681,7 +804,7 @@ VALUES ('Sheriff',
 'http://htkb.info/RRI/Cards/Lawbots/Card_Lawbots.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Lawbots/Sheriff.xhtml', 
-'Lawbot', 'RRI', 'RRI Core Set',  
+'Lawbot', '1.0', 'RRI Core Set',  
 '', 
 ''
 );
@@ -703,7 +826,7 @@ VALUES ('Marshal',
 'http://htkb.info/RRI/Cards/Lawbots/Card_Lawbots.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Lawbots/Marshal.xhtml', 
-'Lawbot', 'RRI', 'RRI Core Set',  
+'Lawbot', '1.0', 'RRI Core Set',  
 '', 
 ''
 );
@@ -725,7 +848,7 @@ VALUES ('Cavalry Soldier',
 'http://htkb.info/RRI/Cards/Lawbots/Card_Lawbot_Cavalry_Soldier.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Lawbots/Cavalry_Soldier.xhtml', 
-'Lawbot', 'RRI', 'RRI Core Set',  
+'Lawbot', '1.0', 'RRI Core Set',  
 '', 
 ''
 );
@@ -748,7 +871,7 @@ VALUES ('Cavalry_Captain',
 'http://htkb.info/RRI/Cards/Lawbots/Card_Lawbot_Cavalry_Captain.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Lawbots/Cavalry_Captain.xhtml', 
-'Lawbot', 'RRI', 'RRI Core Set',  
+'Lawbot', '1.0', 'RRI Core Set',  
 '', 
 ''
 );
@@ -771,7 +894,7 @@ VALUES ('Palbearer',
 'http://htkb.info/RRI/Cards/Lawbots/Card_Lawbot_Palbearer.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Lawbots/Palbearer.xhtml', 
-'Lawbot', 'RRI', 'RRI Core Set',  
+'Lawbot', '1.0', 'RRI Core Set',  
 '', 
 ''
 );
@@ -794,7 +917,7 @@ VALUES ('Preacher',
 'http://htkb.info/RRI/Cards/Lawbots/Card_Lawbot_Preacher.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Lawbots/Preacher.xhtml', 
-'Lawbot', 'RRI', 'RRI Core Set',  
+'Lawbot', '1.0', 'RRI Core Set',  
 '', 
 ''
 );
@@ -817,7 +940,7 @@ VALUES ('999',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_999.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Lawbots/999.xhtml', 
-'Lawbot', 'RRI', 'RRI Core Set',  
+'Lawbot', '1.0', 'RRI Core Set',  
 '', 
 ''
 );
@@ -840,7 +963,7 @@ VALUES ('Lt_Deadeye',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_LT_Deadeye.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Lawbots/LT_Deadeye.xhtml', 
-'Lawbot', 'RRI', 'RRI Core Set',  
+'Lawbot', '1.0', 'RRI Core Set',  
 '', 
 ''
 );
@@ -869,13 +992,14 @@ insert into KeywordAssignments (LawbotIndex, KeywordIndex) VALUES (8, 34); --LT 
 --RRI
 --High Noon Cards
 
+
 --Both Barrels --CardIndex 34 --HighNoonCardIndex 0
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Both Barrels', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Both_Barrels.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Both_Barrels.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"It''s all or nothin''!"', 
 ''
 );
@@ -888,7 +1012,7 @@ VALUES ('Crossfire',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Crossfire.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Crossfire.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Wait, where did you come from ?!"', 
 ''
 );
@@ -901,7 +1025,7 @@ VALUES ('Daring Acrobatics',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Daring_Acrobatics.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Daring_Acrobatics.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Time for some fancy moves!"', 
 ''
 );
@@ -914,7 +1038,7 @@ VALUES ('Dead Man''s Hand',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Dead_Mans_Hand.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Dead_Mans_Hand.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Time for some fancy moves!"', 
 ''
 );
@@ -927,7 +1051,7 @@ VALUES ('Dead Or Alive',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Dead_Or_Alive.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Dead_Or_Alive.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Either way, I get paid."', 
 ''
 );
@@ -940,7 +1064,7 @@ VALUES ('Fan the Hammer',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Fan_the_Hammer.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Fan_the_Hammer.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"She shot all six Tinstars down before any one of ''em pulled their triggers!"', 
 ''
 );
@@ -953,7 +1077,7 @@ VALUES ('Fire Main Thrusters',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Fire_Main_Thrusters.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Fire_Main_Thrusters.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Is it just me, or is this train moving faster?"', 
 ''
 );
@@ -966,7 +1090,7 @@ VALUES ('Got To Have Faith',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Got_To_Have_Faith.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Got_To_Have_Faith.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"With belief, anything is possible."', 
 ''
 );
@@ -979,7 +1103,7 @@ VALUES ('Hands Up',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Got_To_Have_Faith.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Got_To_Have_Faith.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Hands where I can see them, robot."', 
 ''
 );
@@ -992,7 +1116,7 @@ VALUES ('Hot Lead Flyin''',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Hot_Lead_Flyin.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Hot_Lead_Flyin.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Man, who woulda thunk lasers would be so hot?"', 
 ''
 );
@@ -1005,7 +1129,7 @@ VALUES ('Impulse Throttle',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Impulse_Throttle.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Impulse_Throttle.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Okay, we''re definitely moving faster!"', 
 ''
 );
@@ -1018,7 +1142,7 @@ VALUES ('Infamous',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Infamous.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Infamous.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"That means you''re famous for being hated, Pancho.  Quit smiling."', 
 ''
 );
@@ -1031,7 +1155,7 @@ VALUES ('Jokers Wild',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Jokers_Wild.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Jokers_Wild.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Hold on, that didn''t count!"', 
 ''
 );
@@ -1044,7 +1168,7 @@ VALUES ('Law and Order',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Law_and_Order.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Law_and_Order.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"We are the law!"', 
 ''
 );
@@ -1057,7 +1181,7 @@ VALUES ('Mysterious Stranger',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Mysterious_Stranger.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Mysterious_Stranger.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Who''s that?"', 
 ''
 );
@@ -1070,7 +1194,7 @@ VALUES ('Pushin'' Up Daisies',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Pushin_Up_Daisies.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Pushin_Up_Daisies.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Did you see that?  I got that Lawbot right between the eyes!"', 
 ''
 );
@@ -1083,7 +1207,7 @@ VALUES ('Reckless Haste',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Reckless_Haste.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Reckless_Haste.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"No time for caution!"', 
 ''
 );
@@ -1096,7 +1220,7 @@ VALUES ('Redlining the Engines',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Redlining_the_Engines.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Redlining_the_Engines.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"This is it!"', 
 ''
 );
@@ -1109,7 +1233,7 @@ VALUES ('Salvage',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Salvage.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Salvage.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"I love these new models!"', 
 ''
 );
@@ -1122,7 +1246,7 @@ VALUES ('Spray and Pray',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Spray_and_Pray.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Spray_and_Pray.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Guide my aim."', 
 ''
 );
@@ -1135,7 +1259,7 @@ VALUES ('This Gun''s Tune',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_This_Guns_Tune.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/This_Guns_Tune.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Laser fire, the sweetest sound in the galaxy."', 
 ''
 );
@@ -1148,7 +1272,7 @@ VALUES ('This is a Robbery',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_This_is_a_Robbery.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/This_is_a_Robbery.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"If any of you jerks move, I''ll blast every last one of you."', 
 ''
 );
@@ -1161,7 +1285,7 @@ VALUES ('True Grit',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_True_Grit.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/True_Grit.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"I once saw Geronimo catch more lead than the back wall of the Shooting Star.  He just shrugged and siad he''d walk it off."', 
 ''
 );
@@ -1174,7 +1298,7 @@ VALUES ('Uneasy Partnership',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Uneasy_Partnership.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Uneasy_Partnership.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1187,7 +1311,7 @@ VALUES ('White Lightnin''',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_White_Lightnin.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/White_Lightnin.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"No time for talkin''"', 
 ''
 );
@@ -1230,13 +1354,14 @@ insert into KeywordAssignments (HighNoonCardIndex, KeywordIndex) VALUES (23, 59)
 --RRI
 --Long Arm of the Law Cards
 
+
 --999 --CardIndex 59 --LongArmOfTheLawCardIndex 0
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('999', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_999.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/999.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1249,7 +1374,7 @@ VALUES ('After Them',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_After_Them.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/After_Them.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"After them!"', 
 ''
 );
@@ -1262,7 +1387,7 @@ VALUES ('Angry Mob',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Angry_Mob.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Angry_Mob.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"I-is it just me, or do those Tinstars look...angry?"', 
 ''
 );
@@ -1275,7 +1400,7 @@ VALUES ('Covering Fire',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Covering_Fire.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Covering_Fire.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"Holy moly, they got us pinned!  Do something!"', 
 ''
 );
@@ -1288,7 +1413,7 @@ VALUES ('Deputized',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Deputized.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Deputized.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1301,7 +1426,7 @@ VALUES ('Deputized',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Deputy.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Deputy.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1314,7 +1439,7 @@ VALUES ('Duck',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Duck.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Duck.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"What? Where? Oh, you meant the other thing."', 
 ''
 );
@@ -1327,7 +1452,7 @@ VALUES ('Get to the Station',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Get_to_the_Station.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Get_to_the_Station.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"No oil breaks till this train and its cargo arrive safely, boys."', 
 ''
 );
@@ -1340,7 +1465,7 @@ VALUES ('Indulgence',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Indulgence.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Indulgence.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1353,7 +1478,7 @@ VALUES ('LT Deadeye',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_LT_Deadeye.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/LT_Deadeye.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1366,7 +1491,7 @@ VALUES ('Lucky',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Lucky.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Lucky.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"Boy, those Tinstars sure are having a good day today..."', 
 ''
 );
@@ -1379,7 +1504,7 @@ VALUES ('Marshal',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Marshal.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Marshal.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1392,7 +1517,7 @@ VALUES ('Posse Up',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Posse_Up.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Posse_Up.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1405,7 +1530,7 @@ VALUES ('Posse Up',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Protect_and_Serve.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Protect_and_Serve.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"Keeping the peace through superior firepower."', 
 ''
 );
@@ -1418,7 +1543,7 @@ VALUES ('Protect the Locomotive',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Protect_the_Locomotive.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Protect_the_Locomotive.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"Unit 358, you and Units 419 and 3117 circle back.  The rest of us will pursue the intruders."', 
 ''
 );
@@ -1431,7 +1556,7 @@ VALUES ('Real Predicament',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Real_Predicament.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Real_Predicament.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"Your time is up, criminal.  Well, it will be in 108.6 seconds."', 
 ''
 );
@@ -1444,7 +1569,7 @@ VALUES ('Reinforcements',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Reinforcements.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Reinforcements.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1457,7 +1582,7 @@ VALUES ('Security Contract',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Security_Contract.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Security_Contract.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1470,7 +1595,7 @@ VALUES ('Sheriff',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Sheriff.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Sheriff.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1483,7 +1608,7 @@ VALUES ('Shoot Don''t Talk',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Shoot_Dont_Talk.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Shoot_Dont_Talk.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1496,7 +1621,7 @@ VALUES ('Take Aim',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Take_Aim.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Take_Aim.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"Alright ''bots, time show your lieutenant what those new software upgrades can do!"', 
 ''
 );
@@ -1509,7 +1634,7 @@ VALUES ('Tithe',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Tithe.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Tithe.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"The Holy Order of M.O.O. thanks you for your donation."', 
 ''
 );
@@ -1522,7 +1647,7 @@ VALUES ('Wanted',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Wanted.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Wanted.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1567,13 +1692,14 @@ insert into KeywordAssignments (LongArmOfTheLawCardIndex, KeywordIndex) VALUES (
 --RRI
 --Loot Cards
 
+
 --100 Gallon Hat --CardIndex 82 --LootCardIndex 0
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('100 Gallon Hat', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_100_Gallon_Hat.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/100_Gallon_Hat.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1586,7 +1712,7 @@ VALUES ('Auto Repeater',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Auto_Repeater.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Auto_Repeater.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Aim?  Pfft.  Why aim when you can just fill a room with bullets?"', 
 ''
 );
@@ -1599,7 +1725,7 @@ VALUES ('Blast Proof Vest',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Blast_Proof_Vest.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Blast_Proof_Vest.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1612,7 +1738,7 @@ VALUES ('Cog Suit',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Cog_Suit.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Cog_Suit.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Space survival guaranteed or your money back!"', 
 ''
 );
@@ -1625,7 +1751,7 @@ VALUES ('Deadman''s Manacles',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Deadmans_Manacles.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Deadmans_Manacles.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Space survival guaranteed or your money back!"', 
 ''
 );
@@ -1638,7 +1764,7 @@ VALUES ('Extortion',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Extortion.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Extortion.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"You call it a crime.  I call it another way to make a double-dollar."', 
 ''
 );
@@ -1651,7 +1777,7 @@ VALUES ('Fancy Two-Shot',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Fancy_Two_Shot.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Fancy_Two_Shot.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Look!  It even comes with an ergonomic holster.  And shiny lights.  I love shiny lights!"', 
 ''
 );
@@ -1664,7 +1790,7 @@ VALUES ('Fancy Two-Shot',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Fancy_Two_Shot.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Fancy_Two_Shot.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Look!  It even comes with an ergonomic holster.  And shiny lights.  I love shiny lights!"', 
 ''
 );
@@ -1677,7 +1803,7 @@ VALUES ('Full-Auto Handcannon',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Full_Auto_Handcannon.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Full_Auto_Handcannon.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Just point, then pull the trigger.  Easy"', 
 ''
 );
@@ -1690,7 +1816,7 @@ VALUES ('Haul',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Haul.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Haul.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"We got what we came for.  Let''s get out of here!"', 
 ''
 );
@@ -1703,7 +1829,7 @@ VALUES ('Holding Out On Me',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Holding_Out_On_Me.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Holding_Out_On_Me.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1716,7 +1842,7 @@ VALUES ('Holdout Knife',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Holdout_Knife.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Holdout_Knife.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Looks like this is gonna get personal."', 
 ''
 );
@@ -1729,7 +1855,7 @@ VALUES ('In the Bag',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_In_the_Bag.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/In_the_Bag.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Nope, nothing here.  No, there''s nothing in my pockets.  Why do you ask?"', 
 ''
 );
@@ -1742,7 +1868,7 @@ VALUES ('Jackpot',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Jackpot.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Jackpot.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"This is what it''s all about, folks."', 
 ''
 );
@@ -1755,7 +1881,7 @@ VALUES ('Kinetic Deflector',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Kinetic_Deflector.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Kinetic_Deflector.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"This is what it''s all about, folks."', 
 ''
 );
@@ -1768,7 +1894,7 @@ VALUES ('Larceny',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Larceny.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Larceny.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Yeah, I know what that word means.  Don''t look at me liek that, Josie!"', 
 ''
 );
@@ -1781,7 +1907,7 @@ VALUES ('Lightning Caster',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Lightning_Caster.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Lightning_Caster.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1794,7 +1920,7 @@ VALUES ('Long Rifle',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Long_Rifle.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Long_Rifle.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Dead to rights."', 
 ''
 );
@@ -1807,7 +1933,7 @@ VALUES ('Lucky Bandana',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Lucky_Bandana.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Lucky_Bandana.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1820,7 +1946,7 @@ VALUES ('Machine Rifle',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Machine_Rifle.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Machine_Rifle.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Overkill?  In this line of work, pardner, there ain''t no such animal."', 
 ''
 );
@@ -1833,7 +1959,7 @@ VALUES ('Medicae Intruments',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Medicae_Intruments.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Medicae_Intruments.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Ain''t you even going to sterilize those?"', 
 ''
 );
@@ -1846,7 +1972,7 @@ VALUES ('Nytromite',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Nytromite.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Nytromite.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -1859,7 +1985,7 @@ VALUES ('Rich Travel Chest',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Rich_Travel_Chest.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Rich_Travel_Chest.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Okay, now how do I get this out of here without anybody noticing...?"', 
 ''
 );
@@ -1872,7 +1998,7 @@ VALUES ('Score',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Score.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Score.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Hey, alright.  This might just be worth it after all."', 
 ''
 );
@@ -1885,7 +2011,7 @@ VALUES ('Small Time',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Small_Time.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Small_Time.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Really?!  We came all this way for THIS?!!!"', 
 ''
 );
@@ -1898,7 +2024,7 @@ VALUES ('Small Time',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Spacetime_Sarsaparilla.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Spacetime_Sarsaparilla.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Smooth and delicious, SpaceTyme is best when shared.  Caution:  Fights for the last pint known to occur."', 
 ''
 );
@@ -1914,15 +2040,51 @@ insert into KeywordAssignments (LootIndex, KeywordIndex) VALUES (25, 106); --Spa
 --RRI
 --Utility Cards
 
+
 --Hands --CardIndex 108 --UtilityIndex 0
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Hands', 
 'http://htkb.info/RRI/Cards/Utility/Card_Utility_Hands.png', 
 'http://htkb.info/RRI/Cards/Utility/Card_Utility_Hands.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Utility/Hands.xhtml', 
-'Utility', 'RRI', 'RRI Core Set',
+'Utility', '1.0', 'RRI Core Set',
 '', 
 ''
 );
 insert into Utilities (CardIndex, UtilityDescription) VALUES (108, 
 '');
+--Table Load 500
+--RRI
+--Customs
+
+
+--Raiders
+--Claptrap --CardIndex 109 --CharacterIndex 34 --RaiderIndex 25
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
+VALUES ('Claptrap', 
+'http://htkb.info/RRI/Custom/Raiders/Card_Character_Claptrap.png', 
+'http://htkb.info/RRI/Custom/Raiders/Card_Character_Claptrap_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Raiders/Claptrap.xhtml', 
+'Raider', 'Custom', 'RRI Custom Set',  
+'"That looks like it hurts!"', 
+'Created as one of the early prototypes for Professor Zep''s mining robots, a failure in its programming led to it becoming extremely clumsy and annoying.  After blowing up Zep''s workshop by accident Claptrap fled to the Outer Rims where he''s decided to "help" the local raiders of the displaced mining colonies.'
+);
+insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
+VALUES (109,
+'http://htkb.info/Common/Standies/Borderlands/Claptrap.png', 
+'http://htkb.info/Common/Standies/Borderlands/Claptrap_back.png', 
+'Either');
+insert into Raiders (CharacterIndex) VALUES (34);
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (25, 107); --Claptrap
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
+109,
+'TBD.',
+'Discord'
+);
+
+
+
+
+
+
+

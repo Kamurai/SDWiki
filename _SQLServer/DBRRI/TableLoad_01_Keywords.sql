@@ -119,6 +119,7 @@
 /*Small Time						--Index   105*/		insert into Keywords (KeywordVersion, KeywordName, KeywordDescription) VALUES ('1.0', 'Small Time',				'Score 1[$$].');
 /*Spacetime Sarsaparilla			--Index   106*/		insert into Keywords (KeywordVersion, KeywordName, KeywordDescription) VALUES ('1.0', 'Spacetime Sarsaparilla',	'Equipment:  Discard this card during your turn to move to any car with another raider on it.');
 
+/*Claptrap							--Index   107*/		insert into Keywords (KeywordVersion, KeywordName, KeywordDescription) VALUES ('1.0', 'Claptrap',				'When you roll rank 8: Move all Raiders and Lawbots to an adjacent car and replace with "Blown-Out Car".');
 
 
 

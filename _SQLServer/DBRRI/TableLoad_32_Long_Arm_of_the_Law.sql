@@ -2,13 +2,14 @@
 --RRI
 --Long Arm of the Law Cards
 
+
 --999 --CardIndex 59 --LongArmOfTheLawCardIndex 0
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('999', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_999.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/999.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -21,7 +22,7 @@ VALUES ('After Them',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_After_Them.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/After_Them.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"After them!"', 
 ''
 );
@@ -34,7 +35,7 @@ VALUES ('Angry Mob',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Angry_Mob.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Angry_Mob.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"I-is it just me, or do those Tinstars look...angry?"', 
 ''
 );
@@ -47,7 +48,7 @@ VALUES ('Covering Fire',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Covering_Fire.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Covering_Fire.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"Holy moly, they got us pinned!  Do something!"', 
 ''
 );
@@ -60,7 +61,7 @@ VALUES ('Deputized',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Deputized.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Deputized.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -73,7 +74,7 @@ VALUES ('Deputized',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Deputy.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Deputy.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -86,7 +87,7 @@ VALUES ('Duck',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Duck.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Duck.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"What? Where? Oh, you meant the other thing."', 
 ''
 );
@@ -99,7 +100,7 @@ VALUES ('Get to the Station',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Get_to_the_Station.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Get_to_the_Station.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"No oil breaks till this train and its cargo arrive safely, boys."', 
 ''
 );
@@ -112,7 +113,7 @@ VALUES ('Indulgence',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Indulgence.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Indulgence.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -125,7 +126,7 @@ VALUES ('LT Deadeye',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_LT_Deadeye.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/LT_Deadeye.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -138,7 +139,7 @@ VALUES ('Lucky',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Lucky.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Lucky.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"Boy, those Tinstars sure are having a good day today..."', 
 ''
 );
@@ -151,7 +152,7 @@ VALUES ('Marshal',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Marshal.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Marshal.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -164,7 +165,7 @@ VALUES ('Posse Up',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Posse_Up.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Posse_Up.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -177,7 +178,7 @@ VALUES ('Posse Up',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Protect_and_Serve.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Protect_and_Serve.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"Keeping the peace through superior firepower."', 
 ''
 );
@@ -190,7 +191,7 @@ VALUES ('Protect the Locomotive',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Protect_the_Locomotive.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Protect_the_Locomotive.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"Unit 358, you and Units 419 and 3117 circle back.  The rest of us will pursue the intruders."', 
 ''
 );
@@ -203,7 +204,7 @@ VALUES ('Real Predicament',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Real_Predicament.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Real_Predicament.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"Your time is up, criminal.  Well, it will be in 108.6 seconds."', 
 ''
 );
@@ -216,7 +217,7 @@ VALUES ('Reinforcements',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Reinforcements.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Reinforcements.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -229,7 +230,7 @@ VALUES ('Security Contract',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Security_Contract.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Security_Contract.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -242,7 +243,7 @@ VALUES ('Sheriff',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Sheriff.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Sheriff.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -255,7 +256,7 @@ VALUES ('Shoot Don''t Talk',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Shoot_Dont_Talk.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Shoot_Dont_Talk.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -268,7 +269,7 @@ VALUES ('Take Aim',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Take_Aim.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Take_Aim.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"Alright ''bots, time show your lieutenant what those new software upgrades can do!"', 
 ''
 );
@@ -281,7 +282,7 @@ VALUES ('Tithe',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Tithe.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Tithe.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '"The Holy Order of M.O.O. thanks you for your donation."', 
 ''
 );
@@ -294,7 +295,7 @@ VALUES ('Wanted',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Wanted.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Long_Arm_of_the_Law/Wanted.xhtml', 
-'Long Arm of the Law', 'RRI', 'RRI Core Set',
+'Long Arm of the Law', '1.0', 'RRI Core Set',
 '', 
 ''
 );

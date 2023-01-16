@@ -2,13 +2,14 @@
 --RRI
 --Loot Cards
 
+
 --100 Gallon Hat --CardIndex 82 --LootCardIndex 0
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('100 Gallon Hat', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_100_Gallon_Hat.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/100_Gallon_Hat.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -21,7 +22,7 @@ VALUES ('Auto Repeater',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Auto_Repeater.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Auto_Repeater.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Aim?  Pfft.  Why aim when you can just fill a room with bullets?"', 
 ''
 );
@@ -34,7 +35,7 @@ VALUES ('Blast Proof Vest',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Blast_Proof_Vest.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Blast_Proof_Vest.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -47,7 +48,7 @@ VALUES ('Cog Suit',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Cog_Suit.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Cog_Suit.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Space survival guaranteed or your money back!"', 
 ''
 );
@@ -60,7 +61,7 @@ VALUES ('Deadman''s Manacles',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Deadmans_Manacles.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Deadmans_Manacles.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Space survival guaranteed or your money back!"', 
 ''
 );
@@ -73,7 +74,7 @@ VALUES ('Extortion',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Extortion.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Extortion.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"You call it a crime.  I call it another way to make a double-dollar."', 
 ''
 );
@@ -86,7 +87,7 @@ VALUES ('Fancy Two-Shot',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Fancy_Two_Shot.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Fancy_Two_Shot.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Look!  It even comes with an ergonomic holster.  And shiny lights.  I love shiny lights!"', 
 ''
 );
@@ -99,7 +100,7 @@ VALUES ('Fancy Two-Shot',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Fancy_Two_Shot.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Fancy_Two_Shot.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Look!  It even comes with an ergonomic holster.  And shiny lights.  I love shiny lights!"', 
 ''
 );
@@ -112,7 +113,7 @@ VALUES ('Full-Auto Handcannon',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Full_Auto_Handcannon.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Full_Auto_Handcannon.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Just point, then pull the trigger.  Easy"', 
 ''
 );
@@ -125,7 +126,7 @@ VALUES ('Haul',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Haul.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Haul.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"We got what we came for.  Let''s get out of here!"', 
 ''
 );
@@ -138,7 +139,7 @@ VALUES ('Holding Out On Me',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Holding_Out_On_Me.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Holding_Out_On_Me.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -151,7 +152,7 @@ VALUES ('Holdout Knife',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Holdout_Knife.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Holdout_Knife.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Looks like this is gonna get personal."', 
 ''
 );
@@ -164,7 +165,7 @@ VALUES ('In the Bag',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_In_the_Bag.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/In_the_Bag.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Nope, nothing here.  No, there''s nothing in my pockets.  Why do you ask?"', 
 ''
 );
@@ -177,7 +178,7 @@ VALUES ('Jackpot',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Jackpot.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Jackpot.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"This is what it''s all about, folks."', 
 ''
 );
@@ -190,7 +191,7 @@ VALUES ('Kinetic Deflector',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Kinetic_Deflector.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Kinetic_Deflector.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"This is what it''s all about, folks."', 
 ''
 );
@@ -203,7 +204,7 @@ VALUES ('Larceny',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Larceny.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Larceny.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Yeah, I know what that word means.  Don''t look at me liek that, Josie!"', 
 ''
 );
@@ -216,7 +217,7 @@ VALUES ('Lightning Caster',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Lightning_Caster.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Lightning_Caster.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -229,7 +230,7 @@ VALUES ('Long Rifle',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Long_Rifle.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Long_Rifle.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Dead to rights."', 
 ''
 );
@@ -242,7 +243,7 @@ VALUES ('Lucky Bandana',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Lucky_Bandana.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Lucky_Bandana.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -255,7 +256,7 @@ VALUES ('Machine Rifle',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Machine_Rifle.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Machine_Rifle.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Overkill?  In this line of work, pardner, there ain''t no such animal."', 
 ''
 );
@@ -268,7 +269,7 @@ VALUES ('Medicae Intruments',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Medicae_Intruments.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Medicae_Intruments.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Ain''t you even going to sterilize those?"', 
 ''
 );
@@ -281,7 +282,7 @@ VALUES ('Nytromite',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Nytromite.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Nytromite.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -294,7 +295,7 @@ VALUES ('Rich Travel Chest',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Rich_Travel_Chest.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Rich_Travel_Chest.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Okay, now how do I get this out of here without anybody noticing...?"', 
 ''
 );
@@ -307,7 +308,7 @@ VALUES ('Score',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Score.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Score.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Hey, alright.  This might just be worth it after all."', 
 ''
 );
@@ -320,7 +321,7 @@ VALUES ('Small Time',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Small_Time.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Small_Time.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Really?!  We came all this way for THIS?!!!"', 
 ''
 );
@@ -333,7 +334,7 @@ VALUES ('Small Time',
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Spacetime_Sarsaparilla.png', 
 'http://htkb.info/RRI/Cards/Loot/Card_Loot_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Loot/Spacetime_Sarsaparilla.xhtml', 
-'Loot', 'RRI', 'RRI Core Set',
+'Loot', '1.0', 'RRI Core Set',
 '"Smooth and delicious, SpaceTyme is best when shared.  Caution:  Fights for the last pint known to occur."', 
 ''
 );

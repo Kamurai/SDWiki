@@ -2,13 +2,14 @@
 --RRI
 --High Noon Cards
 
+
 --Both Barrels --CardIndex 34 --HighNoonCardIndex 0
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Both Barrels', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Both_Barrels.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Both_Barrels.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"It''s all or nothin''!"', 
 ''
 );
@@ -21,7 +22,7 @@ VALUES ('Crossfire',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Crossfire.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Crossfire.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Wait, where did you come from ?!"', 
 ''
 );
@@ -34,7 +35,7 @@ VALUES ('Daring Acrobatics',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Daring_Acrobatics.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Daring_Acrobatics.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Time for some fancy moves!"', 
 ''
 );
@@ -47,7 +48,7 @@ VALUES ('Dead Man''s Hand',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Dead_Mans_Hand.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Dead_Mans_Hand.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Time for some fancy moves!"', 
 ''
 );
@@ -60,7 +61,7 @@ VALUES ('Dead Or Alive',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Dead_Or_Alive.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Dead_Or_Alive.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Either way, I get paid."', 
 ''
 );
@@ -73,7 +74,7 @@ VALUES ('Fan the Hammer',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Fan_the_Hammer.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Fan_the_Hammer.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"She shot all six Tinstars down before any one of ''em pulled their triggers!"', 
 ''
 );
@@ -86,7 +87,7 @@ VALUES ('Fire Main Thrusters',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Fire_Main_Thrusters.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Fire_Main_Thrusters.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Is it just me, or is this train moving faster?"', 
 ''
 );
@@ -99,7 +100,7 @@ VALUES ('Got To Have Faith',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Got_To_Have_Faith.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Got_To_Have_Faith.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"With belief, anything is possible."', 
 ''
 );
@@ -112,7 +113,7 @@ VALUES ('Hands Up',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Got_To_Have_Faith.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Got_To_Have_Faith.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Hands where I can see them, robot."', 
 ''
 );
@@ -125,7 +126,7 @@ VALUES ('Hot Lead Flyin''',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Hot_Lead_Flyin.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Hot_Lead_Flyin.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Man, who woulda thunk lasers would be so hot?"', 
 ''
 );
@@ -138,7 +139,7 @@ VALUES ('Impulse Throttle',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Impulse_Throttle.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Impulse_Throttle.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Okay, we''re definitely moving faster!"', 
 ''
 );
@@ -151,7 +152,7 @@ VALUES ('Infamous',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Infamous.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Infamous.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"That means you''re famous for being hated, Pancho.  Quit smiling."', 
 ''
 );
@@ -164,7 +165,7 @@ VALUES ('Jokers Wild',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Jokers_Wild.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Jokers_Wild.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Hold on, that didn''t count!"', 
 ''
 );
@@ -177,7 +178,7 @@ VALUES ('Law and Order',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Law_and_Order.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Law_and_Order.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"We are the law!"', 
 ''
 );
@@ -190,7 +191,7 @@ VALUES ('Mysterious Stranger',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Mysterious_Stranger.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Mysterious_Stranger.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Who''s that?"', 
 ''
 );
@@ -203,7 +204,7 @@ VALUES ('Pushin'' Up Daisies',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Pushin_Up_Daisies.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Pushin_Up_Daisies.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Did you see that?  I got that Lawbot right between the eyes!"', 
 ''
 );
@@ -216,7 +217,7 @@ VALUES ('Reckless Haste',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Reckless_Haste.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Reckless_Haste.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"No time for caution!"', 
 ''
 );
@@ -229,7 +230,7 @@ VALUES ('Redlining the Engines',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Redlining_the_Engines.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Redlining_the_Engines.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"This is it!"', 
 ''
 );
@@ -242,7 +243,7 @@ VALUES ('Salvage',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Salvage.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Salvage.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"I love these new models!"', 
 ''
 );
@@ -255,7 +256,7 @@ VALUES ('Spray and Pray',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Spray_and_Pray.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Spray_and_Pray.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Guide my aim."', 
 ''
 );
@@ -268,7 +269,7 @@ VALUES ('This Gun''s Tune',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_This_Guns_Tune.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/This_Guns_Tune.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"Laser fire, the sweetest sound in the galaxy."', 
 ''
 );
@@ -281,7 +282,7 @@ VALUES ('This is a Robbery',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_This_is_a_Robbery.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/This_is_a_Robbery.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"If any of you jerks move, I''ll blast every last one of you."', 
 ''
 );
@@ -294,7 +295,7 @@ VALUES ('True Grit',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_True_Grit.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/True_Grit.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"I once saw Geronimo catch more lead than the back wall of the Shooting Star.  He just shrugged and siad he''d walk it off."', 
 ''
 );
@@ -307,7 +308,7 @@ VALUES ('Uneasy Partnership',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Uneasy_Partnership.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/Uneasy_Partnership.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '', 
 ''
 );
@@ -320,7 +321,7 @@ VALUES ('White Lightnin''',
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_White_Lightnin.png', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/High_Noon/White_Lightnin.xhtml', 
-'High Noon', 'RRI', 'RRI Core Set',
+'High Noon', '1.0', 'RRI Core Set',
 '"No time for talkin''"', 
 ''
 );
