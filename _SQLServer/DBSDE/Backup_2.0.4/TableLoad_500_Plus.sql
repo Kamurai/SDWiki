@@ -464,8 +464,8 @@ insert into UtilityAssignments (UtilityIndex, CharacterIndex) VALUES (2369, 946)
 insert into Components DEFAULT VALUES; --2417
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2417, 'Hoarfang''s Extended Explore Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Cards/Utility/Card_Utility_Classic_Mode_Mighty_Monster_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Utility/Card_Utility_Classic_Mode_Mighty_Monster_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Extended_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Extended_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Utility_Cards/Hoarfang_Extended_Explore_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Explore', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2417, '');
@@ -476,8 +476,8 @@ insert into UtilityAssignments (UtilityIndex, CharacterIndex) VALUES (2369, 946)
 insert into Components DEFAULT VALUES; --2418
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2418, 'Hoarfang''s Arcade Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Mighty_Monster_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Mighty_Monster_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Arcade_Standard_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Arcade_Standard_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Utility_Cards/Hoarfang_Arcade_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Arcade', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2418, '');
@@ -488,8 +488,8 @@ insert into UtilityAssignments (UtilityIndex, CharacterIndex) VALUES (2369, 946)
 insert into Components DEFAULT VALUES; --2419
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2419, 'Hoarfang''s Extended Arcade Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Mighty_Monster_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Mighty_Monster_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Arcade_Extended_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Arcade_Extended_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Utility_Cards/Hoarfang_Extended_Arcade_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Arcade', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2419, '');
@@ -512,8 +512,8 @@ insert into UtilityAssignments (UtilityIndex, CharacterIndex) VALUES (2369, 1225
 insert into Components DEFAULT VALUES; --2421
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2421, 'Sleighride Candy''s Extended Explore Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Cards/Utility/Card_Utility_Classic_Mode_Mighty_Monster_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Utility/Card_Utility_Classic_Mode_Mighty_Monster_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Extended_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Extended_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Utility_Cards/Sleighride_Candy_Extended_Explore_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Explore', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2421, '');
@@ -524,8 +524,8 @@ insert into UtilityAssignments (UtilityIndex, CharacterIndex) VALUES (2369, 1225
 insert into Components DEFAULT VALUES; --2422
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2422, 'Sleighride Candy''s Arcade Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Mighty_Monster_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Mighty_Monster_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Arcade_Standard_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Arcade_Standard_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Utility_Cards/Sleighride_Candy_Arcade_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Arcade', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2422, '');
@@ -536,8 +536,8 @@ insert into UtilityAssignments (UtilityIndex, CharacterIndex) VALUES (2369, 1225
 insert into Components DEFAULT VALUES; --2423
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2423, 'Sleighride Candy''s Extended Arcade Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Mighty_Monster_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Mighty_Monster_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Arcade_Extended_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Arcade_Extended_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Utility_Cards/Sleighride_Candy_Extended_Arcade_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Arcade', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2423, '');
