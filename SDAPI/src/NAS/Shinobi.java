@@ -1,6 +1,6 @@
 package NAS;
 
-import Common.Gender;
+//import Common.Gender;
 import SDE.ModelSize;
 import java.util.ArrayList;
 
@@ -65,42 +65,42 @@ public class Shinobi extends Card implements KeywordInterface {
         String              dexterity,
         int                 health,
         int                 potions,
-        ArrayList<Keyword>  keywords,
+        ArrayList<Keyword>  keywords
     ){
-        super(
-            cardIndex,
-            name,
-            pictureFront,
-            pictureBack,
-            link,
-            cardType,
-            version,
-            module,
-            mode,
-            flavor,
-            affinity,
-            author,
-            sourceURL
-        );
+//        super(
+//            cardIndex,
+//            name,
+//            pictureFront,
+//            pictureBack,
+//            link,
+//            cardType,
+//            version,
+//            module,
+//            mode,
+//            flavor,
+//            affinity,
+//            author,
+//            sourceURL
+//        );
         this.standieFront   = standieFront;
         this.standieBack    = standieBack;
         this.gender         = gender;
         this.modelSize      = modelSize;
         this.rankType   = creatureType;
         this.movement       = movement;
-        this.actions        = actions;
-        this.strength       = strength;
-        this.armor          = armor;
-        this.will           = will;
-        this.dexterity      = dexterity;
-        this.health         = health;
-        this.potions        = potions;
+//        this.actions        = actions;
+//        this.strength       = strength;
+//        this.armor          = armor;
+//        this.will           = will;
+//        this.dexterity      = dexterity;
+//        this.health         = health;
+//        this.potions        = potions;
         this.keywords       = keywords;
     }
     
     public void clone(Shinobi source){
         partialClone(source);
-        clone((Character) source);
+//        clone((Character) source);
     }
 
     public void partialClone(Shinobi source){
@@ -110,17 +110,17 @@ public class Shinobi extends Card implements KeywordInterface {
         this.modelSize      = source.modelSize;
         this.rankType   = source.rankType;
         this.movement       = source.movement;
-        this.actions        = source.actions;
-        this.strength       = source.strength;
-        this.armor          = source.armor;
-        this.will           = source.will;
-        this.dexterity      = source.dexterity;
-        this.health         = source.health;
-        this.potions        = source.potions;
-        this.defenses       = source.defenses;
-        this.offenses       = source.offenses;
+//        this.actions        = source.actions;
+//        this.strength       = source.strength;
+//        this.armor          = source.armor;
+//        this.will           = source.will;
+//        this.dexterity      = source.dexterity;
+//        this.health         = source.health;
+//        this.potions        = source.potions;
+//        this.defenses       = source.defenses;
+//        this.offenses       = source.offenses;
         this.keywords       = source.keywords;
-        this.abilities      = source.abilities;
+//        this.abilities      = source.abilities;
     }
 
     public String getStandieFront() {
@@ -139,37 +139,37 @@ public class Shinobi extends Card implements KeywordInterface {
         this.standieBack = standieBack;
     }
     
-    public String getGender(){
-        if( this.gender == null){
-            this.gender = Gender.getGenders().get(0);
-        }
-        
-        return gender;
-    }
-    
-    public void setGender(String gender){
-        if(Gender.getGenders().contains(gender)){
-            this.gender = gender;
-        }else{
-            this.gender = "Error";
-        }
-    }
-
-    public String getModelSize(){
-        if( this.modelSize == null){
-            this.modelSize = ModelSize.sizes.get(0);
-        }
-        
-        return modelSize;
-    }
-    
-    public void setModelSize(String size){
-        if(ModelSize.sizes.contains(size)){
-            this.modelSize = size;
-        }else{
-            this.modelSize = "Error";
-        }
-    }
+//    public String getGender(){
+//        if( this.gender == null){
+//            this.gender = Gender.getGenders().get(0);
+//        }
+//        
+//        return gender;
+//    }
+//    
+//    public void setGender(String gender){
+//        if(Gender.getGenders().contains(gender)){
+//            this.gender = gender;
+//        }else{
+//            this.gender = "Error";
+//        }
+//    }
+//
+//    public String getModelSize(){
+//        if( this.modelSize == null){
+//            this.modelSize = ModelSize.sizes.get(0);
+//        }
+//        
+//        return modelSize;
+//    }
+//    
+//    public void setModelSize(String size){
+//        if(ModelSize.sizes.contains(size)){
+//            this.modelSize = size;
+//        }else{
+//            this.modelSize = "Error";
+//        }
+//    }
 
     public String getCreatureType() {
         return rankType;
@@ -187,61 +187,61 @@ public class Shinobi extends Card implements KeywordInterface {
         this.movement = movement;
     }
 
-    public int getActions() {
-        return actions;
-    }
-
-    public void setActions(int actions) {
-        this.actions = actions;
-    }
-
-    public String getStrength() {
-        return strength;
-    }
-
-    public void setStrength(String strength) {
-        this.strength = strength;
-    }
-
-    public String getArmor() {
-        return armor;
-    }
-
-    public void setArmor(String armor) {
-        this.armor = armor;
-    }
-
-    public String getWill() {
-        return will;
-    }
-
-    public void setWill(String will) {
-        this.will = will;
-    }
-
-    public String getDexterity() {
-        return dexterity;
-    }
-
-    public void setDexterity(String dexterity) {
-        this.dexterity = dexterity;
-    }
-
-    public int getHealth() {
-        return health;
-    }
-
-    public void setHealth(int health) {
-        this.health = health;
-    }
-
-    public int getPotions() {
-        return potions;
-    }
-
-    public void setPotions(int potions) {
-        this.potions = potions;
-    }
+//    public int getActions() {
+//        return actions;
+//    }
+//
+//    public void setActions(int actions) {
+//        this.actions = actions;
+//    }
+//
+//    public String getStrength() {
+//        return strength;
+//    }
+//
+//    public void setStrength(String strength) {
+//        this.strength = strength;
+//    }
+//
+//    public String getArmor() {
+//        return armor;
+//    }
+//
+//    public void setArmor(String armor) {
+//        this.armor = armor;
+//    }
+//
+//    public String getWill() {
+//        return will;
+//    }
+//
+//    public void setWill(String will) {
+//        this.will = will;
+//    }
+//
+//    public String getDexterity() {
+//        return dexterity;
+//    }
+//
+//    public void setDexterity(String dexterity) {
+//        this.dexterity = dexterity;
+//    }
+//
+//    public int getHealth() {
+//        return health;
+//    }
+//
+//    public void setHealth(int health) {
+//        this.health = health;
+//    }
+//
+//    public int getPotions() {
+//        return potions;
+//    }
+//
+//    public void setPotions(int potions) {
+//        this.potions = potions;
+//    }
     
     //Keyword Interface
     public ArrayList<Keyword> getKeywords() {

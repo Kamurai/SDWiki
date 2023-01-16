@@ -34,7 +34,7 @@ public class RaiderBean extends CardBean{
         String path = uni.getAppPath()+link;
         
         if(path.compareTo("") != 0){
-            this.raider   = RRIDAOOne.pullOneRaider(path);
+//            this.raider   = RRIDAOOne.pullOneRaider(path);
         }
 //        this.raiderList  = RRIDAONavigation.pullNavigationForHeroes();
         
@@ -45,7 +45,7 @@ public class RaiderBean extends CardBean{
         String path = uni.getAppPath()+link;
         
         if(path.compareTo("") != 0){
-            this.raider   = RRIDAOOne.pullOneRaider(path);
+//            this.raider   = RRIDAOOne.pullOneRaider(path);
         }
 //        this.raiderList  = RRIDAONavigation.pullNavigationForHeroesByProductSet(version);
         
