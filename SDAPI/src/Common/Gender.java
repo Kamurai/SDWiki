@@ -1,4 +1,4 @@
-package SDE;
+package Common;
 
 import java.awt.List;
 import java.util.ArrayList;
@@ -11,4 +11,11 @@ public abstract class Gender {
         "Neutral",
         "Either"
     )); 
+
+    public static ArrayList<String> getGenders() {
+        return genders;
+    }
+        
 }
+
+

@@ -1,5 +1,7 @@
 package SDE;
 
+import Common.Component;
+
 public class Card extends Component{
     private int     cardIndex;
     private String  name;
@@ -10,8 +12,6 @@ public class Card extends Component{
     private String  module;
     private String  mode;
     private String  flavor;
-    private String  author;
-    private String  sourceURL;
     
     public Card(){
         super();
@@ -24,8 +24,6 @@ public class Card extends Component{
         this.module         = "";
         this.mode           = "";
         this.flavor         = "";
-        this.author         = "Ninja Division";
-        this.sourceURL      = "http://www.NinjaDivision.com";
     }
     
     public Card(
@@ -40,9 +38,10 @@ public class Card extends Component{
         String  mode,
         String  flavor,
         String  author,
-        String  sourceURL        
+        String  sourceURL,
+        boolean custom
     ){
-        super(link);
+        super(componentIndex, link, custom, author, sourceURL);
         this.cardIndex      = cardIndex;
         this.name           = name;
         this.pictureFront   = pictureFront;
@@ -52,23 +51,22 @@ public class Card extends Component{
         this.module         = module;
         this.mode           = mode;
         this.flavor         = flavor;
-        this.author         = author;
-        this.sourceURL      = sourceURL;
     }
     
-    public Card(Card card){
-        this.cardIndex      = card.getCardIndex();
-        this.name           = card.getName();
-        this.pictureFront   = card.getPictureFront();
-        this.pictureBack    = card.getPictureBack();
-        setLink(card.getLink());
-        this.cardType       = card.getCardType();
-        this.version        = card.getVersion();
-        this.module         = card.getModule();
-        this.mode           = card.getMode();
-        this.flavor         = card.getFlavor();
-        this.author         = card.getAuthor();
-        this.sourceURL      = card.getSourceURL();
+    public Card(Card source){
+        setLink(source.getLink());
+        setAuthor(source.getAuthor());
+        setSourceURL(source.getSourceURL());
+        this.cardIndex      = source.getCardIndex();
+        this.name           = source.getName();
+        this.pictureFront   = source.getPictureFront();
+        this.pictureBack    = source.getPictureBack();
+        this.cardType       = source.getCardType();
+        this.version        = source.getVersion();
+        this.module         = source.getModule();
+        this.mode           = source.getMode();
+        this.flavor         = source.getFlavor();
+        
     }
     
     public void clone(Card source){
@@ -77,7 +75,9 @@ public class Card extends Component{
     }
     
     public void partialClone(Card source){
-        this.cardIndex      = source.cardIndex;
+        setLink(source.getLink());
+        setAuthor(source.getAuthor());
+        setSourceURL(source.getSourceURL());this.cardIndex      = source.cardIndex;
         this.name           = source.name;
         this.pictureFront   = source.pictureFront;
         this.pictureBack    = source.pictureBack;
@@ -86,8 +86,7 @@ public class Card extends Component{
         this.module         = source.module;
         this.mode           = source.mode;
         this.flavor         = source.flavor;
-        this.author         = source.author;
-        this.sourceURL      = source.sourceURL;
+        
     }
     
     public int getCardIndex() {
@@ -165,22 +164,6 @@ public class Card extends Component{
 
     public void setFlavor(String flavor) {
         this.flavor = flavor;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
-    public String getSourceURL() {
-        return sourceURL;
-    }
-
-    public void setSourceURL(String sourceURL) {
-        this.sourceURL = sourceURL;
     }
 
     public boolean validateFlavor() {

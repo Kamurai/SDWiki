@@ -1,5 +1,6 @@
 package SDE;
 
+import Common.Gender;
 import java.awt.List;
 import java.util.ArrayList;
 
@@ -154,14 +155,14 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
     
     public String getGender(){
         if( this.gender == null){
-            this.gender = Gender.genders.get(0);
+            this.gender = Gender.getGenders().get(0);
         }
         
         return gender;
     }
     
     public void setGender(String gender){
-        if(Gender.genders.contains(gender)){
+        if(Gender.getGenders().contains(gender)){
             this.gender = gender;
         }else{
             this.gender = "Error";

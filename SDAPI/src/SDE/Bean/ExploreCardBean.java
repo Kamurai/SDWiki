@@ -15,7 +15,8 @@ import Database.SDE.*;
 public class ExploreCardBean extends CardBean{
     private ExploreCard exploreCard;
     private List<SDE.NavItem> exploreCardList;
-    String result = "./Layout.xhtml";
+    private final String LAYOUT = "/SDE/Cards/Layouts/Explore_Card.xhtml";
+//    String result = "./Layout.xhtml";
         
     public ExploreCardBean(){
         super();
@@ -40,15 +41,15 @@ public class ExploreCardBean extends CardBean{
         }
 //        this.exploreCardList  = navDAO.pullNavigationForExploreCards(exploreCard.getVersion());
         
-        System.out.print("Get Layout");
+//        System.out.print("Get Layout");
         
-        if(this.exploreCard.getCardType().compareTo("Explore Card") == 0 && 
-            this.exploreCard.getCharacterList() != null && 
-            this.exploreCard.getCharacterList().size() > 0 ){
-            result = "../Layout.xhtml";
-        }
+//        if(this.exploreCard.getCardType().compareTo("Explore Card") == 0 && 
+//            this.exploreCard.getCharacterList() != null && 
+//            this.exploreCard.getCharacterList().size() > 0 ){
+//            result = "../Layout.xhtml";
+//        }
         
-        return result;
+        return LAYOUT;
     }
 
     public List<SDE.NavItem> getExploreCardList() {

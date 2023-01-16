@@ -16,7 +16,7 @@ public class CardBean extends SDE.Bean.Bean{
     private String title;
     private String header;
     private List<NavItem> cardList;
-    private String layout = "/SDE/Cards/Layouts/CardList.xhtml";
+    private final String LAYOUT = "/SDE/Cards/Layouts/CardList.xhtml";
     
     public CardBean(){
         super();
@@ -125,7 +125,7 @@ public class CardBean extends SDE.Bean.Bean{
             this.cardList   = SDEDAONavigation.pullNavigationForHeroes();
         }
         
-        return layout;
+        return LAYOUT;
     }
     
     public String setDisplayPage(String type, String version){
@@ -237,7 +237,7 @@ public class CardBean extends SDE.Bean.Bean{
             this.cardList   = SDEDAONavigation.pullNavigationForHeroes();
         }
         
-        return layout;
+        return LAYOUT;
     }
     
     public String setDisplayPage(String type, String version, String playMode){
@@ -454,6 +454,6 @@ public class CardBean extends SDE.Bean.Bean{
             }
         }
         
-        return layout;
+        return LAYOUT;
     }
 }

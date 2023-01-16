@@ -1,5 +1,7 @@
 package SDE;
 
+import Common.Component;
+
 public class Board extends Component{
     //TODO: Update this class to hold the pertinate information.
     

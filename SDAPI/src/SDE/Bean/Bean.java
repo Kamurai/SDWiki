@@ -26,7 +26,11 @@ public class Bean extends Main.Bean.Bean{
         this.version = version;
     }
     
-    public String getNavigationLink(){
+    public String getCardNavigationLink(){
         return SDE.Constants.getCardNavigationLink();
+    }
+    
+    public String getNavigationLink(){
+        return SDE.Constants.getNavigationLink();
     }
 }
