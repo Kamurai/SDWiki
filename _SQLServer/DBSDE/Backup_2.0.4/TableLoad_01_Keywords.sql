@@ -58,3 +58,5 @@
 
 /*The Unwrapping				--Index 1192*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Unwrapping, The', 				'Spawn four Dark Presents within four squares of the Dungeon Boss.');
 /*Bacon!						--Index 1193*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Bacon!', 						'Spawn four Truffle Hogs from any Dungeon Exit.');
+
+/*Cursed						--Index 1194*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Cursed', 						'Anytime this model makes a roll reduce the result by 1ST.');

@@ -8536,15 +8536,22 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (531, 'Treasure', 'Right', '+1R DEX');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (171 , 706); --Flameburst Bolt
 
---Fool's Gold				--CardIndex 532		--EquipmentIndex 172 
-insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (532, 'Fool''s Gold',
-'http://htkb.info/SDE/FK/Cards/Treasure/Character/Card_Treasure_Fools_Gold_FK.png', 
+--Fool's Gold v1				--CardIndex 532		--EquipmentIndex 172 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+532, 
+'Fool''s Gold v1',
+'http://htkb.info/SDE/FK/Cards/Treasure/Character/Card_Treasure_Fools_Gold_v1_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
-'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Character/Fools_Gold.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Character/Fools_Gold_v1.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Better lucky than smart, I always say.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (532, 'Character Treasure', 'Bottom', '');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (172, 690); --Cursed, Luck
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (172, 401); --Cursed, Luck
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (172, 36); --Roxor: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (172, 40); --Ragin' Roxor v1: Arcade
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (172, 41); --Ragin' Roxor v2: Arcade
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (172, 42); --Rockin' Roxor v1: Arcade
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (172, 43); --Rockin' Roxor v2: Arcade
 
 --Freyjan War Paws			--CardIndex 533		--EquipmentIndex 173 
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (533, 'Freyjan War Paws',
@@ -8614,16 +8621,21 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Solid as a rock.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (539, 'Loot', 'Top', '+1B ARM');
 
---Grimy Grim Granite Greaves	--CardIndex 540		--EquipmentIndex 180 
+--Grimy Grim Granite Greaves v1	--CardIndex 540		--EquipmentIndex 180 
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (540, 'Grimy Grim Granite Greaves',
-'http://htkb.info/SDE/FK/Cards/Treasure/Character/Card_Treasure_Grimy_Grim_Granite_Greaves_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Treasure/Character/Card_Treasure_Grimy_Grim_Granite_Greaves_v1_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
-'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Character/Grimy_Grim_Granite_Greaves.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Character/Grimy_Grim_Granite_Greaves_v1.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Keep moving, it''ll be over soon.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (540, 'Character Treasure', 'Top', '+1R ARM SAPPHIRE +1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (180, 275); --Knockdown
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (180, 336); --Slow
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (180, 36); --Roxor: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (180, 40); --Ragin' Roxor v1: Arcade
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (180, 41); --Ragin' Roxor v2: Arcade
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (180, 42); --Rockin' Roxor v1: Arcade
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (180, 43); --Rockin' Roxor v2: Arcade
 
 --Guard's Spear					--CardIndex 541		--EquipmentIndex 181 
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (541, 'Guard''s Spear',
@@ -9230,14 +9242,19 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (601, 'Character Treasure', 'Top', '+1R WILL +1R ARM');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (241, 525); --Roar
 
---Roxor's Bane					--CardIndex 602		--EquipmentIndex 242 
+--Roxor's Bane v1					--CardIndex 602		--EquipmentIndex 242 
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (602, 'Roxor''s Bane',
-'http://htkb.info/SDE/FK/Cards/Treasure/Character/Card_Treasure_Roxors_Bane_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Treasure/Character/Card_Treasure_Roxors_Bane_v1_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
-'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Character/Roxors_Bane.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Character/Roxors_Bane_v1.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (602, 'Character Treasure', 'Left', '+1R STR CITRINE +1G STR +1R ARM SAPPHIRE +1G ARM');
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (242, 36); --Roxor: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (242, 40); --Ragin' Roxor v1: Arcade
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (242, 41); --Ragin' Roxor v2: Arcade
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (242, 42); --Rockin' Roxor v1: Arcade
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (242, 43); --Rockin' Roxor v2: Arcade
 
 --Royal Cloak					--CardIndex 603		--EquipmentIndex 243 
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (603, 'Royal Cloak',
