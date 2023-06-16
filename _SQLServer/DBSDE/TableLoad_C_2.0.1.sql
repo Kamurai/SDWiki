@@ -891,10 +891,12 @@ VALUES (408,
 '',
 '', '', '', 0, 0, '', '', '', '', 0, 0);
 
---Celestian Purifier --CardIndex 799	--CharacterIndex 409	--ExploreCharacterIndex 304
-insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (799, 'Celestian Purifier', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestian_Purifier_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestian_Purifier_2.0_back.png', 
+--Celestian Purifier v1 --CardIndex 799	--CharacterIndex 409	--ExploreCharacterIndex 304
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+799, 
+'Celestian Purifier v1', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestian_Purifier_v1_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestian_Purifier_v1_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Celestian_Purifier.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The Dark Consul''s near destruction of Celestia also left the realm deeply corrupted by amethyst magic. Nearly overwhelmed, the Celestians fight against constant monstrous incursions to push back the darkness. As areas are cleared of threat, specialized priests known as Purifiers then consecrate the land so that it can be reclaimed by the Light and flourish once again.');

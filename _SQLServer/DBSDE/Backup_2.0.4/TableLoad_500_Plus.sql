@@ -780,3 +780,34 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (806, 4
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (806, 41); --Ragin' Roxor v2: Arcade
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (806, 42); --Rockin' Roxor v1: Arcade
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (806, 43); --Rockin' Roxor v2: Arcade
+
+--Celestian Purifier v2 --CardIndex 2440	--CharacterIndex 1227	--ExploreCharacterIndex 882
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+2440, 
+'Celestian Purifier v2', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestian_Purifier_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestian_Purifier_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Celestian_Purifier.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'The Dark Consul''s near destruction of Celestia also left the realm deeply corrupted by amethyst magic. Nearly overwhelmed, the Celestians fight against constant monstrous incursions to push back the darkness. As areas are cleared of threat, specialized priests known as Purifiers then consecrate the land so that it can be reclaimed by the Light and flourish once again.');
+insert into Characters (CardIndex) VALUES (2440);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1227, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (1227, 
+'http://htkb.info/SDE/Standies/Celestian_Purifier.png', 
+'http://htkb.info/SDE/Standies/Celestian_Purifier_back.png',
+'Feminine', 'Small', 'Celestian', 7, 3, '2B', '3B', '2R', '3B', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (882, 596); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (882, 728); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (882, 815); --Pounce
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (882, 887); --Cleansing Blast
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (882, 1362); --Lay on Hands
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (882, 2297); --Purifying Stream
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (882, 3, 1); --Will
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (882, 4, 3); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (882, 2); --Armor
+
+
+
+
+

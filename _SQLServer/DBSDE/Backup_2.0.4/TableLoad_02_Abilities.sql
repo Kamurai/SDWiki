@@ -78,4 +78,5 @@
 /*Truffle Hunt												--Index 2295*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 	'Truffle Hunt',				'Action', 'Support', 	1, -1, 6, 	'6RG, HEAL 2, REMEDY.  This action may only be used once per turn.');
 /*Bacon Grease												--Index 2296*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 	'Bacon Grease',				'Potion', 'Support', 	1, -1, 0, 	'AUGMENT, +1MO.');
 
+/*Purifying Stream											--Index 2297*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 	'Purifying Stream',			'Potion', 'Support', 	1, -1, 0, 	'AUGMENT.  Roll 2R and destroy a number of adjacent creeps up to the number of stars rolled (including Creeps on a Hero''s card with the Invader ability).  Then discard all tokens in adjacent dungeon squares that were placed by the abilities or actions of an enemy model.');
 
