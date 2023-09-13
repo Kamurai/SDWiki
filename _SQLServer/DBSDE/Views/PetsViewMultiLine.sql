@@ -1,7 +1,7 @@
 --drop view PetsViewMultiLine
 --Pets (with keywords, abilities, offenses, and defenses)
-create view PetsViewMultiLine as 
-select a.CardIndex, b.CharacterIndex, c.ExploreCharacterIndex, --Indexes
+CREATE OR ALTER view PetsViewMultiLine as 
+select z.ComponentIndex, a.CardIndex, b.CharacterIndex, c.ExploreCharacterIndex, --Indexes
 a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, a.PlayMode, Flavor, --Cards
 c.StandieFront, c.StandieBack, --Characters
 Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions, --ExploreCharacter
@@ -12,8 +12,10 @@ v.Attribute as AbilityAttribute, --Attributes
 AbilityRange, AbilityDescription, --Abilities
 k.AttributeIndex as OffenseIndex, k.Attribute as Offense, j.OffenseRange, --Offenses
 m.AttributeIndex as DefenseIndex, m.Attribute as Defense, --Defenses
-n.RangeLimit, n.Cost --Pets
-from Cards a
+n.RangeLimit, n.Cost, --Pets
+o.Author, o.SourceURL --Custom Information
+from Components z
+join Cards a on z.ComponentIndex = a.ComponentIndex
 join Characters b on a.CardIndex=b.CardIndex
 join ExploreCharacters c on b.CharacterIndex=c.CharacterIndex
 full join AffinityAssignments d on b.CharacterIndex=d.CharacterIndex
@@ -28,5 +30,6 @@ full join Attributes k on j.AttributeIndex=k.AttributeIndex
 full join DefenseAssignments l on c.ExploreCharacterIndex=l.ExploreCharacterIndex
 full join Attributes m on l.AttributeIndex=m.AttributeIndex
 full join Pets n on c.ExploreCharacterIndex=n.ExploreCharacterIndex
+full join CustomComponents o on o.ComponentIndex = a.ComponentIndex
 where a.CardType = 'Pet'
 ;

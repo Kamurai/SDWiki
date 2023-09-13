@@ -1,5 +1,5 @@
 --drop view AbilitiesView
-create view AbilitiesView as
+CREATE OR ALTER view AbilitiesView as
 select 
 a.AbilityIndex, AbilityVersion, PlayMode, a.Name as AbilityName, a.AbilityResource, a.AbilityType, a.AbilityCost, --Abilities
 b.Attribute as AbilityAttribute, --Attributes

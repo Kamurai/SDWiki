@@ -1,7 +1,7 @@
 --drop view ExploreCharactersViewMultiLine
 --Explore Characters
 CREATE OR ALTER view ExploreCharactersViewMultiLine as 
-select a.CardIndex, b.CharacterIndex, c.ExploreCharacterIndex, --Indexes
+select z.ComponentIndex, a.CardIndex, b.CharacterIndex, c.ExploreCharacterIndex, --Indexes
 a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, a.PlayMode, Flavor, --Cards
 c.StandieFront, c.StandieBack, --Characters
 Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions, --ExploreCharacter
@@ -11,8 +11,10 @@ i.AbilityIndex, i.Name as AbilityName, AbilityResource, AbilityType, AbilityCost
 v.Attribute as AbilityAttribute, --Attributes
 AbilityRange, AbilityDescription, --Abilities
 k.AttributeIndex as OffenseIndex, k.Attribute as Offense, j.OffenseRange, --Offenses
-m.AttributeIndex as DefenseIndex, m.Attribute as Defense --Defenses
-from Cards a
+m.AttributeIndex as DefenseIndex, m.Attribute as Defense, --Defenses
+o.Author, o.SourceURL --Custom Information
+from Components z
+join Cards a on z.ComponentIndex = a.ComponentIndex
 join Characters b on a.CardIndex=b.CardIndex
 join ExploreCharacters c on b.CharacterIndex=c.CharacterIndex
 full join AffinityAssignments d on b.CharacterIndex=d.CharacterIndex
@@ -26,3 +28,4 @@ full join OffenseAssignments j on c.ExploreCharacterIndex=j.ExploreCharacterInde
 full join Attributes k on j.AttributeIndex=k.AttributeIndex
 full join DefenseAssignments l on c.ExploreCharacterIndex=l.ExploreCharacterIndex
 full join Attributes m on l.AttributeIndex=m.AttributeIndex
+full join CustomComponents o on o.ComponentIndex = a.ComponentIndex

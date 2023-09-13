@@ -1,5 +1,5 @@
 --drop view KeywordsView
-create view KeywordsView as
+CREATE OR ALTER view KeywordsView as
 select KeywordIndex, KeywordVersion, PlayMode, Name as KeywordName, KeywordDescription --Keywords
 from Keywords
 where KeywordVersion = '2.0' and (PlayMode = 'Default' OR PlayMode = 'Explore')

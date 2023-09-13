@@ -1,9 +1,12 @@
 --drop view ChallengesView
 --Challenges
-create view ChallengesView as 
-select a.CardIndex, a.Name as CardName, a.PictureFront, a.PictureBack, a.Link, a.CardType, a.ProductSet, a.ProductModule, a.PlayMode, a.Flavor, --Cards
-c.Trap, c.Challenge --Challenges
-from Cards a
+CREATE OR ALTER view ChallengesView as 
+select z.ComponentIndex, a.CardIndex, a.Name as CardName, a.PictureFront, a.PictureBack, a.Link, a.CardType, a.ProductSet, a.ProductModule, a.PlayMode, a.Flavor, --Cards
+c.ChallengeIndex, c.Trap, c.Challenge, --Challenges
+n.Author, n.SourceURL --Custom Information
+from Components z
+join Cards a on z.ComponentIndex = a.ComponentIndex
 join Challenges c on a.CardIndex=c.CardIndex
+full join CustomComponents n on n.ComponentIndex = a.ComponentIndex
 where a.CardType = 'Challenge'
 ;

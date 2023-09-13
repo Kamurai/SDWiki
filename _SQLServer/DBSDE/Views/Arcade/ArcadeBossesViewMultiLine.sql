@@ -1,7 +1,7 @@
 --drop view ArcadeBossesViewMultiLine
 --Arcade Bosses
-create view ArcadeBossesViewMultiLine as 
-select a.CardIndex, b.CharacterIndex, e.ArcadeCharacterIndex, --Indexes
+CREATE OR ALTER view ArcadeBossesViewMultiLine as 
+select z.ComponentIndex, a.CardIndex, b.CharacterIndex, e.ArcadeCharacterIndex, --Indexes
 a.Name as CardName, a.PictureFront, a.PictureBack, a.Link, a.CardType, a.ProductSet, a.ProductModule, a.PlayMode, a.Flavor, --Cards
 AffinityType, --Affinity
 f.StatAction as SoloActions, f.StatStrength as SoloStrength, f.StatRange as SoloRange, --Solo Stat lines
@@ -12,8 +12,10 @@ l.AbilityIndex, l.Name as AbilityName, AbilityResource, AbilityType, AbilityCost
 v.Attribute as AbilityAttribute, --Attributes
 AbilityRange, AbilityDescription, --Abilities
 m.Gender, m.ModelSize, m.StandieFront, --ExploreCharacter
-o.Link as ExploreLink, o.PictureFront as ExplorePictureFront --Cards
-from Cards a
+o.Link as ExploreLink, o.PictureFront as ExplorePictureFront, --Cards
+p.Author, p.SourceURL --Custom Information
+from Components z
+join Cards a on z.ComponentIndex = a.ComponentIndex
 join Characters b on a.CardIndex=b.CardIndex
 full join AffinityAssignments c on b.CharacterIndex=c.CharacterIndex
 full join Affinities d on c.AffinityIndex=d.AffinityIndex
@@ -29,5 +31,6 @@ full join Attributes v on l.AttributeIndex=v.AttributeIndex
 join ExploreCharacters m on h.ExploreCharacterIndex = m.ExploreCharacterIndex
 join Characters n on m.CharacterIndex = n.CharacterIndex
 join Cards o on n.CardIndex = o.CardIndex
+full join CustomComponents p on p.ComponentIndex = a.ComponentIndex
 where a.CardType = 'Boss'
 ;

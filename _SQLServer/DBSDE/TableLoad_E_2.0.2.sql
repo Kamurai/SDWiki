@@ -961,7 +961,7 @@ VALUES (2269, 'Cannons On Deck!',
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2269, 
 'Spawn Loose Cannon within 3 squares of the dungeon boss until ther eare four in play.', 
 'All monsters gain +1ST STR.');
-insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 156); --Black-Handed Henry: Arcade
+insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (156, 1134); --Black-Handed Henry: Arcade
 
 --Fire Breath Potion	--CardIndex 2270 --ChallengeIndex 157
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -974,7 +974,7 @@ VALUES (2270, 'Fire Breath Potion',
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2270, 
 'All monsters perform the Unique command.  Then the dungeon boss performs the following action:  0AC Garlic Breath: Wave 3, FIRE', 
 'All monster commands target the Hero with the least wrath.');
-insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 157); --Black-Handed Henry: Arcade
+insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (157, 1134); --Black-Handed Henry: Arcade
 
 --Icy Armor Potion	--CardIndex 2271 --ChallengeIndex 158
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -987,7 +987,7 @@ VALUES (2271, 'Icy Armor Potion',
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2271, 
 'The dungeon boss performs the following action:  0AC Ice Storm: Wave 3, ICE', 
 'The dungeon boss gains +1ST ARM.');
-insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 158); --Black-Handed Henry: Arcade
+insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (158, 1134); --Black-Handed Henry: Arcade
 
 --Invulnerability Potion	--CardIndex 2272 --ChallengeIndex 159
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -1000,7 +1000,7 @@ VALUES (2272, 'Invulnerability Potion',
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2272, 
 'All monsters perform the Unique command.', 
 'The dungeon boss may only be wounded if the attack is a critical (criticals are counted normally).');
-insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 159); --Black-Handed Henry: Arcade
+insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (159, 1134); --Black-Handed Henry: Arcade
 
 --Speed Potion	--CardIndex 2273 --ChallengeIndex 160
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -1013,7 +1013,7 @@ VALUES (2273, 'Speed Potion',
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2273, 
 'All monsters perform the Unique command.  Then the dungeon boss performs the following action:  0AC Hurricane Winds:  Wave 3, Push 3, KNOCKDOWN', 
 'Only a single Hero may activate.');
-insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 160); --Black-Handed Henry: Arcade
+insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (160, 1134); --Black-Handed Henry: Arcade
 
 
 
