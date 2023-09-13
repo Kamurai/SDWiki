@@ -1,56 +1,92 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://java.sun.com/jsf/html"
       xmlns:f="http://java.sun.com/jsf/core"
       xmlns:c="http://java.sun.com/jsp/jstl/core"
-      xmlns:ui="http://java.sun.com/jsf/facelets">
-    <h:head>
-        <link href='/Pictures/favicon.ico'                    rel='shortcut icon' type='image/x-icon' />
-        <link href='/Pictures/favicon.ico'                    rel='icon'          type='image/x-icon' />
-        <link href='http://htkb.online/Styles/SDWiki.css'     rel='stylesheet'    type='text/css' />
-    </h:head>
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head />
     <h:body>
-        <div id="idGeneralLayout">
-            <Header id="idHeaderRow">
-                <div id="idHeaderRowCenter">
-                    <h:form>
-                        <ui:include src="/RRI/Universal/Logo.xhtml"></ui:include>
-                    </h:form>
+        <title>
+            <h:outputText value="#{RRIRaiderBean.getRaider().getName()} " escape="true" /> <h:outputText value="#{RRIRaiderBean.getRaider().getVersion()}" escape="true" />
+        </title>
+        <h2>
+            <h:outputText value="#{RRIRaiderBean.getRaider().getName()} " escape="true" /> <h:outputText value="#{RRIRaiderBean.getRaider().getVersion()}" escape="true" />
+        </h2>
+        <div id="idCenterContent">
+            <div>
+                <div class="cardPictureContainer">
+                    <!-- Front of Card -->
+                    <img class="cardPicture" src="#{RRIRaiderBean.getRaider().getPictureFront()}"/>
                 </div>
-            </Header>
-            <Nav id="idNavigationRow">
-                <div id="idNavigationBar">
-                    <h:form>
-                        <ui:include src="/Universal/NavBar.xhtml"></ui:include>
-                    </h:form>
-                </div>
-            </Nav>
-            <div id="idCenterRow">
-                <div id="idCenterRowLeft">
-                    <h:form>
-                        <ui:include src="/Universal/NavigationHeader.xhtml"></ui:include>
-                    </h:form>
-                    <h:form>
-                        <ui:include src="#{RRIBean.getNavigationLink()}"></ui:include>
-                    </h:form>
-                </div>
-                <div id="idCenterRowMain">
-                    <h:form>
-                       <ui:include src="/RRI/Cards/Content/Raider.xhtml"></ui:include>
-                    </h:form>
-                </div>
-                <div id="idCenterRowRight">
-                    
+                <div class="cardPictureContainer">
+                    <!-- Back of Card -->
+                    <img class="cardPicture" src="#{RRIRaiderBean.getRaider().getPictureBack()}"/>
                 </div>
             </div>
-            <Footer id="idFooterRow">
-                <div id="idFooterMain">
-                    <h:form>
-                        <ui:include src="/Universal/Footer.xhtml"></ui:include>
-                    </h:form>
+            <div>
+                <div class="standiePictureContainer">
+                    <!-- Front of Standie -->
+                    <img class="standiePicture" src="#{RRIRaiderBean.getRaider().getStandieFront()}"/>
                 </div>
-            </Footer>
+                <div class="standiePictureContainer">
+                    <!-- Back of Standie -->
+                    <img class="standiePicture" src="#{RRIRaiderBean.getRaider().getStandieBack()}"/>
+                </div>
+            </div>
+            
+            <!-- replace with table -->
+            <div>
+                <div>
+                    <div class="inline">
+                        Card Type: <h:outputText value="#{RRIRaiderBean.getRaider().getCardType()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Version: <h:outputText value="#{RRIRaiderBean.getRaider().getVersion()}" escape="false" />
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Product Module: <h:outputText value="#{RRIRaiderBean.getRaider().getModule()}" escape="false" />
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Play Mode: <h:outputText value="#{RRIRaiderBean.getRaider().getMode()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Gender: <h:outputText value="#{RRIRaiderBean.getRaider().getGender()}" escape="false" />
+                    </div>
+                </div>
+            </div>
+            <!-- List of Keywords -->
+            <ui:fragment rendered="#{RRIRaiderBean.getRaider().validateKeywordList()}">
+                <div>Keywords:</div>
+                <ui:repeat var="x" value="#{RRIRaiderBean.getRaider().getKeywords()}" size="#{RRIRaiderBean.getRaider().getKeywords().size()}" varStatus="myVarStatus" >
+                    <ui:fragment rendered="#{x.validateKeyword()}">
+                        <ui:include src="/Content/Keyword.xhtml">
+                            <ui:param name="keyword" value="x"/>
+                        </ui:include>
+                    </ui:fragment>
+                </ui:repeat>
+                <br/>
+            </ui:fragment>
+            <ui:fragment rendered="#{ RRIRaiderBean.getRaider().validateFlavor() }">
+                <div>
+                    Flavor Text: <h:outputText value="#{RRIRaiderBean.getRaider().getFlavor()}" escape="false" />
+                </div>
+                <div>
+                    Lore: <h:outputText value="#{RRIRaiderBean.getRaider().getLore()}" escape="false" />
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{RRIRaiderBean.getRaider().isCustom()}">
+                <div>
+                    Author: <h:outputText value="#{RRIRaiderBean.getRaider().getAuthor()}" escape="false" />
+                </div>
+                <div>
+                    Source: <h:outputText value="#{RRIRaiderBean.getRaider().getSourceURL()}" escape="false" />
+                </div>
+            </ui:fragment>
         </div>
     </h:body>
 </html>

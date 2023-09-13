@@ -1,56 +1,231 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://java.sun.com/jsf/html"
       xmlns:f="http://java.sun.com/jsf/core"
       xmlns:c="http://java.sun.com/jsp/jstl/core"
-      xmlns:ui="http://java.sun.com/jsf/facelets">
-    <h:head>
-        <link href='/Pictures/favicon.ico'                    rel='shortcut icon' type='image/x-icon' />
-        <link href='/Pictures/favicon.ico'                    rel='icon'          type='image/x-icon' />
-        <link href='http://htkb.online/Styles/SDWiki.css'     rel='stylesheet'    type='text/css' />
-    </h:head>
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head />
     <h:body>
-        <div id="idGeneralLayout">
-            <Header id="idHeaderRow">
-                <div id="idHeaderRowCenter">
-                    <h:form>
-                        <ui:include src="/NAS/Universal/Logo.xhtml"></ui:include>
-                    </h:form>
+        <title>
+            <h:outputText value="#{NASShinobiBean.getShinobi().getName()} " escape="true" /> <h:outputText value="#{NASShinobiBean.getShinobi().getVersion()}" escape="true" />
+        </title>
+        <h2>
+            <h:outputText value="#{NASShinobiBean.getShinobi().getName()} " escape="true" /> <h:outputText value="#{NASShinobiBean.getShinobi().getVersion()}" escape="true" />
+        </h2>
+        <div id="idCenterContent">
+            <div>
+                <div class="cardPictureContainer">
+                    <!-- Front of Card -->
+                    <img class="cardPicture" src="#{NASShinobiBean.getShinobi().getPictureFront()}"/>
                 </div>
-            </Header>
-            <Nav id="idNavigationRow">
-                <div id="idNavigationBar">
-                    <h:form>
-                        <ui:include src="/Universal/NavBar.xhtml"></ui:include>
-                    </h:form>
-                </div>
-            </Nav>
-            <div id="idCenterRow">
-                <div id="idCenterRowLeft">
-                    <h:form>
-                        <ui:include src="/Universal/NavigationHeader.xhtml"></ui:include>
-                    </h:form>
-                    <h:form>
-                        <ui:include src="#{NASBean.getNavigationLink()}"></ui:include>
-                    </h:form>
-                </div>
-                <div id="idCenterRowMain">
-                    <h:form>
-                       <ui:include src="/NAS/Cards/Content/Shinobi.xhtml"></ui:include>
-                    </h:form>
-                </div>
-                <div id="idCenterRowRight">
-                    
+                <div class="cardPictureContainer">
+                    <!-- Back of Card -->
+                    <img class="cardPicture" src="#{NASShinobiBean.getShinobi().getPictureBack()}"/>
                 </div>
             </div>
-            <Footer id="idFooterRow">
-                <div id="idFooterMain">
-                    <h:form>
-                        <ui:include src="/Universal/Footer.xhtml"></ui:include>
-                    </h:form>
+            <div>
+                <div class="standiePictureContainer">
+                    <!-- Front of Standie -->
+                    <img class="standiePicture" src="#{NASShinobiBean.getShinobi().getStandieFront()}"/>
                 </div>
-            </Footer>
+                <div class="standiePictureContainer">
+                    <!-- Back of Standie -->
+                    <img class="standiePicture" src="#{NASShinobiBean.getShinobi().getStandieBack()}"/>
+                </div>
+            </div>
+            
+            <!-- replace with table -->
+            <div>
+                <div>
+                    <div class="inline">
+                        Card Type: <h:outputText value="#{NASShinobiBean.getShinobi().getCardType()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Version: <h:outputText value="#{NASShinobiBean.getShinobi().getVersion()}" escape="false" />
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Creature Type: <h:outputText value="#{NASShinobiBean.getShinobi().getCreatureType()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Product Module: <h:outputText value="#{NASShinobiBean.getShinobi().getModule()}" escape="false" />
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Model Size: <h:outputText value="#{NASShinobiBean.getShinobi().getModelSize()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Play Mode: <h:outputText value="#{NASShinobiBean.getShinobi().getMode()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Gender: <h:outputText value="#{NASShinobiBean.getShinobi().getGender()}" escape="false" />
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                 <div class="inline">
+                     Movement: <h:outputText value="#{NASShinobiBean.getShinobi().getMovement()}" escape="false" />
+                 </div>
+                <div class="inline">
+                    Actions: <h:outputText value="#{NASShinobiBean.getShinobi().getActions()}" escape="false" />
+                </div>
+            </div>
+            <div>
+                <div class="inline">
+                    <div>Attributes</div>
+                    <c:choose>
+                        <c:when test="#{(NASShinobiBean.getShinobi().getVersion() == '1.0')}">
+                            <div>Attack: </div>
+                        </c:when>
+                        <c:otherwise>
+                            <div>Strength: </div>
+                        </c:otherwise>
+                    </c:choose>
+                    <div>Armor: </div>
+                    <div>Will: </div>
+                    <div>Dexterity: </div>
+                </div>
+                <div class="inline">
+                    <div>Offense</div>
+                    <c:choose>
+                        <c:when test="#{(NASShinobiBean.getShinobi().getVersion() == '1.0' )}">
+                            <div><!-- Attack Offense -->#{(NASShinobiBean.getShinobi().containsOffense("Attack"))}</div>
+                        </c:when>
+                        <c:otherwise>
+                            <div><!-- Strength Offense -->#{(NASShinobiBean.getShinobi().containsOffense("Strength"))}</div>
+                        </c:otherwise>
+                    </c:choose>
+                    <div><!-- Armor Offense -->#{ ( NASShinobiBean.getShinobi().containsOffense("Armor") )}</div>
+                    <div><!-- Will Offense -->#{ ( NASShinobiBean.getShinobi().containsOffense("Will") )}</div>
+                    <div><!-- Dexterity Offense -->#{ ( NASShinobiBean.getShinobi().containsOffense("Dexterity") )}</div>
+                </div>
+                <div class="inline">
+                    <div>Range</div>
+                    <div>
+                        <c:choose>
+                            <c:when test="#{ ( NASShinobiBean.getShinobi().getVersion() == '1.0' )}">
+                                <c:if test ="#{  NASShinobiBean.getShinobi().containsOffense('Attack') == true }">
+                                    <c:if test ="#{ ( (NASShinobiBean.getShinobi().getOffense('Attack').getRange()) >= 0) }">
+                                        <!-- Attack Offense -->#{ ( NASShinobiBean.getShinobi().getOffense('Attack').getRange() )}
+                                    </c:if>
+                                </c:if>
+                            </c:when>
+                            <c:otherwise>
+                                 <c:if test ="#{NASShinobiBean.getShinobi().getOffense('Strength').getRange() >= 0}">
+                                    <!-- Strength Offense -->#{ ( NASShinobiBean.getShinobi().getOffense('Strength').getRange() )}
+                                </c:if>
+                            </c:otherwise>
+                        </c:choose>
+                    </div>
+                    <div>
+                        <c:choose>
+                            <c:when test ="#{(NASShinobiBean.getShinobi().getOffense('Armor').getRange() >= 0)}">
+                                <!-- Armor Offense -->#{ ( NASShinobiBean.getShinobi().getOffense('Armor').getRange() )}
+                            </c:when>
+                            <c:otherwise>
+                                0
+                            </c:otherwise>
+                        </c:choose>                        
+                    </div>
+                    <div>
+                        <c:choose>
+                            <c:when test ="#{(NASShinobiBean.getShinobi().getOffense('Will').getRange() >= 0)}">
+                                <!-- Will Offense -->#{ ( NASShinobiBean.getShinobi().getOffense('Will').getRange() )}
+                            </c:when>
+                            <c:otherwise>
+                                0
+                            </c:otherwise>
+                        </c:choose>
+                    </div>
+                    <div>
+                        <c:choose>
+                            <c:when test ="#{(NASShinobiBean.getShinobi().getOffense('Dexterity').getRange() >= 0)}">
+                                <!-- Dexterity Offense -->#{ ( NASShinobiBean.getShinobi().getOffense('Dexterity').getRange() )}
+                            </c:when>
+                            <c:otherwise>
+                                0
+                            </c:otherwise>
+                        </c:choose>
+                    </div>
+                </div>
+                <div class="inline">
+                    <div>Attributes</div>
+                    <div><!-- Strength -->#{NASShinobiBean.getShinobi().getStrength()}</div>
+                    <div><!-- Armor -->#{NASShinobiBean.getShinobi().getArmor()}</div>
+                    <div><!-- Will -->#{NASShinobiBean.getShinobi().getWill()}</div>
+                    <div><!-- Dexterity -->#{NASShinobiBean.getShinobi().getDexterity()}</div>
+                </div>
+                <div class="inline">
+                    <div>Defense</div>
+                    <c:choose>
+                        <c:when test="#{ ( NASShinobiBean.getShinobi().getVersion() == '1.0' )}">
+                            <div><!-- Attack Defense -->#{ ( NASShinobiBean.getShinobi().containsDefense('Attack') )}</div>
+                        </c:when>
+                        <c:otherwise>
+                            <div><!-- Strength Defense -->#{ ( NASShinobiBean.getShinobi().containsDefense('Strength') )}</div>
+                        </c:otherwise>
+                    </c:choose>
+                    <div><!-- Armor Defense -->#{( NASShinobiBean.getShinobi().containsDefense('Armor') )}</div>
+                    <div><!-- Will Defense -->#{( NASShinobiBean.getShinobi().containsDefense('Will') )}</div>
+                    <div><!-- Dexterity Defense -->#{( NASShinobiBean.getShinobi().containsDefense('Dexterity') )}</div>
+                </div>
+            </div>
+            <div>
+                <div class="inline">
+                    Affinity: <h:outputText value="#{NASShinobiBean.getShinobi().getAffinity()}" escape="false" />
+                </div>
+                <div class="inline">
+                    Health: <h:outputText value="#{NASShinobiBean.getShinobi().getHealth()}" escape="false" />
+                </div>
+                <div class="inline">
+                    Potions: <h:outputText value="#{NASShinobiBean.getShinobi().getPotions()}" escape="false" />
+                </div>
+            </div>
+            <br/>
+            
+            <!-- List of Keywords -->
+            <ui:fragment rendered="#{NASShinobiBean.getShinobi().validateKeywordList()}">
+                <div>Keywords:</div>
+                <ui:repeat var="x" value="#{NASShinobiBean.getShinobi().getKeywords()}" size="#{NASShinobiBean.getShinobi().getKeywords().size()}" varStatus="myVarStatus" >
+                    <ui:fragment rendered="#{x.validateKeyword()}">
+                        <ui:include src="/Content/Keyword.xhtml">
+                            <ui:param name="keyword" value="x"/>
+                        </ui:include>
+                    </ui:fragment>
+                </ui:repeat>
+                <br/>
+            </ui:fragment>
+                
+            <!-- List of Abilities -->
+            <ui:fragment rendered="#{NASShinobiBean.getShinobi().validateAbilityList()}">
+                <div>Abilities:</div>
+                <ui:repeat var="x" value="#{NASShinobiBean.getShinobi().getAbilities()}" size="#{NASShinobiBean.getShinobi().getAbilities().size()}" varStatus="myVarStatus" >
+                    <ui:fragment rendered="#{x.validateAbility()}">
+                        <ui:include src="/Content/Ability.xhtml">
+                            <ui:param name="ability" value="x"/>
+                        </ui:include>
+                    </ui:fragment>
+                </ui:repeat>
+                <br/>
+            </ui:fragment>
+            
+            <ui:fragment rendered="#{ NASShinobiBean.getShinobi().validateFlavor() }">
+                <div>
+                    Flavor Text: <h:outputText value="#{NASShinobiBean.getShinobi().getFlavor()}" escape="false" />
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{NASShinobiBean.getShinobi().isCustom()}">
+                <div>
+                    Author: <h:outputText value="#{NASShinobiBean.getShinobi().getAuthor()}" escape="false" />
+                </div>
+                <div>
+                    Source: <h:outputText value="#{NASShinobiBean.getShinobi().getSourceURL()}" escape="false" />
+                </div>
+            </ui:fragment>
         </div>
     </h:body>
 </html>

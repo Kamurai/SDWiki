@@ -1,56 +1,231 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://java.sun.com/jsf/html"
       xmlns:f="http://java.sun.com/jsf/core"
       xmlns:c="http://java.sun.com/jsp/jstl/core"
-      xmlns:ui="http://java.sun.com/jsf/facelets">
-    <h:head>
-        <link href='/Pictures/favicon.ico'                    rel='shortcut icon' type='image/x-icon' />
-        <link href='/Pictures/favicon.ico'                    rel='icon'          type='image/x-icon' />
-        <link href='http://htkb.online/Styles/SDWiki.css'     rel='stylesheet'    type='text/css' />
-    </h:head>
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head />
     <h:body>
-        <div id="idGeneralLayout">
-            <Header id="idHeaderRow">
-                <div id="idHeaderRowCenter">
-                    <h:form>
-                        <ui:include src="/SDE/Universal/Logo.xhtml"></ui:include>
-                    </h:form>
+        <title>
+            <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getName()} " escape="true" /> <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getVersion()}" escape="true" />
+        </title>
+        <h2>
+            <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getName()} " escape="true" /> <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getVersion()}" escape="true" />
+        </h2>
+        <div id="idCenterContent">
+            <div>
+                <div class="cardPictureContainer">
+                    <!-- Front of Card -->
+                    <img class="cardPicture" src="#{SDEExploreCharacterBean.getExploreCharacter().getPictureFront()}"/>
                 </div>
-            </Header>
-            <Nav id="idNavigationRow">
-                <div id="idNavigationBar">
-                    <h:form>
-                        <ui:include src="/Universal/NavBar.xhtml"></ui:include>
-                    </h:form>
-                </div>
-            </Nav>
-            <div id="idCenterRow">
-                <div id="idCenterRowLeft">
-                    <h:form>
-                        <ui:include src="/Universal/NavigationHeader.xhtml"></ui:include>
-                    </h:form>
-                    <h:form>
-                        <ui:include src="#{SDEBean.getNavigationLink()}"></ui:include>
-                    </h:form>
-                </div>
-                <div id="idCenterRowMain">
-                    <h:form>
-                       <ui:include src="/SDE/Cards/Content/ExploreCharacter.xhtml"></ui:include>
-                    </h:form>
-                </div>
-                <div id="idCenterRowRight">
-                    
+                <div class="cardPictureContainer">
+                    <!-- Back of Card -->
+                    <img class="cardPicture" src="#{SDEExploreCharacterBean.getExploreCharacter().getPictureBack()}"/>
                 </div>
             </div>
-            <Footer id="idFooterRow">
-                <div id="idFooterMain">
-                    <h:form>
-                        <ui:include src="/Universal/Footer.xhtml"></ui:include>
-                    </h:form>
+            <div>
+                <div class="standiePictureContainer">
+                    <!-- Front of Standie -->
+                    <img class="standiePicture" src="#{SDEExploreCharacterBean.getExploreCharacter().getStandieFront()}"/>
                 </div>
-            </Footer>
+                <div class="standiePictureContainer">
+                    <!-- Back of Standie -->
+                    <img class="standiePicture" src="#{SDEExploreCharacterBean.getExploreCharacter().getStandieBack()}"/>
+                </div>
+            </div>
+            
+            <!-- replace with table -->
+            <div>
+                <div>
+                    <div class="inline">
+                        Card Type: <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getCardType()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Version: <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getVersion()}" escape="false" />
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Creature Type: <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getCreatureType()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Product Module: <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getModule()}" escape="false" />
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Model Size: <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getModelSize()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Play Mode: <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getMode()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Gender: <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getGender()}" escape="false" />
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                 <div class="inline">
+                     Movement: <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getMovement()}" escape="false" />
+                 </div>
+                <div class="inline">
+                    Actions: <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getActions()}" escape="false" />
+                </div>
+            </div>
+            <div>
+                <div class="inline">
+                    <div>Attributes</div>
+                    <c:choose>
+                        <c:when test="#{(SDEExploreCharacterBean.getExploreCharacter().getVersion() == '1.0')}">
+                            <div>Attack: </div>
+                        </c:when>
+                        <c:otherwise>
+                            <div>Strength: </div>
+                        </c:otherwise>
+                    </c:choose>
+                    <div>Armor: </div>
+                    <div>Will: </div>
+                    <div>Dexterity: </div>
+                </div>
+                <div class="inline">
+                    <div>Offense</div>
+                    <c:choose>
+                        <c:when test="#{(SDEExploreCharacterBean.getExploreCharacter().getVersion() == '1.0' )}">
+                            <div><!-- Attack Offense -->#{(SDEExploreCharacterBean.getExploreCharacter().containsOffense("Attack"))}</div>
+                        </c:when>
+                        <c:otherwise>
+                            <div><!-- Strength Offense -->#{(SDEExploreCharacterBean.getExploreCharacter().containsOffense("Strength"))}</div>
+                        </c:otherwise>
+                    </c:choose>
+                    <div><!-- Armor Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().containsOffense("Armor") )}</div>
+                    <div><!-- Will Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().containsOffense("Will") )}</div>
+                    <div><!-- Dexterity Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().containsOffense("Dexterity") )}</div>
+                </div>
+                <div class="inline">
+                    <div>Range</div>
+                    <div>
+                        <c:choose>
+                            <c:when test="#{ ( SDEExploreCharacterBean.getExploreCharacter().getVersion() == '1.0' )}">
+                                <c:if test ="#{  SDEExploreCharacterBean.getExploreCharacter().containsOffense('Attack') == true }">
+                                    <c:if test ="#{ ( (SDEExploreCharacterBean.getExploreCharacter().getOffense('Attack').getRange()) >= 0) }">
+                                        <!-- Attack Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().getOffense('Attack').getRange() )}
+                                    </c:if>
+                                </c:if>
+                            </c:when>
+                            <c:otherwise>
+                                 <c:if test ="#{SDEExploreCharacterBean.getExploreCharacter().getOffense('Strength').getRange() >= 0}">
+                                    <!-- Strength Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().getOffense('Strength').getRange() )}
+                                </c:if>
+                            </c:otherwise>
+                        </c:choose>
+                    </div>
+                    <div>
+                        <c:choose>
+                            <c:when test ="#{(SDEExploreCharacterBean.getExploreCharacter().getOffense('Armor').getRange() >= 0)}">
+                                <!-- Armor Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().getOffense('Armor').getRange() )}
+                            </c:when>
+                            <c:otherwise>
+                                0
+                            </c:otherwise>
+                        </c:choose>                        
+                    </div>
+                    <div>
+                        <c:choose>
+                            <c:when test ="#{(SDEExploreCharacterBean.getExploreCharacter().getOffense('Will').getRange() >= 0)}">
+                                <!-- Will Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().getOffense('Will').getRange() )}
+                            </c:when>
+                            <c:otherwise>
+                                0
+                            </c:otherwise>
+                        </c:choose>
+                    </div>
+                    <div>
+                        <c:choose>
+                            <c:when test ="#{(SDEExploreCharacterBean.getExploreCharacter().getOffense('Dexterity').getRange() >= 0)}">
+                                <!-- Dexterity Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().getOffense('Dexterity').getRange() )}
+                            </c:when>
+                            <c:otherwise>
+                                0
+                            </c:otherwise>
+                        </c:choose>
+                    </div>
+                </div>
+                <div class="inline">
+                    <div>Attributes</div>
+                    <div><!-- Strength -->#{SDEExploreCharacterBean.getExploreCharacter().getStrength()}</div>
+                    <div><!-- Armor -->#{SDEExploreCharacterBean.getExploreCharacter().getArmor()}</div>
+                    <div><!-- Will -->#{SDEExploreCharacterBean.getExploreCharacter().getWill()}</div>
+                    <div><!-- Dexterity -->#{SDEExploreCharacterBean.getExploreCharacter().getDexterity()}</div>
+                </div>
+                <div class="inline">
+                    <div>Defense</div>
+                    <c:choose>
+                        <c:when test="#{ ( SDEExploreCharacterBean.getExploreCharacter().getVersion() == '1.0' )}">
+                            <div><!-- Attack Defense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().containsDefense('Attack') )}</div>
+                        </c:when>
+                        <c:otherwise>
+                            <div><!-- Strength Defense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().containsDefense('Strength') )}</div>
+                        </c:otherwise>
+                    </c:choose>
+                    <div><!-- Armor Defense -->#{( SDEExploreCharacterBean.getExploreCharacter().containsDefense('Armor') )}</div>
+                    <div><!-- Will Defense -->#{( SDEExploreCharacterBean.getExploreCharacter().containsDefense('Will') )}</div>
+                    <div><!-- Dexterity Defense -->#{( SDEExploreCharacterBean.getExploreCharacter().containsDefense('Dexterity') )}</div>
+                </div>
+            </div>
+            <div>
+                <div class="inline">
+                    Affinity: <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getAffinity()}" escape="false" />
+                </div>
+                <div class="inline">
+                    Health: <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getHealth()}" escape="false" />
+                </div>
+                <div class="inline">
+                    Potions: <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getPotions()}" escape="false" />
+                </div>
+            </div>
+            <br/>
+            
+            <!-- List of Keywords -->
+            <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().validateKeywordList()}">
+                <div>Keywords:</div>
+                <ui:repeat var="x" value="#{SDEExploreCharacterBean.getExploreCharacter().getKeywords()}" size="#{SDEExploreCharacterBean.getExploreCharacter().getKeywords().size()}" varStatus="myVarStatus" >
+                    <ui:fragment rendered="#{x.validateKeyword()}">
+                        <ui:include src="/Content/Keyword.xhtml">
+                            <ui:param name="keyword" value="x"/>
+                        </ui:include>
+                    </ui:fragment>
+                </ui:repeat>
+                <br/>
+            </ui:fragment>
+                
+            <!-- List of Abilities -->
+            <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().validateAbilityList()}">
+                <div>Abilities:</div>
+                <ui:repeat var="x" value="#{SDEExploreCharacterBean.getExploreCharacter().getAbilities()}" size="#{SDEExploreCharacterBean.getExploreCharacter().getAbilities().size()}" varStatus="myVarStatus" >
+                    <ui:fragment rendered="#{x.validateAbility()}">
+                        <ui:include src="/Content/Ability.xhtml">
+                            <ui:param name="ability" value="x"/>
+                        </ui:include>
+                    </ui:fragment>
+                </ui:repeat>
+                <br/>
+            </ui:fragment>
+            
+            <ui:fragment rendered="#{ SDEExploreCharacterBean.getExploreCharacter().validateFlavor() }">
+                <div>
+                    Flavor Text: <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getFlavor()}" escape="false" />
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().isCustom()}">
+                <div>
+                    Author: <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getAuthor()}" escape="false" />
+                </div>
+                <div>
+                    Source: <h:outputText value="#{SDEExploreCharacterBean.getExploreCharacter().getSourceURL()}" escape="false" />
+                </div>
+            </ui:fragment>
         </div>
     </h:body>
 </html>
