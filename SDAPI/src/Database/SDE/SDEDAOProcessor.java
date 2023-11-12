@@ -22,7 +22,7 @@ public class SDEDAOProcessor {
             
             if(result.getVersion() != null && result.getVersion().contains("Custom")){
                 result.setAuthor(rs.getString("Author"));
-                result.setAuthor(rs.getString("SourceURL"));
+                result.setSourceURL(rs.getString("SourceURL"));
             }
         }catch(Exception e){
             e.printStackTrace();
@@ -39,7 +39,7 @@ public class SDEDAOProcessor {
         SDE.Character result = new SDE.Character();
     
         try{
-            result.setAffinity(rs.getString("AffinityType"));
+            result.addAffinity(rs.getString("AffinityType"));
         }catch(Exception e){
             e.printStackTrace();
             
@@ -179,6 +179,8 @@ public class SDEDAOProcessor {
         Keyword result = new Keyword();
     
         try{
+            result.setVersion(rs.getString("KeywordVersion"));
+            result.setPlayMode(rs.getString("PlayMode"));
             result.setName(rs.getString("KeywordName"));
             result.setDescription(rs.getString("KeywordDescription"));
         }catch(Exception e){

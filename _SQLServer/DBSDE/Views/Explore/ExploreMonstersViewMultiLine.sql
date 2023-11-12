@@ -31,4 +31,4 @@ full join DefenseAssignments l on c.ExploreCharacterIndex=l.ExploreCharacterInde
 full join Attributes m on l.AttributeIndex=m.AttributeIndex
 full join Monsters n on c.ExploreCharacterIndex=n.ExploreCharacterIndex
 full join CustomComponents o on o.ComponentIndex = a.ComponentIndex
-where (a.CardType = 'MiniBoss' or a.CardType = 'Boss' or a.CardType = 'Booty' or a.CardType = 'Creep') or (a.CardType = 'Warband' AND (n.RankType = 'Spawning Point' or n.RankType = 'Elite' or n.RankType = 'Minion' or n.RankType = 'Denizen'))
+where (a.CardType = 'MiniBoss' or a.CardType = 'Boss' or a.CardType = 'Booty' or a.CardType = 'Creep') or (a.CardType = 'Warband' AND (n.RankType = 'Spawning Point' or n.RankType = 'Paired Spawning Point' or n.RankType = 'Active Spawning Point' or n.RankType = 'Active Paired Spawning Point' or n.RankType = 'Elite' or n.RankType = 'Minion' or n.RankType = 'Denizen' or n.RankType = 'Shapeshift'))

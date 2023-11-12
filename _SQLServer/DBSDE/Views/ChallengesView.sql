@@ -8,5 +8,5 @@ from Components z
 join Cards a on z.ComponentIndex = a.ComponentIndex
 join Challenges c on a.CardIndex=c.CardIndex
 full join CustomComponents n on n.ComponentIndex = a.ComponentIndex
-where a.CardType = 'Challenge'
+where a.CardType = 'Challenge' or a.CardType = 'Boss Challenge'
 ;

@@ -252,7 +252,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (847
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (847, 2217); --Frizz
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (847, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (847, 2); --Armor 
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (847, 'Special', '8 Bit', 2);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (847, 'Denizen', 'Special', 2);
 insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2338,
 'Aaron Bergman',

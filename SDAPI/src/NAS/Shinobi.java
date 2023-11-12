@@ -3,6 +3,7 @@ package NAS;
 //import Common.Gender;
 import SDE.ModelSize;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Shinobi extends Card implements KeywordInterface {
     
@@ -18,6 +19,7 @@ public class Shinobi extends Card implements KeywordInterface {
     private int                 upkeep;
     private int                 attackRange;
     private String              rangeDescription;
+    private List<String>        affinityList;
     private ArrayList<Keyword>  keywords;
     
     public Shinobi(){
@@ -34,68 +36,67 @@ public class Shinobi extends Card implements KeywordInterface {
         this.upkeep             = -1;
         this.attackRange        = -1;
         this.rangeDescription   = "";
-        this.keywords       = new ArrayList<Keyword>();
+        this.affinityList       = new ArrayList<String>();
+        this.keywords           = new ArrayList<Keyword>();
     }
     
     
     public Shinobi(
-        int                 cardIndex,
-        String              name,
-        String              pictureFront,
-        String              pictureBack,
-        String              link,
-        String              cardType,
-        String              version,
-        String              module,
-        String              mode,
-        String              flavor,
-        String              author,
-        String              sourceURL,
-        String              affinity,
-        String              standieFront,
-        String              standieBack,
-        String              gender,
-        String              modelSize,
-        String              creatureType,
-        int                 movement,
-        int                 actions,
-        String              strength,
-        String              armor,
-        String              will,
-        String              dexterity,
-        int                 health,
-        int                 potions,
-        ArrayList<Keyword>  keywords
+        int                     cardIndex,
+        String                  name,
+        String                  pictureFront,
+        String                  pictureBack,
+        String                  link,
+        String                  cardType,
+        String                  version,
+        String                  module,
+        String                  mode,
+        String                  flavor,
+        String                  author,
+        String                  sourceURL,
+        String                  standieFront,
+        String                  standieBack,
+        String                  gender,
+        String                  modelSize,
+        String                  creatureType,
+        int                     movement,
+        int                     attack,
+        int                     defense,
+        int                     koban,
+        int                     upkeep,
+        int                     attackRange,
+        String                  rangeDescription,
+        ArrayList<String>       affinityList,
+        ArrayList<Keyword>      keywords
     ){
-//        super(
-//            cardIndex,
-//            name,
-//            pictureFront,
-//            pictureBack,
-//            link,
-//            cardType,
-//            version,
-//            module,
-//            mode,
-//            flavor,
-//            affinity,
-//            author,
-//            sourceURL
-//        );
-        this.standieFront   = standieFront;
-        this.standieBack    = standieBack;
-        this.gender         = gender;
-        this.modelSize      = modelSize;
-        this.rankType   = creatureType;
-        this.movement       = movement;
-//        this.actions        = actions;
-//        this.strength       = strength;
-//        this.armor          = armor;
-//        this.will           = will;
-//        this.dexterity      = dexterity;
-//        this.health         = health;
-//        this.potions        = potions;
-        this.keywords       = keywords;
+        super(
+            cardIndex,
+            name,
+            pictureFront,
+            pictureBack,
+            link,
+            cardType,
+            version,
+            module,
+            mode,
+            flavor,
+            author,
+            sourceURL
+        );
+        this.standieFront       = standieFront;
+        this.standieBack        = standieBack;
+        this.gender             = gender;
+        this.modelSize          = modelSize;
+        this.rankType           = creatureType;
+        this.movement           = movement;
+        this.attack             = attack;
+        this.defense            = defense;
+        this.koban              = koban;
+        this.upkeep             = upkeep;
+        this.attackRange        = attackRange;
+        this.rangeDescription   = rangeDescription;
+        this.affinityList       = affinityList;
+        this.keywords           = keywords;
     }
     
     public void clone(Shinobi source){
@@ -104,23 +105,20 @@ public class Shinobi extends Card implements KeywordInterface {
     }
 
     public void partialClone(Shinobi source){
-        this.standieFront   = source.standieFront;
-        this.standieBack    = source.standieBack;
-        this.gender         = source.gender;
-        this.modelSize      = source.modelSize;
-        this.rankType   = source.rankType;
-        this.movement       = source.movement;
-//        this.actions        = source.actions;
-//        this.strength       = source.strength;
-//        this.armor          = source.armor;
-//        this.will           = source.will;
-//        this.dexterity      = source.dexterity;
-//        this.health         = source.health;
-//        this.potions        = source.potions;
-//        this.defenses       = source.defenses;
-//        this.offenses       = source.offenses;
-        this.keywords       = source.keywords;
-//        this.abilities      = source.abilities;
+        this.standieFront       = source.standieFront;
+        this.standieBack        = source.standieBack;
+        this.gender             = source.gender;
+        this.modelSize          = source.modelSize;
+        this.rankType           = source.rankType;
+        this.movement           = source.movement;
+        this.attack             = source.attack;
+        this.defense            = source.defense;
+        this.koban              = source.koban;
+        this.upkeep             = source.upkeep;
+        this.attackRange        = source.attackRange;
+        this.rangeDescription   = source.rangeDescription;
+        this.affinityList       = source.affinityList;
+        this.keywords           = source.keywords;
     }
 
     public String getStandieFront() {
@@ -271,5 +269,26 @@ public class Shinobi extends Card implements KeywordInterface {
         }
         
         return result;
+    }
+    
+    public List<String> getAffinityList(){
+        if( this.affinityList == null){
+            this.affinityList = new ArrayList<String>();
+            this.addAffinity(Element.affinities.get(0));
+        }  
+        
+        return affinityList;
+    }
+    
+    public void setAffinity(List<String> affinityList){
+        this.affinityList = affinityList;
+    }
+    
+    public void addAffinity(String affinity){
+        if(Element.affinities.contains(affinity)){
+            this.affinityList.add(affinity);
+        }else{
+            this.affinityList.add("Error");
+        }
     }
 }

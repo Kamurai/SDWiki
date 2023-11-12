@@ -3,40 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/SDE/Constants.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/RRI/Bean/Bean.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/Database/SDE/SDEDAONavigation.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/NAS/Bean/CardBean.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/Main/Bean/Bean.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/SDE/Bean/WikiBean.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/SDE/Character.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/SDE/ExploreCharacter.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/Database/RRI/RRIDAONavigation.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/SDE/Bean/Bean.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/RRI/Constants.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/NAS/KeywordInterface.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/NAS/Bean/Bean.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/NAS/Bean/WikiBean.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/SDE/NavItem.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/RRI/Bean/WikiBean.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/RRI/KeywordInterface.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/SDE/Bean/CardBean.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/RRI/Bean/RaiderBean.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/NAS/NavItem.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/Database/NAS/NASDAONavigation.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/SDE/GangMember.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/NAS/Bean/ShinobiBean.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/NAS/Constants.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/RRI/NavItem.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/RRI/Bean/CardBean.java</file>
             <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/SDE/Bean/ExploreCardBean.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/NAS/Card.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/SDE/KeywordInterface.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/RRI/Card.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/NAS/Shinobi.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/SDE/Utility/Validator.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/SDE/Card.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDAPI/src/RRI/Raider.java</file>
         </group>
     </open-files>
 </project-private>

@@ -3972,6 +3972,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '', 
 '', '', '', '',
 '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1881, '', '', '');
 
 --Serpent Bracelet --CardIndex 1882 --EquipmentIndex 663
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1882, 'Serpent Bracelet',

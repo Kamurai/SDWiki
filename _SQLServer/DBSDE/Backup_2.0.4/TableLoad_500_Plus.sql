@@ -27,7 +27,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (878, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (878, '', '8 Bit', 1);
 
---Truffle Hog --CardIndex 2391	--CharacterIndex 1221	--ExploreCharacterIndex 879
+--Truffle Hog --CardIndex 2391	--CharacterIndex 1222	--ExploreCharacterIndex 879
 insert into Components DEFAULT VALUES; --2391
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2391, 
@@ -40,7 +40,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (2391);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1221, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1221,
+VALUES (1222,
 'http://htkb.info/SDE/Standies/Truffle_Hog.png', 
 'http://htkb.info/SDE/Standies/Truffle_Hog_back.png',
 'Either', 'Small', 'Hog', 4, 1, '3R', '2B', '0ST', '2B', 1, 0);
@@ -53,22 +53,22 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (879
 --Bosses
 
 
---Sleighride Candy --CardIndex 2392 --CharacterIndex 1222 --ExploreCharacterIndex 880
+--Sleighride Candy --CardIndex 2392 --CharacterIndex 1223 --ExploreCharacterIndex 880
 insert into Components DEFAULT VALUES; --2392
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2392, 
 'Sleighride Candy',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Sleighride_Candy_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Sleighride_Candy_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/DI/Explore/Cards/Bosses/Sleighride_Candy.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Sleighride_Candy.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2392);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1222, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1222,
-'http://htkb.info/NAS/Standies/Sleighride_Candy.png', 
-'http://htkb.info/NAS/Standies/Sleighride_Candy_back.png', 
+VALUES (1223,
+'http://htkb.info/SDE/Standies/Sleighride_Candy.png', 
+'http://htkb.info/SDE/Standies/Sleighride_Candy_back.png', 
 'Feminine', 'Small', 'Human', 8, 4, '2B 2R 2G', '2G', '3B', '2B', 8, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (880, 859); --Run Down
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (880, 1180); --Help Meeeee!
@@ -78,13 +78,13 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (880
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (880, 2291); --Surprise Present
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (880, 1, 3); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (880, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (880, 'Boss', 'Super', 4);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (880, '', 'Super', 4);
 
 
 --Arcade Creeps
 
 
---Dark Present	--CardIndex 2393	--CharacterIndex 1223	--ArcadeCharacterIndex 342
+--Dark Present	--CardIndex 2393	--CharacterIndex 1224	--ArcadeCharacterIndex 343
 insert into Components DEFAULT VALUES; --2393
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2393, 
@@ -96,15 +96,15 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (2393);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1223, 141, -1);
+VALUES (1224, 141, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1223, 1); --Citrine
 --GangMemberIndex 479
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (342, 0, 'Dark Present', '', 'Creep', 4, 1, 3, 488);
+VALUES (343, 0, 'Dark Present', '', '', 4, 1, 3, 488);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (479, 694); --Invader
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (479, 1179); --Gifts of Darkness
 
---Truffle Hog	--CardIndex 2394	--CharacterIndex 1224	--ArcadeCharacterIndex 343
+--Truffle Hog	--CardIndex 2394	--CharacterIndex 1225	--ArcadeCharacterIndex 344
 insert into Components DEFAULT VALUES; --2394
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2394, 
@@ -116,34 +116,34 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (2394);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1224, 151, -1);
+VALUES (1225, 151, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1224, 1); --Citrine
 --GangMemberIndex 480
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (343, 0, 'Truffle Hog', '', 'Creep', 4, 1, 0, 489);
+VALUES (344, 0, 'Truffle Hog', 'Hog', '', 4, 1, 0, 489);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (480, 1603); --Run 'em Down
 
 
 --Arcade Bosses
 
 
---Sleighride Candy	--CardIndex 2395	--CharacterIndex 1225	--ArcadeCharacterIndex 344
+--Sleighride Candy	--CardIndex 2395	--CharacterIndex 1226	--ArcadeCharacterIndex 345
 insert into Components DEFAULT VALUES; --2395
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2395, 
 'Sleighride Candy',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Sleighride_Candy_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Sleighride_Candy_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/DI/Arcade/Cards/Bosses/Sleighride_Candy.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Sleighride_Candy.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (2395);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1225, 473, -1);
+VALUES (1226, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1225, 1); --Citrine
 --GangMemberIndex 481
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (344, 0, 'Sleighride Candy', 'Human', 'Boss', 8, 9, 4, 483);
+VALUES (345, 0, 'Sleighride Candy', 'Human', 'Boss', 8, 9, 4, 483);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (481, 1180); --Help Meeeee!
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (481, 1181); --Pork and Giftst
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (481, 2286); --Dark Gifts
@@ -178,7 +178,7 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (35, 34
 --Pets
 
 
---Butterscotch --CardIndex 2397	--CharacterIndex 1226	--ExploreCharacterIndex 881
+--Butterscotch --CardIndex 2397	--CharacterIndex 1227	--ExploreCharacterIndex 881
 insert into Components DEFAULT VALUES; --2397
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2397, 
@@ -191,7 +191,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (2397);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1226, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1226,
+VALUES (1227,
 'http://htkb.info/SDE/Standies/Butterscotch.png', 
 'http://htkb.info/SDE/Standies/Butterscotch_back.png',
 'Either', 'Small', '', 4, 1, '3B', '2B', '0ST', '2B', 2, 0);
@@ -554,7 +554,7 @@ VALUES (2424,
 'Feral Hogs',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Feral_Hogs_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Sleighride_Candy/Feral_Hogs.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Feral_Hogs.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'Once these hogs get a belly full of holiday spiced pies, they get a certain twinkle in their eyes... RUN! - Cola');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2424, 
@@ -568,7 +568,7 @@ VALUES (2425,
 'Freezing Armor',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Freezing_Armor_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Sleighride_Candy/Freezing_Armor.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Freezing_Armor.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'TBD.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2425, 
@@ -582,7 +582,7 @@ VALUES (2426,
 'Here They Come',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Here_They_Come_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Sleighride_Candy/Here_They_Come.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Here_They_Come.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'Nothing escapes the watchful eye of the sleighmaster.  With a flourish of her fizzy drink, the rampaging hordes descend upon a hapless hero at the edge of her vision.  None shall escape!');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2426, 
@@ -596,7 +596,7 @@ VALUES (2427,
 'Naughty List',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Naughty_List_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Sleighride_Candy/Naughty_List.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Naughty_List.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'TBD.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2427, 
@@ -610,7 +610,7 @@ VALUES (2428,
 'Out of Control Sleigh',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Out_of_Control_Sleigh_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Sleighride_Candy/Out_of_Control_Sleigh.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Out_of_Control_Sleigh.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'TBD.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2428, 
@@ -624,7 +624,7 @@ VALUES (2429,
 'Porkpocalypse',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Porkpocalypse_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Sleighride_Candy/Porkpocalypse.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Porkpocalypse.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'TBD.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2429, 
@@ -638,7 +638,7 @@ VALUES (2430,
 'Sled Ride',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Sled_Ride_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Sleighride_Candy/Sled_Ride.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Sled_Ride.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'TBD.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2430, 
@@ -652,7 +652,7 @@ VALUES (2431,
 'Survival of the Fittest',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Survival_of_the_Fittest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Sleighride_Candy/Survival_of_the_Fittest.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Survival_of_the_Fittest.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'TBD.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2431, 
@@ -666,7 +666,7 @@ VALUES (2432,
 'Take These and Stop This Sleigh',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Take_These_and_Stop_This_Sleigh_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Sleighride_Candy/Take_These_and_Stop_This_Sleigh.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Take_These_and_Stop_This_Sleigh.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'TBD.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2432, 
@@ -680,7 +680,7 @@ VALUES (2433,
 'Tis_the_Season',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Tis_the_Season_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Sleighride_Candy/Tis_the_Season.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Tis_the_Season.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'TBD.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2433, 

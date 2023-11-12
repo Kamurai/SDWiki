@@ -640,7 +640,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (606
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (606, 946); --Spawning Pool
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (606, 1009); --Stealth
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (606, 2); --Armor 
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (606, 'Start', 'Spawning Point', 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (606, 'Paired Spawning Point', 'Start', 0);
 
 --Clan Spirit Shrine Chunin --CardIndex 1102 --CharacterIndex 712 --ExploreCharacterIndex 607
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1102, 
@@ -1010,7 +1010,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (622
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (622, 946); --Spawning Pool
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (622, 1009); --Stealth
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (622, 2); --Armor 
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (622, 'Start', 'Spawning Point', 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (622, 'Paired Spawning Point', 'Start', 0);
 
 --Clan Void Shrine Chunin --CardIndex 1118 --CharacterIndex 728 --ExploreCharacterIndex 623
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1118, 
@@ -1152,7 +1152,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (628
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (628, 946); --Spawning Pool
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (628, 1009); --Stealth
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (628, 2); --Armor 
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (628, 'Start', 'Paired Spawning Point', 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (628, 'Paired Spawning Point', 'Start', 0);
 
 --Clan Water Shrine Chunin --CardIndex 1124 --CharacterIndex 734 --ExploreCharacterIndex 629
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1124, 

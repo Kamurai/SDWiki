@@ -1,6 +1,6 @@
---drop PROCEDURE DBSDEPullNavigationArcadePlots;
+--drop PROCEDURE DBSDEPullNavigationArcadePlotCards;
 
-CREATE OR ALTER PROCEDURE DBSDEPullNavigationArcadePlots
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationArcadePlotCards
 AS
 BEGIN
 	select distinct CardName, ProductSet, Link, PictureFront

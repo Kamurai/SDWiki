@@ -7,7 +7,7 @@
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2036, 'Accidents Happen...',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Onryo/Card_Boss_Challenge_Accidents_Happen_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Onryo/Accidents_Happen.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'Oops!');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2036, 'All Heroes must roll their DEX. Any Hero that rolls two or fewer stars suffers 2 wounds and Knockdown.', 'All monster commands target the Hero with the least wrath.');
@@ -27,7 +27,7 @@ insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (1, 966
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2038, 'Answer for Your Sins',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Onryo/Card_Boss_Challenge_Answer_for_Your_Sins_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Onryo/Answer_For_Your_Sins.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', '"You will pay dearly, maybe not today, but you cannot hide from me forever... I will find you, I always find you."');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2038, 'The dungeon boss performs the Unique command.', 'The dungeon boss gains +1ST STR for each wound on it, to a maximum of +4ST STR.');
@@ -38,7 +38,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2039, 'Avalanche',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Elrik_The_Lich_King/Card_Boss_Challenge_Avalanche_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrick_The_Lich_King/Avalanche.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrik_the_Lich_King/Avalanche.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'There are many dangers in the Frostbyte Reach not related to liches or armies of the undead or monsters. The weight of snow and the pressing cold can stop a hero just as dead.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2039, 'Place all Heroes, except the Hero with the most wrath, within two squares of the spawning point icon on the second tile. All Heroes placed in this way must choose to suffer either two wounds, or ICE.', 'All Heroes must use their DEX for all defense rolls.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (3, 961); --Elrik The Lich King
@@ -146,7 +146,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2050, 'Call to Battle',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Elrik_The_Lich_King/Card_Boss_Challenge_Call_To_Battle_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrick_The_Lich_King/Call_to_Battle.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrik_the_Lich_King/Call_to_Battle.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'Elrik raised his sword and let out a call that, from a mortal throat, would have been a fearsome warcry. But from his decayed body the screeching croak almost bubbled into dark laughter.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2050, 'All Undead monsters, except the dungeon boss, perform the Epic Fight command.', 'All monsters, except the dungeon boss, have +3ST ARM.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (14, 961); --Elrik The Lich King
@@ -194,7 +194,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2055, 'Dark Alchemy',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Dark_Alchemy_2.0_PP.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Back_2.0_PP.png', 
-'http://htkb.online/SDWiki/SDE/2.0/PP/Cards/Challenges/Dark_Alchemy.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/PP/Arcade/Cards/Challenge_Cards/Dark_Alchemy.xhtml', 
 'Challenge', '2.0 PP', '2.0 Pet Parade', 'Arcade', 'Ghosts swirled around the spawning points, creating an eerie blur. All arrows and spells were deflected by the ghostly shield. The heroes knew they would have to draw closer, and they approached the screeching wall of ghosts with caution, weapons drawn...');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2055, 'Spawn two Creeps within three squares of each spawning point.', 'Spawning points with one or more Creeps within three squares may not suffer wounds.');
 
@@ -203,7 +203,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2056, 'Dark Beacon',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Dark_Beacon_2.0_PP.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Back_2.0_PP.png', 
-'http://htkb.online/SDWiki/SDE/2.0/PP/Cards/Challenges/Dark_Beacon.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/PP/Arcade/Cards/Challenge_Cards/Dark_Beacon.xhtml', 
 'Challenge', '2.0 PP', '2.0 Pet Parade', 'Arcade', 'An empty orb of nothing appeared over the heroes'' heads. It was not black, not a color that can be described, it was simply the absence of everything good and pure; a gaping hole in the world. To its dark presence all manner of monsters were drawn. And under its shadow the heroes shook, and knew fear.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2056, 'Spawn four Creeps within three squares of the Hero with the most wrath.', 'All Heroes must use their WILL for all defense rolls.');
 
@@ -231,7 +231,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2059, 'Deadly Dance, The',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Deadly_Dance_The_2.0_PP.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Back_2.0_PP.png', 
-'http://htkb.online/SDWiki/SDE/2.0/PP/Cards/Challenges/Deadly_Dance_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/PP/Arcade/Cards/Challenge_Cards/Deadly_Dance_The.xhtml', 
 'Challenge', '2.0 PP', '2.0 Pet Parade', 'Arcade', 'Have you ever danced with a slime? You think a partner stepping on your toes is bad, try having one that melts your armor. And no, I have no desire to talk about how I ended up in that situation. Mistakes were made.<br><<br>I''ll give him this though, little guy knew how to waltz.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2059, 'Spawn one Creep adjacent to each Hero.', 'All Heroes must use their DEX for all defense rolls.');
 
@@ -249,7 +249,7 @@ insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (24, 95
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2061, 'Death Curse',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Onryo/Card_Boss_Challenge_Death_Curse_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Onryo/Death_Curse.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'The practice of Ushi-no-Toki-Mairi must always be kept secret and away from watchful eyes or it will not take effect, and the target of the curse will escape justice.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2061, 'The dungeon boss performs the Unique command.', 'Any Heroes destroyed require two Princess Coins to return to play. If the Heroes do not have enough Princess Coins to revive a destroyed Hero, they lose as usual.');
@@ -318,7 +318,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2067, 'Endless Tide, The',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Elrik_The_Lich_King/Card_Boss_Challenge_Endless_Tide_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrick_The_Lich_King/Endless_Tide_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrik_the_Lich_King/Endless_Tide_The.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'Never dying, never sleeping, they marched on...');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2067, 'Randomly select a spawning point that was destroyed this game. Place it on the spawning point icon on the second tile (move any model occupying that square to an adjacent one). This spawning point does not cause the dungeon boss to heal. At the start of each Consul turn, this spawning point performs the spawn command. Any monsters spawned from it gain the Undead characteristic.', 'All monster commands target the Hero with the least wrath.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (31, 961); --Elrik The Lich King
@@ -379,7 +379,7 @@ insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (36, 97
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2073, 'Final Betrayal',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Onryo/Card_Boss_Challenge_Final_Betrayal_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Onryo/Final_Betrayal.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', '"Curse you! Ack!"<br><br>-- unknown betrayed');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2073, 'All Heroes must roll their WILL. Starting with the Hero with the most wrath and going clockwise, any Hero that rolled 2 or fewer stars must take one wound token from the dungeon box and place it on themselves (so long as there are wound tokens to take).', 'Only a single Hero may activate.');
@@ -409,7 +409,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2076, 'Fluff The Pillows',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Demon_Queen_Araphel/Card_Boss_Challenge_Fluff_the_Pillows_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Demon_Queen_Araphel/Fluff_The_Pillows.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Demon_Queen_Araphel/Fluff_the_Pillows.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', '"You''ve gravely misread the situation."');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2076, 'All Heroes must roll their WILL. The dungeon boss Heals 1 for each Hero that rolled 2 or fewer stars.', 'Each time a Hero deals a wounds to the dungeon boss, that Hero also suffers the same number of wounds.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (40, 959); --Demon Queen Araphel
@@ -419,7 +419,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2077, 'Flushed a Rabbit For Ya',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Ugg/Card_Boss_Challenge_Flushed_a_Rabbit_For_Ya_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Ugg/Flushed_a_Rabbit_For_Ya.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Ugg/Flushed_a_Rabbit_for_Ya.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', '"Mugg! Look at dis one scamper. Shoot it up gud!"'); 
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2077, 'Ugg moves 4 squares towards the nearest Hero. If he ends adjacent to the Hero, the Hero is Pushed 6 squares and suffers BANE and KNOCKDOWN.', 'Ugg gains +2ST ARM.'); 
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (41, 980); --Ugg
@@ -439,7 +439,7 @@ insert into Cards (ComponentIndex, Name, PictureFront,PictureBack, Link, CardTyp
 VALUES (2079, 'For A Few Coins More',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Pauper_Prince/Card_Boss_Challenge_For_A_Few_Coins_More_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Pauper_Prince/For_A_Few_Coins_More.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Pauper_Prince/For_a_Few_Coins_More.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', '"Impressed? I know you are! But it gets better, folks. I know, I know, I''m practically cutting me own throat here. But for just a few more coins you can upgrade to the deluxe model..."');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2079, 'The Heroes may choose to discard a Princess Coin and draw a treasure card. If they choose not to, place a crystal token on the dungeon boss (this crystal token counts as being placed by the Dibs ability).', 'The dungeon boss gains +1ST ARM for each crystal token on it gained through the Dibs ability.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (43, 957); --Pauper Prince
@@ -471,7 +471,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2082, 'Freezing March, The',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Elrik_The_Lich_King/Card_Boss_Challenge_Freezing_March_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrick_The_Lich_King/Freezing_March_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrik_the_Lich_King/Freezing_March_The.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'Marching an army across the frozen wastes would normally be impossible. But an army of the undying can face perils that a mortal army would not dare cross, allowing them to strike from unlikely places.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2082, 'All Curse Ravens perform the Move command.', 'The dungeon boss gains +3ST ARM.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (46, 961); --Elrik The Lich King
@@ -494,7 +494,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2084, 'Frozen Shield',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Elrik_The_Lich_King/Card_Boss_Challenge_Frozen_Shield_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrick_The_Lich_King/Frozen_Shield.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrik_the_Lich_King/Frozen_Shield.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'So cold is Elrik''s heart that the ice itself rises to protect him. A frozen shield before him and a crown of ice upon his head, he marches to war.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2084, 'The dungeon boss performs the Move command, this command targets the Hero with the least wrath.<br><br>Then all monsters, including the dungeon boss, perform the Unique command. This command targets the Hero with the least wrath.', 'The dungeon boss gains +3ST ARM.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (48, 961); --Elrik The Lich King
@@ -514,7 +514,7 @@ insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (49, 97
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2086, 'Ghostly Flame A',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Onryo/Card_Boss_Challenge_Ghostly_Flame_A_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Onryo/Ghostly_Flame_A.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'The Hitodama of a spirit burn with the ghostly flame as bright as the rage of the Yurei they are part of.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2086, 'If there are fewer than four Ghost Creeps in play, spawn Ghost Creeps within four squares of the dungeon boss until there are four in play.', 'Only a single Hero may activate.');
@@ -524,7 +524,7 @@ insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (50, 97
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2087, 'Goblin Toss Contest',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Guth_The/Card_Boss_Challenge_Goblin_Toss_Contest_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Guth_The/Goblin_Toss_Contest.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'The Guth enjoys physical games of strength almost as much as battle. He has even been known to allow enemies a brief moment of peace in order compete. The stakes are simple. If he wins, he gets to fight you. If he loses, he gets to eat you.'); 
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2087, 'Roll 1G. The Guth performs the Goblin Toss action repeatedly until there are no Spikers in play.<br><br>Then, The Guth performs the Unique command (regardless of whether there are Spikers in play).', 'Only a single Hero may activate.'); 
@@ -535,7 +535,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2088, 'Gonna Find Out Who''s Naughty Or Nice',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Krampus/Card_Boss_Challenge_Gonna_Find_Out_Whos_Naughty_Or_Nice_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Krampus/Gonna_Find_Out_Whos_Naughty_Or_Nice.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Krampus/Gonna_Find_Out_Whos_Naughty_or_Nice.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', '');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2088, 'All Naughties (starting with the Naughtie with the most Wrath and proceeding down) must move their full movement stat towards the closest other Hero and perform a basic attack action against it.<br><br>If Sheep-Cote Clod is in play and has a potion token, it must take its Stink Bomb potion action against the closest other friendly Hero after completing the basic attack.', 'The dungeon boss gains +1ST ARM.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (52, 966); --Krampus
@@ -578,7 +578,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2092, 'He Knows If You''ve Been Bad Or Good',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Krampus/Card_Boss_Challenge_He_Knows_If_Youve_Been_Bad_Or_Good_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Krampus/He_Knows_If_Youve_Been_Bad_Or_Good.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Krampus/He_Knows_if_Youve_Been_Bad_or_Good.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', '');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2092, 'The Hero with the most equipment must choose a Naughtie card and shapeshift into a Naughtie (if the Hero with the most equipment is already a Naughtie, the Hero with the next most equipment must shapeshift, etc.) If multiple Heroes are tied for the most equipment, the Hero among the tied Heroes with the most Wrath is the one that must shapeshift.', 'All items that give a DEX bonus, grant an additional +1B DEX this turn.<br><br>All items that grant a WILL bonus are considered blank.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (56, 966); --Krampus
@@ -608,7 +608,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2095, 'He''s Making A List',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Krampus/Card_Boss_Challenge_Hes_Making_A_List_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Krampus/Hes_Making_A_List.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Krampus/Hes_Making_a_List.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', '');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2095, 'All Heroes discard all treasure items, shuffle them randomly, and deal them out clockwise, starting with the Hero with the most Wrath. The Heroes may either equip the treasure they have been dealt or discard it, they may not give it to another Hero.', 'Only a single Hero may activate.<br><br>If Spoon-Licker is in play and has a potion token, the first time that the dungeon boss would take wounds this turn, Spoon-Licker must use its Self-Pitying Tears potion to take the wounds for the dungeon boss, as if it were a friendly model.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (59, 966); --Krampus
@@ -626,7 +626,7 @@ insert into Challenges (CardIndex, Trap, Challenge) VALUES (2096, '', 'Spawning 
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2097, 'Hog Wild',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Guth_The/Card_Boss_Challenge_Hog_Wild_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Guth_The/Hog_Wild.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'The Guth has found that sometimes the best tactic in the middle of a good fight is to give up the reigns and let his war boar live its best life. This inevitably leads to hog-mania as both The Guth and his mount frenzy into a wild hurricane of porcine and orcish insanity.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2097, 'If there are no Spikers in play, ignore this. Otherwise, destroy the closest Spiker to The Guth and The Guth performs the Epic Fight command.', 'The dungeon boss gains +1ST ARM.');
@@ -645,7 +645,7 @@ insert into Challenges (CardIndex, Trap, Challenge) VALUES (2098, 'The Hero with
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2099, 'Howling Vengeance',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Onryo/Card_Boss_Challenge_Howling_Vengeance_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Onryo/Howling_Vengeance.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'The air is palpable with the rage of the Yurei''s drowned warriors, this has an energizing effect on the lost and wandering spirits of Kagejima.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2099, 'The dungeon boss performs the Fight command and gains +2ST STR for the duration of the command.', 'The dungeon boss gains +1ST ARM for each wound token on the Hero with the most wrath.');
@@ -655,7 +655,7 @@ insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (63, 97
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2100, 'I Ate That Goblin... Then I Woke Up Here',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Guth_The/Card_Boss_Challenge_I_Ate_That_Goblin_Then_I_Woke_Up_Here_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Guth_The/I_Ate_That_Goblin_Then_I_Woke_Up_Here.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', ''); 
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2100, 'If there are no Spikers in play, ignore this. Otherwise, destroy the closest Spiker to The Guth and The Guth is placed adjacent to the spawning point icon in the first tile.<br><br>Then, the Guth performs the Unique command (regardless of whether there are Spikers in play).', 'The dungeon boss gains +2ST ARM.'); 
@@ -665,7 +665,7 @@ insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (64, 96
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2101, 'I Know What You Did',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Onryo/Card_Boss_Challenge_I_Know_What_You_Did_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Onryo/I_Know_What_You_Did.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'The guilt of mortal sin lies heavy on the hearts of the righteous. It is like a fragrant lure to the Yurei, and food for their empty, ravenous souls.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2101, 'The dungeon boss performs the Unique command.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
@@ -686,7 +686,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2103, 'Icy Resolve',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Elrik_The_Lich_King/Card_Boss_Challenge_Icy_Resolve_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrick_The_Lich_King/Icy_Resolve.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrik_the_Lich_King/Icy_Resolve.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'Normal foes become enraged and make mistakes. They become arrogant and underestimate you. Elrik looks through your soul with cold calculation, and knows how he plans to slay you.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2103, 'All monsters including the dungeon boss, perform the Unique command.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (67, 961); --Elrik The Lich King
@@ -753,8 +753,8 @@ insert into Challenges (CardIndex, Trap, Challenge) VALUES (2109, 'All Heroes th
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2110, 'It''s A Goblin Galloping Good Time',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Guth_The/Card_Boss_Challenge_Its_A_Goblin_Galloping_Good_Time_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Guth_The/Its_A_Goblin_Galloping_Good_Time.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Guth_The/Its_a_Goblin_Galloping_Good_Time.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'The Guth''s war boars have a complex relationship with goblins. On one hand, Spikers bring them food. On the other, Spikers are food. During a battle this can cause The Guth''s mounts to charge straight into the Spikers, resulting in a stampeding Guth careening through the dungeon, slaying everything within reach, and making no attempt to regain control.'); 
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2110, 'If there are no Spikers in play, ignore this. Otherwise, destroy the closest Spiker to The Guth and The Guth takes the Out of My Way! action three consecutive times.', 'The dungeon boss gains +1ST ARM.'); 
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (74, 963); --Guth, The
@@ -806,7 +806,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2115, 'Krampus Is Coming To Town, The',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Krampus/Card_Boss_Challenge_Krampus_Is_Coming_To_Town_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Krampus/Krampus_Is_Coming_To_Town_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Krampus/Krampus_Is_Coming_to_Town_The.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'I don''t even know how he fits down that chimney...');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2115, 'The dungeon boss performs the Unique command. Then the dungeon boss is placed adjacent to the SPAWNLOCATION icon on the second tile, move any models necessary to adjacent squares to make the dungeon boss fit.', 'The dungeon boss gains Stealth.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (79, 966); --Krampus
@@ -847,8 +847,8 @@ insert into Challenges (CardIndex, Trap, Challenge) VALUES (2118, 'All monsters 
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2119, 'Marked For Death',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Onryo/Card_Boss_Challenge_Marked_for_Death_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Onryo/Marked_For_Death.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Onryo/Marked_for_Death.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'There are no rules to follow, no logic to trace back, no mystery to solve. You simply have 7 days... and then you die.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2119, 'Place a crystal token on the Hero with the most wrath. For the remainder of the game, that Hero must reroll all successful defense rolls.', 'The dungeon boss gains +1ST ARM for each wound token on the Hero with the most wrath.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (83, 974); --Onryo
@@ -858,7 +858,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2120, 'May I Offer A Trade?',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Pauper_Prince/Card_Boss_Challenge_May_I_Offer_A_Trade_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Pauper_Prince/May_I_Offer_A_Trade.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Pauper_Prince/May_I_Offer_a_Trade.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', '"So you''re telling me you just found this sword in the dungeon? Just laying there, discarded. It''s not a family heirloom? No? Eh. Bet I can do is a few coppers. Decide now and I throw in the lucky rat tail. Tick-tock."');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2120, 'Each Hero with one or more equipped treasure must either suffer 2 wounds, or discard one treasure and draw a new treasure. The Hero that drew each treasure must either equip it or discard it; this treasure may not be placed in the backpack or onto another Hero.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (84, 957); --Pauper Prince
@@ -881,7 +881,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2122, 'Might Makes Right',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Might_Makes_Right_2.0_PP.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Back_2.0_PP.png', 
-'http://htkb.online/SDWiki/SDE/2.0/PP/Cards/Challenges/Might_Makes_Right.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/PP/Arcade/Cards/Challenge_Cards/Might_Makes_Right.xhtml', 
 'Challenge', '2.0 PP', '2.0 Pet Parade', 'Arcade', 'Gront shouted his rage at the Dark Consul. He threw down his axe and tore off his shirt, and dared the minions of darkness to send forth their mightiest champions to test their strength against his.<br><br>The ground shook, as if to answer Gront''s challenge. And from the ground burst forth...baby squid-like creatures with big eyes. "Aw! They''re adorable!" shouted the ember mage. Gront blinked in surprise.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2122, 'Spawn two Creeps within three squares of each spawning point.', 'All Heroes must use their STR for all defense rolls.');
 
@@ -937,7 +937,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2128, 'Of Demons and Desire',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Demon_Queen_Araphel/Card_Boss_Challenge_Of_Demons_and_Desire_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Demon_Queen_Araphel/Of_Demons_And_Desire.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Demon_Queen_Araphel/Of_Demons_and_Desire.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'The servants of the Dark Queen are never far from hand, and they are eager to bring new followers into service.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2128, 'If there are fewer than four Spiteful Cherubs in play, spawn Spiteful Cherubs within three squares of the dungeon boss until there are four in play.', 'Only a single Hero may activate.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (92, 959); --Demon Queen Araphel
@@ -946,7 +946,7 @@ insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (92, 95
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2129, 'On Wings of Wrath',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Onryo/Card_Boss_Challenge_On_Wings_of_Wrath_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Onryo/On_Wings_of_Wrath.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', '"Nothing in heaven or on earth can keep me from my revenge."');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2129, 'Place the dungeon boss adjacent to the SPAWNLOCATION on the first tile. Then, if there are less than four Ghost Creeps in play, spawn Ghost Creeps within three squares of the Hero with the most wrath until there are four Ghost Creeps in play.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
@@ -998,7 +998,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2134, 'Overwhelm',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Overwhelm_2.0_PP.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Back_2.0_PP.png', 
-'http://htkb.online/SDWiki/SDE/2.0/PP/Cards/Challenges/Overwhelm.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/PP/Arcade/Cards/Challenge_Cards/Overwhelm.xhtml', 
 'Challenge', '2.0 PP', '2.0 Pet Parade', 'Arcade', 'The adorable squids latched onto Gront, holding his arms and legs as they made laughing, chortling noises. "Get them off of me!" Gront roared.<br><br>"But...but, they''re so cute!" The ember mage stammered.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2134, 'Spawn four Creeps within three squares of the Hero with the most wrath.', 'During the Fight command, monsters gain +1ST STR for every Creep within three squares of their target.');
 
@@ -1026,7 +1026,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2137, 'Pick Off the Stragglers',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Pick_Off_the_Stragglers_2.0_PP.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Back_2.0_PP.png', 
-'http://htkb.online/SDWiki/SDE/2.0/PP/Cards/Challenges/Pick_Off_the_Stragglers.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/PP/Arcade/Cards/Challenge_Cards/Pick_Off_the_Stragglers.xhtml', 
 'Challenge', '2.0 PP', '2.0 Pet Parade', 'Arcade', 'Things like slimes, rattlebones, and squiglies may not be the most threatening things in a dungeon. But try encountering them when you''re injured. When you''re exhausted. When you''re sleeping. Don''t get full of yourself in there, every monster is a deadly threat.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2137, 'Spawn four Creeps within three squares of the Start Token.', 'After a Creep moves into a square adjacent to a Hero, the Hero suffers one wound.');
 
@@ -1108,9 +1108,9 @@ insert into Challenges (CardIndex, Trap, Challenge) VALUES (2145, '', 'Whenever 
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2146, 'Ragin and Ready To Go!',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Guth_The/Card_Boss_Challenge_Ragin_And_Ready_To_Go_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Guth_The/Ragin_And_Ready_To_Go.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Arcade', 'It is easy to assume The Guth is a mindless monster bent only towards destruction and combat. But it is a foolish Hero that does so. The Guth is capable of surprisingly complex strategies and cunning tactics - so long as the end result is destruction and combat.'); 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Guth_The/Ragin_and_Ready_to_Go.xhtml', 
+'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'It is easy to assume The Guth is a mindless monster bent only towards destruction and combat. But it is a foolish Hero that does so. The Guth is capable of surprisingly complex strategies and cunning tactics - so long as the end result is destruction and combat.'); 
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2146, 'If there are no Spikers in play, ignore this. Otherwise, destroy the closest Spiker to The Guth and the Consul takes an additional turn after this one.', ''); 
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (110, 963); --Guth, The
 
@@ -1118,7 +1118,7 @@ insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (110, 9
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2147, 'Refreshments',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Guth_The/Card_Boss_Challenge_Refreshments_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Guth_The/Refreshments.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'Eating goblins is generally frowned upon in Undercove, and Frostbyte, and, well everywhere really. It''s not very nice. Nor is it very healthy. But, in a rare pause between trading blows, The Destroyer introduced The Guth to "juicing" as a healthy alternative.'); 
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2147, 'If there are no Spikers in play, ignore this. Otherwise, destroy the closest Spiker to The Guth and The Guth Heals 3.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
@@ -1128,7 +1128,7 @@ insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (111, 9
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2148, 'Retribution',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Onryo/Card_Boss_Challenge_Retribution_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Onryo/Retribution.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'There is a simple elegance in a hate so wretched it follows you from the next world.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2148, 'The dungeon boss performs the Fight command and then the Unique command.', 'The dungeon boss gains +1ST ARM for each status effect token on a Hero in play.');
@@ -1138,8 +1138,8 @@ insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (112, 9
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2149, 'Romp And Rage',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Guth_The/Card_Boss_Challenge_Romp_And_Rage_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Guth_The/Romp_And_Rage.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Guth_The/Romp_and_Rage.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'It''s not only about eating. It''s also about the pure joy of swinging an axe around bashing stuff, bellowing at the top of your lungs, frothing, and laughing. A good romp should be angry. But most of all - it should be fun.'); 
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2149, 'If there are no Spikers in play, ignore this. Otherwise, destroy the closest Spiker to The Guth and The Guth performs the Fight command.<br><br>Then, The Guth performs the Unique command (regardless of whether there are Spikers in play).', 'The dungeon boss gains +1ST ARM.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (113, 963); --Guth, The
@@ -1167,7 +1167,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2152, 'See? Works Like A Charm',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Pauper_Prince/Card_Boss_Challenge_See_Works_Like_A_Charm_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Pauper_Prince/See_Works_Like_A_Charm.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Pauper_Prince/See_Works_Like_a_Charm.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', '"Did you read the fine print, there? The selling party, that''d be me, shall not be held accountable by the injured party, that''d be you, for any of the following: missing fingers, gouged eyes, scraped knees, burst pancreas (oof, that one''s a doozy), broken limbs, hurt feelings, skull fractures..."');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2152, 'Attach this card to the Ruby equipment slot of the Hero with the most wrath. Discard any equipment from that slot and the Hero may no longer equip to that slot. The Hero with this card equipped gains +1G to all offense rolls, but suffers one wound for each Heart rolled during offense rolls.', '');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (116, 957); --Pauper Prince
@@ -1222,7 +1222,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2158, 'Skeletal Hands At Your Ankles',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Elrik_The_Lich_King/Card_Boss_Challenge_Skeletal_Hands_At_Your_Ankles_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrick_The_Lich_King/Skeletal_Hands_At_Your_Ankles.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrik_the_Lich_King/Skeletal_Hands_At_Your_Ankles.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', '"Stomp the finger bones! STOMP THE FINGER BONES!"');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2158, 'The dungeon boss immediately performs the following action:<br><br>Death''s Grasp: +1ST STR, Wave 3, ICE, IMMOBILE', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (122, 961); --Elrik The Lich King
@@ -1278,7 +1278,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2164, 'Stuck In The Snow',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Elrik_The_Lich_King/Card_Boss_Challenge_Stuck_In_The_Snow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrick_The_Lich_King/Stuck_In_The_Snow.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrik_the_Lich_King/Stuck_in_the_Snow.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', '"Oi! Got me leg caught in that snowdrift and when I pulled it out, it sucked me boot right off! These are me boots o'' escaping, too!"');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2164, 'All Heroes must roll their DEX. Any Hero that rolls two or fewer stars must discard any equipment from their Sapphire equipment slot.', 'Only a single Hero may activate.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (128, 961); --Elrik The Lich King
@@ -1288,7 +1288,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2165, 'Surprise Assault',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Surprise_Assault_2.0_PP.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Back_2.0_PP.png', 
-'http://htkb.online/SDWiki/SDE/2.0/PP/Cards/Challenges/Surprise_Assault.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/PP/Arcade/Cards/Challenge_Cards/Surprise_Assault.xhtml', 
 'Challenge', '2.0 PP', '2.0 Pet Parade', 'Arcade', 'As the heroes looted the treasure horde, rattlebones leapt from the shadows and surrounded them. They drew a tight circle, closing in the heroes, their teeth rattling in their skulls. The heroes drew in, back to back, and waited for the skeletal figures to close in...');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2165, 'Spawn one Creep adjacent to each dungeon exit.', 'All monster commands target the Hero with the least wrath.');
 
@@ -1314,7 +1314,7 @@ insert into Challenges (CardIndex, Trap, Challenge) VALUES (2167, 'All Heroes wi
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2168, 'That One Gave Me Gas',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Guth_The/Card_Boss_Challenge_That_One_Gave_Me_Gas_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Guth_The/That_One_Gave_Me_Gas.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'The Stinky Spikers displeased The Guth by refusing to bathe, becoming filthy and diseased. So he ate them. They proved to be remarkably tender and well-aged, if a bit rough to the insides.'); 
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2168, 'If there are no Spikers in play, ignore this. Otherwise, destroy the closest Spiker to The Guth and all Heroes within three squares of The Guth suffer Bane and Hex.<br><br>Then, The Guth performs the Unique command (regardless of whether there are Spikers in play).', 'Only a single Hero may activate.'); 
@@ -1324,8 +1324,8 @@ insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (132, 9
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2169, 'That Was A Spicy Goblin',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Guth_The/Card_Boss_Challenge_That_Was_A_Spicy_Goblin_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Guth_The/That_Was_A_Spicy_Goblin.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Guth_The/That_Was_a_Spicy_Goblin.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'A clever Spiker named Wicked thought to stave off his demise by becoming unpalatable to The Guth and his hogs by slathering himsef in hotsauce and filling his ears and trousers with chilis. Inadvertently, he created the Guth-favorite appetizer, "Wicked-Style".'); 
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2169, 'If there are no Spikers in play, ignore this. Otherwise, destroy the closest Spiker to The Guth and all Heroes suffer Knockdown.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.'); 
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (133, 963); --Guth, The
@@ -1335,7 +1335,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2170, 'They''re in the Room!',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Theyre_in_the_Room_2.0_PP.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Back_2.0_PP.png', 
-'http://htkb.online/SDWiki/SDE/2.0/PP/Cards/Challenges/Theyre_in_the_Room.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/PP/Arcade/Cards/Challenge_Cards/Theyre_in_the_Room.xhtml', 
 'Challenge', '2.0 PP', '2.0 Pet Parade', 'Arcade', '"Thirty paces! Twenty paces!"<br><br>"That''s in the room! You must have cast the tracking spell wrong!"<br><br>"I didn''t cast it wrong! Fifteen paces..."');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2170, 'Spawn one Creep adjacent to each dungeon exit.', 'All Creeps double their movement.');
 
@@ -1344,7 +1344,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2171, 'Things We Do For Love, The',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Demon_Queen_Araphel/Card_Boss_Challenge_Things_We_Do_For_Love_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Demon_Queen_Araphel/Things_We_Do_For_Love_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Demon_Queen_Araphel/Things_We_Do_for_Love_The.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'Also known as the Mistress of Chains, Araphel''s commands, no matter how dire, are irresistable when she bends full force of her will towards a binding.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2171, 'The Hero with the least wrath immediately moves up to six squares towards the closest other Hero (stopping when adjacent) and then performs three basic offensive actions targeting that Hero, if able.', 'All monster commands target the Hero with the least wrath.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (135, 959); --Demon Queen Araphel
@@ -1354,7 +1354,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2172, 'Those Left Behind',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Those_Left_Behind_2.0_PP.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Back_2.0_PP.png', 
-'http://htkb.online/SDWiki/SDE/2.0/PP/Cards/Challenges/Those_Left_Behind.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/PP/Arcade/Cards/Challenge_Cards/Those_Left_Behind.xhtml', 
 'Challenge', '2.0 PP', '2.0 Pet Parade', 'Arcade', 'Sure, you can run by a few slow-moving slimes and get deeper into the dungeon. It''s easy to think the slimes aren''t worth your time. But when you''re grappling for your life with some possessed drake, those little buggers will catch up with you...');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2172, 'Spawn four Creeps within three squares of the Start Token.', 'All monster commands target the Hero with the most wounds. If two or more Heroes are tied, monsters target the Hero with the least wrath among the tied Heroes.');
 
@@ -1373,7 +1373,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2174, 'Tiny Hands Burst From the Floor',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Tiny_Hands_Burst_From_the_Floor_2.0_PP.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Challenges/Card_Challenge_Back_2.0_PP.png', 
-'http://htkb.online/SDWiki/SDE/2.0/PP/Cards/Challenges/Tiny_Hands_Burst_From_the_Floor.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/PP/Arcade/Cards/Challenge_Cards/Tiny_Hands_Burst_From_the_Floor.xhtml', 
 'Challenge', '2.0 PP', '2.0 Pet Parade', 'Arcade', 'The nether elves danced around the heroes, swords darting and cloaks swirling. Suddenly, tiny hands burst through the floor and grabbed the heroes'' ankles. The elves smiled, and slowly began to circle their immobile targets as the heroes struggled...');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2174, 'Spawn one Creep adjacent to each Hero.', 'Heroes with one or more Creeps adjacent to them may not move.');
 
@@ -1382,7 +1382,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2175, 'To The Tunnels!',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Pauper_Prince/Card_Boss_Challenge_To_The_Tunnels_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Pauper_Prince/To_The_Tunnels.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Pauper_Prince/To_the_Tunnels.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', '"Home is where the heart is, as they say. It just so happens my heart is filthy and black and filled with sewage."');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2175, 'The dungeon boss performs the Unique command. Then, place the dungeon boss adjacent to the SPAWNLOCATION on the second tile. Then the dungeon boss performs the unique command a second time.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (139, 957); --Pauper Prince
@@ -1448,7 +1448,7 @@ insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (145, 9
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2182, 'WAAAAAAGH!',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Guth_The/Card_Boss_Challenge_WAAAAAAGH!_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Guth_The/WAAAAAAGH.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'Minions are easily influenced by the actions of their boss. The Guth, whose inclination is towards wanton mayhem ignites the same in his warriors. This leads to chaotic surges of violence that can be almost impossible to contain.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2182, 'If there are no Spikers in play, ignore this. Otherwise, destroy the closest Spiker to The Guth and all monsters in play except The Guth perform the Epic Fight command.', 'All monster commands target the Hero with the least wrath.');
@@ -1490,7 +1490,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2186, 'Withering Wastes, The',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Elrik_The_Lich_King/Card_Boss_Challenge_Withering_Wastes_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrick_The_Lich_King/Withering_Wastes_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrik_the_Lich_King/Withering_Wastes_The.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', 'Erik''s land is a blasted place. Cold and frozen like his soul. Little makes a life there, and what does is as vicious and as stalwart as the Lich King himself.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2186, 'All Heroes suffer a number of wounds equal to the number of status effects on them.', 'Only a single Hero may activate.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (150, 961); --Elrik The Lich King
@@ -1529,7 +1529,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 VALUES (2190, 'You Won''t Find A Better Deal',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Pauper_Prince/Card_Boss_Challenge_You_Wont_Find_A_Better_Deal_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Pauper_Prince/You_Wont_Find_A_Better_Deal.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Pauper_Prince/You_Wont_Find_a_Better_Deal.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', '"Of course this is a fair deal! Strong-arm you, why I never?! Knuckles, are we strong-arming these weary travelers?"');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2190, 'The Heroes may choose to discard a Princess Coin and draw a treasure card. If they choose not to, spawn a mini-boss that was destroyed this game adjacent to the dungeon boss.', 'All failed defense rolls count as rolling zero stars for the purposes of the Yoink ability.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (154, 957); --Pauper Prince

@@ -58,7 +58,7 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         String              flavor,
         String              author,
         String              sourceURL,
-        String              affinity,
+        ArrayList<String>   affinityList,
         String              standieFront,
         String              standieBack,
         String              gender,
@@ -88,9 +88,9 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
             module,
             mode,
             flavor,
-            affinity,
             author,
-            sourceURL
+            sourceURL,
+            affinityList
         );
         this.standieFront   = standieFront;
         this.standieBack    = standieBack;

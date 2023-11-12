@@ -158,12 +158,14 @@ public class SDEDAOAll extends SDEDAO{
         int     previousAbilityIndex    = -1;
         int     previousOffenseIndex    = -1;
         int     previousDefenseIndex    = -1;
+        String  previousAffinity        = "";
         
         boolean newCard                 = false;
         boolean newKeyword              = false;
         boolean newAbility              = false;
         boolean newOffense              = false;
         boolean newDefense              = false;
+        boolean newAffinity             = false;
                 
         try{
             openConnection();
@@ -177,6 +179,7 @@ public class SDEDAOAll extends SDEDAO{
                 newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
                 newOffense      = (rs.getInt("OffenseIndex")    != previousOffenseIndex);
                 newDefense      = (rs.getInt("DefenseIndex")    != previousDefenseIndex);
+                newAffinity     = (rs.getString("AffinityType") != null && rs.getString("AffinityType").equals(previousAffinity));
                 
                 if(newCard){
                     //run only after first
@@ -209,7 +212,10 @@ public class SDEDAOAll extends SDEDAO{
                     temp.setDexterity(rs.getString("Dexterity"));
                     temp.setHealth(rs.getInt("Health"));
                     temp.setPotions(rs.getInt("Potions"));
-                    temp.setAffinity(rs.getString("AffinityType"));
+                }
+                
+                if(newAffinity){
+                    temp.addAffinity(rs.getString("AffinityType"));
                 }
                 
                 //if on new keyword
@@ -277,12 +283,14 @@ public class SDEDAOAll extends SDEDAO{
         int     previousAbilityIndex    = -1;
         int     previousOffenseIndex    = -1;
         int     previousDefenseIndex    = -1;
+        String  previousAffinity        = "";
         
         boolean newCard                 = false;
         boolean newKeyword              = false;
         boolean newAbility              = false;
         boolean newOffense              = false;
         boolean newDefense              = false;
+        boolean newAffinity             = false;
                 
         try{
             openConnection();
@@ -296,6 +304,7 @@ public class SDEDAOAll extends SDEDAO{
                 newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
                 newOffense      = (rs.getInt("OffenseIndex")    != previousOffenseIndex);
                 newDefense      = (rs.getInt("DefenseIndex")    != previousDefenseIndex);
+                newAffinity     = (rs.getString("AffinityType") != null && rs.getString("AffinityType").equals(previousAffinity));
                 
                 if(newCard){
                     //run only after first
@@ -328,10 +337,13 @@ public class SDEDAOAll extends SDEDAO{
                     temp.setDexterity(rs.getString("Dexterity"));
                     temp.setHealth(rs.getInt("Health"));
                     temp.setPotions(rs.getInt("Potions"));
-                    temp.setAffinity(rs.getString("AffinityType"));
                     
                     temp.setCost(rs.getInt("Cost"));
                     temp.setRange(rs.getInt("RangeLimit"));
+                }
+                
+                if(newAffinity){
+                    temp.addAffinity(rs.getString("AffinityType"));
                 }
                 
                 //if on new keyword
@@ -444,12 +456,14 @@ public class SDEDAOAll extends SDEDAO{
         int     previousAbilityIndex    = -1;
         int     previousOffenseIndex    = -1;
         int     previousDefenseIndex    = -1;
+        String  previousAffinity        = "";
         
         boolean newCard                 = false;
         boolean newKeyword              = false;
         boolean newAbility              = false;
         boolean newOffense              = false;
         boolean newDefense              = false;
+        boolean newAffinity             = false;
                 
         try{
             openConnection();
@@ -463,6 +477,7 @@ public class SDEDAOAll extends SDEDAO{
                 newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
                 newOffense      = (rs.getInt("OffenseIndex")    != previousOffenseIndex);
                 newDefense      = (rs.getInt("DefenseIndex")    != previousDefenseIndex);
+                newAffinity     = (rs.getString("AffinityType") != null && rs.getString("AffinityType").equals(previousAffinity));
                 
                 if(newCard){
                     //run only after first
@@ -495,11 +510,14 @@ public class SDEDAOAll extends SDEDAO{
                     temp.setDexterity(rs.getString("Dexterity"));
                     temp.setHealth(rs.getInt("Health"));
                     temp.setPotions(rs.getInt("Potions"));
-                    temp.setAffinity(rs.getString("AffinityType"));
                     
                     temp.setRank(rs.getString("RankType"));
                     temp.setBits(rs.getString("Bits"));
                     temp.setSkulls(rs.getInt("Skulls"));
+                }
+                
+                if(newAffinity){
+                    temp.addAffinity(rs.getString("AffinityType"));
                 }
                 
                 //if on new keyword
@@ -612,12 +630,14 @@ public class SDEDAOAll extends SDEDAO{
         int     previousMemberOrder     = -1;
         int     previousKeywordIndex    = -1;
         int     previousAbilityIndex    = -1;
+        String  previousAffinity        = "";
        
         boolean newCard                 = false;
         boolean newGangMember           = false;
         boolean newMemberOrder          = false;
         boolean newKeyword              = false;
         boolean newAbility              = false;
+        boolean newAffinity             = false;
                 
         try{
             openConnection();
@@ -631,6 +651,7 @@ public class SDEDAOAll extends SDEDAO{
                 newMemberOrder  = (rs.getInt("MemberOrder")     != previousMemberOrder);
                 newKeyword      = (rs.getInt("KeywordIndex")    != previousKeywordIndex);
                 newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
+                newAffinity     = (rs.getString("AffinityType") != null && rs.getString("AffinityType").equals(previousAffinity));
                 
                 if(newCard){
                     //run only after first
@@ -653,8 +674,6 @@ public class SDEDAOAll extends SDEDAO{
                     temp.setMode(rs.getString("PlayMode"));
                     temp.setFlavor(rs.getString("Flavor"));
                     
-                    temp.setAffinity(rs.getString("AffinityType"));
-                    
                     temp.setSoloStatLine(
                             rs.getInt("SoloActions"),
                             rs.getInt("SoloStrength"),
@@ -666,6 +685,10 @@ public class SDEDAOAll extends SDEDAO{
                             rs.getInt("GangStrength"),
                             rs.getInt("GangRange")
                     );
+                }
+                
+                if(newAffinity){
+                    temp.addAffinity(rs.getString("AffinityType"));
                 }
                 
                 //if on new gang member

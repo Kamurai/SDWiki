@@ -128,7 +128,7 @@ public class CardBean extends SDE.Bean.Bean{
         return layout;
     }
     
-    public String setDisplayPage(String type, String version){
+    public String setDisplayPageByProductSet(String type, String version){
         
         if(type.compareTo("Heroes") == 0){
             this.title      = "Heroes";
@@ -240,7 +240,24 @@ public class CardBean extends SDE.Bean.Bean{
         return layout;
     }
     
-    public String setDisplayPage(String type, String version, String playMode){
+    public String setDisplayPageByPlaymode(String type, String playMode){
+        if(type.compareTo("Plot_Cards") == 0){
+            this.title      = "Plot Cards";
+            this.header     = "Plot Cards";
+            
+            if(playMode.compareTo("Explore") == 0){
+                this.cardList   = SDEDAONavigation.pullNavigationForExplorePlotCards();
+            } else if(playMode.compareTo("Arcade") == 0) {
+                this.cardList   = SDEDAONavigation.pullNavigationForArcadePlotCards();
+            } else {
+                this.cardList   = SDEDAONavigation.pullNavigationForExplorePlotCards();
+            }
+        }
+        
+        return layout;
+    }    
+    
+    public String setDisplayPageByProductSetAndPlayMode(String type, String version, String playMode){
         
         if(type.compareTo("Heroes") == 0){
             this.title      = "Heroes";
@@ -299,7 +316,9 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Warbands") == 0){
             this.title      = "Warbands";
             this.header     = "Warbands";
-            if(Validator.includeUpToVersion(version, "1.0")){
+            if(version.compareTo("All") == 0){
+                this.cardList   = SDEDAONavigation.pullNavigationForWarbands();
+            }else if(version.compareTo("1.0") == 0){
                 this.cardList   = SDEDAONavigation.pullNavigationForWarbandsByProductSet(version);
             }else if(Validator.includeFromVersion(version, "FK")){
                 this.cardList   = SDEDAONavigation.pullNavigationForWarbandsAllOrByProductSet(version, playMode);
@@ -309,7 +328,7 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Utility_Cards") == 0){
             this.title      = "Utility Cards";
             this.header     = "Utility Cards";
-            if(Validator.includeUpToVersion(version, "1.0")){
+            if(version.compareTo("1.0") == 0){
                 this.cardList   = SDEDAONavigation.pullNavigationForUtilitiesByProductSet(version);
             }else if(Validator.includeFromVersion(version, "FK")){
                 this.cardList   = SDEDAONavigation.pullNavigationForUtilitiesAllOrByProductSetAndPlayMode(version, playMode);
@@ -398,7 +417,7 @@ public class CardBean extends SDE.Bean.Bean{
             this.title      = "Plot Cards";
             this.header     = "Plot Cards";
             if(version.compareTo("All") == 0){
-                this.cardList   = SDEDAONavigation.pullNavigationForTreasureByPlayMode(playMode);
+                this.cardList   = SDEDAONavigation.pullNavigationForPlotCards();//pullNavigationForTreasureByPlayMode(playMode);
             }else if(version.compareTo("2.0") == 0){
                 this.cardList   = SDEDAONavigation.pullNavigationForPlotCardsByProductSetAndPlayMode(version, playMode);
             }else if(version.compareTo("2.0 PP") == 0){

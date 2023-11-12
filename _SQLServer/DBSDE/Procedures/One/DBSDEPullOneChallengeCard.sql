@@ -1,7 +1,7 @@
 --drop PROCEDURE DBSDEPullOneChallengeCard;
 
 CREATE OR ALTER PROCEDURE DBSDEPullOneChallengeCard(
-	@intCardLink varChar(100)
+	@intCardLink varChar(150)
 )
 AS
 BEGIN

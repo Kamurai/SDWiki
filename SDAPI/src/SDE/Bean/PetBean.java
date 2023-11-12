@@ -42,7 +42,7 @@ public class PetBean extends CardBean{
         return layout;
     }
 
-    public String setDisplayPage(String link, String version){
+    public String setDisplayPageByProductSet(String link, String version){
         String path = uni.getAppPath()+link;
         
         if(path.compareTo("") != 0){

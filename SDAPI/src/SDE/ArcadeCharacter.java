@@ -28,7 +28,7 @@ public class ArcadeCharacter extends Character{
         String                  flavor,
         String                  author,
         String                  sourceURL,
-        String                  affinity,
+        ArrayList<String>       affinityList,
         StatLine                soloStatLine,
         StatLine                gangStatLine,
         ArrayList<GangMember>   gangMembers
@@ -46,7 +46,7 @@ public class ArcadeCharacter extends Character{
             flavor,
             author,
             sourceURL,
-            affinity
+            affinityList
         );
         
         this.soloStatLine   = soloStatLine;

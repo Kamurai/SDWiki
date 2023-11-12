@@ -470,9 +470,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (43, 36
 
 --Rune of Better Defense --EquipmentIndex 44 --CardIndex 116
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (116, 'Rune of Better Defense',
-'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Better_Defense_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_of_Better_Defense_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Better_Defense.xhtml', 
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_of_Better_Defense.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Nothing protects like Better Defense.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (116, 'Loot', 'Right', '+1R Armor');
@@ -630,7 +630,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (131, 
 --Rune of the Stray --EquipmentIndex 60 --CardIndex 132
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (132, 
 'Rune of the Stray',
-'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_of_The_Stray_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_of_the_Stray_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_of_the_Stray.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',

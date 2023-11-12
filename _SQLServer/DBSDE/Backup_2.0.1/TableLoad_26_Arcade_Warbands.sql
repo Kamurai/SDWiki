@@ -1292,8 +1292,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (736, 934)
 
 --Order Of The Black Hand	--CardIndex 1410	--CharacterIndex 1020	--ArcadeCharacterIndex 252
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1410, 'Order Of The Black Hand',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_Order_Of_The_Black_Hand_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_Order_Of_The_Black_Hand_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_Order_of_the_Black_Hand_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_Order_of_the_Black_Hand_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Cursed_Barrow/Order_of_the_Black_Hand.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Warriors brave. Reavers true. Walk ye dead. Ye curse''ed few.');

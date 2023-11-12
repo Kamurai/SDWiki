@@ -158,12 +158,14 @@ public class SDEDAOOne extends SDEDAO{
         int     previousAbilityIndex    = -1;
         int     previousOffenseIndex    = -1;
         int     previousDefenseIndex    = -1;
-        
+        String  previousAffinity        = "";
+       
         boolean newCard                 = false;
         boolean newKeyword              = false;
         boolean newAbility              = false;
         boolean newOffense              = false;
         boolean newDefense              = false;
+        boolean newAffinity             = false;
         
         try{
             openConnection();
@@ -178,6 +180,7 @@ public class SDEDAOOne extends SDEDAO{
                 newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
                 newOffense      = (rs.getInt("OffenseIndex")    != previousOffenseIndex);
                 newDefense      = (rs.getInt("DefenseIndex")    != previousDefenseIndex);
+                newAffinity     = (rs.getString("AffinityType") != null && rs.getString("AffinityType").equals(previousAffinity));
                 
                 //run only on new card
                 if(newCard){
@@ -191,6 +194,7 @@ public class SDEDAOOne extends SDEDAO{
                     result.setModule(rs.getString("ProductModule"));
                     result.setMode(rs.getString("PlayMode"));
                     result.setFlavor(rs.getString("Flavor"));
+                    
                     result.setStandieFront(rs.getString("StandieFront"));
                     result.setStandieBack(rs.getString("StandieBack"));
                     result.setGender(rs.getString("Gender"));
@@ -204,7 +208,15 @@ public class SDEDAOOne extends SDEDAO{
                     result.setDexterity(rs.getString("Dexterity"));
                     result.setHealth(rs.getInt("Health"));
                     result.setPotions(rs.getInt("Potions"));
-                    result.setAffinity(rs.getString("AffinityType"));
+                    
+//                    if(result.getVersion() != null && result.getVersion().contains("Custom")){
+                        result.setAuthor(rs.getString("Author"));
+                        result.setSourceURL(rs.getString("SourceURL"));
+//                    }
+                }
+                
+                if(newAffinity){
+                    result.addAffinity(rs.getString("AffinityType"));
                 }
                 
                 //if on new keyword
@@ -408,12 +420,14 @@ public class SDEDAOOne extends SDEDAO{
         int     previousAbilityIndex    = -1;
         int     previousOffenseIndex    = -1;
         int     previousDefenseIndex    = -1;
-        
+        String  previousAffinity        = "";
+       
         boolean newCard                 = false;
         boolean newKeyword              = false;
         boolean newAbility              = false;
         boolean newOffense              = false;
         boolean newDefense              = false;
+        boolean newAffinity             = false;
         
         try{
             openConnection();
@@ -428,6 +442,7 @@ public class SDEDAOOne extends SDEDAO{
                 newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
                 newOffense      = (rs.getInt("OffenseIndex")    != previousOffenseIndex);
                 newDefense      = (rs.getInt("DefenseIndex")    != previousDefenseIndex);
+                newAffinity     = (rs.getString("AffinityType") != null && rs.getString("AffinityType").equals(previousAffinity));
                 
                 //run only on new card
                 if(newCard){
@@ -454,11 +469,14 @@ public class SDEDAOOne extends SDEDAO{
                     result.setDexterity(rs.getString("Dexterity"));
                     result.setHealth(rs.getInt("Health"));
                     result.setPotions(rs.getInt("Potions"));
-                    result.setAffinity(rs.getString("AffinityType"));
                     
                     result.setRank(rs.getString("RankType"));
                     result.setBits(rs.getString("Bits"));
                     result.setSkulls(rs.getInt("Skulls"));
+                }
+                
+                if(newAffinity){
+                    result.addAffinity(rs.getString("AffinityType"));
                 }
                 
                 //if on new keyword
@@ -569,12 +587,14 @@ public class SDEDAOOne extends SDEDAO{
         int     previousMemberOrder     = -1;
         int     previousKeywordIndex    = -1;
         int     previousAbilityIndex    = -1;
-        
+        String  previousAffinity        = "";
+       
         boolean newCard                 = false;
         boolean newGangMember           = false;
         boolean newMemberOrder          = false;
         boolean newKeyword              = false;
         boolean newAbility              = false;
+        boolean newAffinity             = false;
         
         try{
             openConnection();
@@ -589,6 +609,7 @@ public class SDEDAOOne extends SDEDAO{
                 newMemberOrder  = (rs.getInt("MemberOrder")     != previousMemberOrder);
                 newKeyword      = (rs.getInt("KeywordIndex")    != previousKeywordIndex);
                 newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
+                newAffinity     = (rs.getString("AffinityType") != null && rs.getString("AffinityType").equals(previousAffinity));
                 
                 //if on a new card
                 if(newCard){
@@ -604,8 +625,6 @@ public class SDEDAOOne extends SDEDAO{
                     result.setMode(rs.getString("PlayMode"));
                     result.setFlavor(rs.getString("Flavor"));
                     
-                    result.setAffinity(rs.getString("AffinityType"));
-                    
                     result.setSoloStatLine(
                             rs.getInt("SoloActions"),
                             rs.getInt("SoloStrength"),
@@ -617,6 +636,10 @@ public class SDEDAOOne extends SDEDAO{
                             rs.getInt("GangStrength"),
                             rs.getInt("GangRange")
                     );
+                }
+                
+                if(newAffinity){
+                    result.addAffinity(rs.getString("AffinityType"));
                 }
                 
                 //if on new gang member

@@ -1,16 +1,19 @@
 package SDE;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Character extends Card{
-    private String affinity;
+    private List<String> affinityList;
     
     public Character(){
         super();
-        this.affinity = this.getAffinity();
+        this.affinityList = this.getAffinityList();
     }
         
-    public Character(String affinity){
+    public Character(List<String> affinity){
         super();
-        this.affinity = affinity;
+        this.affinityList = affinity;
     }
     
     public Character(
@@ -24,9 +27,9 @@ public class Character extends Card{
         String module,
         String mode,
         String flavor,
-        String affinity,
         String author,
-        String sourceURL
+        String sourceURL,
+        List<String> affinityList
     ){
         super(
             cardIndex,
@@ -42,7 +45,7 @@ public class Character extends Card{
             author,
             sourceURL
         );
-        this.affinity = affinity;
+        this.affinityList = affinityList;
     }
     
     public void clone(Character source){
@@ -51,24 +54,27 @@ public class Character extends Card{
     }
     
     public void partialClone(Character source){
-        this.affinity = source.affinity;
+        this.affinityList = source.affinityList;
     }
     
-    public String getAffinity(){
-        if( this.affinity == null){
-            this.affinity = Affinity.affinities.get(0);
-        }
+    public List<String> getAffinityList(){
+        if( this.affinityList == null){
+            this.affinityList = new ArrayList<String>();
+            this.addAffinity(Affinity.affinities.get(0));
+        }  
         
-        return affinity;
+        return affinityList;
     }
     
-    public void setAffinity(String affinity){
+    public void setAffinity(List<String> affinityList){
+        this.affinityList = affinityList;
+    }
+    
+    public void addAffinity(String affinity){
         if(Affinity.affinities.contains(affinity)){
-            this.affinity = affinity;
+            this.affinityList.add(affinity);
         }else{
-            this.affinity = "Error";
+            this.affinityList.add("Error");
         }
     }
-    
-    
 }

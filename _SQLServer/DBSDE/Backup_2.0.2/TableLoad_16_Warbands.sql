@@ -69,7 +69,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (796
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (796, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (796, 4, 6); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (796, 2); --Armor 
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (796, '', '8 Bit', 2);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (796, 'Minion', '8 Bit', 2);
 
 --The Walking Cursed --CardIndex 2251 --CharacterIndex 1129 --ExploreCharacterIndex 797
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2251, 
@@ -90,5 +90,5 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (797
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (797, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (797, 4, 4); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (797, 2); --Armor 
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (797, '', '8 Bit', 1); 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (797, 'Minion', '8 Bit', 1); 
 
