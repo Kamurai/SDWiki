@@ -162,13 +162,15 @@ public class SDADAOAll extends SDEDAO{
         int     previousAbilityIndex    = -1;
         int     previousOffenseIndex    = -1;
         int     previousDefenseIndex    = -1;
+        String  previousAffinity        = "";
         
         boolean newCard                 = false;
         boolean newKeyword              = false;
         boolean newAbility              = false;
         boolean newOffense              = false;
         boolean newDefense              = false;
-                
+        boolean newAffinity             = false;
+           
         try{
             openConnection();
             
@@ -181,6 +183,7 @@ public class SDADAOAll extends SDEDAO{
                 newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
                 newOffense      = (rs.getInt("OffenseIndex")    != previousOffenseIndex);
                 newDefense      = (rs.getInt("DefenseIndex")    != previousDefenseIndex);
+                newAffinity     = (rs.getString("AffinityType") != null && rs.getString("AffinityType").equals(previousAffinity));
                 
                 if(newCard){
                     //run only after first
@@ -213,7 +216,10 @@ public class SDADAOAll extends SDEDAO{
                     temp.setDexterity(rs.getString("Dexterity"));
                     temp.setHealth(rs.getInt("Health"));
                     temp.setPotions(rs.getInt("Potions"));
-                    temp.setAffinity(rs.getString("AffinityType"));
+                }
+                
+                if(newAffinity){
+//                    result.addAffinity(rs.getString("AffinityType"));
                 }
                 
                 //if on new keyword
@@ -332,7 +338,7 @@ public class SDADAOAll extends SDEDAO{
                     temp.setDexterity(rs.getString("Dexterity"));
                     temp.setHealth(rs.getInt("Health"));
                     temp.setPotions(rs.getInt("Potions"));
-                    temp.setAffinity(rs.getString("AffinityType"));
+//                    temp.setAffinity(rs.getString("AffinityType"));
                     
                     temp.setCost(rs.getInt("Cost"));
                     temp.setRange(rs.getInt("RangeLimit"));
@@ -499,7 +505,7 @@ public class SDADAOAll extends SDEDAO{
                     temp.setDexterity(rs.getString("Dexterity"));
                     temp.setHealth(rs.getInt("Health"));
                     temp.setPotions(rs.getInt("Potions"));
-                    temp.setAffinity(rs.getString("AffinityType"));
+//                    temp.setAffinity(rs.getString("AffinityType"));
                     
                     temp.setRank(rs.getString("RankType"));
                     temp.setBits(rs.getString("Bits"));
@@ -657,7 +663,7 @@ public class SDADAOAll extends SDEDAO{
                     temp.setMode(rs.getString("PlayMode"));
                     temp.setFlavor(rs.getString("Flavor"));
                     
-                    temp.setAffinity(rs.getString("AffinityType"));
+//                    temp.setAffinity(rs.getString("AffinityType"));
                     
                     temp.setSoloStatLine(
                             rs.getInt("SoloActions"),

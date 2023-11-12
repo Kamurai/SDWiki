@@ -161,12 +161,14 @@ public class RRIDAOOne extends SDEDAO{
         int     previousAbilityIndex    = -1;
         int     previousOffenseIndex    = -1;
         int     previousDefenseIndex    = -1;
+        String  previousAffinity        = "";
         
         boolean newCard                 = false;
         boolean newKeyword              = false;
         boolean newAbility              = false;
         boolean newOffense              = false;
         boolean newDefense              = false;
+        boolean newAffinity             = false;
         
         try{
             openConnection();
@@ -181,6 +183,7 @@ public class RRIDAOOne extends SDEDAO{
                 newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
                 newOffense      = (rs.getInt("OffenseIndex")    != previousOffenseIndex);
                 newDefense      = (rs.getInt("DefenseIndex")    != previousDefenseIndex);
+                newAffinity     = (rs.getString("AffinityType") != null && rs.getString("AffinityType").equals(previousAffinity));
                 
                 //run only on new card
                 if(newCard){
@@ -207,7 +210,10 @@ public class RRIDAOOne extends SDEDAO{
                     result.setDexterity(rs.getString("Dexterity"));
                     result.setHealth(rs.getInt("Health"));
                     result.setPotions(rs.getInt("Potions"));
-                    result.setAffinity(rs.getString("AffinityType"));
+                }
+                
+                if(newAffinity){
+                    result.addAffinity(rs.getString("AffinityType"));
                 }
                 
                 //if on new keyword
@@ -319,7 +325,7 @@ public class RRIDAOOne extends SDEDAO{
                     result.setDexterity(rs.getString("Dexterity"));
                     result.setHealth(rs.getInt("Health"));
                     result.setPotions(rs.getInt("Potions"));
-                    result.setAffinity(rs.getString("AffinityType"));
+//                    result.setAffinity(rs.getString("AffinityType"));
                     
                     result.setCost(rs.getInt("Cost"));
                     result.setRange(rs.getInt("RangeLimit"));
@@ -482,7 +488,7 @@ public class RRIDAOOne extends SDEDAO{
                     result.setDexterity(rs.getString("Dexterity"));
                     result.setHealth(rs.getInt("Health"));
                     result.setPotions(rs.getInt("Potions"));
-                    result.setAffinity(rs.getString("AffinityType"));
+//                    result.setAffinity(rs.getString("AffinityType"));
                     
                     result.setRank(rs.getString("RankType"));
                     result.setBits(rs.getString("Bits"));
@@ -632,7 +638,7 @@ public class RRIDAOOne extends SDEDAO{
                     result.setMode(rs.getString("PlayMode"));
                     result.setFlavor(rs.getString("Flavor"));
                     
-                    result.setAffinity(rs.getString("AffinityType"));
+//                    result.setAffinity(rs.getString("AffinityType"));
                     
                     result.setSoloStatLine(
                             rs.getInt("SoloActions"),

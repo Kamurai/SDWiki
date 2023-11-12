@@ -159,7 +159,7 @@ public class SDEDAOOne extends SDEDAO{
         int     previousOffenseIndex    = -1;
         int     previousDefenseIndex    = -1;
         String  previousAffinity        = "";
-       
+        
         boolean newCard                 = false;
         boolean newKeyword              = false;
         boolean newAbility              = false;
