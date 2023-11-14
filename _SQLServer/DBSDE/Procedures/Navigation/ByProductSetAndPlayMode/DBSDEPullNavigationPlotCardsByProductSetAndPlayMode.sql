@@ -6,7 +6,7 @@ CREATE OR ALTER PROCEDURE DBSDEPullNavigationPlotCardsByProductSetAndPlayMode(
 )
 AS
 BEGIN
-	select distinct CardName, ProductSet, Link, PictureFront
+	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
 	from PlotCardsView
 	where ProductSet = @strVersion
 	AND PlayMode = @strMode

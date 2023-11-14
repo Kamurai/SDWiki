@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Character extends Card{
-    private List<String> affinityList;
+    protected ArrayList<String> affinityList;
     
     public Character(){
         super();
         this.affinityList = this.getAffinityList();
     }
         
-    public Character(List<String> affinity){
+    public Character(ArrayList<String> affinity){
         super();
         this.affinityList = affinity;
     }
@@ -29,7 +29,7 @@ public class Character extends Card{
         String flavor,
         String author,
         String sourceURL,
-        List<String> affinityList
+        ArrayList<String> affinityList
     ){
         super(
             cardIndex,
@@ -57,24 +57,38 @@ public class Character extends Card{
         this.affinityList = source.affinityList;
     }
     
-    public List<String> getAffinityList(){
+    public ArrayList<String> getAffinityList(){
         if( this.affinityList == null){
             this.affinityList = new ArrayList<String>();
-            this.addAffinity(Affinity.affinities.get(0));
+//            this.addAffinity(Affinity.affinities.get(0));
         }  
         
         return affinityList;
     }
     
-    public void setAffinity(List<String> affinityList){
+    public void setAffinityList(ArrayList<String> affinityList){
         this.affinityList = affinityList;
     }
     
     public void addAffinity(String affinity){
+        System.out.println("Add affinity: " + affinity);
         if(Affinity.affinities.contains(affinity)){
-            this.affinityList.add(affinity);
+            if(!this.affinityList.contains(affinity)){
+                this.affinityList.add(affinity);
+            }
         }else{
             this.affinityList.add("Error");
         }
+    }
+    
+//    @Override
+    public boolean validateAffinityList(){
+        boolean result = false;
+        
+        if(affinityList.size() > 0){
+            result = true;
+        }
+        
+        return result;
     }
 }

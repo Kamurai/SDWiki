@@ -42,6 +42,8 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         this.offenses       = new ArrayList<Offense>();
         this.keywords       = new ArrayList<Keyword>();
         this.abilities      = new ArrayList<Ability>();
+        
+//        this.getAffinityList();
     }
     
     
@@ -409,4 +411,15 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         
         return result;
     }
+    
+    
+//    @Override
+//    public ArrayList<String> getAffinityList(){
+//        if( this.affinityList == null){
+//            this.affinityList = new ArrayList<String>();
+//            this.addAffinity(Affinity.affinities.get(0));
+//        }  
+//        
+//        return affinityList;
+//    }
 }

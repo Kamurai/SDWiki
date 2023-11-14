@@ -180,7 +180,7 @@ public class SDEDAOOne extends SDEDAO{
                 newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
                 newOffense      = (rs.getInt("OffenseIndex")    != previousOffenseIndex);
                 newDefense      = (rs.getInt("DefenseIndex")    != previousDefenseIndex);
-                newAffinity     = (rs.getString("AffinityType") != null && rs.getString("AffinityType").equals(previousAffinity));
+                newAffinity     = (rs.getString("AffinityType") != null && !rs.getString("AffinityType").equals(previousAffinity));
                 
                 //run only on new card
                 if(newCard){
@@ -217,6 +217,8 @@ public class SDEDAOOne extends SDEDAO{
                 
                 if(newAffinity){
                     result.addAffinity(rs.getString("AffinityType"));
+                    previousAffinity = rs.getString("AffinityType");
+//                    System.out.println("New Affinity: " + result.getAffinityList().get(result.getAffinityList().size()-1));
                 }
                 
                 //if on new keyword
@@ -269,7 +271,7 @@ public class SDEDAOOne extends SDEDAO{
             closeConnection();
         }
         
-        
+//        System.out.println("Explore Character Affinity: " + result.getAffinityList().get(0));
         return result;
     }
     
@@ -354,12 +356,12 @@ public class SDEDAOOne extends SDEDAO{
         }catch(Exception e){
             e.printStackTrace();
             
-            System.out.print(e.getMessage());
+//            System.out.print(e.getMessage());
         }finally{
             closeConnection();
         }
                 
-        System.out.print(result.getName());
+//        System.out.print(result.getName());
         
         return result;
     }
@@ -1003,8 +1005,8 @@ public class SDEDAOOne extends SDEDAO{
     
     //Pull One Explore Card
     public static SDE.ExploreCard pullOneExploreCard(String link){
-        System.out.print(link);
-        System.out.print("pullOneExploreCard 1");
+//        System.out.print(link);
+//        System.out.print("pullOneExploreCard 1");
         
         CallableStatement stmt;
         ResultSet rs;
@@ -1019,7 +1021,7 @@ public class SDEDAOOne extends SDEDAO{
         boolean newCharacter            = false;
         
         
-        System.out.print("pullOneExploreCard 2");
+//        System.out.print("pullOneExploreCard 2");
         
         try{
             openConnection();
@@ -1056,10 +1058,10 @@ public class SDEDAOOne extends SDEDAO{
 //                result.setCharacterName(rs.getString("CharacterName"));
 //                result.setCharacterLink(rs.getString("CharacterLink"));
                 }
-                System.out.print("pullOneExploreCard 3: "+rs.getString("AbilityName"));
+//                System.out.print("pullOneExploreCard 3: "+rs.getString("AbilityName"));
                 //if on new ability
                 if(newAbility){
-                    System.out.print("pullOneExploreCard 4");
+//                    System.out.print("pullOneExploreCard 4");
 
                     //add new ability to last gang member
                     result.addAbility(
@@ -1072,9 +1074,9 @@ public class SDEDAOOne extends SDEDAO{
                         rs.getString("AbilityDescription")
                     );
 
-                    if(result.getAbilities().size() > 0){
-                        System.out.print("Explore Ability: " + result.getAbilities().get(result.getAbilities().size()-1));
-                    }
+//                    if(result.getAbilities().size() > 0){
+//                        System.out.print("Explore Ability: " + result.getAbilities().get(result.getAbilities().size()-1));
+//                    }
 
                     previousAbilityIndex = rs.getInt("AbilityIndex");
                 }
@@ -1093,9 +1095,9 @@ public class SDEDAOOne extends SDEDAO{
                         
                     }
                     
-                    if(result.getCharacterList().size() > 0){
-                        System.out.print("Related Character: " + result.getCharacterList().get(0).getName());
-                    }
+//                    if(result.getCharacterList().size() > 0){
+//                        System.out.print("Related Character: " + result.getCharacterList().get(0).getName());
+//                    }
                     
                     previousCharacterIndex = rs.getInt("CharacterIndex");
                 }
@@ -1104,19 +1106,19 @@ public class SDEDAOOne extends SDEDAO{
                 previousCardIndex = rs.getInt("CardIndex");
             }
             
-            System.out.print("pullOneExploreCard 5");
+//            System.out.print("pullOneExploreCard 5");
             
         }catch(Exception e){
-            System.out.print("Error: " +e.getMessage());
+//            System.out.print("Error: " +e.getMessage());
             e.printStackTrace();
         }finally{
             closeConnection();
         }
         
-        System.out.print("Explore Card: "+result.getName());
-        if(result.getAbilities().size() > 0){
-            System.out.print("First Ability: " + result.getAbilities().get(0).getName());
-        }
+//        System.out.print("Explore Card: "+result.getName());
+//        if(result.getAbilities().size() > 0){
+//            System.out.print("First Ability: " + result.getAbilities().get(0).getName());
+//        }
         
                 
         return result;
@@ -1282,8 +1284,8 @@ public class SDEDAOOne extends SDEDAO{
     //Pull One Terrain Card
     public static SDE.TerrainCard pullOneTerrainCard(String link){
         
-        System.out.print(link);
-        System.out.print("pullOneTerrainCard 1");
+//        System.out.print(link);
+//        System.out.print("pullOneTerrainCard 1");
         
         CallableStatement stmt;
         ResultSet rs;
@@ -1295,7 +1297,7 @@ public class SDEDAOOne extends SDEDAO{
         boolean newCard                 = false;
         boolean newKeyword              = false;
         
-        System.out.print("pullOneTerrainCard 2");
+//        System.out.print("pullOneTerrainCard 2");
         
         try{
             openConnection();
@@ -1339,16 +1341,16 @@ public class SDEDAOOne extends SDEDAO{
                 previousCardIndex = rs.getInt("CardIndex");
             }
             
-            System.out.print("pullOneTerrainCard 3");
+//            System.out.print("pullOneTerrainCard 3");
        
         }catch(Exception e){
-            System.out.print("Taco!: " +e.getMessage());
+//            System.out.print("Taco!: " +e.getMessage());
             e.printStackTrace();
         }finally{
             closeConnection();
         }
         
-        System.out.print("Burrito: "+result.getName());
+//        System.out.print("Burrito: "+result.getName());
         return result;
     }
     

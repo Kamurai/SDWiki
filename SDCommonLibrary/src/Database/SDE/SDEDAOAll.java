@@ -29,7 +29,7 @@ public class SDEDAOAll extends SDEDAO{
                     SDEDAOProcessor.getKeyword(rs)
                 );
                 
-                System.out.print(result.get(result.size()-1).getName());
+//                System.out.print(result.get(result.size()-1).getName());
             }
         }catch(Exception e){
             e.printStackTrace();
@@ -57,7 +57,7 @@ public class SDEDAOAll extends SDEDAO{
                     SDEDAOProcessor.getKeyword(rs)
                 );
                 
-                System.out.print(result.get(result.size()-1).getName());
+//                System.out.print(result.get(result.size()-1).getName());
             }
         }catch(Exception e){
             e.printStackTrace();
@@ -96,7 +96,7 @@ public class SDEDAOAll extends SDEDAO{
                     )
                 );
                 
-                System.out.print(result.get(result.size()-1).getName());
+//                System.out.print(result.get(result.size()-1).getName());
             }
         }catch(Exception e){
             e.printStackTrace();
@@ -135,7 +135,7 @@ public class SDEDAOAll extends SDEDAO{
                     )
                 );
                 
-                System.out.print(result.get(result.size()-1).getName());
+//                System.out.print(result.get(result.size()-1).getName());
             }
         }catch(Exception e){
             e.printStackTrace();
