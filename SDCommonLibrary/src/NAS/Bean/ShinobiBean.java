@@ -35,7 +35,8 @@ public class ShinobiBean extends CardBean{
         String path = uni.getAppPath()+link;
         
         if(path.compareTo("") != 0){
-//            this.shinobi   = NASDAOOne.pullOneShinobi(path);
+            System.out.println("Attempt pullOneShinobi: " + path);
+            this.shinobi   = NASDAOOne.pullOneShinobi(path);
         }
 //        this.shinobiList  = NASDAONavigation.pullNavigationForHeroes();
         

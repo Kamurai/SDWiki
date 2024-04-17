@@ -134,14 +134,14 @@ public class GangMember implements KeywordInterface, AbilityInterface {
 
     public String getGender(){
         if( this.gender == null){
-            this.gender = Gender.genders.get(0);
+            this.gender = Gender.getGenders().get(0);
         }
         
         return gender;
     }
     
     public void setGender(String gender){
-        if(Gender.genders.contains(gender)){
+        if(Gender.getGenders().contains(gender)){
             this.gender = gender;
         }else{
             this.gender = "Error";
@@ -174,14 +174,14 @@ public class GangMember implements KeywordInterface, AbilityInterface {
 
     public String getModelSize(){
         if( this.modelSize == null){
-            this.modelSize = ModelSize.sizes.get(0);
+            this.modelSize = ModelSize.getSizes().get(0);
         }
         
         return modelSize;
     }
     
     public void setModelSize(String size){
-        if(ModelSize.sizes.contains(size)){
+        if(ModelSize.getSizes().contains(size)){
             this.modelSize = size;
         }else{
             this.modelSize = "Error";

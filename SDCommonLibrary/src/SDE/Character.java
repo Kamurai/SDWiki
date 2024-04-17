@@ -72,7 +72,7 @@ public class Character extends Card{
     
     public void addAffinity(String affinity){
         System.out.println("Add affinity: " + affinity);
-        if(Affinity.affinities.contains(affinity)){
+        if(Affinity.getAffinities().contains(affinity)){
             if(!this.affinityList.contains(affinity)){
                 this.affinityList.add(affinity);
             }

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public abstract class Affinity {
-    static final ArrayList<String> affinities = new ArrayList<String>(Arrays.asList(
+    private static final ArrayList<String> affinities = new ArrayList<String>(Arrays.asList(
         "None",
         "Amethyst",
         "Citrine",
@@ -13,4 +13,8 @@ public abstract class Affinity {
         "Ruby",
         "Sapphire"
     )); 
+
+    public static ArrayList<String> getAffinities() {
+        return affinities;
+    }
 }

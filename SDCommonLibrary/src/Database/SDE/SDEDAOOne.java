@@ -286,12 +286,14 @@ public class SDEDAOOne extends SDEDAO{
         int     previousAbilityIndex    = -1;
         int     previousOffenseIndex    = -1;
         int     previousDefenseIndex    = -1;
+        String  previousAffinity        = "";
         
         boolean newCard                 = false;
         boolean newKeyword              = false;
         boolean newAbility              = false;
         boolean newOffense              = false;
         boolean newDefense              = false;
+        boolean newAffinity             = false;
         
         try{
             openConnection();
@@ -306,10 +308,17 @@ public class SDEDAOOne extends SDEDAO{
                 newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
                 newOffense      = (rs.getInt("OffenseIndex")    != previousOffenseIndex);
                 newDefense      = (rs.getInt("DefenseIndex")    != previousDefenseIndex);
+                newAffinity     = (rs.getString("AffinityType") != null && !rs.getString("AffinityType").equals(previousAffinity));
                 
                 //run only on new card
                 if(newCard){
                     result = SDEDAOProcessor.processPet(rs);
+                }
+                
+                if(newAffinity){
+                    result.addAffinity(rs.getString("AffinityType"));
+                    previousAffinity = rs.getString("AffinityType");
+//                    System.out.println("New Affinity: " + result.getAffinityList().get(result.getAffinityList().size()-1));
                 }
                 
                 //if on new keyword
@@ -444,7 +453,7 @@ public class SDEDAOOne extends SDEDAO{
                 newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
                 newOffense      = (rs.getInt("OffenseIndex")    != previousOffenseIndex);
                 newDefense      = (rs.getInt("DefenseIndex")    != previousDefenseIndex);
-                newAffinity     = (rs.getString("AffinityType") != null && rs.getString("AffinityType").equals(previousAffinity));
+                newAffinity     = (rs.getString("AffinityType") != null && !rs.getString("AffinityType").equals(previousAffinity));
                 
                 //run only on new card
                 if(newCard){
@@ -458,6 +467,7 @@ public class SDEDAOOne extends SDEDAO{
                     result.setModule(rs.getString("ProductModule"));
                     result.setMode(rs.getString("PlayMode"));
                     result.setFlavor(rs.getString("Flavor"));
+                    
                     result.setStandieFront(rs.getString("StandieFront"));
                     result.setStandieBack(rs.getString("StandieBack"));
                     result.setGender(rs.getString("Gender"));
@@ -479,6 +489,8 @@ public class SDEDAOOne extends SDEDAO{
                 
                 if(newAffinity){
                     result.addAffinity(rs.getString("AffinityType"));
+                    previousAffinity = rs.getString("AffinityType");
+//                    System.out.println("New Affinity: " + result.getAffinityList().get(result.getAffinityList().size()-1));
                 }
                 
                 //if on new keyword
@@ -611,7 +623,7 @@ public class SDEDAOOne extends SDEDAO{
                 newMemberOrder  = (rs.getInt("MemberOrder")     != previousMemberOrder);
                 newKeyword      = (rs.getInt("KeywordIndex")    != previousKeywordIndex);
                 newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
-                newAffinity     = (rs.getString("AffinityType") != null && rs.getString("AffinityType").equals(previousAffinity));
+                newAffinity     = (rs.getString("AffinityType") != null && !rs.getString("AffinityType").equals(previousAffinity));
                 
                 //if on a new card
                 if(newCard){
@@ -642,6 +654,8 @@ public class SDEDAOOne extends SDEDAO{
                 
                 if(newAffinity){
                     result.addAffinity(rs.getString("AffinityType"));
+                    previousAffinity = rs.getString("AffinityType");
+//                    System.out.println("New Affinity: " + result.getAffinityList().get(result.getAffinityList().size()-1));
                 }
                 
                 //if on new gang member

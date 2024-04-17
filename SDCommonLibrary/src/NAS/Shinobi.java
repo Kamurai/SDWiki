@@ -1,6 +1,8 @@
 package NAS;
 
 //import Common.Gender;
+import SDE.Affinity;
+import SDE.Gender;
 import SDE.ModelSize;
 import java.util.ArrayList;
 import java.util.List;
@@ -137,37 +139,37 @@ public class Shinobi extends Card implements KeywordInterface {
         this.standieBack = standieBack;
     }
     
-//    public String getGender(){
-//        if( this.gender == null){
-//            this.gender = Gender.getGenders().get(0);
-//        }
-//        
-//        return gender;
-//    }
-//    
-//    public void setGender(String gender){
-//        if(Gender.getGenders().contains(gender)){
-//            this.gender = gender;
-//        }else{
-//            this.gender = "Error";
-//        }
-//    }
-//
-//    public String getModelSize(){
-//        if( this.modelSize == null){
-//            this.modelSize = ModelSize.sizes.get(0);
-//        }
-//        
-//        return modelSize;
-//    }
-//    
-//    public void setModelSize(String size){
-//        if(ModelSize.sizes.contains(size)){
-//            this.modelSize = size;
-//        }else{
-//            this.modelSize = "Error";
-//        }
-//    }
+    public String getGender(){
+        if( this.gender == null){
+            this.gender = Gender.getGenders().get(0);
+        }
+        
+        return gender;
+    }
+    
+    public void setGender(String gender){
+        if(Gender.getGenders().contains(gender)){
+            this.gender = gender;
+        }else{
+            this.gender = "Error";
+        }
+    }
+
+    public String getModelSize(){
+        if( this.modelSize == null){
+            this.modelSize = ModelSize.getSizes().get(0);
+        }
+        
+        return modelSize;
+    }
+    
+    public void setModelSize(String size){
+        if(ModelSize.getSizes().contains(size)){
+            this.modelSize = size;
+        }else{
+            this.modelSize = "Error";
+        }
+    }
 
     public String getCreatureType() {
         return rankType;
@@ -185,61 +187,61 @@ public class Shinobi extends Card implements KeywordInterface {
         this.movement = movement;
     }
 
-//    public int getActions() {
-//        return actions;
-//    }
-//
-//    public void setActions(int actions) {
-//        this.actions = actions;
-//    }
-//
-//    public String getStrength() {
-//        return strength;
-//    }
-//
-//    public void setStrength(String strength) {
-//        this.strength = strength;
-//    }
-//
-//    public String getArmor() {
-//        return armor;
-//    }
-//
-//    public void setArmor(String armor) {
-//        this.armor = armor;
-//    }
-//
-//    public String getWill() {
-//        return will;
-//    }
-//
-//    public void setWill(String will) {
-//        this.will = will;
-//    }
-//
-//    public String getDexterity() {
-//        return dexterity;
-//    }
-//
-//    public void setDexterity(String dexterity) {
-//        this.dexterity = dexterity;
-//    }
-//
-//    public int getHealth() {
-//        return health;
-//    }
-//
-//    public void setHealth(int health) {
-//        this.health = health;
-//    }
-//
-//    public int getPotions() {
-//        return potions;
-//    }
-//
-//    public void setPotions(int potions) {
-//        this.potions = potions;
-//    }
+    public String getRankType() {
+        return rankType;
+    }
+
+    public void setRankType(String rankType) {
+        this.rankType = rankType;
+    }
+
+    public int getAttack() {
+        return attack;
+    }
+
+    public void setAttack(int attack) {
+        this.attack = attack;
+    }
+
+    public int getDefense() {
+        return defense;
+    }
+
+    public void setDefense(int defense) {
+        this.defense = defense;
+    }
+
+    public int getKoban() {
+        return koban;
+    }
+
+    public void setKoban(int koban) {
+        this.koban = koban;
+    }
+
+    public int getUpkeep() {
+        return upkeep;
+    }
+
+    public void setUpkeep(int upkeep) {
+        this.upkeep = upkeep;
+    }
+
+    public int getAttackRange() {
+        return attackRange;
+    }
+
+    public void setAttackRange(int attackRange) {
+        this.attackRange = attackRange;
+    }
+
+    public String getRangeDescription() {
+        return rangeDescription;
+    }
+
+    public void setRangeDescription(String rangeDescription) {
+        this.rangeDescription = rangeDescription;
+    }
     
     //Keyword Interface
     public ArrayList<Keyword> getKeywords() {
@@ -290,5 +292,16 @@ public class Shinobi extends Card implements KeywordInterface {
         }else{
             this.affinityList.add("Error");
         }
+    }
+    
+//    @Override
+    public boolean validateAffinityList(){
+        boolean result = false;
+        
+        if(affinityList.size() > 0){
+            result = true;
+        }
+        
+        return result;
     }
 }

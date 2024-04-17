@@ -5,10 +5,14 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public abstract class Gender {
-    static final ArrayList<String> genders = new ArrayList<String>(Arrays.asList(
+    private static final ArrayList<String> genders = new ArrayList<String>(Arrays.asList(
         "Feminine",
         "Masculine",
         "Neutral",
         "Either"
-    )); 
+    ));
+
+    public static ArrayList<String> getGenders() {
+        return genders;
+    }
 }

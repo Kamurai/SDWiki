@@ -8,7 +8,7 @@ import java.sql.CallableStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
-public class NASDAOOne extends SDEDAO{
+public class NASDAOOne extends NASDAO{
     
     public NASDAOOne(){
         super();
@@ -150,22 +150,20 @@ public class NASDAOOne extends SDEDAO{
         return result;
     }
     
-    //Pull One Hero
-    public SDE.ExploreCharacter pullOneExploreCharacter(String link){
+    //Pull One Shinobi
+    public static NAS.Shinobi pullOneShinobi(String link){
         CallableStatement stmt = null;
         ResultSet rs;
-        SDE.ExploreCharacter result = new SDE.ExploreCharacter();
+        NAS.Shinobi result = new NAS.Shinobi();
         
         int     previousCardIndex       = -1;
         int     previousKeywordIndex    = -1;
-        int     previousAbilityIndex    = -1;
         int     previousOffenseIndex    = -1;
         int     previousDefenseIndex    = -1;
         String  previousAffinity        = "";
         
         boolean newCard                 = false;
         boolean newKeyword              = false;
-        boolean newAbility              = false;
         boolean newOffense              = false;
         boolean newDefense              = false;
         boolean newAffinity             = false;
@@ -173,17 +171,16 @@ public class NASDAOOne extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call DBNASPullOneHero(?)}");
+            stmt = getConnect().prepareCall("{call DBNASPullOneShinobi(?)}");
             stmt.setString(1, link);
             rs = stmt.executeQuery();
             
             while(rs.next()){
                 newCard         = (rs.getInt("CardIndex")       != previousCardIndex);
                 newKeyword      = (rs.getInt("KeywordIndex")    != previousKeywordIndex);
-                newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
-                newOffense      = (rs.getInt("OffenseIndex")    != previousOffenseIndex);
-                newDefense      = (rs.getInt("DefenseIndex")    != previousDefenseIndex);
-                newAffinity     = (rs.getString("AffinityType") != null && rs.getString("AffinityType").equals(previousAffinity));
+//                newOffense      = (rs.getInt("OffenseIndex")    != previousOffenseIndex);
+//                newDefense      = (rs.getInt("DefenseIndex")    != previousDefenseIndex);
+                newAffinity     = (rs.getString("AffinityType") != null && !rs.getString("AffinityType").equals(previousAffinity));
                 
                 //run only on new card
                 if(newCard){
@@ -195,21 +192,21 @@ public class NASDAOOne extends SDEDAO{
                     result.setCardType(rs.getString("CardType"));
                     result.setVersion(rs.getString("ProductSet"));
                     result.setModule(rs.getString("ProductModule"));
-                    result.setMode(rs.getString("PlayMode"));
                     result.setFlavor(rs.getString("Flavor"));
+                    
                     result.setStandieFront(rs.getString("StandieFront"));
                     result.setStandieBack(rs.getString("StandieBack"));
                     result.setGender(rs.getString("Gender"));
                     result.setModelSize(rs.getString("ModelSize"));
                     result.setCreatureType(rs.getString("CreatureType"));
                     result.setMovement(rs.getInt("Movement"));
-                    result.setActions(rs.getInt("Actions"));
-                    result.setStrength(rs.getString("Strength"));
-                    result.setArmor(rs.getString("Armor"));
-                    result.setWill(rs.getString("Will"));
-                    result.setDexterity(rs.getString("Dexterity"));
-                    result.setHealth(rs.getInt("Health"));
-                    result.setPotions(rs.getInt("Potions"));
+//                    result.setActions(rs.getInt("Actions"));
+//                    result.setStrength(rs.getString("Strength"));
+//                    result.setArmor(rs.getString("Armor"));
+//                    result.setWill(rs.getString("Will"));
+//                    result.setDexterity(rs.getString("Dexterity"));
+//                    result.setHealth(rs.getInt("Health"));
+//                    result.setPotions(rs.getInt("Potions"));
                 }
                 
                 if(newAffinity){
@@ -225,36 +222,6 @@ public class NASDAOOne extends SDEDAO{
                     );
                     
                     previousKeywordIndex = rs.getInt("KeywordIndex");
-                }
-                
-                //if on new ability
-                if(newAbility){
-                    //add new ability to last gang member
-                    result.addAbility(
-                        rs.getString("AbilityName"),
-                        rs.getString("AbilityResource"),
-                        rs.getString("AbilityType"),
-                        rs.getInt("AbilityCost"),
-                        rs.getString("AbilityAttribute"),
-                        rs.getInt("AbilityRange"),
-                        rs.getString("AbilityDescription")
-                    );
-                
-                    previousAbilityIndex = rs.getInt("AbilityIndex");
-                }
-
-                //if new offense
-                if(newOffense){
-                    result.addOffense(new SDE.Offense(rs.getString("Offense"), rs.getInt("OffenseRange")));
-                
-                    previousOffenseIndex = rs.getInt("OffenseIndex");
-                }
-                    
-                //if new defense
-                if(newDefense){
-                    result.addDefense(new SDE.Defense(rs.getString("Defense")));
-                
-                    previousDefenseIndex = rs.getInt("DefenseIndex");
                 }
                 
                 //Previous card index

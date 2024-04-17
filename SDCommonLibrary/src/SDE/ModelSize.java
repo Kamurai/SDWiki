@@ -5,11 +5,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public abstract class ModelSize {
-    static final ArrayList<String> sizes = new ArrayList<String>(Arrays.asList(
+    private static final ArrayList<String> sizes = new ArrayList<String>(Arrays.asList(
         "Tiny",
         "Small",
         "Large",
         "Huge",
         "Gigantic"
     )); 
+
+    public static ArrayList<String> getSizes() {
+        return sizes;
+    }
 }
