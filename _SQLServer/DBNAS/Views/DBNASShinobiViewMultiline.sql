@@ -3,6 +3,7 @@
 create or alter view ShinobiViewMultiLine as
 select a.CardIndex, a.CardName, a.PictureFront, a.PictureBack, a.Link, a.CardType, a.ProductSet, a.ProductModule, a.Flavor, --Cards
 b.ShinobiIndex, b.StandieFront, b.StandieBack, b.Gender, --Shinobi
+b.ModelSize, b.Movement, b.Attack, b.AttackRange, b.RangedDescription, b.Defense, b.Koban, b.Upkeep, b.RankType, --Shinobi
 d.AffinityType, --Affinities
 f.KeywordIndex, f.KeywordName, f.KeywordDescription, --Keywords
 h.TeamIndex, h.TeamName, h.Quickplay --Teams

@@ -13,8 +13,8 @@ VALUES ('Bomechan',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (12,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Ijin_Bomechan.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Ijin_Bomechan_back.png', 
+'http://htkb.info/NAS/Standies/Bomechan.png', 
+'http://htkb.info/NAS/Standies/Bomechan_back.png', 
 'Feminine', 'Small', 'Hero', 7, 3, 2, 22, 0, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (0, 5); --Void
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (0, 8); --Backstab
@@ -36,8 +36,8 @@ VALUES ('Yobuko',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (13,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Ijin_Yobuko.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Ijin_BYobuko_back.png', 
+'http://htkb.info/NAS/Standies/Yobuko.png', 
+'http://htkb.info/NAS/Standies/Yobuko_back.png', 
 'Masculine', 'Small', 'Hero', 5, 5, 4, 25, 0, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (1, 5); --Void
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (1, 13); --Close Combat Master
@@ -60,8 +60,8 @@ VALUES ('Akkorokamui',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (14,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Ika_Akkorokamui.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Ika_Akkorokamui_back.png', 
+'http://htkb.info/NAS/Standies/Akkorokamui.png', 
+'http://htkb.info/NAS/Standies/Akkorokamui_back.png', 
 'Masculine', 'Small', 'Hero', 6, 4, 3, 23, 0, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (2, 4); --Water
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (2, 13); --Close Combat Master
@@ -83,8 +83,8 @@ VALUES ('Mizuchi',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (15,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Ika_Mizuchi.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Ika_Mizuchi_back.png', 
+'http://htkb.info/NAS/Standies/Mizuchi.png', 
+'http://htkb.info/NAS/Standies/Mizuchi_back.png', 
 'Masculine', 'Small', 'Hero', 5, 3, 5, 23, 0, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (3, 4); --Water
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (3, 13); --Close Combat Master
@@ -106,8 +106,8 @@ VALUES ('Tamamo No Mae',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (16,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Tamamo_No_Mae.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Tamamo_No_Mae_back.png', 
+'http://htkb.info/NAS/Standies/Tamamo_No_Mae.png', 
+'http://htkb.info/NAS/Standies/Tamamo_No_Mae_back.png', 
 'Feminine', 'Small', 'Hero', 7, 2, 2, 14, 0, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (4, 4); --Spirit
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (4, 37); --Hero
@@ -127,8 +127,8 @@ VALUES ('Uzumaki',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (17,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Uzumaki.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Uzumaki_back.png', 
+'http://htkb.info/NAS/Standies/Uzumaki.png', 
+'http://htkb.info/NAS/Standies/Uzumaki_back.png', 
 'Masucline', 'Small', 'Hero', 6, 3, 3, 18, 0, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (5, 4); --Spirit
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (5, 12); --Blink
@@ -140,7 +140,7 @@ insert into TeamAssignments (ShinobiIndex, TeamIndex) VALUES (5, 8); --Clan Kits
 
 --Karura --CardIndex 18 --ShinobiIndex 6
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Uzumaki', 
+VALUES ('Karura', 
 'http://htkb.info/NAS/Cards/Shinobi/Card_Tanchyo_Karura.png', 
 'http://htkb.info/NAS/Cards/Shinobi/Card_Tanchyo_Karura_back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Karura.xhtml', 
@@ -149,8 +149,8 @@ VALUES ('Uzumaki',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (18,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Karura.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Karura_back.png', 
+'http://htkb.info/NAS/Standies/Karura.png', 
+'http://htkb.info/NAS/Standies/Karura_back.png', 
 'Masculine', 'Small', 'Hero', 8, 2, 2, 14, 0, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (6, 0); --Air
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (6, 37); --Hero
@@ -169,8 +169,8 @@ VALUES ('Uzumaki',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (19,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Karura.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Karura_back.png', 
+'http://htkb.info/NAS/Standies/Karura.png', 
+'http://htkb.info/NAS/Standies/Karura_back.png', 
 'Feminine', 'Small', 'Hero', 6, 4, 2, 21, 0, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (7, 0); --Air
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (7, 3); --Accurate
@@ -192,8 +192,8 @@ VALUES ('Byakko',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (20,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Byakko.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Byakko_back.png', 
+'http://htkb.info/NAS/Standies/Byakko.png', 
+'http://htkb.info/NAS/Standies/Byakko_back.png', 
 'Masculine', 'Small', 'Hero', 5, 4, 3, 24, 0, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (8, 1); --Earth
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (8, 2); --Fire
@@ -217,8 +217,8 @@ VALUES ('Ryu',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (21,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Ryu.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Ryu_back.png', 
+'http://htkb.info/NAS/Standies/Ryu.png', 
+'http://htkb.info/NAS/Standies/Ryu_back.png', 
 'Masculine', 'Small', 'Hero', 5, 3, 4, 21, 0, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (9, 2); --Fire
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (9, 25); --Engulf
@@ -239,8 +239,8 @@ VALUES ('Mizaru',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (22,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Mizaru.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Mizaru_back.png', 
+'http://htkb.info/NAS/Standies/Mizaru.png', 
+'http://htkb.info/NAS/Standies/Mizaru_back.png', 
 'Masculine', 'Small', 'Hero', 5, 2, 4, 23, 0, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (10, 1); --Earth
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (10, 13); --Close Combat Master
@@ -262,8 +262,8 @@ VALUES ('Son Goku',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (23,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Son_Goku.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Son_Goku_back.png', 
+'http://htkb.info/NAS/Standies/Son_Goku.png', 
+'http://htkb.info/NAS/Standies/Son_Goku_back.png', 
 'Masculine', 'Small', 'Hero', 5, 2, 4, 23, 0, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (11, 1); --Earth
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (11, 23); --Earth Mastery
@@ -284,8 +284,8 @@ VALUES ('Samurai Sentry',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (24,
-'http://htkb.info/NAS/Cards/Sentry/Standies/Samurai.png', 
-'http://htkb.info/NAS/Cards/Sentry/Standies/Samurai_back.png', 
+'http://htkb.info/NAS/Standies/Sentry_Swordsman.png', 
+'http://htkb.info/NAS/Standies/Sentry_Swordsman_back.png', 
 'Either', 'Small', 'Sentry', 5, 3, 3, 0, 0, 1, '');
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (12, 63); --Samurai Sentry
 
@@ -300,8 +300,8 @@ VALUES ('Arashikage',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (25,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Arashikage.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Arashikage_back.png', 
+'http://htkb.info/NAS/Standies/Arashikage.png', 
+'http://htkb.info/NAS/Standies/Arashikage_back.png', 
 'Masculine', 'Small', 'Ronin', 6, 5, 2, 23, 6, 5, '-2 ATTACK, Stealthy');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (13, 2); --Fire
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (13, 5); --Water
@@ -325,8 +325,8 @@ VALUES ('Bakusho Mondai',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (26,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Bakusho_Mondai.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Bakusho_Mondai_back.png', 
+'http://htkb.info/NAS/Standies/Bakusho_Mondai.png', 
+'http://htkb.info/NAS/Standies/Bakusho_Mondai_back.png', 
 'Masculine', 'Small', 'Ronin', 6, 3, 3, 19, 5, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (14, 2); --Fire
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (14, 3); --Spirit
@@ -348,8 +348,8 @@ VALUES ('Benkei',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (27,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Benkei.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Benkei_back.png', 
+'http://htkb.info/NAS/Standies/Benkei.png', 
+'http://htkb.info/NAS/Standies/Benkei_back.png', 
 'Masculine', 'Small', 'Ronin', 3, 3, 4, 16, 5, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (15, 1); --Earth
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (15, 17); --Dauntless
@@ -369,8 +369,8 @@ VALUES ('Blind Swordsman',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (28,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Blind_Swordsman.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Blind_Swordsman_back.png', 
+'http://htkb.info/NAS/Standies/Blind_Swordsman.png', 
+'http://htkb.info/NAS/Standies/Blind_Swordsman_back.png', 
 'Masculine', 'Small', 'Ronin', 5, 3, 2, 16, 5, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (16, 0); --Air
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (16, 3); --Spirit
@@ -392,8 +392,8 @@ VALUES ('Goemon',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (29,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Goemon.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Goemon_back.png', 
+'http://htkb.info/NAS/Standies/Goemon.png', 
+'http://htkb.info/NAS/Standies/Goemon_back.png', 
 'Masculine', 'Small', 'Ronin', 6, 4, 3, 23, 7, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (17, 1); --Earth
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (17, 5); --Water
@@ -416,8 +416,8 @@ VALUES ('Hanzo',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (30,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_back.png', 
+'http://htkb.info/NAS/Standies/Hanzo.png', 
+'http://htkb.info/NAS/Standies/Hanzo_back.png', 
 'Masculine', 'Small', 'Ronin', 5, 4, 3, 25, 7, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (18, 0); --Air
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (18, 2); --Fire
@@ -441,8 +441,8 @@ VALUES ('Air Hanzo',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (31,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Air.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Air_back.png', 
+'http://htkb.info/NAS/Standies/Hanzo_Air.png', 
+'http://htkb.info/NAS/Standies/Hanzo_Air_back.png', 
 'Masculine', 'Small', 'Ronin', 7, 3, 3, 21, 5, 3, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (19, 0); --Air
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (19, 5); --Air Mastery
@@ -463,8 +463,8 @@ VALUES ('Earth Hanzo',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (32,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Earth.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Earth_back.png', 
+'http://htkb.info/NAS/Standies/Indominable_Hanzo.png', 
+'http://htkb.info/NAS/Standies/Indominable_Hanzo_back.png', 
 'Masculine', 'Small', 'Ronin', 5, 4, 4, 24, 6, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (20, 1); --Earth
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (20, 23); --Earth Mastery
@@ -485,8 +485,8 @@ VALUES ('Fire Hanzo',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (33,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Fire.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Fire_back.png', 
+'http://htkb.info/NAS/Standies/Blazing_Soul_Hanzo.png', 
+'http://htkb.info/NAS/Standies/Blazing_Soul_Hanzo_back.png', 
 'Masculine', 'Small', 'Ronin', 6, 5, 3, 22, 6, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (21, 2); --Fire
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (21, 15); --Combined Attack
@@ -506,8 +506,8 @@ VALUES ('Spirit Hanzo',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (34,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Spirit.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Spirit_back.png', 
+'http://htkb.info/NAS/Standies/Hanzo_Spirit.png', 
+'http://htkb.info/NAS/Standies/Hanzo_Spirit_back.png', 
 'Masculine', 'Small', 'Ronin', 6, 4, 3, 24, 6, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (22, 3); --Spirit
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (22, 71); --Spirit Mastery
@@ -527,8 +527,8 @@ VALUES ('Void Hanzo',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (35,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Void.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Void_back.png', 
+'http://htkb.info/NAS/Standies/Hanzo_Void.png', 
+'http://htkb.info/NAS/Standies/Hanzo_Void_back.png', 
 'Masculine', 'Small', 'Ronin', 5, 4, 4, 23, 6, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (23, 4); --Void
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (23, 8); --Backstab
@@ -548,8 +548,8 @@ VALUES ('Water Hanzo',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (36,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Water.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Hanzo_Water_back.png', 
+'http://htkb.info/NAS/Standies/Formless_Hanzo.png', 
+'http://htkb.info/NAS/Standies/Formless_Hanzo_back.png', 
 'Masculine', 'Small', 'Ronin', 5, 3, 5, 20, 5, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (24, 5); --Water
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (24, 22); --Drown
@@ -569,8 +569,8 @@ VALUES ('Howl & Yip',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (37,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Howl_and_Yip.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Howl_and_Yip_back.png', 
+'http://htkb.info/NAS/Standies/Howl_and_Yip.png', 
+'http://htkb.info/NAS/Standies/Howl_and_Yip_back.png', 
 'Masculine', 'Small', 'Ronin', 5, 3, 4, 23, 5, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (25, 1); --Earth
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (25, 2); --Fire
@@ -592,8 +592,8 @@ VALUES ('Inu Clan Kaiken',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (38,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Inu_Clan_Kaiken.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Inu_Clan_Kaiken_back.png', 
+'http://htkb.info/NAS/Standies/Adzuki.png', 
+'http://htkb.info/NAS/Standies/Adzuki_back.png', 
 'Masculine', 'Small', 'Ronin', 6, 2, 3, 13, 3, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (26, 1); --Earth
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (26, 17); --Dauntless
@@ -613,8 +613,8 @@ VALUES ('Jorogumo',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (39,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Jorogumo.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Jorogumo_back.png', 
+'http://htkb.info/NAS/Standies/Jorogumo.png', 
+'http://htkb.info/NAS/Standies/Jorogumo_back.png', 
 'Feminine', 'Large', 'Ronin', 5, 2, 2, 16, 5, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (27, 4); --Void
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (27, 5); --Water
@@ -637,8 +637,8 @@ VALUES ('Kappa',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (40,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Kappa.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Kappa_back.png', 
+'http://htkb.info/NAS/Standies/Kappa.png', 
+'http://htkb.info/NAS/Standies/Kappa_back.png', 
 'Either', 'Small', 'Ronin', 4, 2, 4, 20, 5, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (28, 1); --Earth
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (28, 4); --Void
@@ -661,8 +661,8 @@ VALUES ('Komuso',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (41,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Komuso.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Komuso_back.png', 
+'http://htkb.info/NAS/Standies/Komuso.png', 
+'http://htkb.info/NAS/Standies/Komuso_back.png', 
 'Either', 'Small', 'Ronin', 5, 1, 2, 13, 5, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (29, 1); --Earth
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (29, 3); --Spirit
@@ -684,8 +684,8 @@ VALUES ('Kunoichi Candy',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (42,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Kunoichi_Candy.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Kunoichi_Candy_back.png', 
+'http://htkb.info/NAS/Standies/Kunoichi_Candy.png', 
+'http://htkb.info/NAS/Standies/Kunoichi_Candy_back.png', 
 'Feminine', 'Small', 'Ronin', 8, 3, 2, 18, 4, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (30, 3); --Spirit
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (30, 5); --Water
@@ -709,8 +709,8 @@ VALUES ('Miyamoto Musashi',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (43,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Miyamoto_Musashi.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Miyamoto_Musashi_back.png', 
+'http://htkb.info/NAS/Standies/Miyamoto_Musashi.png', 
+'http://htkb.info/NAS/Standies/Miyamoto_Musashi_back.png', 
 'Masculine', 'Small', 'Ronin', 5, 4, 3, 20, 6, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (31, 2); --Fire
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (31, 13); --Close Combat Master
@@ -730,8 +730,8 @@ VALUES ('Mochizuki',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (44,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Mochizuki.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Mochizuki_back.png', 
+'http://htkb.info/NAS/Standies/Mochizuki.png', 
+'http://htkb.info/NAS/Standies/Mochizuki_back.png', 
 'Feminine', 'Small', 'Ronin', 6, 2, 2, 18, 6, 5, '+2 ATTACK');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (32, 0); --Air
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (32, 2); --Fire
@@ -754,8 +754,8 @@ VALUES ('Momotaro',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (45,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Momotaro.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Momotaro_back.png', 
+'http://htkb.info/NAS/Standies/Momotaro.png', 
+'http://htkb.info/NAS/Standies/Momotaro_back.png', 
 'Masculine', 'Small', 'Ronin', 5, 5, 4, 21, 6, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (33, 1); --Earth
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (33, 2); --Fire
@@ -775,8 +775,8 @@ VALUES ('Moon Princess',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (46,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Moon_Princess.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Moon_Princess_back.png', 
+'http://htkb.info/NAS/Standies/Moon_Princess.png', 
+'http://htkb.info/NAS/Standies/Moon_Princess_back.png', 
 'Feminine', 'Small', 'Ronin', 7, 2, 2, 18, 6, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (33, 0); --Air
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (33, 1); --Earth
@@ -806,8 +806,8 @@ VALUES ('Ondori Clan Kaiken',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (47,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Ondori_Clan_Kaiken.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Ondori_Clan_Kaiken_back.png', 
+'http://htkb.info/NAS/Standies/Kiji.png', 
+'http://htkb.info/NAS/Standies/Kiji_back.png', 
 'Masculine', 'Small', 'Ronin', 6, 3, 2, 14, 3, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (34, 0); --Air
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (34, 58); --Resilient
@@ -826,8 +826,8 @@ VALUES ('Onibaba',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (48,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Onibaba.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Onibaba_back.png', 
+'http://htkb.info/NAS/Standies/Onibaba.png', 
+'http://htkb.info/NAS/Standies/Onibaba_back.png', 
 'Feminine', 'Small', 'Ronin', 5, 2, 2, 14, 5, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (35, 4); --Void
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (35, 58); --Resilient
@@ -846,8 +846,8 @@ VALUES ('Onryo',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (49,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Onryo.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Onryo_back.png', 
+'http://htkb.info/NAS/Standies/Onryo.png', 
+'http://htkb.info/NAS/Standies/Onryo_back.png', 
 'Feminine', 'Small', 'Ronin', 6, 2, 2, 16, 4, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (36, 0); --Air
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (36, 4); --Void
@@ -869,8 +869,8 @@ VALUES ('Shojo',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (50,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Shojo.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Shojo_back.png', 
+'http://htkb.info/NAS/Standies/Shojo.png', 
+'http://htkb.info/NAS/Standies/Shojo_back.png', 
 'Feminine', 'Small', 'Ronin', 6, 2, 2, 16, 6, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (37, 1); --Earth
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (37, 5); --Water
@@ -893,8 +893,8 @@ VALUES ('Stealth Cola',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (51,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Stealth_Cola.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Stealth_Cola_back.png', 
+'http://htkb.info/NAS/Standies/Stealth_Cola.png', 
+'http://htkb.info/NAS/Standies/Stealth_Cola_back.png', 
 'Masculine', 'Small', 'Ronin', 7, 2, 3, 16, 4, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (38, 1); --Earth
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (38, 4); --Void
@@ -916,8 +916,8 @@ VALUES ('Sun Empire Wandering Samurai',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (52,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Sun_Empire_Wandering_Samurai.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Sun_Empire_Wandering_Samurai_back.png', 
+'http://htkb.info/NAS/Standies/Sun_Empire_Wandering_Samurai.png', 
+'http://htkb.info/NAS/Standies/Sun_Empire_Wandering_Samurai_back.png', 
 'Masculine', 'Small', 'Ronin', 4, 4, 4, 22, 6, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (39, 1); --Earth
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (39, 2); --Fire
@@ -939,8 +939,8 @@ VALUES ('Tengu',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (53,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Tengu.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Tengu_back.png', 
+'http://htkb.info/NAS/Standies/Tengu.png', 
+'http://htkb.info/NAS/Standies/Tengu_back.png', 
 'Either', 'Small', 'Ronin', 8, 2, 2, 14, 5, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (40, 0); --Air
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (40, 2); --Fire
@@ -960,8 +960,8 @@ VALUES ('Yagyu Jubei',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (54,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Yagyu_Jubei.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Yagyu_Jubei_back.png', 
+'http://htkb.info/NAS/Standies/Yagyu_Jubei.png', 
+'http://htkb.info/NAS/Standies/Yagyu_Jubei_back.png', 
 'Either', 'Small', 'Ronin', 5, 5, 4, 24, 6, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (41, 0); --Air
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (41, 1); --Earth
@@ -983,8 +983,8 @@ VALUES ('Yokozuna',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (55,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Yokozuna.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Yokozuna_back.png', 
+'http://htkb.info/NAS/Standies/Yokozuna.png', 
+'http://htkb.info/NAS/Standies/Yokozuna_back.png', 
 'Either', 'Small', 'Ronin', 4, 5, 4, 25, 6, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (42, 1); --Earth
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (42, 5); --Water

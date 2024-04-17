@@ -6,6 +6,6 @@ CREATE OR ALTER PROCEDURE DBNASPullOneShinobi(
 AS
 BEGIN
 	select * 
-	from ShinobisViewMultiLine
+	from ShinobiViewMultiLine
 	where Link = @intCardLink;
 END

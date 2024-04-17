@@ -596,17 +596,17 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Burke Badhammer --CardIndex 786	--CharacterIndex 396	--ExploreCharacterIndex 291
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (786, 'Burke Badhammer', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bakusho_Mondai_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bakusho_Mondai_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Bakusho_Mondai.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Burke_Badhammer_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Burke_Badhammer_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Burke_Badhammer.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Burke Badhammer, was apprenticed to dwarven smiths as a boy, and learned to forge items of exquisite quality. Seeking more, he sought out and eventually earned the trust of the mysterious Enchanter. Together, the two have forged some of the most legendary magical weapons and armor in all of Crystalia.');
 insert into Characters (CardIndex) VALUES (786);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (396, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (396, 
-'http://htkb.info/NAS/Standies/Bakusho_Mondai.png', 
-'http://htkb.info/NAS/Standies/Bakusho_Mondai_back.png',
+'http://htkb.info/SDE/Standies/NPC/Burke_Badhammer.png', 
+'http://htkb.info/SDE/Standies/NPC/Burke_Badhammer_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (291, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (291, 678); --Immune: Knockdown
@@ -12869,7 +12869,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (610, 1590
 --Ser Anthony	--CardIndex 1321	--CharacterIndex 931	--ArcadeCharacterIndex 163
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1321, 'Ser Anthony',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Anthony_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Anthony2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Anthony_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Ser_Anthony.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Despite his youth, Ser Anthony rose through the ranks of the Crown Guard quickly. Taken under the wing of the venerable knight Ser Charles he excelled at his studies--both physical and mental. At Ser Charles'' retirement, it was the great knight''s honor to see his squire rise to fill his station.');
