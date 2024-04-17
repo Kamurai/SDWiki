@@ -46,52 +46,70 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <div class="inline">
-                    Affinity: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getAffinity()}" escape="false" />
-                </div>
-            </div>
-           
             
             <!-- Solo Statline -->
             <ui:fragment rendered="#{SDEArcadeMonsterBean.getMonster().getSoloStatLine().validate()}">
                 <div>
-                    Solo Statline
-                </div>
-                <div class="inline">
-                    Actions: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getSoloStatLine().getAction()}" escape="false" />
-                </div>
-                <div class="inline">
-                    Strength: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getSoloStatLine().getStrength()}" escape="false" />
-                </div>
-                <div class="inline">
-                    Range: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getSoloStatLine().getRange()}" escape="false" />
+                    <div>
+                        Solo Statline
+                    </div>
+                    <div class="inline">
+                        Actions: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getSoloStatLine().getAction()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Strength: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getSoloStatLine().getStrength()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Range: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getSoloStatLine().getRange()}" escape="false" />
+                    </div>
                 </div>
             </ui:fragment>
            
             <!-- Gang Statline -->
             <ui:fragment rendered="#{SDEArcadeMonsterBean.getMonster().getGangStatLine().validate()}">
                 <div>
-                    Gang Statline
-                </div>
-                <div class="inline">
-                    Actions: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getGangStatLine().getAction()}" escape="false" />
-                </div>
-                <div class="inline">
-                    Strength: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getGangStatLine().getStrength()}" escape="false" />
-                </div>
-                <div class="inline">
-                    Range: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getGangStatLine().getRange()}" escape="false" />
+                    <div>
+                        Gang Statline
+                    </div>
+                    <div class="inline">
+                        Actions: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getGangStatLine().getAction()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Strength: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getGangStatLine().getStrength()}" escape="false" />
+                    </div>
+                    <div class="inline">
+                        Range: <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getGangStatLine().getRange()}" escape="false" />
+                    </div>
                 </div>
             </ui:fragment>
-           
+           <!-- List of Affinities -->
+           <ui:fragment rendered="#{SDEArcadeMonsterBean.getMonster().validateAffinityList()}">
+                <div>
+                   <ui:fragment rendered="#{SDEArcadeMonsterBean.getMonster().getAffinityList().size() == 1}">
+                        <div class="inline">Affinity:</div>
+                    </ui:fragment>
+                    <ui:fragment rendered="#{SDEArcadeMonsterBean.getMonster().getAffinityList().size() > 1}">
+                        <div class="inline">Affinities:</div>
+                    </ui:fragment>
+                    <ui:repeat var="x" value="#{SDEArcadeMonsterBean.getMonster().getAffinityList()}" size="#{SDEArcadeMonsterBean.getMonster().getAffinityList().size()}" varStatus="myVarStatus" >
+                        <ui:fragment rendered="#{SDEArcadeMonsterBean.getMonster().validateAffinityList()}">
+                            <div class="inline">
+                                <h:outputText value="#{x}" escape="false" />
+                            </div>
+                        </ui:fragment>
+                    </ui:repeat>
+                    <br/>
+                </div>
+            </ui:fragment>
+            <br/>
+                
             <!-- Gang Members -->
             <div>
                 Gang Size: #{SDEArcadeMonsterBean.getMonster().getGangMembers().size()}
             </div>
             <ui:repeat var="z" value="#{SDEArcadeMonsterBean.getMonster().getGangMembers()}" size="#{SDEArcadeMonsterBean.getMonster().getGangMembers().size()}" varStatus="myVarStatus" >
                 <div>
-                    <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getCardType()}" escape="false" />#{z.getName()}
+                    <h:outputText value="#{SDEArcadeMonsterBean.getMonster().getCardType()}" escape="false" /> Monster: #{z.getName()}
                 </div>
                 <div>
                      <div class="relatedCharacterBlock inline">

@@ -177,9 +177,6 @@
             
             <div>
                 <div class="inline">
-                    Affinity: <h:outputText value="#{SDEPetBean.getPet().getAffinity()}" escape="false" />
-                </div>
-                <div class="inline">
                     Health: <h:outputText value="#{SDEPetBean.getPet().getHealth()}" escape="false" />
                 </div>
                 <div class="inline">
@@ -187,7 +184,26 @@
                 </div>
             </div>
             <br/>
-            
+            <!-- List of Affinities -->
+            <ui:fragment rendered="#{SDEPetBean.getPet().validateAffinityList()}">
+                <div>
+                    <ui:fragment rendered="#{SDEPetBean.getPet().getAffinityList().size() == 1}">
+                        <div class="inline">Affinity:</div>
+                    </ui:fragment>
+                    <ui:fragment rendered="#{SDEPetBean.getPet().getAffinityList().size() > 1}">
+                        <div class="inline">Affinities:</div>
+                    </ui:fragment>
+                    <ui:repeat var="x" value="#{SDEPetBean.getPet().getAffinityList()}" size="#{SDEPetBean.getPet().getAffinityList().size()}" varStatus="myVarStatus" >
+                        <ui:fragment rendered="#{SDEPetBean.getPet().validateAffinityList()}">
+                            <div class="inline">
+                                <h:outputText value="#{x}" escape="false" />
+                            </div>
+                        </ui:fragment>
+                    </ui:repeat>
+                    <br/>
+                </div>
+            </ui:fragment>
+            <br/>
             <!-- List of Keywords -->
             <ui:fragment rendered="#{SDEPetBean.getPet().validateKeywordList()}">
                 <div>Keywords:</div>

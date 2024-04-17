@@ -184,20 +184,22 @@
             </div>
             <!-- List of Affinities -->
             <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().validateAffinityList()}">
-                <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().getAffinityList().size() == 1}">
-                    <div class="inline">Affinity:</div>
-                </ui:fragment>
-                <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().getAffinityList().size() > 1}">
-                    <div class="inline">Affinities:</div>
-                </ui:fragment>
-                <ui:repeat var="x" value="#{SDEExploreCharacterBean.getExploreCharacter().getAffinityList()}" size="#{SDEExploreCharacterBean.getExploreCharacter().getAffinityList().size()}" varStatus="myVarStatus" >
-                    <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().validateAffinityList()}">
-                        <div class="inline">
-                            <h:outputText value="#{x}" escape="false" />
-                        </div>
+                <div>
+                    <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().getAffinityList().size() == 1}">
+                        <div class="inline">Affinity:</div>
                     </ui:fragment>
-                </ui:repeat>
-                <br/>
+                    <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().getAffinityList().size() > 1}">
+                        <div class="inline">Affinities:</div>
+                    </ui:fragment>
+                    <ui:repeat var="x" value="#{SDEExploreCharacterBean.getExploreCharacter().getAffinityList()}" size="#{SDEExploreCharacterBean.getExploreCharacter().getAffinityList().size()}" varStatus="myVarStatus" >
+                        <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().validateAffinityList()}">
+                            <div class="inline">
+                                <h:outputText value="#{x}" escape="false" />
+                            </div>
+                        </ui:fragment>
+                    </ui:repeat>
+                    <br/>
+                </div>
             </ui:fragment>
             <br/>
             

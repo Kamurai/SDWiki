@@ -179,16 +179,12 @@
             
             <div>
                 <div class="inline">
-                    Affinity: <h:outputText value="#{SDEMonsterBean.getMonster().getAffinity()}" escape="false" />
-                </div>
-                <div class="inline">
                     Health: <h:outputText value="#{SDEMonsterBean.getMonster().getHealth()}" escape="false" />
                 </div>
                 <div class="inline">
                     Potions: <h:outputText value="#{SDEMonsterBean.getMonster().getPotions()}" escape="false" />
                 </div>
             </div>
-            
             <div>
                 <div class="inline">
                     Skulls: <h:outputText value="#{SDEMonsterBean.getMonster().getSkulls()}" escape="false" />
@@ -197,6 +193,26 @@
                     Bits: <h:outputText value="#{SDEMonsterBean.getMonster().getBits()}" escape="false" />
                 </div>
             </div>
+            <!-- List of Affinities -->
+            <ui:fragment rendered="#{SDEMonsterBean.getMonster().validateAffinityList()}">
+                <div>
+                    <ui:fragment rendered="#{SDEMonsterBean.getMonster().getAffinityList().size() == 1}">
+                        <div class="inline">Affinity:</div>
+                    </ui:fragment>
+                    <ui:fragment rendered="#{SDEMonsterBean.getMonster().getAffinityList().size() > 1}">
+                        <div class="inline">Affinities:</div>
+                    </ui:fragment>
+                    <ui:repeat var="x" value="#{SDEMonsterBean.getMonster().getAffinityList()}" size="#{SDEMonsterBean.getMonster().getAffinityList().size()}" varStatus="myVarStatus" >
+                        <ui:fragment rendered="#{SDEMonsterBean.getMonster().validateAffinityList()}">
+                            <div class="inline">
+                                <h:outputText value="#{x}" escape="false" />
+                            </div>
+                        </ui:fragment>
+                    </ui:repeat>
+                    <br/>
+                </div>
+            </ui:fragment>
+            <br/>
             
             <!-- List of Keywords -->
             <ui:fragment rendered="#{SDEMonsterBean.getMonster().validateKeywordList()}">
