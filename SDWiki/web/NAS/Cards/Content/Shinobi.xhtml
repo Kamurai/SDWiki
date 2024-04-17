@@ -75,27 +75,29 @@
                     <div>Range Description: #{NASShinobiBean.getShinobi().getRangeDescription()}</div>
                     <div>Defense: #{NASShinobiBean.getShinobi().getDefense()}</div>
                     <div>Koban: #{NASShinobiBean.getShinobi().getKoban()}</div>
-                    <div>Upkeep #{NASShinobiBean.getShinobi().getUpkeep()}</div>
+                    <div>Upkeep: #{NASShinobiBean.getShinobi().getUpkeep()}</div>
                 </div>
             </div>
             
             <!-- List of Affinities -->
             <ui:fragment rendered="#{NASShinobiBean.getShinobi().validateAffinityList()}">
-                <ui:fragment rendered="#{NASShinobiBean.getShinobi().getAffinities().size() == 1}">
-                    <div>Affinity:</div>
-                </ui:fragment>
-                <ui:fragment rendered="#{NASShinobiBean.getShinobi().getAffinities().size() > 1}">
-                    <div>Affinities:</div>
-                </ui:fragment>
-                
-                <ui:repeat var="x" value="#{NASShinobiBean.getShinobi().getAffinity()}" size="#{NASShinobiBean.getShinobi().getAffinities().size()}" varStatus="myVarStatus" >
-                    <ui:fragment rendered="#{x.validateAffinity()}">
-                        <div class="inline">
-                            <h:outputText value="#{NASShinobiBean.getShinobi().getAffinity()}" escape="false" />
-                        </div>
+                <div>
+                    <ui:fragment rendered="#{NASShinobiBean.getShinobi().getAffinityList().size() == 1}">
+                        <div>Affinity:</div>
                     </ui:fragment>
-                </ui:repeat>
-                <br/>
+                    <ui:fragment rendered="#{NASShinobiBean.getShinobi().getAffinityList().size() > 1}">
+                        <div>Affinities:</div>
+                    </ui:fragment>
+
+                    <ui:repeat var="x" value="#{NASShinobiBean.getShinobi().getAffinityList()}" size="#{NASShinobiBean.getShinobi().getAffinityList().size()}" varStatus="myVarStatus" >
+                        <ui:fragment rendered="#{NASShinobiBean.getShinobi().validateAffinityList()}">
+                            <div class="inline">
+                                <h:outputText value="#{x}" escape="false" />
+                            </div>
+                        </ui:fragment>
+                    </ui:repeat>
+                    <br/>
+                </div>
             </ui:fragment>
             <br/>
             
