@@ -11,17 +11,7 @@
         <h2>
             Rail Raiders Directory
         </h2>
-        <div>
-            <!-- #{RRIDirectoryBean.setStarted(true)} -->
-            <div>
-                <a href="../Index.xhtml" >Return to Top Level</a>
-            </div>
-            <ui:repeat var="y" value="#{RRIDirectoryBean.getLinkList()}" size="#{RRIDirectoryBean.getLinkList().size()}" varStatus="myVarStatus" >
-                <div>
-                    <a href="#{y}">#{y}</a>
-                </div>
-            </ui:repeat>
-        </div>
+        <iframe id="idDirectoryList" src="http://htkb.info/RRI/SDDirectory.php"></iframe>
     </h:body>
 </html>
 

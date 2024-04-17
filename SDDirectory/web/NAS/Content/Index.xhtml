@@ -11,17 +11,7 @@
         <h2>
             Ninja All-Stars Directory
         </h2>
-        <div>
-            <!-- #{NASDirectoryBean.setStarted(true)} -->
-            <div>
-                <a href="../Index.xhtml" >Return to Top Level</a>
-            </div>
-            <ui:repeat var="y" value="#{NASDirectoryBean.getLinkList()}" size="#{NASDirectoryBean.getLinkList().size()}" varStatus="myVarStatus" >
-                <div>
-                    <a href="#{y}">#{y}</a>
-                </div>
-            </ui:repeat>
-        </div>
+        <iframe id="idDirectoryList" src="http://htkb.info/NAS/SDDirectory.php"></iframe>
     </h:body>
 </html>
 

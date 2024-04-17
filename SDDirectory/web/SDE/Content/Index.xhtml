@@ -11,17 +11,7 @@
         <h2>
             Super Dungeon Explore Directory
         </h2>
-        <div>
-            <!-- #{SDEDirectoryBean.setStarted(true)} -->
-            <div>
-                <a href="../Index.xhtml" >Return to Top Level</a>
-            </div>
-            <ui:repeat var="y" value="#{SDEDirectoryBean.getLinkList()}" size="#{SDEDirectoryBean.getLinkList().size()}" varStatus="myVarStatus" >
-                <div>
-                    <a href="#{y}">#{y}</a>
-                </div>
-            </ui:repeat>
-        </div>
+        <iframe id="idDirectoryList" src="http://htkb.info/SDE/SDDirectory.php"></iframe>
     </h:body>
 </html>
 

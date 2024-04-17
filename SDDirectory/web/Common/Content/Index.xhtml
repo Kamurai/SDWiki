@@ -11,17 +11,7 @@
         <h2>
             HTKB Common Directory
         </h2>
-        <div>
-            <!-- #{CommonDirectoryBean.setStarted(true)} -->
-            <div>
-                <a href="../Index.xhtml" >Return to Top Level</a>
-            </div>
-            <ui:repeat var="y" value="#{CommonDirectoryBean.getLinkList()}" size="#{CommonDirectoryBean.getLinkList().size()}" varStatus="myVarStatus" >
-                <div>
-                    <a href="#{y}">#{y}</a>
-                </div>
-            </ui:repeat>
-        </div>
+        <iframe id="idDirectoryList" src="http://htkb.info/Common/SDDirectory.php"></iframe>
     </h:body>
 </html>
 
