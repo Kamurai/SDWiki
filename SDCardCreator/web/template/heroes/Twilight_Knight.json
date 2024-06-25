@@ -1,0 +1,51 @@
+{
+	"cardType": "hero",
+	"title": "Twilight Knight",
+	"subTitle": "Human Hero",
+	"move": "6",
+	"actions": "3",
+	"potions": "1",
+	"wounds": "5",
+	"keywordsList": "Feint, ",
+	"background": "forgotten-king.png",
+	"backgroundFlip": false,
+	"imageSource": "default",
+	"remoteAvatar": "",
+	"STR": "1SW 1B 1R",
+	"ARM": "2B SH",
+	"WILL": "3B",
+	"DEX": "3B SH",
+	"flavorText": "None know from where the Twilight Knights originate. Some whisper that they come from the Dark Realm itself, and that they are the last and only Heroes from that benighted realm. For their part, Twilight Knights reveal nothing. Appearing only when situations are at their most dire, they drive back the shadows only to disappear as silently as they arrived.",
+	"abilities": [{
+			"costType": "attack",
+			"cost": "1",
+			"name": "Piercing Blade",
+			"definition": "0SW, Lance 2"
+		}, {
+			"costType": "support",
+			"cost": "2",
+			"name": "Gloom Shatter",
+			"definition": "DANGEROUS, Aura 2, Reduce all offense rolls made in the aura by 1st. Twilight Knight is not affected by gloom shatter."
+		}, {
+			"costType": "supportPotion",
+			"cost": "1",
+			"name": "Lamplight",
+			"definition": "Wave 5, Destroy all traps and creeps."
+		}
+	],
+	"customKeywords": {
+		"Wave X": {
+			"description": "A Wave effect is centered<br>on the user’s square and<br>hits the user and every<br>model within X squares of<br>the user. Waves replace the<br>distance portion (X) of a<br>distance effect, but do not<br>replace any other aspect of<br>the ability.",
+			"version": "1",
+			"hasErrata": true,
+			"errata": [{
+					"version": 1,
+					"description": "A Wave effect is centered<br>on the user’s square and<br>hits the user and every<br>model within X squares of<br>the user. Waves replace the<br>distance portion (X) of a<br>distance effect, but do not<br>replace any other aspect of<br>the ability."
+				}
+			],
+			"displayBack": false,
+			"selectedVersion": "1"
+		}
+	},
+	"affinity": "EMERALD"
+}

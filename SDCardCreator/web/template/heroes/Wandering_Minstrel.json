@@ -1,0 +1,67 @@
+{
+	"cardType": "hero",
+	"title": "Wandering Minstrel",
+	"subTitle": "Elf Hero",
+	"move": "7",
+	"actions": "3",
+	"potions": "1",
+	"wounds": "5",
+	"keywordsList": "Feint, ",
+	"background": "fae_wood.jpg",
+	"backgroundFlip": false,
+	"imageSource": "default",
+	"remoteAvatar": "",
+	"STR": "1SW 1B 1R",
+	"ARM": "2B  SH",
+	"WILL": "3B",
+	"DEX": "2R SH",
+	"flavorText": "The Lunar Elves, like all Elves, are steeped in a tradition of music that glorifies the Goddess' song. Before the Dragon Call the summits of Dragonback Peaks would echo with their enchanting voices and melody. Now the noble Lunar Elf Poets and singers are little more than wandering minstrals, seeking to scrape out a meager living on the donations of those fortunate enough to hear their song.",
+	"abilities": [{
+			"costType": "support",
+			"cost": "1",
+			"name": "Jaunty Tune",
+			"definition": "Augment, Aura 2, +1B on all offensive rolls"
+		}, {
+			"costType": "support",
+			"cost": "1",
+			"name": "Lullaby",
+			"definition": "Wave 2, Slow"
+		}, {
+			"costType": "supportPotion",
+			"cost": "1",
+			"name": "Powdered Power Chord",
+			"definition": "Wave 3, Knockdown"
+		}
+	],
+	"customKeywords": {
+		"Wave X": {
+			"description": "A Wave effect is centered<br>on the user’s square and<br>hits the user and every<br>model within X squares of<br>the user. Waves replace the<br>distance portion (X) of a<br>distance effect, but do not<br>replace any other aspect of<br>the ability.",
+			"version": "1",
+			"hasErrata": true,
+			"errata": [{
+					"version": 1,
+					"description": "A Wave effect is centered<br>on the user’s square and<br>hits the user and every<br>model within X squares of<br>the user. Waves replace the<br>distance portion (X) of a<br>distance effect, but do not<br>replace any other aspect of<br>the ability."
+				}
+			],
+			"displayBack": false,
+			"selectedVersion": "1"
+		},
+		"Augment": {
+			"description": "Abilities with Augment may only target or affect friendly models that are hit, including the user.",
+			"version": "1",
+			"hasErrata": false,
+			"errata": [],
+			"displayBack": false,
+			"selectedVersion": "1"
+		},
+		"Aura X": {
+			"description": "An Aura effect follows the same rules as Wave X with one important difference -- Auras remain in play, centered on and moving with the user, until the beginning of their next activation.",
+			"version": "1",
+			"hasErrata": false,
+			"errata": [],
+			"displayBack": false,
+			"selectedVersion": "1"
+		}
+	},
+	"affinity": "CITRINEEMERALD"
+}

@@ -1,0 +1,193 @@
+@font-face {
+  font-family: 'Adelon';
+  font-style: normal;
+  src: url(font/AdelonBold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'AdelonItalic';
+  font-style: normal;
+  src: url(font/AdelonItalic.woff2) format('woff2');
+}
+
+html,body{
+	height:100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+a{
+color:blue;
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+svg{
+  vertical-align: middle;
+  fill:currentColor;
+}
+
+.inactive svg, svg.inactive{
+  opacity:0.4;
+}
+
+body{
+font-family:arial;
+padding:0px;
+margin:0px;
+background:#c0c0c0;
+}
+
+.page{
+  height:inherit;
+  background:#333;
+  margin-bottom:-5px;
+}
+
+/*pageHeader*/
+.pageHeader{
+  background:#333;
+  color:#fff;
+  padding-left:5px;
+}
+
+.pageHeader h1{
+display:inline-block;
+margin-bottom: 5px;
+margin-top:5px;
+vertical-align:middle;
+}
+
+.pageHeader a{
+background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+padding:3px;
+border-radius:2px;
+display:inline-block;
+margin: 0px 5px;
+border:1px solid #000;
+/*font-weight:bold;*/
+color:#000;
+}
+
+.pageHeader a:hover{
+border:1px solid #ccc;
+}
+
+.hamburger.menu{
+  padding:0;
+  height:100%;
+  min-width: 250px;
+  z-index:3;
+}
+
+a.hamburger {
+    float: none;
+    margin-right: 10px;
+}
+
+body.menuOpen .hamburger.menu {
+    display: block;
+    position: absolute;
+    top:0px;
+    right: 0;
+    z-index: 3;
+}
+
+.menu .subMenu{
+  display:none;
+  padding:5px;
+}
+
+.menu .subMenu .closeMenuButton{
+  float:right;
+  font-weight: bold;
+}
+
+.menu .subMenu.focus{
+  display:block;
+}
+
+.menu .subMenu .importFile{
+  width:203px;
+}
+
+.menu .subMenu .loadRawTextArea{
+  width: calc(100% - 10px);
+  height:100px;
+}
+
+.hamburger.menu .themeBlock a{
+  display:inline;
+}
+
+.hamburger.menu .fontFamilySelector{
+  width:80px;
+}
+
+.pageContent{
+  height:calc(100% - 50px);
+}
+
+.left, .right{
+display:inline-block;
+vertical-align:top;
+}
+
+
+.hero{
+display:block;
+}
+
+span.hero{
+display:inline;
+}
+
+.header a.shareButton{
+display:none;
+}
+
+
+
+@media print {
+
+	/*.card{
+	transform: scale(0.5,0.5);
+	}*/
+
+	/*@page {
+	margin: 0cm;
+	}*/
+
+	body{
+	margin:0;
+	}
+	.pageHeader{
+	display:none;
+	}
+
+	/*.pageFooter{
+	display:none;
+	}*/
+}
+
+.sdccBar {
+	display: inline;
+}
+
+.discordDiv {
+	display: inline;
+	float: right;
+	text-align: right;
+}
+
+.discordLink {
+	background: none;
+}
+
+.discordButton {
+	width: auto;
+	height: 40px;
+}

@@ -1,0 +1,35 @@
+.editorPane{
+  display:inline-block;
+  vertical-align:top;
+  background:orange;
+  height:100%;
+  width:290px;
+  overflow: auto;
+}
+
+.editorPane .controlContent.hide{
+  display:none;
+}
+
+.editorPane a{
+  color:#000;
+}
+
+.editorPane .toggleDisplay{
+  display:block;
+}
+
+.editorPane .displayArrow{
+  margin-right:3px;
+  transition: transform 0.3s ease-out;
+}
+
+.editorPane .displayArrow.inactive{
+  transform:rotate(-45deg);
+  transform-origin: center;
+}
+
+.editorPane .displayArrow.active{
+  transform:rotate(45deg);
+  transform-origin: top right;
+}
