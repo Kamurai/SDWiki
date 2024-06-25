@@ -6,8 +6,8 @@
 --Fire Breath Potion --CardIndex 2362 --EquipmentIndex 787
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2362, 
 'Fire Breath Potion',
-'http://htkb.info/SDE/2.0/Cards/Relics/Character/Card_Relic_Fire_Breath_Potion_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
+'http://htkb.info/ND/SDE/2.0/Cards/Relics/Character/Card_Relic_Fire_Breath_Potion_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Character/Fire_Breath_Potion.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'This elixir, consumed with ample amount of rum, allows the imbiber to shoot forth gouts of flame at their enemies, bathing them in an unholy inferno.'); 
@@ -19,8 +19,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (787, 1
 --Icy Armor Potion --CardIndex 2363 --EquipmentIndex 788
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2363, 
 'Icy Armor Potion',
-'http://htkb.info/SDE/2.0/Cards/Relics/Character/Card_Relic_Icy_Armor_Potion_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
+'http://htkb.info/ND/SDE/2.0/Cards/Relics/Character/Card_Relic_Icy_Armor_Potion_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Character/Icy_Armor_Potion.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'The side effects of this potion turn Captain Henry''s moustache to icicles, making him the envy of many an undead pirate.'); 
@@ -32,8 +32,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (788, 1
 --Invulnerability Potion --CardIndex 2364 --EquipmentIndex 789
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2364, 
 'Invulnerability Potion',
-'http://htkb.info/SDE/2.0/Cards/Relics/Character/Card_Relic_Invulnerability_Potion_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
+'http://htkb.info/ND/SDE/2.0/Cards/Relics/Character/Card_Relic_Invulnerability_Potion_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Character/Invulnerability_Potion.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'He plans to mock the Heroes, proclaim how they can never stop his plans, and likely monologue extensively about his diabolical scheme.'); 
@@ -45,8 +45,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (789, 1
 --Speed Potion --CardIndex 2365 --EquipmentIndex 790
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2365, 
 'Speed Potion',
-'http://htkb.info/SDE/2.0/Cards/Relics/Character/Card_Relic_Speed_Potion_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
+'http://htkb.info/ND/SDE/2.0/Cards/Relics/Character/Card_Relic_Speed_Potion_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Character/Speed_Potion.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'Few know better than a pirate the advantages of being faster than your opponent.  He also really likes that it leav those impressive spectral tracer images behind him as he moves.'); 

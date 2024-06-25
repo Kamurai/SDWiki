@@ -6,8 +6,8 @@
 --Green Dragon --Card Index 2318	--CharacterIndex 1166 --ExploreCharacterIndex 827
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2318, 
 'Green Dragon',
-'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Green_Dragon_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Green_Dragon_1.0_Custom_back.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Green_Dragon_1.0_Custom.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Green_Dragon_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/MiniBosses/Green_Dragon.xhtml', 
 'MiniBoss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
@@ -17,8 +17,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (827
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (827, 2177); --Chomp
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1166,
-'http://htkb.info/Common/Standies/Green_Dragon.png', 
-'http://htkb.info/Common/Standies/Green_Dragon_back.png', 
+'http://htkb.info/ND/Common/Standies/Green_Dragon.png', 
+'http://htkb.info/ND/Common/Standies/Green_Dragon_back.png', 
 'Either', 'Large', 'Dragon', 6, 3, '1B 2R', '3B', '2B', '2B', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (827, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (827, 2); --Armor
@@ -32,8 +32,8 @@ insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 --King Diamond --Card Index 2319	--CharacterIndex 1167 --ExploreCharacterIndex 828
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2319, 
 'King Diamond',
-'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_King_Diamond_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_King_Diamond_1.0_Custom_back.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_King_Diamond_1.0_Custom.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_King_Diamond_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/MiniBosses/King_Diamond.xhtml', 
 'MiniBoss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
@@ -46,8 +46,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (828
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (828, 2180); --Now You Don't
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1167,
-'http://htkb.info/Common/Standies/Impact_Miniatures/King_Diamond.png', 
-'http://htkb.info/Common/Standies/Impact_Miniatures/King_Diamond_back.png', 
+'http://htkb.info/ND/Common/Standies/Impact_Miniatures/King_Diamond.png', 
+'http://htkb.info/ND/Common/Standies/Impact_Miniatures/King_Diamond_back.png', 
 'Masculine', 'Small', 'Lich King', 5, 4, '1B', '3B', '2R', '2B', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (828, 0, 1); --Attack
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (828, 3, 6); --Will
@@ -62,8 +62,8 @@ insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 --Ralph --Card Index 2320	--CharacterIndex 1168 --ExploreCharacterIndex 829
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2320, 
 'Ralph',
-'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Ralph_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Ralph_1.0_Custom_back.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Ralph_1.0_Custom.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Ralph_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/MiniBosses/Ralph.xhtml', 
 'MiniBoss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
@@ -74,8 +74,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2182); --Strangle Hold
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1168,
-'http://htkb.info/Common/Standies/Impact_Miniatures/Ralph.png', 
-'http://htkb.info/Common/Standies/Impact_Miniatures/Ralph_back.png', 
+'http://htkb.info/ND/Common/Standies/Impact_Miniatures/Ralph.png', 
+'http://htkb.info/ND/Common/Standies/Impact_Miniatures/Ralph_back.png', 
 'Masculine', 'Large', 'Bugbear', 6, 3, '1ST 2R', '2R', '2B', '1R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (829, 0, 2); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (829, 2); --Armor
@@ -89,8 +89,8 @@ insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 --Star Guild Sapper --Card Index 2321	--CharacterIndex 1169 --ExploreCharacterIndex 830
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2321, 
 'Star Guild Sapper',
-'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Star_Guild_Sapper_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Star_Guild_Sapper_1.0_Custom_back.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Star_Guild_Sapper_1.0_Custom.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Star_Guild_Sapper_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/MiniBosses/Star_Guild_Sapper.xhtml', 
 'MiniBoss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
@@ -101,8 +101,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (830
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (830, 2184); --Boom
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1169,
-'http://htkb.info/SDE/Standies/Alternate/Star_Guild_Sapper.png', 
-'http://htkb.info/SDE/Standies/Alternate/Star_Guild_Sapper_back.png', 
+'http://htkb.info/ND/SDE/Standies/Alternate/Star_Guild_Sapper.png', 
+'http://htkb.info/ND/SDE/Standies/Alternate/Star_Guild_Sapper_back.png', 
 'Masculine', 'Small', 'Chaos Dwarf', 6, 3, '1ST 2B 1R', '1B 1R', '2B', '1R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (830, 0, 2); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (830, 2); --Armor
@@ -116,8 +116,8 @@ insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 --Wardude --Card Index 2322	--CharacterIndex 1170 --ExploreCharacterIndex 831
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2322, 
 'Wardude',
-'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Wardude_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Wardude_1.0_Custom_back.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Wardude_1.0_Custom.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Wardude_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/MiniBosses/Wardude.xhtml', 
 'MiniBoss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
@@ -129,8 +129,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (831
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (831, 2188); --Spoils of War
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1170,
-'http://htkb.info/Common/Standies/Impact_Miniatures/Wardude.png', 
-'http://htkb.info/Common/Standies/Impact_Miniatures/Wardude_back.png', 
+'http://htkb.info/ND/Common/Standies/Impact_Miniatures/Wardude.png', 
+'http://htkb.info/ND/Common/Standies/Impact_Miniatures/Wardude_back.png', 
 'Masculine', 'Small', 'Evil Fighter', 6, 4, '1G', '2R', '2B', '3B', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (831, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (831, 2); --Armor

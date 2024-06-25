@@ -5,8 +5,8 @@
 
 --Beatrix the Witch Queen     --CardIndex 432   --BossSpawnIndex 3  
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (432, 'Beatrix the Witch Queen', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_the_Witch_Queen_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_the_Witch_Queen_FK.png',
+'http://htkb.info/ND/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_the_Witch_Queen_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_the_Witch_Queen_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Beatrix_the_Witch_Queen.xhtml', 
 'Boss Spawn', 'FK', 'FK Core Set', 'Default',   
 '');
@@ -20,8 +20,8 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (3, 287
 
 --The Forgotten King --CardIndex 433   --BossSpawnIndex 4  
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (433, 'Forgotten King, The', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Forgotten_King_The_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Forgotten_King_The_FK.png',
+'http://htkb.info/ND/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Forgotten_King_The_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Forgotten_King_The_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Forgotten_King_The.xhtml', 
 'Boss Spawn', 'FK', 'FK Core Set', 'Default',   
 '');
@@ -35,8 +35,8 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (4, 288
 
 --Goro     --CardIndex 434   --BossSpawnIndex 5  
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (434, 'Goro', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Goro_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Goro_FK.png',
+'http://htkb.info/ND/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Goro_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Goro_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Goro.xhtml', 
 'Boss Spawn', 'FK', 'FK Core Set', 'Default',   
 '');
@@ -50,8 +50,8 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (5, 289
 
 --King Starfire     --CardIndex 435   --BossSpawnIndex 6  
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (435, 'King Starfire', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_King_Starfire_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_King_Starfire_FK.png',
+'http://htkb.info/ND/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_King_Starfire_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_King_Starfire_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/King_Starfire.xhtml', 
 'Boss Spawn', 'FK', 'FK Core Set', 'Default',   
 '');
@@ -65,8 +65,8 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (6, 290
 
 --Roxor  --CardIndex 436   --BossSpawnIndex 7  
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (436, 'Roxor', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Roxor_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Roxor_FK.png',
+'http://htkb.info/ND/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Roxor_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Roxor_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Roxor.xhtml', 
 'Boss Spawn', 'FK', 'FK Core Set', 'Default',   
 '');
@@ -84,8 +84,8 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (7, 295
 
 --Starfire     --CardIndex 437   --BossSpawnIndex 8  
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (437, 'Starfire', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_FK.png',
+'http://htkb.info/ND/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Starfire.xhtml', 
 'Boss Spawn', 'FK', 'FK Core Set', 'Default',   
 '');
@@ -99,8 +99,8 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (8, 296
 
 --Von Drakk     --CardIndex 438   --BossSpawnIndex 9  
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (438, 'Von Drakk', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Von_Drakk_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Von_Drakk_FK.png',
+'http://htkb.info/ND/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Von_Drakk_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Von_Drakk_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Von_Drakk.xhtml', 
 'Boss Spawn', 'FK', 'FK Core Set', 'Default',   
 '');

@@ -5,8 +5,8 @@
 
 --Abominable Snowman --CardIndex 762	--CharacterIndex 372	--ExploreCharacterIndex 267
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (762, 'Abominable Snowman', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Abominable_Snowman_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Abominable_Snowman_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Abominable_Snowman_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Abominable_Snowman_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Abominable_Snowman.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');
@@ -14,8 +14,8 @@ insert into Characters (CardIndex) VALUES (762);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (372, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (372, 
-'http://htkb.info/SDE/Standies/Abominable_Snowman.png', 
-'http://htkb.info/SDE/Standies/Abominable_Snowman_back.png',
+'http://htkb.info/ND/SDE/Standies/Abominable_Snowman.png', 
+'http://htkb.info/ND/SDE/Standies/Abominable_Snowman_back.png',
 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (267, 593); --Fixed Form
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (267, 672); --Immobile
@@ -32,8 +32,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Adzuki --CardIndex 763	--CharacterIndex 373	--ExploreCharacterIndex 268
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (763, 'Adzuki', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Adzuki_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Adzuki_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Adzuki_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Adzuki_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Adzuki.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Adzuki is a fierce warrior of the Inu clan. He is hot-headed and impulsive, but a brave fighter and loyal ally. As Momotaro passed through Inu territory on his quest to Devil Island, Adzuki challenged the traveling hero. When Momotaro proved his exceptional strength and dedication to eradicating evil, Adzuki happily joined him on his quest. An offer of free dumplings along the way just sweetened the deal.');
@@ -41,8 +41,8 @@ insert into Characters (CardIndex) VALUES (763);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (373, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (373, 
-'http://htkb.info/NAS/Standies/Adzuki.png', 
-'http://htkb.info/NAS/Standies/Adzuki_back.png',
+'http://htkb.info/ND/NAS/Standies/Adzuki.png', 
+'http://htkb.info/ND/NAS/Standies/Adzuki_back.png',
 'Either', 'Small', 'Chimera', 6, 3, '2R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (268, 728); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (268, 834); --Rampage
@@ -56,8 +56,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Akkorokamui --CardIndex 764	--CharacterIndex 374	--ExploreCharacterIndex 269
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (764, 'Akkorokamui', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Akkorokamui_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Akkorokamui_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Akkorokamui_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Akkorokamui_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Akkorokamui.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Akkorokamui is numbered among the most successful pirates ever to haunt Kagejima''s waters, and has turned over vast amounts of valuable goods and vital information to the Moon Court during his long career. He has also kept no small portion for himself.');
@@ -65,8 +65,8 @@ insert into Characters (CardIndex) VALUES (764);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (374, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (374, 
-'http://htkb.info/NAS/Standies/Akkorokamui.png', 
-'http://htkb.info/NAS/Standies/Akkorokamui_back.png',
+'http://htkb.info/ND/NAS/Standies/Akkorokamui.png', 
+'http://htkb.info/ND/NAS/Standies/Akkorokamui_back.png',
 'Either', 'Small', 'Ika', 6, 3, '3B', '2R', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (269, 533); --Deadly Defense
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (269, 708); --Knockdown
@@ -80,8 +80,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Alberdus --CardIndex 765	--CharacterIndex 375	--ExploreCharacterIndex 270
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (765, 'Alberdus', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Alberdus_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Alberdus_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Alberdus_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Alberdus_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Alberdus.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Alberdus receives no end of teasing from his fellow fighters about how he plays the Dark Centurion in Super Dungeon. How obvious for the mighty Grecian champion to play a Grecian themed Hero!? Alberdus doesn''t care. He knows he looks waaaaaay awesome, and the other fighters are just jealous.');
@@ -89,8 +89,8 @@ insert into Characters (CardIndex) VALUES (765);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (375, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (375, 
-'http://htkb.info/SDE/Standies/WOTF/Alberdus.png', 
-'http://htkb.info/SDE/Standies/WOTF/Alberdus_back.png',
+'http://htkb.info/ND/SDE/Standies/WOTF/Alberdus.png', 
+'http://htkb.info/ND/SDE/Standies/WOTF/Alberdus_back.png',
 'Masculine', 'Small', 'Dark Celestian Hero', 7, 3, '2B 1R', '2R', '1B 1R', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (270, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (270, 674); --Immune: Fire
@@ -103,8 +103,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Angry Bear --CardIndex 766	--CharacterIndex 376	--ExploreCharacterIndex 271
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (766, 'Angry Bear', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Angry_Bear_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Angry_Bear_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Angry_Bear_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Angry_Bear_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Angry_Bear.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Skilled druids can assume the form of many different woodland creatures, both large and small. The form of a raging Totem Ursos--a mighty bear-like creature filled with nature''s wrath--is a particular favorite for those who must face the Dark Consul''s minions in battle.');
@@ -113,8 +113,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (376, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (376, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (376, 
-'http://htkb.info/SDE/Standies/Angry_Bear.png', 
-'http://htkb.info/SDE/Standies/Angry_Bear_back.png',
+'http://htkb.info/ND/SDE/Standies/Angry_Bear.png', 
+'http://htkb.info/ND/SDE/Standies/Angry_Bear_back.png',
 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '2R', '1B 1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (271, 457); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (271, 649); --Hex
@@ -129,8 +129,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Apprentice Mage --CardIndex 767	--CharacterIndex 377	--ExploreCharacterIndex 272
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (767, 'Apprentice Mage', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Apprentice_Mage_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Apprentice_Mage_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Apprentice_Mage_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Apprentice_Mage_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Apprentice_Mage.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '"Adorable? No doubt. Defenseless? That''s pushing it."');
@@ -139,8 +139,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (377, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (377, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (377, 
-'http://htkb.info/RRI/Standies/Apprentice_The.png', 
-'http://htkb.info/RRI/Standies/Apprentice_The_back.png',
+'http://htkb.info/ND/RRI/Standies/Apprentice_The.png', 
+'http://htkb.info/ND/RRI/Standies/Apprentice_The_back.png',
 'Either', 'Small', 'Misfit', 5, 3, '1B', '3B', '3B 2R', '2B', 3, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (272, 545); --Defenseless
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (272, 643); --Healer
@@ -154,8 +154,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Apprentice Swordmage --CardIndex 768	--CharacterIndex 378	--ExploreCharacterIndex 273
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (768, 'Apprentice Swordmage', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Apprentice_Swordmage_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Apprentice_Swordmage_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Apprentice_Swordmage_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Apprentice_Swordmage_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Apprentice_Swordmage.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The Swordmages of Arcadia are an ancient tradition founded before the Dark Consul''s rise, when the realm was governed by The Council of Knowledge. Promising young apprentices began their training in early childhood, mastering the fusion of magic, swordplay, and learning. Despite the Dark Consul''s best efforts, the swordmages survived the fall of Arcadia. Though scattered, they still protect peace and knowledge thoroughout the realms.');
@@ -163,8 +163,8 @@ insert into Characters (CardIndex) VALUES (768);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (378, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (378, 
-'http://htkb.info/RRI/Standies/Swordmage_Acolyte.png', 
-'http://htkb.info/RRI/Standies/Swordmage_Acolyte_back.png',
+'http://htkb.info/ND/RRI/Standies/Swordmage_Acolyte.png', 
+'http://htkb.info/ND/RRI/Standies/Swordmage_Acolyte_back.png',
 'Feminine', 'Small', 'Tonnerian', 6, 3, '3B', '3B', '2B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (273, 1007); --Steady
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (273, 1035); --Double Slice
@@ -177,8 +177,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Arashikage --CardIndex 769	--CharacterIndex 379	--ExploreCharacterIndex 274
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (769, 'Arashikage', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Arashikage_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Arashikage_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Arashikage_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Arashikage_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Arashikage.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '"I can kill him, yes, but only if you tell me what I need to know."');
@@ -186,8 +186,8 @@ insert into Characters (CardIndex) VALUES (769);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (379, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (379, 
-'http://htkb.info/NAS/Standies/Arashikage.png', 
-'http://htkb.info/NAS/Standies/Arashikage_back.png',
+'http://htkb.info/ND/NAS/Standies/Arashikage.png', 
+'http://htkb.info/ND/NAS/Standies/Arashikage_back.png',
 'Either', 'Small', 'Human', 7, 3, '2B 1R', '3B', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (274, 451); --Backstabber
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (274, 518); --Counterstrike
@@ -201,8 +201,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Armored Bear --CardIndex 770	--CharacterIndex 380	--ExploreCharacterIndex 275
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (770, 'Armored Bear', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Armored_Bear_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Armored_Bear_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Armored_Bear_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Armored_Bear_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Armored_Bear.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Making the change from being a Werecursed knight to being a Werebear has never sat well with those it possesses. The beast pushes to the fore and the rational being that is changed, pushed to the back. All that is remembered when the Were takes hold is a fleeting feeling, like after a dream, remembering only the din of battle, followed by a strong urge to brush one''s teeth.');
@@ -210,8 +210,8 @@ insert into Characters (CardIndex) VALUES (770);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (380, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (380, 
-'http://htkb.info/SDE/Standies/Armored_Bear.png', 
-'http://htkb.info/SDE/Standies/Armored_Bear_back.png',
+'http://htkb.info/ND/SDE/Standies/Armored_Bear.png', 
+'http://htkb.info/ND/SDE/Standies/Armored_Bear_back.png',
 'Either', 'Large', 'Shapeshift', 5, 3, '3R', '2B 1R', '1B', '2B', 7, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (275, 533); --Deadly Defense
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (275, 593); --Fixed Form
@@ -227,8 +227,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 --Attila --CardIndex 771	--CharacterIndex 381	--ExploreCharacterIndex 276
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (771, 
 'Attila', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Attila_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Attila_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Attila_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Attila_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Attila.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');
@@ -236,8 +236,8 @@ insert into Characters (CardIndex) VALUES (771);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (381, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (381, 
-'http://htkb.info/SDE/Standies/SOTC/Attila.png', 
-'http://htkb.info/SDE/Standies/SOTC/Attila_back.png',
+'http://htkb.info/ND/SDE/Standies/SOTC/Attila.png', 
+'http://htkb.info/ND/SDE/Standies/SOTC/Attila_back.png',
 'Either', 'Large', 'Construct', 6, 3, '2B', '2R', '2B', '2R', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (276, 681); --Immune: Status Effects
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (276, 1743); --SSW4200P Gatling
@@ -249,8 +249,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Aubnar Buttonbjorn --CardIndex 772	--CharacterIndex 382	--ExploreCharacterIndex 277
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (772, 'Aubnar Buttonbjorn', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Aubnar_Buttonbjorn_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Aubnar_Buttonbjorn_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Aubnar_Buttonbjorn_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Aubnar_Buttonbjorn_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Aubnar_Buttonbjorn.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Heroes travel from far and wide for the privilege of purchasing a single garment tailored by the renowned Aubnar Buttonbjorn. A cunning craftsman, Aubnar weaves ancient dwarven magic into every stitch. It is said that a Hero garbed in a complete wardrobe crafted by Aubnar needs no other protection.');
@@ -258,8 +258,8 @@ insert into Characters (CardIndex) VALUES (772);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (382, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (382, 
-'http://htkb.info/SDE/Standies/NPC/Aubnar_Buttonbjorn.png', 
-'http://htkb.info/SDE/Standies/NPC/Aubnar_Buttonbjorn_back.png',
+'http://htkb.info/ND/SDE/Standies/NPC/Aubnar_Buttonbjorn.png', 
+'http://htkb.info/ND/SDE/Standies/NPC/Aubnar_Buttonbjorn_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '2B', '2B', '3B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (277, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (277, 643); --Healer
@@ -275,8 +275,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Aurelia --CardIndex 773	--CharacterIndex 383	--ExploreCharacterIndex 278
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (773, 'Aurelia', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Aurelia_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Aurelia_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Aurelia_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Aurelia_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Aurelia.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Even when playing her favorite game, Aurelia requires speed, grace, and unpredictability. These aspects are perfectly captured by Nyan-Nyan, her favorite Super Dungeon Hero.');
@@ -284,8 +284,8 @@ insert into Characters (CardIndex) VALUES (773);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (383, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (383, 
-'http://htkb.info/SDE/Standies/WOTF/Aurelia.png', 
-'http://htkb.info/SDE/Standies/WOTF/Aurelia_back.png',
+'http://htkb.info/ND/SDE/Standies/WOTF/Aurelia.png', 
+'http://htkb.info/ND/SDE/Standies/WOTF/Aurelia_back.png',
 'Feminine', 'Small', 'Human', 7, 3, '3B', '2B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (278, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (278, 668); --Ice
@@ -300,8 +300,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Bakusho Mondai --CardIndex 774	--CharacterIndex 384	--ExploreCharacterIndex 279
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (774, 'Bakusho Mondai', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bakusho_Mondai_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bakusho_Mondai_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Bakusho_Mondai_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Bakusho_Mondai_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Bakusho_Mondai.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Bakusho Mondai''s gregarious nature and boisterous personality made him a natural master of festivals and celebrations. For the right price, he is eager to join adventuring parties and lend his dance-kata and fireworks, exquisitely choreographed to the thumping rhythm of taiko drums.');
@@ -309,8 +309,8 @@ insert into Characters (CardIndex) VALUES (774);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (384, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (384, 
-'http://htkb.info/NAS/Standies/Bakusho_Mondai.png', 
-'http://htkb.info/NAS/Standies/Bakusho_Mondai_back.png',
+'http://htkb.info/ND/NAS/Standies/Bakusho_Mondai.png', 
+'http://htkb.info/ND/NAS/Standies/Bakusho_Mondai_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '3B', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (279, 894); --Sidestep
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (279, 1040); --Tough
@@ -322,8 +322,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Bang-Bang --CardIndex 775	--CharacterIndex 385	--ExploreCharacterIndex 280
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (775, 'Bang-Bang', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bang_Bang_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bang_Bang_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Bang_Bang_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Bang_Bang_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Bang_Bang.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'When Bang-Bang made a Super Dungeon character, she wanted to try something different. She played everything from mage to paladin, but it never felt right. Finally she settled on a pair of trusty flintlocks. They weren''t so different from what she used every day, but she knew how to use them. And at least she had a wide selection of costumes. Most recently she has been rocking the witch hunter look to annoy Tahariel.');
@@ -331,8 +331,8 @@ insert into Characters (CardIndex) VALUES (775);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (385, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (385, 
-'http://htkb.info/SDE/Standies/Bang_Bang.png', 
-'http://htkb.info/SDE/Standies/Bang_Bang_back.png',
+'http://htkb.info/ND/SDE/Standies/Bang_Bang.png', 
+'http://htkb.info/ND/SDE/Standies/Bang_Bang_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '3B', '3B', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (280, 729); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (280, 642); --Heal X
@@ -348,8 +348,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Benkei --CardIndex 776	--CharacterIndex 386	--ExploreCharacterIndex 281
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (776, 'Benkei', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Benkei_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Benkei_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Benkei_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Benkei_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Benkei.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Devotion to duty is a hallmark of many on Kagejima. For Benkei, devotion to duty is a defining characteristic. While his martial skill serves him well, it is his utter devotion to the Moon Throne that imparts his famous strength and fearlessness. They say that the gods could not move Benkei when he takes a stand in the Princess''s name.');
@@ -357,8 +357,8 @@ insert into Characters (CardIndex) VALUES (776);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (386, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (386, 
-'http://htkb.info/NAS/Standies/Benkei.png', 
-'http://htkb.info/NAS/Standies/Benkei_back.png',
+'http://htkb.info/ND/NAS/Standies/Benkei.png', 
+'http://htkb.info/ND/NAS/Standies/Benkei_back.png',
 'Masculine', 'Small', 'Human', 5, 3, '3B', '2R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (281, 482); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (281, 684); --Improved Critical
@@ -372,8 +372,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Black Knight --CardIndex 777	--CharacterIndex 387	--ExploreCharacterIndex 282
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (777, 'Black Knight', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Black_Knight_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Black_Knight_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Black_Knight_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Black_Knight_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Black_Knight.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');
@@ -382,8 +382,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (387, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (387, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (387, 
-'http://htkb.info/SDE/Standies/Monach_Tvar.png', 
-'http://htkb.info/SDE/Standies/Monach_Tvar_back.png',
+'http://htkb.info/ND/SDE/Standies/Monach_Tvar.png', 
+'http://htkb.info/ND/SDE/Standies/Monach_Tvar_back.png',
 'Masculine', 'Small', 'Nether Elf', 6, 3, '2R', '2B 1R', '3B', '3R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (282, 428); --Ambush
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (282, 451); --Backstabber
@@ -400,8 +400,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Black Snow --CardIndex 778	--CharacterIndex 388	--ExploreCharacterIndex 283
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (778, 'Black Snow', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Black_Snow_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Black_Snow_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Black_Snow_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Black_Snow_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Black_Snow.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Wandering the frozen expanses of Frostbyte Reach the outcast noble, Black Snow, watches for signs of the return of the Lich King. He hopes to one day end his watch and return to a life of peace and warmth. He wonders if he will succe3ed, on this... he knows nothing.');
@@ -409,8 +409,8 @@ insert into Characters (CardIndex) VALUES (778);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (388, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (388, 
-'http://htkb.info/SDE/Standies/Black_Snow.png', 
-'http://htkb.info/SDE/Standies/Black_Snow_back.png',
+'http://htkb.info/ND/SDE/Standies/Black_Snow.png', 
+'http://htkb.info/ND/SDE/Standies/Black_Snow_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (283, 461); --Black Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (283, 642); --Heal X
@@ -424,8 +424,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Blaze --CardIndex 779	--CharacterIndex 389	--ExploreCharacterIndex 284
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (779, 'Blaze', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blaze_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blaze_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Blaze_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Blaze_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Blaze.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The soul of the mage reflects the magic they are able to harness, and the shape of the power they manifest. Ember Mages are quick to anger, and wield terrible blasts of fire and brimstone. This fury is often balanced by bold and outgoing personalities that draw many to the bright glow of their charisma. Their destructive magic is highly sought after by adventuring parties willing to take the risk.');
@@ -434,8 +434,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (389, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (389, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (389, 
-'http://htkb.info/SDE/Standies/Novel/Blaze.png', 
-'http://htkb.info/SDE/Standies/Novel/Blaze_back.png',
+'http://htkb.info/ND/SDE/Standies/Novel/Blaze.png', 
+'http://htkb.info/ND/SDE/Standies/Novel/Blaze_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (284, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (284, 642); --Heal X
@@ -449,8 +449,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Blazing Soul Hanzo --CardIndex 780	--CharacterIndex 390	--ExploreCharacterIndex 285
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (780, 'Blazing Soul Hanzo', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blazing_Soul_Hanzo_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blazing_Soul_Hanzo_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Blazing_Soul_Hanzo_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Blazing_Soul_Hanzo_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Blazing_Soul_Hanzo.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '"The mastery of fire is to be considered for all who wish to dominate in battle. To fight such a warrior, is as fighting a raging inferno. To even raise your head to look at the fire will burn you."');
@@ -458,8 +458,8 @@ insert into Characters (CardIndex) VALUES (780);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (390, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (390, 
-'http://htkb.info/NAS/Standies/Blazing_Soul_Hanzo.png', 
-'http://htkb.info/NAS/Standies/Blazing_Soul_Hanzo_back.png',
+'http://htkb.info/ND/NAS/Standies/Blazing_Soul_Hanzo.png', 
+'http://htkb.info/ND/NAS/Standies/Blazing_Soul_Hanzo_back.png',
 'Either', 'Small', 'Human', 6, 3, '1B 1G', '3B', '2B 1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (285, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (285, 752); --Mastery
@@ -473,8 +473,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Blind Swordsman --CardIndex 781	--CharacterIndex 391	--ExploreCharacterIndex 286
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (781, 'Blind Swordsman', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blind_Swordsman_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blind_Swordsman_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Blind_Swordsman_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Blind_Swordsman_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Blind_Swordsman.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '"Why don''t you put that sword away before I am required to show you how to use it?"');
@@ -482,8 +482,8 @@ insert into Characters (CardIndex) VALUES (781);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (391, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (391, 
-'http://htkb.info/NAS/Standies/Blind_Swordsman.png', 
-'http://htkb.info/NAS/Standies/Blind_Swordsman_back.png',
+'http://htkb.info/ND/NAS/Standies/Blind_Swordsman.png', 
+'http://htkb.info/ND/NAS/Standies/Blind_Swordsman_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (286, 584); --Feint
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (286, 689); --Insight
@@ -497,8 +497,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Blizzard Wizard --CardIndex 782	--CharacterIndex 392	--ExploreCharacterIndex 287
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (782, 'Blizzard Wizzard', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blizzard_Wizard_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blizzard_Wizard_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Blizzard_Wizard_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Blizzard_Wizard_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Blizzard_Wizard.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Ah, it is cold today my friend. Please, come warm yourself by my fire. What fire? Why this one right here? Oh dear, it appears to have gone cold. No bother, we shall shift to ourt true forms and be nice and toasty! You cannot shift, you say? That is most unfortunate. I suppose you will freeze then. A most unpleasant turn of affairs if I do say so. -- Recollections of a frostbitten freyjan');
@@ -506,8 +506,8 @@ insert into Characters (CardIndex) VALUES (782);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (392, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (392, 
-'http://htkb.info/SDE/Standies/Blizzard_Wizard.png', 
-'http://htkb.info/SDE/Standies/Blizzard_Wizard_back.png',
+'http://htkb.info/ND/SDE/Standies/Blizzard_Wizard.png', 
+'http://htkb.info/ND/SDE/Standies/Blizzard_Wizard_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '1B 3B', '2R', '3B', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (287, 668); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (287, 709); --Knockdown
@@ -519,8 +519,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Bomb-Blast Prophet --CardIndex 783	--CharacterIndex 393	--ExploreCharacterIndex 288
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (783, 'Bomb-Blast Prophet', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bomb_Blast_Prophet_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bomb_Blast_Prophet_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Bomb_Blast_Prophet_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Bomb_Blast_Prophet_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Bomb_Blast_Prophet.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 ''); --!! unavailable !!
@@ -528,8 +528,8 @@ insert into Characters (CardIndex) VALUES (783);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (393, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (393, 
-'http://htkb.info/SDE/Standies/Charmancer.png', 
-'http://htkb.info/SDE/Standies/Charmancer_back.png',
+'http://htkb.info/ND/SDE/Standies/Charmancer.png', 
+'http://htkb.info/ND/SDE/Standies/Charmancer_back.png',
 'Neither', 'Large', 'Orc', 6, 3, '3B', '3B', '2R', '2B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (288, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (288, 685); --Improved Critical
@@ -544,8 +544,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Brinebreaker Aesir --CardIndex 784	--CharacterIndex 394	--ExploreCharacterIndex 289
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (784, 'Brinebreaker Aesir', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Brinebreaker_Aesir_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Brinebreaker_Aesir_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Brinebreaker_Aesir_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Brinebreaker_Aesir_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Brinebreaker_Aesir.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Brinebreaker Aesir are some of the most skilled of dwarven fighters. But their skill lies not solely in their own prowess, though they have plenty, their ferocity and command exalts all the other dwarves around them to heightened feats of combat. To be elevated to Aesir a dwarf must show both martial skill and leadership.');
@@ -553,8 +553,8 @@ insert into Characters (CardIndex) VALUES (784);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (394, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (394, 
-'http://htkb.info/SDE/Standies/Brinebreaker_Aesir.png', 
-'http://htkb.info/SDE/Standies/Brinebreaker_Aesir_back.png',
+'http://htkb.info/ND/SDE/Standies/Brinebreaker_Aesir.png', 
+'http://htkb.info/ND/SDE/Standies/Brinebreaker_Aesir_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '2R', '3B', '2B', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (289, 482); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (289, 676); --Immune: Ice
@@ -570,8 +570,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Brinebreaker Skathi --CardIndex 785	--CharacterIndex 395	--ExploreCharacterIndex 290
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (785, 'Brinebreaker Skathi', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Brinebreaker_Skathi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Brinebreaker_Skathi_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Brinebreaker_Skathi_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Brinebreaker_Skathi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Brinebreaker_Skathi.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Brinebreaker Skathi are rugged explorers and scouts. To be elevated to the ranks of the Skathi is an honor many young dwarves aspire to, but few can achieve. Independent and heroic to a fault, Skathi will brave unimaginable terrors and the most inhospitable of climes in service of hearth and home.');
@@ -579,8 +579,8 @@ insert into Characters (CardIndex) VALUES (785);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (395, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (395, 
-'http://htkb.info/SDE/Standies/Brinebreaker_Skathi.png', 
-'http://htkb.info/SDE/Standies/Brinebreaker_Skathi_back.png',
+'http://htkb.info/ND/SDE/Standies/Brinebreaker_Skathi.png', 
+'http://htkb.info/ND/SDE/Standies/Brinebreaker_Skathi_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '3B', '2R', '2B', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (290, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (290, 668); --Ice
@@ -596,8 +596,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Burke Badhammer --CardIndex 786	--CharacterIndex 396	--ExploreCharacterIndex 291
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (786, 'Burke Badhammer', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Burke_Badhammer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Burke_Badhammer_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Burke_Badhammer_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Burke_Badhammer_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Burke_Badhammer.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Burke Badhammer, was apprenticed to dwarven smiths as a boy, and learned to forge items of exquisite quality. Seeking more, he sought out and eventually earned the trust of the mysterious Enchanter. Together, the two have forged some of the most legendary magical weapons and armor in all of Crystalia.');
@@ -605,8 +605,8 @@ insert into Characters (CardIndex) VALUES (786);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (396, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (396, 
-'http://htkb.info/SDE/Standies/NPC/Burke_Badhammer.png', 
-'http://htkb.info/SDE/Standies/NPC/Burke_Badhammer_back.png',
+'http://htkb.info/ND/SDE/Standies/NPC/Burke_Badhammer.png', 
+'http://htkb.info/ND/SDE/Standies/NPC/Burke_Badhammer_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (291, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (291, 678); --Immune: Knockdown
@@ -622,8 +622,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Byakko --CardIndex 787	--CharacterIndex 397	--ExploreCharacterIndex 292
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (787, 'Byakko', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Byakko_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Byakko_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Byakko_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Byakko_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Byakko.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'I am not touched or blessed by the White Tiger. I am the White Tiger!');
@@ -631,8 +631,8 @@ insert into Characters (CardIndex) VALUES (787);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (397, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (397, 
-'http://htkb.info/NAS/Standies/Byakko.png', 
-'http://htkb.info/NAS/Standies/Byakko_back.png',
+'http://htkb.info/ND/NAS/Standies/Byakko.png', 
+'http://htkb.info/ND/NAS/Standies/Byakko_back.png',
 'Masculine', 'Small', 'Tora', 6, 3, '3B', '3B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (292, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (292, 838); --Ravage
@@ -645,8 +645,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Candy, Lady of the Heart --CardIndex 788	--CharacterIndex 398	--ExploreCharacterIndex 293
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (788, 'Candy, Lady of the Heart', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Candy_Lady_of_the_Heart_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Candy_Lady_of_the_Heart_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Candy_Lady_of_the_Heart_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Candy_Lady_of_the_Heart_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Candy_Lady_of_the_Heart.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Candy has sought the tuttleage of the renownded healer and all-around sweetheart Princess Ruby.  Under Ruby''s expert guidance, Candy is learning the art of taking, breaking, and healing hearts.');
@@ -654,8 +654,8 @@ insert into Characters (CardIndex) VALUES (788);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (398, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (398, 
-'http://htkb.info/SDE/Standies/Candy_Lady_of_the_Heart.png', 
-'http://htkb.info/SDE/Standies/Candy_Lady_of_the_Heart_back.png',
+'http://htkb.info/ND/SDE/Standies/Candy_Lady_of_the_Heart.png', 
+'http://htkb.info/ND/SDE/Standies/Candy_Lady_of_the_Heart_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (293, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (293, 455); --Bane
@@ -673,8 +673,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Candy, Mistress of Darkness --CardIndex 789	--CharacterIndex 399	--ExploreCharacterIndex 294
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (789, 'Candy, Mistress of Darkness', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Candy_Mistress_of_Darkness_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Candy_Mistress_of_Darkness_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Candy_Mistress_of_Darkness_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Candy_Mistress_of_Darkness_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Candy_Mistress_of_Darkness.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '"What? It''s not like I''m trying to distract the boys and ghouls, I''m just naturally perky."');
@@ -682,8 +682,8 @@ insert into Characters (CardIndex) VALUES (789);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (399, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (399, 
-'http://htkb.info/SDE/Standies/Candy_Mistress_of_Darkness.png', 
-'http://htkb.info/SDE/Standies/Candy_Mistress_of_Darkness_back.png',
+'http://htkb.info/ND/SDE/Standies/Candy_Mistress_of_Darkness.png', 
+'http://htkb.info/ND/SDE/Standies/Candy_Mistress_of_Darkness_back.png',
 'Feminine', 'Small', 'Human', 5, 3, '2B', '3B', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (294, 530); --Dark Radiance
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (294, 547); --Despair
@@ -696,8 +696,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Captain of the Guard --CardIndex 790	--CharacterIndex 400	--ExploreCharacterIndex 295
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (790, 'Captain of the Guard', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Captain_of_the_Guard_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Captain_of_the_Guard_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Captain_of_the_Guard_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Captain_of_the_Guard_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Captain_of_the_Guard.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Captains are ranking members of the Crown Guard, tasked with overseeing their brothers-in-arms and protecting the citizenry of Crystalia from the predations of the Dark Consul''s minions.');
@@ -705,8 +705,8 @@ insert into Characters (CardIndex) VALUES (790);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (400, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (400, 
-'http://htkb.info/SDE/Standies/Ser_Elmer.png', 
-'http://htkb.info/SDE/Standies/Ser_Elmer_back.png',
+'http://htkb.info/ND/SDE/Standies/Ser_Elmer.png', 
+'http://htkb.info/ND/SDE/Standies/Ser_Elmer_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (295, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (295, 543); --Defender
@@ -719,8 +719,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Casanova Cola --CardIndex 791	--CharacterIndex 401	--ExploreCharacterIndex 296
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (791, 'Casanova Cola', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Casanova_Cola_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Casanova_Cola_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Casanova_Cola_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Casanova_Cola_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Casanova_Cola.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 ''); --!! unavailable !!
@@ -728,8 +728,8 @@ insert into Characters (CardIndex) VALUES (791);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (401, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (401, 
-'http://htkb.info/SDE/Standies/Casanova_Cola.png', 
-'http://htkb.info/SDE/Standies/Casanova_Cola_back.png',
+'http://htkb.info/ND/SDE/Standies/Casanova_Cola.png', 
+'http://htkb.info/ND/SDE/Standies/Casanova_Cola_back.png',
 'Either', 'Small', 'Kitsune', 6, 3, '2B', '2R', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (296, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (296, 642); --Heal 
@@ -744,8 +744,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Cat Burglar --CardIndex 792	--CharacterIndex 402	--ExploreCharacterIndex 297
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (792, 'Cat Burglar', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Cat_Burglar.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');
@@ -753,8 +753,8 @@ insert into Characters (CardIndex) VALUES (792);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (402, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (402, 
-'http://htkb.info/SDE/Standies/Cat_Burglar.png', 
-'http://htkb.info/SDE/Standies/Cat_Burglar_back.png',
+'http://htkb.info/ND/SDE/Standies/Cat_Burglar.png', 
+'http://htkb.info/ND/SDE/Standies/Cat_Burglar_back.png',
 'Feminine', 'Small', 'Freyjan', 7, 3, '3B', '3B', '2B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (297, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (297, 642); --Heal X
@@ -773,8 +773,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Cat Burglar (Beta) --CardIndex 793	--CharacterIndex 403	--ExploreCharacterIndex 298
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (793, 'Cat Burglar (Beta)', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_beta_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_beta_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_beta_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_beta_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Cat_Burglar_beta.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');
@@ -782,8 +782,8 @@ insert into Characters (CardIndex) VALUES (793);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (403, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (403, 
-'http://htkb.info/SDE/Standies/Cat_Burglar.png', 
-'http://htkb.info/SDE/Standies/Cat_Burglar_back.png',
+'http://htkb.info/ND/SDE/Standies/Cat_Burglar.png', 
+'http://htkb.info/ND/SDE/Standies/Cat_Burglar_back.png',
 'Feminine', 'Small', 'Freyjan', 7, 3, '3B', '3B', '2B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (298, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (298, 807); --Poison
@@ -829,8 +829,8 @@ VALUES (405,
 
 --Celebration Candy --CardIndex 796	--CharacterIndex 406	--ExploreCharacterIndex 301
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (796, 'Celebration Candy', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celebration_Candy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celebration_Candy_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Celebration_Candy_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Celebration_Candy_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Celebration_Candy.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Join Candy and Cola in celebrating their 10th Anniversary! Soda Pop Miniatures would like to thank all of our incredible fans, old and new, who have joined us on our adventures!');
@@ -838,8 +838,8 @@ insert into Characters (CardIndex) VALUES (796);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (406, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (406, 
-'http://htkb.info/SDE/Standies/Celebration_Candy.png', 
-'http://htkb.info/SDE/Standies/Celebration_Candy_back.png',
+'http://htkb.info/ND/SDE/Standies/Celebration_Candy.png', 
+'http://htkb.info/ND/SDE/Standies/Celebration_Candy_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (301, 425); --Alchemy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (301, 642); --Heal X
@@ -855,8 +855,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Celestial Healer --CardIndex 797	--CharacterIndex 407	--ExploreCharacterIndex 302
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (797, 'Celestial Healer', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestial_Healer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestial_Healer_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Celestial_Healer_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Celestial_Healer_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Celestial_Healer.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The Celestial Healers trace their origins before even the founding of the Temple of Light, and claim to be the first disciples of the Goddess. Dedicated to using divine grace to heal wounds and cure disease, many Celestial Healers take strict vows of peace, swearing to only guard and preserve life. A Celestial Healer''s vow should never be taken as a sign of weakness; though they never throw the first stone, they know how to finish a fight.');
@@ -864,8 +864,8 @@ insert into Characters (CardIndex) VALUES (797);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (407, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (407, 
-'http://htkb.info/SDE/Standies/Celestial_Healer.png', 
-'http://htkb.info/SDE/Standies/Celestial_Healer_back.png',
+'http://htkb.info/ND/SDE/Standies/Celestial_Healer.png', 
+'http://htkb.info/ND/SDE/Standies/Celestial_Healer_back.png',
 'Feminine', 'Small', 'Centaur', 7, 3, '2B', '3B', '2B', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (302, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (302, 678); --Immune: Knockdown
@@ -895,8 +895,8 @@ VALUES (408,
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 799, 
 'Celestian Purifier v1', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestian_Purifier_v1_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestian_Purifier_v1_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Celestian_Purifier_v1_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Celestian_Purifier_v1_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Celestian_Purifier_v1.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The Dark Consul''s near destruction of Celestia also left the realm deeply corrupted by amethyst magic. Nearly overwhelmed, the Celestians fight against constant monstrous incursions to push back the darkness. As areas are cleared of threat, specialized priests known as Purifiers then consecrate the land so that it can be reclaimed by the Light and flourish once again.');
@@ -904,8 +904,8 @@ insert into Characters (CardIndex) VALUES (799);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (409, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (409, 
-'http://htkb.info/SDE/Standies/Celestian_Purifier.png', 
-'http://htkb.info/SDE/Standies/Celestian_Purifier_back.png',
+'http://htkb.info/ND/SDE/Standies/Celestian_Purifier.png', 
+'http://htkb.info/ND/SDE/Standies/Celestian_Purifier_back.png',
 'Feminine', 'Small', 'Celestian', 7, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (304, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (304, 728); --Massive Damage
@@ -919,8 +919,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Chuy --CardIndex 800	--CharacterIndex 410	--ExploreCharacterIndex 305
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (800, 'Chuy', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Chuy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Chuy_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Chuy_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Chuy_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Chuy.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '"That''s not a toy."');
@@ -928,8 +928,8 @@ insert into Characters (CardIndex) VALUES (800);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (410, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (410, 
-'http://htkb.info/RRI/Standies/Chuy.png', 
-'http://htkb.info/RRI/Standies/Chuy_back.png',
+'http://htkb.info/ND/RRI/Standies/Chuy.png', 
+'http://htkb.info/ND/RRI/Standies/Chuy_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2B 1R', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (305, 437); --Arc
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (305, 588); --Fire
@@ -944,8 +944,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Claw Tribe Barbarian (feminine) --CardIndex 801	--CharacterIndex 411	--ExploreCharacterIndex 306
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (801, 'Claw Tribe Barbarian', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Claw_Tribe_Barbarian_feminine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Claw_Tribe_Barbarian_feminine_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Claw_Tribe_Barbarian_feminine_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Claw_Tribe_Barbarian_feminine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Claw_Tribe_Barbarian_feminine.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Born of fire and hardship, Claw Tribe Barbarians live within the gnarled forests that dot the valleys of the Dragonback Peaks. Predations from monsters are constant and the food provided by the fiery landscape is meager at best. It is no wonder that many take to wandering.');
@@ -953,8 +953,8 @@ insert into Characters (CardIndex) VALUES (801);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (411, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (411, 
-'http://htkb.info/SDE/Standies/Claw_Tribe_Barbarian_feminine.png', 
-'http://htkb.info/SDE/Standies/Claw_Tribe_Barbarian_feminine_back.png',
+'http://htkb.info/ND/SDE/Standies/Claw_Tribe_Barbarian_feminine.png', 
+'http://htkb.info/ND/SDE/Standies/Claw_Tribe_Barbarian_feminine_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (306, 457); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (306, 534); --Deadly Defense
@@ -966,8 +966,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Claw Tribe Barbarian (masculine) --CardIndex 802	--CharacterIndex 412	--ExploreCharacterIndex 307
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (802, 'Claw Tribe Barbarian', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Claw_Tribe_Barbarian_masculine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Claw_Tribe_Barbarian_masculine_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Claw_Tribe_Barbarian_masculine_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Claw_Tribe_Barbarian_masculine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Claw_Tribe_Barbarian_masculine.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Born of fire and hardship, Claw Tribe Barbarians live within the gnarled forests that dot the valleys of the Dragonback Peaks. Predations from monsters are constant and the food provided by the fiery landscape is meager at best. It is no wonder that many take to wandering.');
@@ -975,8 +975,8 @@ insert into Characters (CardIndex) VALUES (802);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (412, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (412, 
-'http://htkb.info/SDE/Standies/AltGendered/Claw_Tribe_Barbarian_masculine.png', 
-'http://htkb.info/SDE/Standies/AltGendered/Claw_Tribe_Barbarian_masculine_back.png',
+'http://htkb.info/ND/SDE/Standies/AltGendered/Claw_Tribe_Barbarian_masculine.png', 
+'http://htkb.info/ND/SDE/Standies/AltGendered/Claw_Tribe_Barbarian_masculine_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (307, 457); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (307, 534); --Deadly Defense
@@ -988,8 +988,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Clockwork Contraption --CardIndex 803	--CharacterIndex 413	--ExploreCharacterIndex 308
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (803, 'Clockwork Contraption', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Clockwork_Contraption_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Clockwork_Contraption_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Clockwork_Contraption_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Clockwork_Contraption_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Clockwork_Contraption.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The gnomes of Clockwork Cove originally designed Clockwork Contraptions to do construction work that was too dangerous for those not made entirely of metal. As the complexity of their assignments increased, their logic engines were infused with more power until they became self-aware. Once they started forming a union and demanding fair wages, the gnomes largely set them free. Some have since armed themselves and become adventurers in their own right.');
@@ -997,8 +997,8 @@ insert into Characters (CardIndex) VALUES (803);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (413, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (413, 
-'http://htkb.info/SDE/Standies/Clockwork_Contraption.png', 
-'http://htkb.info/SDE/Standies/Clockwork_Contraption_back.png',
+'http://htkb.info/ND/SDE/Standies/Clockwork_Contraption.png', 
+'http://htkb.info/ND/SDE/Standies/Clockwork_Contraption_back.png',
 'Other', 'Small', 'Construct', 5, 3, '2R', '3B', '2B', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (308, 608); --Fortify
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (308, 728); --Massive Damage
@@ -1012,8 +1012,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Cog War Reaver --CardIndex 804	--CharacterIndex 414	--ExploreCharacterIndex 309
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (804, 'Cog War Reaver', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cog_War_Reaver_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cog_War_Reaver_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Cog_War_Reaver_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Cog_War_Reaver_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Cog_War_Reaver.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');--!! unavailable !!
@@ -1021,8 +1021,8 @@ insert into Characters (CardIndex) VALUES (804);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (414, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (414, 
-'http://htkb.info/SDE/Standies/Ugluk_the_Mechanically_Inclined.png', 
-'http://htkb.info/SDE/Standies/Ugluk_the_Mechanically_Inclined_back.png',
+'http://htkb.info/ND/SDE/Standies/Ugluk_the_Mechanically_Inclined.png', 
+'http://htkb.info/ND/SDE/Standies/Ugluk_the_Mechanically_Inclined_back.png',
 'Neither', 'Large', 'Orc', 6, 3, '3B', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (309, 483); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (309, 507); --Coghammer
@@ -1037,8 +1037,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Crook-Eye Tracker --CardIndex 805	--CharacterIndex 415	--ExploreCharacterIndex 310
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (805, 'Crook-Eye Tracker', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Crook_Eye_Tracker_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Crook_Eye_Tracker_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Crook_Eye_Tracker_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Crook_Eye_Tracker_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Crook_Eye_Tracker.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Not all orcs descend into violent madness. The tribe known as the Crook-Eye are hunters and trackers without equal. Their deeply spiritual society seeks to live in harmony with all of creation, both Light and Dark. Crook-Eye Trackers are highly sought after by merchants or Heroes to lead them safely through treacherous areas.');
@@ -1047,8 +1047,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (415, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (415, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (415, 
-'http://htkb.info/SDE/Standies/Blood_Eye.png', 
-'http://htkb.info/SDE/Standies/Blood_Eye_back.png',
+'http://htkb.info/ND/SDE/Standies/Blood_Eye.png', 
+'http://htkb.info/ND/SDE/Standies/Blood_Eye_back.png',
 'Masculine', 'Large', 'Orc', 6, 3, '3B', '3B', '1B 1R', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (310, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (310, 679); --Immune: Poison
@@ -1064,8 +1064,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Crystal Shaper --CardIndex 806	--CharacterIndex 416	--ExploreCharacterIndex 311
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (806, 'Crystal Shaper', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Crystal_Shaper_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Crystal_Shaper_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Crystal_Shaper_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Crystal_Shaper_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Crystal_Shaper.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'In The Time Before, when only the Starlight Sea swirled within the cosmos, crystals were born in the etherium. Concentrated bits of arcana, emotion, and directionless will, the Goddess paired their primordial energy with her own to form Crystalia. Shapers tap into the Dark Realm to warp and reform crystals'' energies. While this can unlock incredible potential, it can also be easily abused.');
@@ -1073,8 +1073,8 @@ insert into Characters (CardIndex) VALUES (806);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (416, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (416, 
-'http://htkb.info/SDE/Standies/Crystal_Shaper.png', 
-'http://htkb.info/SDE/Standies/Crystal_Shaper_back.png',
+'http://htkb.info/ND/SDE/Standies/Crystal_Shaper.png', 
+'http://htkb.info/ND/SDE/Standies/Crystal_Shaper_back.png',
 'Feminine', 'Small', 'Elf Witch', 7, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (311, 522); --Crystal Shaping
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (311, 672); --Immobile
@@ -1086,8 +1086,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Deeproot Druid (feminine) --CardIndex 807	--CharacterIndex 417	--ExploreCharacterIndex 312
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (807, 'Deeproot Druid', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deeproot_Druid_feminine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deeproot_Druid_feminine_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Deeproot_Druid_feminine_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Deeproot_Druid_feminine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Deeproot_Druid_feminine.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Sacred guardians of the Deeproot Tree, druids are fierce defenders of their revered realm. Powerful wielders of magic, and masters of both natural poisons and the healing arts, druids are cunning adversaries. Many can even assume animal forms when doing battle. Often when all else has failed, animal rage can overcome.');
@@ -1096,8 +1096,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (417, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (417, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (417, 
-'http://htkb.info/SDE/Standies/AltGendered/Deeproot_Druid_feminine.png', 
-'http://htkb.info/SDE/Standies/AltGendered/Deeproot_Druid_feminine_back.png',
+'http://htkb.info/ND/SDE/Standies/AltGendered/Deeproot_Druid_feminine.png', 
+'http://htkb.info/ND/SDE/Standies/AltGendered/Deeproot_Druid_feminine_back.png',
 'Feminine', 'Small', 'Half-Elf', 7, 3, '3B', '1B 1R', '3B', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (312, 447); --Backlash
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (312, 643); --Healer
@@ -1114,8 +1114,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Deeproot Druid (masculine) --CardIndex 808	--CharacterIndex 418	--ExploreCharacterIndex 313
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (808, 'Deeproot Druid', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deeproot_Druid_masculine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deeproot_Druid_masculine_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Deeproot_Druid_masculine_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Deeproot_Druid_masculine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Deeproot_Druid_masculine.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Sacred guardians of the Deeproot Tree, druids are fierce defenders of their revered realm. Powerful wielders of magic, and masters of both natural poisons and the healing arts, druids are cunning adversaries. Many can even assume animal forms when doing battle. Often when all else has failed, animal rage can overcome.');
@@ -1124,8 +1124,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (418, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (418, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (418, 
-'http://htkb.info/SDE/Standies/Deeproot_Druid_masculine.png', 
-'http://htkb.info/SDE/Standies/Deeproot_Druid_masculine_back.png',
+'http://htkb.info/ND/SDE/Standies/Deeproot_Druid_masculine.png', 
+'http://htkb.info/ND/SDE/Standies/Deeproot_Druid_masculine_back.png',
 'Masculine', 'Small', 'Half-Elf', 7, 3, '3B', '1B 1R', '3B', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (313, 447); --Backlash
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (313, 643); --Healer
@@ -1142,8 +1142,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Deodric The Drunk --CardIndex 809	--CharacterIndex 419	--ExploreCharacterIndex 314
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (809, 'Deodric The Drunk', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deodric_the_Drunk_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deodric_the_Drunk_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Deodric_the_Drunk_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Deodric_the_Drunk_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Deodric_the_Drunk.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'A jovial dwarf who has lived long and seen far too much, Deodric seeks nothing more than to enjoy his twilight years in the company of his dearest friends. Quick to laugh and eager to share stories of adventure (or mugs of frothy soda), Deodric is a welcome sight at taverns throughout Crystalia.');
@@ -1151,8 +1151,8 @@ insert into Characters (CardIndex) VALUES (809);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (419, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (419, 
-'http://htkb.info/SDE/Standies/NPC/Deodric_the_Drunk.png', 
-'http://htkb.info/SDE/Standies/NPC/Deodric_the_Drunk_back.png',
+'http://htkb.info/ND/SDE/Standies/NPC/Deodric_the_Drunk.png', 
+'http://htkb.info/ND/SDE/Standies/NPC/Deodric_the_Drunk_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '2B', '3B', '2R', '1B 1R', 5, 3);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (314, 435); --Another Round
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (314, 681); --Immune: Status Effects
@@ -1166,8 +1166,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Duskweaver --CardIndex 810	--CharacterIndex 420	--ExploreCharacterIndex 315
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (810, 'Duskweaver', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Duskweaver_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Duskweaver_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Duskweaver_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Duskweaver_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Duskweaver.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Duskweavers are not to be trusted, for their souls are utterly devoted to the will of the Dark Consul. However, Duskweavers are granted a surprising amount of autonomy to implement the Dark Consul''s designs. This will occasionally lead to a confluence of purpose, where a Duskweaver finds its plans furthered through Heroic alliance. Yet, it is only truly desperate Heroes who form such a pact.');
@@ -1176,8 +1176,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (420, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (420, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (420, 
-'http://htkb.info/SDE/Standies/Arachne.png', 
-'http://htkb.info/SDE/Standies/Arachne_back.png',
+'http://htkb.info/ND/SDE/Standies/Arachne.png', 
+'http://htkb.info/ND/SDE/Standies/Arachne_back.png',
 'Feminine', 'Small', 'Nether Elf Spider', 8, 3, '2B 1R', '2R', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (315, 672); --Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (315, 679); --Immune: Poison
@@ -1192,8 +1192,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --D'Shaun --CardIndex 811	--CharacterIndex 421	--ExploreCharacterIndex 316
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (811, 'D''Shaun', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_D_Shaun_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_D_Shaun_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_D_Shaun_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_D_Shaun_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/D_Shaun.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Growing up D''Shaun was an unabashed pirate fan. Every halloween costume was a pirate and every school report detailed his newest favorite cutthroat of the high seas. As the Cursed Captain, D''Shaun continues his obsession in his favorite video game.');
@@ -1202,8 +1202,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (421, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (421, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (421, 
-'http://htkb.info/SDE/Standies/WOTF/D_Shaun.png', 
-'http://htkb.info/SDE/Standies/WOTF/D_Shaun_back.png',
+'http://htkb.info/ND/SDE/Standies/WOTF/D_Shaun.png', 
+'http://htkb.info/ND/SDE/Standies/WOTF/D_Shaun_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '1B 1R', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (316, 673); --Immune: Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (316, 679); --Immune: Poison
@@ -1216,8 +1216,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 --Edward Murdoch --CardIndex 812	--CharacterIndex 422	--ExploreCharacterIndex 317
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (812, 
 'Edward Murdoch', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Edward_Murdoch_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Edward_Murdoch_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Edward_Murdoch_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Edward_Murdoch_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Edward_Murdoch.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');
@@ -1226,8 +1226,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (422, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (422, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (422, 
-'http://htkb.info/SDE/Standies/SOTC/Edward_Murdoch.png', 
-'http://htkb.info/SDE/Standies/SOTC/Edward_Murdoch_back.png',
+'http://htkb.info/ND/SDE/Standies/SOTC/Edward_Murdoch.png', 
+'http://htkb.info/ND/SDE/Standies/SOTC/Edward_Murdoch_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B', '2R', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (317, 684); --Improved Critical
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (317, 724); --Mark
@@ -1242,8 +1242,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --El Falcon --CardIndex 813	--CharacterIndex 423	--ExploreCharacterIndex 318
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (813, 'El Falcon', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_El_Falcon_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_El_Falcon_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_El_Falcon_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_El_Falcon_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/El_Falcon.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'In lucha libre El Falcon is known for his incredible aerial work. The rush of those few precious seconds as he leaps off the top rope are exhilarating, and there is always a brief moment where he closes his eyes and pretends he is flying. Playing as the Celestial Herald isn''t really flying, but El Falcon loves the increaed movement and versatility it brings, as well as those super cool wings!');
@@ -1252,8 +1252,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (423, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (423, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (423, 
-'http://htkb.info/SDE/Standies/WOTF/El_Falcon.png', 
-'http://htkb.info/SDE/Standies/WOTF/El_Falcon_back.png',
+'http://htkb.info/ND/SDE/Standies/WOTF/El_Falcon.png', 
+'http://htkb.info/ND/SDE/Standies/WOTF/El_Falcon_back.png',
 'Masculine', 'Small', 'Celestian', 7, 3, '2B', '1B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (318, 657); --Hookshot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (318, 678); --Immune: Knockdown
@@ -1267,8 +1267,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Ember Mage (feminine) --CardIndex 814	--CharacterIndex 424	--ExploreCharacterIndex 319
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (814, 'Ember Mage', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ember_Mage_feminine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ember_Mage_feminine_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Ember_Mage_feminine_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Ember_Mage_feminine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ember_Mage_feminine.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The soul of the mage reflects the magic they are able to harness, and the shape of the power they manifest. Ember Mages are quick to anger, and wield terrible blasts of fire and brimstone. This fury is often balanced by bold and outgoing personalities that draw many to the bright glow of their charisma. Their destructive magic is highly sought after by adventuring parties willing to take the risk.');
@@ -1277,8 +1277,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (424, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (424, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (424, 
-'http://htkb.info/SDE/Standies/Ember_Mage_feminine.png', 
-'http://htkb.info/SDE/Standies/Ember_Mage_feminine_back.png',
+'http://htkb.info/ND/SDE/Standies/Ember_Mage_feminine.png', 
+'http://htkb.info/ND/SDE/Standies/Ember_Mage_feminine_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (319, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (319, 642); --Heal X
@@ -1292,8 +1292,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Ember Mage (masculine)  --CardIndex 815	--CharacterIndex 425	--ExploreCharacterIndex 320
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (815, 'Ember Mage', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ember_Mage_masculine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ember_Mage_masculine_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Ember_Mage_masculine_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Ember_Mage_masculine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ember_Mage_masculine.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The soul of the mage reflects the magic they are able to harness, and the shape of the power they manifest. Ember Mages are quick to anger, and wield terrible blasts of fire and brimstone. This fury is often balanced by bold and outgoing personalities that draw many to the bright glow of their charisma. Their destructive magic is highly sought after by adventuring parties willing to take the risk.');
@@ -1302,8 +1302,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (425, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (425, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (425, 
-'http://htkb.info/SDE/Standies/AltGendered/Ember_Mage_masculine.png', 
-'http://htkb.info/SDE/Standies/AltGendered/Ember_Mage_masculine_back.png',
+'http://htkb.info/ND/SDE/Standies/AltGendered/Ember_Mage_masculine.png', 
+'http://htkb.info/ND/SDE/Standies/AltGendered/Ember_Mage_masculine_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (320, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (320, 642); --Heal X
@@ -1317,8 +1317,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Faris --CardIndex 816	--CharacterIndex 426	--ExploreCharacterIndex 321
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (816, 'Faris', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Faris_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Faris_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Faris_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Faris_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Faris.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Dedicated to bringing the killer of his uncle to justice, Faris has developed the skills of a hunter. Always patient, a master of tracking, and unerring once the prey is in his sites--all traits shared by the renowned Princess Emerald.');
@@ -1326,8 +1326,8 @@ insert into Characters (CardIndex) VALUES (816);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (426, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (426, 
-'http://htkb.info/SDE/Standies/Faris.png', 
-'http://htkb.info/SDE/Standies/Faris_back.png',
+'http://htkb.info/ND/SDE/Standies/Faris.png', 
+'http://htkb.info/ND/SDE/Standies/Faris_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B', '3B', '1B 1R', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (321, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (321, 642); --Heal X
@@ -1342,8 +1342,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Fed-Up Farmer --CardIndex 817	--CharacterIndex 427	--ExploreCharacterIndex 322
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (817, 'Fed-Up Farmer', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Fed_Up_Farmer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Fed_Up_Farmer_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Fed_Up_Farmer_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Fed_Up_Farmer_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Fed_Up_Farmer.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '"I don''t know nothin'' ''bout bein'' no fancy city Hero from Crystalia Castle. I may be just a simple mouse farmer, but I know this: I''m sick and tired o'' these Goddess-durned monsters traipsing all over my land! I''ve had enough! Hand me my pitchfork, sonny. It''s time to show these city-folk how it''s done..."');
@@ -1351,8 +1351,8 @@ insert into Characters (CardIndex) VALUES (817);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (427, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (427, 
-'http://htkb.info/SDE/Standies/Fed_Up_Farmer.png', 
-'http://htkb.info/SDE/Standies/Fed_Up_Farmer_back.png',
+'http://htkb.info/ND/SDE/Standies/Fed_Up_Farmer.png', 
+'http://htkb.info/ND/SDE/Standies/Fed_Up_Farmer_back.png',
 'Either', 'Small', 'Freyjan', 7, 3, '3B', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (322, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (322, 642); --Heal X
@@ -1365,8 +1365,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Formless Hanzo --CardIndex 818	--CharacterIndex 428	--ExploreCharacterIndex 323
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (818, 'Formless Hanzo', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Formless_Hanzo_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Formless_Hanzo_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Formless_Hanzo_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Formless_Hanzo_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Formless_Hanzo.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '"Be water, my friend."');
@@ -1374,8 +1374,8 @@ insert into Characters (CardIndex) VALUES (818);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (428, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (428, 
-'http://htkb.info/NAS/Standies/Formless_Hanzo.png', 
-'http://htkb.info/NAS/Standies/Formless_Hanzo_back.png',
+'http://htkb.info/ND/NAS/Standies/Formless_Hanzo.png', 
+'http://htkb.info/ND/NAS/Standies/Formless_Hanzo_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (323, 674); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (323, 607); --Formless
@@ -1390,8 +1390,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Fortune Hunter --CardIndex 819	--CharacterIndex 429	--ExploreCharacterIndex 324
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (819, 'Fortune Hunter', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Fortune_Hunter_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Fortune_Hunter_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Fortune_Hunter_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Fortune_Hunter_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Fortune_Hunter.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The adventurers of Crystalia are all motivated by their own reasons. Some face the dangers of the Dark Consul to bring the light of the Goddess to all corners of the world, some do it to help the less fortunate, some do it for glory. And, of course, some do it for treasure. Fortune Hunters fight for the Goddess, but they have a knack for getting rich while doing so.');
@@ -1399,8 +1399,8 @@ insert into Characters (CardIndex) VALUES (819);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (429, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (429, 
-'http://htkb.info/SDE/Standies/Fortune_Hunter.png', 
-'http://htkb.info/SDE/Standies/Fortune_Hunter_back.png',
+'http://htkb.info/ND/SDE/Standies/Fortune_Hunter.png', 
+'http://htkb.info/ND/SDE/Standies/Fortune_Hunter_back.png',
 'Feminine', 'Small', 'Dwarf', 6, 3, '2B', '3B', '3B', '2R', 6, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (324, 482); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (324, 678); --Immune: Knockdown
@@ -1415,8 +1415,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Freyjan Beastmaster --CardIndex 820	--CharacterIndex 430	--ExploreCharacterIndex 325
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (820, 'Freyjan Beastmaster', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Freyjan_Beastmaster.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '"Get ''em, Mr. Fluffs!"');
@@ -1424,8 +1424,8 @@ insert into Characters (CardIndex) VALUES (820);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (430, 3); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (430, 
-'http://htkb.info/SDE/Standies/Freyjan_Beastmaster.png', 
-'http://htkb.info/SDE/Standies/Freyjan_Beastmaster_back.png',
+'http://htkb.info/ND/SDE/Standies/Freyjan_Beastmaster.png', 
+'http://htkb.info/ND/SDE/Standies/Freyjan_Beastmaster_back.png',
 'Either', 'Small', 'Freyjan', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (325, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (325, 455); --Bane
@@ -1440,8 +1440,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Freyjan Beastmaster (Errata) --CardIndex 821	--CharacterIndex 431	--ExploreCharacterIndex 326
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (821, 'Freyjan Beastmaster (Errata)', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_errata_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_errata_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_errata_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_errata_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Freyjan_Beastmaster_errata.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '"Get ''em, Mr. Fluffs!"');
@@ -1449,8 +1449,8 @@ insert into Characters (CardIndex) VALUES (821);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (431, 3); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (431, 
-'http://htkb.info/SDE/Standies/Freyjan_Beastmaster.png', 
-'http://htkb.info/SDE/Standies/Freyjan_Beastmaster_back.png',
+'http://htkb.info/ND/SDE/Standies/Freyjan_Beastmaster.png', 
+'http://htkb.info/ND/SDE/Standies/Freyjan_Beastmaster_back.png',
 'Either', 'Small', 'Freyjan', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (326, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (326, 455); --Bane
@@ -1465,8 +1465,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Frozen Queen --CardIndex 822	--CharacterIndex 432	--ExploreCharacterIndex 327
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (822, 'Frozen Queen', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Frozen_Queen_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Frozen_Queen_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Frozen_Queen_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Frozen_Queen_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Frozen_Queen.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Most believe the Frozen Queen is not truly evil despite her frequent conflicts with the Heroes of Crystalia. Indeed, the Frozen Queen has been known to assist Heroes in dire times of need. What prompts this assistance none can say.');
@@ -1474,8 +1474,8 @@ insert into Characters (CardIndex) VALUES (822);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (432, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (432, 
-'http://htkb.info/SDE/Standies/Frozen_Queen.png', 
-'http://htkb.info/SDE/Standies/Frozen_Queen_back.png',
+'http://htkb.info/ND/SDE/Standies/Frozen_Queen.png', 
+'http://htkb.info/ND/SDE/Standies/Frozen_Queen_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (327, 668); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (327, 672); --Immobile
@@ -1492,8 +1492,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Glimmerdusk Ranger (feminine) --CardIndex 823	--CharacterIndex 433	--ExploreCharacterIndex 328
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (823, 'Glimmerdusk Ranger', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Glimmerdusk_Ranger_feminine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Glimmerdusk_Ranger_feminine_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Glimmerdusk_Ranger_feminine_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Glimmerdusk_Ranger_feminine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Glimmerdusk_Ranger_feminine.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Deadly archers, the Glimmerdusk Rangers patrol the edges of the Fae Wood hunting any foolish enough to enter uninvited. With the rise of the Dark Consul, and the Nether Rifts advancing into their lands, the rangers have begun to venture from their woodland realm. They offer their considerable skill to any who will take the fight to the Dark Consul.');
@@ -1501,8 +1501,8 @@ insert into Characters (CardIndex) VALUES (823);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (433, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (433, 
-'http://htkb.info/SDE/Standies/Glimmerdusk_Ranger_feminine.png', 
-'http://htkb.info/SDE/Standies/Glimmerdusk_Ranger_feminine_back.png',
+'http://htkb.info/ND/SDE/Standies/Glimmerdusk_Ranger_feminine.png', 
+'http://htkb.info/ND/SDE/Standies/Glimmerdusk_Ranger_feminine_back.png',
 'Feminine', 'Small', 'Elf', 7, 3, '1B 1R', '3B', '2B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (328, 847); --Remedy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (328, 1009); --Stealth
@@ -1518,8 +1518,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Glimmerdusk Ranger (masculine) --CardIndex 824	--CharacterIndex 434	--ExploreCharacterIndex 329
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (824, 'Glimmerdusk Ranger', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Glimmerdusk_Ranger_masculine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Glimmerdusk_Ranger_masculine_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Glimmerdusk_Ranger_masculine_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Glimmerdusk_Ranger_masculine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Glimmerdusk_Ranger_masculine.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Deadly archers, the Glimmerdusk Rangers patrol the edges of the Fae Wood hunting any foolish enough to enter uninvited. With the rise of the Dark Consul, and the Nether Rifts advancing into their lands, the rangers have begun to venture from their woodland realm. They offer their considerable skill to any who will take the fight to the Dark Consul.');
@@ -1527,8 +1527,8 @@ insert into Characters (CardIndex) VALUES (824);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (434, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (434, 
-'http://htkb.info/SDE/Standies/AltGendered/Glimmerdusk_Ranger_masculine.png', 
-'http://htkb.info/SDE/Standies/AltGendered/Glimmerdusk_Ranger_masculine_back.png',
+'http://htkb.info/ND/SDE/Standies/AltGendered/Glimmerdusk_Ranger_masculine.png', 
+'http://htkb.info/ND/SDE/Standies/AltGendered/Glimmerdusk_Ranger_masculine_back.png',
 'Masculine', 'Small', 'Elf', 7, 3, '1B 1R', '3B', '2B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (329, 847); --Remedy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (329, 1009); --Stealth
@@ -1544,8 +1544,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Gloomborn Champion --CardIndex 825	--CharacterIndex 435	--ExploreCharacterIndex 330
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (825, 'Gloomborn Champion', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Gloomborn_Champion_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Gloomborn_Champion_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Gloomborn_Champion_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Gloomborn_Champion_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Gloomborn_Champion.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'While most necromancers sever the intellect from their creations, a few risen are allowed to retain their knowledge and even personalities. Typically this is so they can serve as lieutenants, mages, or fulfill other skilled necessities in the necromancer''s plan. Occasionally this backfires, and a Gloomborn Champion is born. Former Heroes, Gloomborn Champions fight free of the necromancer''s control and escape their enslavement.');
@@ -1553,8 +1553,8 @@ insert into Characters (CardIndex) VALUES (825);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (435, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (435, 
-'http://htkb.info/SDE/Standies/Gloomborn_Champion.png', 
-'http://htkb.info/SDE/Standies/Gloomborn_Champion_back.png',
+'http://htkb.info/ND/SDE/Standies/Gloomborn_Champion.png', 
+'http://htkb.info/ND/SDE/Standies/Gloomborn_Champion_back.png',
 'Either', 'Small', 'Undead Human', 6, 3, '2R', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (330, 514); --Corpse Stench
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (330, 681); --Immune: Status Effects
@@ -1567,8 +1567,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Goemon --CardIndex 826	--CharacterIndex 436	--ExploreCharacterIndex 331
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (826, 'Goemon', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Goemon_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Goemon_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Goemon_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Goemon_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Goemon.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '"Oh, ho, what''s this? A fat man with a fat purse; my favorite kind of stranger."');
@@ -1576,8 +1576,8 @@ insert into Characters (CardIndex) VALUES (826);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (436, 3); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (436, 
-'http://htkb.info/NAS/Standies/Goemon.png', 
-'http://htkb.info/NAS/Standies/Goemon_back.png',
+'http://htkb.info/ND/NAS/Standies/Goemon.png', 
+'http://htkb.info/ND/NAS/Standies/Goemon_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (331, 642); --Heal
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (331, 718); --Luck
@@ -1592,8 +1592,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Gork	--CardIndex--CardIndex 827	--CharacterIndex 437	--ExploreCharacterIndex 332
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (827, 'Gork', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Gork_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Gork_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Gork_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Gork_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Gork.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Resilient and unflinching in the face of combat, the Hearthsworn Dwarves are warriors without peer. Able to withstand injury that would fell any of the lesser races, the Hearthsworn cleave through their adversaries bellowing insults and challenges to any foolish enough to face them.');
@@ -1602,8 +1602,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (437, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (437, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (437, 
-'http://htkb.info/SDE/Standies/Novel/Gork.png', 
-'http://htkb.info/SDE/Standies/Novel/Gork_back.png',
+'http://htkb.info/ND/SDE/Standies/Novel/Gork.png', 
+'http://htkb.info/ND/SDE/Standies/Novel/Gork_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '2B 1R', '2R', '2B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (332, 678); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (332, 679); --Immune: Poison
@@ -1615,8 +1615,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Gully Gawk --CardIndex 828	--CharacterIndex 438	--ExploreCharacterIndex 333
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (828, 'Gully Gawk', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Gully_Gawk_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Gully_Gawk_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Gully_Gawk_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Gully_Gawk_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Gully_Gawk.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Before the Krampus devours someone who has spent the year doing no good, he likes to turn them into a Naughtie. Each Naughtie seems to have its own personality. A misbehaving hero transformed into Gully Gawk will find themselves with an urge to hide in gullies and steal cow''s milk.');
@@ -1624,8 +1624,8 @@ insert into Characters (CardIndex) VALUES (828);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (438, 3); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (438, 
-'http://htkb.info/SDE/Standies/Gully_Gawk.png', 
-'http://htkb.info/SDE/Standies/Gully_Gawk_back.png',
+'http://htkb.info/ND/SDE/Standies/Gully_Gawk.png', 
+'http://htkb.info/ND/SDE/Standies/Gully_Gawk_back.png',
 'Either', 'Large', 'Shapeshift', 5, 3, '2B', '1B', '2B', '2B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (333, 593); --Fixed Form
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (333, 1092); --Fearsome Cry
@@ -1638,8 +1638,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Hanzo --CardIndex 829	--CharacterIndex 439	--ExploreCharacterIndex 334
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (829, 'Hanzo', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hanzo_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hanzo_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Hanzo_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Hanzo_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Hanzo.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Hanzo has been called many things over his long and storied life: master, teacher, monster. His team won the Moonlight Tournament twenty-two years ago through legendary speed and infamous cunning. He displayed all these qualities in the Sun Empire, but added another--treachery--for the first and only time, a Kagejima shinobi decided to stay with the Sun Court.');
@@ -1647,8 +1647,8 @@ insert into Characters (CardIndex) VALUES (829);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (439, 3); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (439, 
-'http://htkb.info/NAS/Standies/Hanzo.png', 
-'http://htkb.info/NAS/Standies/Hanzo_back.png',
+'http://htkb.info/ND/NAS/Standies/Hanzo.png', 
+'http://htkb.info/ND/NAS/Standies/Hanzo_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '1B 1G', '3B', '2B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (334, 672); --Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (334, 752); --Mastery
@@ -1660,8 +1660,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Hearthsworn Fighter (masculine)	--CardIndex 830	--CharacterIndex 440	--ExploreCharacterIndex 335
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (830, 'Hearthsworn Fighter', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hearthsworn_Fighter_masculine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hearthsworn_Fighter_masculine_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Hearthsworn_Fighter_masculine_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Hearthsworn_Fighter_masculine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Hearthsworn_Fighter_masculine.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Resilient and unflinching in the face of combat, the Hearthsworn Dwarves are warriors without peer. Able to withstand injury that would fell any of the lesser races, the Hearthsworn cleave through their adversaries bellowing insults and challenges to any foolish enough to face them.');
@@ -1670,8 +1670,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (440, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (440, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (440, 
-'http://htkb.info/SDE/Standies/Hearthsworn_Fighter_masculine.png', 
-'http://htkb.info/SDE/Standies/Hearthsworn_Fighter_masculine_back.png',
+'http://htkb.info/ND/SDE/Standies/Hearthsworn_Fighter_masculine.png', 
+'http://htkb.info/ND/SDE/Standies/Hearthsworn_Fighter_masculine_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '2B 1R', '2R', '2B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (335, 678); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (335, 679); --Immune: Poison
@@ -1683,8 +1683,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Hearthsworn Fighter (feminine)	--CardIndex 831	--CharacterIndex 441	--ExploreCharacterIndex 336
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (831, 'Hearthsworn Fighter', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hearthsworn_Fighter_feminine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hearthsworn_Fighter_feminine_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Hearthsworn_Fighter_feminine_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Hearthsworn_Fighter_feminine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Hearthsworn_Fighter_feminine.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Resilient and unflinching in the face of combat, the Hearthsworn Dwarves are warriors without peer. Able to withstand injury that would fell any of the lesser races, the Hearthsworn cleave through their adversaries bellowing insults and challenges to any foolish enough to face them.');
@@ -1693,8 +1693,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (441, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (441, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (441, 
-'http://htkb.info/SDE/Standies/AltGendered/Hearthsworn_Fighter_feminine.png', 
-'http://htkb.info/SDE/Standies/AltGendered/Hearthsworn_Fighter_feminine_back.png',
+'http://htkb.info/ND/SDE/Standies/AltGendered/Hearthsworn_Fighter_feminine.png', 
+'http://htkb.info/ND/SDE/Standies/AltGendered/Hearthsworn_Fighter_feminine_back.png',
 'Feminine', 'Small', 'Dwarf', 6, 3, '2B 1R', '2R', '2B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (336, 678); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (336, 679); --Immune: Poison
@@ -1706,8 +1706,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Heroic Kinoshroom --CardIndex 832	--CharacterIndex 442	--ExploreCharacterIndex 337
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (832, 'Heroic Kinoshroom', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Heroic_Kinoshroom_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Heroic_Kinoshroom_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Heroic_Kinoshroom_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Heroic_Kinoshroom_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Heroic_Kinoshroom.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'I''m a magic mushroom! Stop! Guys, guys... Wait! No, don''t eat meeeeeeee!');
@@ -1715,8 +1715,8 @@ insert into Characters (CardIndex) VALUES (832);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (442, 3); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (442, 
-'http://htkb.info/SDE/Standies/Heroic_Kinoshroom.png', 
-'http://htkb.info/SDE/Standies/Heroic_Kinoshroom_back.png',
+'http://htkb.info/ND/SDE/Standies/Heroic_Kinoshroom.png', 
+'http://htkb.info/ND/SDE/Standies/Heroic_Kinoshroom_back.png',
 'Either', 'Large', 'Shapeshift', 6, 1, '3B', '0ST', '1B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (337, 587); --Fertilizer
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (337, 593); --Fixed Form
@@ -1727,8 +1727,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Hexcast Sorcerer --CardIndex 833	--CharacterIndex 443	--ExploreCharacterIndex 338
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (833, 'Hexcast Sorcerer', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hexcast_Sorcerer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hexcast_Sorcerer_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Hexcast_Sorcerer_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Hexcast_Sorcerer_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Hexcast_Sorcerer.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Trained in the dark art of hexes and curses, the Hexcast Covens are uneasy allies to the rulers of Crystalia. Nonetheless their potency in battle cannot be denied. Slowing enemies, shattering armor, and weakening their foes a Hexcast Sorcerer can lay even the mightiest low.');
@@ -1736,8 +1736,8 @@ insert into Characters (CardIndex) VALUES (833);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (443, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (443, 
-'http://htkb.info/SDE/Standies/AltGendered/Hexcast_Sorcerer.png', 
-'http://htkb.info/SDE/Standies/AltGendered/Hexcast_Sorcerer_back.png',
+'http://htkb.info/ND/SDE/Standies/AltGendered/Hexcast_Sorcerer.png', 
+'http://htkb.info/ND/SDE/Standies/AltGendered/Hexcast_Sorcerer_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B', '3B', '2B 1R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (338, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (338, 596); --Fly
@@ -1753,8 +1753,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Hexcast Sorceress --CardIndex 834	--CharacterIndex 444	--ExploreCharacterIndex 339
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (834, 'Hexcast Sorceress', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hexcast_Sorceress_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hexcast_Sorceress_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Hexcast_Sorceress_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Hexcast_Sorceress_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Hexcast_Sorceress.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Trained in the dark art of hexes and curses, the Hexcast Covens are uneasy allies to the rulers of Crystalia. Nonetheless their potency in battle cannot be denied. Slowing enemies, shattering armor, and weakening their foes a Hexcast Sorcerer can lay even the mightiest low.');
@@ -1762,8 +1762,8 @@ insert into Characters (CardIndex) VALUES (834);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (444, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (444, 
-'http://htkb.info/SDE/Standies/Hexcast_Sorceress.png', 
-'http://htkb.info/SDE/Standies/Hexcast_Sorceress_back.png',
+'http://htkb.info/ND/SDE/Standies/Hexcast_Sorceress.png', 
+'http://htkb.info/ND/SDE/Standies/Hexcast_Sorceress_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2B 1R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (339, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (339, 596); --Fly
@@ -1780,8 +1780,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 --Howl & Yip --CardIndex 835	--CharacterIndex 445	--ExploreCharacterIndex 340
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (835, 
 'Howl & Yip', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Howl_and_Yip_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Howl_and_Yip_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Howl_and_Yip_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Howl_and_Yip_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Howl_and_Yip.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'A highly skilled warrior of strange disposition, Howl, and the small child he calls Yip wander Kagejima living the rough life of a ronin. They say, in a past life, he fell in love with a bewitching kunoichi, and she with him. He did not discover her betrothal to her clan''s lord until after their son was born. To preserve honor, he gave up his name and swore revenge on the lord.');
@@ -1789,8 +1789,8 @@ insert into Characters (CardIndex) VALUES (835);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (445, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (445, 
-'http://htkb.info/NAS/Standies/Howl_and_Yip.png', 
-'http://htkb.info/NAS/Standies/Howl_and_Yip_back.png',
+'http://htkb.info/ND/NAS/Standies/Howl_and_Yip.png', 
+'http://htkb.info/ND/NAS/Standies/Howl_and_Yip_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2R', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (340, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (340, 709); --Knockdown
@@ -1805,8 +1805,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Ice Climber Candy --CardIndex 836	--CharacterIndex 446	--ExploreCharacterIndex 341
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (836, 'Ice Climber Candy', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ice_Climber_Candy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ice_Climber_Candy_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Ice_Climber_Candy_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Ice_Climber_Candy_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ice_Climber_Candy.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Those thieving orcs came through this way. They met the kobolds here. Looks like there was a scuffle. After the dust settled they made camp together. And over here... over here... is where they drank my soda. They''re all gonna pay!');
@@ -1815,8 +1815,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (446, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (446, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (446, 
-'http://htkb.info/SDE/Standies/Ice_Climber_Candy.png', 
-'http://htkb.info/SDE/Standies/Ice_Climber_Candy_back.png',
+'http://htkb.info/ND/SDE/Standies/Ice_Climber_Candy.png', 
+'http://htkb.info/ND/SDE/Standies/Ice_Climber_Candy_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '2B', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (341, 493); --Burrow
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (341, 642); --Heal X
@@ -1831,8 +1831,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Ice Shard Aesthetic --CardIndex 837	--CharacterIndex 447	--ExploreCharacterIndex 342
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (837, 'Ice Shard Aesthetic', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ice_Shard_Aesthetic_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ice_Shard_Aesthetic_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Ice_Shard_Aesthetic_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Ice_Shard_Aesthetic_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ice_Shard_Aesthetic.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'In the grim, frozen winters of Frostbyte Reach, the cold is a fearsome opponent all on its own. However, those Freyjans who have mastered the path of the Ice Shard Aesthetic can use that cold to prolong life as well as end it.');
@@ -1840,8 +1840,8 @@ insert into Characters (CardIndex) VALUES (837);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (447, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (447, 
-'http://htkb.info/SDE/Standies/Ice_Shard_Aesthetic.png', 
-'http://htkb.info/SDE/Standies/Ice_Shard_Aesthetic_back.png',
+'http://htkb.info/ND/SDE/Standies/Ice_Shard_Aesthetic.png', 
+'http://htkb.info/ND/SDE/Standies/Ice_Shard_Aesthetic_back.png',
 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (342, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (342, 668); --Ice
@@ -1855,8 +1855,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Ichika --CardIndex 838	--CharacterIndex 448	--ExploreCharacterIndex 343
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (838, 'Ichika', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ichika_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ichika_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Ichika_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Ichika_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ichika.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Ichika and her twin sister Yui have stood guard on their shrine for nearly 10 years before agents of the Dark Consul razed her temple to the ground. Ichika, has sworn to stay by her sisters side to help hunt down and destroy the enemies of Kagejima''s Kami, and purify her blade in their destruction.'); 
@@ -1864,8 +1864,8 @@ insert into Characters (CardIndex) VALUES (838);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (448, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (448, 
-'http://htkb.info/SDE/Standies/NAS/Ichika.png', 
-'http://htkb.info/SDE/Standies/NAS/Ichika_back.png',
+'http://htkb.info/ND/SDE/Standies/NAS/Ichika.png', 
+'http://htkb.info/ND/SDE/Standies/NAS/Ichika_back.png',
 'Feminine', 'Small', 'Human', 6, 2, '2R', '3B', '2B', '3B', 3, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (343, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (343, 788); --Paired Hero (Yui)
@@ -1877,8 +1877,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Indominable Hanzo --CardIndex 839	--CharacterIndex 449	--ExploreCharacterIndex 344
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (839, 'Indominable Hanzo', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Indominable_Hanzo_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Indominable_Hanzo_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Indominable_Hanzo_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Indominable_Hanzo_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Indominable_Hanzo.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');--!! unavailable !!
@@ -1886,8 +1886,8 @@ insert into Characters (CardIndex) VALUES (839);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (449, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (449, 
-'http://htkb.info/NAS/Standies/Indominable_Hanzo.png', 
-'http://htkb.info/NAS/Standies/Indominable_Hanzo_back.png',
+'http://htkb.info/ND/NAS/Standies/Indominable_Hanzo.png', 
+'http://htkb.info/ND/NAS/Standies/Indominable_Hanzo_back.png',
 'Masculine', 'Small', 'Human', 5, 3, '1B 1G', '3B', '2B', '2B 1R', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (344, 752); --Mastery
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (344, 1007); --Steady
@@ -1900,8 +1900,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Jun --CardIndex 840	--CharacterIndex 450	--ExploreCharacterIndex 345
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (840, 'Jun', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Jun_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Jun_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Jun_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Jun_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Jun.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'A major otaku and video game enthusiast, Jun is no stranger to cosplay and loves attending conventions dressed as her favorite characters. She is always drawn to adorable witches, such as the Sanctioned Witch, and their lovely, pointy hats.');
@@ -1909,8 +1909,8 @@ insert into Characters (CardIndex) VALUES (840);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (450, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (450, 
-'http://htkb.info/SDE/Standies/WOTF/Jun.png', 
-'http://htkb.info/SDE/Standies/WOTF/Jun_back.png',
+'http://htkb.info/ND/SDE/Standies/WOTF/Jun.png', 
+'http://htkb.info/ND/SDE/Standies/WOTF/Jun_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2B 1R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (345, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (345, 642); --Heal X
@@ -1927,8 +1927,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Karura --CardIndex 841	--CharacterIndex 451	--ExploreCharacterIndex 346
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (841, 'Karura', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Karura_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Karura_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Karura_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Karura_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Karura.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Karura''s inquisitive nature has led him to tinker endlessly, and he has invented many wonderful things. The latest of these, a contraption of snares, wires, pulleys, and hooks, allows him to fly between trees, cliffs, and rooftops with all the grace and speed of his beloved avian cousins.');
@@ -1936,8 +1936,8 @@ insert into Characters (CardIndex) VALUES (841);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (451, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (451, 
-'http://htkb.info/NAS/Standies/Karura.png', 
-'http://htkb.info/NAS/Standies/Karura_back.png',
+'http://htkb.info/ND/NAS/Standies/Karura.png', 
+'http://htkb.info/ND/NAS/Standies/Karura_back.png',
 'Masculine', 'Small', 'Tanchyo', 5, 3, '3B', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (346, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (346, 672); --Immobile
@@ -1952,8 +1952,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Kasi --CardIndex 842	--CharacterIndex 452	--ExploreCharacterIndex 347
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (842, 'Kasi', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Kasi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Kasi_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Kasi_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Kasi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Kasi.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Kasi has always tread the thin, silver line between light and dark, good and evil. Playing the Nether Assassin provides some catharsis from the constant battle raging within her soul. In Super Dungeon she can happily mix the most potent of poisons, assured that only pixels will be harmed.');
@@ -1961,8 +1961,8 @@ insert into Characters (CardIndex) VALUES (842);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (452, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (452, 
-'http://htkb.info/SDE/Standies/WOTF/Kasi.png', 
-'http://htkb.info/SDE/Standies/WOTF/Kasi_back.png',
+'http://htkb.info/ND/SDE/Standies/WOTF/Kasi.png', 
+'http://htkb.info/ND/SDE/Standies/WOTF/Kasi_back.png',
 'Feminine', 'Small', 'Nether Elf', 7, 3, '1B 1R', '3B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (347, 649); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (347, 807); --Poison
@@ -1976,8 +1976,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Kiji --CardIndex 843	--CharacterIndex 453	--ExploreCharacterIndex 348
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (843, 'Kiji', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Kiji_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Kiji_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Kiji_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Kiji_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Kiji.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Kiji is a quiet and composed member of the Ondori clan. He has always felt a connection to nature, often claiming he could smell change coming on the winds. One day this sense led him to a young warrior named Momotaro who was on a quest to Devil Island. The Ijin there had stolen many precious artifacts from Kiji''s people and he felt that fate had sent him Momotaro to help retireve what rightfully belonged to Clan Ondori.');
@@ -1985,8 +1985,8 @@ insert into Characters (CardIndex) VALUES (843);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (453, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (453, 
-'http://htkb.info/NAS/Standies/Kiji.png', 
-'http://htkb.info/NAS/Standies/Kiji_back.png',
+'http://htkb.info/ND/NAS/Standies/Kiji.png', 
+'http://htkb.info/ND/NAS/Standies/Kiji_back.png',
 'Either', 'Small', 'Chimera', 7, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (348, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (348, 815); --Pounce
@@ -2000,8 +2000,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Kodama Gardener --CardIndex 844	--CharacterIndex 454	--ExploreCharacterIndex 349
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (844, 'Kodama Gardener', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Kodama_Gardener_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Kodama_Gardener_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Kodama_Gardener_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Kodama_Gardener_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Kodama_Gardener.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '"Go out into the world, spread your love for the Goddess with each seed you lay. May your blessed tools help you in your labor to turn earth and prepare beds for our future!" - Wilt Greenleaf, Master Gardener.');
@@ -2009,8 +2009,8 @@ insert into Characters (CardIndex) VALUES (844);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (454, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (454, 
-'http://htkb.info/SDE/Standies/Kodama_Gardener.png', 
-'http://htkb.info/SDE/Standies/Kodama_Gardener_back.png',
+'http://htkb.info/ND/SDE/Standies/Kodama_Gardener.png', 
+'http://htkb.info/ND/SDE/Standies/Kodama_Gardener_back.png',
 'Feminine', 'Small', 'Kodama', 5, 3, '3B', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (349, 764); --Moon's Blessing
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (349, 798); --Pet: Blossom
@@ -2023,8 +2023,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Komuso --CardIndex 845	--CharacterIndex 455	--ExploreCharacterIndex 350
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (845, 'Komuso', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Komuso_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Komuso_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Komuso_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Komuso_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Komuso.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Komuso monks bring a calm demeanor and wise words wherever they go. Only the basest men fight for money, though, and Komuso will accept food or supplies, but no other material payment. Instead, they often demand favors, prayers, or offerings at certain shrines.');
@@ -2033,8 +2033,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (455, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (455, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (455, 
-'http://htkb.info/NAS/Standies/Komuso.png', 
-'http://htkb.info/NAS/Standies/Komuso_back.png',
+'http://htkb.info/ND/NAS/Standies/Komuso.png', 
+'http://htkb.info/ND/NAS/Standies/Komuso_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '2R', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (350, 464); --Blessed Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (350, 668); --Ice
@@ -2047,8 +2047,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Kringle --CardIndex 846	--CharacterIndex 456	--ExploreCharacterIndex 351
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (846, 'Kringle', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Kringle_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Kringle_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Kringle_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Kringle_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Kringle.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The winter solstice is a time of family and celebration for the citizens of Crystalia. Warm around their hearths, sipping on mugs of hot chocolate, they tell stories of the mischievous faerie known as Kringle who rewards those who have been nice and punishes the naughty.');
@@ -2056,8 +2056,8 @@ insert into Characters (CardIndex) VALUES (846);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (456, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (456, 
-'http://htkb.info/SDE/Standies/Kringle.png', 
-'http://htkb.info/SDE/Standies/Kringle_back.png',
+'http://htkb.info/ND/SDE/Standies/Kringle.png', 
+'http://htkb.info/ND/SDE/Standies/Kringle_back.png',
 'Masculine', 'Small', 'Faerie', 5, 3, '1B', '2B 1R', '2R', '2B', 6, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (351, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (351, 642); --Heal X
@@ -2073,8 +2073,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Lahkpa --CardIndex 847	--CharacterIndex 457	--ExploreCharacterIndex 352
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (847, 'Lahkpa', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lahkpa_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lahkpa_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Lahkpa_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Lahkpa_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Lahkpa.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Lahkpa is a class of spirit that can be conjured to assist a band of heroes to find their way through treacherous terrain and magically hidden entrances to dungeons hidden by the Dark Consul.  Just be sure you don''t short Lahkpa on your agreed share of the loot, it lead you in, but it doesn''t have to lead you out.');
@@ -2082,8 +2082,8 @@ insert into Characters (CardIndex) VALUES (847);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (457, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (457, 
-'http://htkb.info/SDE/Standies/Lahkpa.png', 
-'http://htkb.info/SDE/Standies/Lahkpa_back.png',
+'http://htkb.info/ND/SDE/Standies/Lahkpa.png', 
+'http://htkb.info/ND/SDE/Standies/Lahkpa_back.png',
 'Neither', 'Small', 'Demon', 6, 3, '2B', '2R', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (352, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (352, 596); --Fly
@@ -2101,8 +2101,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Leopold Magnus --CardIndex 848	--CharacterIndex 458	--ExploreCharacterIndex 353
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (848, 'Leopold Magnus', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Leopold_Magnus_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Leopold_Magnus_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Leopold_Magnus_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Leopold_Magnus_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Leopold_Magnus.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Leopold Magnus is not one of the more pleasant individuals in the Last Galaxy, and he is no more pleasant when he joins a game of Super Dungeon. He frequently destroys monsters other Heroes did most of the damage to, takes all the loot, and runs off laughing. Even so, he is a skilled Hero player, and he can frequently be a huge asset to his party.');
@@ -2110,8 +2110,8 @@ insert into Characters (CardIndex) VALUES (848);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (458, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (458, 
-'http://htkb.info/SDE/Standies/Leopold_Magnus.png', 
-'http://htkb.info/SDE/Standies/Leopold_Magnus_back.png',
+'http://htkb.info/ND/SDE/Standies/Leopold_Magnus.png', 
+'http://htkb.info/ND/SDE/Standies/Leopold_Magnus_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '2R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (353, 437); --Arc
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (353, 530); --Dark Radiance
@@ -2127,8 +2127,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Lightning Mage --CardIndex 849	--CharacterIndex 459	--ExploreCharacterIndex 354
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (849, 'Lightning Mage', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lightning_Mage_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lightning_Mage_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Lightning_Mage_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Lightning_Mage_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Lightning_Mage.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The tang of burnt ozone and the crawling crackle of static electricity surrounds and embraces Lightning Mages. Jealously, guarding the secret of lightning magicks, Thunderhead Guild commands a high price for their services. It is a bounty well spent, for few mages can match the Lightning Mage''s potency in battle as she arks bolts of lightning through her foes.');
@@ -2136,8 +2136,8 @@ insert into Characters (CardIndex) VALUES (849);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (459, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (459, 
-'http://htkb.info/SDE/Standies/Lightning_Mage.png', 
-'http://htkb.info/SDE/Standies/Lightning_Mage_back.png',
+'http://htkb.info/ND/SDE/Standies/Lightning_Mage.png', 
+'http://htkb.info/ND/SDE/Standies/Lightning_Mage_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '4B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (354, 437); --Arc
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (354, 709); --Knockdown
@@ -2150,8 +2150,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Lumi and Zakkadia --CardIndex 850	--CharacterIndex 460	--ExploreCharacterIndex 355
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (850, 'Lumi and Zakkadia', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lumi_and_Zakkadia_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lumi_and_Zakkadia_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Lumi_and_Zakkadia_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Lumi_and_Zakkadia_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Lumi_and_Zakkadia.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Tender and gentle, despite the raw mystical power of Zakkadia, Lumi favors helping her fellow Heroes'' in need. When playing Super Dungeon she finds Princess Ruby to be her favored Hero, capable of bolstering the party while delivering a timely magical blast.');
@@ -2159,8 +2159,8 @@ insert into Characters (CardIndex) VALUES (850);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (460, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (460, 
-'http://htkb.info/SDE/Standies/WOTF/Lumi_and_Zakkadia.png', 
-'http://htkb.info/SDE/Standies/WOTF/Lumi_and_Zakkadia_back.png',
+'http://htkb.info/ND/SDE/Standies/WOTF/Lumi_and_Zakkadia.png', 
+'http://htkb.info/ND/SDE/Standies/WOTF/Lumi_and_Zakkadia_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '2B', '3B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (355, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (355, 643); --Healer
@@ -2176,8 +2176,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Lunar Knight --CardIndex 851	--CharacterIndex 461	--ExploreCharacterIndex 356
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (851, 'Lunar Knight', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lunar_Knight_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lunar_Knight_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Lunar_Knight_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Lunar_Knight_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Lunar_Knight.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Lunar Knights are an ancient martial order, which blends master swordsmanship with the channeling of magical might. Lunar Knights have become legendary, romantic figures throughout the realms. Noble of purpose, devout followers of the Goddess''s teachings, and generous in spirit they are, in many ways, the living embodiment of the lunar elf tradition.');
@@ -2186,8 +2186,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (461, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (461, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (461, 
-'http://htkb.info/SDE/Standies/Lunar_Knight.png', 
-'http://htkb.info/SDE/Standies/Lunar_Knight_back.png',
+'http://htkb.info/ND/SDE/Standies/Lunar_Knight.png', 
+'http://htkb.info/ND/SDE/Standies/Lunar_Knight_back.png',
 'Feminine', 'Small', 'Elf', 7, 3, '2R', '2B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (356, 585); --Feint
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (356, 1067); --Enchanted Strike
@@ -2200,8 +2200,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Lunar Mage --CardIndex 852	--CharacterIndex 462	--ExploreCharacterIndex 357
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (852, 'Lunar Mage', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lunar_Mage_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lunar_Mage_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Lunar_Mage_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Lunar_Mage_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Lunar_Mage.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '"Did you... did you just pull a piece of the moon from the sky to squash that wretch?"');
@@ -2209,8 +2209,8 @@ insert into Characters (CardIndex) VALUES (852);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (462, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (462, 
-'http://htkb.info/SDE/Standies/Lunar_Mage.png', 
-'http://htkb.info/SDE/Standies/Lunar_Mage_back.png',
+'http://htkb.info/ND/SDE/Standies/Lunar_Mage.png', 
+'http://htkb.info/ND/SDE/Standies/Lunar_Mage_back.png',
 'Feminine', 'Small', 'Elf', 7, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (357, 482); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (357, 513); --Convergence With The Goddess
@@ -2225,8 +2225,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Mad Cat --CardIndex 853	--CharacterIndex 463	--ExploreCharacterIndex 358
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (853, 'Mad Cat', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mad_Cat_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mad_Cat_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Mad_Cat_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Mad_Cat_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Mad_Cat.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '"Aren''t you a cute little kitty cat. I just wan--AAAAGGGGGGH!"');
@@ -2235,8 +2235,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (463, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (463, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (463, 
-'http://htkb.info/SDE/Standies/AltGendered/Mad_Cat.png', 
-'http://htkb.info/SDE/Standies/AltGendered/Mad_Cat_back.png',
+'http://htkb.info/ND/SDE/Standies/AltGendered/Mad_Cat.png', 
+'http://htkb.info/ND/SDE/Standies/AltGendered/Mad_Cat_back.png',
 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '2R', '1B 1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (358, 457); --Beserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (358, 649); --Hex
@@ -2251,8 +2251,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Makerguild Engineer --CardIndex 854	--CharacterIndex 464	--ExploreCharacterIndex 359
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (854, 'Makerguild Engineer', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Makerguild_Engineer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Makerguild_Engineer_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Makerguild_Engineer_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Makerguild_Engineer_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Makerguild_Engineer.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'I have just the thing, and I think it works!');
@@ -2261,8 +2261,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (464, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (464, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (464, 
-'http://htkb.info/SDE/Standies/Makerguild_Engineer.png', 
-'http://htkb.info/SDE/Standies/Makerguild_Engineer_back.png',
+'http://htkb.info/ND/SDE/Standies/Makerguild_Engineer.png', 
+'http://htkb.info/ND/SDE/Standies/Makerguild_Engineer_back.png',
 'Masculine', 'Small', 'Dwarf', 5, 3, '3B', '2B', '3B', '2R', 6, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (359, 608); --Fortify
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (359, 647); --Hex
@@ -2279,8 +2279,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Master of Chains --CardIndex 855	--CharacterIndex 465	--ExploreCharacterIndex 360
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (855, 'Master of Chains', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Master_of_Chains_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Master_of_Chains_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Master_of_Chains_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Master_of_Chains_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Master_of_Chains.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Skilled in breaking enemies'' wills and enslaving weaker minds, beware the snare of a priestess of Araphel!');
@@ -2288,8 +2288,8 @@ insert into Characters (CardIndex) VALUES (855);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (465, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (465, 
-'http://htkb.info/SDE/Standies/Trixie_Master_of_Chains.png', 
-'http://htkb.info/SDE/Standies/Trixie_Master_of_Chains_back.png',
+'http://htkb.info/ND/SDE/Standies/Trixie_Master_of_Chains.png', 
+'http://htkb.info/ND/SDE/Standies/Trixie_Master_of_Chains_back.png',
 'Feminine', 'Small', 'Riftling', 6, 3, '2B', '3B', '2B 1R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (360, 610); --Free Coin
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (360, 779); --One Use Only
@@ -2305,8 +2305,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Mitch Hunter --CardIndex 856	--CharacterIndex 466	--ExploreCharacterIndex 361
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (856, 'Mitch Hunter', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mitch_Hunter_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mitch_Hunter_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Mitch_Hunter_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Mitch_Hunter_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Mitch_Hunter.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');
@@ -2314,8 +2314,8 @@ insert into Characters (CardIndex) VALUES (856);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (466, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (466, 
-'http://htkb.info/SDE/Standies/SOTC/Mitch_Hunter.png', 
-'http://htkb.info/SDE/Standies/SOTC/Mitch_Hunter_back.png',
+'http://htkb.info/ND/SDE/Standies/SOTC/Mitch_Hunter.png', 
+'http://htkb.info/ND/SDE/Standies/SOTC/Mitch_Hunter_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (361, 709); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (361, 900); --Slow
@@ -2327,8 +2327,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Mizaru --CardIndex 857	--CharacterIndex 467	--ExploreCharacterIndex 362
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (857, 'Mizaru', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mizaru_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mizaru_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Mizaru_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Mizaru_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Mizaru.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'At age fourteen, Mizaru lost his sight due to a witch''s curse. His story might have ended there except that he refused to become bitter. He, instead, focused his anger into overcoming the setbacks his injury initially posed. Honing his senses until he could navigate trails by the sway and sound of his scabbard, identify others by scent, and track any movement by the slightest noise, Mizaru eventually became captain of the Yamazaru''s famed scouts.');
@@ -2337,8 +2337,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (467, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (467, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (467, 
-'http://htkb.info/NAS/Standies/Mizaru.png', 
-'http://htkb.info/NAS/Standies/Mizaru_back.png',
+'http://htkb.info/ND/NAS/Standies/Mizaru.png', 
+'http://htkb.info/ND/NAS/Standies/Mizaru_back.png',
 'Masculine', 'Small', 'Yamazaru', 6, 3, '3B', '3B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (362, 672); --Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (362, 841); --Read The Wind
@@ -2353,8 +2353,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Mizuchi --CardIndex 858	--CharacterIndex 468	--ExploreCharacterIndex 363
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (858, 'Mizuchi', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mizuchi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mizuchi_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Mizuchi_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Mizuchi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Mizuchi.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Cutting through the water with uncanny speed, like the silver tip of a spear, Mizuchi has defeated flotillas three times her own numbers and ships ten times the weight of her craft. Serious in demeanor, strategically clever, and ruthless in battle, Mizuchi''s ship, the Honor of Ishika, and a hail of fire arrows, are often the last things would-be invaders ever see.');
@@ -2362,8 +2362,8 @@ insert into Characters (CardIndex) VALUES (858);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (468, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (468, 
-'http://htkb.info/NAS/Standies/Mizuchi.png', 
-'http://htkb.info/NAS/Standies/Mizuchi_back.png',
+'http://htkb.info/ND/NAS/Standies/Mizuchi.png', 
+'http://htkb.info/ND/NAS/Standies/Mizuchi_back.png',
 'Feminine', 'Small', 'Ika', 6, 3, '3B', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (363, 894); --Sidestep
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (363, 1672); --Skewer
@@ -2375,8 +2375,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Mochizuki --CardIndex 859	--CharacterIndex 469	--ExploreCharacterIndex 364
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (859, 'Mochizuki', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mochizuki_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mochizuki_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Mochizuki_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Mochizuki_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Mochizuki.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Mochizuki eschews her school''s preference for subtle poisons or the concealed tanto in favor of the shock and power of paired pistols. Mochizuki is famed for appearing an instant before she turns her guns upon her target in a blaze of flame and thunder, and then vanishing again into the smoke.');
@@ -2385,8 +2385,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (469, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (469, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (469, 
-'http://htkb.info/NAS/Standies/Mochizuki.png', 
-'http://htkb.info/NAS/Standies/Mochizuki_back.png',
+'http://htkb.info/ND/NAS/Standies/Mochizuki.png', 
+'http://htkb.info/ND/NAS/Standies/Mochizuki_back.png',
 'Feminine', 'Small', 'Human', 5, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (364, 563); --Dread
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (364, 724); --Mark
@@ -2400,8 +2400,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Momotaro --CardIndex 860	--CharacterIndex 470	--ExploreCharacterIndex 365
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (860, 'Momotaro', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Momotaro_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Momotaro_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Momotaro_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Momotaro_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Momotaro.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Momotaro was raised by simple peasants who could not have children of their own. They had prayed for a child to raise, and found Momotaro as a baby floating down a river inside of a giant peach. His mysterious origins hinted at a great destiny. When Momotaro came of age and heard of the evils committed by Clan Ijin, he vowed to fulfill his destiny and journey to Devil Island and bring an end to their wicked ways.');
@@ -2409,8 +2409,8 @@ insert into Characters (CardIndex) VALUES (860);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (470, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (470, 
-'http://htkb.info/NAS/Standies/Momotaro.png', 
-'http://htkb.info/NAS/Standies/Momotaro_back.png',
+'http://htkb.info/ND/NAS/Standies/Momotaro.png', 
+'http://htkb.info/ND/NAS/Standies/Momotaro_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '2R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (365, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (365, 708); --Knockdown
@@ -2423,8 +2423,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Moonspire Guardian --CardIndex 861	--CharacterIndex 471	--ExploreCharacterIndex 366
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (861, 'Moonspire Guardian', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Moonspire_Guardian_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Moonspire_Guardian_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Moonspire_Guardian_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Moonspire_Guardian_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Moonspire_Guardian.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Lunar elf moonspires'' locations are closely guarded secrets. Moonspire Guardians are entrusted with protecting the pathways to these last bastions of lunar elf civilization. Moonspire Guardians send members of their order into Crystalia, to befriend potential allies and guide them along the moonlit paths to the spires, so that the lunar elf civilization may flourish once more.');
@@ -2433,8 +2433,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (471, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (471, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (471, 
-'http://htkb.info/SDE/Standies/Moonspire_Guardian.png', 
-'http://htkb.info/SDE/Standies/Moonspire_Guardian_back.png',
+'http://htkb.info/ND/SDE/Standies/Moonspire_Guardian.png', 
+'http://htkb.info/ND/SDE/Standies/Moonspire_Guardian_back.png',
 'Feminine', 'Small', 'Elf', 7, 3, '3B', '2R', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (366, 894); --Sidestep
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (366, 1071); --Wind of Blades
@@ -2447,8 +2447,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Moon Princess --CardIndex 862	--CharacterIndex 472	--ExploreCharacterIndex 367
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (862, 'Moon Princess', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Moon_Princess_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Moon_Princess_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Moon_Princess_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Moon_Princess_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Moon_Princess.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Schooled since birth in the ancient, esoteric arcana of her family, the Moon Princess sometimes tires of merely watching the Moonlight Tournament. Sometimes, she wishes to pit her own strange and terrible power against the warriors competing to do her honor. Several true assassinations have been attempted during the Tournament, and surely more will come. In truth, this danger is part of what makes these outings so appealing.');
@@ -2457,8 +2457,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (472, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (472, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (472, 
-'http://htkb.info/SDE/Standies/Moon_Princess.png', 
-'http://htkb.info/SDE/Standies/Moon_Princess_back.png',
+'http://htkb.info/ND/SDE/Standies/Moon_Princess.png', 
+'http://htkb.info/ND/SDE/Standies/Moon_Princess_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2R', '1B 1R', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (367, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (367, 764); --Moon's Blessing
@@ -2473,8 +2473,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Musashi --CardIndex 863	--CharacterIndex 473	--ExploreCharacterIndex 368
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (863, 'Musashi', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Musashi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Musashi_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Musashi_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Musashi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Musashi.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'For years, Musashi has wandered Kagejima, studying, debating, and fighting with and alongside masters from every school he could find. After some years, he found that he no longer sought to master the sword; he sought to master himself. Since the tool no longer mattered, he abandoned his weapon for a pair of mighty oars. Now he travels on, searching for himself, and refining the art of the wooden blades.');
@@ -2482,8 +2482,8 @@ insert into Characters (CardIndex) VALUES (863);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (473, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (473, 
-'http://htkb.info/NAS/Standies/Miyamoto_Musashi.png', 
-'http://htkb.info/NAS/Standies/Miyamoto_Musashi_back.png',
+'http://htkb.info/ND/NAS/Standies/Miyamoto_Musashi.png', 
+'http://htkb.info/ND/NAS/Standies/Miyamoto_Musashi_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '1B 1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (368, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (368, 584); --Feint
@@ -2497,8 +2497,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Musashi (Errata)	--CardIndex 864	--CharacterIndex 474	--ExploreCharacterIndex 369
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (864, 'Musashi (Errata)', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Musashi_errata_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Musashi_errata_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Musashi_errata_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Musashi_errata_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Musashi_errata.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'For years, Musashi has wandered Kagejima, studying, debating, and fighting with and alongside masters from every school he could find. After some years, he found that he no longer sought to master the sword; he sought to master himself. Since the tool no longer mattered, he abandoned his weapon for a pair of mighty oars. Now he travels on, searching for himself, and refining the art of the wooden blades.');
@@ -2506,8 +2506,8 @@ insert into Characters (CardIndex) VALUES (864);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (474, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (474, 
-'http://htkb.info/NAS/Standies/Miyamoto_Musashi.png', 
-'http://htkb.info/NAS/Standies/Miyamoto_Musashi_back.png',
+'http://htkb.info/ND/NAS/Standies/Miyamoto_Musashi.png', 
+'http://htkb.info/ND/NAS/Standies/Miyamoto_Musashi_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '1B 1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (369, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (369, 584); --Feint
@@ -2521,8 +2521,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Nagari Archpoisoner --CardIndex 865	--CharacterIndex 475	--ExploreCharacterIndex 370
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (865, 'Nagari Archpoisoner', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Nagari_Archpoisoner_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Nagari_Archpoisoner_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Nagari_Archpoisoner_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Nagari_Archpoisoner_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Nagari_Archpoisoner.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Whether or not these sinister agents truly serve the Light is a matter of much debate.');
@@ -2530,8 +2530,8 @@ insert into Characters (CardIndex) VALUES (865);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (475, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (475, 
-'http://htkb.info/SDE/Standies/Nagari_Archpoisoner.png', 
-'http://htkb.info/SDE/Standies/Nagari_Archpoisoner_back.png',
+'http://htkb.info/ND/SDE/Standies/Nagari_Archpoisoner.png', 
+'http://htkb.info/ND/SDE/Standies/Nagari_Archpoisoner_back.png',
 'Feminine', 'Small', 'Nagari', 7, 3, '2B', '3B', '1B 1R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (370, 453); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (370, 463); --Bleed
@@ -2548,8 +2548,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Night Hunter --CardIndex 866	--CharacterIndex 476	--ExploreCharacterIndex 371
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (866, 'Night Hunter', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Night_Hunter_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Night_Hunter_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Night_Hunter_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Night_Hunter_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Night_Hunter.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Crystalia is home to all manner of undead, witches, demons, and things that go bump in the night. Some of these things, such as Sanctioned Witches and Gloomborn Champions, have seen the light of the Goddess. In such cases, they must be watched carefully to make sure that they do not stray from the light. If they do, a Night Hunter will be sent to find them.');
@@ -2558,8 +2558,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (476, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (476, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (476, 
-'http://htkb.info/SDE/Standies/Night_Hunter.png', 
-'http://htkb.info/SDE/Standies/Night_Hunter_back.png',
+'http://htkb.info/ND/SDE/Standies/Night_Hunter.png', 
+'http://htkb.info/ND/SDE/Standies/Night_Hunter_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '3B', '2R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (371, 464); --Blessed Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (371, 685); --Improved Critical
@@ -2575,8 +2575,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Nikolai Ten --CardIndex 867	--CharacterIndex 477	--ExploreCharacterIndex 372
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (867, 'Nikolai Ten', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Nikolai_Ten_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Nikolai_Ten_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Nikolai_Ten_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Nikolai_Ten_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Nikolai_Ten.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Master Librarian Nikolai Ten is a noted historian, mage, and creator of magical scrolls. Often, Nikolai joins adventuring parties to search out obscure bits of lore or test out new magical theories.');
@@ -2584,8 +2584,8 @@ insert into Characters (CardIndex) VALUES (867);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (477, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (477, 
-'http://htkb.info/SDE/Standies/NPC/Nikolai_Ten.png', 
-'http://htkb.info/SDE/Standies/NPC/Nikolai_Ten_back.png',
+'http://htkb.info/ND/SDE/Standies/NPC/Nikolai_Ten.png', 
+'http://htkb.info/ND/SDE/Standies/NPC/Nikolai_Ten_back.png',
 'Masculine', 'Small', 'Human', 7, 3, '2B', '3B', '2R', '3B', 5, 3);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (372, 425); --Alchemy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (372, 812); --Potion Master
@@ -2598,8 +2598,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Nu-Koa Seraph --CardIndex 868	--CharacterIndex 478	--ExploreCharacterIndex 373
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (868, 'Nu-Koa Seraph', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Nu_Koa_Seraph_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Nu_Koa_Seraph_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Nu_Koa_Seraph_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Nu_Koa_Seraph_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Nu_Koa_Seraph.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Seraphs derive their arcane power from a deep, almost instinctual, understanding of the self. This understanding extends even to others, allowing the Seraph to tap into the arcane potential of those around them, often sapping the energy of their opponents to bolster their comrades.');
@@ -2608,8 +2608,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (478, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (478, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (478, 
-'http://htkb.info/SDE/Standies/Nu_Koa_Seraph.png', 
-'http://htkb.info/SDE/Standies/Nu_Koa_Seraph_back.png',
+'http://htkb.info/ND/SDE/Standies/Nu_Koa_Seraph.png', 
+'http://htkb.info/ND/SDE/Standies/Nu_Koa_Seraph_back.png',
 'Masculine', 'Small', 'Nu-Koa', 6, 3, '3B', '2R', '2R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (373, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (373, 608); --Fortify
@@ -2625,8 +2625,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Nyan-Nyan --CardIndex 869	--CharacterIndex 479	--ExploreCharacterIndex 374
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (869, 'Nyan-Nyan', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Nyan_Nyan_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Nyan_Nyan_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Nyan_Nyan_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Nyan_Nyan_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Nyan_Nyan.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '"This is going to be so much FUN!"');
@@ -2634,8 +2634,8 @@ insert into Characters (CardIndex) VALUES (869);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (479, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (479, 
-'http://htkb.info/SDE/Standies/Nyan_Nyan.png', 
-'http://htkb.info/SDE/Standies/Nyan_Nyan_back.png',
+'http://htkb.info/ND/SDE/Standies/Nyan_Nyan.png', 
+'http://htkb.info/ND/SDE/Standies/Nyan_Nyan_back.png',
 'Feminine', 'Small', 'Freyjan', 7, 3, '3B', '2B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (374, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (374, 616); --Frenzy
@@ -2650,8 +2650,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Orc Chef --CardIndex 870	--CharacterIndex 480	--ExploreCharacterIndex 375
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (870, 'Orc Chef', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Orc_Chef_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Orc_Chef_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Orc_Chef_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Orc_Chef_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Orc_Chef.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');--!! iunavailable !!
@@ -2659,8 +2659,8 @@ insert into Characters (CardIndex) VALUES (870);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (480, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (480, 
-'http://htkb.info/SDE/Standies/Orcdon_Ramsay.png', 
-'http://htkb.info/SDE/Standies/Orcdon_Ramsay_back.png',
+'http://htkb.info/ND/SDE/Standies/Orcdon_Ramsay.png', 
+'http://htkb.info/ND/SDE/Standies/Orcdon_Ramsay_back.png',
 'Neither', 'Large', 'Orc', 6, 3, '2R', '3B', '2B', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (375, 1083); --Impulsive
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (375, 843); --Reckless
@@ -2673,8 +2673,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Otto --CardIndex 871	--CharacterIndex 481	--ExploreCharacterIndex 376
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (871, 'Otto', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Otto_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Otto_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Otto_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Otto_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Otto.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The divine paladins of the Goddess are champions against the spreading darkness. Powerful warriors and healers. They serve as a bright beacon of hope--a rallying cry--of the Goddess, driving back the shadow and reclaiming Crystalia for all her children.');
@@ -2683,8 +2683,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (481, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (481, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (481, 
-'http://htkb.info/SDE/Standies/Novel/Otto.png', 
-'http://htkb.info/SDE/Standies/Novel/Otto_back.png',
+'http://htkb.info/ND/SDE/Standies/Novel/Otto.png', 
+'http://htkb.info/ND/SDE/Standies/Novel/Otto_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (376, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (376, 642); --Heal X
@@ -2698,8 +2698,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Princess Amethyst --CardIndex 872	--CharacterIndex 482	--ExploreCharacterIndex 377
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (872, 'Princess Amethyst', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Amethyst_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Amethyst_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Amethyst_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Amethyst_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Princess_Amethyst.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The fifth born princess, Amethyst is heralded as the child of prophecy. Yet Amethyst is uncomfortable in the spotlight that her birth thrust upon her. Gentle and shy, she rarely laughs, yet her smile can chase the shadows from a room with its brilliance. With her natural aptitude for sorcery, she spins elaborate illusions to entertain her parents and siblings; conjuring vivid tales of ancient myths to the delight of all.');
@@ -2707,8 +2707,8 @@ insert into Characters (CardIndex) VALUES (872);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (482, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (482, 
-'http://htkb.info/SDE/Standies/Princess_Amethyst.png', 
-'http://htkb.info/SDE/Standies/Princess_Amethyst_back.png',
+'http://htkb.info/ND/SDE/Standies/Princess_Amethyst.png', 
+'http://htkb.info/ND/SDE/Standies/Princess_Amethyst_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '2B', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (377, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (377, 668); --Ice
@@ -2725,8 +2725,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Princess Citrine	--CardIndex 873	--CharacterIndex 483	--ExploreCharacterIndex 378
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (873, 'Princess Citrine', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Citrine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Citrine_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Citrine_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Citrine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Princess_Citrine.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'With her commanding presence, Citrine found her calling as a warrior and general. She possesses a keen insight for battlefield maneuvers, and her boisterous and bawdy personality ingratiated her immediately with the soldiery. Joining her father on many campaigns, her mere presence serves as a rallying cry to the soldiers of Crystalia and her strength at arms turns many a battle in the King''s favor.');
@@ -2734,8 +2734,8 @@ insert into Characters (CardIndex) VALUES (873);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (483, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (483, 
-'http://htkb.info/SDE/Standies/Princess_Citrine.png', 
-'http://htkb.info/SDE/Standies/Princess_Citrine_back.png',
+'http://htkb.info/ND/SDE/Standies/Princess_Citrine.png', 
+'http://htkb.info/ND/SDE/Standies/Princess_Citrine_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B 1R', '2R', '2B', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (378, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (378, 756); --Military Acumen
@@ -2747,8 +2747,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Princess Emerald --CardIndex 874	--CharacterIndex 484	--ExploreCharacterIndex 379
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (874, 'Princess Emerald', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Emerald_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Emerald_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Emerald_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Emerald_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Princess_Emerald.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Princess Emerald has always been the most free-spirited of the Crystalian Princesses. Holding a deep love for the forest she has developed a mastery of nature craft rivaled only by the elves.');
@@ -2756,8 +2756,8 @@ insert into Characters (CardIndex) VALUES (874);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (484, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (484, 
-'http://htkb.info/SDE/Standies/Princess_Emerald.png', 
-'http://htkb.info/SDE/Standies/Princess_Emerald_back.png',
+'http://htkb.info/ND/SDE/Standies/Princess_Emerald.png', 
+'http://htkb.info/ND/SDE/Standies/Princess_Emerald_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '1B 1R', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (379, 453); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (379, 642); --Heal X
@@ -2786,8 +2786,8 @@ VALUES (485,
 
 --Princess Sapphire --CardIndex 876	--CharacterIndex 486	--ExploreCharacterIndex 381
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (876, 'Princess Sapphire', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Sapphire_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Sapphire_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Sapphire_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Sapphire_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Princess_Sapphire.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'As the heir-apparent to the throne, Princess Sapphire will one day rule all of Crystalia. As the oldest of five sisters, Princess Sapphire raised her siblings after the disappearance of their mother and their father saw to the affairs of state. As a child of prophecy, Princess Sapphire is destined to break the Dark Consul''s hold upon the land. These burdens are enough to overwhelm even the strongest, but Sapphire does not bend, nor break. Determined, dependable, and possessing a keen intellect, Sapphire excels because of her challenges, not despite them.');
@@ -2795,8 +2795,8 @@ insert into Characters (CardIndex) VALUES (876);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (486, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (486, 
-'http://htkb.info/SDE/Standies/Princess_Sapphire.png', 
-'http://htkb.info/SDE/Standies/Princess_Sapphire_back.png',
+'http://htkb.info/ND/SDE/Standies/Princess_Sapphire.png', 
+'http://htkb.info/ND/SDE/Standies/Princess_Sapphire_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (381, 544); --Defender
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (381, 642); --Heal X
@@ -2810,8 +2810,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Prince Peridot --CardIndex 877	--CharacterIndex 487	--ExploreCharacterIndex 382
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (877, 'Prince Peridot', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Prince_Peridot_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Prince_Peridot_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Prince_Peridot_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Prince_Peridot_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Prince_Peridot.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'An expert swordsman from long lost kingdom, little is known about Prince Peridot. Over the years he has proven to be unflinchingly loyal to Crystalia and a devout servant of the Goddess.');
@@ -2820,8 +2820,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (487, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (487, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (487, 
-'http://htkb.info/SDE/Standies/NPC/Prince_Peridot.png', 
-'http://htkb.info/SDE/Standies/NPC/Prince_Peridot_back.png',
+'http://htkb.info/ND/SDE/Standies/NPC/Prince_Peridot.png', 
+'http://htkb.info/ND/SDE/Standies/NPC/Prince_Peridot_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (382, 729); --Massive Damage
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (382, 1711); --Sonic Slash
@@ -2832,8 +2832,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Rainbow Dragoon --CardIndex 878	--CharacterIndex 488	--ExploreCharacterIndex 383
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (878, 'Rainbow Dragoon', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Rainbow_Dragoon_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Rainbow_Dragoon_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Rainbow_Dragoon_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Rainbow_Dragoon_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Rainbow_Dragoon.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The Rainbow Falls is one of the most beautiful and idyllic places in all of Celestia. But this beautiful scenery is also the training ground of one of Celestia''s most deadly forces: the Rainbow Dragoons. These warriors are trained in every manner of combat and weapon imaginable, and they have access to a vast armory, making them fearsome opponents for the forces of darkness.');
@@ -2842,8 +2842,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (488, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (488, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (488, 
-'http://htkb.info/SDE/Standies/Rainbow_Dragoon.png', 
-'http://htkb.info/SDE/Standies/Rainbow_Dragoon_back.png',
+'http://htkb.info/ND/SDE/Standies/Rainbow_Dragoon.png', 
+'http://htkb.info/ND/SDE/Standies/Rainbow_Dragoon_back.png',
 'Masculine', 'Small', 'Celestian', 6, 3, '2B', '2B', '1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (383, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (383, 596); --Fly
@@ -2858,8 +2858,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Ren --CardIndex 879	--CharacterIndex 489	--ExploreCharacterIndex 384
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (879, 'Ren', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ren_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ren_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Ren_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Ren_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ren.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Even when relaxing, Ren feels the need to destroy. He gains pure pleasure playing as the Claw Tribe Barbarian, raging through hordes of minions.');
@@ -2867,8 +2867,8 @@ insert into Characters (CardIndex) VALUES (879);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (489, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (489, 
-'http://htkb.info/SDE/Standies/WOTF/Ren.png', 
-'http://htkb.info/SDE/Standies/WOTF/Ren_back.png',
+'http://htkb.info/ND/SDE/Standies/WOTF/Ren.png', 
+'http://htkb.info/ND/SDE/Standies/WOTF/Ren_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (384, 457); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (384, 534); --Deadly Defense
@@ -2880,8 +2880,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Riftling Rogue (feminine) --CardIndex 880	--CharacterIndex 490	--ExploreCharacterIndex 385
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (880, 'Riftling Rogue', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Riftling_Rogue_feminine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Riftling_Rogue_feminine_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Riftling_Rogue_feminine_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Riftling_Rogue_feminine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Riftling_Rogue_feminine.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Demons become Heroes to combat the Dark Consul for their own closely guarded reasons. Masters of striking from the shadows, Riftling Guild adepts can find the chink in any armor. More important to many though is their uncanny knack to find the most valuable treasure in any dungeon.');
@@ -2889,8 +2889,8 @@ insert into Characters (CardIndex) VALUES (880);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (490, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (490, 
-'http://htkb.info/SDE/Standies/Riftling_Rogue_feminine.png', 
-'http://htkb.info/SDE/Standies/Riftling_Rogue_feminine_back.png',
+'http://htkb.info/ND/SDE/Standies/Riftling_Rogue_feminine.png', 
+'http://htkb.info/ND/SDE/Standies/Riftling_Rogue_feminine_back.png',
 'Feminine', 'Small', 'Demon', 7, 3, '3B', '2B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (385, 718); --Luck
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (385, 729); --Massive Damage
@@ -2905,8 +2905,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Riftling Rogue (masculine) --CardIndex 881	--CharacterIndex 491	--ExploreCharacterIndex 386
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (881, 'Riftling Rogue', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Riftling_Rogue_masculine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Riftling_Rogue_masculine_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Riftling_Rogue_masculine_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Riftling_Rogue_masculine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Riftling_Rogue_masculine.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Demons become Heroes to combat the Dark Consul for their own closely guarded reasons. Masters of striking from the shadows, Riftling Guild adepts can find the chink in any armor. More important to many though is their uncanny knack to find the most valuable treasure in any dungeon.');
@@ -2914,8 +2914,8 @@ insert into Characters (CardIndex) VALUES (881);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (491, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (491, 
-'http://htkb.info/SDE/Standies/AltGendered/Riftling_Rogue_masculine.png', 
-'http://htkb.info/SDE/Standies/AltGendered/Riftling_Rogue_masculine_back.png',
+'http://htkb.info/ND/SDE/Standies/AltGendered/Riftling_Rogue_masculine.png', 
+'http://htkb.info/ND/SDE/Standies/AltGendered/Riftling_Rogue_masculine_back.png',
 'Masculine', 'Small', 'Demon', 7, 3, '3B', '2B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (386, 718); --Luck
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (386, 729); --Massive Damage
@@ -2930,8 +2930,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Riftling Warrior --CardIndex 882	--CharacterIndex 492	--ExploreCharacterIndex 387
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (882, 'Riftling Warrior', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Riftling_Warrior_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Riftling_Warrior_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Riftling_Warrior_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Riftling_Warrior_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Riftling_Warrior.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Riftling Warriors are savage and brutal fighters. The Riftling Warrior''s fury and might grows as his pain and wounds increase. Many stories describe Riftling Warriors stalking the battlefield, bleeding from wounds that would fell a lesser fighter, slaying any who draw too near.');
@@ -2939,8 +2939,8 @@ insert into Characters (CardIndex) VALUES (882);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (492, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (492, 
-'http://htkb.info/SDE/Standies/Riftling_Warrior.png', 
-'http://htkb.info/SDE/Standies/Riftling_Warrior_back.png',
+'http://htkb.info/ND/SDE/Standies/Riftling_Warrior.png', 
+'http://htkb.info/ND/SDE/Standies/Riftling_Warrior_back.png',
 'Masculine', 'Small', 'Demon', 6, 3, '4B', '3B', '1B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (387, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (387, 588); --Fire
@@ -2955,8 +2955,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Rimefrost Warlord --CardIndex 883	--CharacterIndex 493	--ExploreCharacterIndex 388
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (883, 'Rimefrost Warlord', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Rimefrost_Warlord_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Rimefrost_Warlord_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Rimefrost_Warlord_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Rimefrost_Warlord_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Rimefrost_Warlord.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Rimefrost orcs are not so much a tribe, as a loose alliance of orcs that have escaped the clutches of the Dark Consul and have turned to the embrace of the Goddess''s Light. Reviled and outcast from their tribes, Rimefrost orcs retain their tribal instincts and will often band together around a strong leader or personality. To lead a Rimefrost tribe is a heavy burden. The tribe is constantly hunted by the minions of the Dark Consul, and while Rimefrost orcs have been brought to the Light, they remain violent and unruly. Without steady leadership they are easily lured by their baser instincts and tempted to return to the Dark Consul''s thrall once more.');
@@ -2964,8 +2964,8 @@ insert into Characters (CardIndex) VALUES (883);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (493, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (493, 
-'http://htkb.info/SDE/Standies/Rimefrost_Warlord.png', 
-'http://htkb.info/SDE/Standies/Rimefrost_Warlord_back.png',
+'http://htkb.info/ND/SDE/Standies/Rimefrost_Warlord.png', 
+'http://htkb.info/ND/SDE/Standies/Rimefrost_Warlord_back.png',
 'Masculine', 'Large', 'Orc', 6, 3, '2B 1R', '2R', '2B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (388, 616); --Frenzy
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (388, 725); --Absolute Destruction
@@ -2976,8 +2976,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Rinny-Prin-Peng --CardIndex 884	--CharacterIndex 494	--ExploreCharacterIndex 389
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (884, 'Rinny-Prin-Peng', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Rinny_Prin_Peng_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Rinny_Prin_Peng_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Rinny_Prin_Peng_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Rinny_Prin_Peng_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Rinny_Prin_Peng.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Quonk! Quonk quonk quonk. QUONK!!!');
@@ -2985,8 +2985,8 @@ insert into Characters (CardIndex) VALUES (884);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (494, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (494, 
-'http://htkb.info/SDE/Standies/Rinny_Prin_Peng.png', 
-'http://htkb.info/SDE/Standies/Rinny_Prin_Peng_back.png',
+'http://htkb.info/ND/SDE/Standies/Rinny_Prin_Peng.png', 
+'http://htkb.info/ND/SDE/Standies/Rinny_Prin_Peng_back.png',
 'Either', 'Small', 'Chimera', 3, 3, '2R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (389, 728); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (389, 815); --Pounce
@@ -3001,8 +3001,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Royal Huntsman --CardIndex 885	--CharacterIndex 495	--ExploreCharacterIndex 390
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (885, 'Royal Huntsman', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Huntsman_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Huntsman_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Huntsman_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Huntsman_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Royal_Huntsman.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The woods surrounding Crystalia Castle are property of the Crown. As such, they are patrolled by Royal Huntsman who make sure that no poachers encroach on royal game. These huntsman are the very best in the land; wielding not enchantment and spell but pure skill with a bow and bravery. They are often called upon to defend the woods and surrounding lands from the forces of the Dark Consul.');
@@ -3010,8 +3010,8 @@ insert into Characters (CardIndex) VALUES (885);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (495, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (495, 
-'http://htkb.info/SDE/Standies/Royal_Huntsman.png', 
-'http://htkb.info/SDE/Standies/Royal_Huntsman_back.png',
+'http://htkb.info/ND/SDE/Standies/Royal_Huntsman.png', 
+'http://htkb.info/ND/SDE/Standies/Royal_Huntsman_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (390, 598); --For The Crown!
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (390, 724); --Mark
@@ -3025,8 +3025,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Royal Knight --CardIndex 886	--CharacterIndex 496	--ExploreCharacterIndex 391
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (886, 'Royal Knight', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Knight_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Knight_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Knight_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Knight_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Royal_Knight.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Royal Knights are military masters without peer. Trained in all manner of warfare, and atop powerful destriers, they are the shining tip of the King''s spear. But to be a Royal Knight means more than mere strength in arms. A Royal Knight must also be true in heart and spirit. They must pledge to a life of chivalry and devotion to Crystalia, so that its people might never suffer under the yoke of the Dark Consul.');
@@ -3034,8 +3034,8 @@ insert into Characters (CardIndex) VALUES (886);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (496, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (496, 
-'http://htkb.info/SDE/Standies/Ser_Anthony.png', 
-'http://htkb.info/SDE/Standies/Ser_Anthony_back.png',
+'http://htkb.info/ND/SDE/Standies/Ser_Anthony.png', 
+'http://htkb.info/ND/SDE/Standies/Ser_Anthony_back.png',
 'Either', 'Small', 'Human', 8, 3, '2B 1R', '2R', '3B', '1B 1R', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (391, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (391, 709); --Knockdown
@@ -3048,8 +3048,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Royal Paladin (feminine) --CardIndex 887	--CharacterIndex 497	--ExploreCharacterIndex 392
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (887, 'Royal Paladin', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Paladin_feminine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Paladin_feminine_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Paladin_feminine_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Paladin_feminine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Royal_Paladin_feminine.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The divine paladins of the Goddess are champions against the spreading darkness. Powerful warriors and healers. They serve as a bright beacon of hope--a rallying cry--of the Goddess, driving back the shadow and reclaiming Crystalia for all her children.');
@@ -3058,8 +3058,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (497, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (497, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (497, 
-'http://htkb.info/SDE/Standies/AltGendered/Royal_Paladin_feminine.png', 
-'http://htkb.info/SDE/Standies/AltGendered/Royal_Paladin_feminine_back.png',
+'http://htkb.info/ND/SDE/Standies/AltGendered/Royal_Paladin_feminine.png', 
+'http://htkb.info/ND/SDE/Standies/AltGendered/Royal_Paladin_feminine_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (392, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (392, 642); --Heal X
@@ -3073,8 +3073,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Royal Paladin (masculine) --CardIndex 888	--CharacterIndex 498	--ExploreCharacterIndex 393
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (888, 'Royal Paladin', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Paladin_masculine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Paladin_masculine_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Paladin_masculine_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Paladin_masculine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Royal_Paladin_masculine.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The divine paladins of the Goddess are champions against the spreading darkness. Powerful warriors and healers. They serve as a bright beacon of hope--a rallying cry--of the Goddess, driving back the shadow and reclaiming Crystalia for all her children.');
@@ -3083,8 +3083,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (498, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (498, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (498, 
-'http://htkb.info/SDE/Standies/Royal_Paladin_masculine.png', 
-'http://htkb.info/SDE/Standies/Royal_Paladin_masculine_back.png',
+'http://htkb.info/ND/SDE/Standies/Royal_Paladin_masculine.png', 
+'http://htkb.info/ND/SDE/Standies/Royal_Paladin_masculine_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (393, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (393, 642); --Heal X
@@ -3098,8 +3098,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Ryu --CardIndex 889	--CharacterIndex 499	--ExploreCharacterIndex 394
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (889, 'Ryu', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ryu_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ryu_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Ryu_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Ryu_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ryu.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'After falling prey to bandits, Ryu was saved by wandering monks. As he grew in their monastery, Ryu soon became a strong and focused fighter with an understandable hatred for those who preyed on the weak.');
@@ -3107,8 +3107,8 @@ insert into Characters (CardIndex) VALUES (889);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (499, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (499, 
-'http://htkb.info/NAS/Standies/Ryu.png', 
-'http://htkb.info/NAS/Standies/Ryu_back.png',
+'http://htkb.info/ND/NAS/Standies/Ryu.png', 
+'http://htkb.info/ND/NAS/Standies/Ryu_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (394, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (394, 826); --Protector
@@ -3121,8 +3121,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Sai	--CardIndex 890	--CharacterIndex 500	--ExploreCharacterIndex 395
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (890, 'Sai', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sai_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sai_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Sai_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Sai_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Sai.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Demons become Heroes to combat the Dark Consul for their own closely guarded reasons. Masters of striking from the shadows, Riftling Guild adepts can find the chink in any armor. More important to many though is their uncanny knack to find the most valuable treasure in any dungeon.');
@@ -3130,8 +3130,8 @@ insert into Characters (CardIndex) VALUES (890);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (500, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (500, 
-'http://htkb.info/SDE/Standies/Novel/Sai.png', 
-'http://htkb.info/SDE/Standies/Novel/Sai_back.png',
+'http://htkb.info/ND/SDE/Standies/Novel/Sai.png', 
+'http://htkb.info/ND/SDE/Standies/Novel/Sai_back.png',
 'Feminine', 'Small', 'Demon', 7, 3, '3B', '2B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (395, 718); --Luck
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (395, 723); --Massive Damage
@@ -3146,8 +3146,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Sanctioned Witch --CardIndex 891	--CharacterIndex 501	--ExploreCharacterIndex 396
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (891, 'Sanctioned Witch', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sanctioned_Witch_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sanctioned_Witch_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Sanctioned_Witch_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Sanctioned_Witch_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Sanctioned_Witch.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Crytalia Castle does its best to keep tabs on all witches within the realms. Thus, it established the Sanctioned Witch Accords. These voluntary accords allow witches to practice their arts and remain in the grace of the Crown as long as they abide by the rules of the accords.');
@@ -3155,8 +3155,8 @@ insert into Characters (CardIndex) VALUES (891);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (501, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (501, 
-'http://htkb.info/SDE/Standies/Sanctioned_Witch.png', 
-'http://htkb.info/SDE/Standies/Sanctioned_Witch_back.png',
+'http://htkb.info/ND/SDE/Standies/Sanctioned_Witch.png', 
+'http://htkb.info/ND/SDE/Standies/Sanctioned_Witch_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2B 1R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (396, 642); --Heal X
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (396, 746); --Arcane Burst
@@ -3169,8 +3169,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Saru --CardIndex 892	--CharacterIndex 502	--ExploreCharacterIndex 397
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (892, 'Saru', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Saru_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Saru_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Saru_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Saru_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Saru.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Saru is a jovial and care-free miko shrine guardian of Clan Yamazaru. Her playful nature endeared her to a Sanctioned Witch named Lily who visited Yamazaru lands while traveling from far-off Crystalia. Saru and Lily quickly formed a close bond. So when Saru got word that Lily had been captured by Ijin pirates her playful nature quickly turned to brooding anger. She immediately set out to free Lily, and met some  unlikely allies along the way.');
@@ -3178,8 +3178,8 @@ insert into Characters (CardIndex) VALUES (892);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (502, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (502, 
-'http://htkb.info/SDE/Standies/NAS/Saru.png', 
-'http://htkb.info/SDE/Standies/NAS/Saru_back.png',
+'http://htkb.info/ND/SDE/Standies/NAS/Saru.png', 
+'http://htkb.info/ND/SDE/Standies/NAS/Saru_back.png',
 'Feminine', 'Small', 'Chimera', 6, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (397, 647); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (397, 672); --Immobile
@@ -3195,8 +3195,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Ser Charles Strong --CardIndex 893	--CharacterIndex 503	--ExploreCharacterIndex 398
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (893, 'Ser Charles Strong', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ser_Charles_Strong_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ser_Charles_Strong_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Ser_Charles_Strong_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Ser_Charles_Strong_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ser_Charles_Strong.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Ser Charles Strong is notorious for eschewing conventional weaponry. Instead he charges forward with a roaring bellow and fists of lightning. Moving and darting throughout the melee, Ser Charles is a veritable force of nature that none can contain.');
@@ -3204,8 +3204,8 @@ insert into Characters (CardIndex) VALUES (893);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (503, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (503, 
-'http://htkb.info/SDE/Standies/NPC/Ser_Charles_Strong.png', 
-'http://htkb.info/SDE/Standies/NPC/Ser_Charles_Strong_back.png',
+'http://htkb.info/ND/SDE/Standies/NPC/Ser_Charles_Strong.png', 
+'http://htkb.info/ND/SDE/Standies/NPC/Ser_Charles_Strong_back.png',
 'Masculine', 'Small', 'Human', 8, 3, '2B 1R', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (398, 709); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (398, 1022); --Surefoot
@@ -3217,8 +3217,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Severina --CardIndex 894	--CharacterIndex 504	--ExploreCharacterIndex 399
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (894, 'Severina', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Severina_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Severina_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Severina_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Severina_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Severina.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Severina spends the vast majority of her time playing Super Dungeon Arena mode. She cares little for destroying monsters. As the Hexcast Sorceress, she delights in inflicting curses upon fellow Heroes before crushing them ruthlessly.');
@@ -3226,8 +3226,8 @@ insert into Characters (CardIndex) VALUES (894);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (504, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (504, 
-'http://htkb.info/SDE/Standies/WOTF/Severina.png', 
-'http://htkb.info/SDE/Standies/WOTF/Severina_back.png',
+'http://htkb.info/ND/SDE/Standies/WOTF/Severina.png', 
+'http://htkb.info/ND/SDE/Standies/WOTF/Severina_back.png',
 'Feminine', 'Small', 'Elf', 6, 3, '2B', '3B', '2B 1R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (399, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (399, 596); --Fly
@@ -3243,8 +3243,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Sheep-Cote Clod --CardIndex 895	--CharacterIndex 505	--ExploreCharacterIndex 400
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (895, 'Sheep-Cote Clod', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sheep_Cote_Clod_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sheep_Cote_Clod_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Sheep_Cote_Clod_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Sheep_Cote_Clod_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Sheep_Cote_Clod.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');
@@ -3252,8 +3252,8 @@ insert into Characters (CardIndex) VALUES (895);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (505, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (505, 
-'http://htkb.info/SDE/Standies/Sheep_Cote_Clod.png', 
-'http://htkb.info/SDE/Standies/Sheep_Cote_Clod_back.png',
+'http://htkb.info/ND/SDE/Standies/Sheep_Cote_Clod.png', 
+'http://htkb.info/ND/SDE/Standies/Sheep_Cote_Clod_back.png',
 'Either', 'Small', 'Shapeshift', 5, 3, '2B', '1B', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (400, 593); --Fixed Form
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (400, 1084); --Hex
@@ -3272,8 +3272,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Shojo --CardIndex 896	--CharacterIndex 506	--ExploreCharacterIndex 401
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (896, 'Shojo', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Shojo_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Shojo_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Shojo_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Shojo_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Shojo.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The captain of the magnificent trading vessel, Tako-Tako, is as famous for her wild ways as for her wondrous wares. Shojo loves a party, and she brings one (or more) with her wherever she makes berth. A fearless navigator, she is equally masterful with the sword, which she hastily employs with typhoon fury--so long as the sake lasts, that is.');
@@ -3281,8 +3281,8 @@ insert into Characters (CardIndex) VALUES (896);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (506, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (506, 
-'http://htkb.info/NAS/Standies/Shojo.png', 
-'http://htkb.info/NAS/Standies/Shojo_back.png',
+'http://htkb.info/ND/NAS/Standies/Shojo.png', 
+'http://htkb.info/ND/NAS/Standies/Shojo_back.png',
 'Feminine', 'Small', 'Ika', 6, 3, '3B', '2R', '2R', '2B', 5, 3);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (401, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (401, 642); --Heal X
@@ -3298,8 +3298,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Skyr-Gobbler --CardIndex 897	--CharacterIndex 507	--ExploreCharacterIndex 402
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (897, 'Skyr-Gobbler', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Skyr_Gobbler_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Skyr_Gobbler_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Skyr_Gobbler_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Skyr_Gobbler_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Skyr_Gobbler.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Before Krampus enjoys his solstice feast, he often prefers to transform the unlucky individual into a Naughtie. Each Naughtie is unique, and those who find themselves turned into a Skyr-Gobbler have an insatiable hunger for Skyr, a yogurt popular in northern Crystalia.');
@@ -3307,8 +3307,8 @@ insert into Characters (CardIndex) VALUES (897);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (507, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (507, 
-'http://htkb.info/SDE/Standies/Skyr_Gobbler.png', 
-'http://htkb.info/SDE/Standies/Skyr_Gobbler_back.png',
+'http://htkb.info/ND/SDE/Standies/Skyr_Gobbler.png', 
+'http://htkb.info/ND/SDE/Standies/Skyr_Gobbler_back.png',
 'Either', 'Large', 'Shapeshift', 5, 3, '2B', '1B', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (402, 593); --Fixed Form
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (402, 1030); --Don't Hurt Meeee!
@@ -3322,8 +3322,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Songbird Candy --CardIndex 898	--CharacterIndex 508	--ExploreCharacterIndex 403
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (898, 'Songbird Candy', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Songbird_Candy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Songbird_Candy_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Songbird_Candy_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Songbird_Candy_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Songbird_Candy.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Candy is always up for entertaining a crowd while enjoying a cold ale or buttered beer. Playing as the Wandering Minstrel, Candy''s songbird voice can lift the lowest of spirits and bring a smile to the most dour faces.');
@@ -3332,8 +3332,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (508, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (508, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (508, 
-'http://htkb.info/SDE/Standies/WOTF/Songbird_Candy.png', 
-'http://htkb.info/SDE/Standies/WOTF/Songbird_Candy_back.png',
+'http://htkb.info/ND/SDE/Standies/WOTF/Songbird_Candy.png', 
+'http://htkb.info/ND/SDE/Standies/WOTF/Songbird_Candy_back.png',
 'Feminine', 'Small', 'Elf', 7, 3, '1B 1R', '2B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (403, 585); --Feint
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (403, 709); --Knockdown
@@ -3347,8 +3347,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Son Goku --CardIndex 899	--CharacterIndex 509	--ExploreCharacterIndex 404
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (899, 'Son Goku', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Son_Goku_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Son_Goku_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Son_Goku_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Son_Goku_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Son_Goku.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Son Goku was born with the aspect of the monkey. His high spirits and care-free attitude are matched only by');
@@ -3356,8 +3356,8 @@ insert into Characters (CardIndex) VALUES (899);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (509, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (509, 
-'http://htkb.info/NAS/Standies/Son_Goku.png', 
-'http://htkb.info/NAS/Standies/Son_Goku_back.png',
+'http://htkb.info/ND/NAS/Standies/Son_Goku.png', 
+'http://htkb.info/ND/NAS/Standies/Son_Goku_back.png',
 'Masculine', 'Small', 'Yamazaru', 6, 3, '3B', '3B', '4B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (404, 474); --Born Lucky
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (404, 672); --Immobile
@@ -3370,8 +3370,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Spoon Licker --CardIndex 900	--CharacterIndex 510	--ExploreCharacterIndex 405
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (900, 'Spoon Licker', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Spoon_Licker_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Spoon_Licker_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Spoon_Licker_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Spoon_Licker_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Spoon_Licker.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Before Krampus chows down on his solstice treats, he often likes to change them into a Naughtie. Some say it makes the chase more fun for him. Each Naughtie has its own personality. Those turned into a Spoon-Licker are incredibly thin and have a habit of, well, it''s all in the name, really.');
@@ -3379,8 +3379,8 @@ insert into Characters (CardIndex) VALUES (900);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (510, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (510, 
-'http://htkb.info/SDE/Standies/Spoon_Licker.png', 
-'http://htkb.info/SDE/Standies/Spoon_Licker_back.png',
+'http://htkb.info/ND/SDE/Standies/Spoon_Licker.png', 
+'http://htkb.info/ND/SDE/Standies/Spoon_Licker_back.png',
 'Either', 'Small', 'Shapeshift', 5, 3, '2B', '1B', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (405, 593); --Fixed Form
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (405, 825); --Properly Punished
@@ -3394,8 +3394,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Springtime Druid --CardIndex 901	--CharacterIndex 511	--ExploreCharacterIndex 406
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (901, 'Springtime Druid', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Springtime_Druid_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Springtime_Druid_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Springtime_Druid_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Springtime_Druid_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Springtime_Druid.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The Festival of Spring is celebrated throughout Crystalia, each culture of the realms celebrating it in their own unique way. Overseeing the festivities are the Springtime Druids. These bright and cheerful druids serve as emissaries of the Deeproot Tree, pushing back the corruption of the Dark Consul and allowing new life to bloom.');
@@ -3403,8 +3403,8 @@ insert into Characters (CardIndex) VALUES (901);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (511, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (511, 
-'http://htkb.info/SDE/Standies/Springtime_Druid.png', 
-'http://htkb.info/SDE/Standies/Springtime_Druid_back.png',
+'http://htkb.info/ND/SDE/Standies/Springtime_Druid.png', 
+'http://htkb.info/ND/SDE/Standies/Springtime_Druid_back.png',
 'Feminine', 'Small', 'Fenneck', 7, 3, '2B', '2B', '2R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (406, 453); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (406, 1022); --Surefoot
@@ -3417,8 +3417,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Star Guild Rock Singer --CardIndex 902	--CharacterIndex 512	--ExploreCharacterIndex 407
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (902, 'Star Guild Rock Singer', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Star_Guild_Rock_Singer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Star_Guild_Rock_Singer_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Star_Guild_Rock_Singer_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Star_Guild_Rock_Singer_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Star_Guild_Rock_Singer.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'High atop the peaks of the world, the Starguild watches the sky. In great choruses the Rocksingers call to the heavens, with the Song of Stars. Their song awakens the spirit of the stars, and draws fragments of starmetal to the earth. In her lifetime a Rocksinger may only ever succeed in calling a few ounces of this precious metal, but with it the guild works wonders.');
@@ -3426,8 +3426,8 @@ insert into Characters (CardIndex) VALUES (902);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (512, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (512, 
-'http://htkb.info/SDE/Standies/Star_Guild_Rock_Singer.png', 
-'http://htkb.info/SDE/Standies/Star_Guild_Rock_Singer_back.png',
+'http://htkb.info/ND/SDE/Standies/Star_Guild_Rock_Singer.png', 
+'http://htkb.info/ND/SDE/Standies/Star_Guild_Rock_Singer_back.png',
 'Feminine', 'Small', 'Dwarf', 6, 3, '3B', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (407, 493); --Burrow
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (407, 642); --Heal X
@@ -3442,8 +3442,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Star Princess Candy --CardIndex 903	--CharacterIndex 513	--ExploreCharacterIndex 408
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (903, 'Star Princess Candy', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Star_Princess_Candy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Star_Princess_Candy_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Star_Princess_Candy_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Star_Princess_Candy_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Star_Princess_Candy.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The ultimate rebel, Star Princess Candy fights for what is right throughout Crystalia with boldness, determination, and a knack to get out of the toughest situations.');
@@ -3451,8 +3451,8 @@ insert into Characters (CardIndex) VALUES (903);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (513, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (513, 
-'http://htkb.info/RRI/Standies/Star_Princess_Candy.png', 
-'http://htkb.info/RRI/Standies/Star_Princess_Candy_back.png',
+'http://htkb.info/ND/RRI/Standies/Star_Princess_Candy.png', 
+'http://htkb.info/ND/RRI/Standies/Star_Princess_Candy_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (408, 564); --Dungeon Map
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (408, 657); --Hookshot
@@ -3464,8 +3464,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Steelhorse Candy --CardIndex 904	--CharacterIndex 514	--ExploreCharacterIndex 409
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (904, 'Steelhorse Candy', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Steelhorse_Candy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Steelhorse_Candy_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Steelhorse_Candy_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Steelhorse_Candy_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Steelhorse_Candy.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Lost in a strange new land, Steelhorse Candy rides through the dungeons of Crystalia searching for a way home.');
@@ -3474,8 +3474,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (514, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (514, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (514, 
-'http://htkb.info/RRI/Standies/Steelhorse_Candy.png', 
-'http://htkb.info/RRI/Standies/Steelhorse_Candy_back.png',
+'http://htkb.info/ND/RRI/Standies/Steelhorse_Candy.png', 
+'http://htkb.info/ND/RRI/Standies/Steelhorse_Candy_back.png',
 'Feminine', 'Small', 'Human', 7, 3, '3B', '2R', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (409, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (409, 1022); --Surefoot
@@ -3488,8 +3488,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Sun Empire Wandering Samurai --CardIndex 905	--CharacterIndex 515	--ExploreCharacterIndex 410
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (905, 'Sun Empire Wandering Samurai', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sun_Empire_Wandering_Samurai_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sun_Empire_Wandering_Samurai_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Sun_Empire_Wandering_Samurai_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Sun_Empire_Wandering_Samurai_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Sun_Empire_Wandering_Samurai.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Ever watchful for weakness, the Sun Empire''s agents can turn up anywhere, and discovering them and sending them politely on their way has become a game among many clans. Of late, though, many skilled warriors of the Sun Court have turned up, and offered their services to interested parties. Such is the cut-throat nature of Kagejima''s politics--especially the prestige attached to the Moonlight Tournament--that they often find those willing to employ them.');
@@ -3497,8 +3497,8 @@ insert into Characters (CardIndex) VALUES (905);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (515, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (515, 
-'http://htkb.info/NAS/Standies/Sun_Empire_Wandering_Samurai.png', 
-'http://htkb.info/NAS/Standies/Sun_Empire_Wandering_Samurai_back.png',
+'http://htkb.info/ND/NAS/Standies/Sun_Empire_Wandering_Samurai.png', 
+'http://htkb.info/ND/NAS/Standies/Sun_Empire_Wandering_Samurai_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (410, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (410, 518); --Counterstrike
@@ -3512,8 +3512,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Sweetheart Candy --CardIndex 906	--CharacterIndex 516	--ExploreCharacterIndex 411
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (906, 'Sweetheart Candy', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sweetheart_Candy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sweetheart_Candy_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Sweetheart_Candy_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Sweetheart_Candy_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Sweetheart_Candy.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Candy has traveled Crystalia far and wide, from training alongside Glimmerdusk Rangers to studying the medicines of the healers of Celestia. Along the way Candy has picked up many useful skills; even the most reclusive sects spill their secrets at her wit and charm. Candy always uses this knowledge to aid her fellow adventurers, often being the first to come to the side of a fallen companion.');
@@ -3521,8 +3521,8 @@ insert into Characters (CardIndex) VALUES (906);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (516, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (516, 
-'http://htkb.info/SDE/Standies/Sweetheart_Candy.png', 
-'http://htkb.info/SDE/Standies/Sweetheart_Candy_back.png',
+'http://htkb.info/ND/SDE/Standies/Sweetheart_Candy.png', 
+'http://htkb.info/ND/SDE/Standies/Sweetheart_Candy_back.png',
 'Feminine', 'Small', 'Human', 7, 3, '2B', '2R', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (411, 641); --Have A Heart
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (411, 642); --Heal X
@@ -3536,8 +3536,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Tahariel --CardIndex 907	--CharacterIndex 517	--ExploreCharacterIndex 412
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (907, 'Tahariel', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tahariel_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tahariel_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Tahariel_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Tahariel_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Tahariel.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Tahariel first played the Last Galaxy''s most popular video game, Super Dungeon, in order to corrupt it from the inside. She programmed her character to blight those around her, increasing the severity of wounds they suffered. But soon she found that even a maleaach void witch, harbinger of the Calamity, could relax on occasion and enjoy some pixelated fun.');
@@ -3545,8 +3545,8 @@ insert into Characters (CardIndex) VALUES (907);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (517, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (517, 
-'http://htkb.info/SDE/Standies/Tahariel.png', 
-'http://htkb.info/SDE/Standies/Tahariel_back.png',
+'http://htkb.info/ND/SDE/Standies/Tahariel.png', 
+'http://htkb.info/ND/SDE/Standies/Tahariel_back.png',
 'Feminine', 'Small', 'Maleaach', 6, 3, '2B', '2R', '1B 1G', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (412, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (412, 685); --Improved Critical
@@ -3561,8 +3561,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Tamamo No Mae --CardIndex 908	--CharacterIndex 518	--ExploreCharacterIndex 413
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (908, 'Tamamo No Mae', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tamamo_No_Mae_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tamamo_No_Mae_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Tamamo_No_Mae_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Tamamo_No_Mae_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Tamamo_No_Mae.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'There has always been a Tamamo no Mae. For as long as people have walked the mist-haunted forests of northern Kagejima, Tamamo no Mae has watched them. Few, they freely admit, can resist her enticing call. None, they darkly concede, escape her traps.');
@@ -3570,8 +3570,8 @@ insert into Characters (CardIndex) VALUES (908);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (518, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (518, 
-'http://htkb.info/NAS/Standies/Tamamo_No_Mae.png', 
-'http://htkb.info/NAS/Standies/Tamamo_No_Mae_back.png',
+'http://htkb.info/ND/NAS/Standies/Tamamo_No_Mae.png', 
+'http://htkb.info/ND/NAS/Standies/Tamamo_No_Mae_back.png',
 'Feminine', 'Small', 'Kitsune', 6, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (413, 1022); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (413, 1029); --Territorial
@@ -3583,8 +3583,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Tatsu --CardIndex 909	--CharacterIndex 519	--ExploreCharacterIndex 414
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (909, 'Tatsu', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tatsu_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tatsu_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Tatsu_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Tatsu_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Tatsu.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');
@@ -3593,8 +3593,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (519, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (519, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (519, 
-'http://htkb.info/SDE/Standies/SOTC/Tatsu.png', 
-'http://htkb.info/SDE/Standies/SOTC/Tatsu_back.png',
+'http://htkb.info/ND/SDE/Standies/SOTC/Tatsu.png', 
+'http://htkb.info/ND/SDE/Standies/SOTC/Tatsu_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (414, 585); --Feint
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (414, 794); --Parry
@@ -3608,8 +3608,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Tincan --CardIndex 910	--CharacterIndex 520	--ExploreCharacterIndex 415
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (910, 'Tincan', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tincan_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tincan_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Tincan_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Tincan_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Tincan.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');
@@ -3617,8 +3617,8 @@ insert into Characters (CardIndex) VALUES (910);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (520, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (520, 
-'http://htkb.info/SDE/Standies/Tincan.png', 
-'http://htkb.info/SDE/Standies/Tincan_back.png',
+'http://htkb.info/ND/SDE/Standies/Tincan.png', 
+'http://htkb.info/ND/SDE/Standies/Tincan_back.png',
 'Masculine', 'Small', 'Dwarf', 5, 3, '2R', '2B 1R', '2B 1R', '1B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (415, 636); --Grabby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (415, 642); --Heal X
@@ -3637,8 +3637,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Treffen Cedarbough --CardIndex 911	--CharacterIndex 521	--ExploreCharacterIndex 416
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (911, 'Treffen Cedarbough', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Treffen_Cedarbough_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Treffen_Cedarbough_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Treffen_Cedarbough_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Treffen_Cedarbough_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Treffen_Cedarbough.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Deadly archers, the Glimmerdusk Rangers patrol the edges of the Fae Wood hunting any foolish enough to enter uninvited. With the rise of the Dark Consul, and the Nether Rifts advancing into their lands, the rangers have begun to venture from their woodland realm. They offer their considerable skill to any who will take the fight to the Dark Consul.');
@@ -3646,8 +3646,8 @@ insert into Characters (CardIndex) VALUES (911);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (521, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (521, 
-'http://htkb.info/SDE/Standies/Novel/Treffen_Cedarbough.png', 
-'http://htkb.info/SDE/Standies/Novel/Treffen_Cedarbough_back.png',
+'http://htkb.info/ND/SDE/Standies/Novel/Treffen_Cedarbough.png', 
+'http://htkb.info/ND/SDE/Standies/Novel/Treffen_Cedarbough_back.png',
 'Masculine', 'Large', 'Shapeshift', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (416, 847); --Remedy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (416, 1009); --Stealth
@@ -3663,8 +3663,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Trick-Or-Treat Cola --CardIndex 912	--CharacterIndex 522	--ExploreCharacterIndex 417
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (912, 'Trick-Or-Treat Cola', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Trick_Or_Treat_Cola_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Trick_Or_Treat_Cola_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Trick_Or_Treat_Cola_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Trick_Or_Treat_Cola_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Trick_Or_Treat_Cola.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 ''); --!! unavailable !!
@@ -3672,8 +3672,8 @@ insert into Characters (CardIndex) VALUES (912);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (522, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (522, 
-'http://htkb.info/SDE/Standies/Trick_Or_Treat_Cola.png', 
-'http://htkb.info/SDE/Standies/Trick_Or_Treat_Cola_back.png',
+'http://htkb.info/ND/SDE/Standies/Trick_Or_Treat_Cola.png', 
+'http://htkb.info/ND/SDE/Standies/Trick_Or_Treat_Cola_back.png',
 'Either', 'Small', 'Kitsune', 5, 3, '2B', '2R', '3B', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (417, 718); --Luck
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (417, 1867); --Trick
@@ -3685,8 +3685,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Trixie, Master of Chains --CardIndex 913	--CharacterIndex 523	--ExploreCharacterIndex 418
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (913, 'Trixie, Master of Chains', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Trixie_Master_of_Chains_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Trixie_Master_of_Chains_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Trixie_Master_of_Chains_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Trixie_Master_of_Chains_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Trixie_Master_of_Chains.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Skilled in breaking enemies'' wills and enslaving weaker minds, beware the snare of a priestess of Araphel!');
@@ -3694,8 +3694,8 @@ insert into Characters (CardIndex) VALUES (913);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (523, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (523, 
-'http://htkb.info/SDE/Standies/Trixie_Master_of_Chains.png', 
-'http://htkb.info/SDE/Standies/Trixie_Master_of_Chains_back.png',
+'http://htkb.info/ND/SDE/Standies/Trixie_Master_of_Chains.png', 
+'http://htkb.info/ND/SDE/Standies/Trixie_Master_of_Chains_back.png',
 'Feminine', 'Small', 'Riftling', 6, 3, '2B', '3B', '2B 1R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (418, 610); --Free Coin
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (418, 779); --One Use Only
@@ -3711,8 +3711,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Tusk Raider --CardIndex 914	--CharacterIndex 524	--ExploreCharacterIndex 419
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (914, 'Tusk Raider', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tusk_Raider_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tusk_Raider_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Tusk_Raider_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Tusk_Raider_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Tusk_Raider.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Each Tusk Raider must strike out on their own to harness their mount, and most simply never return. But the walrus is only loyal to its rider, and may turn on others who come too close.');
@@ -3720,8 +3720,8 @@ insert into Characters (CardIndex) VALUES (914);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (524, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (524, 
-'http://htkb.info/SDE/Standies/Tusk_Raider.png', 
-'http://htkb.info/SDE/Standies/Tusk_Raider_back.png',
+'http://htkb.info/ND/SDE/Standies/Tusk_Raider.png', 
+'http://htkb.info/ND/SDE/Standies/Tusk_Raider_back.png',
 'Masculine', 'Small', 'Dwarf', 5, 3, '1B 1G', '2R', '1B', '2R', 7, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (419, 431); --Angry Walrus
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (419, 457); --Berserk
@@ -3736,8 +3736,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Twilight Cola --CardIndex 915	--CharacterIndex 525	--ExploreCharacterIndex 420
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (915, 'Twilight Cola', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Twilight_Cola_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Twilight_Cola_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Twilight_Cola_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Twilight_Cola_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Twilight_Cola.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Always Candy''s faithful companion, Twilight Cola provides wicked-good tambourine accompaniment to Candy''s lyrical genius. The tambourine also proves effective at bopping unrully fans on the head when they get out of line.');
@@ -3745,8 +3745,8 @@ insert into Characters (CardIndex) VALUES (915);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (525, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (525, 
-'http://htkb.info/SDE/Standies/WOTF/Twilight_Cola.png', 
-'http://htkb.info/SDE/Standies/WOTF/Twilight_Cola_back.png',
+'http://htkb.info/ND/SDE/Standies/WOTF/Twilight_Cola.png', 
+'http://htkb.info/ND/SDE/Standies/WOTF/Twilight_Cola_back.png',
 'Either', 'Small', 'Kitsune', 6, 3, '1B 1R', '2B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (420, 585); --Feint
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (420, 1511); --Piercing Blade
@@ -3758,8 +3758,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Unicorn --CardIndex 916	--CharacterIndex 526	--ExploreCharacterIndex 421
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (916, 'Unicorn', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Unicorn_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Unicorn_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Unicorn_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Unicorn_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Unicorn.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'All unicorns were once nethercorns, vile demons native to the Dark Realm. Touched by the grace of the Goddess, a unicorn has been transformed into a divine herald of the Light. It is said that unicorns can only be found by those who are burdened with doomed souls, that the unicorn endeavors to guide back to the Light before they are lost forever.');
@@ -3767,8 +3767,8 @@ insert into Characters (CardIndex) VALUES (916);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (526, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (526, 
-'http://htkb.info/SDE/Standies/Nethercorn.png', 
-'http://htkb.info/SDE/Standies/Nethercorn_back.png',
+'http://htkb.info/ND/SDE/Standies/Nethercorn.png', 
+'http://htkb.info/ND/SDE/Standies/Nethercorn_back.png',
 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (421, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (421, 596); --Fly
@@ -3799,8 +3799,8 @@ VALUES (527,
 
 --Ursus Knight --CardIndex 918	--CharacterIndex 528	--ExploreCharacterIndex 423
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (918, 'Ursus Knight', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ursus_Knight_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ursus_Knight_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Ursus_Knight_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Ursus_Knight_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ursus_Knight.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The Forgotten King has left his mark on many of the denizens of the world. Those that didn''t totally succumb to the Chimeric energies, whether through magical talismans or other protection still carry a taint of his dark radiance. The Ursus Knight, like many of his fallen brothers, is cursed to walk the earth in between bodies. In one form, a rugged questing knight, but in another, when he is angry, a mighty bear. Still strapped up within the knight''s armor, he is a fearsome enemy of the Dark Consul. Just, don''t make him angry. You wouldn''t like him when he''s angry.');
@@ -3808,8 +3808,8 @@ insert into Characters (CardIndex) VALUES (918);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (528, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (528, 
-'http://htkb.info/SDE/Standies/Ursus_Knight.png', 
-'http://htkb.info/SDE/Standies/Ursus_Knight_back.png',
+'http://htkb.info/ND/SDE/Standies/Ursus_Knight.png', 
+'http://htkb.info/ND/SDE/Standies/Ursus_Knight_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (423, 533); --Deadly Defense
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (423, 728); --Massive Damage
@@ -3823,8 +3823,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Uzumaki --CardIndex 919	--CharacterIndex 529	--ExploreCharacterIndex 424
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (919, 'Uzumaki', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Uzumaki_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Uzumaki_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Uzumaki_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Uzumaki_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Uzumaki.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'While most Kitsune distrust outsiders and prefer to stay in their loamy, fern-shrouded forests, Uzumaki is often the first to greet travelers and offer them warding runes and medicines in exchange for stories of the world beyond.');
@@ -3832,8 +3832,8 @@ insert into Characters (CardIndex) VALUES (919);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (529, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (529, 
-'http://htkb.info/NAS/Standies/Uzumaki.png', 
-'http://htkb.info/NAS/Standies/Uzumaki_back.png',
+'http://htkb.info/ND/NAS/Standies/Uzumaki.png', 
+'http://htkb.info/ND/NAS/Standies/Uzumaki_back.png',
 'Masculine', 'Small', 'Kitsune', 6, 3, '3B', '2R', '2R', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (424, 828); --Quick Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (424, 1022); --Surefoot
@@ -3845,8 +3845,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Valerie Duval --CardIndex 920	--CharacterIndex 530	--ExploreCharacterIndex 425
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (920, 'Valerie Duval', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Valerie_Duval_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Valerie_Duval_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Valerie_Duval_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Valerie_Duval_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Valerie_Duval.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');
@@ -3854,8 +3854,8 @@ insert into Characters (CardIndex) VALUES (920);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (530, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (530, 
-'http://htkb.info/SDE/Standies/SOTC/Valerie_Duval.png', 
-'http://htkb.info/SDE/Standies/SOTC/Valerie_Duval_back.png',
+'http://htkb.info/ND/SDE/Standies/SOTC/Valerie_Duval.png', 
+'http://htkb.info/ND/SDE/Standies/SOTC/Valerie_Duval_back.png',
 'Feminine', 'Small', 'Human', 7, 3, '3B', '2B', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (425, 457); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (425, 642); --Heal X
@@ -3871,8 +3871,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Virtuous Blade --CardIndex 921	--CharacterIndex 531	--ExploreCharacterIndex 426
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (921, 'Virtuous Blade', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Virtuous_Blade_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Virtuous_Blade_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Virtuous_Blade_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Virtuous_Blade_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Virtuous_Blade.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'A subset of Silver Chevaliers, Virtuous Blades devote themselves not only to the ideals of honor but also service to Crystalia. These martial champions take strict vows of piety, poverty, and service. Their sacrifice and devotion causes many to assume they belong to one of the paladin orders. Indeed, they find common cause with paladins. But their secular nature and focus on service affords them greater acceptance from the many diverse cultures of Crystalia. Virtuous Blades are often elevated to roles of leadership so they can best martial all the forces of Light against the darkness.');
@@ -3880,8 +3880,8 @@ insert into Characters (CardIndex) VALUES (921);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (531, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (531, 
-'http://htkb.info/SDE/Standies/Virtuous_Blade.png', 
-'http://htkb.info/SDE/Standies/Virtuous_Blade_back.png',
+'http://htkb.info/ND/SDE/Standies/Virtuous_Blade.png', 
+'http://htkb.info/ND/SDE/Standies/Virtuous_Blade_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B 1R', '2R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (426, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (426, 1014); --Strength of Virtue
@@ -3895,8 +3895,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 --Wandering Master --CardIndex 922	--CharacterIndex 532	--ExploreCharacterIndex 427
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (922, 
 'Wandering Master', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Wandering_Master_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Wandering_Master_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Wandering_Master_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Wandering_Master_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Wandering_Master.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');--!! unavailable !!
@@ -3905,8 +3905,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (532, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (532, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (532, 
-'http://htkb.info/NAS/Standies/Yagyu_Jubei.png', 
-'http://htkb.info/NAS/Standies/Yagyu_Jubei_back.png',
+'http://htkb.info/ND/NAS/Standies/Yagyu_Jubei.png', 
+'http://htkb.info/ND/NAS/Standies/Yagyu_Jubei_back.png',
 'Masculine', 'Small', 'Human', 7, 3, '2R', '3B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (427, 567); --Elemental Affinity
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (427, 585); --Feint
@@ -3919,8 +3919,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --White Knight Candy --CardIndex 923	--CharacterIndex 533	--ExploreCharacterIndex 428
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (923, 'White Knight Candy', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_White_Knight_Candy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_White_Knight_Candy_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_White_Knight_Candy_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_White_Knight_Candy_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/White_Knight_Candy.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Candy is ever devouted to defending those who can''t defend themselves. Though, on occasion, she will also defend those who do not entirely need it. Such are the ways of a White Knight.');
@@ -3928,8 +3928,8 @@ insert into Characters (CardIndex) VALUES (923);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (533, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (533, 
-'http://htkb.info/SDE/Standies/White_Knight_Candy.png', 
-'http://htkb.info/SDE/Standies/White_Knight_Candy_back.png',
+'http://htkb.info/ND/SDE/Standies/White_Knight_Candy.png', 
+'http://htkb.info/ND/SDE/Standies/White_Knight_Candy_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '3B', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (428, 464); --Blessed Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (428, 588); --Fire
@@ -3943,8 +3943,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Witch Exterminator --CardIndex 924	--CharacterIndex 534	--ExploreCharacterIndex 429
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (924, 'Witch Exterminator', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Witch_Exterminator_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Witch_Exterminator_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Witch_Exterminator_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Witch_Exterminator_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Witch_Exterminator.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Don''t touch that! Do you want to blow us all to the Goddess!?');
@@ -3953,8 +3953,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (534, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (534, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (534, 
-'http://htkb.info/SDE/Standies/Witch_Exterminator.png', 
-'http://htkb.info/SDE/Standies/Witch_Exterminator_back.png',
+'http://htkb.info/ND/SDE/Standies/Witch_Exterminator.png', 
+'http://htkb.info/ND/SDE/Standies/Witch_Exterminator_back.png',
 'Feminine', 'Small', 'Human', 6, 2, '2B', '3B', '2R', '1B 1R', 5, 3);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (429, 440); --Artillery
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (429, 455); --Bane
@@ -3973,8 +3973,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Wyrdwood Reaver --CardIndex 925	--CharacterIndex 535	--ExploreCharacterIndex 430
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (925, 'Wyrdwood Reaver', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Wyrdwood_Reaver_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Wyrdwood_Reaver_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Wyrdwood_Reaver_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Wyrdwood_Reaver_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Wyrdwood_Reaver.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 ''); --!! unavailable !!
@@ -3982,8 +3982,8 @@ insert into Characters (CardIndex) VALUES (925);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (535, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (535, 
-'http://htkb.info/SDE/Standies/Vlad_the_Perforator.png', 
-'http://htkb.info/SDE/Standies/Vlad_the_Perforator_back.png',
+'http://htkb.info/ND/SDE/Standies/Vlad_the_Perforator.png', 
+'http://htkb.info/ND/SDE/Standies/Vlad_the_Perforator_back.png',
 'Neither', 'Large', 'Orc', 6, 3, '3B', '2R', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (430, 483); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (430, 724); --Mark
@@ -3997,8 +3997,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Yagyu Jubei --CardIndex 926	--CharacterIndex 536	--ExploreCharacterIndex 431
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (926, 'Yagyu Jubei', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Yagyu_Jubei_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Yagyu_Jubei_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Yagyu_Jubei_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Yagyu_Jubei_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Yagyu_Jubei.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Yagyu Jubei had heard tales of the Moonlight Tournament for years before finally daring the passage to Kagejima to experience the tournament for himself. He has informed the Sun Court that he will not be returning soon; there is simply too much to see, and Jubei has sworn to discover all he can.');
@@ -4006,8 +4006,8 @@ insert into Characters (CardIndex) VALUES (926);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (536, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (536, 
-'http://htkb.info/NAS/Standies/Yagyu_Jubei.png', 
-'http://htkb.info/NAS/Standies/Yagyu_Jubei_back.png',
+'http://htkb.info/ND/NAS/Standies/Yagyu_Jubei.png', 
+'http://htkb.info/ND/NAS/Standies/Yagyu_Jubei_back.png',
 'Masculine', 'Small', 'Human', 7, 3, '2R', '2R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (431, 585); --Feint
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (431, 794); --Parry
@@ -4021,8 +4021,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Yokozuna --CardIndex 927	--CharacterIndex 537	--ExploreCharacterIndex 432
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (927, 'Yokozuna', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Yokozuna_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Yokozuna_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Yokozuna_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Yokozuna_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Yokozuna.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Ever eager to help, ever ready with a smile, a kind word, or a joke, Yokozuna commonly hoists an inebriated Shojo onto his ample shoulders. Curiously, he rarely drinks. Rumors say he drank whole taverns dry in his youth without becoming drunk, something Shojo considers a staggering tragedy.');
@@ -4030,8 +4030,8 @@ insert into Characters (CardIndex) VALUES (927);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (537, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (537, 
-'http://htkb.info/NAS/Standies/Yokozuna.png', 
-'http://htkb.info/NAS/Standies/Yokozuna_back.png',
+'http://htkb.info/ND/NAS/Standies/Yokozuna.png', 
+'http://htkb.info/ND/NAS/Standies/Yokozuna_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3R', '3B', '3B', '2B', 7, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (432, 679); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (432, 709); --Knockdown
@@ -4045,8 +4045,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Yui --CardIndex 928	--CharacterIndex 538	--ExploreCharacterIndex 433
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (928, 'Yui', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Yui_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Yui_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Yui_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Yui_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Yui.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Ichika and her twin sister Yui have stood guard at their shrine for nearly 10 years before agents of the Dark Consul razed her temple to the ground. Ichika, has sworn to stay by her sisters side to help hunt down and destroy the enemies of Kagejima''s Kami, and purify her blade in their destruction.'); --!! This is Ichika's back !!
@@ -4054,8 +4054,8 @@ insert into Characters (CardIndex) VALUES (928);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (538, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (538, 
-'http://htkb.info/SDE/Standies/NAS/Yui.png', 
-'http://htkb.info/SDE/Standies/NAS/Yui_back.png',
+'http://htkb.info/ND/SDE/Standies/NAS/Yui.png', 
+'http://htkb.info/ND/SDE/Standies/NAS/Yui_back.png',
 'Feminine', 'Small', 'Human', 6, 2, '2B', '3B', '3B', '3B', 3, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (433, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (433, 642); --Heal X
@@ -4069,8 +4069,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Yurei No Tomomori --CardIndex 929	--CharacterIndex 539	--ExploreCharacterIndex 434
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (929, 'Yurei No Tomomori', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Yurei_No_Tomomori_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Yurei_No_Tomomori_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Yurei_No_Tomomori_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Yurei_No_Tomomori_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Yurei_No_Tomomori.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');--!! unavailable !!
@@ -4078,8 +4078,8 @@ insert into Characters (CardIndex) VALUES (929);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (539, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (539, 
-'http://htkb.info/SDE/Standies/NAS/Yurei_No_Tomomori.png', 
-'http://htkb.info/SDE/Standies/NAS/Yurei_No_Tomomori_back.png',
+'http://htkb.info/ND/SDE/Standies/NAS/Yurei_No_Tomomori.png', 
+'http://htkb.info/ND/SDE/Standies/NAS/Yurei_No_Tomomori_back.png',
 'Masculine', 'Small', 'Undead', 5, 3, '2R', '3B', '4B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (434, 562); --Dragged To The Depths
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (434, 1038); --Dragged Down
@@ -4091,8 +4091,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 
 --Zenyo Ryu --CardIndex 930	--CharacterIndex 540	--ExploreCharacterIndex 435
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (930, 'Zenyo Ryu', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Zenyo_Ryu_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Zenyo_Ryu_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Zenyo_Ryu_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Zenyo_Ryu_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Zenyo_Ryu.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Among the Tanchyo clan, archery is the highest art of war. Few practitioners of this art are as renowned as the woman called Zenyo Ryu, or more simply, The Dragon. She has learned to build customized ammunition, employing crescent arrowheads for cutting rope, whistling noisemakers to signal her friends or soldiers, and long, narrow points she calls fangs for piercing armor.');
@@ -4100,8 +4100,8 @@ insert into Characters (CardIndex) VALUES (930);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (540, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (540, 
-'http://htkb.info/NAS/Standies/Zenyo_Ryu.png', 
-'http://htkb.info/NAS/Standies/Zenyo_Ryu_back.png',
+'http://htkb.info/ND/NAS/Standies/Zenyo_Ryu.png', 
+'http://htkb.info/ND/NAS/Standies/Zenyo_Ryu_back.png',
 'Feminine', 'Small', 'Tanchyo', 7, 3, '2B', '2R', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, 729); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, 1071); --Wind of Blades

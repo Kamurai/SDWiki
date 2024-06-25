@@ -1,8 +1,8 @@
 --Custom Mech Equipment
 --Tokki Chassis --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tokki Chassis',
-'http://htkb.info/SDE/Custom/Cards/Mechs/Card_Mech_Chassis_Tokki.png', 
-'http://htkb.info/SDE/Custom/Cards/Mechs/Card_Mech_Back.png',
+'http://htkb.info/ND/SDE/Custom/Cards/Mechs/Card_Mech_Chassis_Tokki.png', 
+'http://htkb.info/ND/SDE/Custom/Cards/Mechs/Card_Mech_Back.png',
 'http://htkb.online/SDWiki/SDE/Custom/Cards/Loot/Tokki_Chassis.xhtml', 
 'Mech', 'Custom', 'Custom', 'Default',
 '');
@@ -11,8 +11,8 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (eXXX, abXX
 
 --Tokki Left Arm --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tokki Left Arm',
-'http://htkb.info/SDE/Custom/Cards/Mechs/Card_Mech_Left_Arm_Tokki.png', 
-'http://htkb.info/SDE/Custom/Cards/Mechs/Card_Mech_Back.png',
+'http://htkb.info/ND/SDE/Custom/Cards/Mechs/Card_Mech_Left_Arm_Tokki.png', 
+'http://htkb.info/ND/SDE/Custom/Cards/Mechs/Card_Mech_Back.png',
 'http://htkb.online/SDWiki/SDE/Custom/Cards/Loot/Tokki_Left_Arm.xhtml', 
 'Mech', 'Custom', 'Custom', 'Default',
 '');
@@ -21,8 +21,8 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (eXXX, abXX
 
 --Tokki Right Arm --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tokki Right Arm',
-'http://htkb.info/SDE/Custom/Cards/Mechs/Card_Mech_Right_Arm_Tokki.png', 
-'http://htkb.info/SDE/Custom/Cards/Mechs/Card_Mech_Back.png',
+'http://htkb.info/ND/SDE/Custom/Cards/Mechs/Card_Mech_Right_Arm_Tokki.png', 
+'http://htkb.info/ND/SDE/Custom/Cards/Mechs/Card_Mech_Back.png',
 'http://htkb.online/SDWiki/SDE/Custom/Cards/Loot/Tokki_Right_Arm.xhtml', 
 'Mech', 'Custom', 'Custom', 'Default',
 '');
@@ -31,8 +31,8 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (eXXX, abXX
 
 --Tokki Legs --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tokki Legs',
-'http://htkb.info/SDE/Custom/Cards/Mechs/Card_Mech_Legs_Tokki.png', 
-'http://htkb.info/SDE/Custom/Cards/Mechs/Card_Mech_Back.png',
+'http://htkb.info/ND/SDE/Custom/Cards/Mechs/Card_Mech_Legs_Tokki.png', 
+'http://htkb.info/ND/SDE/Custom/Cards/Mechs/Card_Mech_Back.png',
 'http://htkb.online/SDWiki/SDE/Custom/Cards/Loot/Tokki_Legs.xhtml', 
 'Mech', 'Custom', 'Custom', 'Default',
 '');

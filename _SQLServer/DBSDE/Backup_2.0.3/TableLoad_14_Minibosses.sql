@@ -6,8 +6,8 @@
 --Dread Scarlett --CardIndex 2359	--CharacterIndex 1205	--ExploreCharacterIndex 866
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2359, 
 'Dread Scarlett',
-'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Dread_Scarlett_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Dread_Scarlett_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Dread_Scarlett_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Dread_Scarlett_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Dread_Scarlett.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Aye.  I cheated.  Tis your fault you let me get away with it.');
@@ -15,8 +15,8 @@ insert into Characters (CardIndex) VALUES (2359);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1205, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1205,
-'http://htkb.info/SDE/Standies/Dread_Scarlett.png', 
-'http://htkb.info/SDE/Standies/Dread_Scarlett_back.png', 
+'http://htkb.info/ND/SDE/Standies/Dread_Scarlett.png', 
+'http://htkb.info/ND/SDE/Standies/Dread_Scarlett_back.png', 
 'Feminine', 'Small', 'Freyjan Pirate', 6, 3, '3B', '3B 1R', '3B', '3R', 6, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (866, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (866, 451); --Backstabber

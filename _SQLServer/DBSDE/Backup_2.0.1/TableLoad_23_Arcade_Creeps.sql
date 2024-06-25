@@ -5,8 +5,8 @@
 
 --Chochin-Obake	--CardIndex 1264	--CharacterIndex 874	--ArcadeCharacterIndex 106
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1264, 'Chochin-Obake',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Chochin_Obake_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Chochin_Obake_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Chochin_Obake_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Chochin_Obake_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Chochin_Obake.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'When spirits seek to break the veil between life and death it is the Chochin-Obake who light their way.  The more powerful of these ghostly apparitions pull the Chochin-Obake through with them so that the ghostly minions can illuminate the souls of the living.');
@@ -23,8 +23,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (154, 1669
 
 --Curse Raven	--CardIndex 1265	--CharacterIndex 875	--ArcadeCharacterIndex 107
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1265, 'Curse Raven',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Curse_Raven_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Curse_Raven_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Curse_Raven_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Curse_Raven_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Curse_Raven.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'In the frozen lands of Frostbyte Reach, there is a legend about the Curse Raven. It is said that if you see one, someone close to you is on their way to death. It is not known if Curse Ravens cause the demise, or merely warn of the impending doom, but they are a dreaded sight either way.');
@@ -42,8 +42,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (155, 990)
 
 --Demolitions Expert	--CardIndex 1266	--CharacterIndex 876	--ArcadeCharacterIndex 108
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1266, 'Demolitions Expert',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Demolitions_Expert_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Demolitions_Expert_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Demolitions_Expert_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Demolitions_Expert_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Demolitions_Expert.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Accidents are known to happen.');
@@ -62,8 +62,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (156, 1339
 
 --Fire Flower	--CardIndex 1267	--CharacterIndex 877	--ArcadeCharacterIndex 109
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1267, 'Fire Flower',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Fire_Flower_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Fire_Flower_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Fire_Flower_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Fire_Flower_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Fire_Flower.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Fire Flowers are primitive by kodama standards, but it is a foolish Hero who underestimates these fire-spitting carnivores. Congregating in vast fields atop molten rock, fire flowers soak up the fiery heat to fuel their furnance-like fire chambers. When prey nears the entire field of flowers vomits forth a raining shower of fire, barbecuing their delicious meal to a perfect charbroil.');
@@ -80,8 +80,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (157, 691)
 
 --Forge Gnome	--CardIndex 1268	--CharacterIndex 878	--ArcadeCharacterIndex 110
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1268, 'Forge Gnome',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Forge_Gnome_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Forge_Gnome_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Forge_Gnome_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Forge_Gnome_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Forge_Gnome.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Master artificers themselves, it is no surprise that some gnomes are willing to abandon all in pursuit of their craft--despite the risks. Lured by forbidden knowledge, Forge Gnomes have fallen to the Dark in order to apprentice under Lord Vulcanis. Though the skills they acquire are many, the cost they pay is high as the will of the Dark Consul slowly twists and subverts them into little more than monsters.');
@@ -96,8 +96,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (158, 1758
 
 --Frost Imp	--CardIndex 1269	--CharacterIndex 879	--ArcadeCharacterIndex 111
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1269, 'Frost Imp',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Frost_Imp_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Frost_Imp_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Frost_Imp_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Frost_Imp_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Frost_Imp.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Centuries of life within the bitter cold of the Frostbyte Reach have caused Frost Imps to mutate and adapt to their surroundings.  Frost Imp''s souls are as cold and hard as the land they call home.  They delight in causing avalanches upon traveling caravans, trapping hunters in snowdrifts, or simply putting snow down a sleeping Hero''s pants.');
@@ -114,8 +114,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (159, 1981
 
 --Ghostflame	--CardIndex 1270	--CharacterIndex 880	--ArcadeCharacterIndex 112
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1270, 'Ghostflame',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghostflame_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghostflame_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghostflame_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghostflame_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Ghostflame.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Ghostflames are flaming skulls, taken by Mordred as trophies from the heroes he has vanquished in honorable combat. They still speak in their old voices, chattering and taunting heroes who may have once called them friends. Mordred grows in power with each skull he claims, and when they are vanquished they explode in a fiery burst.');
@@ -131,8 +131,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (160, 894)
 
 --Kodead	--CardIndex 1271	--CharacterIndex 881	--ArcadeCharacterIndex 113
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1271, 'Kodead',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Kodead_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Kodead_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Kodead_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Kodead_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Kodead.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'The dragon Nightsong had a cult of kobolds who worshipped him, just as a cult is devoted to each dragon of Crystalia. When Nightsong was swallowed by the Nether Rifts, so too were the kobolds who followed him. Not to be the only dragon without a proper kobold cult, Nightsong resurrected them, and they remain his most loyal servants.');
@@ -147,8 +147,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (161, 795)
 
 --Nether Imp	--CardIndex 1272	--CharacterIndex 882	--ArcadeCharacterIndex 114
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1272, 'Nether Imp',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Nether_Imp_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Nether_Imp_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Nether_Imp_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Nether_Imp_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Nether_Imp.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Like all imps, Nether Imps are infinitely playful and mischievous. However, being born of the Dark Realms, their mischief is a tad more malicious than most. Where a typical imp may leave an egg in your boot, a Nether Imp will chuckle as it sets your feet aflame with the baleful fires of the Nether Rifts. It''s not the imp''s fault if you can''t take a joke.');
@@ -165,8 +165,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (162, 1462
 
 --Rotten Pumpkin	--CardIndex 1273	--CharacterIndex 883	--ArcadeCharacterIndex 115
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1273, 'Rotten Pumpkin',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Rotten_Pumpkin_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Rotten_Pumpkin_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Rotten_Pumpkin_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Rotten_Pumpkin_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Rotten_Pumpkin.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 '');  --!! unavailable !!
@@ -181,8 +181,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (163, 903)
 
 --Spiker	--CardIndex 1274	--CharacterIndex 884	--ArcadeCharacterIndex 116
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1274, 'Spiker',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Spiker_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Spiker_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Spiker_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Spiker_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Spiker.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Spiker life is short and brutal. Most die from being thrown at Heroes at high velocities or being fed to The Guth''s hogs (or The Guth himself). Surprisingly, there is never any shortage of volunteers to serve as a Spiker. They''re definitely not forced into the role by the bigger orcs and goblins. It''s an honor to serve The Guth. They absolutely, positively, 100% want to be a Spiker. Seriously.');  
@@ -198,8 +198,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (164, 708)
 
 --Spiteful Cherub	--CardIndex 1275	--CharacterIndex 885	--ArcadeCharacterIndex 117
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1275, 'Spiteful Cherub',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Spiteful_Cherub_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Spiteful_Cherub_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Spiteful_Cherub_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Spiteful_Cherub_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Spiteful_Cherub.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 '');
@@ -215,8 +215,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (165, 995)
 
 --Squigly	--CardIndex 1276	--CharacterIndex 886	--ArcadeCharacterIndex 118
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1276, 'Squigly',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Squigly_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Squigly_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Squigly_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Squigly_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Squigly.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Squigglies plague Clockwork Cove. Don''t let their cute appearance fool you, these tiny creatures are devoted minions of the Dark Consul. They have been used to weaken the supports of docks, clog up the gears of various machinery, and generally be a thorn in the side of any hero who stands up against the forces of darkness.');
@@ -233,8 +233,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (166, 1680
 
 --Underdead Crow	--CardIndex 1277	--CharacterIndex 887	--ArcadeCharacterIndex 119
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1277, 'Underdead Crow',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Underdead_Crow_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Underdead_Crow_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Underdead_Crow_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Underdead_Crow_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Underdead_Crow.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 '');  --!! unavailable !!
@@ -250,8 +250,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (167, 693)
 
 --Waystone	--CardIndex 1278	--CharacterIndex 888	--ArcadeCharacterIndex 120
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1278, 'Waystone',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Waystone_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Waystone_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Waystone_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Waystone_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Waystone.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Waystones are used by the Jotnar to mark the icy paths of the Skull White Fastness and lead weary travelers to safety. Ymnaur Wintersson also uses waystones, but he has woven dark magic into them, and uses them to make him near-invulnerable while he remains in his frozen realm.');
@@ -267,8 +267,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (168, 1019
 
 --Yowling	--CardIndex 1279	--CharacterIndex 889	--ArcadeCharacterIndex 121
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1279, 'Yowling',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yowling_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yowling_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yowling_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yowling_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Yowling.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Mother Noctua acts as mother and guardian to all of the fae Wood, but she has special love for her Yowlings - young owlbears that flock to her side. They are hatched from the most precious Deeproot Acorns, and they are daring and mischievous. More than one hero has had her favorite soda stolen by a playful Yowling.');
@@ -285,8 +285,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (169, 1310
 
 --Yurei Bushi	--CardIndex 1280	--CharacterIndex 890	--ArcadeCharacterIndex 122
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1280, 'Yurei Bushi',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yurei_Bushi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yurei_Bushi_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yurei_Bushi_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yurei_Bushi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Yurei_Bushi.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'As in life, the bonds of loyalty can follow a warrior into the afterlife. Spiritual guardians who left the world with an oath of fealty on their lips often return again to serve at their masters side.');

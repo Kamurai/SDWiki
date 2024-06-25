@@ -5,8 +5,8 @@
 
 --Arachne	--CardIndex 1281	--CharacterIndex 891	--ArcadeCharacterIndex 123
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1281, 'Arachne',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Arachne_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Arachne_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Arachne_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Arachne_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Arachne.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Like all Spider Queens, Arachne is a hideous fusion of nether elf and spider.  Young by the standards of elves, Arachne has nonetheless rapidly risen to power.  Vanquishing over a dozen of her Spider Queen rivals in mere months, Arachne has caught the eye of The Midnight Queen and become a vaored lieutenant in the war against the Light.');
@@ -24,8 +24,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (571, 902)
 
 --Arashikage	--CardIndex 1282	--CharacterIndex 892	--ArcadeCharacterIndex 124
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1282, 'Arashikage',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Arashikage_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Arashikage_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Arashikage_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Arashikage_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Arashikage.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 '"I can kill him, yes, but only if you tell me what I need to know."');
@@ -45,8 +45,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (572, 753)
 
 --Blood-Eye	--CardIndex 1283	--CharacterIndex 893	--ArcadeCharacterIndex 125
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1283, 'Blood-Eye',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Blood_Eye_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Blood_Eye_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Blood_Eye_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Blood_Eye_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Blood_Eye.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Blood-Eye, was exiled from the Crook-Eye tribe for his lack of honor and tendency towards unnecessary violence. In truth, Blood-Eye cared little about his exile, having long chafed under the "civilized" tribe''s rules. A ruthless hunter and tracker, Blood-Eye has readily found work among the minions of the Dark Consul.');
@@ -65,8 +65,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (573, 1346
 
 --Cernonos	--CardIndex 1284	--CharacterIndex 894	--ArcadeCharacterIndex 126
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1284, 'Cernonos',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Cernonos_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Cernonos_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Cernonos_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Cernonos_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Cernonos.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'At the heart of every maze awaits a monster. Many brave adventurers have lost their way, and Cernonos is always waiting...');
@@ -86,8 +86,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (574, 1384
 
 --Chained Knight	--CardIndex 1285	--CharacterIndex 895	--ArcadeCharacterIndex 127
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1285, 'Chained Knight',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Chained_Knight_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Chained_Knight_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Chained_Knight_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Chained_Knight_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Chained_Knight.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'One of Araphel''s most terrifying devotees is a hulking figure known simply as the Chained Knight. Such is Araphel''s influence over him that even his name has been consumed and forgotten. Whatever he once was, now he is Araphel''s sword arm, put to use when subtlety has run its course. Even so, many say they sometimes see a flicker of defiance on his face, as if something within him still resists his dark mistress.');
@@ -106,8 +106,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (575, 1156
 
 --Chaos Kitty	--CardIndex 1286	--CharacterIndex 896	--ArcadeCharacterIndex 128
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1286, 'Chaos Kitty',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Chaos_Kitty_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Chaos_Kitty_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Chaos_Kitty_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Chaos_Kitty_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Chaos_Kitty.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 '"I was just playing with it and then it broke..."');
@@ -129,8 +129,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (576, 1455
 
 --Charmancer	--CardIndex 1287	--CharacterIndex 897	--ArcadeCharacterIndex 129
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1287, 'Charmancer',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Charmancer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Charmancer_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Charmancer_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Charmancer_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Charmancer.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 ''); --!! unavailable !!
@@ -148,8 +148,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (577, 1338
 --Clan Ika Chunin	--CardIndex 1288	--CharacterIndex 898	--ArcadeCharacterIndex 130
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1288, 
 'Clan Ika Chunin',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Ika_Chunin_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Ika_Chunin_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Ika_Chunin_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Ika_Chunin_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Ika_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
@@ -171,8 +171,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (578, 1797
 --Clan Kitsune Chunin	--CardIndex 1289	--CharacterIndex 899	--ArcadeCharacterIndex 131
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1289, 
 'Clan Kitsune Chunin',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Kitsune_Chunin_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Kitsune_Chunin_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Kitsune_Chunin_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Kitsune_Chunin_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Kitsune_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The Kitsune Chunin is the leader of the Kitsune Kunoichi. No outsider knows how the Chunin is chosen from the ranks of the Kunoichi, but it is speculated that Kunoichi are allowed to challenge the current Chunin for the title, ensuring that the strongest and most cunning is always in charge. He or she always wears a face covering in battle to protect their identity should they choose to leave any survivors. The Chunin is equipped with the most deadly of the concoctions for which the Kitsune are famed, often using these poisons to coat their weapons.');
@@ -190,8 +190,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (579, 945)
 
 --Clan Sohei Chunin	--CardIndex 1290	--CharacterIndex 900	--ArcadeCharacterIndex 132
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1290, 'Clan Sohei Chunin',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Chunin_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Chunin_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Chunin_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Chunin_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Sohei_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Sohei Chunin have faced horrors that would render lesser warriors insane.  But it is not their place to simply face such horrors, but to defeat and banish them back to the Dark Realm.  It is said that the greatest warriors of the clan, do not banish the minions of the Dark Consul, but unmake them entirely.  Ending their threat to Crystalia permanently.');
@@ -212,8 +212,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (580, 1871
 
 --Clan Sohei Oni	--CardIndex 1291	--CharacterIndex 901	--ArcadeCharacterIndex 133
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1291, 'Clan Sohei Oni',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Oni_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Oni_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Oni_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Oni_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Sohei_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 ''); --!! unavailable !!
@@ -232,8 +232,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (581, 1984
 --Clan Spirit Shrine Oni 	--CardIndex 1292	--CharacterIndex 902	--ArcadeCharacterIndex 134
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1292, 
 'Clan Spirit Shrine Oni',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Spirit_Shrine_Oni_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Spirit_Shrine_Oni_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Spirit_Shrine_Oni_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Spirit_Shrine_Oni_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Spirit_Shrine_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
@@ -251,8 +251,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (582, 1022
 
 --Clan Tanchyo Chunin	--CardIndex 1293	--CharacterIndex 903	--ArcadeCharacterIndex 135
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1293, 'Clan Tanchyo Chunin',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tanchyo_Chunin_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tanchyo_Chunin_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tanchyo_Chunin_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tanchyo_Chunin_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Tanchyo_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The Tanchyo are known throughout Kagejima for their archery skills, and the Chunin are those who have proven themselves above and beyond even their fellow Tanchyo. Each village only has a single Chunin. Sometimes this individual is a hero of a great battle. Sometimes they have proven themselves in an archery contest. But all Tanchyo Chunin are deadly opponents who can single-handedly rain down a storm of arrows.');
@@ -270,8 +270,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (583, 1584
 
 --Clan Tora Chunin	--CardIndex 1294	--CharacterIndex 904	--ArcadeCharacterIndex 136
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1294, 'Clan Tora Chunin',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tora_Chunin_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tora_Chunin_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tora_Chunin_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tora_Chunin_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Tora_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The Chunin of the Tora employ tactics learned over centuries of battle. Employing the strength of their warriors as a fire attacks a dry forest, or a Tiger pounces on the unwary prey.');
@@ -290,8 +290,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (584, 1151
 --Clan Void Shrine Oni 	--CardIndex 1295	--CharacterIndex 905	--ArcadeCharacterIndex 137
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1295, 
 'Clan Void Shrine Oni',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Void_Shrine_Oni_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Void_Shrine_Oni_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Void_Shrine_Oni_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Void_Shrine_Oni_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Void_Shrine_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
@@ -310,8 +310,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (585, 1022
 --Clan Water Shrine Oni 	--CardIndex 1296	--CharacterIndex 906	--ArcadeCharacterIndex 138
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1296, 
 'Clan Water Shrine Oni',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Water_Shrine_Oni_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Water_Shrine_Oni_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Water_Shrine_Oni_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Water_Shrine_Oni_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Water_Shrine_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
@@ -329,8 +329,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (586, 1022
 
 --Clan Yamazaru Chunin	--CardIndex 1297	--CharacterIndex 907	--ArcadeCharacterIndex 139
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1297, 'Clan Yamazaru Chunin',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yamazaru_Chunin_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yamazaru_Chunin_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yamazaru_Chunin_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yamazaru_Chunin_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Yamazaru_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The Yamazaru are naturally curious and playful. They love new trinquets and fun items, and this even spills over into how they arm themselves for battle. Often, the Yamazaru Chunin is simply the one with the newest weapon, biggest club, or the most new trinquets to share with his or her fellow Yamazaru.');
@@ -349,8 +349,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (587, 1733
 
 --Clan Yurei Chunin	--CardIndex 1298	--CharacterIndex 908	--ArcadeCharacterIndex 140
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1298, 'Clan Yurei Chunin',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Chunin_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Chunin_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Chunin_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Chunin_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Yurei_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'It is said that the hammers borne by the Yurei Chunin were the very ones used to close the final links of chain that held the Yurei clan nobles to their battle barges when they were cast into the ocean. Cursed with the most vile hatred for the Ika, these weapons are as much symbols of that hatred as they are tools for revenge.');
@@ -368,8 +368,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (588, 1198
 
 --Clan Yurei Oni	--CardIndex 1299	--CharacterIndex 909	--ArcadeCharacterIndex 141
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1299, 'Clan Yurei Oni',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Oni_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Oni_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Oni_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Oni_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Yurei_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Amongst the many warriors that were sent to the bottom of the sea during the Yurei rebellion. There were quite a few Oni from some of the outlying islands in the service of Lord Tomomori. Their strength was used to better their way onto the Ika''s castle ships. It is of no difference now, as even in death, they are terrifying and powerful foes. ');
@@ -388,8 +388,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (589, 1772
 
 --Crystal Weaver	--CardIndex 1300	--CharacterIndex 910	--ArcadeCharacterIndex 142
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1300, 'Crystal Weaver',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Crystal_Weaver_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Crystal_Weaver_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Crystal_Weaver_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Crystal_Weaver_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Crystal_Weaver.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The Midnight Tower is guarded by any number of nefarious traps, henchmen, and monsters. But none compare to the Crystal Golem in pure corruption and unfeeling malignance. Once a sacred keeper of the Goddess Chamber, the Crystal Golem was one of the wonders of Crystalia. That the Midnight Queen was able to taint it in both heart and form is a stain upon the land. Once in the shape of a mighty knight, the golem has taken on the twisted form of one of the Queen''s spiders, and stalks the halls of her tower hunting down unfortunate Heroes with unfeeling adeptness.');
@@ -408,8 +408,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (590, 1661
 
 --Cursed Jarl	--CardIndex 1301	--CharacterIndex 911	--ArcadeCharacterIndex 143
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1301, 'Cursed Jarl',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Cursed_Jarl_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Cursed_Jarl_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Cursed_Jarl_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Cursed_Jarl_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Cursed_Jarl.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'In order to unite the warring human tribes of Frostbyte Reavers, Elrik was required to earn (or force) the allegiance of each tribe''s powerful Jarl. Drawn to Elrik''s might--both physical and magical--most Jarls happily supported his claims to kingship and the riches it brought to them. They did not know of the dark powers which Elrik tapped to gain his strength. When Elrik ascended to Lichdom the Jarls were bestowed the curse of undeath, doomed to serve their King forever.');
@@ -428,8 +428,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (591, 1776
 
 --Dark Kitsune	--CardIndex 1302	--CharacterIndex 912	--ArcadeCharacterIndex 144
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1302, 'Dark Kitsune',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Dark_Kitsune_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Dark_Kitsune_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Dark_Kitsune_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Dark_Kitsune_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Dark_Kitsune.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Some Kitsune are ill-suited for life beneath their clan''s shadowed trees. Dark Kitsune dream of a wider world, and long to see it wonders. They take their clan''s skills in herbalism and magic with them, of course, and most parlay these talents into lucrative employment. They rarely have trouble finding warriors willing to pay their sometimes outlandish fees.');
@@ -462,8 +462,8 @@ VALUES (145, 0, '', '', '', 0, 0, 0, 178);
 
 --Ezoghoul	--CardIndex 1304	--CharacterIndex 914	--ArcadeCharacterIndex 146
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1304, 'Ezoghoul',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ezoghoul_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ezoghoul_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ezoghoul_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ezoghoul_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Ezoghoul.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
@@ -480,8 +480,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (594, 1460
 
 --Furious Fungomancer	--CardIndex 1305	--CharacterIndex 915	--ArcadeCharacterIndex 147
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1305, 'Furious Fungomancer',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Furious_Fungomancer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Furious_Fungomancer_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Furious_Fungomancer_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Furious_Fungomancer_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Furious_Fungomancer.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Sometimes an Okoshroom is exposed to powerful magic. It could be magic spewed by the Dark Consul, or even just a chance encounter with a powerful crystal. Whatever the cause, this can awaken a new understanding is the Okoshroom. It understands its place in the world. It understands how the other peoples of Crystalia see mushrooms; as mere fungus, even as food. Cursed with understanding, the Okoshroom becomes filled with rage, and seeks ways to wish the other people of Crystalia understand what it is to be a mushroom...');
@@ -500,8 +500,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (595, 806)
 
 --Gothmog the Terrible	--CardIndex 1306	--CharacterIndex 916	--ArcadeCharacterIndex 148
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1306, 'Gothmog the Terrible',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Gothmog_the_Terrible_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Gothmog_the_Terrible_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Gothmog_the_Terrible_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Gothmog_the_Terrible_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Gothmog_the_Terrible.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Gothmog once led the Ravagers as the tribe''s brutal warlord. Under his ferocious rule, the Ravagers became infamous throughout the Frostbyte Reach. His rule was eventually undermined when Guth the Pig overthrew him with the aid of a small, feisty, cunning tribe of goblins. Disgraced by his defeat, Gothmog now serves as The Guth''s lieutenant. He nurses his hatred for his new warlord, waiting for an opportune moment to topple him, and return to his former glory.');
@@ -518,8 +518,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (596, 1789
 
 --Grim Golem	--CardIndex 1307	--CharacterIndex 917	--ArcadeCharacterIndex 149
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1307, 'Grim Golem',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Grim_Golem_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Grim_Golem_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Grim_Golem_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Grim_Golem_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Grim_Golem.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The massive statues which stand sentinel around the Nether Rifts are, for all intents and purposes, impervious to harm. No attempt by the Light at destroying one has ever succeeded in even marring one''s surface. The Crystal Shapers of the Dark Realm, however, are able to manipulate the surface of the Heralds, growing stone spurs that can be removed and used for nefarious purpose. Particularly favored, is the creation of golems which patrol dungeons and dark keeps. Almost as resistant to harm as the Heralds themselves, these Grim Golems are tenacious foes.');
@@ -538,8 +538,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (597, 1888
 
 --Hecate Vilehorn	--CardIndex 1308	--CharacterIndex 918	--ArcadeCharacterIndex 150
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1308, 'Hecate Vilehorn',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Hecate_Vilehorn_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Hecate_Vilehorn_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Hecate_Vilehorn_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Hecate_Vilehorn_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Hecate_Vilehorn.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Hecate Vilehorn was once one of the more suspected Thundervale druids. But she became obsessed with the idea of ??? and sought after it with a combination of druidic magic, and things she ??? ??? the ways of various which ???. Her druidic ??? considered this ??? an ??? to the ??? world and, when she refused to stop, they ??? ???. Through vile enough she rose ??? ??? and now she ??? the Glauerdoom Moor, searching for the spell ??? ??? and her twilight of ??? and being her back ???.');
@@ -560,8 +560,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (598, 1718
 
 --Ibaraki-Doji	--CardIndex 1309	--CharacterIndex 919	--ArcadeCharacterIndex 151
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1309, 'Ibaraki-Doji',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ibaraki_Doji_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ibaraki_Doji_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ibaraki_Doji_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ibaraki_Doji_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/DI/Arcade/Cards/MiniBosses/Ibaraki_Doji.xhtml', 
 'MiniBoss', '2.0 DI', '2.0 Devil''s Island', 'Arcade', 
 'To the Ijin, strength is the ultimate test. Those who cannot fight cannot command respect. Those who cannot win cannot lead. Those who cannot lead must follow and serve those who can. Ibaraki-doji has fought and won, and his brethren must follow and serve when the chunin commands.');
@@ -579,8 +579,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (599, 1033
 
 --Kappa	--CardIndex 1310	--CharacterIndex 920	--ArcadeCharacterIndex 152
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1310, 'Kappa',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kappa_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kappa_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kappa_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kappa_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Kappa.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The Kappa are wild, dangerous kami who inhabit Kagejima''s lakes, rivers, and swamps. Wily and withdrawn by nature, they can be found overturning boats and drowning unwary children. Despite this, several clans have successfully coaxed these exceptionally strong and stealthy creatures into performing services...often with the sacrifice of food, livestock, or even the village elder''s firstborn child.');
@@ -599,8 +599,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (600, 1341
 
 --Knight of Shifting Sand	--CardIndex 1311	--CharacterIndex 921	--ArcadeCharacterIndex 153
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1311, 'Knight of Shifting Sand',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Knight_of_Shifting_Sand_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Knight_of_Shifting_Sand_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Knight_of_Shifting_Sand_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Knight_of_Shifting_Sand_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Knight_of_Shifting_Sand.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'It is sold that to fight a Knight of Shifting Sand is to fight the desert itself. At a young age, they are led into the desert, both mount and rider veiled from all sight and sound. There, they are left to survive alone and to find their own way home. Many perish. The greatest of them spend years, even decades, traveling the deep dunes. Each journey is unique, but when they return they are masters of the desert and mighty leaders of their peers.');
@@ -619,8 +619,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (601, 1605
 
 --Knight of the Tower	--CardIndex 1312	--CharacterIndex 922	--ArcadeCharacterIndex 154
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1312, 'Knight of the Tower',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Knight_of_the_Tower_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Knight_of_the_Tower_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Knight_of_the_Tower_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Knight_of_the_Tower_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Knight_of_the_Tower.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Knights of the Tower are cruel and capable nether elf champions that have risen through the ranks by striding across fields of the fallen and shrewd use of treachery. Gifted by their Queen with ghostly nether steeds, they are terrifying upon the field of battle.');
@@ -639,8 +639,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (602, 1267
 
 --Kobold Ogre	--CardIndex 1313	--CharacterIndex 923	--ArcadeCharacterIndex 155
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1313, 'Kobold Ogre',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kobold_Ogre_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kobold_Ogre_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kobold_Ogre_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kobold_Ogre_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Kobold_Ogre.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The most powerful kobold leaders often display their might with a pair or more of burly ogre bodyguards. Having grown large and brutally strong from constant exposure to the Dark Realms''s magicks, ogres have lost much of the intelligence and animal cunning of their lesser kobold kin. Despite this, they are remarkably loyal and enjoy being a part of their cousins'' plans.');
@@ -657,8 +657,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (603, 1727
 
 --Mistmourn Warg	--CardIndex 1314	--CharacterIndex 924	--ArcadeCharacterIndex 156
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1314, 'Mistmourn Warg',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Mistmourn_Warg_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Mistmourn_Warg_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Mistmourn_Warg_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Mistmourn_Warg_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Mistmourn_Warg.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The wargs of the Mistmourn Coast grew exceptionally dangerous. Unlike other wargs, they are not pack hunters. Instead, each one strikes out on its own to claim its territory. These beasts grow to exceptional size and are frequently manipulated by the Dark Consul against the heroes of Crystalia. When a warg leads the Consul''s minions into battle, its howl emboldens those around it, driving them into a frenzy with the warg at their backs.');
@@ -677,8 +677,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (604, 1278
 
 --Monach Tvar	--CardIndex 1315	--CharacterIndex 925	--ArcadeCharacterIndex 157
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1315, 'Monach Tvar',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Monach_Tvar_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Monach_Tvar_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Monach_Tvar_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Monach_Tvar_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Monach_Tvar.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Once the Ascendant Prince of the Lunar Elves, Monach Tvar fell to the Dark Consul in a bid to claim the relic known as The Dragon Horn and become the Lord of all dragonkind. To achieve his aims, he slew his only sister Ascendant Princess Elara and sealed the doom of the lunar elf people to the Dragon''s Call.');
@@ -697,8 +697,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (605, 947)
 
 --Nethercorn	--CardIndex 1316	--CharacterIndex 926	--ArcadeCharacterIndex 158
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1316, 'Nethercorn',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Nethercorn_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Nethercorn_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Nethercorn_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Nethercorn_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Nethercorn.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Nethercorns are fiery tempered natives of the Dark Realm. Startlingly intelligent and predatory, nethercorns bend only to the will of the Dark Consul. Many demons assume nethercorns are servile minions, or attempt to capture them as mounts. The fields of bone around a nethercorn''s territory serve as testimony to their failure.');
@@ -721,8 +721,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (606, 999)
 
 --Orcdon Ramsay	--CardIndex 1317	--CharacterIndex 927	--ArcadeCharacterIndex 159
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1317, 'Orcdon Ramsay',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Orcdon_Ramsay_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Orcdon_Ramsay_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Orcdon_Ramsay_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Orcdon_Ramsay_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Orcdon_Ramsay.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'I don''t care if it''s a dungeon!<br>There''s no crying in this kitchen!');
@@ -741,8 +741,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (607, 1992
 
 --Rage Fiend, The	--CardIndex 1318	--CharacterIndex 928	--ArcadeCharacterIndex 160
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1318, 'Rage Fiend, The',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rage_Fiend_The_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rage_Fiend_The_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rage_Fiend_The_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rage_Fiend_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Rage_Fiend_The.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The Rage Fiend is a legend among the orcish tribes. An unstoppable juggernaut of destruction, it is whispered that The Rage Fiend was blessed by the great demon lord known only as The Destroyer. Filled with demonic vigor and visions of desolation, The Rage Fiend incites all around him to ever increasing fits of violence and madness. Where The Rage Fiend treads only death follows.');
@@ -759,8 +759,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (608, 1313
 
 --Randy, Lrod of Spiders	--CardIndex 1319	--CharacterIndex 929	--ArcadeCharacterIndex 161
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1319, 'Randy, Lrod of Spiders',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Randy_Lrod_of_Spiders_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Randy_Lrod_of_Spiders_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Randy_Lrod_of_Spiders_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Randy_Lrod_of_Spiders_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Randy_Lrod_of_Spiders.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The last galaxy is a place where mighty knights clash with the forces of the void, and a battle for survival rages. But that doesn''t mean that the arcades will manage themselves. Randy has been charged with the sacred duty of managing one such arcade. Annonyed at customers who continually vaporize his place of work with high tech weaponry, Randy decided to program himself into his favorite game. But a typo prevented him from being a proper lord, even in a game...');
@@ -780,8 +780,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (609, 1786
 
 --Rex	--CardIndex 1320	--CharacterIndex 930	--ArcadeCharacterIndex 162
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1320, 'Rex',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rex_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rex_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rex_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rex_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Rex.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Rex has collected more than a few new friends since going to work in the Consul''s dungeons. Most are unwary adventurers not quite quick enough to get out of the reach of his enthusiastic hugs.');
@@ -798,8 +798,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (610, 1590
 
 --Ser Anthony	--CardIndex 1321	--CharacterIndex 931	--ArcadeCharacterIndex 163
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1321, 'Ser Anthony',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Anthony_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Anthony_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Anthony_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Anthony_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Ser_Anthony.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Despite his youth, Ser Anthony rose through the ranks of the Crown Guard quickly. Taken under the wing of the venerable knight Ser Charles he excelled at his studies--both physical and mental. At Ser Charles'' retirement, it was the great knight''s honor to see his squire rise to fill his station.');
@@ -816,8 +816,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (611, 833)
 
 --Ser Elmer	--CardIndex 1322	--CharacterIndex 932	--ArcadeCharacterIndex 164
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1322, 'Ser Elmer',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Elmer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Elmer_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Elmer_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Elmer_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Ser_Elmer.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Ser Elmer has the distinct privilege and honor of serving as Castletown''s Captain of the Guard. Charged with overseeing the safety of Castletown''s businesses and citizens, Ser Elmer rarely encounters monsters. Instead, Ser Elmer typically confronts various criminal organizations, shadowy thieves guilds, and over exuberant Heroes who have gotten out of line.');
@@ -835,8 +835,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (612, 1896
 
 --Shinigami	--CardIndex 1323	--CharacterIndex 933	--ArcadeCharacterIndex 165
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1323, 'Shinigami',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Shinigami_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Shinigami_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Shinigami_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Shinigami_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Shinigami.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Few types of death spectre inspire such dread as Kagejima''s shinigami. These deadly spirits lure victims into cursed pacts, offering up knowledge or power that inevitably leads to an unfortunate death. Indeed, so insidious and cruel are these pacts that many seek death in order to end the suffering their bargain causes.');
@@ -854,8 +854,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (613, 1371
 
 --Tengu	--CardIndex 1324	--CharacterIndex 934	--ArcadeCharacterIndex 166
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1324, 'Tengu',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tengu_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tengu_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tengu_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tengu_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Tengu.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'For centuries, the Tengu have bartered or traded their magical and martial skill to the competing clans of Kagejima. Sometimes they do so for gold, for more offerings at their shrines, or for shiny baubles. Other times the requests are more unusual, such as whispers of love from a beautiful woman, the first wail of a newborn, or thirty stems of saffron.');
@@ -876,8 +876,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (614, 952)
 
 --Tidal Knight	--CardIndex 1325	--CharacterIndex 935	--ArcadeCharacterIndex 167
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1325, 'Tidal Knight',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tidal_Knight_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tidal_Knight_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tidal_Knight_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tidal_Knight_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Tidal_Knight.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Magically adapted to survive beneath the sea, Tidal Knights are rarely seen, even by nether elf corsairs. In times of need, Tidal Knights are summoned by Shadow Fleet corsairs through the use of massive horns which are sounded beneath the waves. Once summoned, the Tidal Knights race alongside the Shadow Fleet, before launching into the air to charge enemy sailors upon the decks.');
@@ -896,8 +896,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (615, 1267
 
 --Ugluk the Mechanically Inclined	--CardIndex 1326	--CharacterIndex 936	--ArcadeCharacterIndex 168
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1326, 'Ugluk the Mechanically Inclined',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ugluk_the_Mechanically_Inclined_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ugluk_the_Mechanically_Inclined_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ugluk_the_Mechanically_Inclined_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ugluk_the_Mechanically_Inclined_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Ugluk_the_Mechanically_Inclined.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 '');  --!! unavailable !!
@@ -915,8 +915,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (616, 1994
 
 --Vlad the Perforator	--CardIndex 1327	--CharacterIndex 937	--ArcadeCharacterIndex 169
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1327, 'Vlad the Perforator',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Vlad_the_Perforator_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Vlad_the_Perforator_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Vlad_the_Perforator_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Vlad_the_Perforator_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Vlad_the_Perforator.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 '');  --!! unavailable !!
@@ -935,8 +935,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (617, 1996
 
 --Yobuko	--CardIndex 1328	--CharacterIndex 938	--ArcadeCharacterIndex 170
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1328, 'Yobuko',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Yobuko_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Yobuko_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Yobuko_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Yobuko_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Yobuko.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Tall, strong, and fierce, Yobuko is also young and inexperienced compared to his Ijin counterparts. This blend of natural ability coupled with an, as yet, unrivaled capacity to fight might be the most frightening aspect about him. His power is already so incredible that he is the rival of many of his masters, and he is also constantly testing his mettle against full-blooded oni twice his size to the amazement of all of his clansmen.');

@@ -7,8 +7,8 @@
 --Clan Earth Shrine --CardIndex 754	--CharacterIndex 364	--ArcadeCharacterIndex 97
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (754, 
 'Clan Earth Shrine',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_FK_back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Earth_Shrine/Shrine.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
@@ -27,8 +27,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (135, 378)
 --Clan Earth Shrine Mystic Team --CardIndex 755	--CharacterIndex 365	--ArcadeCharacterIndex 98
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (755, 
 'Clan Earth Shrine Mystic Team',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Mystic_Team_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Mystic_Team_FK_back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Mystic_Team_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Mystic_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Earth_Shrine/Mystic_Team.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
@@ -58,8 +58,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (138, 348)
 --Clan Earth Shrine Scout Team --CardIndex 756	--CharacterIndex 366	--ArcadeCharacterIndex 99
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (756, 
 'Clan Earth Shrine Scout Team',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Scout_Team_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Scout_Team_FK_back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Scout_Team_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Scout_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Earth_Shrine/Scout_Team.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
@@ -84,8 +84,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (140, 566)
 --Clan Earth Shrine Strike Team --CardIndex 757	--CharacterIndex 367	--ArcadeCharacterIndex 100
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (757, 
 'Clan Earth Shrine Strike Team',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Strike_Team_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Strike_Team_FK_back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Strike_Team_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Strike_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Earth_Shrine/Strike_Team.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
@@ -118,8 +118,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (143, 348)
 --Clan Air Shrine --CardIndex 758	--CharacterIndex 368	--ArcadeCharacterIndex 101
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (758, 
 'Clan Air Shrine',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_FK_back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Air_Shrine/Shrine.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
@@ -138,8 +138,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (144, 378)
 --Clan Air Shrine Mystic Team --CardIndex 759	--CharacterIndex 369	--ArcadeCharacterIndex 102
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (759, 
 'Clan Air Shrine Mystic Team',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Mystic_Team_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Mystic_Team_FK_back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Mystic_Team_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Mystic_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Air_Shrine/Mystic_Team.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
@@ -169,8 +169,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (147, 348)
 --Clan Air Shrine Scout Team --CardIndex 760	--CharacterIndex 370	--ArcadeCharacterIndex 103
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (760, 
 'Clan Air Shrine Scout Team',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Scout_Team_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Scout_Team_FK_back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Scout_Team_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Scout_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Air_Shrine/Scout_Team.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
@@ -195,8 +195,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (149, 566)
 --Clan Air Shrine Strike Team --CardIndex 761	--CharacterIndex 371	--ArcadeCharacterIndex 104
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (761, 
 'Clan Air Shrine Strike Team',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Strike_Team_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Strike_Team_FK_back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Strike_Team_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Strike_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Air_Shrine/Strike_Team.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');

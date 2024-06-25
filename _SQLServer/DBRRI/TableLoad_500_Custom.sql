@@ -7,8 +7,8 @@
 --Claptrap --CardIndex 109 --CharacterIndex 34 --RaiderIndex 25
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Claptrap', 
-'http://htkb.info/RRI/Custom/Raiders/Card_Character_Claptrap.png', 
-'http://htkb.info/RRI/Custom/Raiders/Card_Character_Claptrap_back.png', 
+'http://htkb.info/ND/RRI/Custom/Raiders/Card_Character_Claptrap.png', 
+'http://htkb.info/ND/RRI/Custom/Raiders/Card_Character_Claptrap_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Claptrap.xhtml', 
 'Raider', 'Custom', 'RRI Custom Set',  
 '"That looks like it hurts!"', 
@@ -16,8 +16,8 @@ VALUES ('Claptrap',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (109,
-'http://htkb.info/Common/Standies/Borderlands/Claptrap.png', 
-'http://htkb.info/Common/Standies/Borderlands/Claptrap_back.png', 
+'http://htkb.info/ND/Common/Standies/Borderlands/Claptrap.png', 
+'http://htkb.info/ND/Common/Standies/Borderlands/Claptrap_back.png', 
 'Either');
 insert into Raiders (CharacterIndex) VALUES (34);
 insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (25, 107); --Claptrap

@@ -6,8 +6,8 @@
 --Apprentice, The --CardIndex 0 --CharacterIndex 0 --RaiderIndex 0
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Apprentice, The', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Apprentice_The.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Apprentice_The_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Apprentice_The.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Apprentice_The_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Apprentice_The.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"What is it?"', 
@@ -15,8 +15,8 @@ VALUES ('Apprentice, The',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (0,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Apprentice_The.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Apprentice_The_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Apprentice_The.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Apprentice_The_back.png', 
 'Either');
 insert into Raiders (CharacterIndex) VALUES (0);
 insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (0, 0); --Apprentice, The
@@ -24,8 +24,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (0, 0); --Appr
 --Bakusho Mondai  --CardIndex 1--CharacterIndex 1 --RaiderIndex 1
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Bakusho Mondai', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Bakusho_Mondai.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Bakusho_Mondai_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Bakusho_Mondai.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Bakusho_Mondai_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Bakusho_Mondai.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"Take cover! This one''s a big ''un."', 
@@ -33,8 +33,8 @@ VALUES ('Bakusho Mondai',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (1,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Bakusho_Mondai.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Bakusho_Mondai_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Bakusho_Mondai.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Bakusho_Mondai_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) VALUES (1);
 insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (1, 1); --Bakusho Mondai
@@ -42,8 +42,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (1, 1); --Baku
 --Cactus Zak --CardIndex 2 --CharacterIndex 2 --RaiderIndex 2
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Cactus Zak', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Cactus_Zak.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Cactus_Zak_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Cactus_Zak.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Cactus_Zak_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Cactus_Zak.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"Rustlin'' cattle or coin; makes no difference to me."', 
@@ -51,8 +51,8 @@ VALUES ('Cactus Zak',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (2,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Cactus_Zak.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Cactus_Zak_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Cactus_Zak.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Cactus_Zak_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) VALUES (2);
 insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (2, 2); --Cactus Zak
@@ -60,8 +60,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (2, 2); --Cact
 --Canton Cobb --CardIndex 3 --CharacterIndex 3 --RaiderIndex 3
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Canton Cobb', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Canton_Cobb.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Canton_Cobb_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Canton_Cobb.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Canton_Cobb_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Canton_Cobb.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"Shiny. Let''s be bad guys."', 
@@ -69,8 +69,8 @@ VALUES ('Canton Cobb',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (3,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Canton_Cobb.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Canton_Cobb_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Canton_Cobb.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Canton_Cobb_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (3);
@@ -79,8 +79,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (3, 3); --Cant
 --Chuy --CardIndex 4 --CharacterIndex 4 --RaiderIndex 4
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Chuy', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Chuy.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Chuy_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Chuy.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Chuy_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Chuy.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"He''s no use to me dead."', 
@@ -88,8 +88,8 @@ VALUES ('Chuy',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (4,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Chuy.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Chuy_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Chuy.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Chuy_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (4);
@@ -98,8 +98,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (4, 4); --Chuy
 --Cowpunch Candy --CardIndex 5 --CharacterIndex 5 --RaiderIndex 5
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Cowpuncher Candy', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Cowpuncher_Candy.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Cowpuncher_Candy_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Cowpuncher_Candy.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Cowpuncher_Candy_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Cowpuncher_Candy.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"There is a funny story about how she got her moniker, and no, she won''t tell you."', 
@@ -107,8 +107,8 @@ VALUES ('Cowpuncher Candy',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (5,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Cowpuncher_Candy.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Cowpuncher_Candy_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Cowpuncher_Candy.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Cowpuncher_Candy_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (5);
@@ -117,8 +117,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (5, 5); --Cowp
 --El Cola --CardIndex 6 --CharacterIndex 6 --RaiderIndex 6
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('El Cola', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_El_Cola.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_El_Cola_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_El_Cola.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_El_Cola_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/El_Cola.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"That masked squirrel-thing is the greatest fighter I have ever met!"', 
@@ -126,8 +126,8 @@ VALUES ('El Cola',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (6,
-'http://htkb.info/RRI/Cards/Raiders/Standies/El_Cola.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/El_Cola_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/El_Cola.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/El_Cola_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (6);
@@ -136,8 +136,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (6, 6); --El C
 --Huckleberry --CardIndex 7 --CharacterIndex 7 --RaiderIndex 7
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Huckleberry', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Huckleberry.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Huckleberry_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Huckleberry.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Huckleberry_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Huckleberry.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"Don''t start a game you aint''t ready to finish."', 
@@ -145,8 +145,8 @@ VALUES ('Huckleberry',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (7,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Huckleberry.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Huckleberry_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Huckleberry.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Huckleberry_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (7);
@@ -155,8 +155,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (7, 7); --Huck
 --John Grizzly --CardIndex 8 --CharacterIndex 8 --RaiderIndex 8
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('John Grizzly', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_John_Grizzly.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_John_Grizzly_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_John_Grizzly.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_John_Grizzly_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/John_Grizzly.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"I fight for all those who served"', 
@@ -164,8 +164,8 @@ VALUES ('John Grizzly',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (8,
-'http://htkb.info/RRI/Cards/Raiders/Standies/John_Grizzly.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/John_Grizzly_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/John_Grizzly.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/John_Grizzly_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (8);
@@ -174,8 +174,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (8, 8); --John
 --Josie Oakley --CardIndex 9 --CharacterIndex 9 --RaiderIndex 9
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Josie Oakley', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Josie_Oakley.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Josie_Oakley_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Josie_Oakley.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Josie_Oakley_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Josie_Oakley.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"She''s the best shot in the stars."', 
@@ -183,8 +183,8 @@ VALUES ('Josie Oakley',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (9,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Josie_Oakley.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Josie_Oakley_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Josie_Oakley.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Josie_Oakley_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (9);
@@ -193,8 +193,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (9, 9); --Josi
 --JR Dallas --CardIndex 10 --CharacterIndex 10 --RaiderIndex 10
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('JR Dallas', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Jr_Dallas.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Jr_Dallas_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Jr_Dallas.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Jr_Dallas_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Jr_Dallas.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"Ain''t no tin-plated Lawbot ever gonna outdraw me!"', 
@@ -202,8 +202,8 @@ VALUES ('JR Dallas',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (10,
-'http://htkb.info/RRI/Cards/Raiders/Standies/JR_Dallas.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/JR_Dallas_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/JR_Dallas.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/JR_Dallas_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (10);
@@ -212,8 +212,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (10, 10); --JR
 --Kid, The --CardIndex 11 --CharacterIndex 11 --RaiderIndex 11
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Kid, The', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Kid_The.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Kid_The_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Kid_The.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Kid_The_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Kid_The.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"I''m the fastest there ever was."', 
@@ -221,8 +221,8 @@ VALUES ('Kid, The',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (11,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Kid_The.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Kid_The_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Kid_The.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Kid_The_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (11);
@@ -231,8 +231,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (11, 11); --Ki
 --Kingsman --CardIndex 12 --CharacterIndex 12 --RaiderIndex 12
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Kingsman', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Kingsman.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Kingsman_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Kingsman.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Kingsman_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Kingsman.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"I say, I do so wish these Tinstars made for better sport."', 
@@ -240,8 +240,8 @@ VALUES ('Kingsman',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (12,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Kingsman.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Kingsman_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Kingsman.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Kingsman_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (12);
@@ -250,8 +250,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (12, 12); --Ki
 --Mutha Superior --CardIndex 13 --CharacterIndex 13 --RaiderIndex 13
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Mutha Superior', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Mutha_Superior.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Mutha_Superior_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Mutha_Superior.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Mutha_Superior_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Mutha_Superior.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"Don''t think of it as robbery, my child. I''m just forcibly asking for a donation."', 
@@ -259,8 +259,8 @@ VALUES ('Mutha Superior',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (13,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Mutha_Superior.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Mutha_Superior_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Mutha_Superior.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Mutha_Superior_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (13);
@@ -269,8 +269,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (13, 13); --Mu
 --Pancho Perfecto --CardIndex 14 --CharacterIndex 14 --RaiderIndex 14
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Pancho Perfecto', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Pancho_Perfecto.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Pancho_Perfecto_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Pancho_Perfecto.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Pancho_Perfecto_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Pancho_Perfecto.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"Ugly? I''ll show you ugly!"', 
@@ -278,8 +278,8 @@ VALUES ('Pancho Perfecto',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (14,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Pancho_Perfecto.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Pancho_Perfecto_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Pancho_Perfecto.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Pancho_Perfecto_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (14);
@@ -288,8 +288,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (14, 14); --Pa
 --Pearl Heart --CardIndex 15 --CharacterIndex 15 --RaiderIndex 15
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Pearl Heart', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Pearl_Heart.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Pearl_Heart_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Pearl_Heart.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Pearl_Heart_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Pearl_Heart.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"Her smile could melt the heart of a Lawbot just as fast as her gun could blast it to smithereens."', 
@@ -297,8 +297,8 @@ VALUES ('Pearl Heart',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (15,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Pearl_Heart.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Pearl_Heart_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Pearl_Heart.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Pearl_Heart_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (15);
@@ -307,8 +307,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (15, 15); --Pe
 --Rhinestone --CardIndex 16 --CharacterIndex 16 --RaiderIndex 16
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Rhinestone', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Rhinestone.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Rhinestone_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Rhinestone.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Rhinestone_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Rhinestone.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"Those who tell you to never bring a knife don''t know how to use a knife."', 
@@ -316,8 +316,8 @@ VALUES ('Rhinestone',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (16,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Rhinestone.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Rhinestone_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Rhinestone.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Rhinestone_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (16);
@@ -326,8 +326,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (16, 16); --Rh
 --Star Princess Candy --CardIndex 17 --CharacterIndex 17 --RaiderIndex 17
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Star Princess Candy', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Star_Princess_Candy.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Star_Princess_Candy_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Star_Princess_Candy.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Star_Princess_Candy_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Star_Princess_Candy.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"Aren''t you a little short for a lawbot?"', 
@@ -335,8 +335,8 @@ VALUES ('Star Princess Candy',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (17,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Star_Princess_Candy.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Star_Princess_Candy_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Star_Princess_Candy.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Star_Princess_Candy_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (17);
@@ -345,8 +345,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (17, 17); --St
 --Steelhorse Candy --CardIndex 18 --CharacterIndex 18 --RaiderIndex 18
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Steelhorse Candy', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Steelhorse_Candy.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Steelhorse_Candy_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Steelhorse_Candy.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Steelhorse_Candy_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Steelhorse_Candy.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"Ride ''Em Cowgirl!"', 
@@ -354,8 +354,8 @@ VALUES ('Steelhorse Candy',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (18,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Steelhorse_Candy.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Steelhorse_Candy_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Steelhorse_Candy.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Steelhorse_Candy_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (18);
@@ -364,8 +364,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (18, 18); --St
 --Swordmage Acolyte --CardIndex 19 --CharacterIndex 19 --RaiderIndex 19
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Swordmage Acolyte', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Swordmage_Acolyte.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Swordmage_Acolyte_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Swordmage_Acolyte.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Swordmage_Acolyte_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Swordmage_Acolyte.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"This is between you and me!"', 
@@ -373,8 +373,8 @@ VALUES ('Swordmage Acolyte',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (19,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Swordmage_Acolyte.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Swordmage_Acolyte_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Swordmage_Acolyte.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Swordmage_Acolyte_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (19);
@@ -383,8 +383,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (19, 19); --Sw
 --Tazak Geronimo --CardIndex 20 --CharacterIndex 20 --RaiderIndex 20
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Tazak Geronimo', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Tazak_Geronimo.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Tazak_Geronimo_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Tazak_Geronimo.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Tazak_Geronimo_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Tazak_Geronimo.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"Even wise men need loot."', 
@@ -392,8 +392,8 @@ VALUES ('Tazak Geronimo',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (20,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Tazak_Geronimo.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Tazak_Geronimo_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Tazak_Geronimo.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Tazak_Geronimo_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (20);
@@ -402,8 +402,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (20, 20); --Ta
 --Thorne --CardIndex 21 --CharacterIndex 21 --RaiderIndex 21
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Thorne', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Thorne.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Thorne_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Thorne.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Thorne_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Thorne.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"Bang."', 
@@ -411,8 +411,8 @@ VALUES ('Thorne',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (21,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Thorne.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Thorne_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Thorne.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Thorne_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (21);
@@ -421,8 +421,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (21, 21); --Th
 --Typhoon --CardIndex 22 --CharacterIndex 22 --RaiderIndex 22
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Typhoon', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Typhoon.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Typhoon_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Typhoon.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Typhoon_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Typhoon.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"Love and peace!"', 
@@ -430,8 +430,8 @@ VALUES ('Typhoon',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (22,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Typhoon.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Typhoon_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Typhoon.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Typhoon_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (22);
@@ -440,8 +440,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (22, 22); --Ty
 --Umbra --CardIndex 23 --CharacterIndex 23 --RaiderIndex 23
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Umbra', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Umbra.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Umbra_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Umbra.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Umbra_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Umbra.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"Rest in Pieces."', 
@@ -449,8 +449,8 @@ VALUES ('Umbra',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (23,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Umbra.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Umbra_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Umbra.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Umbra_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (23);
@@ -459,8 +459,8 @@ insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (23, 23); --Um
 --Whistlin Pete --CardIndex 24 --CharacterIndex 24 --RaiderIndex 24
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Whistlin Pete', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Whistlin_Pete.png', 
-'http://htkb.info/RRI/Cards/Raiders/Card_Character_Whistlin_Pete_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Whistlin_Pete.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Card_Character_Whistlin_Pete_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Whistlin_Pete.xhtml', 
 'Raider', '1.0', 'RRI Core Set',  
 '"I don''t know what was more unsettling, the way he whistled before the gunfight or the way he cackled during it."', 
@@ -468,8 +468,8 @@ VALUES ('Whistlin Pete',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (24,
-'http://htkb.info/RRI/Cards/Raiders/Standies/Whistlin_Pete.png', 
-'http://htkb.info/RRI/Cards/Raiders/Standies/Whistlin_Pete_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Whistlin_Pete.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Whistlin_Pete_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (24);

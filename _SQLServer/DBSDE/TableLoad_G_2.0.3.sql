@@ -6,8 +6,8 @@
 --Scarlett Cutlass --CardIndex 2357	--CharacterIndex 1203	--ExploreCharacterIndex 864
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2357, 
 'Scarlett Cutlass', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Scarlett_Cutlass_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Scarlett_Cutlass_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Scarlett_Cutlass_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Scarlett_Cutlass_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Scarlett_Cutlass.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Those who follow the path of the Scarlett Cutlass are expert duelists, always seeking worthy opponents to test their skills.  When the first blade is red, win or lose, it''s off to the taverns to drink and share the exploits of a duel well fought.');
@@ -15,8 +15,8 @@ insert into Characters (CardIndex) VALUES (2357);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1203, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1203, 
-'http://htkb.info/SDE/Standies/Dread_Scarlett.png', 
-'http://htkb.info/SDE/Standies/Dread_Scarlett_back.png',
+'http://htkb.info/ND/SDE/Standies/Dread_Scarlett.png', 
+'http://htkb.info/ND/SDE/Standies/Dread_Scarlett_back.png',
 'Feminine', 'Small', 'Freyjan Pirate', 6, 3, '3B', '3B', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (864, 1022); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (864, 417); --9 Lives
@@ -43,8 +43,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (8
 --Jawge --CardIndex 2358	--CharacterIndex 1204	--ExploreCharacterIndex 865
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2358, 
 'Jawge',
-'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Jawge_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Jawge_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Pets/Card_Pet_Jawge_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Pets/Card_Pet_Jawge_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Jawge.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
 '');
@@ -52,8 +52,8 @@ insert into Characters (CardIndex) VALUES (2358);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1204, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1204,
-'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Jawge_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Jawge_2.0_back.png',
+'http://htkb.info/ND/SDE/2.0/Cards/Pets/Standies/Jawge_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Pets/Standies/Jawge_2.0_back.png',
 'Either', 'Small', '', 3, 1, '2R', '3B', '0ST', '1B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (865, 708); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (865, 678); --Immune: Knockdown
@@ -89,8 +89,8 @@ insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (865, 2, -1);
 --Dread Scarlett --CardIndex 2359	--CharacterIndex 1205	--ExploreCharacterIndex 866
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2359, 
 'Dread Scarlett',
-'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Dread_Scarlett_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Dread_Scarlett_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Dread_Scarlett_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Dread_Scarlett_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Dread_Scarlett.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Aye.  I cheated.  Tis your fault you let me get away with it.');
@@ -98,8 +98,8 @@ insert into Characters (CardIndex) VALUES (2359);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1205, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1205,
-'http://htkb.info/SDE/Standies/Dread_Scarlett.png', 
-'http://htkb.info/SDE/Standies/Dread_Scarlett_back.png', 
+'http://htkb.info/ND/SDE/Standies/Dread_Scarlett.png', 
+'http://htkb.info/ND/SDE/Standies/Dread_Scarlett_back.png', 
 'Feminine', 'Small', 'Freyjan Pirate', 6, 3, '3B', '3B 1R', '3B', '3R', 6, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (866, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (866, 451); --Backstabber
@@ -143,8 +143,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (866
 --Dread Scarlett	--CardIndex 2360	--CharacterIndex 1206	--ArcadeCharacterIndex 339
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2360, 
 'Dread Scarlett',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Dread_Scarlett_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Dread_Scarlett_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Dread_Scarlett_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Dread_Scarlett_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Dread_Scarlett.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
 'Aye.  I cheated.  Tis your fault you let me get away with it.');
@@ -188,8 +188,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (877, 2251
 --Pie-Rat --CardIndex 2361 --EquipmentIndex 786
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2361, 
 'Pie-Rat',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Pie_Rat_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
+'http://htkb.info/ND/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Pie_Rat_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Pie_Rat.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');

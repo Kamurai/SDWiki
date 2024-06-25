@@ -5,8 +5,8 @@
 
 --Roxor --BossSpawnIndex 0  --CardIndex 69
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (69, 'Roxor', 
-'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Roxor_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Roxor_1.0.png',
+'http://htkb.info/ND/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Roxor_1.0.png', 
+'http://htkb.info/ND/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Roxor_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Boss_Spawns/Roxor.xhtml', 
 'Boss Spawn', '1.0', '1.0 Core Set', 'Default',   
 '');
@@ -20,8 +20,8 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (0, 36)
 
 --Starfire --BossSpawnIndex 1  --CardIndex 70
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (70, 'Starfire', 
-'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_1.0.png',
+'http://htkb.info/ND/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_1.0.png', 
+'http://htkb.info/ND/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Boss_Spawns/Starfire.xhtml', 
 'Boss Spawn', '1.0', '1.0 Core Set', 'Default',   
 '');
@@ -35,8 +35,8 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (1, 37)
 
 --Von Drakk --BossSpawnIndex 2  --CardIndex 71
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (71, 'Von Drakk', 
-'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Von_Drakk_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Von_Drakk_1.0.png',
+'http://htkb.info/ND/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Von_Drakk_1.0.png', 
+'http://htkb.info/ND/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Von_Drakk_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Boss_Spawns/Von_Drakk.xhtml', 
 'Boss Spawn', '1.0', '1.0 Core Set', 'Default',   
 '');

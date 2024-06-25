@@ -5,8 +5,8 @@
 
 --Nocturne --Index 35
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (26, 'Nocturne',
-'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Nocturne_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Nocturne_1.0_back.png', 
+'http://htkb.info/ND/SDE/1.0/Cards/Bosses/Card_Boss_Nocturne_1.0.png', 
+'http://htkb.info/ND/SDE/1.0/Cards/Bosses/Card_Boss_Nocturne_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Bosses/Nocturne.xhtml', 
 'Boss', '1.0', '1.0 Core Set', 'Explore',
 'Those who meet the gaze of Von Drakk say it is like staring into the soul of the beast.  None realize how correct they are.  When in the full throes of bloodlust Von Drakk is overtaken by a hideous transformation; his new form ideally suited to bringing carnage and ruin to his foes.');
@@ -17,8 +17,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (35,
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (35, 136); --Terrifying Screech
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (35, 106); --Shapeshift
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (35,
-'http://htkb.info/SDE/Standies/Nocturne.png', 
-'http://htkb.info/SDE/Standies/Nocturne_back.png', 
+'http://htkb.info/ND/SDE/Standies/Nocturne.png', 
+'http://htkb.info/ND/SDE/Standies/Nocturne_back.png', 
 'Masculine', 'Large', 'Shapeshift', 8, 4, '2ST 2B 2R', '2B 2R', '3R', '2R', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (35, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (35, 2); --Armor
@@ -26,8 +26,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (35,
 
 --Roxor --Index 36
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (27, 'Roxor',
-'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Roxor_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Roxor_1.0_back.png', 
+'http://htkb.info/ND/SDE/1.0/Cards/Bosses/Card_Boss_Roxor_1.0.png', 
+'http://htkb.info/ND/SDE/1.0/Cards/Bosses/Card_Boss_Roxor_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Bosses/Roxor.xhtml', 
 'Boss', '1.0', '1.0 Core Set', 'Explore',
 'Lord of the Fire Flows, Roxor, seeks to create a molten paradise for his elemental brethren.  Harboring no empathy for the ""soft"" races he readily allies himself with the Dark Consul so long as their goals converge.');
@@ -40,8 +40,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (36,
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (36, 97); --Riddle of Steel
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (36, 147); --Volcano
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (36,
-'http://htkb.info/SDE/Standies/Roxor.png', 
-'http://htkb.info/SDE/Standies/Roxor_back.png', 
+'http://htkb.info/ND/SDE/Standies/Roxor.png', 
+'http://htkb.info/ND/SDE/Standies/Roxor_back.png', 
 'Masculine', 'Large', 'Elemental', 5, 4, '1ST 2R', '2ST 2R', '1R 2B', '3B', 10, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (36, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (36, 2); --Armor
@@ -49,8 +49,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (36,
 
 --Starfire --Index 37
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (28, 'Starfire',
-'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Starfire_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Starfire_1.0_back.png', 
+'http://htkb.info/ND/SDE/1.0/Cards/Bosses/Card_Boss_Starfire_1.0.png', 
+'http://htkb.info/ND/SDE/1.0/Cards/Bosses/Card_Boss_Starfire_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Bosses/Starfire.xhtml', 
 'Boss', '1.0', '1.0 Core Set', 'Explore',
 'While dragons are not uncommon in Crystalia, none inspire the terror of Starfire.  From his volcanic mountain within the Dragonback Peaks he brings fire and destruction across the length and breadth of the realm.  Vast herds are consumed by his appetites and entire treasuries are claimed by his greed.');
@@ -61,8 +61,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (37,
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (37, 37); --Dragon Breath
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (37, 134); --Tail Sweep
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (37,
-'http://htkb.info/SDE/Standies/Starfire.png', 
-'http://htkb.info/SDE/Standies/Starfire_back.png', 
+'http://htkb.info/ND/SDE/Standies/Starfire.png', 
+'http://htkb.info/ND/SDE/Standies/Starfire_back.png', 
 'Masculine', 'Large', 'Dragon', 6, 4, '1ST 2R 1G', '1B 1R 1G', '2R', '2R', 8, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (37, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (37, 2); --Armor
@@ -70,8 +70,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (37,
 
 --Von Drakk --Index 38
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (29, 'Von Drakk',
-'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Von_Drakk_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Von_Drakk_1.0_back.png', 
+'http://htkb.info/ND/SDE/1.0/Cards/Bosses/Card_Boss_Von_Drakk_1.0.png', 
+'http://htkb.info/ND/SDE/1.0/Cards/Bosses/Card_Boss_Von_Drakk_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Bosses/Von_Drakk.xhtml', 
 'Boss', '1.0', '1.0 Core Set', 'Explore',
 'Von Drakk has despoiled his homeland like an eternal plague.  Once teeming with life the moorlands are now a haven for witches'' covens, foul swamp creatures, and the unquiet dead.  Von Drakk cares not, so long as his manor retains its splendor and his dark appetites remain sated.');
@@ -82,8 +82,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (38,
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (38, 56); --Ghastly Vigor
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (38, 140); --Tide of Bones
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (38,
-'http://htkb.info/SDE/Standies/Von_Drakk.png', 
-'http://htkb.info/SDE/Standies/Von_Drakk_back.png', 
+'http://htkb.info/ND/SDE/Standies/Von_Drakk.png', 
+'http://htkb.info/ND/SDE/Standies/Von_Drakk_back.png', 
 'Masculine', 'Small', 'Undead Vampire', 8, 4, '2ST 4B', '2R', '1ST 2R', '3R', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (38, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (38, 2); --Armor

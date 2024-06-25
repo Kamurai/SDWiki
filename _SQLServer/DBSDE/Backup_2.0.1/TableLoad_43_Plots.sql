@@ -6,8 +6,8 @@
 --Acid Fog	--CardIndex 2021 --PlotIndex 0
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2021, 'Acid Fog',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Acid_Fog.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Acid_Fog.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Acid_Fog.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
 '');
@@ -18,8 +18,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2021,
 --Armies from the Grave	--CardIndex 2022 --PlotIndex 1
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2022, 'Armies from the Grave',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Armies_from_the_Grave.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Armies_from_the_Grave.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Armies_from_the_Grave.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
 'Why do they all have shovels?');
@@ -30,8 +30,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2022,
 --Blessings of Strength	--CardIndex 2023 --PlotIndex 2
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2023, 'Blessings of Strength',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Blessings_of_Strength.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Blessings_of_Strength.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Blessings_of_Strength.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
 'Have you ever seen a kobold pick up a rattlebone and use it as a club? I have. Clobbered me something fierce with it, too. I never would have thought it would be so effective, but those things have tough skulls.');
@@ -42,8 +42,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2023,
 --Brain Leeches	--CardIndex 2024 --PlotIndex 3
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2024, 'Brain Leeches',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Brain_Leeches.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Brain_Leeches.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Brain_Leeches.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
 'Fancy a new hat?');
@@ -53,8 +53,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2024, 'Spawn four Skull Poi
 --Call the Lightning	--CardIndex 2025 --PlotIndex 4
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2025, 'Call the Lightning',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Call_the_Lightning.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Call_the_Lightning.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Call_the_Lightning.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
 '');
@@ -65,8 +65,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2025,
 --Flood the Dungeon	--CardIndex 2026 --PlotIndex 5
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2026, 'Flood the Dungeon',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Flood_the_Dungeon.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Flood_the_Dungeon.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Flood_the_Dungeon.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
 'Raid the dungeon they said. Be a hero they said. Nobody tells you how hard it is to carry a backpack full of loot through waist-high water.');
@@ -77,8 +77,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2026,
 --Highway Robbery	--CardIndex 2027 --PlotIndex 6
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2027, 'Highway Robbery',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Highway_Robbery.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Highway_Robbery.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Highway_Robbery.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
 'Those cute little squid things took our loot!');
@@ -89,8 +89,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2027,
 --Immortality Potion	--CardIndex 2028 --PlotIndex 7
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2028, 'Immortality Potion',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Immortality_Potion.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Immortality_Potion.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Immortality_Potion.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
 'Every time I take a shot, a rabid squirrel dives in front of the arrow!');
@@ -101,8 +101,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2028,
 --Life for Life	--CardIndex 2029 --PlotIndex 8
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2029, 'Life for Life',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Life_for_Life.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Life_for_Life.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Life_for_Life.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
 'All the forge gnomes are chanting. And glowing. That seems...bad.');
@@ -113,8 +113,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2029,
 --Obscenity Against the Goddess	--CardIndex 2030 --PlotIndex 9
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2030, 'Obscenity Against the Goddess',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Obscenity_Against_the_Goddess.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Obscenity_Against_the_Goddess.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Obscenity_Against_the_Goddess.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
 '');
@@ -125,8 +125,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2030,
 --Path of Champions	--CardIndex 2031 --PlotIndex 10
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2031, 'Path of Champions',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Path_of_Champions.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Path_of_Champions.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Path_of_Champions.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
 'Are..are those Yowlings cheering him on?');
@@ -137,8 +137,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2031,
 --Servants of the Consul	--CardIndex 2032 --PlotIndex 11
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2032, 'Servants of the Consul',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Servants_of_the_Consul.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Servants_of_the_Consul.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Servants_of_the_Consul.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
 'I don''t know where the rabid squirrels came from. I just know they kept coming, and coming...');
@@ -149,8 +149,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2032,
 --Spies in Every Corner	--CardIndex 2033 --PlotIndex 12
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2033, 'Spies in Every Corner',
-'http://htkb.info/SDE/2.0/Cards/Explore_Plot/Card_Explore_Plot_Spies_In_Every_Corner.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Explore_Plot/Card_Explore_Plot_Spies_In_Every_Corner.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Spies_in_Every_Corner.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
 'I could swear that little nether imp was pointing and laughing at us while we were running from Starfire''s conflagration...');
@@ -161,8 +161,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2033,
 --Terrible Protection	--CardIndex 2034 --PlotIndex 13
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2034, 'Terrible Protection',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Terrible_Protection.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Terrible_Protection.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Terrible_Protection.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
 'Slimes are bad enough when they get on your gear. But there are plenty of monsters out there that are cunning enough to use them as a living shield.');
@@ -173,8 +173,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2034,
 --Untouchable Tower, The	--CardIndex 2035 --PlotIndex 14
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2035, 'Untouchable Tower, The',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Untouchable_Tower_The.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Untouchable_Tower_The.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Untouchable_Tower_The.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
 'I would destroy that spawning point, but there are slimes crawling all over it. Did you see what those things did to my favorite axe?');

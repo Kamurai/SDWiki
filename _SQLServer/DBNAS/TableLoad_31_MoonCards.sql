@@ -5,8 +5,8 @@
 --Adrenaline --CardIndex 56 --MoonCardIndex 0
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Adrenaline', 
-'http://htkb.info/NAS/Cards/Moon/Card_Loot_Earth_Adrenaline.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Loot_Earth_Adrenaline.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Adrenaline.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -20,8 +20,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (0, 1); --
 --Ameratsu's Gaze --CardIndex 57 --MoonCardIndex 1
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Raizin''s Spark', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Spirit_Ameratsus_Gaze.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Spirit_Ameratsus_Gaze.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Ameratsus_Gaze.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -35,8 +35,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (1, 3); --
 --Banzai! --CardIndex 58 --MoonCardIndex 2
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Banzai!', 
-'http://htkb.info/NAS/Cards/Moon/Card_Loot_Earth_Banzai.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Loot_Earth_Banzai.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Banzai.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -50,8 +50,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (2, 1); --
 --Darkest Night --CardIndex 59 --MoonCardIndex 3
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Darkest Night', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Void_Darkest_Night.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Void_Darkest_Night.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Darkest_Night.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -65,8 +65,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (3, 4); --
 --Decoy --CardIndex 60 --MoonCardIndex 4
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Decoy', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Air_Decoy.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Air_Decoy.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Decoy.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -80,8 +80,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (4, 0); --
 --Fire Aura --CardIndex 61 --MoonCardIndex 5
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Decoy', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Fire_Fire_Aura.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Fire_Fire_Aura.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Fire_Aura.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -95,8 +95,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (5, 2); --
 --Fuzin's Breath --CardIndex 62 --MoonCardIndex 6
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Fuzin''s Breath', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Air_Fuzins_Breath.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Air_Fuzins_Breath.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Fuzins_Breath.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -110,8 +110,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (6, 0); --
 --Igazani's Bounty --CardIndex 63 --MoonCardIndex 7
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Igazani''s Bounty', 
-'http://htkb.info/NAS/Cards/Moon/Card_Loot_Earth_Igazanis_Bounty.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Loot_Earth_Igazanis_Bounty.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Igazanis_Bounty.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -125,8 +125,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (7, 1); --
 --Ika's Depths --CardIndex 64 --MoonCardIndex 8
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Ika''s Depths', 
-'http://htkb.info/NAS/Cards/Moon/Card_Loot_Water_Ikas_Depths.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Loot_Water_Ikas_Depths.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Ikas_Depths.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -140,8 +140,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (8, 5); --
 --Inazami's Embrace --CardIndex 65 --MoonCardIndex 9
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ( 'Inazami''s Embrace', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Void_Inazamis_Embrace.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Void_Inazamis_Embrace.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Inazamis_Embrace.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -155,8 +155,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (9, 4); --
 --Incredible Luck --CardIndex 66 --MoonCardIndex 10
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Incredible Luck', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Spirit_Incredible_Luck.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Spirit_Incredible_Luck.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Incredible_Luck.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -170,8 +170,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (10, 3); -
 --Mamoru --CardIndex 67 --MoonCardIndex 11
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Mamoru', 
-'http://htkb.info/NAS/Cards/Moon/Card_Loot_Water_Mamoru.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Loot_Water_Mamoru.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Mamoru.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -185,8 +185,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (11, 5); -
 --Pressure Point --CardIndex 68 --MoonCardIndex 12
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Pressure Point', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Fire_Pressure_Point.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Fire_Pressure_Point.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Pressure_Point.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -200,8 +200,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (12, 2); -
 --Raizin's Spark --CardIndex 69 --MoonCardIndex 13
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Raizin''s Spark', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Fire_Raizins_Spark.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Fire_Raizins_Spark.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Raizins_Spark.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -215,8 +215,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (13, 2); -
 --Rushing River --CardIndex 70 --MoonCardIndex 14
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Rushing River', 
-'http://htkb.info/NAS/Cards/Moon/Card_Loot_Water_Rushing_River.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Loot_Water_Rushing_River.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Rushing_River.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -230,8 +230,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (14, 5); -
 --Sidestep --CardIndex 71 --MoonCardIndex 15
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Sidestep', 
-'http://htkb.info/NAS/Cards/Moon/Card_Loot_Water_Sidestep.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Loot_Water_Sidestep.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Sidestep.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -245,8 +245,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (15, 5); -
 --Smoke Bomb --CardIndex 72 --MoonCardIndex 16
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Smoke Bomb', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Void_Smoke_Bomb.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Void_Smoke_Bomb.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Smoke_Bomb.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -260,8 +260,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (16, 4); -
 --Stellar Alignment --CardIndex 73 --MoonCardIndex 17
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Stellar Alignment', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Spirit_Stellar_Alignment.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Spirit_Stellar_Alignment.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Stellar_Alignment.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -275,8 +275,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (17, 3); -
 --Suinij's Depths --CardIndex 74 --MoonCardIndex 18
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Suinij''s Depths', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Spirit_Suinijs_Depths.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Spirit_Suinijs_Depths.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Suinijs_Depths.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -290,8 +290,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (18, 5); -
 --Third Eye --CardIndex 75 --MoonCardIndex 19
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Third Eye', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Spirit_Third_Eye.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Spirit_Third_Eye.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Third_Eye.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -305,8 +305,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (19, 3); -
 --Tumble --CardIndex 76 --MoonCardIndex 20
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Tumble', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Fire_Tumble.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Fire_Tumble.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Tumble.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''
@@ -320,8 +320,8 @@ insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (20, 2); -
 --Vault --CardIndex 77 --MoonCardIndex 21
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Vault', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Air_Vault.png', 
-'http://htkb.info/NAS/Cards/Moon/Card_Moon_Back.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Air_Vault.png', 
+'http://htkb.info/ND/NAS/Cards/Moon/Card_Moon_Back.png', 
 'http://htkb.online/SDWiki/NAS/Cards/Moon/Vault.xhtml', 
 'Moon', '1.0', 'NAS Core Set',
 ''

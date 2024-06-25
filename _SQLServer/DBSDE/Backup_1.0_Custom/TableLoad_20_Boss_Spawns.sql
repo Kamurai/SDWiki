@@ -6,8 +6,8 @@
 --Brown Wizard --Card Index 2343   --BossSpawnIndex 33
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2343, 
 'Brown Wizard', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Brown_Wizard_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Brown_Wizard_1.0_Custom.png',
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Brown_Wizard_1.0_Custom.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Brown_Wizard_1.0_Custom.png',
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Boss_Spawns/Brown_Wizard.xhtml', 
 'Boss Spawn', '1.0 Custom', '1.0 Custom Set', 'Default',   
 '');
@@ -30,8 +30,8 @@ insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 --Chaos Warrior --Card Index 2344   --BossSpawnIndex 34
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2344, 
 'Chaos Warrior', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Chaos_Warrior_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Chaos_Warrior_1.0_Custom.png',
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Chaos_Warrior_1.0_Custom.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Chaos_Warrior_1.0_Custom.png',
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Boss_Spawns/Chaos_Warrior.xhtml', 
 'Boss Spawn', '1.0 Custom', '1.0 Custom Set', 'Default',   
 '');

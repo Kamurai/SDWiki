@@ -5,8 +5,8 @@
 
 --Armory	--CardIndex 667	--UtilityIndex 18	--ExploreIndex 0	--ExploreCreepIndex	0
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (667, 'Armory',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_Armory_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_Armory_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Armory.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
@@ -17,8 +17,8 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (0, 3);
 
 --Blue Button Stuck	--CardIndex 668	--UtilityIndex 19	--ExploreIndex 1	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (668, 'Blue Button Stuck',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_Blue_Button_Stuck_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_Blue_Button_Stuck_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Blue_Button_Stuck.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I need a new controller.');
@@ -29,8 +29,8 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (1, 2);
 
 --Choking Cloud	--CardIndex 669	--UtilityIndex 20	--ExploreIndex 2	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (669, 'Choking Cloud',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_Choking_Cloud_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_Choking_Cloud_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Choking_Cloud.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
@@ -42,8 +42,8 @@ insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (2, 231);
 
 --Creep Factory	--CardIndex 670	--UtilityIndex 21	--ExploreIndex 3	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (670, 'Creep Factory',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_Creep_Factory_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_Creep_Factory_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Creep_Factory.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Ooooh, they''re so cute - ouch!  It bit me!');
@@ -54,8 +54,8 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (3, 6);
 
 --Grasping Tentacles	--CardIndex 671	--UtilityIndex 22	--ExploreIndex 4	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (671, 'Grasping Tentacles',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_Grasping_Tentacles_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_Grasping_Tentacles_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Grasping_Tentacles_Cloud.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
@@ -67,8 +67,8 @@ insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (4, 673);
 
 --Jammed Coin Slot	--CardIndex 672	--UtilityIndex 23	--ExploreIndex 5	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (672, 'Jammed Coil Slot',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_Jammed_Coin_Slot_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_Jammed_Coin_Slot_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Jammed_Coin_Slot.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Please don''t die.');
@@ -79,8 +79,8 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (5, 1);
 
 --Locked Doors	--CardIndex 673	--UtilityIndex 24	--ExploreIndex 6	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (673, 'Locked Doors',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_Locked_Doors_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_Locked_Doors_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Locked_Doors.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
@@ -91,8 +91,8 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (6, 2);
 
 --Pathing Error	--CardIndex 674	--UtilityIndex 25	--ExploreIndex 7	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (674, 'Pathing Error',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_Pathing_Error_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_Pathing_Error_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Pathing_Error.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
@@ -103,8 +103,8 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (7, 1);
 
 --Potion Stash	--CardIndex 675	--UtilityIndex 26	--ExploreIndex 8	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (675, 'Potion Stash',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_Potion_Stash_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_Potion_Stash_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Potion_Stash.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
@@ -115,8 +115,8 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (8, 3);
 
 --Red Button Stuck	--CardIndex 676	--UtilityIndex 27	--ExploreIndex 9	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (676, 'Red Button Stuck',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_Red_Button_Stuck_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_Red_Button_Stuck_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Red_Button_Stuck.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Oh no, not during the Boss Fight!');
@@ -127,8 +127,8 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (9, 2);
 
 --Save Point	--CardIndex 677	--UtilityIndex 28	--ExploreIndex 10	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (677, 'Save Point',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_Save_Point_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_Save_Point_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Save_Point.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
@@ -139,8 +139,8 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (10, 0);
 
 --Secret Code	--CardIndex 678	--UtilityIndex 29	--ExploreIndex 11	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (678, 'Secret Code',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_Secret_Code_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_Secret_Code_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Secret_Code.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
@@ -151,8 +151,8 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (11, 3);
 
 --Spiked Floor	--CardIndex 679	--UtilityIndex 30	--ExploreIndex 12	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (679, 'Spiked Floor',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_Spiked_Floor_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_Spiked_Floor_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Spiked_Floor.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'That''s gotta hurt.');
@@ -164,8 +164,8 @@ insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (12, 448)
 
 --Traveling Merchant	--CardIndex 680	--UtilityIndex 31	--ExploreIndex 13	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (680, 'Traveling Merchant',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_Traveling_Merchant_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_Traveling_Merchant_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Traveling_Merchant.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
@@ -176,8 +176,8 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (13, 1);
 
 --Treasure Vault	--CardIndex 681	--UtilityIndex 32	--ExploreIndex 14	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (681, 'Treasure Vault',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_Treasure_Vault_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_Treasure_Vault_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Treasure_Vault.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Jackpot!');
@@ -188,8 +188,8 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (14, 3);
 
 --Turbo Button	--CardIndex 682	--UtilityIndex 33	--ExploreIndex 15	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (682, 'Turbo Button',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_Turbo_Button_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_Turbo_Button_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Turbo_Button.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
@@ -200,8 +200,8 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (15, 1);
 
 --Wall of Fire	--CardIndex 683	--UtilityIndex 34	--ExploreIndex 16	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (683, 'Wall of Fire',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_Wall_of_Fire_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_Wall_of_Fire_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Wall_of_Fire.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
@@ -213,8 +213,8 @@ insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (16, 398)
 
 --Antidote	--CardIndex 684	--UtilityIndex 35	--ExploreIndex 17	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (684, 'Antidote',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Beatrix_the_Witch_Queen/Card_Explore_Antidote_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Beatrix_the_Witch_Queen/Card_Explore_Antidote_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Beatrix_the_Witch_Queen/Antidote.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Blue ones are good right?');
@@ -227,8 +227,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (17, 287);	
 
 --Broken Harpsichord	--CardIndex 685	--UtilityIndex 36	--ExploreIndex 18	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (685, 'Broken Harpsichord',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Beatrix_the_Witch_Queen/Card_Explore_Broken_Harpsichord_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Beatrix_the_Witch_Queen/Card_Explore_Broken_Harpsichord_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Beatrix_the_Witch_Queen/Broken_Harpsichord.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'The music is really creepy.');
@@ -241,8 +241,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (18, 287);	
 
 --Bubbling Cauldron	--CardIndex 686	--UtilityIndex 37	--ExploreIndex 19	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (686, 'Bubbling Cauldron',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Beatrix_the_Witch_Queen/Card_Explore_Bubbling_Cauldron_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Beatrix_the_Witch_Queen/Card_Explore_Bubbling_Cauldron_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Beatrix_the_Witch_Queen/Bubbling_Cauldron.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Don''t drink that!');
@@ -256,8 +256,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (19, 287);	
 
 --Glitched Doorway	--CardIndex 687	--UtilityIndex 38	--ExploreIndex 20	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (687, 'Glitched Doorway',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Beatrix_the_Witch_Queen/Card_Explore_Glitched_Doorway_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Beatrix_the_Witch_Queen/Card_Explore_Glitched_Doorway_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Beatrix_the_Witch_Queen/Glitched_Doorway.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I don''t think this wall is real.');
@@ -270,8 +270,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (20, 287);	
 
 --Grave Robbers	--CardIndex 688	--UtilityIndex 39	--ExploreIndex 21	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (688, 'Grave Robbers',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Beatrix_the_Witch_Queen/Card_Explore_Grave_Robbers_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Beatrix_the_Witch_Queen/Card_Explore_Grave_Robbers_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Beatrix_the_Witch_Queen/Grave_Robbers.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Should we be doing this?');
@@ -284,8 +284,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (21, 287);	
 
 --Pumpkin Mines	--CardIndex 689	--UtilityIndex 40	--ExploreIndex 22	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (689, 'Pumpkin Mines',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Beatrix_the_Witch_Queen/Card_Explore_Pumpkin_Mines_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Beatrix_the_Witch_Queen/Card_Explore_Pumpkin_Mines_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Beatrix_the_Witch_Queen/Pumpkin_Mines.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Watch your step.');
@@ -299,8 +299,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (22, 287);	
 
 --Pumpkin Pie	--CardIndex 690	--UtilityIndex 41	--ExploreIndex 23	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (690, 'Pumpkin Pie',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Beatrix_the_Witch_Queen/Card_Explore_Pumpkin_Pie_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Beatrix_the_Witch_Queen/Card_Explore_Pumpkin_Pie_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Beatrix_the_Witch_Queen/Pumpkin_Pie.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Best gnome invention ever!');
@@ -313,8 +313,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (23, 287);	
 
 --Bramble Wall	--CardIndex 691	--UtilityIndex 42	--ExploreIndex 24	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (691, 'Bramble Wall',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Forgotten_King_The/Card_Explore_Bramble_Wall_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Forgotten_King_The/Card_Explore_Bramble_Wall_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Forgotten_King_The/Bramble_Wall.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Do you see a way around?');
@@ -328,8 +328,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (24, 288);	
 
 --Corrupted Tree	--CardIndex 692	--UtilityIndex 43	--ExploreIndex 25	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (692, 'Corrupted Tree',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Forgotten_King_The/Card_Explore_Corrupted_Tree_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Forgotten_King_The/Card_Explore_Corrupted_Tree_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Forgotten_King_The/Corrupted_Tree.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I think that tree just moved.');
@@ -343,8 +343,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (25, 288);	
 
 --Dancing Light	--CardIndex 693	--UtilityIndex 44	--ExploreIndex 26	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (693, 'Dancing Light',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Forgotten_King_The/Card_Explore_Dancing_Light_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Forgotten_King_The/Card_Explore_Dancing_Light_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Forgotten_King_The/Dancing_Light.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
@@ -357,8 +357,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (26, 288);	
 
 --Faerie Pool	--CardIndex 694	--UtilityIndex 45	--ExploreIndex 27	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (694, 'Faerie Pool',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Forgotten_King_The/Card_Explore_Faerie_Pool_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Forgotten_King_The/Card_Explore_Faerie_Pool_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Forgotten_King_The/Faerie_Pool.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'You caught a faerie!');
@@ -371,8 +371,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (27, 288);	
 
 --Friendly Chimera	--CardIndex 695	--UtilityIndex 46	--ExploreIndex 28	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (695, 'Friendly Chimera',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Forgotten_King_The/Card_Explore_Friendly_Chimera_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Forgotten_King_The/Card_Explore_Friendly_Chimera_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Forgotten_King_The/Friendly_Chimera.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'They''re so adorable!');
@@ -385,8 +385,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (28, 288);	
 
 --Gypsy Princess	--CardIndex 696	--UtilityIndex 47	--ExploreIndex 29	--ExploreCreepIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (696, 'Gypsy Princess',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Forgotten_King_The/Card_Explore_Gypsy_Princess_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Forgotten_King_The/Card_Explore_Gypsy_Princess_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Forgotten_King_The/Gypsy_Princess.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Why hello there.');
@@ -399,8 +399,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (29, 288);	
 
 --Lost Unicorn	--CardIndex 697	--UtilityIndex 48	--ExploreIndex 30	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (697, 'Lost Unicorn',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Forgotten_King_The/Card_Explore_Lost_Unicorn_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Forgotten_King_The/Card_Explore_Lost_Unicorn_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Forgotten_King_The/Lost_Unicorn.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'So I like unicorns...');
@@ -413,8 +413,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (30, 288);	
 
 --Mistmourn Fog	--CardIndex 698	--UtilityIndex 49	--ExploreIndex 31	--ExploreCreepIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (698, 'Mistmourn Fog',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Forgotten_King_The/Card_Explore_Mistmourn_Fog_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Forgotten_King_The/Card_Explore_Mistmourn_Fog_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Forgotten_King_The/Mistmourn_Fog.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Can any of you see anything?');
@@ -427,8 +427,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (31, 288);	
 
 --Berry Patch	--CardIndex 699	--UtilityIndex 50	--ExploreIndex 32	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (699, 'Berry Patch',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Goro/Card_Explore_Berry_Patch_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Goro/Card_Explore_Berry_Patch_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Goro/Berry_Patch.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Don''t eat those.');
@@ -442,8 +442,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (32, 289);	
 
 --Campfire	--CardIndex 700	--UtilityIndex 51	--ExploreIndex 33	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (700, 'Campfire',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Goro/Card_Explore_Campfire_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Goro/Card_Explore_Campfire_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Goro/Campfire.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'They''re scared of the flame.');
@@ -456,8 +456,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (33, 289);	
 
 --Dirty Bison	--CardIndex 701	--UtilityIndex 52	--ExploreIndex 34	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (701, 'Dirty Bison',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Goro/Card_Explore_Dirty_Bison_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Goro/Card_Explore_Dirty_Bison_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Goro/Dirty_Bison.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'After a nice bath, you found a pet!');
@@ -470,8 +470,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (34, 289);	
 
 --Downpour	--CardIndex 702	--UtilityIndex 53	--ExploreIndex 35	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (702, 'Downpour',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Goro/Card_Explore_Downpour_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Goro/Card_Explore_Downpour_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Goro/Downpour.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Hurry and we won''t get wet!');
@@ -484,8 +484,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (35, 289);	
 
 --Faery Queen	--CardIndex 703	--UtilityIndex 54	--ExploreIndex 36	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (703, 'Faery Queen',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Goro/Card_Explore_Faery_Queen_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Goro/Card_Explore_Faery_Queen_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Goro/Faery_Queen.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Ah-hah-hah-ha!');
@@ -498,8 +498,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (36, 289);	
 
 --Giant Centipede	--CardIndex 704	--UtilityIndex 55	--ExploreIndex 37	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (704, 'Giant Centipede',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Goro/Card_Explore_Giant_Centipede_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Goro/Card_Explore_Giant_Centipede_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Goro/Giant_Centipede.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
@@ -513,8 +513,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (37, 289);	
 
 --Howling Wind	--CardIndex 705	--UtilityIndex 56	--ExploreIndex 38	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (705, 'Howling Wind',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Goro/Card_Explore_Howling_Wind_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Goro/Card_Explore_Howling_Wind_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Goro/Howling_Wind.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I can''t hear you!');
@@ -527,8 +527,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (38, 289);	
 
 --Respec	--CardIndex 706	--UtilityIndex 57	--ExploreIndex 39	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (706, 'Respec',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Goro/Card_Explore_Respec_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Goro/Card_Explore_Respec_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Goro/Respec.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Lets try this again.');
@@ -541,8 +541,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (39, 289);	
 
 --1-Up	--CardIndex 707	--UtilityIndex 58	--ExploreIndex 40	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (707, '1-Up',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Roxor/Card_Explore_1_Up_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Roxor/Card_Explore_1_Up_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Roxor/1_Up.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Save this for later.');
@@ -558,8 +558,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (40, 295); 
 
 --Dusty Cartridge	--CardIndex 708	--UtilityIndex 59	--ExploreIndex 41	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (708, 'Dusty Cartridge',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Roxor/Card_Explore_Dusty_Cartridge_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Roxor/Card_Explore_Dusty_Cartridge_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Roxor/Dusty_Cartridge.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Blow on it.');
@@ -575,8 +575,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (41, 295); 
 
 --Fire Flowers	--CardIndex 709	--UtilityIndex 60	--ExploreIndex 42	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (709, 'Fire Flowers',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Roxor/Card_Explore_Fire_Flowers_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Roxor/Card_Explore_Fire_Flowers_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Roxor/Fire_Flowers.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Danger.  Do not sniff the flowers.');
@@ -593,8 +593,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (42, 295); 
 
 --Funny Costumes	--CardIndex 710	--UtilityIndex 61	--ExploreIndex 43	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (710, 'Funny Costumes',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Roxor/Card_Explore_Funny_Costumes_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Roxor/Card_Explore_Funny_Costumes_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Roxor/Funny_Costumes.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'You look adorable.');
@@ -610,8 +610,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (43, 295); 
 
 --Heroic Princess	--CardIndex 711	--UtilityIndex 62	--ExploreIndex 44	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (711, 'Heroic Princess',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Roxor/Card_Explore_Heroic_Princess_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Roxor/Card_Explore_Heroic_Princess_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Roxor/Heroic_Princess.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Well done princess!');
@@ -627,8 +627,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (44, 295); 
 
 --Pixelated	--CardIndex 712	--UtilityIndex 63	--ExploreIndex 45	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (712, 'Pixelated',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Roxor/Card_Explore_Pixelated_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Roxor/Card_Explore_Pixelated_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Roxor/Pixelated.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Go straight, please.');
@@ -644,8 +644,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (45, 295); 
 
 --POW!	--CardIndex 713	--UtilityIndex 64	--ExploreIndex 46	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (713, 'POW!',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Roxor/Card_Explore_Pow_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Roxor/Card_Explore_Pow_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Roxor/Pow.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Right in the kisser!');
@@ -662,8 +662,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (46, 295); 
 
 --Stone Wall	--CardIndex 714	--UtilityIndex 65	--ExploreIndex 47	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (714, 'Stone Wall',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Roxor/Card_Explore_Stone_Wall_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Roxor/Card_Explore_Stone_Wall_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Roxor/Stone_Wall.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'It''s solid rock.');
@@ -679,8 +679,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (47, 295); 
 
 --Burglar's Ring	--CardIndex 715	--UtilityIndex 66	--ExploreIndex 48	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (715, 'Burglar''s Ring',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Starfire/Card_Explore_Burglars_Ring_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Starfire/Card_Explore_Burglars_Ring_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Starfire/Burglars_Ring.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Can''t see me.');
@@ -695,8 +695,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	
 
 --Dragon Pot	--CardIndex 716	--UtilityIndex 67	--ExploreIndex 49	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (716, 'Dragon Pot',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Starfire/Card_Explore_Dragon_Pot_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Starfire/Card_Explore_Dragon_Pot_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Starfire/Dragon_Pot.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Smells of sulfur.');
@@ -712,8 +712,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (49, 290);	
 
 --Dwarven Ale	--CardIndex 717	--UtilityIndex 68	--ExploreIndex 50	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (717, 'Dwarven Ale',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Starfire/Card_Explore_Dwarven_Ale_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Starfire/Card_Explore_Dwarven_Ale_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Starfire/Dwarven_Ale.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'That''s a good brew!');
@@ -728,8 +728,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (50, 290);	
 
 --Kidnapped Villager	--CardIndex 718	--UtilityIndex 69	--ExploreIndex 51	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (718, 'Kidnapped Villager',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Starfire/Card_Explore_Kidnapped_Villager_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Starfire/Card_Explore_Kidnapped_Villager_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Starfire/Kidnapped_Villager.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'You deserve a reward!');
@@ -744,8 +744,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (51, 290);	
 
 --Molten Steel	--CardIndex 719	--UtilityIndex 70	--ExploreIndex 52	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (719, 'Molten Steel',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Starfire/Card_Explore_Molten_Steel_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Starfire/Card_Explore_Molten_Steel_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Starfire/Molten_Steel.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'My sword is bendy.');
@@ -761,8 +761,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (52, 290);	
 
 --Mountain of Gold	--CardIndex 720	--UtilityIndex 71	--ExploreIndex 53	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (720, 'Mountain of Gold',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Starfire/Card_Explore_Mountain_of_Gold_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Starfire/Card_Explore_Mountain_of_Gold_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Starfire/Mountain_of_Gold.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'So tall.');
@@ -777,8 +777,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (53, 290);	
 
 --New Player	--CardIndex 721	--UtilityIndex 72	--ExploreIndex 54	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (721, 'New Player',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Starfire/Card_Explore_New_Player_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Starfire/Card_Explore_New_Player_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Starfire/New_Player.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Anyone know who this is?');
@@ -793,8 +793,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (54, 290);	
 
 --Sacrificial Altar	--CardIndex 722	--UtilityIndex 73	--ExploreIndex 55	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (722, 'Sacrificial Altar',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Starfire/Card_Explore_Sacrificial_Altar_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Starfire/Card_Explore_Sacrificial_Altar_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Starfire/Sacrificial_Altar.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Give to the Dragon.');
@@ -810,8 +810,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (55, 290);	
 
 --Abandoned Mine Shaft	--CardIndex 723	--UtilityIndex 74	--ExploreIndex 56	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (723, 'Abandoned Mine Shaft',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Testudo_Tower/Card_Explore_Abandoned_Mine_Shaft_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Testudo_Tower/Card_Explore_Abandoned_Mine_Shaft_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Testudo_Tower/Abandoned_Mine_Shaft.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Ahhhhhh!!!');
@@ -824,8 +824,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (56, 960);	
 
 --Bomb Flower	--CardIndex 724	--UtilityIndex 75	--ExploreIndex 57	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (724, 'Bomb Flower',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Testudo_Tower/Card_Explore_Bomb_Flower_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Testudo_Tower/Card_Explore_Bomb_Flower_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Testudo_Tower/Bomb_Flower.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Careful where you throw that!');
@@ -839,8 +839,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (57, 960);	
 
 --Bumper Shells	--CardIndex 725	--UtilityIndex 76	--ExploreIndex 58	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (725, 'Bumper Shells',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Testudo_Tower/Card_Explore_Bumper_Shells_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Testudo_Tower/Card_Explore_Bumper_Shells_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Testudo_Tower/Bumper_Shells.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'If I can just get the right angle...');
@@ -853,8 +853,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (58, 960);	
 
 --Handy Tunnel	--CardIndex 726	--UtilityIndex 77	--ExploreIndex 59	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (726, 'Handy Tunnel',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Testudo_Tower/Card_Explore_Handy_Tunnel_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Testudo_Tower/Card_Explore_Handy_Tunnel_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Testudo_Tower/Handy_Tunnel.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I think it''s safe.');
@@ -867,8 +867,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (59, 960);	
 
 --Shell Up	--CardIndex 727	--UtilityIndex 78	--ExploreIndex 60	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (727, 'Shell Up',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Testudo_Tower/Card_Explore_Shell_Up_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Testudo_Tower/Card_Explore_Shell_Up_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Testudo_Tower/Shell_Up.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Turtle power!');
@@ -881,8 +881,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (60, 960);	
 
 --Testudo Formation	--CardIndex 728	--UtilityIndex 79	--ExploreIndex 61	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (728, 'Testudo Formation',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Testudo_Tower/Card_Explore_Testudo_Formation_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Testudo_Tower/Card_Explore_Testudo_Formation_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Testudo_Tower/Testudo_Formation.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Form on me.');
@@ -895,8 +895,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (61, 960);	
 
 --Bone Rot	--CardIndex 729	--UtilityIndex 80	--ExploreIndex 62	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (729, 'Bone Rot',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Von_Drakk/Card_Explore_Bone_Rot_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Von_Drakk/Card_Explore_Bone_Rot_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Von_Drakk/Bone_Rot.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I don''t feel good.');
@@ -912,8 +912,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (62, 291);	
 
 --Cackling Laughter	--CardIndex 730	--UtilityIndex 81	--ExploreIndex 63	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (730, 'Cackling Laughter',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Von_Drakk/Card_Explore_Cackling_Laughter_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Von_Drakk/Card_Explore_Cackling_Laughter_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Von_Drakk/Cackling_Laughter.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'That''s just creepy.');
@@ -928,8 +928,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (63, 291);	
 
 --Ghost Well	--CardIndex 731	--UtilityIndex 82	--ExploreIndex 64	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (731, 'Ghost Well',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Von_Drakk/Card_Explore_Ghost_Well_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Von_Drakk/Card_Explore_Ghost_Well_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Von_Drakk/Ghost_Well.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I''m see-through!');
@@ -944,8 +944,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (64, 291);	
 
 --Hidden Lever	--CardIndex 732	--UtilityIndex 83	--ExploreIndex 65	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (732, 'Hidden Lever',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Von_Drakk/Card_Explore_Hidden_Lever_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Von_Drakk/Card_Explore_Hidden_Lever_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Von_Drakk/Hidden_Lever.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'What do you think this does?');
@@ -960,8 +960,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (65, 291);	
 
 --Secret Passsage	--CardIndex 733	--UtilityIndex 84	--ExploreIndex 66	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (733, 'Secret Passage',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Von_Drakk/Card_Explore_Secret_Passage_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Von_Drakk/Card_Explore_Secret_Passage_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Von_Drakk/Secret_Passage.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'It''s dark - you go first.');
@@ -976,8 +976,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (66, 291);	
 
 --Sore Thumbs	--CardIndex 734	--UtilityIndex 85	--ExploreIndex 67	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (734, 'Sore Thumbs',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Von_Drakk/Card_Explore_Sore_Thumbs_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Von_Drakk/Card_Explore_Sore_Thumbs_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Von_Drakk/Sore_Thumbs.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Take a break.');
@@ -992,8 +992,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (67, 291);	
 
 --Soul Spike	--CardIndex 735	--UtilityIndex 86	--ExploreIndex 68	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (735, 'Soul Spike',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Von_Drakk/Card_Explore_Soul_Spike_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Von_Drakk/Card_Explore_Soul_Spike_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Von_Drakk/Soul_Spike.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Is it supposed to glow like that?');
@@ -1008,8 +1008,8 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (68, 291);	
 
 --Webs	--CardIndex 736	--UtilityIndex 87	--ExploreIndex 68	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (736, 'Webs',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Character/Von_Drakk/Card_Explore_Webs_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Character/Von_Drakk/Card_Explore_Webs_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Von_Drakk/Webs.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I can''t get them off.');

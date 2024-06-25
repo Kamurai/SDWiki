@@ -10,8 +10,8 @@ insert into Components DEFAULT VALUES; --2390
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2390, 
 'Dark Present',
-'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Dark_Present_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Dark_Present_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Creeps/Card_Creep_Dark_Present_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Creeps/Card_Creep_Dark_Present_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Dark_Present.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 '');
@@ -19,8 +19,8 @@ insert into Characters (CardIndex) VALUES (2390);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1221, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1221,
-'http://htkb.info/SDE/Standies/Dark_Present.png', 
-'http://htkb.info/SDE/Standies/Dark_Present_back.png',
+'http://htkb.info/ND/SDE/Standies/Dark_Present.png', 
+'http://htkb.info/ND/SDE/Standies/Dark_Present_back.png',
 'Neither', 'Small', '', 6, 1, '3B', '2R', '3R', '0ST', 1, 0);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (878, 1179); --Gifts of Darkness
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (878, 1, 1); --Strength
@@ -32,8 +32,8 @@ insert into Components DEFAULT VALUES; --2391
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2391, 
 'Truffle Hog',
-'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Truffle_Hog_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Truffle_Hog_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Creeps/Card_Creep_Truffle_Hog_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Creeps/Card_Creep_Truffle_Hog_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Truffle_Hog.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 '');
@@ -41,8 +41,8 @@ insert into Characters (CardIndex) VALUES (2391);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1221, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1222,
-'http://htkb.info/SDE/Standies/Truffle_Hog.png', 
-'http://htkb.info/SDE/Standies/Truffle_Hog_back.png',
+'http://htkb.info/ND/SDE/Standies/Truffle_Hog.png', 
+'http://htkb.info/ND/SDE/Standies/Truffle_Hog_back.png',
 'Either', 'Small', 'Hog', 4, 1, '3R', '2B', '0ST', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (879, 859); --Run Down
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (879, 1, 1); --Strength
@@ -58,8 +58,8 @@ insert into Components DEFAULT VALUES; --2392
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2392, 
 'Sleighride Candy',
-'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Sleighride_Candy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Sleighride_Candy_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Bosses/Card_Boss_Sleighride_Candy_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Bosses/Card_Boss_Sleighride_Candy_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Sleighride_Candy.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
@@ -67,8 +67,8 @@ insert into Characters (CardIndex) VALUES (2392);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1222, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1223,
-'http://htkb.info/SDE/Standies/Sleighride_Candy.png', 
-'http://htkb.info/SDE/Standies/Sleighride_Candy_back.png', 
+'http://htkb.info/ND/SDE/Standies/Sleighride_Candy.png', 
+'http://htkb.info/ND/SDE/Standies/Sleighride_Candy_back.png', 
 'Feminine', 'Small', 'Human', 8, 4, '2B 2R 2G', '2G', '3B', '2B', 8, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (880, 859); --Run Down
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (880, 1180); --Help Meeeee!
@@ -89,8 +89,8 @@ insert into Components DEFAULT VALUES; --2393
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2393, 
 'Dark Present',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Dark_Present_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Dark_Present_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Dark_Present_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Dark_Present_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Dark_Present.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 '');
@@ -109,8 +109,8 @@ insert into Components DEFAULT VALUES; --2394
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2394, 
 'Truffle Hog',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Truffle_Hog_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Truffle_Hog_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Truffle_Hog_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Truffle_Hog_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Truffle_Hog.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 '');
@@ -132,8 +132,8 @@ insert into Components DEFAULT VALUES; --2395
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2395, 
 'Sleighride Candy',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Sleighride_Candy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Sleighride_Candy_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Sleighride_Candy_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Sleighride_Candy_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Sleighride_Candy.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
@@ -159,8 +159,8 @@ insert into Components DEFAULT VALUES; --2396
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2396, 
 'Sleighride Candy', 
-'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Sleighride_Candy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Sleighride_Candy_2.0_back.png',
+'http://htkb.info/ND/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Sleighride_Candy_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Sleighride_Candy_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Sleighride_Candy.xhtml', 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 '');
@@ -183,8 +183,8 @@ insert into Components DEFAULT VALUES; --2397
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2397, 
 'Butterscotch',
-'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Butterscotch_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Butterscotch_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Pets/Card_Pet_Butterscotch_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Pets/Card_Pet_Butterscotch_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Butterscotch.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
 '');
@@ -192,8 +192,8 @@ insert into Characters (CardIndex) VALUES (2397);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1226, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1227,
-'http://htkb.info/SDE/Standies/Butterscotch.png', 
-'http://htkb.info/SDE/Standies/Butterscotch_back.png',
+'http://htkb.info/ND/SDE/Standies/Butterscotch.png', 
+'http://htkb.info/ND/SDE/Standies/Butterscotch_back.png',
 'Either', 'Small', '', 4, 1, '3B', '2B', '0ST', '2B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (881, 859); --Run Down
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (881, 2293); --Surprisingly Fierce
@@ -210,8 +210,8 @@ insert into Components DEFAULT VALUES; --2398
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2398, 
 'Candy Stave',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Candy_Stave_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
+'http://htkb.info/ND/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Candy_Stave_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Candy_Stave.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'TBD.');
@@ -225,8 +225,8 @@ insert into Components DEFAULT VALUES; --2399
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2399, 
 'Mistletoe',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Mistletoe_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
+'http://htkb.info/ND/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Mistletoe_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Mistletoe.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'TBD.');
@@ -240,8 +240,8 @@ insert into Components DEFAULT VALUES; --2400
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2400, 
 'Ribbon Reel',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Ribbon_Reel_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
+'http://htkb.info/ND/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Ribbon_Reel_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Ribbon_Reel.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'TBD.');
@@ -255,8 +255,8 @@ insert into Components DEFAULT VALUES; --2401
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2401, 
 'Stocking Full of Coal',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Stocking_Full_of_Coal_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
+'http://htkb.info/ND/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Stocking_Full_of_Coal_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Stocking_Full_of_Coal.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'TBD.');
@@ -271,8 +271,8 @@ insert into Components DEFAULT VALUES; --2402
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2402, 
 'Winter Holiday Hat',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Winter_Holiday_Hat_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
+'http://htkb.info/ND/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Winter_Holiday_Hat_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Winter_Holiday_Hat.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
@@ -286,8 +286,8 @@ insert into Components DEFAULT VALUES; --2403
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2403, 
 'Wonderland Cloak',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Wonderland_Cloak_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
+'http://htkb.info/ND/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Wonderland_Cloak_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Wonderland_Cloak.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'TBD.');
@@ -306,8 +306,8 @@ insert into Components DEFAULT VALUES; --2404
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2404, 
 'Darbles',
-'http://htkb.info/SDE/2.0/Cards/Relics/Character/Card_Relic_Darbles_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
+'http://htkb.info/ND/SDE/2.0/Cards/Relics/Character/Card_Relic_Darbles_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Character/Darbles.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'TBD.');
@@ -321,8 +321,8 @@ insert into Components DEFAULT VALUES; --2405
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2405, 
 'Naughty List',
-'http://htkb.info/SDE/2.0/Cards/Relics/Character/Card_Relic_Naughty_List_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
+'http://htkb.info/ND/SDE/2.0/Cards/Relics/Character/Card_Relic_Naughty_List_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Character/Naughty_List.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'TBD.');
@@ -336,8 +336,8 @@ insert into Components DEFAULT VALUES; --2406
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2406, 
 'Pretty Bows',
-'http://htkb.info/SDE/2.0/Cards/Relics/Character/Card_Relic_Pretty_Bows_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
+'http://htkb.info/ND/SDE/2.0/Cards/Relics/Character/Card_Relic_Pretty_Bows_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Character/Pretty_Bows.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'Does it never end?!');
@@ -351,8 +351,8 @@ insert into Components DEFAULT VALUES; --2407
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2407, 
 'Sleighbells',
-'http://htkb.info/SDE/2.0/Cards/Relics/Character/Card_Relic_Sleighbells_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
+'http://htkb.info/ND/SDE/2.0/Cards/Relics/Character/Card_Relic_Sleighbells_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Character/Sleighbells.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'When you hear them ringing, run!');
@@ -368,8 +368,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (803, 1
 insert into Components DEFAULT VALUES; --2408
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2408, 'Explore Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Boards/Utility_Boards/Board_Explore_Mighty_Monster_Chart_3_4_2.0.png', 
-'http://htkb.info/SDE/2.0/Boards/Utility_Boards/Board_Explore_Mighty_Monster_Chart_3_4_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Boards/Utility_Boards/Board_Explore_Mighty_Monster_Chart_3_4_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Boards/Utility_Boards/Board_Explore_Mighty_Monster_Chart_3_4_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Utility_Cards/Explore_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Explore', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2408, '');
@@ -378,8 +378,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (2408, '');
 insert into Components DEFAULT VALUES; --2409
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2409, 'Extended Explore Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Boards/Utility_Boards/Board_Explore_Mighty_Monster_Chart_5_6_2.0.png', 
-'http://htkb.info/SDE/2.0/Boards/Utility_Boards/Board_Explore_Mighty_Monster_Chart_5_6_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Boards/Utility_Boards/Board_Explore_Mighty_Monster_Chart_5_6_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Boards/Utility_Boards/Board_Explore_Mighty_Monster_Chart_5_6_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Utility_Cards/Extended_Explore_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Explore', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2409, '');
@@ -388,8 +388,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (2409, '');
 insert into Components DEFAULT VALUES; --2410
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2410, 'Arcade Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Boards/Utility_Boards/Board_Arcade_Mighty_Monster_Chart_3_4_2.0.png', 
-'http://htkb.info/SDE/2.0/Boards/Utility_Boards/Board_Arcade_Mighty_Monster_Chart_3_4_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Boards/Utility_Boards/Board_Arcade_Mighty_Monster_Chart_3_4_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Boards/Utility_Boards/Board_Arcade_Mighty_Monster_Chart_3_4_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Utility_Cards/Arcade_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Arcade', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2410, '');
@@ -398,8 +398,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (2410, '');
 insert into Components DEFAULT VALUES; --2411
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2411, 'Extended Arcade Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Boards/Utility_Boards/Board_Arcade_Mighty_Monster_Chart_5_6_2.0.png', 
-'http://htkb.info/SDE/2.0/Boards/Utility_Boards/Board_Arcade_Mighty_Monster_Chart_5_6_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Boards/Utility_Boards/Board_Arcade_Mighty_Monster_Chart_5_6_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Boards/Utility_Boards/Board_Arcade_Mighty_Monster_Chart_5_6_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Utility_Cards/Extended_Arcade_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Arcade', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2411, '');
@@ -408,8 +408,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (2411, '');
 insert into Components DEFAULT VALUES; --2412
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2412, 'Explore Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Standard_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Standard_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Standard_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Standard_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Utility_Cards/Explore_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Explore', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2412, '');
@@ -418,8 +418,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (2412, '');
 insert into Components DEFAULT VALUES; --2413
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2413, 'Explore Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Extended_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Extended_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Extended_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Extended_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Utility_Cards/Extended_Explore_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Explore', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2413, '');
@@ -428,8 +428,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (2413, '');
 insert into Components DEFAULT VALUES; --2414
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2414, 'Bomechan''s Explore Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Bomechan_Standard_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Bomechan_Standard_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Bomechan_Standard_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Bomechan_Standard_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Utility_Cards/Bomechan_Explore_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Explore', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2414, '');
@@ -440,8 +440,8 @@ insert into UtilityAssignments (UtilityIndex, CharacterIndex) VALUES (2369, 939)
 insert into Components DEFAULT VALUES; --2415
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2415, 'Bomechan''s Extended Explore Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Bomechan_Extended_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Bomechan_Extended_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Bomechan_Extended_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Bomechan_Extended_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Utility_Cards/Bomechan_Extended_Explore_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Explore', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2415, '');
@@ -452,8 +452,8 @@ insert into UtilityAssignments (UtilityIndex, CharacterIndex) VALUES (2369, 939)
 insert into Components DEFAULT VALUES; --2416
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2416, 'Hoarfang''s Explore Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Standard_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Standard_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Standard_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Standard_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Utility_Cards/Hoarfang_Explore_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Explore', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2416, '');
@@ -464,8 +464,8 @@ insert into UtilityAssignments (UtilityIndex, CharacterIndex) VALUES (2369, 946)
 insert into Components DEFAULT VALUES; --2417
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2417, 'Hoarfang''s Extended Explore Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Extended_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Extended_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Extended_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Extended_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Utility_Cards/Hoarfang_Extended_Explore_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Explore', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2417, '');
@@ -476,8 +476,8 @@ insert into UtilityAssignments (UtilityIndex, CharacterIndex) VALUES (2369, 946)
 insert into Components DEFAULT VALUES; --2418
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2418, 'Hoarfang''s Arcade Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Arcade_Standard_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Arcade_Standard_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Arcade_Standard_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Arcade_Standard_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Utility_Cards/Hoarfang_Arcade_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Arcade', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2418, '');
@@ -488,8 +488,8 @@ insert into UtilityAssignments (UtilityIndex, CharacterIndex) VALUES (2369, 946)
 insert into Components DEFAULT VALUES; --2419
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2419, 'Hoarfang''s Extended Arcade Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Arcade_Extended_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Arcade_Extended_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Arcade_Extended_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Hoarfang_Arcade_Extended_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Utility_Cards/Hoarfang_Extended_Arcade_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Arcade', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2419, '');
@@ -500,8 +500,8 @@ insert into UtilityAssignments (UtilityIndex, CharacterIndex) VALUES (2369, 946)
 insert into Components DEFAULT VALUES; --2420
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2420, 'Sleighride Candy''s Explore Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Standard_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Standard_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Standard_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Standard_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Utility_Cards/Sleighride_Candy_Explore_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Explore', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2420, '');
@@ -512,8 +512,8 @@ insert into UtilityAssignments (UtilityIndex, CharacterIndex) VALUES (2369, 1225
 insert into Components DEFAULT VALUES; --2421
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2421, 'Sleighride Candy''s Extended Explore Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Extended_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Extended_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Extended_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Extended_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Utility_Cards/Sleighride_Candy_Extended_Explore_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Explore', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2421, '');
@@ -524,8 +524,8 @@ insert into UtilityAssignments (UtilityIndex, CharacterIndex) VALUES (2369, 1225
 insert into Components DEFAULT VALUES; --2422
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2422, 'Sleighride Candy''s Arcade Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Arcade_Standard_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Arcade_Standard_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Arcade_Standard_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Arcade_Standard_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Utility_Cards/Sleighride_Candy_Arcade_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Arcade', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2422, '');
@@ -536,8 +536,8 @@ insert into UtilityAssignments (UtilityIndex, CharacterIndex) VALUES (2369, 1225
 insert into Components DEFAULT VALUES; --2423
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2423, 'Sleighride Candy''s Extended Arcade Mighty Monster Chart',
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Arcade_Extended_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Arcade_Extended_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Arcade_Extended_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Mighty_Monster_Chart_Sleighride_Candy_Arcade_Extended_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Utility_Cards/Sleighride_Candy_Extended_Arcade_Mighty_Monster_Chart.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Arcade', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2423, '');
@@ -552,8 +552,8 @@ insert into UtilityAssignments (UtilityIndex, CharacterIndex) VALUES (2369, 1225
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2424, 
 'Feral Hogs',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Feral_Hogs_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Feral_Hogs_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Feral_Hogs.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'Once these hogs get a belly full of holiday spiced pies, they get a certain twinkle in their eyes... RUN! - Cola');
@@ -566,8 +566,8 @@ insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2425, 
 'Freezing Armor',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Freezing_Armor_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Freezing_Armor_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Freezing_Armor.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'TBD.');
@@ -580,8 +580,8 @@ insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2426, 
 'Here They Come',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Here_They_Come_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Here_They_Come_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Here_They_Come.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'Nothing escapes the watchful eye of the sleighmaster.  With a flourish of her fizzy drink, the rampaging hordes descend upon a hapless hero at the edge of her vision.  None shall escape!');
@@ -594,8 +594,8 @@ insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2427, 
 'Naughty List',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Naughty_List_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Naughty_List_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Naughty_List.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'TBD.');
@@ -608,8 +608,8 @@ insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2428, 
 'Out of Control Sleigh',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Out_of_Control_Sleigh_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Out_of_Control_Sleigh_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Out_of_Control_Sleigh.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'TBD.');
@@ -622,8 +622,8 @@ insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2429, 
 'Porkpocalypse',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Porkpocalypse_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Porkpocalypse_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Porkpocalypse.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'TBD.');
@@ -636,8 +636,8 @@ insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2430, 
 'Sled Ride',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Sled_Ride_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Sled_Ride_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Sled_Ride.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'TBD.');
@@ -650,8 +650,8 @@ insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2431, 
 'Survival of the Fittest',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Survival_of_the_Fittest_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Survival_of_the_Fittest_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Survival_of_the_Fittest.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'TBD.');
@@ -664,8 +664,8 @@ insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2432, 
 'Take These and Stop This Sleigh',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Take_These_and_Stop_This_Sleigh_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Take_These_and_Stop_This_Sleigh_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Take_These_and_Stop_This_Sleigh.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'TBD.');
@@ -678,8 +678,8 @@ insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2433, 
 'Tis_the_Season',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Tis_the_Season_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Sleighride_Candy/Card_Boss_Challenge_Tis_the_Season_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenge_Cards/Boss_Challenges/Sleighride_Candy/Tis_the_Season.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
 'TBD.');
@@ -696,8 +696,8 @@ insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 
 insert into Components DEFAULT VALUES; --2434
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2434, 'Explore Backpack (Original)',
-'http://htkb.info/SDE/2.0/Boards/Utility_Boards/Board_Classic_Loot_Tracker_2.0.png', 
-'http://htkb.info/SDE/2.0/Boards/Utility_Boards/Board_Classic_Loot_Tracker_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Boards/Utility_Boards/Board_Classic_Loot_Tracker_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Boards/Utility_Boards/Board_Classic_Loot_Tracker_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Utility_Cards/Explore_Backpack_original.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Explore', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2434, '');
@@ -706,8 +706,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (2434, '');
 insert into Components DEFAULT VALUES; --2435
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2435, 'Arcade Backpack (Original)',
-'http://htkb.info/SDE/2.0/Boards/Utility_Boards/Board_Arcade_Loot_Tracker_2.0.png', 
-'http://htkb.info/SDE/2.0/Boards/Utility_Boards/Board_Arcade_Loot_Tracker_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Boards/Utility_Boards/Board_Arcade_Loot_Tracker_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Boards/Utility_Boards/Board_Arcade_Loot_Tracker_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Utility_Cards/Arcade_Backpack_original.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Arcade', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2435, '');
@@ -716,8 +716,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (2435, '');
 insert into Components DEFAULT VALUES; --2436
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2436, 'Explore Backpack',
-'http://htkb.info/SDE/2.0/Cards/Utility/Backpack_Explore_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Utility/Backpack_Explore_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Backpack_Explore_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Utility/Backpack_Explore_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Utility_Cards/Explore_Backpack.xhtml', 
 'Utility', '2.0', '2.0 Core Set', 'Explore', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2436, '');
@@ -731,8 +731,8 @@ insert into Components DEFAULT VALUES; --2437
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2437, 
 'Fool''s Gold v2',
-'http://htkb.info/SDE/FK/Cards/Treasure/Character/Card_Treasure_Fools_Gold_v2_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
+'http://htkb.info/ND/SDE/FK/Cards/Treasure/Character/Card_Treasure_Fools_Gold_v2_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Character/Fools_Gold_v2.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Better lucky than smart, I always say.');
@@ -750,8 +750,8 @@ insert into Components DEFAULT VALUES; --2438
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2438, 
 'Grimy Grim Granite Greaves v2',
-'http://htkb.info/SDE/FK/Cards/Treasure/Character/Card_Treasure_Grimy_Grim_Granite_Greaves_v2_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
+'http://htkb.info/ND/SDE/FK/Cards/Treasure/Character/Card_Treasure_Grimy_Grim_Granite_Greaves_v2_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Character/Grimy_Grim_Granite_Greaves_v2.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Keep moving, it''ll be over soon.');
@@ -769,8 +769,8 @@ insert into Components DEFAULT VALUES; --2439
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2439, 
 'Roxor''s Bane v2',
-'http://htkb.info/SDE/FK/Cards/Treasure/Character/Card_Treasure_Roxors_Bane_v2_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
+'http://htkb.info/ND/SDE/FK/Cards/Treasure/Character/Card_Treasure_Roxors_Bane_v2_FK.png', 
+'http://htkb.info/ND/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Character/Roxors_Bane_v2.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -785,8 +785,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (806, 4
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2440, 
 'Celestian Purifier v2', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestian_Purifier_v2_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestian_Purifier_v2_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Celestian_Purifier_v2_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Celestian_Purifier_v2_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Celestian_Purifier_v2.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The Dark Consul''s near destruction of Celestia also left the realm deeply corrupted by amethyst magic. Nearly overwhelmed, the Celestians fight against constant monstrous incursions to push back the darkness. As areas are cleared of threat, specialized priests known as Purifiers then consecrate the land so that it can be reclaimed by the Light and flourish once again.');
@@ -794,8 +794,8 @@ insert into Characters (CardIndex) VALUES (2440);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1228, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1228, 
-'http://htkb.info/SDE/Standies/Celestian_Purifier.png', 
-'http://htkb.info/SDE/Standies/Celestian_Purifier_back.png',
+'http://htkb.info/ND/SDE/Standies/Celestian_Purifier.png', 
+'http://htkb.info/ND/SDE/Standies/Celestian_Purifier_back.png',
 'Feminine', 'Small', 'Celestian', 7, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (882, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (882, 728); --Massive Damage

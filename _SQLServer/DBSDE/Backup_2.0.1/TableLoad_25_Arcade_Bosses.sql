@@ -5,8 +5,8 @@
 
 --Bomechan	--CardIndex 1329	--CharacterIndex 939	--ArcadeCharacterIndex 171
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1329, 'Bomechan',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Bomechan_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Bomechan_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Bomechan_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Bomechan_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/DI/Arcade/Cards/Bosses/Bomechan.xhtml', 
 'Boss', '2.0 DI', '2.0 Devil''s Island', 'Arcade', 
 'Bomechan is a striking beauty of clan Ijin, but the pair of iron-spiked tetsubo and her hearty laughter as she swings them are her most arresting features.  She loves a challenge and seeks to place herself on the Moon Throne, because she sees this as the greatest challenge of all.');
@@ -28,8 +28,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (219, 1688
 
 --Daemonus	--CardIndex 1330	--CharacterIndex 940	--ArcadeCharacterIndex 172
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1330, 'Daemonus',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Daemonus_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Daemonus_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Daemonus_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Daemonus_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Daemonus.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'Built by a doomed gnomish artificer to house a fragment of the Dark Consul''s evil soul, Daemonus serves the Midnight Queen as guardian and champion. The true purpose of this vile clockwork contraption is far more sinister. Through Daemonus, the Dark Consul is able to observe and whisper corruption to the Queen. In this way, he shields her heart from the Light, continuing to use her along the path to darkness.');
@@ -45,8 +45,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (220, 527)
 
 --Demon Queen Araphel	--CardIndex 1331	--CharacterIndex 941	--ArcadeCharacterIndex 173
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1331, 'Demon Queen Araphel',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Demon_Queen_Araphel_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Demon_Queen_Araphel_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Demon_Queen_Araphel_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Demon_Queen_Araphel_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Demon_Queen_Araphel.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
@@ -67,8 +67,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (221, 1221
 
 --Destroyer, The	--CardIndex 1332	--CharacterIndex 942	--ArcadeCharacterIndex 174
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1332, 'Destroyer, The',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Destroyer_The_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Destroyer_The_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Destroyer_The_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Destroyer_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Destroyer_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
@@ -88,8 +88,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (222, 1004
 
 --Elrik The Lich King	--CardIndex 1333	--CharacterIndex 943	--ArcadeCharacterIndex 175
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1333, 'Elrik The Lich King',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Elrik_The_Lich_King_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Elrik_The_Lich_King_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Elrik_The_Lich_King_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Elrik_The_Lich_King_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Elrik_The_Lich_King.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'SUFFER, MORTALS!');
@@ -113,8 +113,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (223, 983)
 
 --Gnomish Excavator	--CardIndex 1334	--CharacterIndex 944	--ArcadeCharacterIndex 176
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1334, 'Gnomish Excavator',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Gnomish_Excavator_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Gnomish_Excavator_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Gnomish_Excavator_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Gnomish_Excavator_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Gnomish_Excavator.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
@@ -135,8 +135,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (224, 1171
 
 --Guth, The	--CardIndex 1335	--CharacterIndex 945	--ArcadeCharacterIndex 177
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1335, 'Guth, The',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Guth_The_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Guth_The_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Guth_The_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Guth_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Guth_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '"After I chop you up, you''ll make a tasty snack!"');
@@ -158,8 +158,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (225, 1998
 
 --Hoarfang	--CardIndex 1336	--CharacterIndex 946	--ArcadeCharacterIndex 178
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1336, 'Hoarfang',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Hoarfang_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Hoarfang_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Hoarfang_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Hoarfang_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Hoarfang.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
@@ -183,8 +183,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (226, 1358
 
 --Jorogumo	--CardIndex 1337	--CharacterIndex 947	--ArcadeCharacterIndex 179
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1337, 'Jorogumo',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Jorogumo_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Jorogumo_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Jorogumo_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Jorogumo_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Jorogumo.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
@@ -206,8 +206,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (227, 1095
 
 --Krampus	--CardIndex 1338	--CharacterIndex 948	--ArcadeCharacterIndex 180
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1338, 'Krampus',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Krampus_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Krampus_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Krampus_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Krampus_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Krampus.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
@@ -230,8 +230,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (228, 1320
 
 --Lord Vulcanis	--CardIndex 1339	--CharacterIndex 949	--ArcadeCharacterIndex 181
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1339, 'Lord Vulcanis',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Lord_Vulcanis_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Lord_Vulcanis_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Lord_Vulcanis_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Lord_Vulcanis_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Lord_Vulcanis.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'The most infamous of all the giants, Lord Vulcanis broods deep beneath the Dragonback Peaks. At his enormous black forge he crafts dark relics for the generals of the Dark Consul''s armies. Into each relic he pours his rage, hate, and loathing for the realm of Light, tempering them for the battles to come.');
@@ -250,8 +250,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (229, 741)
 
 --Midnight Queen, The	--CardIndex 1340	--CharacterIndex 950	--ArcadeCharacterIndex 182
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1340, 'Midnight Queen, The',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Midnight_Queen_The_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Midnight_Queen_The_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Midnight_Queen_The_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Midnight_Queen_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Midnight_Queen_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'The Midnight Queen has risen to prominence as the Dark Consul''s voice and prophet in his time of exile. Known also as the Shadow Consort, Prophecy Breaker, The Demoness, and the Hollow Queen, she is the Dark Consul''s terrible will made manifest. She will see all of Crystalia consumed by darkness.');
@@ -268,8 +268,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (230, 1449
 
 --Mordred the Accursed	--CardIndex 1341	--CharacterIndex 951	--ArcadeCharacterIndex 183
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1341, 'Mordred the Accursed',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mordred_the_Accursed_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mordred_the_Accursed_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mordred_the_Accursed_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mordred_the_Accursed_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Mordred_the_Accursed.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'Mordred never speaks when he is in battle. He raises a single finger, pointing at his challenger, and then rides forth to meet them. Ghostflames follow behind him, laughing and yelling as their master doses in.');
@@ -288,8 +288,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (231, 1749
 
 --Mother Noctua	--CardIndex 1342	--CharacterIndex 952	--ArcadeCharacterIndex 184
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1342, 'Mother Noctua',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mother_Noctua_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mother_Noctua_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mother_Noctua_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mother_Noctua_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Mother_Noctua.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'Hoot! Hoot, hoot! HOOOOOOTTT!!!');
@@ -308,8 +308,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (232, 1568
 
 --Mugg	--CardIndex 1343	--CharacterIndex 953	--ArcadeCharacterIndex 185
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1343, 'Mugg',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mugg_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mugg_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mugg_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mugg_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Mugg.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 ''); --!! unavailable !!
@@ -326,8 +326,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (233, 816)
 
 --Nightsong the Eternal	--CardIndex 1344	--CharacterIndex 954	--ArcadeCharacterIndex 186
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1344, 'Nightsong the Eternal',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Nightsong_the_Eternal_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Nightsong_the_Eternal_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Nightsong_the_Eternal_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Nightsong_the_Eternal_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Nightsong_the_Eternal.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'Once a proud Emerald Dragon, Nightsong''s woodland home was devoured by the formation of the Nether Rifts. Cast into the Dark Realm, he refused to die.');
@@ -349,8 +349,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (234, 748)
 
 --Onibaba	--CardIndex 1345	--CharacterIndex 955	--ArcadeCharacterIndex 187
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1345, 'Onibaba',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Onibaba_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Onibaba_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Onibaba_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Onibaba_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Onibaba.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'As a mortal, Onibaba would lure stragglers from battles into her traps, finish them off, and sell their possessions. One night, however, she pulled a finely crafted mask from a dark and terrible samurai, and slipped it on over her face. In that instant, the dark power from within the mask touched the festering rot in her soul and consumed her. Soon the mortal hag was infested by an ageless, devouring horror that has stalked Kagejima''s places of slaughter ever since.');
@@ -370,8 +370,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (235, 1014
 
 --Onryo	--CardIndex 1346	--CharacterIndex 956	--ArcadeCharacterIndex 188
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1346, 'Onryo',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Onryo_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Onryo_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Onryo_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Onryo_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Onryo.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '"Into the darkness, under the trees. Into the water, follow me please."');
@@ -394,8 +394,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (236, 1107
 
 --Pauper Prince	--CardIndex 1347	--CharacterIndex 957	--ArcadeCharacterIndex 189
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1347, 'Pauper Prince',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Pauper_Prince_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Pauper_Prince_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Pauper_Prince_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Pauper_Prince_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Pauper_Prince.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '"Didn''t you know? All travelers to the Undercove must pay the the Prince''s Due."');
@@ -416,8 +416,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (237, 2001
 
 --Professor Cackle-Clink	--CardIndex 1348	--CharacterIndex 958	--ArcadeCharacterIndex 190
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1348, 'Professor Cackle-Clink',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Professor_Cackle_Clink_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Professor_Cackle_Clink_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Professor_Cackle_Clink_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Professor_Cackle_Clink_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Professor_Cackle_Clink.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
@@ -438,8 +438,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (238, 1171
 
 --Starfire	--CardIndex 1349	--CharacterIndex 959	--ArcadeCharacterIndex 191
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1349, 'Starfire',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Starfire_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Starfire_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Starfire_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Starfire_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Starfire.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'While dragons are not uncommon in Crystalia, none inspire the terror of Starfire. From his volcanic mountain within the Dragonback Peaks he brings fire and destruction across the length and breadth of the realm. Vast herds are consumed by his appetites and entire treasuries are claimed by his greed.');
@@ -460,8 +460,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (239, 1807
 --Testudo Tower	--CardIndex 1350	--CharacterIndex 960	--ArcadeCharacterIndex 192
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1350, 
 'Testudo Tower',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Testudo_Tower_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Testudo_Tower_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Testudo_Tower_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Testudo_Tower_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Testudo_Tower.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
@@ -481,8 +481,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (240, 826)
 
 --Thresher, The	--CardIndex 1351	--CharacterIndex 961	--ArcadeCharacterIndex 193
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1351, 'Thresher, The',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Thresher_The_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Thresher_The_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Thresher_The_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Thresher_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Thresher_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'Often mistaken for The Great Pumpkin, Threshers are magically imbued constructs of hay, wood, and a burning desire to reap all living things like wheat in the field. With a slow stomping tread, straw and bugs shake out from the creature''s rotten timbers with each step, often giving a nasty case of hay fever to any heroes with allergies nearby.'); 
@@ -502,8 +502,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (241, 769)
 
 --Ugg	--CardIndex 1352	--CharacterIndex 962	--ArcadeCharacterIndex 194
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1352, 'Ugg',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Ugg_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Ugg_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Ugg_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Ugg_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Ugg.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 ''); --!! unavailable !!
@@ -523,8 +523,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (242, 1947
 
 --Ymnaur Wintersson	--CardIndex 1353	--CharacterIndex 963	--ArcadeCharacterIndex 195
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1353, 'Ymnaur Wintersson',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Ymnaur_Wintersson_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Ymnaur_Wintersson_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Ymnaur_Wintersson_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Ymnaur_Wintersson_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Ymnaur_Wintersson.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'Unlike most Jotnar, who seek a life of peaceful introspection high upon the Skull White Fastness, Ymnaur''s refuses to accept peace. With the fury of an avalanche, every strike of his frozen axe binds the land in deep frost.');

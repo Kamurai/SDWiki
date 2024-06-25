@@ -6,8 +6,8 @@
 --Bowser --Card Index 2323	--CharacterIndex 1171 --ExploreCharacterIndex 832
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2323, 
 'Bowser',
-'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Bowser_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Bowser_1.0_Custom_back.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Bowser_1.0_Custom.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Bowser_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Bowser.xhtml', 
 'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
@@ -18,8 +18,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (832
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (832, 2190); --Butt Stomp
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1171,
-'http://htkb.info/Common/Standies/SMB/Bowser.png', 
-'http://htkb.info/Common/Standies/SMB/Bowser_back.png', 
+'http://htkb.info/ND/Common/Standies/SMB/Bowser.png', 
+'http://htkb.info/ND/Common/Standies/SMB/Bowser_back.png', 
 'Masculine', 'Large', 'Koopa', 5, 4, '1B 1R 1G', '1ST 2R 1G', '3B', '2B', 8, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (832, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (832, 2); --Armor
@@ -33,8 +33,8 @@ insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 --Brown Boars --Card Index 2324	--CharacterIndex 1172 --ExploreCharacterIndex 833
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2324, 
 'Brown Boars',
-'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Brown_Boar_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Brown_Boar_1.0_Custom_back.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Brown_Boar_1.0_Custom.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Brown_Boar_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Brown_Boar.xhtml', 
 'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
@@ -45,8 +45,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2192); --Tusks
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1172,
-'http://htkb.info/Common/Standies/Brown_Boars.png', 
-'http://htkb.info/Common/Standies/Brown_Boars_back.png', 
+'http://htkb.info/ND/Common/Standies/Brown_Boars.png', 
+'http://htkb.info/ND/Common/Standies/Brown_Boars_back.png', 
 'Either', 'Small', 'Shapeshift', 8, 6, '2R 1B', '2R', '1B 1R', '2B', 8, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (833, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (833, 2); --Armor
@@ -60,8 +60,8 @@ insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 --Brown Wizard --Card Index 2325	--CharacterIndex 1173 --ExploreCharacterIndex 834
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2325, 
 'Brown Wizard',
-'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Brown_Wizard_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Brown_Wizard_1.0_Custom_back.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Brown_Wizard_1.0_Custom.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Brown_Wizard_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Brown_Wizard.xhtml', 
 'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
@@ -72,8 +72,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2196); --Disorientate
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1173,
-'http://htkb.info/Common/Standies/Brown_Wizard.png', 
-'http://htkb.info/Common/Standies/Brown_Wizard_back.png', 
+'http://htkb.info/ND/Common/Standies/Brown_Wizard.png', 
+'http://htkb.info/ND/Common/Standies/Brown_Wizard_back.png', 
 'Masculine', 'Small', 'Human', 6, 6, '1R 3B', '1R 1B', '2B 2R', '2B', 8, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (834, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (834, 2); --Armor
@@ -87,8 +87,8 @@ insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 --Chaos Warrior --Card Index 2326	--CharacterIndex 1174 --ExploreCharacterIndex 835
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2326, 
 'Chaos Warrior',
-'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Chaos_Warrior_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Chaos_Warrior_1.0_Custom_back.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Chaos_Warrior_1.0_Custom.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Chaos_Warrior_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Chaos_Warrior.xhtml', 
 'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
@@ -100,8 +100,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (835
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (835, 2199); --Extreme Aggression
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1174,
-'http://htkb.info/Common/Standies/Chaos_Warrior.png', 
-'http://htkb.info/Common/Standies/Chaos_Warrior_back.png', 
+'http://htkb.info/ND/Common/Standies/Chaos_Warrior.png', 
+'http://htkb.info/ND/Common/Standies/Chaos_Warrior_back.png', 
 'Masculine', 'Small', 'Human', 6, 5, '3B 2R 1G', '2R 1G', '2R', '2R', 10, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (835, 0, 1); --Attack
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (835, 4, 8); --Dexterity
@@ -116,8 +116,8 @@ insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 --Chaos Warrior (Mounted) --Card Index 2327	--CharacterIndex 1175 --ExploreCharacterIndex 836
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2327, 
 'Chaos Warrior (Mounted)',
-'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Chaos_Warrior_Mounted_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Chaos_Warrior_Mounted_1.0_Custom_back.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Chaos_Warrior_Mounted_1.0_Custom.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Chaos_Warrior_Mounted_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Chaos_Warrior_Mounted.xhtml', 
 'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
@@ -129,8 +129,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2202); --Backstab
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1175,
-'http://htkb.info/Common/Standies/Chaos_Warrior_Mounted.png', 
-'http://htkb.info/Common/Standies/Chaos_Warrior_Mounted_back.png', 
+'http://htkb.info/ND/Common/Standies/Chaos_Warrior_Mounted.png', 
+'http://htkb.info/ND/Common/Standies/Chaos_Warrior_Mounted_back.png', 
 'Masculine', 'Large', 'Human', 8, 5, '3B 2R 1G', '1ST 2R 1G', '2R', '2R', 10, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (836, 0, 1); --Attack
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (836, 4, 8); --Dexterity
@@ -145,8 +145,8 @@ insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 --Hydra --Card Index 2328	--CharacterIndex 1176 --ExploreCharacterIndex 837
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2328, 
 'Hydra',
-'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Hydra_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Hydra_1.0_Custom_back.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Hydra_1.0_Custom.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Hydra_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Hydra.xhtml', 
 'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
@@ -164,8 +164,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (837
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (837, 2207); --White Dragon
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1176,
-'http://htkb.info/Common/Standies/Impact_Miniatures/Hydra.png', 
-'http://htkb.info/Common/Standies/Impact_Miniatures/Hydra_back.png', 
+'http://htkb.info/ND/Common/Standies/Impact_Miniatures/Hydra.png', 
+'http://htkb.info/ND/Common/Standies/Impact_Miniatures/Hydra_back.png', 
 'Either', 'Large', 'Chromatic Dragon', 5, 4, '2ST 2R 1G', '1ST 2R', '2R', '2R', 8, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (837, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (837, 2); --Armor

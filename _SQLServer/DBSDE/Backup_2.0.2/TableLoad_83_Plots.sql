@@ -6,8 +6,8 @@
 --The Creeping Pestilence	--CardIndex 2274 --PlotIndex 15
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2274, 'Creeping Pestilence, The',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Creeping_Pestilence_The_2.0_PP.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0_PP.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Creeping_Pestilence_The_2.0_PP.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0_PP.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Arcade/Cards/Plot_Cards/Creeping_Pestilence_The.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Arcade', 
 'Stop them before they pull that lever!  No, I don''t know what it does.  But have you ever seen a lever in a dungeon that did something good?');
@@ -18,8 +18,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2274,
 --Essence Drain	--CardIndex 2275 --PlotIndex 16
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2275, 'Essence Drain',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Essence_Drain_2.0_PP.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0_PP.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Essence_Drain_2.0_PP.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0_PP.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Arcade/Cards/Plot_Cards/Essence_Drain.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Arcade', 
 'The Dark Consul knows that we sometimes underestimate his weaker minions, so he has been known to infuse them dark magic to lure us into a false sense of security before striking the final blow.  See how those slimes are glowing?  Don''t let them near you, something isn''t right...');
@@ -30,8 +30,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2275,
 --Give Them Nothing	--CardIndex 2276 --PlotIndex 17
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2276, 'Give Them Nothing',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Give_Them_Nothing_2.0_PP.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0_PP.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Give_Them_Nothing_2.0_PP.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0_PP.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Arcade/Cards/Plot_Cards/Give_Them_Nothing.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Arcade', 
 'I''m glad that these monsters are weak, but they have no good stuff!  It''s all rusty spears and broken armor.  This one just hasd some string and a rock!  What kind of minion for the Dark Consul tries to fight the heroes of Crystalia with some string and a rock?');
@@ -42,8 +42,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2276,
 --Guardians	--CardIndex 2277 --PlotIndex 18
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2277, 'Guardians',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Guardians_2.0_PP.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0_PP.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Guardians_2.0_PP.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0_PP.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Arcade/Cards/Plot_Cards/Guardians.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Arcade', 
 'The runes to undo the magical barrier were dispersed through the dungeon, carried away by all manner of tiny, gibbering things.  Search every nook, look under every rock...');
@@ -54,8 +54,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2277,
 --The Tracking Spell	--CardIndex 2278 --PlotIndex 19
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2278, 'Tracking Spell, The',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Tracking_Spell_The_2.0_PP.png', 
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0_PP.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Tracking_Spell_The_2.0_PP.png', 
+'http://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0_PP.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Arcade/Cards/Plot_Cards/Tracking_Spell_The.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Arcade', 
 'This rock keeps away monsters, he said.  Only two copper, he said...');
@@ -66,8 +66,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2278,
 --The Challenge of Flame	--CardIndex 2279 --PlotIndex 20
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2279, 'Challenge of Flame, The',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Challenge_of_Flame_The_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Challenge_of_Flame_The_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Plot_Cards/Challenge_of_Flame_The.xhtml', 
 'Plot Card', '2.0', '2.0 Core Set', 'Arcade', 
 'The halls and chambers of the Midnight Tower have been riddled with traps over the years.  Step on the wrong tile, and you may find yourself dodging jets of flame until you can get to the lever to turn them off.');
@@ -78,8 +78,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2279,
 --The Curse of Decay	--CardIndex 2280 --PlotIndex 21
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2280, 'Curse of Decay, The',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Curse_of_Decay_The_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Curse_of_Decay_The_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Plot_Cards/Curse_of_Decay_The.xhtml', 
 'Plot Card', '2.0', '2.0 Core Set', 'Arcade', 
 'In some places, the dark power is so pervasive, it even rots steel.');
@@ -90,8 +90,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2280,
 --The Ever-Changing Maze	--CardIndex 2281 --PlotIndex 22
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2281, 'Ever-Changing Maze, The',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Ever_Changing_Maze_The_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Ever_Changing_Maze_The_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Plot_Cards/Ever_Changing_Maze_The.xhtml', 
 'Plot Card', '2.0', '2.0 Core Set', 'Arcade', 
 'The Midnight Tower can seem like an impossible maze on the best days.  Twisting hallways and darkened rooms branch this way and that.  And the oppressive atmosphere offers no help in finding one''s way.  But there are times the Midnight Queen becomes restless, and heroes can find themselves in a twisting labyrinth of moving hallways and stairs that lead nowhere.');
@@ -102,8 +102,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2281,
 --Forgotten by the Goddess	--CardIndex 2282 --PlotIndex 23
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2282, 'Forgotten by the Goddess',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Forgotten_by_the_Goddess_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Forgotten_by_the_Goddess_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Plot_Cards/Forgotten_by_the_Goddess.xhtml', 
 'Plot Card', '2.0', '2.0 Core Set', 'Arcade', 
 'The Midnight Tower''s very architecture reflects its nature.  The stone is pitted, slimy, and often crumbles under a light touch.  The sinewy arches loom over intruders.  The great halls are damp and oppressive.  Some say the Goddess cannot even be felt there.');
@@ -114,8 +114,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2282,
 --The Gauntlet	--CardIndex 2283 --PlotIndex 23
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2283, 'Gauntlet, The',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Gauntlet_The_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Gauntlet_The_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Plot_Cards/Gauntlet_The.xhtml', 
 'Plot Card', '2.0', '2.0 Core Set', 'Arcade', 
 'Stone giants.  Deadly fog.  Armored knights.  Let the Dark Consul send everything.  The heroes of Crystalia will not fall.');
@@ -126,8 +126,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2283,
 --Idols of Rage	--CardIndex 2284 --PlotIndex 23
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2284, 'Idols of Rage',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Idols_of_Rage_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Idols_of_Rage_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Plot_Cards/Idols_of_Rage.xhtml', 
 'Plot Card', '2.0', '2.0 Core Set', 'Arcade', 
 'There are statues in the Midnight Tower that have been there so long, they have begun to absorb the power of the Dark Consul.');
@@ -138,8 +138,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2284,
 --The Lurking Menace	--CardIndex 2285 --PlotIndex 24
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2285, 'Lurking Menace, The',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Lurking_Menace_The_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Lurking_Menace_The_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Plot_Cards/Lurking_Menace_The.xhtml', 
 'Plot Card', '2.0', '2.0 Core Set', 'Arcade', 
 '');
@@ -150,8 +150,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2285,
 --Stasis Orbs	--CardIndex 2286 --PlotIndex 25
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2286, 'Stasis Orbs',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Stasis_Orbs_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Stasis_Orbs_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Plot_Cards/Stasis_Orbs.xhtml', 
 'Plot Card', '2.0', '2.0 Core Set', 'Arcade', 
 'Not every danger runs at you with a blade.  Not every curse is obvious.  There are some curses, some evils, that eat away at a hero''s mind like a river slowly washes away a cliff.  Whispers in the dark.  The small and overlooked miseries.  Petty words and angry thoughts.  The Midnight Queen has created numerous curses and forbidden items, but the most insidious are also the most subtle.');
@@ -162,8 +162,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2286,
 --Wards of Protection	--CardIndex 2287 --PlotIndex 25
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2287, 'Wards of Protection',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Wards_of_Protection_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Wards_of_Protection_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Plot_Cards/Wards_of_Protection.xhtml', 
 'Plot Card', '2.0', '2.0 Core Set', 'Arcade', 
 'There are many portals to the Dark Realm that the Dark Consul uses to transport his troops and spread his influence.  These portals are vital to his plans, and they are often protected by ancient and terrible magic.  Even so, they are not match for a cunning or brave hero and the strength of the Goddess!');
@@ -174,8 +174,8 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2287,
 --Withering Curse	--CardIndex 2288 --PlotIndex 26
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2288, 'Withering Curse',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Withering_Curse_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Withering_Curse_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Arcade/Arcade_Plots/Card_Arcade_Plot_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Plot_Cards/Withering_Curse.xhtml', 
 'Plot Card', '2.0', '2.0 Core Set', 'Arcade', 
 'The weakness generally starts in the knees.  Within a few days, the Hero can hardly lift a blade.  Only those most dangerous to the Dark Consul suffer this curse, but there is a cure.');

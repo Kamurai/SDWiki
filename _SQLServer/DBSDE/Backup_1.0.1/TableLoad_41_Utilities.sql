@@ -6,8 +6,8 @@
 --Rules Addendum and Errata --CardIndex 936 --UtilityIndex 0
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (154, 'Rules Addendum and Errata',
-'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Addendums_Errata_Rules_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Addendums_Errata_Rules_1.0.png', 
+'http://htkb.info/ND/SDE/1.0/Cards/Utility/Card_Utility_Addendums_Errata_Rules_1.0.png', 
+'http://htkb.info/ND/SDE/1.0/Cards/Utility/Card_Utility_Addendums_Errata_Rules_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Utility/Addendums_Errata_Rules.xhtml', 
 'Utility', '1.0', '1.0 Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (153, 
