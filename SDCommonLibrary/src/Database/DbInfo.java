@@ -24,7 +24,7 @@ public class DbInfo {
     
     public DbInfo(){
         driver      = "com.microsoft.jdbc.sqlserver.SQLServerDriver";
-        url         = "jdbc:sqlserver://localhost";
+        url         = "jdbc:sqlserver://localhost"; //:3306
         dbName      = ";DatabaseName=SDWiki";
         dbUsername  = "publicAccess";
         dbPassword  = "yellow23";
