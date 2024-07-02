@@ -17,7 +17,7 @@ public class DbInfo {
     public String getDbUsername(){
         return dbUsername;
     }
-    private String dbPassword  = "yellow23";
+    private String dbPassword  = "Yellow23!23";
     public String getDbPassword(){
         return dbPassword;
     }
@@ -27,6 +27,6 @@ public class DbInfo {
         url         = "jdbc:sqlserver://localhost"; //:3306
         dbName      = ";DatabaseName=SDWiki";
         dbUsername  = "publicAccess";
-        dbPassword  = "yellow23";
+        dbPassword  = "Yellow23!23";
     }
 }
