@@ -29,6 +29,6 @@ public class SDEDbInfo extends DbInfo{
         url         = "jdbc:sqlserver://localhost";
         dbName      = ";DatabaseName=SDE";
         dbUsername  = "publicAccess";
-        dbPassword  = "yellow23";
+        dbPassword  = "Yellow23!23";
     }
 }

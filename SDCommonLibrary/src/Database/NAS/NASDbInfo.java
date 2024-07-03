@@ -30,6 +30,6 @@ public class NASDbInfo extends DbInfo{
         url         = "jdbc:sqlserver://localhost";
         dbName      = ";DatabaseName=NAS";
         dbUsername  = "publicAccess";
-        dbPassword  = "yellow23";
+        dbPassword  = "Yellow23!23";
     }
 }
