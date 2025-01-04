@@ -30,6 +30,6 @@ public class SDADbInfo extends DbInfo{
         url         = "jdbc:sqlserver://localhost";
         dbName      = ";DatabaseName=SDA";
         dbUsername  = "publicAccess";
-        dbPassword  = "yellow23";
+        dbPassword  = "Yellow23!23";
     }
 }
