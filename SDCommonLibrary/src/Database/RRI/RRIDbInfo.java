@@ -20,7 +20,7 @@ public class RRIDbInfo extends DbInfo{
     public String getDbUsername(){
         return dbUsername;
     }
-    private String dbPassword  = "yellow23";
+    private String dbPassword  = "Yellow23!23";
     public String getDbPassword(){
         return dbPassword;
     }
@@ -30,6 +30,6 @@ public class RRIDbInfo extends DbInfo{
         url         = "jdbc:sqlserver://localhost";
         dbName      = ";DatabaseName=RRI";
         dbUsername  = "publicAccess";
-        dbPassword  = "yellow23";
+        dbPassword  = "Yellow23!23";
     }
 }
