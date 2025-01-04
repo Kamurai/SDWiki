@@ -461,7 +461,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (286, 4);
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (34, 0, 'Trent', 'Treant Kodama', 'MiniBoss', 6, 8, 3, 173);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (34, 266); --Immune: Poison
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (34, 362); --Virulent
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (34, 35); --Virulent
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (34, 202); --Decay
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (34, 312); --Overgrowth
 

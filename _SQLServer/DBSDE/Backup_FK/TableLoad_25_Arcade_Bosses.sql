@@ -20,7 +20,7 @@ VALUES (35, 0, 'Beatrix the Witch Queen', 'Witch', 'Boss', 8, 10, 4, 174);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 268); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 229); --Fly
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 235); --Ghostmancer
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 274); --Kitty Claws
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 434); --Kitty Claws
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (35, 212); --Bubble & Boil
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (35, 253); --Curses
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (35, 495); --Pumpkin Charge

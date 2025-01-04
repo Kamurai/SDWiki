@@ -6159,7 +6159,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (286, 4);
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (34, 0, 'Trent', 'Treant Kodama', 'MiniBoss', 6, 8, 3, 173);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (34, 266); --Immune: Poison
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (34, 362); --Virulent
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (34, 35); --Virulent
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (34, 202); --Decay
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (34, 312); --Overgrowth
 
@@ -6186,7 +6186,7 @@ VALUES (35, 0, 'Beatrix the Witch Queen', 'Witch', 'Boss', 8, 10, 4, 174);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 268); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 229); --Fly
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 235); --Ghostmancer
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 274); --Kitty Claws
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 434); --Kitty Claws
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (35, 212); --Bubble & Boil
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (35, 253); --Curses
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (35, 495); --Pumpkin Charge
@@ -7036,12 +7036,12 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (325, 3);
 --GangMemberIndex 95
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (73, 0, 'Turniphead', 'Kodama', 'Elite', 5, 1, 1, 225);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (95, 362); --Virulent
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (95, 35); --Virulent
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (95, 408); --It's Medicinal
 --GangMemberIndex 96
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (73, 0, 'Turniphead', 'Kodama', 'Elite', 5, 1, 1, 225);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (96, 362); --Virulent
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (96, 35); --Virulent
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (96, 409); --It's Medicinal
 
 --Hungry Sprouts --CardIndex 411 --CharacterIndex 326	--ArcadeCharacterIndex 74
@@ -7083,7 +7083,7 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (75, 0, 'Sprout', 'Kodama', 'Elite', 5, 2, 3, 224);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 230); --Forced Shift
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 330); --Shapeshift: King Sprout
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 362); --Virulent
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 35); --Virulent
 --GangMemberIndex 100
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (75, 1, 'Mook', 'Kodama', 'Minion', 5, 1, 1, 223);
@@ -7104,7 +7104,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (328, 3);
 --GangMemberIndex 101
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (76, 0, 'Wisp', 'Kodama', 'Elite', 5, 2, 1, 226);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (101, 362); --Virulent
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (101, 35); --Virulent
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (101, 487); --Pollen Dream
 --GangMemberIndex 102
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
