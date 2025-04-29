@@ -110,12 +110,25 @@ function KeywordStore(keywords){
    * Find keywords that can contain other keywords.
    */
   this.findKeywords=function(text){
-    text = text.replace(this.re,function(match){
-      var key = this.lookup[toCamelCaseLoop(match)];
-      var keyClass = this.resolveKeyClass(key);
-      return '<span class="keyword '+keyClass.toUpperCase()+'" data-key="'+toCamelCaseLoop(key)+'">'+toCamelCaseLoop(key)+'</span>';
+	var resultA = text;
+	var newText = 
+	//text = 
+	text.replace(this.re,function(match){
+		var resultB = '';
+		if(isNotEmpty(match)){
+			var key = this.lookup[toCamelCaseLoop(match)];
+			var keyClass = this.resolveKeyClass(key);
+			resultB = '<span class="keyword '+keyClass.toUpperCase()+'" data-key="'+toCamelCaseLoop(key)+'">'+toCamelCaseLoop(key)+'</span>';
+		}
+
+		return resultB;
     }.bind(this));
-    return text;
+	
+	if(isNotEmpty(newText)) {
+		resultA = newText;
+	}
+	
+    return resultA;
   };
   
   this.findNKeywords=function(text){
@@ -192,25 +205,7 @@ function KeywordStore(keywords){
    *
    */
   this.resolveKeyClass=function(key){
-    var parts = '';
-    var returner ='';
-	
-	if(key != undefined) {
-		parts = key.split(' ');
-		for(var i=0,item;(item=parts[i]);i++){
-		  if(i==0){
-			//item = item.toLowerCase();
-			item = item.replace('\'','');
-
-			if($.isNumeric(item[0])){
-			  item="key-"+item;
-			}
-		  }
-
-		  returner+=item;
-		}
-	}
-    return returner;
+    return resolveKeyClass(key);
   };
 
 
