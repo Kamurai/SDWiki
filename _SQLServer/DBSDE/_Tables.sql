@@ -6,7 +6,7 @@
 --drop table Mechs;
 
 CREATE TABLE Components (ComponentIndex bigint IDENTITY(0,1) PRIMARY KEY);
-CREATE TABLE Cards (CardIndex bigint IDENTITY(0,1) PRIMARY KEY, ComponentIndex bigint not null, Name varchar(60) not null, PictureFront varchar(150) not null, PictureBack varchar(150) not null, Link varchar(150) not null, CardType varchar(20) not null, ProductSet varchar(20) not null, ProductModule varchar(20) not null, PlayMode varchar(10) not null, Flavor varchar(1250));
+CREATE TABLE Cards (CardIndex bigint IDENTITY(0,1) PRIMARY KEY, ComponentIndex bigint not null, Name varchar(60) not null, PictureFront varchar(175) not null, PictureBack varchar(175) not null, Link varchar(150) not null, CardType varchar(20) not null, ProductSet varchar(20) not null, ProductModule varchar(20) not null, PlayMode varchar(10) not null, Flavor varchar(1250));
 CREATE TABLE Characters (CharacterIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null);
 CREATE TABLE Affinities (AffinityIndex bigint IDENTITY(0,1) PRIMARY KEY, AffinityType varchar(50) not null);
 insert into Affinities (AffinityType) VALUES ('Amethyst'); --0
