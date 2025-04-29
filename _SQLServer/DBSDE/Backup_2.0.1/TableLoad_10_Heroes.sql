@@ -2457,8 +2457,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (472, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (472, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (472, 
-'http://htkb.info/ND/SDE/Standies/Moon_Princess.png', 
-'http://htkb.info/ND/SDE/Standies/Moon_Princess_back.png',
+'http://htkb.info/ND/NAS/Standies/Moon_Princess.png', 
+'http://htkb.info/ND/NAS/Standies/Moon_Princess_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2R', '1B 1R', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (367, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (367, 764); --Moon's Blessing
