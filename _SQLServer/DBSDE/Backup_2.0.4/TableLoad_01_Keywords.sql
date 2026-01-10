@@ -60,3 +60,4 @@
 /*Bacon!						--Index 1193*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Bacon!', 						'Spawn four Truffle Hogs from any Dungeon Exit.');
 
 /*Cursed						--Index 1194*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Cursed', 						'Anytime this model makes a roll reduce the result by 1ST.');
+/*Coghammer						--Index 1195*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('Custom', 'Arcade', 'Coghammer', 					'When a model makes a Defensive Roll against a model with Coghammer and wins the roll by no more than 1 stars, both models take a wound.  Coghammer has no effect if it would cause this model to be removed.');
