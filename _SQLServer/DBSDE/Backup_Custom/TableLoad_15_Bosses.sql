@@ -14,10 +14,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Bomechan is a striking beauty of clan Ijin, but the pair of iron-spiked tetsubo and her hearty laughter as she swings them are her most arresting features.  She loves a challenge and seeks to place herself on the Moon Throne, because she sees this as the greatest challenge of all.');
 insert into Characters (CardIndex) VALUES (1049);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (659, 0); --Amethyst
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (659,
-'http://htkb.info/ND/SDE/2.0/Cards/Bosses/Standies/Bomechan_2.0.png', 
-'http://htkb.info/ND/SDE/2.0/Cards/Bosses/Standies/Bomechan_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Bosses/Standees/Bomechan_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Bosses/Standees/Bomechan_2.0_back.png', 
 'Feminine', 'Small', 'Ijin Riftling', 7, 4, '2R 2G', '2B 1G', '2B', '3B', 7, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (554, 780); --Oni Guards
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (554, 817); --Predator

@@ -14,10 +14,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'The pirate ship crews that sail from the Drowned Isle are a colorful assortment of misfits, adventurers, cutthroats, and madmen.  Each must only swear to abide by their captain''s code of conduct and, when upon the isles themselves, that a various lokals'' mayors.<br>The close proximity of the Glauerdoom means the isles have an unnaturally high number of undead (in as much as the undead can be considered natural).  A surprising number of these have maintained their free will.  Those who do not wish to become servant soldiers in Von Drakk''s armies often find their way here, one of the few places where they can find some form of acceptance, work, and notoriety.');
 insert into Characters (CardIndex) VALUES (2248); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1126, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1126,
-'http://htkb.info/ND/SDE/Standies/Crows_Nest.png', 
-'http://htkb.info/ND/SDE/Standies/Crows_Nest_back.png', 
+'http://htkb.info/ND/SDE/Standees/Crows_Nest.png', 
+'http://htkb.info/ND/SDE/Standees/Crows_Nest_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (794, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (794, 1120); --A Curse On You!
@@ -35,10 +35,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Charged with keeping the rest of the crew orderly and under control, a good Bosun is arguably the most valuable member of any crew.  The unique nature of the Drowned Isles require their Bosuns to be particularly skilled and ruthless.  The best even know a necromantic incantation or three to keep their undead crew members fighting fit.');
 insert into Characters (CardIndex) VALUES (2249);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1127, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1127,
-'http://htkb.info/ND/SDE/Standies/Bosun.png', 
-'http://htkb.info/ND/SDE/Standies/Bosun_back.png', 
+'http://htkb.info/ND/SDE/Standees/Bosun.png', 
+'http://htkb.info/ND/SDE/Standees/Bosun_back.png', 
 'Masculine', 'Small', 'Human Pirate', 6, 3, '2B 1R', '2ST', '3B', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (795, 1122); --Cursed Crown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (795, 1111); --Greed
@@ -59,10 +59,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Of the many denizens of Crystalia which have fallen to tragic curses, Cursed Pirates are not ones for whom a single tear should be shed.  Born from their own greed, avarice, and gleefully anarchic creeds, it is debatable whether these pirates actually see themselves as cursed at all.');
 insert into Characters (CardIndex) VALUES (2250); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1128, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1128,
-'http://htkb.info/ND/SDE/Standies/Cursed_Pirate.png', 
-'http://htkb.info/ND/SDE/Standies/Cursed_Pirate_back.png', 
+'http://htkb.info/ND/SDE/Standees/Cursed_Pirate.png', 
+'http://htkb.info/ND/SDE/Standees/Cursed_Pirate_back.png', 
 'Masculine', 'Small', 'Human Pirate', 6, 1, '2R', '0ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (796, 1122); --Cursed Crown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (796, 1111); --Greed
@@ -81,10 +81,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'The Walking Cursed have succumbed to death and now fully experience the consequences of their cursed existence.  While the newly dead retain all of their living traits and personalities, time slowly erodes their souls until little of the spark that once made them who they are remains.  So you can maybe feel bad for these particular cursed pirates.');
 insert into Characters (CardIndex) VALUES (2251); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1129, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1129,
-'http://htkb.info/ND/SDE/Standies/Walking_Cursed_The.png', 
-'http://htkb.info/ND/SDE/Standies/Walking_Cursed_The_back.png', 
+'http://htkb.info/ND/SDE/Standees/Walking_Cursed_The.png', 
+'http://htkb.info/ND/SDE/Standees/Walking_Cursed_The_back.png', 
 'Either', 'Small', 'Undead Pirate', 4, 1, '3B', '0ST', '0ST', '0ST', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (797, 1111); --Greed
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (797, 1, 1); --Strength

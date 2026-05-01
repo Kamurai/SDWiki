@@ -15,10 +15,10 @@ insert into Characters (CardIndex) VALUES (2318);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (827, 59); --Immune: Poison
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (827, 2176); --Toxic Breath
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (827, 2177); --Chomp
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1166,
-'http://htkb.info/ND/Common/Standies/Green_Dragon.png', 
-'http://htkb.info/ND/Common/Standies/Green_Dragon_back.png', 
+'http://htkb.info/ND/Common/Standees/Green_Dragon.png', 
+'http://htkb.info/ND/Common/Standees/Green_Dragon_back.png', 
 'Either', 'Large', 'Dragon', 6, 3, '1B 2R', '3B', '2B', '2B', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (827, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (827, 2); --Armor
@@ -44,10 +44,10 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (828
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (828, 2178); --Wirlwind of Bones
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (828, 2179); --Powerball
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (828, 2180); --Now You Don't
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1167,
-'http://htkb.info/ND/Common/Standies/Impact_Miniatures/King_Diamond.png', 
-'http://htkb.info/ND/Common/Standies/Impact_Miniatures/King_Diamond_back.png', 
+'http://htkb.info/ND/Common/Standees/Impact_Miniatures/King_Diamond.png', 
+'http://htkb.info/ND/Common/Standees/Impact_Miniatures/King_Diamond_back.png', 
 'Masculine', 'Small', 'Lich King', 5, 4, '1B', '3B', '2R', '2B', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (828, 0, 1); --Attack
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (828, 3, 6); --Will
@@ -72,10 +72,10 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (829
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (829, 104); --Reach 2
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2181); --Big Bash
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2182); --Strangle Hold
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1168,
-'http://htkb.info/ND/Common/Standies/Impact_Miniatures/Ralph.png', 
-'http://htkb.info/ND/Common/Standies/Impact_Miniatures/Ralph_back.png', 
+'http://htkb.info/ND/Common/Standees/Impact_Miniatures/Ralph.png', 
+'http://htkb.info/ND/Common/Standees/Impact_Miniatures/Ralph_back.png', 
 'Masculine', 'Large', 'Bugbear', 6, 3, '1ST 2R', '2R', '2B', '1R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (829, 0, 2); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (829, 2); --Armor
@@ -99,10 +99,10 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (830
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (830, 104); --Reach 2
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (830, 2183); --Chaos Hammer
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (830, 2184); --Boom
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1169,
-'http://htkb.info/ND/SDE/Standies/Alternate/Star_Guild_Sapper.png', 
-'http://htkb.info/ND/SDE/Standies/Alternate/Star_Guild_Sapper_back.png', 
+'http://htkb.info/ND/SDE/Standees/Alternate/Star_Guild_Sapper.png', 
+'http://htkb.info/ND/SDE/Standees/Alternate/Star_Guild_Sapper_back.png', 
 'Masculine', 'Small', 'Chaos Dwarf', 6, 3, '1ST 2B 1R', '1B 1R', '2B', '1R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (830, 0, 2); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (830, 2); --Armor
@@ -127,10 +127,10 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (831
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (831, 2186); --Ice Blade
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (831, 2187); --War Cry
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (831, 2188); --Spoils of War
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1170,
-'http://htkb.info/ND/Common/Standies/Impact_Miniatures/Wardude.png', 
-'http://htkb.info/ND/Common/Standies/Impact_Miniatures/Wardude_back.png', 
+'http://htkb.info/ND/Common/Standees/Impact_Miniatures/Wardude.png', 
+'http://htkb.info/ND/Common/Standees/Impact_Miniatures/Wardude_back.png', 
 'Masculine', 'Small', 'Evil Fighter', 6, 4, '1G', '2R', '2B', '3B', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (831, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (831, 2); --Armor

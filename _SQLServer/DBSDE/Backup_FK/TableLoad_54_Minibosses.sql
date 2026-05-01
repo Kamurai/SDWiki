@@ -18,10 +18,10 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (253
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (253, 274); --Disaster
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (253, 270); --Devour
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (253, 267); --Deceive
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (348,
-'http://htkb.info/ND/NAS/Standies/Clan_Earth_Shrine_Oni.png', 
-'http://htkb.info/ND/NAS/Standies/Clan_Earth_Shrine_Oni_back.png',
+'http://htkb.info/ND/NAS/Standees/Clan_Earth_Shrine_Oni.png', 
+'http://htkb.info/ND/NAS/Standees/Clan_Earth_Shrine_Oni_back.png',
 'Masculine', 'Large', 'Oni', 6, 3, '3R', '2R', '3B', '2B', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (253, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (253, 2); --Armor
@@ -43,10 +43,10 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (254
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (254, 274); --Disaster
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (254, 270); --Devour
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (254, 267); --Deceive
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (349,
-'http://htkb.info/ND/NAS/Standies/Clan_Air_Shrine_Oni.png', 
-'http://htkb.info/ND/NAS/Standies/Clan_Air_Shrine_Oni_back.png',
+'http://htkb.info/ND/NAS/Standees/Clan_Air_Shrine_Oni.png', 
+'http://htkb.info/ND/NAS/Standees/Clan_Air_Shrine_Oni_back.png',
 'Masculine', 'Large', 'Oni', 6, 3, '3R', '2R', '3B', '2B', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (254, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (254, 2); --Armor

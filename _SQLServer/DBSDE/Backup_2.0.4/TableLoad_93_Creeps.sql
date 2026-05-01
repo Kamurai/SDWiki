@@ -13,10 +13,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'In the frozen lands of Frostbyte Reach, there is a legend about the Curse Raven. It is said that if you see one, someone close to you is on their way to death. It is not known if Curse Ravens cause the demise, or merely warn of the impending doom, but they are a dreaded sight either way.');
 insert into Characters (CardIndex) VALUES (2378);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1216, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1216,
-'http://htkb.info/ND/SDE/Standies/Poe.png', 
-'http://htkb.info/ND/SDE/Standies/Poe_back.png',
+'http://htkb.info/ND/SDE/Standees/Poe.png', 
+'http://htkb.info/ND/SDE/Standees/Poe_back.png',
 'Either', 'Small', 'Undead', 1, 1, '0ST', '1ST', '3B', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (874, 471); --Bonded Creep: Elrik
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (874, 547); --Despair

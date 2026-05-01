@@ -13,10 +13,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Once, I was like you!  Yes, it''s true, a simple kobold fighting over petty things like food and who had the biggest club.  But I has seen the light!  The mistress loves us!  Yes, she does!  Give up your wicked ways of hoarding treasure and making hero stew and hear the call of the mistress!  The mistress is good!  The mistress is great!  Be saved!');
 insert into Characters (CardIndex) VALUES (2370);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1211, 0); --Amethyst
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1211,
-'http://htkb.info/ND/SDE/Standies/Enthralled_Minion.png', 
-'http://htkb.info/ND/SDE/Standies/Enthralled_Minion_back.png',
+'http://htkb.info/ND/SDE/Standees/Enthralled_Minion.png', 
+'http://htkb.info/ND/SDE/Standees/Enthralled_Minion_back.png',
 'Either', 'Small', '', 6, 1, '2B1R', '3B', '0ST', '1B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (871, 1172); --Enthralled
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (871, 2270); --For Mistress!

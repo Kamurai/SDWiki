@@ -13,10 +13,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (2244);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1122, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1122,
-'http://htkb.info/ND/SDE/Standies/Loose_Cannon.png', 
-'http://htkb.info/ND/SDE/Standies/Loose_Cannon_back.png',
+'http://htkb.info/ND/SDE/Standees/Loose_Cannon.png', 
+'http://htkb.info/ND/SDE/Standees/Loose_Cannon_back.png',
 'Neither', 'Small', 'Cannon', 3, 1, '1B', '3ST', '0ST', '2R', 1, 0);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (790, 2074); --Plugged Barrel
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (790, 4, 10); --Dexterity
@@ -33,10 +33,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (2245);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1123, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1123,
-'http://htkb.info/ND/SDE/Standies/Polly.png', 
-'http://htkb.info/ND/SDE/Standies/Polly_back.png',
+'http://htkb.info/ND/SDE/Standees/Polly.png', 
+'http://htkb.info/ND/SDE/Standees/Polly_back.png',
 'Either', 'Small', 'Parrot', 10, 2, '1B', '3ST', '1B', '3R', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (791, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (791, 471); --Bonded Creep: Black-Handed Henry

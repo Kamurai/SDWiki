@@ -16,8 +16,8 @@ VALUES ('Claptrap',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (109,
-'http://htkb.info/ND/Common/Standies/Borderlands/Claptrap.png', 
-'http://htkb.info/ND/Common/Standies/Borderlands/Claptrap_back.png', 
+'http://htkb.info/ND/Common/Standees/Borderlands/Claptrap.png', 
+'http://htkb.info/ND/Common/Standees/Borderlands/Claptrap_back.png', 
 'Either');
 insert into Raiders (CharacterIndex) VALUES (34);
 insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (25, 107); --Claptrap

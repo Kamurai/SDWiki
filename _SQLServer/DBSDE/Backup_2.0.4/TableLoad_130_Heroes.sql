@@ -13,10 +13,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (2387);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1218, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1218, 
-'http://htkb.info/ND/SDE/Standies/Princess_Ruby.png', 
-'http://htkb.info/ND/SDE/Standies/Princess_Ruby_back.png',
+'http://htkb.info/ND/SDE/Standees/Princess_Ruby.png', 
+'http://htkb.info/ND/SDE/Standees/Princess_Ruby_back.png',
 'Feminine', 'Small', 'Hero', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (875, 1169); --Have a Heart
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (875, 2281); --Maiden's Champion
@@ -37,10 +37,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (2388);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1219, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1219, 
-'http://htkb.info/ND/SDE/Standies/Holly_Jolly_Candy.png', 
-'http://htkb.info/ND/SDE/Standies/Holly_Jolly_Candy_back.png',
+'http://htkb.info/ND/SDE/Standees/Holly_Jolly_Candy.png', 
+'http://htkb.info/ND/SDE/Standees/Holly_Jolly_Candy_back.png',
 'Feminine', 'Small', 'Hero', 6, 3, '2R', '3B', '2B', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (876, 1189); --Keep the Drinks Flowing
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (876, 2281); --Make Merry
@@ -61,10 +61,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (2389);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1220, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1220, 
-'http://htkb.info/ND/SDE/Standies/Jingle_Boar_Cola.png', 
-'http://htkb.info/ND/SDE/Standies/Jingle_Boar_Cola_back.png',
+'http://htkb.info/ND/SDE/Standees/Jingle_Boar_Cola.png', 
+'http://htkb.info/ND/SDE/Standees/Jingle_Boar_Cola_back.png',
 'Masculine', 'Small', 'Hero', 4, 3, '3B', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (877, 859); --Run Down
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (877, 1190); --Giddyup

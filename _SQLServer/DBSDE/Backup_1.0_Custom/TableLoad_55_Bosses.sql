@@ -15,10 +15,10 @@ insert into Characters (CardIndex) VALUES (2348);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (855, 2108); --Garra Mortal
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (855, 2109); --Bola de Fuego
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (855, 2110); --Picadura
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1194,
-'http://htkb.info/ND/Common/Standies/Impact_Miniatures/Chimera.png', 
-'http://htkb.info/ND/Common/Standies/Impact_Miniatures/Chimera_back.png', 
+'http://htkb.info/ND/Common/Standees/Impact_Miniatures/Chimera.png', 
+'http://htkb.info/ND/Common/Standees/Impact_Miniatures/Chimera_back.png', 
 'Either', 'Large', 'Alado', 5, 3, '1G 2B 2R', '2R', '2B', '2R', 8, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (855, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (855, 2); --Armor
@@ -41,10 +41,10 @@ insert into Characters (CardIndex) VALUES (2349);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (856, 2111); --Rayo Mortal
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (856, 2112); --Pared de Fuego
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (856, 2197); --Terror
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1195,
-'http://htkb.info/ND/Common/Standies/Impact_Miniatures/Demon_Prince.png', 
-'http://htkb.info/ND/Common/Standies/Impact_Miniatures/Demon_Prince_back.png', 
+'http://htkb.info/ND/Common/Standees/Impact_Miniatures/Demon_Prince.png', 
+'http://htkb.info/ND/Common/Standees/Impact_Miniatures/Demon_Prince_back.png', 
 'Masculine', 'Large', 'Demon', 6, 4, '2ST 2B 2R', '2R', '1ST 2B', '2R', 8, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (856, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (856, 2); --Armor

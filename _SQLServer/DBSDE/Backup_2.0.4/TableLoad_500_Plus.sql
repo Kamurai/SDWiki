@@ -17,10 +17,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (2390);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1221, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1221,
-'http://htkb.info/ND/SDE/Standies/Dark_Present.png', 
-'http://htkb.info/ND/SDE/Standies/Dark_Present_back.png',
+'http://htkb.info/ND/SDE/Standees/Dark_Present.png', 
+'http://htkb.info/ND/SDE/Standees/Dark_Present_back.png',
 'Neither', 'Small', '', 6, 1, '3B', '2R', '3R', '0ST', 1, 0);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (878, 1179); --Gifts of Darkness
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (878, 1, 1); --Strength
@@ -39,10 +39,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (2391);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1221, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1222,
-'http://htkb.info/ND/SDE/Standies/Truffle_Hog.png', 
-'http://htkb.info/ND/SDE/Standies/Truffle_Hog_back.png',
+'http://htkb.info/ND/SDE/Standees/Truffle_Hog.png', 
+'http://htkb.info/ND/SDE/Standees/Truffle_Hog_back.png',
 'Either', 'Small', 'Hog', 4, 1, '3R', '2B', '0ST', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (879, 859); --Run Down
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (879, 1, 1); --Strength
@@ -65,10 +65,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (2392);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1222, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1223,
-'http://htkb.info/ND/SDE/Standies/Sleighride_Candy.png', 
-'http://htkb.info/ND/SDE/Standies/Sleighride_Candy_back.png', 
+'http://htkb.info/ND/SDE/Standees/Sleighride_Candy.png', 
+'http://htkb.info/ND/SDE/Standees/Sleighride_Candy_back.png', 
 'Feminine', 'Small', 'Human', 8, 4, '2B 2R 2G', '2G', '3B', '2B', 8, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (880, 859); --Run Down
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (880, 1180); --Help Meeeee!
@@ -190,10 +190,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (2397);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1226, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1227,
-'http://htkb.info/ND/SDE/Standies/Butterscotch.png', 
-'http://htkb.info/ND/SDE/Standies/Butterscotch_back.png',
+'http://htkb.info/ND/SDE/Standees/Butterscotch.png', 
+'http://htkb.info/ND/SDE/Standees/Butterscotch_back.png',
 'Either', 'Small', '', 4, 1, '3B', '2B', '0ST', '2B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (881, 859); --Run Down
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (881, 2293); --Surprisingly Fierce
@@ -792,10 +792,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'The Dark Consul''s near destruction of Celestia also left the realm deeply corrupted by amethyst magic. Nearly overwhelmed, the Celestians fight against constant monstrous incursions to push back the darkness. As areas are cleared of threat, specialized priests known as Purifiers then consecrate the land so that it can be reclaimed by the Light and flourish once again.');
 insert into Characters (CardIndex) VALUES (2440);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1228, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1228, 
-'http://htkb.info/ND/SDE/Standies/Celestian_Purifier.png', 
-'http://htkb.info/ND/SDE/Standies/Celestian_Purifier_back.png',
+'http://htkb.info/ND/SDE/Standees/Celestian_Purifier.png', 
+'http://htkb.info/ND/SDE/Standees/Celestian_Purifier_back.png',
 'Feminine', 'Small', 'Celestian', 7, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (882, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (882, 728); --Massive Damage

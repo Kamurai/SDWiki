@@ -13,10 +13,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Arrrghhh.  I''ll take yer crowns, but I''ll be needing those blueberries first.');
 insert into Characters (CardIndex) VALUES (2247);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1125, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1125,
-'http://htkb.info/ND/SDE/Standies/Black_Handed_Henry.png', 
-'http://htkb.info/ND/SDE/Standies/Black_Handed_Henry_back.png', 
+'http://htkb.info/ND/SDE/Standees/Black_Handed_Henry.png', 
+'http://htkb.info/ND/SDE/Standees/Black_Handed_Henry_back.png', 
 'Masculine', 'Small', 'Dwarf Pirate', 6, 4, '2R', '3R', '2R', '4B 1G', 8, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (793, 814); --Potion Stash 2
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (793, 1119); --Potion Pirate

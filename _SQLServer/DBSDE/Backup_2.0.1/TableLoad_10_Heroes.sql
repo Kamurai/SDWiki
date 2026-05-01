@@ -12,10 +12,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (762);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (372, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (372, 
-'http://htkb.info/ND/SDE/Standies/Abominable_Snowman.png', 
-'http://htkb.info/ND/SDE/Standies/Abominable_Snowman_back.png',
+'http://htkb.info/ND/SDE/Standees/Abominable_Snowman.png', 
+'http://htkb.info/ND/SDE/Standees/Abominable_Snowman_back.png',
 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (267, 593); --Fixed Form
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (267, 672); --Immobile
@@ -39,10 +39,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Adzuki is a fierce warrior of the Inu clan. He is hot-headed and impulsive, but a brave fighter and loyal ally. As Momotaro passed through Inu territory on his quest to Devil Island, Adzuki challenged the traveling hero. When Momotaro proved his exceptional strength and dedication to eradicating evil, Adzuki happily joined him on his quest. An offer of free dumplings along the way just sweetened the deal.');
 insert into Characters (CardIndex) VALUES (763);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (373, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (373, 
-'http://htkb.info/ND/NAS/Standies/Adzuki.png', 
-'http://htkb.info/ND/NAS/Standies/Adzuki_back.png',
+'http://htkb.info/ND/NAS/Standees/Adzuki.png', 
+'http://htkb.info/ND/NAS/Standees/Adzuki_back.png',
 'Either', 'Small', 'Chimera', 6, 3, '2R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (268, 728); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (268, 834); --Rampage
@@ -63,10 +63,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Akkorokamui is numbered among the most successful pirates ever to haunt Kagejima''s waters, and has turned over vast amounts of valuable goods and vital information to the Moon Court during his long career. He has also kept no small portion for himself.');
 insert into Characters (CardIndex) VALUES (764);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (374, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (374, 
-'http://htkb.info/ND/NAS/Standies/Akkorokamui.png', 
-'http://htkb.info/ND/NAS/Standies/Akkorokamui_back.png',
+'http://htkb.info/ND/NAS/Standees/Akkorokamui.png', 
+'http://htkb.info/ND/NAS/Standees/Akkorokamui_back.png',
 'Either', 'Small', 'Ika', 6, 3, '3B', '2R', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (269, 533); --Deadly Defense
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (269, 708); --Knockdown
@@ -87,10 +87,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Alberdus receives no end of teasing from his fellow fighters about how he plays the Dark Centurion in Super Dungeon. How obvious for the mighty Grecian champion to play a Grecian themed Hero!? Alberdus doesn''t care. He knows he looks waaaaaay awesome, and the other fighters are just jealous.');
 insert into Characters (CardIndex) VALUES (765);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (375, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (375, 
-'http://htkb.info/ND/SDE/Standies/WOTF/Alberdus.png', 
-'http://htkb.info/ND/SDE/Standies/WOTF/Alberdus_back.png',
+'http://htkb.info/ND/SDE/Standees/WOTF/Alberdus.png', 
+'http://htkb.info/ND/SDE/Standees/WOTF/Alberdus_back.png',
 'Masculine', 'Small', 'Dark Celestian Hero', 7, 3, '2B 1R', '2R', '1B 1R', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (270, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (270, 674); --Immune: Fire
@@ -111,10 +111,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (766);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (376, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (376, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (376, 
-'http://htkb.info/ND/SDE/Standies/Angry_Bear.png', 
-'http://htkb.info/ND/SDE/Standies/Angry_Bear_back.png',
+'http://htkb.info/ND/SDE/Standees/Angry_Bear.png', 
+'http://htkb.info/ND/SDE/Standees/Angry_Bear_back.png',
 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '2R', '1B 1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (271, 457); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (271, 649); --Hex
@@ -137,10 +137,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (767);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (377, 3); --Ruby
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (377, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (377, 
-'http://htkb.info/ND/RRI/Standies/Apprentice_The.png', 
-'http://htkb.info/ND/RRI/Standies/Apprentice_The_back.png',
+'http://htkb.info/ND/RRI/Standees/Apprentice_The.png', 
+'http://htkb.info/ND/RRI/Standees/Apprentice_The_back.png',
 'Either', 'Small', 'Misfit', 5, 3, '1B', '3B', '3B 2R', '2B', 3, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (272, 545); --Defenseless
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (272, 643); --Healer
@@ -161,10 +161,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'The Swordmages of Arcadia are an ancient tradition founded before the Dark Consul''s rise, when the realm was governed by The Council of Knowledge. Promising young apprentices began their training in early childhood, mastering the fusion of magic, swordplay, and learning. Despite the Dark Consul''s best efforts, the swordmages survived the fall of Arcadia. Though scattered, they still protect peace and knowledge thoroughout the realms.');
 insert into Characters (CardIndex) VALUES (768);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (378, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (378, 
-'http://htkb.info/ND/RRI/Standies/Swordmage_Acolyte.png', 
-'http://htkb.info/ND/RRI/Standies/Swordmage_Acolyte_back.png',
+'http://htkb.info/ND/RRI/Standees/Swordmage_Acolyte.png', 
+'http://htkb.info/ND/RRI/Standees/Swordmage_Acolyte_back.png',
 'Feminine', 'Small', 'Tonnerian', 6, 3, '3B', '3B', '2B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (273, 1007); --Steady
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (273, 1035); --Double Slice
@@ -184,10 +184,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '"I can kill him, yes, but only if you tell me what I need to know."');
 insert into Characters (CardIndex) VALUES (769);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (379, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (379, 
-'http://htkb.info/ND/NAS/Standies/Arashikage.png', 
-'http://htkb.info/ND/NAS/Standies/Arashikage_back.png',
+'http://htkb.info/ND/NAS/Standees/Arashikage.png', 
+'http://htkb.info/ND/NAS/Standees/Arashikage_back.png',
 'Either', 'Small', 'Human', 7, 3, '2B 1R', '3B', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (274, 451); --Backstabber
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (274, 518); --Counterstrike
@@ -208,10 +208,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Making the change from being a Werecursed knight to being a Werebear has never sat well with those it possesses. The beast pushes to the fore and the rational being that is changed, pushed to the back. All that is remembered when the Were takes hold is a fleeting feeling, like after a dream, remembering only the din of battle, followed by a strong urge to brush one''s teeth.');
 insert into Characters (CardIndex) VALUES (770);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (380, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (380, 
-'http://htkb.info/ND/SDE/Standies/Armored_Bear.png', 
-'http://htkb.info/ND/SDE/Standies/Armored_Bear_back.png',
+'http://htkb.info/ND/SDE/Standees/Armored_Bear.png', 
+'http://htkb.info/ND/SDE/Standees/Armored_Bear_back.png',
 'Either', 'Large', 'Shapeshift', 5, 3, '3R', '2B 1R', '1B', '2B', 7, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (275, 533); --Deadly Defense
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (275, 593); --Fixed Form
@@ -234,10 +234,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (771);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (381, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (381, 
-'http://htkb.info/ND/SDE/Standies/SOTC/Attila.png', 
-'http://htkb.info/ND/SDE/Standies/SOTC/Attila_back.png',
+'http://htkb.info/ND/SDE/Standees/SOTC/Attila.png', 
+'http://htkb.info/ND/SDE/Standees/SOTC/Attila_back.png',
 'Either', 'Large', 'Construct', 6, 3, '2B', '2R', '2B', '2R', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (276, 681); --Immune: Status Effects
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (276, 1743); --SSW4200P Gatling
@@ -256,10 +256,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Heroes travel from far and wide for the privilege of purchasing a single garment tailored by the renowned Aubnar Buttonbjorn. A cunning craftsman, Aubnar weaves ancient dwarven magic into every stitch. It is said that a Hero garbed in a complete wardrobe crafted by Aubnar needs no other protection.');
 insert into Characters (CardIndex) VALUES (772);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (382, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (382, 
-'http://htkb.info/ND/SDE/Standies/NPC/Aubnar_Buttonbjorn.png', 
-'http://htkb.info/ND/SDE/Standies/NPC/Aubnar_Buttonbjorn_back.png',
+'http://htkb.info/ND/SDE/Standees/NPC/Aubnar_Buttonbjorn.png', 
+'http://htkb.info/ND/SDE/Standees/NPC/Aubnar_Buttonbjorn_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '2B', '2B', '3B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (277, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (277, 643); --Healer
@@ -282,10 +282,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Even when playing her favorite game, Aurelia requires speed, grace, and unpredictability. These aspects are perfectly captured by Nyan-Nyan, her favorite Super Dungeon Hero.');
 insert into Characters (CardIndex) VALUES (773);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (383, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (383, 
-'http://htkb.info/ND/SDE/Standies/WOTF/Aurelia.png', 
-'http://htkb.info/ND/SDE/Standies/WOTF/Aurelia_back.png',
+'http://htkb.info/ND/SDE/Standees/WOTF/Aurelia.png', 
+'http://htkb.info/ND/SDE/Standees/WOTF/Aurelia_back.png',
 'Feminine', 'Small', 'Human', 7, 3, '3B', '2B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (278, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (278, 668); --Ice
@@ -307,10 +307,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Bakusho Mondai''s gregarious nature and boisterous personality made him a natural master of festivals and celebrations. For the right price, he is eager to join adventuring parties and lend his dance-kata and fireworks, exquisitely choreographed to the thumping rhythm of taiko drums.');
 insert into Characters (CardIndex) VALUES (774);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (384, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (384, 
-'http://htkb.info/ND/NAS/Standies/Bakusho_Mondai.png', 
-'http://htkb.info/ND/NAS/Standies/Bakusho_Mondai_back.png',
+'http://htkb.info/ND/NAS/Standees/Bakusho_Mondai.png', 
+'http://htkb.info/ND/NAS/Standees/Bakusho_Mondai_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '3B', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (279, 894); --Sidestep
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (279, 1040); --Tough
@@ -329,10 +329,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'When Bang-Bang made a Super Dungeon character, she wanted to try something different. She played everything from mage to paladin, but it never felt right. Finally she settled on a pair of trusty flintlocks. They weren''t so different from what she used every day, but she knew how to use them. And at least she had a wide selection of costumes. Most recently she has been rocking the witch hunter look to annoy Tahariel.');
 insert into Characters (CardIndex) VALUES (775);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (385, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (385, 
-'http://htkb.info/ND/SDE/Standies/Bang_Bang.png', 
-'http://htkb.info/ND/SDE/Standies/Bang_Bang_back.png',
+'http://htkb.info/ND/SDE/Standees/Bang_Bang.png', 
+'http://htkb.info/ND/SDE/Standees/Bang_Bang_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '3B', '3B', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (280, 729); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (280, 642); --Heal X
@@ -355,10 +355,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Devotion to duty is a hallmark of many on Kagejima. For Benkei, devotion to duty is a defining characteristic. While his martial skill serves him well, it is his utter devotion to the Moon Throne that imparts his famous strength and fearlessness. They say that the gods could not move Benkei when he takes a stand in the Princess''s name.');
 insert into Characters (CardIndex) VALUES (776);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (386, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (386, 
-'http://htkb.info/ND/NAS/Standies/Benkei.png', 
-'http://htkb.info/ND/NAS/Standies/Benkei_back.png',
+'http://htkb.info/ND/NAS/Standees/Benkei.png', 
+'http://htkb.info/ND/NAS/Standees/Benkei_back.png',
 'Masculine', 'Small', 'Human', 5, 3, '3B', '2R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (281, 482); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (281, 684); --Improved Critical
@@ -380,10 +380,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (777);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (387, 3); --Ruby
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (387, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (387, 
-'http://htkb.info/ND/SDE/Standies/Monach_Tvar.png', 
-'http://htkb.info/ND/SDE/Standies/Monach_Tvar_back.png',
+'http://htkb.info/ND/SDE/Standees/Monach_Tvar.png', 
+'http://htkb.info/ND/SDE/Standees/Monach_Tvar_back.png',
 'Masculine', 'Small', 'Nether Elf', 6, 3, '2R', '2B 1R', '3B', '3R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (282, 428); --Ambush
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (282, 451); --Backstabber
@@ -407,10 +407,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Wandering the frozen expanses of Frostbyte Reach the outcast noble, Black Snow, watches for signs of the return of the Lich King. He hopes to one day end his watch and return to a life of peace and warmth. He wonders if he will succe3ed, on this... he knows nothing.');
 insert into Characters (CardIndex) VALUES (778);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (388, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (388, 
-'http://htkb.info/ND/SDE/Standies/Black_Snow.png', 
-'http://htkb.info/ND/SDE/Standies/Black_Snow_back.png',
+'http://htkb.info/ND/SDE/Standees/Black_Snow.png', 
+'http://htkb.info/ND/SDE/Standees/Black_Snow_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (283, 461); --Black Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (283, 642); --Heal X
@@ -432,10 +432,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (779);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (389, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (389, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (389, 
-'http://htkb.info/ND/SDE/Standies/Novel/Blaze.png', 
-'http://htkb.info/ND/SDE/Standies/Novel/Blaze_back.png',
+'http://htkb.info/ND/SDE/Standees/Novel/Blaze.png', 
+'http://htkb.info/ND/SDE/Standees/Novel/Blaze_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (284, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (284, 642); --Heal X
@@ -456,10 +456,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '"The mastery of fire is to be considered for all who wish to dominate in battle. To fight such a warrior, is as fighting a raging inferno. To even raise your head to look at the fire will burn you."');
 insert into Characters (CardIndex) VALUES (780);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (390, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (390, 
-'http://htkb.info/ND/NAS/Standies/Blazing_Soul_Hanzo.png', 
-'http://htkb.info/ND/NAS/Standies/Blazing_Soul_Hanzo_back.png',
+'http://htkb.info/ND/NAS/Standees/Blazing_Soul_Hanzo.png', 
+'http://htkb.info/ND/NAS/Standees/Blazing_Soul_Hanzo_back.png',
 'Either', 'Small', 'Human', 6, 3, '1B 1G', '3B', '2B 1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (285, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (285, 752); --Mastery
@@ -480,10 +480,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '"Why don''t you put that sword away before I am required to show you how to use it?"');
 insert into Characters (CardIndex) VALUES (781);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (391, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (391, 
-'http://htkb.info/ND/NAS/Standies/Blind_Swordsman.png', 
-'http://htkb.info/ND/NAS/Standies/Blind_Swordsman_back.png',
+'http://htkb.info/ND/NAS/Standees/Blind_Swordsman.png', 
+'http://htkb.info/ND/NAS/Standees/Blind_Swordsman_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (286, 584); --Feint
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (286, 689); --Insight
@@ -504,10 +504,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Ah, it is cold today my friend. Please, come warm yourself by my fire. What fire? Why this one right here? Oh dear, it appears to have gone cold. No bother, we shall shift to ourt true forms and be nice and toasty! You cannot shift, you say? That is most unfortunate. I suppose you will freeze then. A most unpleasant turn of affairs if I do say so. -- Recollections of a frostbitten freyjan');
 insert into Characters (CardIndex) VALUES (782);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (392, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (392, 
-'http://htkb.info/ND/SDE/Standies/Blizzard_Wizard.png', 
-'http://htkb.info/ND/SDE/Standies/Blizzard_Wizard_back.png',
+'http://htkb.info/ND/SDE/Standees/Blizzard_Wizard.png', 
+'http://htkb.info/ND/SDE/Standees/Blizzard_Wizard_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '1B 3B', '2R', '3B', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (287, 668); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (287, 709); --Knockdown
@@ -526,10 +526,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (783);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (393, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (393, 
-'http://htkb.info/ND/SDE/Standies/Charmancer.png', 
-'http://htkb.info/ND/SDE/Standies/Charmancer_back.png',
+'http://htkb.info/ND/SDE/Standees/Charmancer.png', 
+'http://htkb.info/ND/SDE/Standees/Charmancer_back.png',
 'Neither', 'Large', 'Orc', 6, 3, '3B', '3B', '2R', '2B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (288, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (288, 685); --Improved Critical
@@ -551,10 +551,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Brinebreaker Aesir are some of the most skilled of dwarven fighters. But their skill lies not solely in their own prowess, though they have plenty, their ferocity and command exalts all the other dwarves around them to heightened feats of combat. To be elevated to Aesir a dwarf must show both martial skill and leadership.');
 insert into Characters (CardIndex) VALUES (784);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (394, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (394, 
-'http://htkb.info/ND/SDE/Standies/Brinebreaker_Aesir.png', 
-'http://htkb.info/ND/SDE/Standies/Brinebreaker_Aesir_back.png',
+'http://htkb.info/ND/SDE/Standees/Brinebreaker_Aesir.png', 
+'http://htkb.info/ND/SDE/Standees/Brinebreaker_Aesir_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '2R', '3B', '2B', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (289, 482); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (289, 676); --Immune: Ice
@@ -577,10 +577,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Brinebreaker Skathi are rugged explorers and scouts. To be elevated to the ranks of the Skathi is an honor many young dwarves aspire to, but few can achieve. Independent and heroic to a fault, Skathi will brave unimaginable terrors and the most inhospitable of climes in service of hearth and home.');
 insert into Characters (CardIndex) VALUES (785);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (395, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (395, 
-'http://htkb.info/ND/SDE/Standies/Brinebreaker_Skathi.png', 
-'http://htkb.info/ND/SDE/Standies/Brinebreaker_Skathi_back.png',
+'http://htkb.info/ND/SDE/Standees/Brinebreaker_Skathi.png', 
+'http://htkb.info/ND/SDE/Standees/Brinebreaker_Skathi_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '3B', '2R', '2B', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (290, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (290, 668); --Ice
@@ -603,10 +603,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Burke Badhammer, was apprenticed to dwarven smiths as a boy, and learned to forge items of exquisite quality. Seeking more, he sought out and eventually earned the trust of the mysterious Enchanter. Together, the two have forged some of the most legendary magical weapons and armor in all of Crystalia.');
 insert into Characters (CardIndex) VALUES (786);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (396, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (396, 
-'http://htkb.info/ND/SDE/Standies/NPC/Burke_Badhammer.png', 
-'http://htkb.info/ND/SDE/Standies/NPC/Burke_Badhammer_back.png',
+'http://htkb.info/ND/SDE/Standees/NPC/Burke_Badhammer.png', 
+'http://htkb.info/ND/SDE/Standees/NPC/Burke_Badhammer_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (291, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (291, 678); --Immune: Knockdown
@@ -629,10 +629,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'I am not touched or blessed by the White Tiger. I am the White Tiger!');
 insert into Characters (CardIndex) VALUES (787);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (397, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (397, 
-'http://htkb.info/ND/NAS/Standies/Byakko.png', 
-'http://htkb.info/ND/NAS/Standies/Byakko_back.png',
+'http://htkb.info/ND/NAS/Standees/Byakko.png', 
+'http://htkb.info/ND/NAS/Standees/Byakko_back.png',
 'Masculine', 'Small', 'Tora', 6, 3, '3B', '3B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (292, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (292, 838); --Ravage
@@ -652,10 +652,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Candy has sought the tuttleage of the renownded healer and all-around sweetheart Princess Ruby.  Under Ruby''s expert guidance, Candy is learning the art of taking, breaking, and healing hearts.');
 insert into Characters (CardIndex) VALUES (788);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (398, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (398, 
-'http://htkb.info/ND/SDE/Standies/Candy_Lady_of_the_Heart.png', 
-'http://htkb.info/ND/SDE/Standies/Candy_Lady_of_the_Heart_back.png',
+'http://htkb.info/ND/SDE/Standees/Candy_Lady_of_the_Heart.png', 
+'http://htkb.info/ND/SDE/Standees/Candy_Lady_of_the_Heart_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (293, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (293, 455); --Bane
@@ -680,10 +680,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '"What? It''s not like I''m trying to distract the boys and ghouls, I''m just naturally perky."');
 insert into Characters (CardIndex) VALUES (789);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (399, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (399, 
-'http://htkb.info/ND/SDE/Standies/Candy_Mistress_of_Darkness.png', 
-'http://htkb.info/ND/SDE/Standies/Candy_Mistress_of_Darkness_back.png',
+'http://htkb.info/ND/SDE/Standees/Candy_Mistress_of_Darkness.png', 
+'http://htkb.info/ND/SDE/Standees/Candy_Mistress_of_Darkness_back.png',
 'Feminine', 'Small', 'Human', 5, 3, '2B', '3B', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (294, 530); --Dark Radiance
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (294, 547); --Despair
@@ -703,10 +703,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Captains are ranking members of the Crown Guard, tasked with overseeing their brothers-in-arms and protecting the citizenry of Crystalia from the predations of the Dark Consul''s minions.');
 insert into Characters (CardIndex) VALUES (790);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (400, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (400, 
-'http://htkb.info/ND/SDE/Standies/Ser_Elmer.png', 
-'http://htkb.info/ND/SDE/Standies/Ser_Elmer_back.png',
+'http://htkb.info/ND/SDE/Standees/Ser_Elmer.png', 
+'http://htkb.info/ND/SDE/Standees/Ser_Elmer_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (295, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (295, 543); --Defender
@@ -726,10 +726,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (791);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (401, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (401, 
-'http://htkb.info/ND/SDE/Standies/Casanova_Cola.png', 
-'http://htkb.info/ND/SDE/Standies/Casanova_Cola_back.png',
+'http://htkb.info/ND/SDE/Standees/Casanova_Cola.png', 
+'http://htkb.info/ND/SDE/Standees/Casanova_Cola_back.png',
 'Either', 'Small', 'Kitsune', 6, 3, '2B', '2R', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (296, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (296, 642); --Heal 
@@ -751,10 +751,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (792);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (402, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (402, 
-'http://htkb.info/ND/SDE/Standies/Cat_Burglar.png', 
-'http://htkb.info/ND/SDE/Standies/Cat_Burglar_back.png',
+'http://htkb.info/ND/SDE/Standees/Cat_Burglar.png', 
+'http://htkb.info/ND/SDE/Standees/Cat_Burglar_back.png',
 'Feminine', 'Small', 'Freyjan', 7, 3, '3B', '3B', '2B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (297, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (297, 642); --Heal X
@@ -780,10 +780,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (793);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (403, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (403, 
-'http://htkb.info/ND/SDE/Standies/Cat_Burglar.png', 
-'http://htkb.info/ND/SDE/Standies/Cat_Burglar_back.png',
+'http://htkb.info/ND/SDE/Standees/Cat_Burglar.png', 
+'http://htkb.info/ND/SDE/Standees/Cat_Burglar_back.png',
 'Feminine', 'Small', 'Freyjan', 7, 3, '3B', '3B', '2B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (298, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (298, 807); --Poison
@@ -807,7 +807,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '', '', '', '', 
 '');
 insert into Characters (CardIndex) VALUES (794);
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (404, 
 '', 
 '',
@@ -821,7 +821,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '', '', '', '', 
 '');
 insert into Characters (CardIndex) VALUES (795);
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (405, 
 '', 
 '',
@@ -836,10 +836,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Join Candy and Cola in celebrating their 10th Anniversary! Soda Pop Miniatures would like to thank all of our incredible fans, old and new, who have joined us on our adventures!');
 insert into Characters (CardIndex) VALUES (796);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (406, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (406, 
-'http://htkb.info/ND/SDE/Standies/Celebration_Candy.png', 
-'http://htkb.info/ND/SDE/Standies/Celebration_Candy_back.png',
+'http://htkb.info/ND/SDE/Standees/Celebration_Candy.png', 
+'http://htkb.info/ND/SDE/Standees/Celebration_Candy_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (301, 425); --Alchemy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (301, 642); --Heal X
@@ -862,10 +862,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'The Celestial Healers trace their origins before even the founding of the Temple of Light, and claim to be the first disciples of the Goddess. Dedicated to using divine grace to heal wounds and cure disease, many Celestial Healers take strict vows of peace, swearing to only guard and preserve life. A Celestial Healer''s vow should never be taken as a sign of weakness; though they never throw the first stone, they know how to finish a fight.');
 insert into Characters (CardIndex) VALUES (797);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (407, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (407, 
-'http://htkb.info/ND/SDE/Standies/Celestial_Healer.png', 
-'http://htkb.info/ND/SDE/Standies/Celestial_Healer_back.png',
+'http://htkb.info/ND/SDE/Standees/Celestial_Healer.png', 
+'http://htkb.info/ND/SDE/Standees/Celestial_Healer_back.png',
 'Feminine', 'Small', 'Centaur', 7, 3, '2B', '3B', '2B', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (302, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (302, 678); --Immune: Knockdown
@@ -885,7 +885,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '', '', '', '', 
 '');
 insert into Characters (CardIndex) VALUES (798);
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (408, 
 '', 
 '',
@@ -902,10 +902,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'The Dark Consul''s near destruction of Celestia also left the realm deeply corrupted by amethyst magic. Nearly overwhelmed, the Celestians fight against constant monstrous incursions to push back the darkness. As areas are cleared of threat, specialized priests known as Purifiers then consecrate the land so that it can be reclaimed by the Light and flourish once again.');
 insert into Characters (CardIndex) VALUES (799);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (409, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (409, 
-'http://htkb.info/ND/SDE/Standies/Celestian_Purifier.png', 
-'http://htkb.info/ND/SDE/Standies/Celestian_Purifier_back.png',
+'http://htkb.info/ND/SDE/Standees/Celestian_Purifier.png', 
+'http://htkb.info/ND/SDE/Standees/Celestian_Purifier_back.png',
 'Feminine', 'Small', 'Celestian', 7, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (304, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (304, 728); --Massive Damage
@@ -926,10 +926,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '"That''s not a toy."');
 insert into Characters (CardIndex) VALUES (800);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (410, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (410, 
-'http://htkb.info/ND/RRI/Standies/Chuy.png', 
-'http://htkb.info/ND/RRI/Standies/Chuy_back.png',
+'http://htkb.info/ND/RRI/Standees/Chuy.png', 
+'http://htkb.info/ND/RRI/Standees/Chuy_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2B 1R', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (305, 437); --Arc
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (305, 588); --Fire
@@ -951,10 +951,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Born of fire and hardship, Claw Tribe Barbarians live within the gnarled forests that dot the valleys of the Dragonback Peaks. Predations from monsters are constant and the food provided by the fiery landscape is meager at best. It is no wonder that many take to wandering.');
 insert into Characters (CardIndex) VALUES (801);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (411, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (411, 
-'http://htkb.info/ND/SDE/Standies/Claw_Tribe_Barbarian_feminine.png', 
-'http://htkb.info/ND/SDE/Standies/Claw_Tribe_Barbarian_feminine_back.png',
+'http://htkb.info/ND/SDE/Standees/Claw_Tribe_Barbarian_feminine.png', 
+'http://htkb.info/ND/SDE/Standees/Claw_Tribe_Barbarian_feminine_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (306, 457); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (306, 534); --Deadly Defense
@@ -973,10 +973,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Born of fire and hardship, Claw Tribe Barbarians live within the gnarled forests that dot the valleys of the Dragonback Peaks. Predations from monsters are constant and the food provided by the fiery landscape is meager at best. It is no wonder that many take to wandering.');
 insert into Characters (CardIndex) VALUES (802);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (412, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (412, 
-'http://htkb.info/ND/SDE/Standies/AltGendered/Claw_Tribe_Barbarian_masculine.png', 
-'http://htkb.info/ND/SDE/Standies/AltGendered/Claw_Tribe_Barbarian_masculine_back.png',
+'http://htkb.info/ND/SDE/Standees/AltGendered/Claw_Tribe_Barbarian_masculine.png', 
+'http://htkb.info/ND/SDE/Standees/AltGendered/Claw_Tribe_Barbarian_masculine_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (307, 457); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (307, 534); --Deadly Defense
@@ -995,10 +995,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'The gnomes of Clockwork Cove originally designed Clockwork Contraptions to do construction work that was too dangerous for those not made entirely of metal. As the complexity of their assignments increased, their logic engines were infused with more power until they became self-aware. Once they started forming a union and demanding fair wages, the gnomes largely set them free. Some have since armed themselves and become adventurers in their own right.');
 insert into Characters (CardIndex) VALUES (803);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (413, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (413, 
-'http://htkb.info/ND/SDE/Standies/Clockwork_Contraption.png', 
-'http://htkb.info/ND/SDE/Standies/Clockwork_Contraption_back.png',
+'http://htkb.info/ND/SDE/Standees/Clockwork_Contraption.png', 
+'http://htkb.info/ND/SDE/Standees/Clockwork_Contraption_back.png',
 'Other', 'Small', 'Construct', 5, 3, '2R', '3B', '2B', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (308, 608); --Fortify
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (308, 728); --Massive Damage
@@ -1019,10 +1019,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (804);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (414, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (414, 
-'http://htkb.info/ND/SDE/Standies/Ugluk_the_Mechanically_Inclined.png', 
-'http://htkb.info/ND/SDE/Standies/Ugluk_the_Mechanically_Inclined_back.png',
+'http://htkb.info/ND/SDE/Standees/Ugluk_the_Mechanically_Inclined.png', 
+'http://htkb.info/ND/SDE/Standees/Ugluk_the_Mechanically_Inclined_back.png',
 'Neither', 'Large', 'Orc', 6, 3, '3B', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (309, 483); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (309, 507); --Coghammer
@@ -1045,10 +1045,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (805);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (415, 2); --Emerald
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (415, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (415, 
-'http://htkb.info/ND/SDE/Standies/Blood_Eye.png', 
-'http://htkb.info/ND/SDE/Standies/Blood_Eye_back.png',
+'http://htkb.info/ND/SDE/Standees/Blood_Eye.png', 
+'http://htkb.info/ND/SDE/Standees/Blood_Eye_back.png',
 'Masculine', 'Large', 'Orc', 6, 3, '3B', '3B', '1B 1R', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (310, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (310, 679); --Immune: Poison
@@ -1071,10 +1071,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'In The Time Before, when only the Starlight Sea swirled within the cosmos, crystals were born in the etherium. Concentrated bits of arcana, emotion, and directionless will, the Goddess paired their primordial energy with her own to form Crystalia. Shapers tap into the Dark Realm to warp and reform crystals'' energies. While this can unlock incredible potential, it can also be easily abused.');
 insert into Characters (CardIndex) VALUES (806);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (416, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (416, 
-'http://htkb.info/ND/SDE/Standies/Crystal_Shaper.png', 
-'http://htkb.info/ND/SDE/Standies/Crystal_Shaper_back.png',
+'http://htkb.info/ND/SDE/Standees/Crystal_Shaper.png', 
+'http://htkb.info/ND/SDE/Standees/Crystal_Shaper_back.png',
 'Feminine', 'Small', 'Elf Witch', 7, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (311, 522); --Crystal Shaping
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (311, 672); --Immobile
@@ -1094,10 +1094,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (807);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (417, 3); --Ruby
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (417, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (417, 
-'http://htkb.info/ND/SDE/Standies/AltGendered/Deeproot_Druid_feminine.png', 
-'http://htkb.info/ND/SDE/Standies/AltGendered/Deeproot_Druid_feminine_back.png',
+'http://htkb.info/ND/SDE/Standees/AltGendered/Deeproot_Druid_feminine.png', 
+'http://htkb.info/ND/SDE/Standees/AltGendered/Deeproot_Druid_feminine_back.png',
 'Feminine', 'Small', 'Half-Elf', 7, 3, '3B', '1B 1R', '3B', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (312, 447); --Backlash
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (312, 643); --Healer
@@ -1122,10 +1122,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (808);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (418, 3); --Ruby
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (418, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (418, 
-'http://htkb.info/ND/SDE/Standies/Deeproot_Druid_masculine.png', 
-'http://htkb.info/ND/SDE/Standies/Deeproot_Druid_masculine_back.png',
+'http://htkb.info/ND/SDE/Standees/Deeproot_Druid_masculine.png', 
+'http://htkb.info/ND/SDE/Standees/Deeproot_Druid_masculine_back.png',
 'Masculine', 'Small', 'Half-Elf', 7, 3, '3B', '1B 1R', '3B', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (313, 447); --Backlash
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (313, 643); --Healer
@@ -1149,10 +1149,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'A jovial dwarf who has lived long and seen far too much, Deodric seeks nothing more than to enjoy his twilight years in the company of his dearest friends. Quick to laugh and eager to share stories of adventure (or mugs of frothy soda), Deodric is a welcome sight at taverns throughout Crystalia.');
 insert into Characters (CardIndex) VALUES (809);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (419, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (419, 
-'http://htkb.info/ND/SDE/Standies/NPC/Deodric_the_Drunk.png', 
-'http://htkb.info/ND/SDE/Standies/NPC/Deodric_the_Drunk_back.png',
+'http://htkb.info/ND/SDE/Standees/NPC/Deodric_the_Drunk.png', 
+'http://htkb.info/ND/SDE/Standees/NPC/Deodric_the_Drunk_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '2B', '3B', '2R', '1B 1R', 5, 3);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (314, 435); --Another Round
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (314, 681); --Immune: Status Effects
@@ -1174,10 +1174,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (810);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (420, 3); --Ruby
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (420, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (420, 
-'http://htkb.info/ND/SDE/Standies/Arachne.png', 
-'http://htkb.info/ND/SDE/Standies/Arachne_back.png',
+'http://htkb.info/ND/SDE/Standees/Arachne.png', 
+'http://htkb.info/ND/SDE/Standees/Arachne_back.png',
 'Feminine', 'Small', 'Nether Elf Spider', 8, 3, '2B 1R', '2R', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (315, 672); --Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (315, 679); --Immune: Poison
@@ -1200,10 +1200,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (811);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (421, 3); --Ruby
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (421, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (421, 
-'http://htkb.info/ND/SDE/Standies/WOTF/D_Shaun.png', 
-'http://htkb.info/ND/SDE/Standies/WOTF/D_Shaun_back.png',
+'http://htkb.info/ND/SDE/Standees/WOTF/D_Shaun.png', 
+'http://htkb.info/ND/SDE/Standees/WOTF/D_Shaun_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '1B 1R', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (316, 673); --Immune: Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (316, 679); --Immune: Poison
@@ -1224,10 +1224,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (812);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (422, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (422, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (422, 
-'http://htkb.info/ND/SDE/Standies/SOTC/Edward_Murdoch.png', 
-'http://htkb.info/ND/SDE/Standies/SOTC/Edward_Murdoch_back.png',
+'http://htkb.info/ND/SDE/Standees/SOTC/Edward_Murdoch.png', 
+'http://htkb.info/ND/SDE/Standees/SOTC/Edward_Murdoch_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B', '2R', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (317, 684); --Improved Critical
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (317, 724); --Mark
@@ -1250,10 +1250,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (813);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (423, 2); --Emerald
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (423, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (423, 
-'http://htkb.info/ND/SDE/Standies/WOTF/El_Falcon.png', 
-'http://htkb.info/ND/SDE/Standies/WOTF/El_Falcon_back.png',
+'http://htkb.info/ND/SDE/Standees/WOTF/El_Falcon.png', 
+'http://htkb.info/ND/SDE/Standees/WOTF/El_Falcon_back.png',
 'Masculine', 'Small', 'Celestian', 7, 3, '2B', '1B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (318, 657); --Hookshot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (318, 678); --Immune: Knockdown
@@ -1275,10 +1275,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (814);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (424, 3); --Ruby
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (424, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (424, 
-'http://htkb.info/ND/SDE/Standies/Ember_Mage_feminine.png', 
-'http://htkb.info/ND/SDE/Standies/Ember_Mage_feminine_back.png',
+'http://htkb.info/ND/SDE/Standees/Ember_Mage_feminine.png', 
+'http://htkb.info/ND/SDE/Standees/Ember_Mage_feminine_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (319, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (319, 642); --Heal X
@@ -1300,10 +1300,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (815);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (425, 3); --Ruby
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (425, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (425, 
-'http://htkb.info/ND/SDE/Standies/AltGendered/Ember_Mage_masculine.png', 
-'http://htkb.info/ND/SDE/Standies/AltGendered/Ember_Mage_masculine_back.png',
+'http://htkb.info/ND/SDE/Standees/AltGendered/Ember_Mage_masculine.png', 
+'http://htkb.info/ND/SDE/Standees/AltGendered/Ember_Mage_masculine_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (320, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (320, 642); --Heal X
@@ -1324,10 +1324,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Dedicated to bringing the killer of his uncle to justice, Faris has developed the skills of a hunter. Always patient, a master of tracking, and unerring once the prey is in his sites--all traits shared by the renowned Princess Emerald.');
 insert into Characters (CardIndex) VALUES (816);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (426, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (426, 
-'http://htkb.info/ND/SDE/Standies/Faris.png', 
-'http://htkb.info/ND/SDE/Standies/Faris_back.png',
+'http://htkb.info/ND/SDE/Standees/Faris.png', 
+'http://htkb.info/ND/SDE/Standees/Faris_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B', '3B', '1B 1R', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (321, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (321, 642); --Heal X
@@ -1349,10 +1349,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '"I don''t know nothin'' ''bout bein'' no fancy city Hero from Crystalia Castle. I may be just a simple mouse farmer, but I know this: I''m sick and tired o'' these Goddess-durned monsters traipsing all over my land! I''ve had enough! Hand me my pitchfork, sonny. It''s time to show these city-folk how it''s done..."');
 insert into Characters (CardIndex) VALUES (817);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (427, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (427, 
-'http://htkb.info/ND/SDE/Standies/Fed_Up_Farmer.png', 
-'http://htkb.info/ND/SDE/Standies/Fed_Up_Farmer_back.png',
+'http://htkb.info/ND/SDE/Standees/Fed_Up_Farmer.png', 
+'http://htkb.info/ND/SDE/Standees/Fed_Up_Farmer_back.png',
 'Either', 'Small', 'Freyjan', 7, 3, '3B', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (322, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (322, 642); --Heal X
@@ -1372,10 +1372,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '"Be water, my friend."');
 insert into Characters (CardIndex) VALUES (818);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (428, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (428, 
-'http://htkb.info/ND/NAS/Standies/Formless_Hanzo.png', 
-'http://htkb.info/ND/NAS/Standies/Formless_Hanzo_back.png',
+'http://htkb.info/ND/NAS/Standees/Formless_Hanzo.png', 
+'http://htkb.info/ND/NAS/Standees/Formless_Hanzo_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (323, 674); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (323, 607); --Formless
@@ -1397,10 +1397,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'The adventurers of Crystalia are all motivated by their own reasons. Some face the dangers of the Dark Consul to bring the light of the Goddess to all corners of the world, some do it to help the less fortunate, some do it for glory. And, of course, some do it for treasure. Fortune Hunters fight for the Goddess, but they have a knack for getting rich while doing so.');
 insert into Characters (CardIndex) VALUES (819);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (429, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (429, 
-'http://htkb.info/ND/SDE/Standies/Fortune_Hunter.png', 
-'http://htkb.info/ND/SDE/Standies/Fortune_Hunter_back.png',
+'http://htkb.info/ND/SDE/Standees/Fortune_Hunter.png', 
+'http://htkb.info/ND/SDE/Standees/Fortune_Hunter_back.png',
 'Feminine', 'Small', 'Dwarf', 6, 3, '2B', '3B', '3B', '2R', 6, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (324, 482); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (324, 678); --Immune: Knockdown
@@ -1422,10 +1422,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '"Get ''em, Mr. Fluffs!"');
 insert into Characters (CardIndex) VALUES (820);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (430, 3); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (430, 
-'http://htkb.info/ND/SDE/Standies/Freyjan_Beastmaster.png', 
-'http://htkb.info/ND/SDE/Standies/Freyjan_Beastmaster_back.png',
+'http://htkb.info/ND/SDE/Standees/Freyjan_Beastmaster.png', 
+'http://htkb.info/ND/SDE/Standees/Freyjan_Beastmaster_back.png',
 'Either', 'Small', 'Freyjan', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (325, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (325, 455); --Bane
@@ -1447,10 +1447,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '"Get ''em, Mr. Fluffs!"');
 insert into Characters (CardIndex) VALUES (821);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (431, 3); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (431, 
-'http://htkb.info/ND/SDE/Standies/Freyjan_Beastmaster.png', 
-'http://htkb.info/ND/SDE/Standies/Freyjan_Beastmaster_back.png',
+'http://htkb.info/ND/SDE/Standees/Freyjan_Beastmaster.png', 
+'http://htkb.info/ND/SDE/Standees/Freyjan_Beastmaster_back.png',
 'Either', 'Small', 'Freyjan', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (326, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (326, 455); --Bane
@@ -1472,10 +1472,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Most believe the Frozen Queen is not truly evil despite her frequent conflicts with the Heroes of Crystalia. Indeed, the Frozen Queen has been known to assist Heroes in dire times of need. What prompts this assistance none can say.');
 insert into Characters (CardIndex) VALUES (822);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (432, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (432, 
-'http://htkb.info/ND/SDE/Standies/Frozen_Queen.png', 
-'http://htkb.info/ND/SDE/Standies/Frozen_Queen_back.png',
+'http://htkb.info/ND/SDE/Standees/Frozen_Queen.png', 
+'http://htkb.info/ND/SDE/Standees/Frozen_Queen_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (327, 668); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (327, 672); --Immobile
@@ -1499,10 +1499,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Deadly archers, the Glimmerdusk Rangers patrol the edges of the Fae Wood hunting any foolish enough to enter uninvited. With the rise of the Dark Consul, and the Nether Rifts advancing into their lands, the rangers have begun to venture from their woodland realm. They offer their considerable skill to any who will take the fight to the Dark Consul.');
 insert into Characters (CardIndex) VALUES (823);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (433, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (433, 
-'http://htkb.info/ND/SDE/Standies/Glimmerdusk_Ranger_feminine.png', 
-'http://htkb.info/ND/SDE/Standies/Glimmerdusk_Ranger_feminine_back.png',
+'http://htkb.info/ND/SDE/Standees/Glimmerdusk_Ranger_feminine.png', 
+'http://htkb.info/ND/SDE/Standees/Glimmerdusk_Ranger_feminine_back.png',
 'Feminine', 'Small', 'Elf', 7, 3, '1B 1R', '3B', '2B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (328, 847); --Remedy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (328, 1009); --Stealth
@@ -1525,10 +1525,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Deadly archers, the Glimmerdusk Rangers patrol the edges of the Fae Wood hunting any foolish enough to enter uninvited. With the rise of the Dark Consul, and the Nether Rifts advancing into their lands, the rangers have begun to venture from their woodland realm. They offer their considerable skill to any who will take the fight to the Dark Consul.');
 insert into Characters (CardIndex) VALUES (824);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (434, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (434, 
-'http://htkb.info/ND/SDE/Standies/AltGendered/Glimmerdusk_Ranger_masculine.png', 
-'http://htkb.info/ND/SDE/Standies/AltGendered/Glimmerdusk_Ranger_masculine_back.png',
+'http://htkb.info/ND/SDE/Standees/AltGendered/Glimmerdusk_Ranger_masculine.png', 
+'http://htkb.info/ND/SDE/Standees/AltGendered/Glimmerdusk_Ranger_masculine_back.png',
 'Masculine', 'Small', 'Elf', 7, 3, '1B 1R', '3B', '2B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (329, 847); --Remedy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (329, 1009); --Stealth
@@ -1551,10 +1551,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'While most necromancers sever the intellect from their creations, a few risen are allowed to retain their knowledge and even personalities. Typically this is so they can serve as lieutenants, mages, or fulfill other skilled necessities in the necromancer''s plan. Occasionally this backfires, and a Gloomborn Champion is born. Former Heroes, Gloomborn Champions fight free of the necromancer''s control and escape their enslavement.');
 insert into Characters (CardIndex) VALUES (825);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (435, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (435, 
-'http://htkb.info/ND/SDE/Standies/Gloomborn_Champion.png', 
-'http://htkb.info/ND/SDE/Standies/Gloomborn_Champion_back.png',
+'http://htkb.info/ND/SDE/Standees/Gloomborn_Champion.png', 
+'http://htkb.info/ND/SDE/Standees/Gloomborn_Champion_back.png',
 'Either', 'Small', 'Undead Human', 6, 3, '2R', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (330, 514); --Corpse Stench
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (330, 681); --Immune: Status Effects
@@ -1574,10 +1574,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '"Oh, ho, what''s this? A fat man with a fat purse; my favorite kind of stranger."');
 insert into Characters (CardIndex) VALUES (826);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (436, 3); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (436, 
-'http://htkb.info/ND/NAS/Standies/Goemon.png', 
-'http://htkb.info/ND/NAS/Standies/Goemon_back.png',
+'http://htkb.info/ND/NAS/Standees/Goemon.png', 
+'http://htkb.info/ND/NAS/Standees/Goemon_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (331, 642); --Heal
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (331, 718); --Luck
@@ -1600,10 +1600,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (827);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (437, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (437, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (437, 
-'http://htkb.info/ND/SDE/Standies/Novel/Gork.png', 
-'http://htkb.info/ND/SDE/Standies/Novel/Gork_back.png',
+'http://htkb.info/ND/SDE/Standees/Novel/Gork.png', 
+'http://htkb.info/ND/SDE/Standees/Novel/Gork_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '2B 1R', '2R', '2B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (332, 678); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (332, 679); --Immune: Poison
@@ -1622,10 +1622,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Before the Krampus devours someone who has spent the year doing no good, he likes to turn them into a Naughtie. Each Naughtie seems to have its own personality. A misbehaving hero transformed into Gully Gawk will find themselves with an urge to hide in gullies and steal cow''s milk.');
 insert into Characters (CardIndex) VALUES (828);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (438, 3); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (438, 
-'http://htkb.info/ND/SDE/Standies/Gully_Gawk.png', 
-'http://htkb.info/ND/SDE/Standies/Gully_Gawk_back.png',
+'http://htkb.info/ND/SDE/Standees/Gully_Gawk.png', 
+'http://htkb.info/ND/SDE/Standees/Gully_Gawk_back.png',
 'Either', 'Large', 'Shapeshift', 5, 3, '2B', '1B', '2B', '2B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (333, 593); --Fixed Form
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (333, 1092); --Fearsome Cry
@@ -1645,10 +1645,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Hanzo has been called many things over his long and storied life: master, teacher, monster. His team won the Moonlight Tournament twenty-two years ago through legendary speed and infamous cunning. He displayed all these qualities in the Sun Empire, but added another--treachery--for the first and only time, a Kagejima shinobi decided to stay with the Sun Court.');
 insert into Characters (CardIndex) VALUES (829);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (439, 3); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (439, 
-'http://htkb.info/ND/NAS/Standies/Hanzo.png', 
-'http://htkb.info/ND/NAS/Standies/Hanzo_back.png',
+'http://htkb.info/ND/NAS/Standees/Hanzo.png', 
+'http://htkb.info/ND/NAS/Standees/Hanzo_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '1B 1G', '3B', '2B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (334, 672); --Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (334, 752); --Mastery
@@ -1668,10 +1668,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (830);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (440, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (440, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (440, 
-'http://htkb.info/ND/SDE/Standies/Hearthsworn_Fighter_masculine.png', 
-'http://htkb.info/ND/SDE/Standies/Hearthsworn_Fighter_masculine_back.png',
+'http://htkb.info/ND/SDE/Standees/Hearthsworn_Fighter_masculine.png', 
+'http://htkb.info/ND/SDE/Standees/Hearthsworn_Fighter_masculine_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '2B 1R', '2R', '2B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (335, 678); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (335, 679); --Immune: Poison
@@ -1691,10 +1691,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (831);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (441, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (441, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (441, 
-'http://htkb.info/ND/SDE/Standies/AltGendered/Hearthsworn_Fighter_feminine.png', 
-'http://htkb.info/ND/SDE/Standies/AltGendered/Hearthsworn_Fighter_feminine_back.png',
+'http://htkb.info/ND/SDE/Standees/AltGendered/Hearthsworn_Fighter_feminine.png', 
+'http://htkb.info/ND/SDE/Standees/AltGendered/Hearthsworn_Fighter_feminine_back.png',
 'Feminine', 'Small', 'Dwarf', 6, 3, '2B 1R', '2R', '2B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (336, 678); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (336, 679); --Immune: Poison
@@ -1713,10 +1713,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'I''m a magic mushroom! Stop! Guys, guys... Wait! No, don''t eat meeeeeeee!');
 insert into Characters (CardIndex) VALUES (832);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (442, 3); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (442, 
-'http://htkb.info/ND/SDE/Standies/Heroic_Kinoshroom.png', 
-'http://htkb.info/ND/SDE/Standies/Heroic_Kinoshroom_back.png',
+'http://htkb.info/ND/SDE/Standees/Heroic_Kinoshroom.png', 
+'http://htkb.info/ND/SDE/Standees/Heroic_Kinoshroom_back.png',
 'Either', 'Large', 'Shapeshift', 6, 1, '3B', '0ST', '1B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (337, 587); --Fertilizer
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (337, 593); --Fixed Form
@@ -1734,10 +1734,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Trained in the dark art of hexes and curses, the Hexcast Covens are uneasy allies to the rulers of Crystalia. Nonetheless their potency in battle cannot be denied. Slowing enemies, shattering armor, and weakening their foes a Hexcast Sorcerer can lay even the mightiest low.');
 insert into Characters (CardIndex) VALUES (833);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (443, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (443, 
-'http://htkb.info/ND/SDE/Standies/AltGendered/Hexcast_Sorcerer.png', 
-'http://htkb.info/ND/SDE/Standies/AltGendered/Hexcast_Sorcerer_back.png',
+'http://htkb.info/ND/SDE/Standees/AltGendered/Hexcast_Sorcerer.png', 
+'http://htkb.info/ND/SDE/Standees/AltGendered/Hexcast_Sorcerer_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B', '3B', '2B 1R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (338, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (338, 596); --Fly
@@ -1760,10 +1760,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Trained in the dark art of hexes and curses, the Hexcast Covens are uneasy allies to the rulers of Crystalia. Nonetheless their potency in battle cannot be denied. Slowing enemies, shattering armor, and weakening their foes a Hexcast Sorcerer can lay even the mightiest low.');
 insert into Characters (CardIndex) VALUES (834);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (444, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (444, 
-'http://htkb.info/ND/SDE/Standies/Hexcast_Sorceress.png', 
-'http://htkb.info/ND/SDE/Standies/Hexcast_Sorceress_back.png',
+'http://htkb.info/ND/SDE/Standees/Hexcast_Sorceress.png', 
+'http://htkb.info/ND/SDE/Standees/Hexcast_Sorceress_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2B 1R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (339, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (339, 596); --Fly
@@ -1787,10 +1787,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'A highly skilled warrior of strange disposition, Howl, and the small child he calls Yip wander Kagejima living the rough life of a ronin. They say, in a past life, he fell in love with a bewitching kunoichi, and she with him. He did not discover her betrothal to her clan''s lord until after their son was born. To preserve honor, he gave up his name and swore revenge on the lord.');
 insert into Characters (CardIndex) VALUES (835);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (445, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (445, 
-'http://htkb.info/ND/NAS/Standies/Howl_and_Yip.png', 
-'http://htkb.info/ND/NAS/Standies/Howl_and_Yip_back.png',
+'http://htkb.info/ND/NAS/Standees/Howl_and_Yip.png', 
+'http://htkb.info/ND/NAS/Standees/Howl_and_Yip_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2R', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (340, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (340, 709); --Knockdown
@@ -1813,10 +1813,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (836);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (446, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (446, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (446, 
-'http://htkb.info/ND/SDE/Standies/Ice_Climber_Candy.png', 
-'http://htkb.info/ND/SDE/Standies/Ice_Climber_Candy_back.png',
+'http://htkb.info/ND/SDE/Standees/Ice_Climber_Candy.png', 
+'http://htkb.info/ND/SDE/Standees/Ice_Climber_Candy_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '2B', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (341, 493); --Burrow
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (341, 642); --Heal X
@@ -1838,10 +1838,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'In the grim, frozen winters of Frostbyte Reach, the cold is a fearsome opponent all on its own. However, those Freyjans who have mastered the path of the Ice Shard Aesthetic can use that cold to prolong life as well as end it.');
 insert into Characters (CardIndex) VALUES (837);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (447, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (447, 
-'http://htkb.info/ND/SDE/Standies/Ice_Shard_Aesthetic.png', 
-'http://htkb.info/ND/SDE/Standies/Ice_Shard_Aesthetic_back.png',
+'http://htkb.info/ND/SDE/Standees/Ice_Shard_Aesthetic.png', 
+'http://htkb.info/ND/SDE/Standees/Ice_Shard_Aesthetic_back.png',
 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (342, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (342, 668); --Ice
@@ -1862,10 +1862,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Ichika and her twin sister Yui have stood guard on their shrine for nearly 10 years before agents of the Dark Consul razed her temple to the ground. Ichika, has sworn to stay by her sisters side to help hunt down and destroy the enemies of Kagejima''s Kami, and purify her blade in their destruction.'); 
 insert into Characters (CardIndex) VALUES (838);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (448, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (448, 
-'http://htkb.info/ND/SDE/Standies/NAS/Ichika.png', 
-'http://htkb.info/ND/SDE/Standies/NAS/Ichika_back.png',
+'http://htkb.info/ND/SDE/Standees/NAS/Ichika.png', 
+'http://htkb.info/ND/SDE/Standees/NAS/Ichika_back.png',
 'Feminine', 'Small', 'Human', 6, 2, '2R', '3B', '2B', '3B', 3, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (343, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (343, 788); --Paired Hero (Yui)
@@ -1884,10 +1884,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (839);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (449, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (449, 
-'http://htkb.info/ND/NAS/Standies/Indominable_Hanzo.png', 
-'http://htkb.info/ND/NAS/Standies/Indominable_Hanzo_back.png',
+'http://htkb.info/ND/NAS/Standees/Indominable_Hanzo.png', 
+'http://htkb.info/ND/NAS/Standees/Indominable_Hanzo_back.png',
 'Masculine', 'Small', 'Human', 5, 3, '1B 1G', '3B', '2B', '2B 1R', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (344, 752); --Mastery
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (344, 1007); --Steady
@@ -1907,10 +1907,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'A major otaku and video game enthusiast, Jun is no stranger to cosplay and loves attending conventions dressed as her favorite characters. She is always drawn to adorable witches, such as the Sanctioned Witch, and their lovely, pointy hats.');
 insert into Characters (CardIndex) VALUES (840);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (450, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (450, 
-'http://htkb.info/ND/SDE/Standies/WOTF/Jun.png', 
-'http://htkb.info/ND/SDE/Standies/WOTF/Jun_back.png',
+'http://htkb.info/ND/SDE/Standees/WOTF/Jun.png', 
+'http://htkb.info/ND/SDE/Standees/WOTF/Jun_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2B 1R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (345, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (345, 642); --Heal X
@@ -1934,10 +1934,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Karura''s inquisitive nature has led him to tinker endlessly, and he has invented many wonderful things. The latest of these, a contraption of snares, wires, pulleys, and hooks, allows him to fly between trees, cliffs, and rooftops with all the grace and speed of his beloved avian cousins.');
 insert into Characters (CardIndex) VALUES (841);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (451, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (451, 
-'http://htkb.info/ND/NAS/Standies/Karura.png', 
-'http://htkb.info/ND/NAS/Standies/Karura_back.png',
+'http://htkb.info/ND/NAS/Standees/Karura.png', 
+'http://htkb.info/ND/NAS/Standees/Karura_back.png',
 'Masculine', 'Small', 'Tanchyo', 5, 3, '3B', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (346, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (346, 672); --Immobile
@@ -1959,10 +1959,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Kasi has always tread the thin, silver line between light and dark, good and evil. Playing the Nether Assassin provides some catharsis from the constant battle raging within her soul. In Super Dungeon she can happily mix the most potent of poisons, assured that only pixels will be harmed.');
 insert into Characters (CardIndex) VALUES (842);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (452, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (452, 
-'http://htkb.info/ND/SDE/Standies/WOTF/Kasi.png', 
-'http://htkb.info/ND/SDE/Standies/WOTF/Kasi_back.png',
+'http://htkb.info/ND/SDE/Standees/WOTF/Kasi.png', 
+'http://htkb.info/ND/SDE/Standees/WOTF/Kasi_back.png',
 'Feminine', 'Small', 'Nether Elf', 7, 3, '1B 1R', '3B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (347, 649); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (347, 807); --Poison
@@ -1983,10 +1983,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Kiji is a quiet and composed member of the Ondori clan. He has always felt a connection to nature, often claiming he could smell change coming on the winds. One day this sense led him to a young warrior named Momotaro who was on a quest to Devil Island. The Ijin there had stolen many precious artifacts from Kiji''s people and he felt that fate had sent him Momotaro to help retireve what rightfully belonged to Clan Ondori.');
 insert into Characters (CardIndex) VALUES (843);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (453, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (453, 
-'http://htkb.info/ND/NAS/Standies/Kiji.png', 
-'http://htkb.info/ND/NAS/Standies/Kiji_back.png',
+'http://htkb.info/ND/NAS/Standees/Kiji.png', 
+'http://htkb.info/ND/NAS/Standees/Kiji_back.png',
 'Either', 'Small', 'Chimera', 7, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (348, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (348, 815); --Pounce
@@ -2007,10 +2007,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '"Go out into the world, spread your love for the Goddess with each seed you lay. May your blessed tools help you in your labor to turn earth and prepare beds for our future!" - Wilt Greenleaf, Master Gardener.');
 insert into Characters (CardIndex) VALUES (844);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (454, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (454, 
-'http://htkb.info/ND/SDE/Standies/Kodama_Gardener.png', 
-'http://htkb.info/ND/SDE/Standies/Kodama_Gardener_back.png',
+'http://htkb.info/ND/SDE/Standees/Kodama_Gardener.png', 
+'http://htkb.info/ND/SDE/Standees/Kodama_Gardener_back.png',
 'Feminine', 'Small', 'Kodama', 5, 3, '3B', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (349, 764); --Moon's Blessing
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (349, 798); --Pet: Blossom
@@ -2031,10 +2031,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (845);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (455, 3); --Ruby
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (455, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (455, 
-'http://htkb.info/ND/NAS/Standies/Komuso.png', 
-'http://htkb.info/ND/NAS/Standies/Komuso_back.png',
+'http://htkb.info/ND/NAS/Standees/Komuso.png', 
+'http://htkb.info/ND/NAS/Standees/Komuso_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '2R', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (350, 464); --Blessed Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (350, 668); --Ice
@@ -2054,10 +2054,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'The winter solstice is a time of family and celebration for the citizens of Crystalia. Warm around their hearths, sipping on mugs of hot chocolate, they tell stories of the mischievous faerie known as Kringle who rewards those who have been nice and punishes the naughty.');
 insert into Characters (CardIndex) VALUES (846);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (456, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (456, 
-'http://htkb.info/ND/SDE/Standies/Kringle.png', 
-'http://htkb.info/ND/SDE/Standies/Kringle_back.png',
+'http://htkb.info/ND/SDE/Standees/Kringle.png', 
+'http://htkb.info/ND/SDE/Standees/Kringle_back.png',
 'Masculine', 'Small', 'Faerie', 5, 3, '1B', '2B 1R', '2R', '2B', 6, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (351, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (351, 642); --Heal X
@@ -2080,10 +2080,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Lahkpa is a class of spirit that can be conjured to assist a band of heroes to find their way through treacherous terrain and magically hidden entrances to dungeons hidden by the Dark Consul.  Just be sure you don''t short Lahkpa on your agreed share of the loot, it lead you in, but it doesn''t have to lead you out.');
 insert into Characters (CardIndex) VALUES (847);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (457, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (457, 
-'http://htkb.info/ND/SDE/Standies/Lahkpa.png', 
-'http://htkb.info/ND/SDE/Standies/Lahkpa_back.png',
+'http://htkb.info/ND/SDE/Standees/Lahkpa.png', 
+'http://htkb.info/ND/SDE/Standees/Lahkpa_back.png',
 'Neither', 'Small', 'Demon', 6, 3, '2B', '2R', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (352, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (352, 596); --Fly
@@ -2108,10 +2108,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Leopold Magnus is not one of the more pleasant individuals in the Last Galaxy, and he is no more pleasant when he joins a game of Super Dungeon. He frequently destroys monsters other Heroes did most of the damage to, takes all the loot, and runs off laughing. Even so, he is a skilled Hero player, and he can frequently be a huge asset to his party.');
 insert into Characters (CardIndex) VALUES (848);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (458, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (458, 
-'http://htkb.info/ND/SDE/Standies/Leopold_Magnus.png', 
-'http://htkb.info/ND/SDE/Standies/Leopold_Magnus_back.png',
+'http://htkb.info/ND/SDE/Standees/Leopold_Magnus.png', 
+'http://htkb.info/ND/SDE/Standees/Leopold_Magnus_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '2R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (353, 437); --Arc
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (353, 530); --Dark Radiance
@@ -2134,10 +2134,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'The tang of burnt ozone and the crawling crackle of static electricity surrounds and embraces Lightning Mages. Jealously, guarding the secret of lightning magicks, Thunderhead Guild commands a high price for their services. It is a bounty well spent, for few mages can match the Lightning Mage''s potency in battle as she arks bolts of lightning through her foes.');
 insert into Characters (CardIndex) VALUES (849);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (459, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (459, 
-'http://htkb.info/ND/SDE/Standies/Lightning_Mage.png', 
-'http://htkb.info/ND/SDE/Standies/Lightning_Mage_back.png',
+'http://htkb.info/ND/SDE/Standees/Lightning_Mage.png', 
+'http://htkb.info/ND/SDE/Standees/Lightning_Mage_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '4B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (354, 437); --Arc
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (354, 709); --Knockdown
@@ -2157,10 +2157,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Tender and gentle, despite the raw mystical power of Zakkadia, Lumi favors helping her fellow Heroes'' in need. When playing Super Dungeon she finds Princess Ruby to be her favored Hero, capable of bolstering the party while delivering a timely magical blast.');
 insert into Characters (CardIndex) VALUES (850);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (460, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (460, 
-'http://htkb.info/ND/SDE/Standies/WOTF/Lumi_and_Zakkadia.png', 
-'http://htkb.info/ND/SDE/Standies/WOTF/Lumi_and_Zakkadia_back.png',
+'http://htkb.info/ND/SDE/Standees/WOTF/Lumi_and_Zakkadia.png', 
+'http://htkb.info/ND/SDE/Standees/WOTF/Lumi_and_Zakkadia_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '2B', '3B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (355, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (355, 643); --Healer
@@ -2184,10 +2184,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (851);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (461, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (461, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (461, 
-'http://htkb.info/ND/SDE/Standies/Lunar_Knight.png', 
-'http://htkb.info/ND/SDE/Standies/Lunar_Knight_back.png',
+'http://htkb.info/ND/SDE/Standees/Lunar_Knight.png', 
+'http://htkb.info/ND/SDE/Standees/Lunar_Knight_back.png',
 'Feminine', 'Small', 'Elf', 7, 3, '2R', '2B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (356, 585); --Feint
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (356, 1067); --Enchanted Strike
@@ -2207,10 +2207,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '"Did you... did you just pull a piece of the moon from the sky to squash that wretch?"');
 insert into Characters (CardIndex) VALUES (852);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (462, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (462, 
-'http://htkb.info/ND/SDE/Standies/Lunar_Mage.png', 
-'http://htkb.info/ND/SDE/Standies/Lunar_Mage_back.png',
+'http://htkb.info/ND/SDE/Standees/Lunar_Mage.png', 
+'http://htkb.info/ND/SDE/Standees/Lunar_Mage_back.png',
 'Feminine', 'Small', 'Elf', 7, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (357, 482); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (357, 513); --Convergence With The Goddess
@@ -2233,10 +2233,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (853);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (463, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (463, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (463, 
-'http://htkb.info/ND/SDE/Standies/AltGendered/Mad_Cat.png', 
-'http://htkb.info/ND/SDE/Standies/AltGendered/Mad_Cat_back.png',
+'http://htkb.info/ND/SDE/Standees/AltGendered/Mad_Cat.png', 
+'http://htkb.info/ND/SDE/Standees/AltGendered/Mad_Cat_back.png',
 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '2R', '1B 1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (358, 457); --Beserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (358, 649); --Hex
@@ -2259,10 +2259,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (854);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (464, 2); --Emerald
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (464, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (464, 
-'http://htkb.info/ND/SDE/Standies/Makerguild_Engineer.png', 
-'http://htkb.info/ND/SDE/Standies/Makerguild_Engineer_back.png',
+'http://htkb.info/ND/SDE/Standees/Makerguild_Engineer.png', 
+'http://htkb.info/ND/SDE/Standees/Makerguild_Engineer_back.png',
 'Masculine', 'Small', 'Dwarf', 5, 3, '3B', '2B', '3B', '2R', 6, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (359, 608); --Fortify
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (359, 647); --Hex
@@ -2286,10 +2286,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Skilled in breaking enemies'' wills and enslaving weaker minds, beware the snare of a priestess of Araphel!');
 insert into Characters (CardIndex) VALUES (855);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (465, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (465, 
-'http://htkb.info/ND/SDE/Standies/Trixie_Master_of_Chains.png', 
-'http://htkb.info/ND/SDE/Standies/Trixie_Master_of_Chains_back.png',
+'http://htkb.info/ND/SDE/Standees/Trixie_Master_of_Chains.png', 
+'http://htkb.info/ND/SDE/Standees/Trixie_Master_of_Chains_back.png',
 'Feminine', 'Small', 'Riftling', 6, 3, '2B', '3B', '2B 1R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (360, 610); --Free Coin
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (360, 779); --One Use Only
@@ -2312,10 +2312,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (856);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (466, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (466, 
-'http://htkb.info/ND/SDE/Standies/SOTC/Mitch_Hunter.png', 
-'http://htkb.info/ND/SDE/Standies/SOTC/Mitch_Hunter_back.png',
+'http://htkb.info/ND/SDE/Standees/SOTC/Mitch_Hunter.png', 
+'http://htkb.info/ND/SDE/Standees/SOTC/Mitch_Hunter_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (361, 709); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (361, 900); --Slow
@@ -2335,10 +2335,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (857);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (467, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (467, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (467, 
-'http://htkb.info/ND/NAS/Standies/Mizaru.png', 
-'http://htkb.info/ND/NAS/Standies/Mizaru_back.png',
+'http://htkb.info/ND/NAS/Standees/Mizaru.png', 
+'http://htkb.info/ND/NAS/Standees/Mizaru_back.png',
 'Masculine', 'Small', 'Yamazaru', 6, 3, '3B', '3B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (362, 672); --Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (362, 841); --Read The Wind
@@ -2360,10 +2360,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Cutting through the water with uncanny speed, like the silver tip of a spear, Mizuchi has defeated flotillas three times her own numbers and ships ten times the weight of her craft. Serious in demeanor, strategically clever, and ruthless in battle, Mizuchi''s ship, the Honor of Ishika, and a hail of fire arrows, are often the last things would-be invaders ever see.');
 insert into Characters (CardIndex) VALUES (858);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (468, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (468, 
-'http://htkb.info/ND/NAS/Standies/Mizuchi.png', 
-'http://htkb.info/ND/NAS/Standies/Mizuchi_back.png',
+'http://htkb.info/ND/NAS/Standees/Mizuchi.png', 
+'http://htkb.info/ND/NAS/Standees/Mizuchi_back.png',
 'Feminine', 'Small', 'Ika', 6, 3, '3B', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (363, 894); --Sidestep
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (363, 1672); --Skewer
@@ -2383,10 +2383,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (859);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (469, 2); --Emerald
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (469, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (469, 
-'http://htkb.info/ND/NAS/Standies/Mochizuki.png', 
-'http://htkb.info/ND/NAS/Standies/Mochizuki_back.png',
+'http://htkb.info/ND/NAS/Standees/Mochizuki.png', 
+'http://htkb.info/ND/NAS/Standees/Mochizuki_back.png',
 'Feminine', 'Small', 'Human', 5, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (364, 563); --Dread
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (364, 724); --Mark
@@ -2407,10 +2407,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Momotaro was raised by simple peasants who could not have children of their own. They had prayed for a child to raise, and found Momotaro as a baby floating down a river inside of a giant peach. His mysterious origins hinted at a great destiny. When Momotaro came of age and heard of the evils committed by Clan Ijin, he vowed to fulfill his destiny and journey to Devil Island and bring an end to their wicked ways.');
 insert into Characters (CardIndex) VALUES (860);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (470, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (470, 
-'http://htkb.info/ND/NAS/Standies/Momotaro.png', 
-'http://htkb.info/ND/NAS/Standies/Momotaro_back.png',
+'http://htkb.info/ND/NAS/Standees/Momotaro.png', 
+'http://htkb.info/ND/NAS/Standees/Momotaro_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '2R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (365, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (365, 708); --Knockdown
@@ -2431,10 +2431,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (861);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (471, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (471, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (471, 
-'http://htkb.info/ND/SDE/Standies/Moonspire_Guardian.png', 
-'http://htkb.info/ND/SDE/Standies/Moonspire_Guardian_back.png',
+'http://htkb.info/ND/SDE/Standees/Moonspire_Guardian.png', 
+'http://htkb.info/ND/SDE/Standees/Moonspire_Guardian_back.png',
 'Feminine', 'Small', 'Elf', 7, 3, '3B', '2R', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (366, 894); --Sidestep
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (366, 1071); --Wind of Blades
@@ -2455,10 +2455,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (862);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (472, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (472, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (472, 
-'http://htkb.info/ND/NAS/Standies/Moon_Princess.png', 
-'http://htkb.info/ND/NAS/Standies/Moon_Princess_back.png',
+'http://htkb.info/ND/NAS/Standees/Moon_Princess.png', 
+'http://htkb.info/ND/NAS/Standees/Moon_Princess_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2R', '1B 1R', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (367, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (367, 764); --Moon's Blessing
@@ -2480,10 +2480,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'For years, Musashi has wandered Kagejima, studying, debating, and fighting with and alongside masters from every school he could find. After some years, he found that he no longer sought to master the sword; he sought to master himself. Since the tool no longer mattered, he abandoned his weapon for a pair of mighty oars. Now he travels on, searching for himself, and refining the art of the wooden blades.');
 insert into Characters (CardIndex) VALUES (863);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (473, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (473, 
-'http://htkb.info/ND/NAS/Standies/Miyamoto_Musashi.png', 
-'http://htkb.info/ND/NAS/Standies/Miyamoto_Musashi_back.png',
+'http://htkb.info/ND/NAS/Standees/Miyamoto_Musashi.png', 
+'http://htkb.info/ND/NAS/Standees/Miyamoto_Musashi_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '1B 1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (368, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (368, 584); --Feint
@@ -2504,10 +2504,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'For years, Musashi has wandered Kagejima, studying, debating, and fighting with and alongside masters from every school he could find. After some years, he found that he no longer sought to master the sword; he sought to master himself. Since the tool no longer mattered, he abandoned his weapon for a pair of mighty oars. Now he travels on, searching for himself, and refining the art of the wooden blades.');
 insert into Characters (CardIndex) VALUES (864);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (474, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (474, 
-'http://htkb.info/ND/NAS/Standies/Miyamoto_Musashi.png', 
-'http://htkb.info/ND/NAS/Standies/Miyamoto_Musashi_back.png',
+'http://htkb.info/ND/NAS/Standees/Miyamoto_Musashi.png', 
+'http://htkb.info/ND/NAS/Standees/Miyamoto_Musashi_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '1B 1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (369, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (369, 584); --Feint
@@ -2528,10 +2528,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Whether or not these sinister agents truly serve the Light is a matter of much debate.');
 insert into Characters (CardIndex) VALUES (865);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (475, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (475, 
-'http://htkb.info/ND/SDE/Standies/Nagari_Archpoisoner.png', 
-'http://htkb.info/ND/SDE/Standies/Nagari_Archpoisoner_back.png',
+'http://htkb.info/ND/SDE/Standees/Nagari_Archpoisoner.png', 
+'http://htkb.info/ND/SDE/Standees/Nagari_Archpoisoner_back.png',
 'Feminine', 'Small', 'Nagari', 7, 3, '2B', '3B', '1B 1R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (370, 453); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (370, 463); --Bleed
@@ -2556,10 +2556,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (866);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (476, 2); --Emerald
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (476, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (476, 
-'http://htkb.info/ND/SDE/Standies/Night_Hunter.png', 
-'http://htkb.info/ND/SDE/Standies/Night_Hunter_back.png',
+'http://htkb.info/ND/SDE/Standees/Night_Hunter.png', 
+'http://htkb.info/ND/SDE/Standees/Night_Hunter_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '3B', '2R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (371, 464); --Blessed Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (371, 685); --Improved Critical
@@ -2582,10 +2582,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Master Librarian Nikolai Ten is a noted historian, mage, and creator of magical scrolls. Often, Nikolai joins adventuring parties to search out obscure bits of lore or test out new magical theories.');
 insert into Characters (CardIndex) VALUES (867);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (477, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (477, 
-'http://htkb.info/ND/SDE/Standies/NPC/Nikolai_Ten.png', 
-'http://htkb.info/ND/SDE/Standies/NPC/Nikolai_Ten_back.png',
+'http://htkb.info/ND/SDE/Standees/NPC/Nikolai_Ten.png', 
+'http://htkb.info/ND/SDE/Standees/NPC/Nikolai_Ten_back.png',
 'Masculine', 'Small', 'Human', 7, 3, '2B', '3B', '2R', '3B', 5, 3);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (372, 425); --Alchemy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (372, 812); --Potion Master
@@ -2606,10 +2606,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (868);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (478, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (478, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (478, 
-'http://htkb.info/ND/SDE/Standies/Nu_Koa_Seraph.png', 
-'http://htkb.info/ND/SDE/Standies/Nu_Koa_Seraph_back.png',
+'http://htkb.info/ND/SDE/Standees/Nu_Koa_Seraph.png', 
+'http://htkb.info/ND/SDE/Standees/Nu_Koa_Seraph_back.png',
 'Masculine', 'Small', 'Nu-Koa', 6, 3, '3B', '2R', '2R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (373, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (373, 608); --Fortify
@@ -2632,10 +2632,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '"This is going to be so much FUN!"');
 insert into Characters (CardIndex) VALUES (869);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (479, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (479, 
-'http://htkb.info/ND/SDE/Standies/Nyan_Nyan.png', 
-'http://htkb.info/ND/SDE/Standies/Nyan_Nyan_back.png',
+'http://htkb.info/ND/SDE/Standees/Nyan_Nyan.png', 
+'http://htkb.info/ND/SDE/Standees/Nyan_Nyan_back.png',
 'Feminine', 'Small', 'Freyjan', 7, 3, '3B', '2B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (374, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (374, 616); --Frenzy
@@ -2657,10 +2657,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');--!! iunavailable !!
 insert into Characters (CardIndex) VALUES (870);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (480, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (480, 
-'http://htkb.info/ND/SDE/Standies/Orcdon_Ramsay.png', 
-'http://htkb.info/ND/SDE/Standies/Orcdon_Ramsay_back.png',
+'http://htkb.info/ND/SDE/Standees/Orcdon_Ramsay.png', 
+'http://htkb.info/ND/SDE/Standees/Orcdon_Ramsay_back.png',
 'Neither', 'Large', 'Orc', 6, 3, '2R', '3B', '2B', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (375, 1083); --Impulsive
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (375, 843); --Reckless
@@ -2681,10 +2681,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (871);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (481, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (481, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (481, 
-'http://htkb.info/ND/SDE/Standies/Novel/Otto.png', 
-'http://htkb.info/ND/SDE/Standies/Novel/Otto_back.png',
+'http://htkb.info/ND/SDE/Standees/Novel/Otto.png', 
+'http://htkb.info/ND/SDE/Standees/Novel/Otto_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (376, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (376, 642); --Heal X
@@ -2705,10 +2705,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'The fifth born princess, Amethyst is heralded as the child of prophecy. Yet Amethyst is uncomfortable in the spotlight that her birth thrust upon her. Gentle and shy, she rarely laughs, yet her smile can chase the shadows from a room with its brilliance. With her natural aptitude for sorcery, she spins elaborate illusions to entertain her parents and siblings; conjuring vivid tales of ancient myths to the delight of all.');
 insert into Characters (CardIndex) VALUES (872);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (482, 0); --Amethyst
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (482, 
-'http://htkb.info/ND/SDE/Standies/Princess_Amethyst.png', 
-'http://htkb.info/ND/SDE/Standies/Princess_Amethyst_back.png',
+'http://htkb.info/ND/SDE/Standees/Princess_Amethyst.png', 
+'http://htkb.info/ND/SDE/Standees/Princess_Amethyst_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '2B', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (377, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (377, 668); --Ice
@@ -2732,10 +2732,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'With her commanding presence, Citrine found her calling as a warrior and general. She possesses a keen insight for battlefield maneuvers, and her boisterous and bawdy personality ingratiated her immediately with the soldiery. Joining her father on many campaigns, her mere presence serves as a rallying cry to the soldiers of Crystalia and her strength at arms turns many a battle in the King''s favor.');
 insert into Characters (CardIndex) VALUES (873);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (483, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (483, 
-'http://htkb.info/ND/SDE/Standies/Princess_Citrine.png', 
-'http://htkb.info/ND/SDE/Standies/Princess_Citrine_back.png',
+'http://htkb.info/ND/SDE/Standees/Princess_Citrine.png', 
+'http://htkb.info/ND/SDE/Standees/Princess_Citrine_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B 1R', '2R', '2B', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (378, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (378, 756); --Military Acumen
@@ -2754,10 +2754,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Princess Emerald has always been the most free-spirited of the Crystalian Princesses. Holding a deep love for the forest she has developed a mastery of nature craft rivaled only by the elves.');
 insert into Characters (CardIndex) VALUES (874);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (484, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (484, 
-'http://htkb.info/ND/SDE/Standies/Princess_Emerald.png', 
-'http://htkb.info/ND/SDE/Standies/Princess_Emerald_back.png',
+'http://htkb.info/ND/SDE/Standees/Princess_Emerald.png', 
+'http://htkb.info/ND/SDE/Standees/Princess_Emerald_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '1B 1R', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (379, 453); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (379, 642); --Heal X
@@ -2778,7 +2778,7 @@ insert into Cards (ComponentIndex, NAME, PICTUREFRONT, PICTUREBACK, LINK, CARDTY
 '', '', '', '', 
 '');
 INSERT INTO CHARACTERS (CARDINDEX) VALUES (875);
-INSERT INTO EXPLORECHARACTERS (CHARACTERINDEX, STANDIEFRONT, STANDIEBACK, GENDER, MODELSIZE, CREATURETYPE, MOVEMENT, ACTIONS, STRENGTH, ARMOR, WILL, DEXTERITY, HEALTH, POTIONS) 
+INSERT INTO EXPLORECHARACTERS (CHARACTERINDEX, StandeeFRONT, StandeeBACK, GENDER, MODELSIZE, CREATURETYPE, MOVEMENT, ACTIONS, STRENGTH, ARMOR, WILL, DEXTERITY, HEALTH, POTIONS) 
 VALUES (485, 
 '', 
 '',
@@ -2793,10 +2793,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'As the heir-apparent to the throne, Princess Sapphire will one day rule all of Crystalia. As the oldest of five sisters, Princess Sapphire raised her siblings after the disappearance of their mother and their father saw to the affairs of state. As a child of prophecy, Princess Sapphire is destined to break the Dark Consul''s hold upon the land. These burdens are enough to overwhelm even the strongest, but Sapphire does not bend, nor break. Determined, dependable, and possessing a keen intellect, Sapphire excels because of her challenges, not despite them.');
 insert into Characters (CardIndex) VALUES (876);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (486, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (486, 
-'http://htkb.info/ND/SDE/Standies/Princess_Sapphire.png', 
-'http://htkb.info/ND/SDE/Standies/Princess_Sapphire_back.png',
+'http://htkb.info/ND/SDE/Standees/Princess_Sapphire.png', 
+'http://htkb.info/ND/SDE/Standees/Princess_Sapphire_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (381, 544); --Defender
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (381, 642); --Heal X
@@ -2818,10 +2818,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (877);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (487, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (487, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (487, 
-'http://htkb.info/ND/SDE/Standies/NPC/Prince_Peridot.png', 
-'http://htkb.info/ND/SDE/Standies/NPC/Prince_Peridot_back.png',
+'http://htkb.info/ND/SDE/Standees/NPC/Prince_Peridot.png', 
+'http://htkb.info/ND/SDE/Standees/NPC/Prince_Peridot_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (382, 729); --Massive Damage
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (382, 1711); --Sonic Slash
@@ -2840,10 +2840,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (878);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (488, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (488, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (488, 
-'http://htkb.info/ND/SDE/Standies/Rainbow_Dragoon.png', 
-'http://htkb.info/ND/SDE/Standies/Rainbow_Dragoon_back.png',
+'http://htkb.info/ND/SDE/Standees/Rainbow_Dragoon.png', 
+'http://htkb.info/ND/SDE/Standees/Rainbow_Dragoon_back.png',
 'Masculine', 'Small', 'Celestian', 6, 3, '2B', '2B', '1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (383, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (383, 596); --Fly
@@ -2865,10 +2865,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Even when relaxing, Ren feels the need to destroy. He gains pure pleasure playing as the Claw Tribe Barbarian, raging through hordes of minions.');
 insert into Characters (CardIndex) VALUES (879);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (489, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (489, 
-'http://htkb.info/ND/SDE/Standies/WOTF/Ren.png', 
-'http://htkb.info/ND/SDE/Standies/WOTF/Ren_back.png',
+'http://htkb.info/ND/SDE/Standees/WOTF/Ren.png', 
+'http://htkb.info/ND/SDE/Standees/WOTF/Ren_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (384, 457); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (384, 534); --Deadly Defense
@@ -2887,10 +2887,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Demons become Heroes to combat the Dark Consul for their own closely guarded reasons. Masters of striking from the shadows, Riftling Guild adepts can find the chink in any armor. More important to many though is their uncanny knack to find the most valuable treasure in any dungeon.');
 insert into Characters (CardIndex) VALUES (880);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (490, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (490, 
-'http://htkb.info/ND/SDE/Standies/Riftling_Rogue_feminine.png', 
-'http://htkb.info/ND/SDE/Standies/Riftling_Rogue_feminine_back.png',
+'http://htkb.info/ND/SDE/Standees/Riftling_Rogue_feminine.png', 
+'http://htkb.info/ND/SDE/Standees/Riftling_Rogue_feminine_back.png',
 'Feminine', 'Small', 'Demon', 7, 3, '3B', '2B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (385, 718); --Luck
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (385, 729); --Massive Damage
@@ -2912,10 +2912,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Demons become Heroes to combat the Dark Consul for their own closely guarded reasons. Masters of striking from the shadows, Riftling Guild adepts can find the chink in any armor. More important to many though is their uncanny knack to find the most valuable treasure in any dungeon.');
 insert into Characters (CardIndex) VALUES (881);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (491, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (491, 
-'http://htkb.info/ND/SDE/Standies/AltGendered/Riftling_Rogue_masculine.png', 
-'http://htkb.info/ND/SDE/Standies/AltGendered/Riftling_Rogue_masculine_back.png',
+'http://htkb.info/ND/SDE/Standees/AltGendered/Riftling_Rogue_masculine.png', 
+'http://htkb.info/ND/SDE/Standees/AltGendered/Riftling_Rogue_masculine_back.png',
 'Masculine', 'Small', 'Demon', 7, 3, '3B', '2B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (386, 718); --Luck
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (386, 729); --Massive Damage
@@ -2937,10 +2937,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Riftling Warriors are savage and brutal fighters. The Riftling Warrior''s fury and might grows as his pain and wounds increase. Many stories describe Riftling Warriors stalking the battlefield, bleeding from wounds that would fell a lesser fighter, slaying any who draw too near.');
 insert into Characters (CardIndex) VALUES (882);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (492, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (492, 
-'http://htkb.info/ND/SDE/Standies/Riftling_Warrior.png', 
-'http://htkb.info/ND/SDE/Standies/Riftling_Warrior_back.png',
+'http://htkb.info/ND/SDE/Standees/Riftling_Warrior.png', 
+'http://htkb.info/ND/SDE/Standees/Riftling_Warrior_back.png',
 'Masculine', 'Small', 'Demon', 6, 3, '4B', '3B', '1B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (387, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (387, 588); --Fire
@@ -2962,10 +2962,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Rimefrost orcs are not so much a tribe, as a loose alliance of orcs that have escaped the clutches of the Dark Consul and have turned to the embrace of the Goddess''s Light. Reviled and outcast from their tribes, Rimefrost orcs retain their tribal instincts and will often band together around a strong leader or personality. To lead a Rimefrost tribe is a heavy burden. The tribe is constantly hunted by the minions of the Dark Consul, and while Rimefrost orcs have been brought to the Light, they remain violent and unruly. Without steady leadership they are easily lured by their baser instincts and tempted to return to the Dark Consul''s thrall once more.');
 insert into Characters (CardIndex) VALUES (883);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (493, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (493, 
-'http://htkb.info/ND/SDE/Standies/Rimefrost_Warlord.png', 
-'http://htkb.info/ND/SDE/Standies/Rimefrost_Warlord_back.png',
+'http://htkb.info/ND/SDE/Standees/Rimefrost_Warlord.png', 
+'http://htkb.info/ND/SDE/Standees/Rimefrost_Warlord_back.png',
 'Masculine', 'Large', 'Orc', 6, 3, '2B 1R', '2R', '2B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (388, 616); --Frenzy
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (388, 725); --Absolute Destruction
@@ -2983,10 +2983,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Quonk! Quonk quonk quonk. QUONK!!!');
 insert into Characters (CardIndex) VALUES (884);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (494, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (494, 
-'http://htkb.info/ND/SDE/Standies/Rinny_Prin_Peng.png', 
-'http://htkb.info/ND/SDE/Standies/Rinny_Prin_Peng_back.png',
+'http://htkb.info/ND/SDE/Standees/Rinny_Prin_Peng.png', 
+'http://htkb.info/ND/SDE/Standees/Rinny_Prin_Peng_back.png',
 'Either', 'Small', 'Chimera', 3, 3, '2R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (389, 728); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (389, 815); --Pounce
@@ -3008,10 +3008,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'The woods surrounding Crystalia Castle are property of the Crown. As such, they are patrolled by Royal Huntsman who make sure that no poachers encroach on royal game. These huntsman are the very best in the land; wielding not enchantment and spell but pure skill with a bow and bravery. They are often called upon to defend the woods and surrounding lands from the forces of the Dark Consul.');
 insert into Characters (CardIndex) VALUES (885);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (495, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (495, 
-'http://htkb.info/ND/SDE/Standies/Royal_Huntsman.png', 
-'http://htkb.info/ND/SDE/Standies/Royal_Huntsman_back.png',
+'http://htkb.info/ND/SDE/Standees/Royal_Huntsman.png', 
+'http://htkb.info/ND/SDE/Standees/Royal_Huntsman_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (390, 598); --For The Crown!
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (390, 724); --Mark
@@ -3032,10 +3032,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Royal Knights are military masters without peer. Trained in all manner of warfare, and atop powerful destriers, they are the shining tip of the King''s spear. But to be a Royal Knight means more than mere strength in arms. A Royal Knight must also be true in heart and spirit. They must pledge to a life of chivalry and devotion to Crystalia, so that its people might never suffer under the yoke of the Dark Consul.');
 insert into Characters (CardIndex) VALUES (886);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (496, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (496, 
-'http://htkb.info/ND/SDE/Standies/Ser_Anthony.png', 
-'http://htkb.info/ND/SDE/Standies/Ser_Anthony_back.png',
+'http://htkb.info/ND/SDE/Standees/Ser_Anthony.png', 
+'http://htkb.info/ND/SDE/Standees/Ser_Anthony_back.png',
 'Either', 'Small', 'Human', 8, 3, '2B 1R', '2R', '3B', '1B 1R', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (391, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (391, 709); --Knockdown
@@ -3056,10 +3056,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (887);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (497, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (497, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (497, 
-'http://htkb.info/ND/SDE/Standies/AltGendered/Royal_Paladin_feminine.png', 
-'http://htkb.info/ND/SDE/Standies/AltGendered/Royal_Paladin_feminine_back.png',
+'http://htkb.info/ND/SDE/Standees/AltGendered/Royal_Paladin_feminine.png', 
+'http://htkb.info/ND/SDE/Standees/AltGendered/Royal_Paladin_feminine_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (392, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (392, 642); --Heal X
@@ -3081,10 +3081,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (888);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (498, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (498, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (498, 
-'http://htkb.info/ND/SDE/Standies/Royal_Paladin_masculine.png', 
-'http://htkb.info/ND/SDE/Standies/Royal_Paladin_masculine_back.png',
+'http://htkb.info/ND/SDE/Standees/Royal_Paladin_masculine.png', 
+'http://htkb.info/ND/SDE/Standees/Royal_Paladin_masculine_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (393, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (393, 642); --Heal X
@@ -3105,10 +3105,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'After falling prey to bandits, Ryu was saved by wandering monks. As he grew in their monastery, Ryu soon became a strong and focused fighter with an understandable hatred for those who preyed on the weak.');
 insert into Characters (CardIndex) VALUES (889);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (499, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (499, 
-'http://htkb.info/ND/NAS/Standies/Ryu.png', 
-'http://htkb.info/ND/NAS/Standies/Ryu_back.png',
+'http://htkb.info/ND/NAS/Standees/Ryu.png', 
+'http://htkb.info/ND/NAS/Standees/Ryu_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (394, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (394, 826); --Protector
@@ -3128,10 +3128,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Demons become Heroes to combat the Dark Consul for their own closely guarded reasons. Masters of striking from the shadows, Riftling Guild adepts can find the chink in any armor. More important to many though is their uncanny knack to find the most valuable treasure in any dungeon.');
 insert into Characters (CardIndex) VALUES (890);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (500, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (500, 
-'http://htkb.info/ND/SDE/Standies/Novel/Sai.png', 
-'http://htkb.info/ND/SDE/Standies/Novel/Sai_back.png',
+'http://htkb.info/ND/SDE/Standees/Novel/Sai.png', 
+'http://htkb.info/ND/SDE/Standees/Novel/Sai_back.png',
 'Feminine', 'Small', 'Demon', 7, 3, '3B', '2B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (395, 718); --Luck
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (395, 723); --Massive Damage
@@ -3153,10 +3153,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Crytalia Castle does its best to keep tabs on all witches within the realms. Thus, it established the Sanctioned Witch Accords. These voluntary accords allow witches to practice their arts and remain in the grace of the Crown as long as they abide by the rules of the accords.');
 insert into Characters (CardIndex) VALUES (891);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (501, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (501, 
-'http://htkb.info/ND/SDE/Standies/Sanctioned_Witch.png', 
-'http://htkb.info/ND/SDE/Standies/Sanctioned_Witch_back.png',
+'http://htkb.info/ND/SDE/Standees/Sanctioned_Witch.png', 
+'http://htkb.info/ND/SDE/Standees/Sanctioned_Witch_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2B 1R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (396, 642); --Heal X
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (396, 746); --Arcane Burst
@@ -3176,10 +3176,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Saru is a jovial and care-free miko shrine guardian of Clan Yamazaru. Her playful nature endeared her to a Sanctioned Witch named Lily who visited Yamazaru lands while traveling from far-off Crystalia. Saru and Lily quickly formed a close bond. So when Saru got word that Lily had been captured by Ijin pirates her playful nature quickly turned to brooding anger. She immediately set out to free Lily, and met some  unlikely allies along the way.');
 insert into Characters (CardIndex) VALUES (892);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (502, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (502, 
-'http://htkb.info/ND/SDE/Standies/NAS/Saru.png', 
-'http://htkb.info/ND/SDE/Standies/NAS/Saru_back.png',
+'http://htkb.info/ND/SDE/Standees/NAS/Saru.png', 
+'http://htkb.info/ND/SDE/Standees/NAS/Saru_back.png',
 'Feminine', 'Small', 'Chimera', 6, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (397, 647); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (397, 672); --Immobile
@@ -3202,10 +3202,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Ser Charles Strong is notorious for eschewing conventional weaponry. Instead he charges forward with a roaring bellow and fists of lightning. Moving and darting throughout the melee, Ser Charles is a veritable force of nature that none can contain.');
 insert into Characters (CardIndex) VALUES (893);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (503, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (503, 
-'http://htkb.info/ND/SDE/Standies/NPC/Ser_Charles_Strong.png', 
-'http://htkb.info/ND/SDE/Standies/NPC/Ser_Charles_Strong_back.png',
+'http://htkb.info/ND/SDE/Standees/NPC/Ser_Charles_Strong.png', 
+'http://htkb.info/ND/SDE/Standees/NPC/Ser_Charles_Strong_back.png',
 'Masculine', 'Small', 'Human', 8, 3, '2B 1R', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (398, 709); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (398, 1022); --Surefoot
@@ -3224,10 +3224,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Severina spends the vast majority of her time playing Super Dungeon Arena mode. She cares little for destroying monsters. As the Hexcast Sorceress, she delights in inflicting curses upon fellow Heroes before crushing them ruthlessly.');
 insert into Characters (CardIndex) VALUES (894);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (504, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (504, 
-'http://htkb.info/ND/SDE/Standies/WOTF/Severina.png', 
-'http://htkb.info/ND/SDE/Standies/WOTF/Severina_back.png',
+'http://htkb.info/ND/SDE/Standees/WOTF/Severina.png', 
+'http://htkb.info/ND/SDE/Standees/WOTF/Severina_back.png',
 'Feminine', 'Small', 'Elf', 6, 3, '2B', '3B', '2B 1R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (399, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (399, 596); --Fly
@@ -3250,10 +3250,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (895);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (505, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (505, 
-'http://htkb.info/ND/SDE/Standies/Sheep_Cote_Clod.png', 
-'http://htkb.info/ND/SDE/Standies/Sheep_Cote_Clod_back.png',
+'http://htkb.info/ND/SDE/Standees/Sheep_Cote_Clod.png', 
+'http://htkb.info/ND/SDE/Standees/Sheep_Cote_Clod_back.png',
 'Either', 'Small', 'Shapeshift', 5, 3, '2B', '1B', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (400, 593); --Fixed Form
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (400, 1084); --Hex
@@ -3279,10 +3279,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'The captain of the magnificent trading vessel, Tako-Tako, is as famous for her wild ways as for her wondrous wares. Shojo loves a party, and she brings one (or more) with her wherever she makes berth. A fearless navigator, she is equally masterful with the sword, which she hastily employs with typhoon fury--so long as the sake lasts, that is.');
 insert into Characters (CardIndex) VALUES (896);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (506, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (506, 
-'http://htkb.info/ND/NAS/Standies/Shojo.png', 
-'http://htkb.info/ND/NAS/Standies/Shojo_back.png',
+'http://htkb.info/ND/NAS/Standees/Shojo.png', 
+'http://htkb.info/ND/NAS/Standees/Shojo_back.png',
 'Feminine', 'Small', 'Ika', 6, 3, '3B', '2R', '2R', '2B', 5, 3);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (401, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (401, 642); --Heal X
@@ -3305,10 +3305,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Before Krampus enjoys his solstice feast, he often prefers to transform the unlucky individual into a Naughtie. Each Naughtie is unique, and those who find themselves turned into a Skyr-Gobbler have an insatiable hunger for Skyr, a yogurt popular in northern Crystalia.');
 insert into Characters (CardIndex) VALUES (897);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (507, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (507, 
-'http://htkb.info/ND/SDE/Standies/Skyr_Gobbler.png', 
-'http://htkb.info/ND/SDE/Standies/Skyr_Gobbler_back.png',
+'http://htkb.info/ND/SDE/Standees/Skyr_Gobbler.png', 
+'http://htkb.info/ND/SDE/Standees/Skyr_Gobbler_back.png',
 'Either', 'Large', 'Shapeshift', 5, 3, '2B', '1B', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (402, 593); --Fixed Form
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (402, 1030); --Don't Hurt Meeee!
@@ -3330,10 +3330,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (898);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (508, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (508, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (508, 
-'http://htkb.info/ND/SDE/Standies/WOTF/Songbird_Candy.png', 
-'http://htkb.info/ND/SDE/Standies/WOTF/Songbird_Candy_back.png',
+'http://htkb.info/ND/SDE/Standees/WOTF/Songbird_Candy.png', 
+'http://htkb.info/ND/SDE/Standees/WOTF/Songbird_Candy_back.png',
 'Feminine', 'Small', 'Elf', 7, 3, '1B 1R', '2B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (403, 585); --Feint
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (403, 709); --Knockdown
@@ -3354,10 +3354,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Son Goku was born with the aspect of the monkey. His high spirits and care-free attitude are matched only by');
 insert into Characters (CardIndex) VALUES (899);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (509, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (509, 
-'http://htkb.info/ND/NAS/Standies/Son_Goku.png', 
-'http://htkb.info/ND/NAS/Standies/Son_Goku_back.png',
+'http://htkb.info/ND/NAS/Standees/Son_Goku.png', 
+'http://htkb.info/ND/NAS/Standees/Son_Goku_back.png',
 'Masculine', 'Small', 'Yamazaru', 6, 3, '3B', '3B', '4B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (404, 474); --Born Lucky
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (404, 672); --Immobile
@@ -3377,10 +3377,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Before Krampus chows down on his solstice treats, he often likes to change them into a Naughtie. Some say it makes the chase more fun for him. Each Naughtie has its own personality. Those turned into a Spoon-Licker are incredibly thin and have a habit of, well, it''s all in the name, really.');
 insert into Characters (CardIndex) VALUES (900);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (510, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (510, 
-'http://htkb.info/ND/SDE/Standies/Spoon_Licker.png', 
-'http://htkb.info/ND/SDE/Standies/Spoon_Licker_back.png',
+'http://htkb.info/ND/SDE/Standees/Spoon_Licker.png', 
+'http://htkb.info/ND/SDE/Standees/Spoon_Licker_back.png',
 'Either', 'Small', 'Shapeshift', 5, 3, '2B', '1B', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (405, 593); --Fixed Form
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (405, 825); --Properly Punished
@@ -3401,10 +3401,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'The Festival of Spring is celebrated throughout Crystalia, each culture of the realms celebrating it in their own unique way. Overseeing the festivities are the Springtime Druids. These bright and cheerful druids serve as emissaries of the Deeproot Tree, pushing back the corruption of the Dark Consul and allowing new life to bloom.');
 insert into Characters (CardIndex) VALUES (901);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (511, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (511, 
-'http://htkb.info/ND/SDE/Standies/Springtime_Druid.png', 
-'http://htkb.info/ND/SDE/Standies/Springtime_Druid_back.png',
+'http://htkb.info/ND/SDE/Standees/Springtime_Druid.png', 
+'http://htkb.info/ND/SDE/Standees/Springtime_Druid_back.png',
 'Feminine', 'Small', 'Fenneck', 7, 3, '2B', '2B', '2R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (406, 453); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (406, 1022); --Surefoot
@@ -3424,10 +3424,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'High atop the peaks of the world, the Starguild watches the sky. In great choruses the Rocksingers call to the heavens, with the Song of Stars. Their song awakens the spirit of the stars, and draws fragments of starmetal to the earth. In her lifetime a Rocksinger may only ever succeed in calling a few ounces of this precious metal, but with it the guild works wonders.');
 insert into Characters (CardIndex) VALUES (902);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (512, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (512, 
-'http://htkb.info/ND/SDE/Standies/Star_Guild_Rock_Singer.png', 
-'http://htkb.info/ND/SDE/Standies/Star_Guild_Rock_Singer_back.png',
+'http://htkb.info/ND/SDE/Standees/Star_Guild_Rock_Singer.png', 
+'http://htkb.info/ND/SDE/Standees/Star_Guild_Rock_Singer_back.png',
 'Feminine', 'Small', 'Dwarf', 6, 3, '3B', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (407, 493); --Burrow
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (407, 642); --Heal X
@@ -3449,10 +3449,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'The ultimate rebel, Star Princess Candy fights for what is right throughout Crystalia with boldness, determination, and a knack to get out of the toughest situations.');
 insert into Characters (CardIndex) VALUES (903);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (513, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (513, 
-'http://htkb.info/ND/RRI/Standies/Star_Princess_Candy.png', 
-'http://htkb.info/ND/RRI/Standies/Star_Princess_Candy_back.png',
+'http://htkb.info/ND/RRI/Standees/Star_Princess_Candy.png', 
+'http://htkb.info/ND/RRI/Standees/Star_Princess_Candy_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (408, 564); --Dungeon Map
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (408, 657); --Hookshot
@@ -3472,10 +3472,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (904);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (514, 2); --Emerald
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (514, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (514, 
-'http://htkb.info/ND/RRI/Standies/Steelhorse_Candy.png', 
-'http://htkb.info/ND/RRI/Standies/Steelhorse_Candy_back.png',
+'http://htkb.info/ND/RRI/Standees/Steelhorse_Candy.png', 
+'http://htkb.info/ND/RRI/Standees/Steelhorse_Candy_back.png',
 'Feminine', 'Small', 'Human', 7, 3, '3B', '2R', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (409, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (409, 1022); --Surefoot
@@ -3495,10 +3495,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Ever watchful for weakness, the Sun Empire''s agents can turn up anywhere, and discovering them and sending them politely on their way has become a game among many clans. Of late, though, many skilled warriors of the Sun Court have turned up, and offered their services to interested parties. Such is the cut-throat nature of Kagejima''s politics--especially the prestige attached to the Moonlight Tournament--that they often find those willing to employ them.');
 insert into Characters (CardIndex) VALUES (905);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (515, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (515, 
-'http://htkb.info/ND/NAS/Standies/Sun_Empire_Wandering_Samurai.png', 
-'http://htkb.info/ND/NAS/Standies/Sun_Empire_Wandering_Samurai_back.png',
+'http://htkb.info/ND/NAS/Standees/Sun_Empire_Wandering_Samurai.png', 
+'http://htkb.info/ND/NAS/Standees/Sun_Empire_Wandering_Samurai_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (410, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (410, 518); --Counterstrike
@@ -3519,10 +3519,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Candy has traveled Crystalia far and wide, from training alongside Glimmerdusk Rangers to studying the medicines of the healers of Celestia. Along the way Candy has picked up many useful skills; even the most reclusive sects spill their secrets at her wit and charm. Candy always uses this knowledge to aid her fellow adventurers, often being the first to come to the side of a fallen companion.');
 insert into Characters (CardIndex) VALUES (906);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (516, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (516, 
-'http://htkb.info/ND/SDE/Standies/Sweetheart_Candy.png', 
-'http://htkb.info/ND/SDE/Standies/Sweetheart_Candy_back.png',
+'http://htkb.info/ND/SDE/Standees/Sweetheart_Candy.png', 
+'http://htkb.info/ND/SDE/Standees/Sweetheart_Candy_back.png',
 'Feminine', 'Small', 'Human', 7, 3, '2B', '2R', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (411, 641); --Have A Heart
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (411, 642); --Heal X
@@ -3543,10 +3543,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Tahariel first played the Last Galaxy''s most popular video game, Super Dungeon, in order to corrupt it from the inside. She programmed her character to blight those around her, increasing the severity of wounds they suffered. But soon she found that even a maleaach void witch, harbinger of the Calamity, could relax on occasion and enjoy some pixelated fun.');
 insert into Characters (CardIndex) VALUES (907);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (517, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (517, 
-'http://htkb.info/ND/SDE/Standies/Tahariel.png', 
-'http://htkb.info/ND/SDE/Standies/Tahariel_back.png',
+'http://htkb.info/ND/SDE/Standees/Tahariel.png', 
+'http://htkb.info/ND/SDE/Standees/Tahariel_back.png',
 'Feminine', 'Small', 'Maleaach', 6, 3, '2B', '2R', '1B 1G', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (412, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (412, 685); --Improved Critical
@@ -3568,10 +3568,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'There has always been a Tamamo no Mae. For as long as people have walked the mist-haunted forests of northern Kagejima, Tamamo no Mae has watched them. Few, they freely admit, can resist her enticing call. None, they darkly concede, escape her traps.');
 insert into Characters (CardIndex) VALUES (908);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (518, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (518, 
-'http://htkb.info/ND/NAS/Standies/Tamamo_No_Mae.png', 
-'http://htkb.info/ND/NAS/Standies/Tamamo_No_Mae_back.png',
+'http://htkb.info/ND/NAS/Standees/Tamamo_No_Mae.png', 
+'http://htkb.info/ND/NAS/Standees/Tamamo_No_Mae_back.png',
 'Feminine', 'Small', 'Kitsune', 6, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (413, 1022); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (413, 1029); --Territorial
@@ -3591,10 +3591,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (909);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (519, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (519, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (519, 
-'http://htkb.info/ND/SDE/Standies/SOTC/Tatsu.png', 
-'http://htkb.info/ND/SDE/Standies/SOTC/Tatsu_back.png',
+'http://htkb.info/ND/SDE/Standees/SOTC/Tatsu.png', 
+'http://htkb.info/ND/SDE/Standees/SOTC/Tatsu_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (414, 585); --Feint
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (414, 794); --Parry
@@ -3615,10 +3615,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (910);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (520, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (520, 
-'http://htkb.info/ND/SDE/Standies/Tincan.png', 
-'http://htkb.info/ND/SDE/Standies/Tincan_back.png',
+'http://htkb.info/ND/SDE/Standees/Tincan.png', 
+'http://htkb.info/ND/SDE/Standees/Tincan_back.png',
 'Masculine', 'Small', 'Dwarf', 5, 3, '2R', '2B 1R', '2B 1R', '1B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (415, 636); --Grabby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (415, 642); --Heal X
@@ -3644,10 +3644,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Deadly archers, the Glimmerdusk Rangers patrol the edges of the Fae Wood hunting any foolish enough to enter uninvited. With the rise of the Dark Consul, and the Nether Rifts advancing into their lands, the rangers have begun to venture from their woodland realm. They offer their considerable skill to any who will take the fight to the Dark Consul.');
 insert into Characters (CardIndex) VALUES (911);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (521, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (521, 
-'http://htkb.info/ND/SDE/Standies/Novel/Treffen_Cedarbough.png', 
-'http://htkb.info/ND/SDE/Standies/Novel/Treffen_Cedarbough_back.png',
+'http://htkb.info/ND/SDE/Standees/Novel/Treffen_Cedarbough.png', 
+'http://htkb.info/ND/SDE/Standees/Novel/Treffen_Cedarbough_back.png',
 'Masculine', 'Large', 'Shapeshift', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (416, 847); --Remedy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (416, 1009); --Stealth
@@ -3670,10 +3670,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (912);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (522, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (522, 
-'http://htkb.info/ND/SDE/Standies/Trick_Or_Treat_Cola.png', 
-'http://htkb.info/ND/SDE/Standies/Trick_Or_Treat_Cola_back.png',
+'http://htkb.info/ND/SDE/Standees/Trick_Or_Treat_Cola.png', 
+'http://htkb.info/ND/SDE/Standees/Trick_Or_Treat_Cola_back.png',
 'Either', 'Small', 'Kitsune', 5, 3, '2B', '2R', '3B', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (417, 718); --Luck
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (417, 1867); --Trick
@@ -3692,10 +3692,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Skilled in breaking enemies'' wills and enslaving weaker minds, beware the snare of a priestess of Araphel!');
 insert into Characters (CardIndex) VALUES (913);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (523, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (523, 
-'http://htkb.info/ND/SDE/Standies/Trixie_Master_of_Chains.png', 
-'http://htkb.info/ND/SDE/Standies/Trixie_Master_of_Chains_back.png',
+'http://htkb.info/ND/SDE/Standees/Trixie_Master_of_Chains.png', 
+'http://htkb.info/ND/SDE/Standees/Trixie_Master_of_Chains_back.png',
 'Feminine', 'Small', 'Riftling', 6, 3, '2B', '3B', '2B 1R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (418, 610); --Free Coin
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (418, 779); --One Use Only
@@ -3718,10 +3718,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Each Tusk Raider must strike out on their own to harness their mount, and most simply never return. But the walrus is only loyal to its rider, and may turn on others who come too close.');
 insert into Characters (CardIndex) VALUES (914);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (524, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (524, 
-'http://htkb.info/ND/SDE/Standies/Tusk_Raider.png', 
-'http://htkb.info/ND/SDE/Standies/Tusk_Raider_back.png',
+'http://htkb.info/ND/SDE/Standees/Tusk_Raider.png', 
+'http://htkb.info/ND/SDE/Standees/Tusk_Raider_back.png',
 'Masculine', 'Small', 'Dwarf', 5, 3, '1B 1G', '2R', '1B', '2R', 7, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (419, 431); --Angry Walrus
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (419, 457); --Berserk
@@ -3743,10 +3743,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Always Candy''s faithful companion, Twilight Cola provides wicked-good tambourine accompaniment to Candy''s lyrical genius. The tambourine also proves effective at bopping unrully fans on the head when they get out of line.');
 insert into Characters (CardIndex) VALUES (915);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (525, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (525, 
-'http://htkb.info/ND/SDE/Standies/WOTF/Twilight_Cola.png', 
-'http://htkb.info/ND/SDE/Standies/WOTF/Twilight_Cola_back.png',
+'http://htkb.info/ND/SDE/Standees/WOTF/Twilight_Cola.png', 
+'http://htkb.info/ND/SDE/Standees/WOTF/Twilight_Cola_back.png',
 'Either', 'Small', 'Kitsune', 6, 3, '1B 1R', '2B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (420, 585); --Feint
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (420, 1511); --Piercing Blade
@@ -3765,10 +3765,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'All unicorns were once nethercorns, vile demons native to the Dark Realm. Touched by the grace of the Goddess, a unicorn has been transformed into a divine herald of the Light. It is said that unicorns can only be found by those who are burdened with doomed souls, that the unicorn endeavors to guide back to the Light before they are lost forever.');
 insert into Characters (CardIndex) VALUES (916);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (526, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (526, 
-'http://htkb.info/ND/SDE/Standies/Nethercorn.png', 
-'http://htkb.info/ND/SDE/Standies/Nethercorn_back.png',
+'http://htkb.info/ND/SDE/Standees/Nethercorn.png', 
+'http://htkb.info/ND/SDE/Standees/Nethercorn_back.png',
 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (421, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (421, 596); --Fly
@@ -3791,7 +3791,7 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '', '', '', '', 
 '');
 insert into Characters (CardIndex) VALUES (917);
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (527, 
 '', 
 '',
@@ -3806,10 +3806,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'The Forgotten King has left his mark on many of the denizens of the world. Those that didn''t totally succumb to the Chimeric energies, whether through magical talismans or other protection still carry a taint of his dark radiance. The Ursus Knight, like many of his fallen brothers, is cursed to walk the earth in between bodies. In one form, a rugged questing knight, but in another, when he is angry, a mighty bear. Still strapped up within the knight''s armor, he is a fearsome enemy of the Dark Consul. Just, don''t make him angry. You wouldn''t like him when he''s angry.');
 insert into Characters (CardIndex) VALUES (918);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (528, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (528, 
-'http://htkb.info/ND/SDE/Standies/Ursus_Knight.png', 
-'http://htkb.info/ND/SDE/Standies/Ursus_Knight_back.png',
+'http://htkb.info/ND/SDE/Standees/Ursus_Knight.png', 
+'http://htkb.info/ND/SDE/Standees/Ursus_Knight_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (423, 533); --Deadly Defense
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (423, 728); --Massive Damage
@@ -3830,10 +3830,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'While most Kitsune distrust outsiders and prefer to stay in their loamy, fern-shrouded forests, Uzumaki is often the first to greet travelers and offer them warding runes and medicines in exchange for stories of the world beyond.');
 insert into Characters (CardIndex) VALUES (919);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (529, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (529, 
-'http://htkb.info/ND/NAS/Standies/Uzumaki.png', 
-'http://htkb.info/ND/NAS/Standies/Uzumaki_back.png',
+'http://htkb.info/ND/NAS/Standees/Uzumaki.png', 
+'http://htkb.info/ND/NAS/Standees/Uzumaki_back.png',
 'Masculine', 'Small', 'Kitsune', 6, 3, '3B', '2R', '2R', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (424, 828); --Quick Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (424, 1022); --Surefoot
@@ -3852,10 +3852,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (920);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (530, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (530, 
-'http://htkb.info/ND/SDE/Standies/SOTC/Valerie_Duval.png', 
-'http://htkb.info/ND/SDE/Standies/SOTC/Valerie_Duval_back.png',
+'http://htkb.info/ND/SDE/Standees/SOTC/Valerie_Duval.png', 
+'http://htkb.info/ND/SDE/Standees/SOTC/Valerie_Duval_back.png',
 'Feminine', 'Small', 'Human', 7, 3, '3B', '2B', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (425, 457); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (425, 642); --Heal X
@@ -3878,10 +3878,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'A subset of Silver Chevaliers, Virtuous Blades devote themselves not only to the ideals of honor but also service to Crystalia. These martial champions take strict vows of piety, poverty, and service. Their sacrifice and devotion causes many to assume they belong to one of the paladin orders. Indeed, they find common cause with paladins. But their secular nature and focus on service affords them greater acceptance from the many diverse cultures of Crystalia. Virtuous Blades are often elevated to roles of leadership so they can best martial all the forces of Light against the darkness.');
 insert into Characters (CardIndex) VALUES (921);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (531, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (531, 
-'http://htkb.info/ND/SDE/Standies/Virtuous_Blade.png', 
-'http://htkb.info/ND/SDE/Standies/Virtuous_Blade_back.png',
+'http://htkb.info/ND/SDE/Standees/Virtuous_Blade.png', 
+'http://htkb.info/ND/SDE/Standees/Virtuous_Blade_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B 1R', '2R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (426, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (426, 1014); --Strength of Virtue
@@ -3903,10 +3903,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (922);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (532, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (532, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (532, 
-'http://htkb.info/ND/NAS/Standies/Yagyu_Jubei.png', 
-'http://htkb.info/ND/NAS/Standies/Yagyu_Jubei_back.png',
+'http://htkb.info/ND/NAS/Standees/Yagyu_Jubei.png', 
+'http://htkb.info/ND/NAS/Standees/Yagyu_Jubei_back.png',
 'Masculine', 'Small', 'Human', 7, 3, '2R', '3B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (427, 567); --Elemental Affinity
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (427, 585); --Feint
@@ -3926,10 +3926,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Candy is ever devouted to defending those who can''t defend themselves. Though, on occasion, she will also defend those who do not entirely need it. Such are the ways of a White Knight.');
 insert into Characters (CardIndex) VALUES (923);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (533, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (533, 
-'http://htkb.info/ND/SDE/Standies/White_Knight_Candy.png', 
-'http://htkb.info/ND/SDE/Standies/White_Knight_Candy_back.png',
+'http://htkb.info/ND/SDE/Standees/White_Knight_Candy.png', 
+'http://htkb.info/ND/SDE/Standees/White_Knight_Candy_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '3B', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (428, 464); --Blessed Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (428, 588); --Fire
@@ -3951,10 +3951,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (924);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (534, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (534, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (534, 
-'http://htkb.info/ND/SDE/Standies/Witch_Exterminator.png', 
-'http://htkb.info/ND/SDE/Standies/Witch_Exterminator_back.png',
+'http://htkb.info/ND/SDE/Standees/Witch_Exterminator.png', 
+'http://htkb.info/ND/SDE/Standees/Witch_Exterminator_back.png',
 'Feminine', 'Small', 'Human', 6, 2, '2B', '3B', '2R', '1B 1R', 5, 3);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (429, 440); --Artillery
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (429, 455); --Bane
@@ -3980,10 +3980,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (925);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (535, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (535, 
-'http://htkb.info/ND/SDE/Standies/Vlad_the_Perforator.png', 
-'http://htkb.info/ND/SDE/Standies/Vlad_the_Perforator_back.png',
+'http://htkb.info/ND/SDE/Standees/Vlad_the_Perforator.png', 
+'http://htkb.info/ND/SDE/Standees/Vlad_the_Perforator_back.png',
 'Neither', 'Large', 'Orc', 6, 3, '3B', '2R', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (430, 483); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (430, 724); --Mark
@@ -4004,10 +4004,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Yagyu Jubei had heard tales of the Moonlight Tournament for years before finally daring the passage to Kagejima to experience the tournament for himself. He has informed the Sun Court that he will not be returning soon; there is simply too much to see, and Jubei has sworn to discover all he can.');
 insert into Characters (CardIndex) VALUES (926);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (536, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (536, 
-'http://htkb.info/ND/NAS/Standies/Yagyu_Jubei.png', 
-'http://htkb.info/ND/NAS/Standies/Yagyu_Jubei_back.png',
+'http://htkb.info/ND/NAS/Standees/Yagyu_Jubei.png', 
+'http://htkb.info/ND/NAS/Standees/Yagyu_Jubei_back.png',
 'Masculine', 'Small', 'Human', 7, 3, '2R', '2R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (431, 585); --Feint
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (431, 794); --Parry
@@ -4028,10 +4028,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Ever eager to help, ever ready with a smile, a kind word, or a joke, Yokozuna commonly hoists an inebriated Shojo onto his ample shoulders. Curiously, he rarely drinks. Rumors say he drank whole taverns dry in his youth without becoming drunk, something Shojo considers a staggering tragedy.');
 insert into Characters (CardIndex) VALUES (927);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (537, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (537, 
-'http://htkb.info/ND/NAS/Standies/Yokozuna.png', 
-'http://htkb.info/ND/NAS/Standies/Yokozuna_back.png',
+'http://htkb.info/ND/NAS/Standees/Yokozuna.png', 
+'http://htkb.info/ND/NAS/Standees/Yokozuna_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3R', '3B', '3B', '2B', 7, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (432, 679); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (432, 709); --Knockdown
@@ -4052,10 +4052,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Ichika and her twin sister Yui have stood guard at their shrine for nearly 10 years before agents of the Dark Consul razed her temple to the ground. Ichika, has sworn to stay by her sisters side to help hunt down and destroy the enemies of Kagejima''s Kami, and purify her blade in their destruction.'); --!! This is Ichika's back !!
 insert into Characters (CardIndex) VALUES (928);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (538, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (538, 
-'http://htkb.info/ND/SDE/Standies/NAS/Yui.png', 
-'http://htkb.info/ND/SDE/Standies/NAS/Yui_back.png',
+'http://htkb.info/ND/SDE/Standees/NAS/Yui.png', 
+'http://htkb.info/ND/SDE/Standees/NAS/Yui_back.png',
 'Feminine', 'Small', 'Human', 6, 2, '2B', '3B', '3B', '3B', 3, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (433, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (433, 642); --Heal X
@@ -4076,10 +4076,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (929);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (539, 0); --Amethyst
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (539, 
-'http://htkb.info/ND/SDE/Standies/NAS/Yurei_No_Tomomori.png', 
-'http://htkb.info/ND/SDE/Standies/NAS/Yurei_No_Tomomori_back.png',
+'http://htkb.info/ND/SDE/Standees/NAS/Yurei_No_Tomomori.png', 
+'http://htkb.info/ND/SDE/Standees/NAS/Yurei_No_Tomomori_back.png',
 'Masculine', 'Small', 'Undead', 5, 3, '2R', '3B', '4B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (434, 562); --Dragged To The Depths
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (434, 1038); --Dragged Down
@@ -4098,10 +4098,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Among the Tanchyo clan, archery is the highest art of war. Few practitioners of this art are as renowned as the woman called Zenyo Ryu, or more simply, The Dragon. She has learned to build customized ammunition, employing crescent arrowheads for cutting rope, whistling noisemakers to signal her friends or soldiers, and long, narrow points she calls fangs for piercing armor.');
 insert into Characters (CardIndex) VALUES (930);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (540, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (540, 
-'http://htkb.info/ND/NAS/Standies/Zenyo_Ryu.png', 
-'http://htkb.info/ND/NAS/Standies/Zenyo_Ryu_back.png',
+'http://htkb.info/ND/NAS/Standees/Zenyo_Ryu.png', 
+'http://htkb.info/ND/NAS/Standees/Zenyo_Ryu_back.png',
 'Feminine', 'Small', 'Tanchyo', 7, 3, '2B', '2R', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, 729); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, 1071); --Wind of Blades

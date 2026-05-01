@@ -33,8 +33,8 @@ VALUES ('Magouichi',
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (80,
-'http://htkb.info/ND/SDE/Standies/NAS/Magoichi.png', 
-'http://htkb.info/ND/SDE/Standies/NAS/Magoichi_back.png', 
+'http://htkb.info/ND/SDE/Standees/NAS/Magoichi.png', 
+'http://htkb.info/ND/SDE/Standees/NAS/Magoichi_back.png', 
 'Masculine', 'Small', 'Hero', 7, 3, 2, 22, 0, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (43, 0); --Air
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (43, 2); --Fire

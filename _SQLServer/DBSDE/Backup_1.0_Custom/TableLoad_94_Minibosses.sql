@@ -17,10 +17,10 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (862
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (862, 1128); --Barry
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (862, 2221); --Pistol Barrage
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (862, 2222); --High Tide
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1201,
-'http://htkb.info/ND/Common/Standies/Barry.png', 
-'http://htkb.info/ND/Common/Standies/Barry_back.png', 
+'http://htkb.info/ND/Common/Standees/Barry.png', 
+'http://htkb.info/ND/Common/Standees/Barry_back.png', 
 'Masculine', 'Small', 'Sharkkin Pirate', 6, 4, '3B', '1B 1R', '2B', '1B 1R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (862, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (862, 2); --Armor

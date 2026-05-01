@@ -12,10 +12,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Boo booty are the unfortunate creation of gnomish tinkering paired with dwarven greed.  Orginally intended to guard the treasure vaults of the Hearthsworn Dwarves, the spirit of the Dark Consul filled the constructs with a malevolent intellect.  Turning upon their former masters, boo booty rabidly guard their treasure from all who would seek to drain it.');
 insert into Characters (CardIndex) VALUES (981);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (591, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (591,
-'http://htkb.info/ND/SDE/Standies/Boo_Booty.png', 
-'http://htkb.info/ND/SDE/Standies/Boo_Booty_back.png', 
+'http://htkb.info/ND/SDE/Standees/Boo_Booty.png', 
+'http://htkb.info/ND/SDE/Standees/Boo_Booty_back.png', 
 'Neither', 'Small', 'Boo Booty', 6, 1, '2R', '3B', '2B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (486, 449); --Backlash
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (486, 473); --Boo Booty
@@ -32,10 +32,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Boo booty are the unfortunate creation of gnomish tinkering paired with dwarven greed.  Orginally intended to guard the treasure vaults of the Hearthsworn Dwarves, the spirit of the Dark Consul filled the constructs with a malevolent intellect.  Turning upon their former masters, boo booty rabidly guard their treasure from all who would seek to drain it.');
 insert into Characters (CardIndex) VALUES (982);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (592, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (592,
-'http://htkb.info/ND/SDE/Standies/Boo_Booty.png', 
-'http://htkb.info/ND/SDE/Standies/Boo_Booty_back.png', 
+'http://htkb.info/ND/SDE/Standees/Boo_Booty.png', 
+'http://htkb.info/ND/SDE/Standees/Boo_Booty_back.png', 
 'Neither', 'Small', 'Boo Booty', 6, 1, '2R', '3B', '2B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (487, 449); --Backlash
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (487, 473); --Boo Booty

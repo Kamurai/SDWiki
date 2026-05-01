@@ -20,10 +20,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (762);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (372, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (372, 
-'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Standies/Abominable_Snowman_2.0.png', 
-'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Standies/Abominable_Snowman_2.0_back.png',
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Standees/Abominable_Snowman_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Heroes/Standees/Abominable_Snowman_2.0_back.png',
 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (267, 593); --Fixed Form
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (267, 672); --Immobile

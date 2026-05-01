@@ -14,10 +14,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (2356); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (863, 83); --Mob
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1202,
-'http://htkb.info/ND/Common/Standies/Slime_Stack.png', 
-'http://htkb.info/ND/Common/Standies/Slime_Stack_back.png', 
+'http://htkb.info/ND/Common/Standees/Slime_Stack.png', 
+'http://htkb.info/ND/Common/Standees/Slime_Stack_back.png', 
 'Either', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (863, 1147); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (863, 2); --Armor 

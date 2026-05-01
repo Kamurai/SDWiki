@@ -11,7 +11,7 @@ j.KeywordIndex, j.Name as KeywordName, KeywordDescription, --Keywords
 l.AbilityIndex, l.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, --Abilities
 v.Attribute as AbilityAttribute, --Attributes
 AbilityRange, AbilityDescription, --Abilities
-m.Gender, m.ModelSize, m.StandieFront, --ExploreCharacter
+m.Gender, m.ModelSize, m.StandeeFront, --ExploreCharacter
 o.Link as ExploreLink, o.PictureFront as ExplorePictureFront, --Cards
 p.Author, p.SourceURL --Custom Information
 from Components z
