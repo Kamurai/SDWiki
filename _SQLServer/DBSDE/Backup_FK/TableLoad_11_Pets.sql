@@ -15,10 +15,10 @@ insert into Characters (CardIndex) VALUES (215);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (130, 337); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (130, 283); --Master Gains Happy Cat
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (130, 366); --Happy Cat
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (130,
-'http://htkb.info/ND/SDE/Standies/Admiral_Fuzzybottom.png', 
-'http://htkb.info/ND/SDE/Standies/Admiral_Fuzzybottom_back.png',
+'http://htkb.info/ND/SDE/Standees/Admiral_Fuzzybottom.png', 
+'http://htkb.info/ND/SDE/Standees/Admiral_Fuzzybottom_back.png',
 'Either', 'Small', 'Wonder', 7, 1, '3B', '2ST', '', '', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (130, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (130, 2);
@@ -34,10 +34,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (216);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (131, 337); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (131, 618); --Tactical Strike
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (131,
-'http://htkb.info/ND/SDE/Standies/Colonel_The.png', 
-'http://htkb.info/ND/SDE/Standies/Colonel_The_back.png',
+'http://htkb.info/ND/SDE/Standees/Colonel_The.png', 
+'http://htkb.info/ND/SDE/Standees/Colonel_The_back.png',
 'Either', 'Small', 'Wonder', 6, 1, '2R', '3B', '', '', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (131, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (131, 2);
@@ -54,10 +54,10 @@ insert into Characters (CardIndex) VALUES (217);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (132, 337); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (132, 284); --Master Gains Knockdown
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (132, 364); --Grump
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (132,
-'http://htkb.info/ND/SDE/Standies/Lord_Gruff.png', 
-'http://htkb.info/ND/SDE/Standies/Lord_Gruff_back.png',
+'http://htkb.info/ND/SDE/Standees/Lord_Gruff.png', 
+'http://htkb.info/ND/SDE/Standees/Lord_Gruff_back.png',
 'Masculine', 'Small', 'Wonder', 6, 1, '3B', '3ST', '', '', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (132, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (132, 2);
@@ -74,10 +74,10 @@ insert into Characters (CardIndex) VALUES (218);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (133, 337); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (133, 285); --Master Gains Soprano
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (133, 575); --Soprano
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (133,
-'http://htkb.info/ND/SDE/Standies/Madam_Hilde.png', 
-'http://htkb.info/ND/SDE/Standies/Madam_Hilde_back.png',
+'http://htkb.info/ND/SDE/Standees/Madam_Hilde.png', 
+'http://htkb.info/ND/SDE/Standees/Madam_Hilde_back.png',
 'Feminine', 'Small', 'Wonder', 6, 1, '1B1R', '3ST', '', '', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (133, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (133, 2);
@@ -94,10 +94,10 @@ insert into Characters (CardIndex) VALUES (219);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (134, 337); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (134, 286); --Master Gains Poison
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (134, 599); --Stink Beard Bark
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (134,
-'http://htkb.info/ND/SDE/Standies/Miss_G_Snorts.png', 
-'http://htkb.info/ND/SDE/Standies/Miss_G_Snorts_back.png',
+'http://htkb.info/ND/SDE/Standees/Miss_G_Snorts.png', 
+'http://htkb.info/ND/SDE/Standees/Miss_G_Snorts_back.png',
 'Feminine', 'Small', 'Wonder', 6, 1, '3B', '2ST', '', '', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (134, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (134, 2);
@@ -114,10 +114,10 @@ insert into Characters (CardIndex) VALUES (220);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (135, 337); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (135, 287); --Master Gains Fire
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (135, 489); --Poof
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (135,
-'http://htkb.info/ND/SDE/Standies/Mr_Chompers.png', 
-'http://htkb.info/ND/SDE/Standies/Mr_Chompers_back.png',
+'http://htkb.info/ND/SDE/Standees/Mr_Chompers.png', 
+'http://htkb.info/ND/SDE/Standees/Mr_Chompers_back.png',
 'Masculine', 'Small', 'Wonder', 6, 1, '2R', '2ST', '', '', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (135, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (135, 2);
@@ -134,10 +134,10 @@ insert into Characters (CardIndex) VALUES (221);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (136, 337); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (136, 288); --Master Gains Berserk
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (136, 531); --Rotten Carrot
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (136,
-'http://htkb.info/ND/SDE/Standies/Mr_Bitey.png', 
-'http://htkb.info/ND/SDE/Standies/Mr_Bitey_back.png',
+'http://htkb.info/ND/SDE/Standees/Mr_Bitey.png', 
+'http://htkb.info/ND/SDE/Standees/Mr_Bitey_back.png',
 'Masculine', 'Small', 'Wonder', 6, 2, '2R', '2ST', '', '', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (136, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (136, 2);
@@ -154,10 +154,10 @@ insert into Characters (CardIndex) VALUES (222);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (137, 337); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (137, 289); --Master Gains Luck
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (137, 531); --Rotten Carrot
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (137,
-'http://htkb.info/ND/SDE/Standies/Never_Lost_Cola.png', 
-'http://htkb.info/ND/SDE/Standies/Never_Lost_Cola_back.png',
+'http://htkb.info/ND/SDE/Standees/Never_Lost_Cola.png', 
+'http://htkb.info/ND/SDE/Standees/Never_Lost_Cola_back.png',
 'Masculine', 'Small', 'Wonder', 6, 2, '2R', '2ST', '', '', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (137, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (137, 2);

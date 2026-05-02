@@ -13,10 +13,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (2237);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1115, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1115,
-'http://htkb.info/ND/SDE/Standies/Polly.png', 
-'http://htkb.info/ND/SDE/Standies/Polly_back.png',
+'http://htkb.info/ND/SDE/Standees/Polly.png', 
+'http://htkb.info/ND/SDE/Standees/Polly_back.png',
 'Either', 'Small', '', 10, 2, '1B', '3B', '1B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (783, 1117); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (783, 2072); --Polly Wants a Potion
@@ -35,10 +35,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (2238);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1116, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1116,
-'http://htkb.info/ND/SDE/Standies/Mister_Pinchers.png', 
-'http://htkb.info/ND/SDE/Standies/Mister_Pinchers_back.png',
+'http://htkb.info/ND/SDE/Standees/Mister_Pinchers.png', 
+'http://htkb.info/ND/SDE/Standees/Mister_Pinchers_back.png',
 'Either', 'Small', '', 3, 1, '2B 1R', '3R', '0ST', '0ST', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (784, 1022); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (784, 1118); --Master Gains: Grabby (3)
@@ -56,10 +56,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Your average goat in Crystalia is blissfully ignorant of the Dark Consul. They are content to chew on plants and knock over fences. Not Lord Gruff. He learned of the forces of darkness when his pasture was overrun with possessed field mice. At least, he was certain they were possessed. They were not very friendly. When the other goats failed to understand the danger, or properly admire his self-appointed lordship, he set off to find a Hero worthy of his company.');
 insert into Characters (CardIndex) VALUES (2239);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1117, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1117,
-'http://htkb.info/ND/SDE/Standies/Lord_Gruff.png', 
-'http://htkb.info/ND/SDE/Standies/Lord_Gruff_back.png',
+'http://htkb.info/ND/SDE/Standees/Lord_Gruff.png', 
+'http://htkb.info/ND/SDE/Standees/Lord_Gruff_back.png',
 'Either', 'Small', '', 6, 1, '3B', '2R 1B', '1ST', '1ST', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (785, 709); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (785, 739); --Master Gains Knockdown
@@ -78,10 +78,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'After winning best in show at the village fair, Madam Hilde knew that she could do anything. After all, how many other singing pigs were there? She had to put her talents to good use. She knew she was destined for big things, so she set out for adventure, and the occasional mud bath.');
 insert into Characters (CardIndex) VALUES (2240);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1118, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1118,
-'http://htkb.info/ND/SDE/Standies/Madam_Hilde.png', 
-'http://htkb.info/ND/SDE/Standies/Madam_Hilde_back.png',
+'http://htkb.info/ND/SDE/Standees/Madam_Hilde.png', 
+'http://htkb.info/ND/SDE/Standees/Madam_Hilde_back.png',
 'Either', 'Small', '', 6, 1, '1R 1B', '2R 1B', '1ST', '1ST', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (786, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (786, 748); --Master Gains Soprano
@@ -100,10 +100,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Her bark strikes fear into the hearts of all who follow the Dark Consul. Her breath reeks of doom, doom for all forces of darkness. Her bite is justice. Her muddy paw prints mark the way to the Light of Crystalia. She is Miss G. Snorts, and she is the best pet a hero could have.');
 insert into Characters (CardIndex) VALUES (2241);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1119, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1119,
-'http://htkb.info/ND/SDE/Standies/Miss_G_Snorts.png', 
-'http://htkb.info/ND/SDE/Standies/Miss_G_Snorts_back.png',
+'http://htkb.info/ND/SDE/Standees/Miss_G_Snorts.png', 
+'http://htkb.info/ND/SDE/Standees/Miss_G_Snorts_back.png',
 'Either', 'Small', '', 6, 1, '3B', '2ST', '2ST', '2ST', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (787, 742); --Master Gains Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (787, 807); --Poison
@@ -122,10 +122,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Accidents are known to happen.');
 insert into Characters (CardIndex) VALUES (2242);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1120, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1120,
-'http://htkb.info/ND/SDE/Standies/Demolitions_Expert.png', 
-'http://htkb.info/ND/SDE/Standies/Demolitions_Expert_back.png',
+'http://htkb.info/ND/SDE/Standees/Demolitions_Expert.png', 
+'http://htkb.info/ND/SDE/Standees/Demolitions_Expert_back.png',
 'Either', 'Small', '', 5, 1, '2B', '0ST', '2B', '1B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (788, 678); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (788, 680); --Immune: Slow
@@ -148,10 +148,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 '');
 insert into Characters (CardIndex) VALUES (2243);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1121, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1121,
-'http://htkb.info/ND/SDE/Standies/Scooter.png', 
-'http://htkb.info/ND/SDE/Standies/Scooter_back.png',
+'http://htkb.info/ND/SDE/Standees/Scooter.png', 
+'http://htkb.info/ND/SDE/Standees/Scooter_back.png',
 'Either', 'Small', '', 4, 1, '3B', '3R', '0ST', '0ST', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (789, 1022); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (789, 739); --Master Gains: KNOCKDOWN (3)

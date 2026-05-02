@@ -15,8 +15,8 @@ VALUES ('Deputy',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (25,
-'http://htkb.info/ND/RRI/Cards/Lawbot/Standies/Lawbot_Deputy.png', 
-'http://htkb.info/ND/RRI/Cards/Lawbots/Standies/Lawbot_Deputy_back.png', 
+'http://htkb.info/ND/RRI/Cards/Lawbot/Standees/Lawbot_Deputy.png', 
+'http://htkb.info/ND/RRI/Cards/Lawbots/Standees/Lawbot_Deputy_back.png', 
 'Neither');
 insert into Lawbots (CharacterIndex, RankType, Dollars) 
 VALUES (25,
@@ -37,8 +37,8 @@ VALUES ('Sheriff',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (26,
-'http://htkb.info/ND/RRI/Cards/Lawbot/Standies/Lawbot_Sheriff.png', 
-'http://htkb.info/ND/RRI/Cards/Lawbots/Standies/Lawbot_Sheriff_back.png', 
+'http://htkb.info/ND/RRI/Cards/Lawbot/Standees/Lawbot_Sheriff.png', 
+'http://htkb.info/ND/RRI/Cards/Lawbots/Standees/Lawbot_Sheriff_back.png', 
 'Neither');
 insert into Lawbots (CharacterIndex, RankType, Dollars) 
 VALUES (26,
@@ -59,8 +59,8 @@ VALUES ('Marshal',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (27,
-'http://htkb.info/ND/RRI/Cards/Lawbot/Standies/Lawbot_Marshal.png', 
-'http://htkb.info/ND/RRI/Cards/Lawbots/Standies/Lawbot_Marshal_back.png', 
+'http://htkb.info/ND/RRI/Cards/Lawbot/Standees/Lawbot_Marshal.png', 
+'http://htkb.info/ND/RRI/Cards/Lawbots/Standees/Lawbot_Marshal_back.png', 
 'Neither');
 insert into Lawbots (CharacterIndex, RankType, Dollars) 
 VALUES (27,
@@ -81,8 +81,8 @@ VALUES ('Cavalry Soldier',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (28,
-'http://htkb.info/ND/RRI/Cards/Lawbot/Standies/Lawbot_Cavalry_Soldier.png', 
-'http://htkb.info/ND/RRI/Cards/Lawbots/Standies/Lawbot_Cavalry_Soldier_back.png', 
+'http://htkb.info/ND/RRI/Cards/Lawbot/Standees/Lawbot_Cavalry_Soldier.png', 
+'http://htkb.info/ND/RRI/Cards/Lawbots/Standees/Lawbot_Cavalry_Soldier_back.png', 
 'Neither');
 insert into Lawbots (CharacterIndex, RankType, Dollars) 
 VALUES (28,
@@ -104,8 +104,8 @@ VALUES ('Cavalry_Captain',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (29,
-'http://htkb.info/ND/RRI/Cards/Lawbot/Standies/Lawbot_Cavalry_Captain.png', 
-'http://htkb.info/ND/RRI/Cards/Lawbots/Standies/Lawbot_Cavalry_Captain_back.png', 
+'http://htkb.info/ND/RRI/Cards/Lawbot/Standees/Lawbot_Cavalry_Captain.png', 
+'http://htkb.info/ND/RRI/Cards/Lawbots/Standees/Lawbot_Cavalry_Captain_back.png', 
 'Neither');
 insert into Lawbots (CharacterIndex, RankType, Dollars) 
 VALUES (29,
@@ -127,8 +127,8 @@ VALUES ('Palbearer',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (30,
-'http://htkb.info/ND/RRI/Cards/Lawbot/Standies/Lawbot_Palbearer.png', 
-'http://htkb.info/ND/RRI/Cards/Lawbots/Standies/Lawbot_Palbearer_back.png', 
+'http://htkb.info/ND/RRI/Cards/Lawbot/Standees/Lawbot_Palbearer.png', 
+'http://htkb.info/ND/RRI/Cards/Lawbots/Standees/Lawbot_Palbearer_back.png', 
 'Neither');
 insert into Lawbots (CharacterIndex, RankType, Dollars) 
 VALUES (30,
@@ -150,8 +150,8 @@ VALUES ('Preacher',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (30,
-'http://htkb.info/ND/RRI/Cards/Lawbot/Standies/Lawbot_Preacher.png', 
-'http://htkb.info/ND/RRI/Cards/Lawbots/Standies/Lawbot_Preacher_back.png', 
+'http://htkb.info/ND/RRI/Cards/Lawbot/Standees/Lawbot_Preacher.png', 
+'http://htkb.info/ND/RRI/Cards/Lawbots/Standees/Lawbot_Preacher_back.png', 
 'Neither');
 insert into Lawbots (CharacterIndex, RankType, Dollars) 
 VALUES (31,
@@ -173,8 +173,8 @@ VALUES ('999',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (32,
-'http://htkb.info/ND/RRI/Cards/Lawbots/Standies/999.png', 
-'http://htkb.info/ND/RRI/Cards/Lawbots/Standies/999_back.png', 
+'http://htkb.info/ND/RRI/Cards/Lawbots/Standees/999.png', 
+'http://htkb.info/ND/RRI/Cards/Lawbots/Standees/999_back.png', 
 'Neither');
 insert into Lawbots (CharacterIndex, RankType, Dollars) 
 VALUES (32,
@@ -196,8 +196,8 @@ VALUES ('Lt_Deadeye',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (33,
-'http://htkb.info/ND/RRI/Cards/Lawbots/Standies/Lawbot_LT_Deadeye.png', 
-'http://htkb.info/ND/RRI/Cards/Lawbots/Standies/Lawbot_LT_Deadeye_back.png', 
+'http://htkb.info/ND/RRI/Cards/Lawbots/Standees/Lawbot_LT_Deadeye.png', 
+'http://htkb.info/ND/RRI/Cards/Lawbots/Standees/Lawbot_LT_Deadeye_back.png', 
 'Neither');
 insert into Lawbots (CharacterIndex, RankType, Dollars) 
 VALUES (33,

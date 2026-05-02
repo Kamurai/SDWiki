@@ -13,10 +13,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2329); 
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1177,
-'http://htkb.info/ND/Common/Standies/Secret_of_Mana/Rabillion.png', 
-'http://htkb.info/ND/Common/Standies/Secret_of_Mana/Rabillion_back.png', 
+'http://htkb.info/ND/Common/Standees/Secret_of_Mana/Rabillion.png', 
+'http://htkb.info/ND/Common/Standees/Secret_of_Mana/Rabillion_back.png', 
 'Either', 'Small', 'Beast', 7, 2, '2R', '2ST', '2B', '1R 1B', 2, 0);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (838, 2208); --Spin Attack
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (838, 2209); --Summon Rabite
@@ -38,10 +38,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2330); 
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1178,
-'http://htkb.info/ND/Common/Standies/Secret_of_Mana/Rabite.png', 
-'http://htkb.info/ND/Common/Standies/Secret_of_Mana/Rabite_back.png', 
+'http://htkb.info/ND/Common/Standees/Secret_of_Mana/Rabite.png', 
+'http://htkb.info/ND/Common/Standees/Secret_of_Mana/Rabite_back.png', 
 'Either', 'Small', 'Beast', 7, 1, '2B', '0ST', '2B', '1R 1B', 1, 0);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (839, 2208); --Spin Attack
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (839, 2210); --Chomp
@@ -64,10 +64,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2331); 
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1179,
-'http://htkb.info/ND/Common/Standies/Battle_Maid.png', 
-'http://htkb.info/ND/Common/Standies/Battle_Maid_back.png', 
+'http://htkb.info/ND/Common/Standees/Battle_Maid.png', 
+'http://htkb.info/ND/Common/Standees/Battle_Maid_back.png', 
 'Either', 'Small', 'Housekeeping', 7, 2, '1B 1R', '2ST', '2B', '1R 1B', 1, 0);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (840, 2211); --Shieldwall
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (840, 0, 1); --Attack
@@ -88,10 +88,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2332); 
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1180,
-'http://htkb.info/ND/Common/Standies/Meido.png', 
-'http://htkb.info/ND/Common/Standies/Meido_back.png', 
+'http://htkb.info/ND/Common/Standees/Meido.png', 
+'http://htkb.info/ND/Common/Standees/Meido_back.png', 
 'Either', 'Small', 'Housekeeping', 7, 1, '3B', '1ST', '2B', '1R 1B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (841, 83); --Mob
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (841, 0, 1); --Attack
@@ -114,10 +114,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2333); 
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1181,
-'http://htkb.info/ND/Common/Standies/Bounceslime.png', 
-'http://htkb.info/ND/Common/Standies/Bounceslime_back.png', 
+'http://htkb.info/ND/Common/Standees/Bounceslime.png', 
+'http://htkb.info/ND/Common/Standees/Bounceslime_back.png', 
 'Either', 'Small', 'Slime', 6, 1, '3B', '0ST', '2B', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (842, 1144); --GooBody
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (842, 2212); --Stand Ready!
@@ -139,10 +139,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2334); 
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1182,
-'http://htkb.info/ND/Common/Standies/Blubblyslime.png', 
-'http://htkb.info/ND/Common/Standies/Blubblyslime_back.png', 
+'http://htkb.info/ND/Common/Standees/Blubblyslime.png', 
+'http://htkb.info/ND/Common/Standees/Blubblyslime_back.png', 
 'Either', 'Small', 'Slime', 5, 1, '1R 2B', '0ST', '2B', '1R 1B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (843, 1144); --GooBody
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (843, 2212); --Stand Ready!
@@ -164,10 +164,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2335); 
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1183,
-'http://htkb.info/ND/Common/Standies/Creepy_Cube.png', 
-'http://htkb.info/ND/Common/Standies/Creepy_Cube_back.png', 
+'http://htkb.info/ND/Common/Standees/Creepy_Cube.png', 
+'http://htkb.info/ND/Common/Standees/Creepy_Cube_back.png', 
 'Either', 'Small', 'Slime', 6, 1, '2B', '1ST', '2B', '1R 1B', 1, 0);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (844, 2213); --Absorb
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (844, 0, 1); --Attack
@@ -188,10 +188,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2336); 
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1184,
-'http://htkb.info/ND/Common/Standies/Dukeslime.png', 
-'http://htkb.info/ND/Common/Standies/Dukeslime_back.png', 
+'http://htkb.info/ND/Common/Standees/Dukeslime.png', 
+'http://htkb.info/ND/Common/Standees/Dukeslime_back.png', 
 'Either', 'Large', 'Slime', 5, 3, '2R 2B', '1ST', '1R 1B', '1B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (845, 1144); --GooBody
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (845, 2214); --Slime Time
@@ -214,10 +214,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2337); 
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1185,
-'http://htkb.info/ND/Common/Standies/Healie.png', 
-'http://htkb.info/ND/Common/Standies/Healie_back.png', 
+'http://htkb.info/ND/Common/Standees/Healie.png', 
+'http://htkb.info/ND/Common/Standees/Healie_back.png', 
 'Either', 'Small', 'Slime', 6, 2, '3B', '0ST', '1R 1B', '2B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 1144); --GooBody
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 36); --Fly
@@ -240,10 +240,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2338); 
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1186,
-'http://htkb.info/ND/Common/Standies/Metaly.png', 
-'http://htkb.info/ND/Common/Standies/Metaly_back.png', 
+'http://htkb.info/ND/Common/Standees/Metaly.png', 
+'http://htkb.info/ND/Common/Standees/Metaly_back.png', 
 'Either', 'Small', 'Slime', 9, 1, '1B', '3ST', '1R 1B', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (847, 1144); --GooBody
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (847, 134); --Sturdy
@@ -270,10 +270,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2339);
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1187,
-'http://htkb.info/ND/Common/Standies/SMB/Warp_Pipe.png', 
-'http://htkb.info/ND/Common/Standies/SMB/Warp_Pipe_back.png', 
+'http://htkb.info/ND/Common/Standees/SMB/Warp_Pipe.png', 
+'http://htkb.info/ND/Common/Standees/SMB/Warp_Pipe_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (848, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (848, 1148); --Spawning Pool
@@ -294,10 +294,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2340); 
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1188,
-'http://htkb.info/ND/Common/Standies/SMB/Bob_Omb.png', 
-'http://htkb.info/ND/Common/Standies/SMB/Bob_Omb_back.png', 
+'http://htkb.info/ND/Common/Standees/SMB/Bob_Omb.png', 
+'http://htkb.info/ND/Common/Standees/SMB/Bob_Omb_back.png', 
 'Neither', 'Small', 'Koopa', 4, 2, '1B', '1ST', '2B', '2B', 1, 0);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (849, 2218); --Explode
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (849, 0, 1); --Attack
@@ -318,10 +318,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2341); 
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1189,
-'http://htkb.info/ND/Common/Standies/SMB/Goomba.png', 
-'http://htkb.info/ND/Common/Standies/SMB/Goomba_back.png', 
+'http://htkb.info/ND/Common/Standees/SMB/Goomba.png', 
+'http://htkb.info/ND/Common/Standees/SMB/Goomba_back.png', 
 'Either', 'Small', 'Koopa', 7, 2, '2B', '0ST', '1B', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (850, 83); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (850, 2219); --Head Bonk
@@ -343,10 +343,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2342); 
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1190,
-'http://htkb.info/ND/Common/Standies/SMB/Koopa_Troopa.png', 
-'http://htkb.info/ND/Common/Standies/SMB/Koopa_Troopa_back.png', 
+'http://htkb.info/ND/Common/Standees/SMB/Koopa_Troopa.png', 
+'http://htkb.info/ND/Common/Standees/SMB/Koopa_Troopa_back.png', 
 'Either', 'Small', 'Koopa', 6, 2, '1B 1R', '2ST', '2B', '1B 1R', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (851, 83); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (851, 2220); --Shell Toss

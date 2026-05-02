@@ -16,10 +16,10 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (853
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (853, 2102); --Flecha Envenenada
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (853, 2103); --Petrificar
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (853, 2104); --Miedo
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1192,
-'http://htkb.info/ND/SDE/1.0/Custom/Cards/MiniBosses/Standies/Medusa.png', 
-'http://htkb.info/ND/SDE/1.0/Custom/Cards/MiniBosses/Standies/Medusa_back.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/MiniBosses/Standees/Medusa.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/MiniBosses/Standees/Medusa_back.png', 
 'Feminine', 'Small', 'Gorgon', 6, 3, '1B', '2R', '2B', '2B 2R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (853, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (853, 2); --Armor
@@ -42,10 +42,10 @@ insert into Characters (CardIndex) VALUES (2347);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (854, 2105); --Embestida
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (854, 2106); --Aplastar
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (854, 2107); --Terror
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1193,
-'http://htkb.info/ND/SDE/1.0/Custom/Cards/MiniBosses/Standies/Minos.png', 
-'http://htkb.info/ND/SDE/1.0/Custom/Cards/MiniBosses/Standies/Minos_back.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/MiniBosses/Standees/Minos.png', 
+'http://htkb.info/ND/SDE/1.0/Custom/Cards/MiniBosses/Standees/Minos_back.png', 
 'Masculine', 'Large', 'Toro', 6, 3, '2B2R', '2R', '2B', '2B', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (854, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (854, 2); --Armor

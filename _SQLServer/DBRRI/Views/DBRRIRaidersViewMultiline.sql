@@ -2,7 +2,7 @@
 --Raiders
 create or alter view RaidersViewMultiLine as
 select a.CardIndex, a.CardName, a.PictureFront, a.PictureBack, a.Link, a.CardType, a.ProductSet, a.ProductModule, a.Flavor, a.Lore, --Cards
-b.CharacterIndex, b.StandieFront, b.StandieBack, b.Gender, --Characters
+b.CharacterIndex, b.StandeeFront, b.StandeeBack, b.Gender, --Characters
 --Raider
 e.KeywordIndex, e.KeywordName, e.KeywordDescription --Keywords
 from Cards as a

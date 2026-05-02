@@ -15,10 +15,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (1075);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (685, 2); --Emerald
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (685, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (685,
-'http://htkb.info/ND/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Duskweaver_Acolyte_2.0.png', 
-'http://htkb.info/ND/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Duskweaver_Acolyte_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standees/Duskweaver_Acolyte_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standees/Duskweaver_Acolyte_2.0_back.png', 
 'Either', 'Small', 'Nether Elf Witch', 8, 3, '1B', '3B', '2R', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (580, 807); --Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (580, 679); --Immune: Poison

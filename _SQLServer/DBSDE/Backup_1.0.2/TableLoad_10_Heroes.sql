@@ -12,10 +12,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Hero', '1.0', '1.0 Core Set', 'Default', 
 '');
 insert into Characters (CardIndex) VALUES (2226);
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1104, 
-'http://htkb.info/ND/SDE/Standies/Questing_Knight.png', 
-'http://htkb.info/ND/SDE/Standies/Questing_Knight_back.png', 
+'http://htkb.info/ND/SDE/Standees/Questing_Knight.png', 
+'http://htkb.info/ND/SDE/Standees/Questing_Knight_back.png', 
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '2B', '2B', 5, 1);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (772, 2014); --Spear Throw
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (772, 2015); --Spinning Axe

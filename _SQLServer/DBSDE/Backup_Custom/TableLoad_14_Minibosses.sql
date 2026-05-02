@@ -15,10 +15,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (1002);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (612, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (612,
-'http://htkb.info/ND/SDE/2.0/Cards/Standies/Arachne_2.0.png', 
-'http://htkb.info/ND/SDE/2.0/Cards/Standies/Arachne_2.0_back.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Standees/Arachne_2.0.png', 
+'http://htkb.info/ND/SDE/2.0/Cards/Standees/Arachne_2.0_back.png', 
 'Feminine', 'Large', 'Nether Elf Spider', 8, 3, '3R', '1ST 2R', '3B', '3R', 7, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (507, 672); --Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (507, 679); --Immune: Poison

@@ -13,10 +13,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Those who follow the path of the Scarlett Cutlass are expert duelists, always seeking worthy opponents to test their skills.  When the first blade is red, win or lose, it''s off to the taverns to drink and share the exploits of a duel well fought.');
 insert into Characters (CardIndex) VALUES (2357);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1203, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1203, 
-'http://htkb.info/ND/SDE/Standies/Dread_Scarlett.png', 
-'http://htkb.info/ND/SDE/Standies/Dread_Scarlett_back.png',
+'http://htkb.info/ND/SDE/Standees/Dread_Scarlett.png', 
+'http://htkb.info/ND/SDE/Standees/Dread_Scarlett_back.png',
 'Feminine', 'Small', 'Freyjan Pirate', 6, 3, '3B', '3B', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (864, 1022); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (864, 417); --9 Lives

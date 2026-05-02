@@ -12,10 +12,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Hero', 'FK SDArena', 'FK SDArena Core Set', 'Default', 
 'The fennek are a reclusive race.  To see one participate in the Arena is shocking.  To see one rise to become Arena Champion is almost unfathomable.  Yet there are rumors that the fennek secretly run the Arena, searching for Heroes worthy of defending the far-flung roots of the Deeproot Tree.  Indeed, those rare few Heroes who ahve defeated the reigning Arena Champion have all gone on to achieve legendary deeds in serivce of the Deeproot.  Perhaps there is truth to the rumors after all?');
 insert into Characters (CardIndex) VALUES (737);
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 347, 
-'http://htkb.info/ND/SDE/Standies/Arena_Champion.png', 
-'http://htkb.info/ND/SDE/Standies/Arena_Champion_back.png', 
+'http://htkb.info/ND/SDE/Standees/Arena_Champion.png', 
+'http://htkb.info/ND/SDE/Standees/Arena_Champion_back.png', 
 'Feminine', 'Small', 'Fennek', 6, 3, '2B1R', '2R', '2B', '3B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (347, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (347, 2); --Emerald

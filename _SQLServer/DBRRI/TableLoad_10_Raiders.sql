@@ -15,8 +15,8 @@ VALUES ('Apprentice, The',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (0,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Apprentice_The.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Apprentice_The_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Apprentice_The.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Apprentice_The_back.png', 
 'Either');
 insert into Raiders (CharacterIndex) VALUES (0);
 insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (0, 0); --Apprentice, The
@@ -33,8 +33,8 @@ VALUES ('Bakusho Mondai',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (1,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Bakusho_Mondai.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Bakusho_Mondai_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Bakusho_Mondai.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Bakusho_Mondai_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) VALUES (1);
 insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (1, 1); --Bakusho Mondai
@@ -51,8 +51,8 @@ VALUES ('Cactus Zak',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (2,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Cactus_Zak.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Cactus_Zak_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Cactus_Zak.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Cactus_Zak_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) VALUES (2);
 insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (2, 2); --Cactus Zak
@@ -69,8 +69,8 @@ VALUES ('Canton Cobb',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (3,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Canton_Cobb.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Canton_Cobb_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Canton_Cobb.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Canton_Cobb_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (3);
@@ -88,8 +88,8 @@ VALUES ('Chuy',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (4,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Chuy.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Chuy_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Chuy.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Chuy_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (4);
@@ -107,8 +107,8 @@ VALUES ('Cowpuncher Candy',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (5,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Cowpuncher_Candy.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Cowpuncher_Candy_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Cowpuncher_Candy.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Cowpuncher_Candy_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (5);
@@ -126,8 +126,8 @@ VALUES ('El Cola',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (6,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/El_Cola.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/El_Cola_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/El_Cola.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/El_Cola_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (6);
@@ -145,8 +145,8 @@ VALUES ('Huckleberry',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (7,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Huckleberry.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Huckleberry_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Huckleberry.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Huckleberry_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (7);
@@ -164,8 +164,8 @@ VALUES ('John Grizzly',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (8,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/John_Grizzly.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/John_Grizzly_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/John_Grizzly.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/John_Grizzly_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (8);
@@ -183,8 +183,8 @@ VALUES ('Josie Oakley',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (9,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Josie_Oakley.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Josie_Oakley_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Josie_Oakley.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Josie_Oakley_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (9);
@@ -202,8 +202,8 @@ VALUES ('JR Dallas',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (10,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/JR_Dallas.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/JR_Dallas_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/JR_Dallas.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/JR_Dallas_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (10);
@@ -221,8 +221,8 @@ VALUES ('Kid, The',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (11,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Kid_The.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Kid_The_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Kid_The.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Kid_The_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (11);
@@ -240,8 +240,8 @@ VALUES ('Kingsman',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (12,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Kingsman.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Kingsman_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Kingsman.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Kingsman_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (12);
@@ -259,8 +259,8 @@ VALUES ('Mutha Superior',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (13,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Mutha_Superior.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Mutha_Superior_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Mutha_Superior.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Mutha_Superior_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (13);
@@ -278,8 +278,8 @@ VALUES ('Pancho Perfecto',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (14,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Pancho_Perfecto.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Pancho_Perfecto_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Pancho_Perfecto.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Pancho_Perfecto_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (14);
@@ -297,8 +297,8 @@ VALUES ('Pearl Heart',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (15,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Pearl_Heart.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Pearl_Heart_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Pearl_Heart.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Pearl_Heart_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (15);
@@ -316,8 +316,8 @@ VALUES ('Rhinestone',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (16,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Rhinestone.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Rhinestone_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Rhinestone.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Rhinestone_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (16);
@@ -335,8 +335,8 @@ VALUES ('Star Princess Candy',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (17,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Star_Princess_Candy.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Star_Princess_Candy_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Star_Princess_Candy.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Star_Princess_Candy_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (17);
@@ -354,8 +354,8 @@ VALUES ('Steelhorse Candy',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (18,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Steelhorse_Candy.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Steelhorse_Candy_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Steelhorse_Candy.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Steelhorse_Candy_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (18);
@@ -373,8 +373,8 @@ VALUES ('Swordmage Acolyte',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (19,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Swordmage_Acolyte.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Swordmage_Acolyte_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Swordmage_Acolyte.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Swordmage_Acolyte_back.png', 
 'Feminine');
 insert into Raiders (CharacterIndex) 
 VALUES (19);
@@ -392,8 +392,8 @@ VALUES ('Tazak Geronimo',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (20,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Tazak_Geronimo.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Tazak_Geronimo_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Tazak_Geronimo.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Tazak_Geronimo_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (20);
@@ -411,8 +411,8 @@ VALUES ('Thorne',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (21,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Thorne.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Thorne_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Thorne.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Thorne_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (21);
@@ -430,8 +430,8 @@ VALUES ('Typhoon',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (22,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Typhoon.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Typhoon_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Typhoon.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Typhoon_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (22);
@@ -449,8 +449,8 @@ VALUES ('Umbra',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (23,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Umbra.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Umbra_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Umbra.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Umbra_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (23);
@@ -468,8 +468,8 @@ VALUES ('Whistlin Pete',
 );
 insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
 VALUES (24,
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Whistlin_Pete.png', 
-'http://htkb.info/ND/RRI/Cards/Raiders/Standies/Whistlin_Pete_back.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Whistlin_Pete.png', 
+'http://htkb.info/ND/RRI/Cards/Raiders/Standees/Whistlin_Pete_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex) 
 VALUES (24);

@@ -19,10 +19,10 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (255
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (255, 254); --Hidden
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (255, 348); --Stealth
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (255, 377); --Spawning Pool
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (350,
-'http://htkb.info/ND/NAS/Standies/Clan_Earth_Shrine.png', 
-'http://htkb.info/ND/NAS/Standies/Clan_Earth_Shrine_back.png',
+'http://htkb.info/ND/NAS/Standees/Clan_Earth_Shrine.png', 
+'http://htkb.info/ND/NAS/Standees/Clan_Earth_Shrine_back.png',
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (255, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (255, 'Spawning Point', 'Start', 0);
@@ -42,10 +42,10 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (256
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (256, 348); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (256, 322); --Precision Strike
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (256, 281); --Elemental Master
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (351,
-'http://htkb.info/ND/NAS/Standies/Clan_Earth_Shrine_Chunin.png', 
-'http://htkb.info/ND/NAS/Standies/Clan_Earth_Shrine_Chunin_back.png',
+'http://htkb.info/ND/NAS/Standees/Clan_Earth_Shrine_Chunin.png', 
+'http://htkb.info/ND/NAS/Standees/Clan_Earth_Shrine_Chunin_back.png',
 'Masculine', 'Small', 'Ninja', 6, 3, '2B 1R', '3B', '3B', '3B', 3, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (256, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (256, 2); --Armor
@@ -63,10 +63,10 @@ insert into Characters (CardIndex) VALUES (742);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (352, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (257, 348); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (257, 174); --Back Strike
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (352,
-'http://htkb.info/ND/NAS/Standies/Clan_Earth_Shrine_Kaiken.png', 
-'http://htkb.info/ND/NAS/Standies/Clan_Earth_Shrine_Kaiken_back.png',
+'http://htkb.info/ND/NAS/Standees/Clan_Earth_Shrine_Kaiken.png', 
+'http://htkb.info/ND/NAS/Standees/Clan_Earth_Shrine_Kaiken_back.png',
 'Masculine', 'Small', 'Ninja', 6, 1, '3B', '1ST', '2B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (257, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (257, 4, 3); --Dexterity
@@ -86,10 +86,10 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (353, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (258, 306); --Pounce
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (258, 348); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (258, 674); --Wind in the Forest
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (353,
-'http://htkb.info/ND/NAS/Standies/Clan_Earth_Shrine_Kunoichi.png', 
-'http://htkb.info/ND/NAS/Standies/Clan_Earth_Shrine_Kunoichi_back.png',
+'http://htkb.info/ND/NAS/Standees/Clan_Earth_Shrine_Kunoichi.png', 
+'http://htkb.info/ND/NAS/Standees/Clan_Earth_Shrine_Kunoichi_back.png',
 'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B1R', '2R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (258, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (258, 2); --Armor
@@ -112,10 +112,10 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (259
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (259, 300); --Poison
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (259, 482); --Poisoned Weapons
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (259, 677); --Wind Walk
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (354,
-'http://htkb.info/ND/NAS/Standies/Clan_Earth_Shrine_Madoushi.png', 
-'http://htkb.info/ND/NAS/Standies/Clan_Earth_Shrine_Madoushi_back.png',
+'http://htkb.info/ND/NAS/Standees/Clan_Earth_Shrine_Madoushi.png', 
+'http://htkb.info/ND/NAS/Standees/Clan_Earth_Shrine_Madoushi_back.png',
 'Masculine', 'Small', 'Ninja', 6, 2, '2B', '1ST', '2R', '3B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (259, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (259, 3, 6); --Magic
@@ -134,10 +134,10 @@ insert into Characters (CardIndex) VALUES (745);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (355, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (260, 348); --Stealth
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (260, 363); --Wind of Blades
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (355,
-'http://htkb.info/ND/NAS/Standies/Clan_Earth_Shrine_Yajiri.png', 
-'http://htkb.info/ND/NAS/Standies/Clan_Earth_Shrine_Yajiri_back.png',
+'http://htkb.info/ND/NAS/Standees/Clan_Earth_Shrine_Yajiri.png', 
+'http://htkb.info/ND/NAS/Standees/Clan_Earth_Shrine_Yajiri_back.png',
 'Masculine', 'Small', 'Ninja', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (260, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (260, 4, 6); --Dexterity
@@ -161,10 +161,10 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (261
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (261, 254); --Hidden
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (261, 348); --Stealth
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (261, 377); --Spawning Pool
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (356,
-'http://htkb.info/ND/NAS/Standies/Clan_Air_Shrine.png', 
-'http://htkb.info/ND/NAS/Standies/Clan_Air_Shrine_back.png',
+'http://htkb.info/ND/NAS/Standees/Clan_Air_Shrine.png', 
+'http://htkb.info/ND/NAS/Standees/Clan_Air_Shrine_back.png',
 'Neither', 'Small', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (261, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (261, 'Spawning Point', 'Start', 0);
@@ -184,10 +184,10 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (262
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (262, 348); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (262, 322); --Precision Strike
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (262, 281); --Elemental Master
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (357,
-'http://htkb.info/ND/NAS/Standies/Clan_Air_Shrine_Chunin.png', 
-'http://htkb.info/ND/NAS/Standies/Clan_Air_Shrine_Chunin_back.png',
+'http://htkb.info/ND/NAS/Standees/Clan_Air_Shrine_Chunin.png', 
+'http://htkb.info/ND/NAS/Standees/Clan_Air_Shrine_Chunin_back.png',
 'Masculine', 'Small', 'Ninja', 6, 3, '2B 1R', '3B', '3B', '3B', 3, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (262, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (262, 2); --Armor
@@ -205,10 +205,10 @@ insert into Characters (CardIndex) VALUES (748);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (358, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (263, 348); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (263, 174); --Back Strike
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (358,
-'http://htkb.info/ND/NAS/Standies/Clan_Air_Shrine_Kaiken.png', 
-'http://htkb.info/ND/NAS/Standies/Clan_Air_Shrine_Kaiken_back.png',
+'http://htkb.info/ND/NAS/Standees/Clan_Air_Shrine_Kaiken.png', 
+'http://htkb.info/ND/NAS/Standees/Clan_Air_Shrine_Kaiken_back.png',
 'Masculine', 'Small', 'Ninja', 6, 1, '3B', '1ST', '2B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (263, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (263, 4, 3); --Dexterity
@@ -228,10 +228,10 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (359, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (264, 306); --Pounce
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (264, 348); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (264, 674); --Air in the Forest
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (359,
-'http://htkb.info/ND/NAS/Standies/Clan_Air_Shrine_Kunoichi.png', 
-'http://htkb.info/ND/NAS/Standies/Clan_Air_Shrine_Kunoichi_back.png',
+'http://htkb.info/ND/NAS/Standees/Clan_Air_Shrine_Kunoichi.png', 
+'http://htkb.info/ND/NAS/Standees/Clan_Air_Shrine_Kunoichi_back.png',
 'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B1R', '2R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (264, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (264, 2); --Armor
@@ -254,10 +254,10 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (265
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (265, 300); --Poison
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (265, 482); --Poisoned Weapons
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (265, 677); --Wind Walk
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (360,
-'http://htkb.info/ND/NAS/Standies/Clan_Air_Shrine_Madoushi.png', 
-'http://htkb.info/ND/NAS/Standies/Clan_Air_Shrine_Madoushi_back.png',
+'http://htkb.info/ND/NAS/Standees/Clan_Air_Shrine_Madoushi.png', 
+'http://htkb.info/ND/NAS/Standees/Clan_Air_Shrine_Madoushi_back.png',
 'Masculine', 'Small', 'Ninja', 6, 2, '2B', '1ST', '2R', '3B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (265, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (265, 3, 6); --Magic
@@ -276,10 +276,10 @@ insert into Characters (CardIndex) VALUES (751);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (361, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (266, 348); --Stealth
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (266, 363); --Wind of Blades
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (361,
-'http://htkb.info/ND/NAS/Standies/Clan_Air_Shrine_Yajiri.png', 
-'http://htkb.info/ND/NAS/Standies/Clan_Air_Shrine_Yajiri_back.png',
+'http://htkb.info/ND/NAS/Standees/Clan_Air_Shrine_Yajiri.png', 
+'http://htkb.info/ND/NAS/Standees/Clan_Air_Shrine_Yajiri_back.png',
 'Masculine', 'Small', 'Ninja', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (266, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (266, 4, 6); --Dexterity

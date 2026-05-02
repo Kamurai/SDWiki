@@ -14,10 +14,10 @@ insert into Characters (CardIndex) VALUES (223);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (138, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (138, 177); --Backlash
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (138, 367); --Boo Booty
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (138,
-'http://htkb.info/ND/SDE/Standies/Boo_Booty.png', 
-'http://htkb.info/ND/SDE/Standies/Boo_Booty_back.png', 
+'http://htkb.info/ND/SDE/Standees/Boo_Booty.png', 
+'http://htkb.info/ND/SDE/Standees/Boo_Booty_back.png', 
 'Neither', 'Small', 'Boo Booty', 6, 1, '2R', '3B', '2B', '3B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (138, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (138, 2);
@@ -34,10 +34,10 @@ insert into Characters (CardIndex) VALUES (224);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (139, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (139, 367); --Boo Booty
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (139, 363); --Grind
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (139,
-'http://htkb.info/ND/SDE/Standies/Booty_Grinder.png', 
-'http://htkb.info/ND/SDE/Standies/Booty_Grinder_back.png',
+'http://htkb.info/ND/SDE/Standees/Booty_Grinder.png', 
+'http://htkb.info/ND/SDE/Standees/Booty_Grinder_back.png',
 'Neither', 'Small', 'Boo Booty', 6, 1, '3B', '1ST', '3B', '1B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (139, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (139, 2);
@@ -55,10 +55,10 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (140, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (140, 367); --Boo Booty
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (140, 353); --Surge
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (140, 198); --Bounce It
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (140,
-'http://htkb.info/ND/SDE/Standies/Bouncing_Booty.png', 
-'http://htkb.info/ND/SDE/Standies/Bouncing_Booty_back.png',
+'http://htkb.info/ND/SDE/Standees/Bouncing_Booty.png', 
+'http://htkb.info/ND/SDE/Standees/Bouncing_Booty_back.png',
 'Neither', 'Small', 'Boo Booty', 6, 2, '3B', '0ST', '1B', '2R', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (140, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (140, 2);

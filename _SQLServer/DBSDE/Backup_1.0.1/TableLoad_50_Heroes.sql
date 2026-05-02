@@ -18,10 +18,10 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (439
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (439, 2015); --Spinning Axe
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (439, 2013); --Massive Sword
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (439, 2012); --Magic Armor
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 843, 
-'http://htkb.info/ND/SDE/Standies/Questing_Knight.png', 
-'http://htkb.info/ND/SDE/Standies/Questing_Knight_back.png', 
+'http://htkb.info/ND/SDE/Standees/Questing_Knight.png', 
+'http://htkb.info/ND/SDE/Standees/Questing_Knight_back.png', 
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '2B', '2B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (439, 1, -1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (439, 2); --Armor
