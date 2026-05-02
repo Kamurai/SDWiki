@@ -1,4 +1,5 @@
 --drop view LawbotsViewMultiLine
+
 --Lawbots (with keywords, abilities, offenses, and defenses)
 create or alter view LawbotsViewMultiLine as
 select a.CardIndex, a.CardName, a.PictureFront, a.PictureBack, a.Link, a.CardType, a.ProductSet, a.ProductModule, a.Flavor, a.Lore, --Cards

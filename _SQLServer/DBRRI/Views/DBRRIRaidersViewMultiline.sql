@@ -1,4 +1,5 @@
 --drop view RaidersViewMultiLine
+
 --Raiders
 create or alter view RaidersViewMultiLine as
 select a.CardIndex, a.CardName, a.PictureFront, a.PictureBack, a.Link, a.CardType, a.ProductSet, a.ProductModule, a.Flavor, a.Lore, --Cards

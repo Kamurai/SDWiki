@@ -1,4 +1,5 @@
 --drop view HighNoonCardView
+
 --High Noon Card
 create or alter view HighNoonCardView as 
 select a.CardIndex, a.CardName, a.PictureFront, a.PictureBack, a.Link, a.CardType, a.ProductSet, a.ProductModule, a.Flavor, a.Lore, --Cards

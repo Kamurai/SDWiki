@@ -1,4 +1,5 @@
 --drop view LongArmOfTheLawCardView
+
 --Long Arm of the Law Cards
 create or alter view HighNoonCardView as 
 select a.CardIndex, a.CardName, a.PictureFront, a.PictureBack, a.Link, a.CardType, a.ProductSet, a.ProductModule, a.Flavor, a.Lore, --Cards

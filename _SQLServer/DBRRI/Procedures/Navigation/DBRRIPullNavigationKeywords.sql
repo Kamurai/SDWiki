@@ -1,6 +1,6 @@
 --drop PROCEDURE DBRRIPullNavigationKeywords;
 
-create PROCEDURE DBRRIPullNavigationKeywords
+CREATE OR ALTER PROCEDURE DBRRIPullNavigationKeywords
 AS
 BEGIN
 	select distinct KeywordName, KeywordVersion --, Link
