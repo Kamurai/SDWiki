@@ -1478,7 +1478,7 @@ public class SDEDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call DBSDEPullNavigationRelicByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBSDEPullNavigationRelicsByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
