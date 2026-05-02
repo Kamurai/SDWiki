@@ -6,7 +6,7 @@ a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, Produ
 c.StandeeFront, c.StandeeBack, --Characters
 Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions, --ExploreCharacter
 AffinityType, --Affinity
-g.KeywordIndex, g.Name as KeywordName, KeywordDescription, --Keywords
+g.KeywordIndex, g.Name as KeywordName, KeywordDescription, KeywordVersion,--Keywords
 i.AbilityIndex, i.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, --Abilities
 v.Attribute as AbilityAttribute, --Attributes
 AbilityRange, AbilityDescription, --Abilities
