@@ -194,8 +194,8 @@ public class NASDAOOne extends NASDAO{
                     result.setModule(rs.getString("ProductModule"));
                     result.setFlavor(rs.getString("Flavor"));
                     
-                    result.setStandieFront(rs.getString("StandieFront"));
-                    result.setStandieBack(rs.getString("StandieBack"));
+                    result.setStandeeFront(rs.getString("StandeeFront"));
+                    result.setStandeeBack(rs.getString("StandeeBack"));
                     result.setGender(rs.getString("Gender"));
                     result.setModelSize(rs.getString("ModelSize"));
                     result.setCreatureType(rs.getString("CreatureType"));
@@ -635,7 +635,7 @@ public class NASDAOOne extends NASDAO{
                         rs.getString("ModelSize"),
                         rs.getString("Link"),
                         rs.getString("PictureFront"),
-                        rs.getString("StandieFront"),
+                        rs.getString("StandeeFront"),
                         new ArrayList<SDE.Keyword>(),
                         new ArrayList<SDE.Ability>()
                     );

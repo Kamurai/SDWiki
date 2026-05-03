@@ -9,8 +9,8 @@ import java.util.List;
 
 public class Shinobi extends Card implements KeywordInterface {
     
-    private String              standieFront;
-    private String              standieBack;
+    private String              standeeFront;
+    private String              standeeBack;
     private String              gender;
     private String              modelSize;
     private String              rankType;
@@ -26,8 +26,8 @@ public class Shinobi extends Card implements KeywordInterface {
     
     public Shinobi(){
         super();
-        this.standieFront       = "";
-        this.standieBack        = "";
+        this.standeeFront       = "";
+        this.standeeBack        = "";
         this.gender             = "";
         this.modelSize          = "";
         this.rankType           = "";
@@ -56,8 +56,8 @@ public class Shinobi extends Card implements KeywordInterface {
         String                  flavor,
         String                  author,
         String                  sourceURL,
-        String                  standieFront,
-        String                  standieBack,
+        String                  standeeFront,
+        String                  standeeBack,
         String                  gender,
         String                  modelSize,
         String                  creatureType,
@@ -85,8 +85,8 @@ public class Shinobi extends Card implements KeywordInterface {
             author,
             sourceURL
         );
-        this.standieFront       = standieFront;
-        this.standieBack        = standieBack;
+        this.standeeFront       = standeeFront;
+        this.standeeBack        = standeeBack;
         this.gender             = gender;
         this.modelSize          = modelSize;
         this.rankType           = creatureType;
@@ -107,8 +107,8 @@ public class Shinobi extends Card implements KeywordInterface {
     }
 
     public void partialClone(Shinobi source){
-        this.standieFront       = source.standieFront;
-        this.standieBack        = source.standieBack;
+        this.standeeFront       = source.standeeFront;
+        this.standeeBack        = source.standeeBack;
         this.gender             = source.gender;
         this.modelSize          = source.modelSize;
         this.rankType           = source.rankType;
@@ -123,20 +123,20 @@ public class Shinobi extends Card implements KeywordInterface {
         this.keywords           = source.keywords;
     }
 
-    public String getStandieFront() {
-        return standieFront;
+    public String getStandeeFront() {
+        return standeeFront;
     }
 
-    public void setStandieFront(String standieFront) {
-        this.standieFront = standieFront;
+    public void setStandeeFront(String standeeFront) {
+        this.standeeFront = standeeFront;
     }
 
-    public String getStandieBack() {
-        return standieBack;
+    public String getStandeeBack() {
+        return standeeBack;
     }
 
-    public void setStandieBack(String standieBack) {
-        this.standieBack = standieBack;
+    public void setStandeeBack(String standeeBack) {
+        this.standeeBack = standeeBack;
     }
     
     public String getGender(){
