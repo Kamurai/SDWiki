@@ -11,7 +11,7 @@ VALUES ('Bomechan',
 'Shinobi', '1.0', 'NAS Core Set',
 'The Moon Palace is just another castle, and castles were built to fall.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (12,
 'http://htkb.info/ND/NAS/Standees/Bomechan.png', 
 'http://htkb.info/ND/NAS/Standees/Bomechan_back.png', 
@@ -34,7 +34,7 @@ VALUES ('Yobuko',
 'Shinobi', '1.0', 'NAS Core Set',
 ''
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (13,
 'http://htkb.info/ND/NAS/Standees/Yobuko.png', 
 'http://htkb.info/ND/NAS/Standees/Yobuko_back.png', 
@@ -58,7 +58,7 @@ VALUES ('Akkorokamui',
 'Shinobi', '1.0', 'NAS Core Set',
 'Oh, there''s a fat fish.  Swing wide.  We''ll take them as they turn into the wind.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (14,
 'http://htkb.info/ND/NAS/Standees/Akkorokamui.png', 
 'http://htkb.info/ND/NAS/Standees/Akkorokamui_back.png', 
@@ -81,7 +81,7 @@ VALUES ('Mizuchi',
 'Shinobi', '1.0', 'NAS Core Set',
 'Come about!  There.  Hold that course, and stand by the gunnels.  Ramming speed!'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (15,
 'http://htkb.info/ND/NAS/Standees/Mizuchi.png', 
 'http://htkb.info/ND/NAS/Standees/Mizuchi_back.png', 
@@ -104,7 +104,7 @@ VALUES ('Tamamo No Mae',
 'Shinobi', '1.0', 'NAS Core Set',
 'Come closer.  You remind me of someone I knew - long ago.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (16,
 'http://htkb.info/ND/NAS/Standees/Tamamo_No_Mae.png', 
 'http://htkb.info/ND/NAS/Standees/Tamamo_No_Mae_back.png', 
@@ -125,7 +125,7 @@ VALUES ('Uzumaki',
 'Shinobi', '1.0', 'NAS Core Set',
 'There''s more to life than these haunted trees, and I''m going to find it!  You''ll see!'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (17,
 'http://htkb.info/ND/NAS/Standees/Uzumaki.png', 
 'http://htkb.info/ND/NAS/Standees/Uzumaki_back.png', 
@@ -147,7 +147,7 @@ VALUES ('Karura',
 'Shinobi', '1.0', 'NAS Core Set',
 'Running won''t save you, little man.  I can fly!'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (18,
 'http://htkb.info/ND/NAS/Standees/Karura.png', 
 'http://htkb.info/ND/NAS/Standees/Karura_back.png', 
@@ -167,7 +167,7 @@ VALUES ('Uzumaki',
 'Shinobi', '1.0', 'NAS Core Set',
 'Running won''t save you, little man.  I can fly!'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (19,
 'http://htkb.info/ND/NAS/Standees/Karura.png', 
 'http://htkb.info/ND/NAS/Standees/Karura_back.png', 
@@ -190,7 +190,7 @@ VALUES ('Byakko',
 'Shinobi', '1.0', 'NAS Core Set',
 'I am not touched or blessed<br>by the White Tiger.<br>I am the White Tiger!'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (20,
 'http://htkb.info/ND/NAS/Standees/Byakko.png', 
 'http://htkb.info/ND/NAS/Standees/Byakko_back.png', 
@@ -215,7 +215,7 @@ VALUES ('Ryu',
 'Shinobi', '1.0', 'NAS Core Set',
 'I learned much in my time away from the Tora.  Here, let me show you.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (21,
 'http://htkb.info/ND/NAS/Standees/Ryu.png', 
 'http://htkb.info/ND/NAS/Standees/Ryu_back.png', 
@@ -237,7 +237,7 @@ VALUES ('Mizaru',
 'Shinobi', '1.0', 'NAS Core Set',
 'It''s amazing what you can see when you stop looking.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (22,
 'http://htkb.info/ND/NAS/Standees/Mizaru.png', 
 'http://htkb.info/ND/NAS/Standees/Mizaru_back.png', 
@@ -260,7 +260,7 @@ VALUES ('Son Goku',
 'Shinobi', '1.0', 'NAS Core Set',
 'That thing is huge!  Look at the size of those fangs.  Oh, this is going to be fun!'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (23,
 'http://htkb.info/ND/NAS/Standees/Son_Goku.png', 
 'http://htkb.info/ND/NAS/Standees/Son_Goku_back.png', 
@@ -282,7 +282,7 @@ VALUES ('Samurai Sentry',
 'Shinobi', '1.0', 'NAS Core Set',
 ''
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (24,
 'http://htkb.info/ND/NAS/Standees/Sentry_Swordsman.png', 
 'http://htkb.info/ND/NAS/Standees/Sentry_Swordsman_back.png', 
@@ -298,7 +298,7 @@ VALUES ('Arashikage',
 'Shinobi', '1.0', 'NAS Core Set',
 'I can kill him, yes, but only if you tell me what I need to know.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (25,
 'http://htkb.info/ND/NAS/Standees/Arashikage.png', 
 'http://htkb.info/ND/NAS/Standees/Arashikage_back.png', 
@@ -323,7 +323,7 @@ VALUES ('Bakusho Mondai',
 'Shinobi', '1.0', 'NAS Core Set',
 'HOOOOOOOOOOOOO!'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (26,
 'http://htkb.info/ND/NAS/Standees/Bakusho_Mondai.png', 
 'http://htkb.info/ND/NAS/Standees/Bakusho_Mondai_back.png', 
@@ -346,7 +346,7 @@ VALUES ('Benkei',
 'Shinobi', '1.0', 'NAS Core Set',
 'Stand, villain!  In the Princess''s name!'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (27,
 'http://htkb.info/ND/NAS/Standees/Benkei.png', 
 'http://htkb.info/ND/NAS/Standees/Benkei_back.png', 
@@ -367,7 +367,7 @@ VALUES ('Blind Swordsman',
 'Shinobi', '1.0', 'NAS Core Set',
 'Why don''t you put that sword away before I show you how to use it?'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (28,
 'http://htkb.info/ND/NAS/Standees/Blind_Swordsman.png', 
 'http://htkb.info/ND/NAS/Standees/Blind_Swordsman_back.png', 
@@ -390,7 +390,7 @@ VALUES ('Goemon',
 'Shinobi', '1.0', 'NAS Core Set',
 'Oh, ho, what''s this?  A fat man with a fat purse; my favorite kind of stranger.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (29,
 'http://htkb.info/ND/NAS/Standees/Goemon.png', 
 'http://htkb.info/ND/NAS/Standees/Goemon_back.png', 
@@ -414,7 +414,7 @@ VALUES ('Hanzo',
 'Shinobi', '1.0', 'NAS Core Set',
 'Calm down, jaybird.  You wouldn''t last a month in Kaedo with that attitude.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (30,
 'http://htkb.info/ND/NAS/Standees/Hanzo.png', 
 'http://htkb.info/ND/NAS/Standees/Hanzo_back.png', 
@@ -439,7 +439,7 @@ VALUES ('Air Hanzo',
 'Shinobi', '1.0', 'NAS Core Set',
 'As I mastered the school of winds'' teachings, I was more amazed that my feet knew to carry me before I gave them commands, and my opponents were just as likely to fend off a breeze with their swords, least of all, my blades.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (31,
 'http://htkb.info/ND/NAS/Standees/Hanzo_Air.png', 
 'http://htkb.info/ND/NAS/Standees/Hanzo_Air_back.png', 
@@ -461,7 +461,7 @@ VALUES ('Earth Hanzo',
 'Shinobi', '1.0', 'NAS Core Set',
 'Earth mastery implies more than resolve and toughness - it is a warriors art that encompasses enlightment, always seeking truth, constant training, and tremendous focus on one''s duty.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (32,
 'http://htkb.info/ND/NAS/Standees/Indominable_Hanzo.png', 
 'http://htkb.info/ND/NAS/Standees/Indominable_Hanzo_back.png', 
@@ -483,7 +483,7 @@ VALUES ('Fire Hanzo',
 'Shinobi', '1.0', 'NAS Core Set',
 'The mastery of fire is to be considered for all who wish to dominate in battle.  To fight such a warrior, is as fighting a raging inferno.  To even raise your head to look at the fire will burn you.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (33,
 'http://htkb.info/ND/NAS/Standees/Blazing_Soul_Hanzo.png', 
 'http://htkb.info/ND/NAS/Standees/Blazing_Soul_Hanzo_back.png', 
@@ -504,7 +504,7 @@ VALUES ('Spirit Hanzo',
 'Shinobi', '1.0', 'NAS Core Set',
 'Pour out your spirit into your training like a hot white light.  Whether it directs the tip of your blade, or the notes of your shakuhachi, you are truly following the path when your wellspring does not dry up.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (34,
 'http://htkb.info/ND/NAS/Standees/Hanzo_Spirit.png', 
 'http://htkb.info/ND/NAS/Standees/Hanzo_Spirit_back.png', 
@@ -525,7 +525,7 @@ VALUES ('Void Hanzo',
 'Shinobi', '1.0', 'NAS Core Set',
 'Regarding the void, there is no evil on a path where one sets his way into places beyond his knowledge - to be skilled in the arts of this emptiness, that is the true way of the void.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (35,
 'http://htkb.info/ND/NAS/Standees/Hanzo_Void.png', 
 'http://htkb.info/ND/NAS/Standees/Hanzo_Void_back.png', 
@@ -546,7 +546,7 @@ VALUES ('Water Hanzo',
 'Shinobi', '1.0', 'NAS Core Set',
 'Schooling in a water doctrine means your body, eyes, and weapons are extensions of your spirit.  Seek the least resistance, flow around spear points, and know where you stand in a duel, or a battlefield of thousand duels.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (36,
 'http://htkb.info/ND/NAS/Standees/Formless_Hanzo.png', 
 'http://htkb.info/ND/NAS/Standees/Formless_Hanzo_back.png', 
@@ -567,7 +567,7 @@ VALUES ('Howl & Yip',
 'Shinobi', '1.0', 'NAS Core Set',
 'Many miles still to go, little one.  Many miles still to go.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (37,
 'http://htkb.info/ND/NAS/Standees/Howl_and_Yip.png', 
 'http://htkb.info/ND/NAS/Standees/Howl_and_Yip_back.png', 
@@ -590,7 +590,7 @@ VALUES ('Inu Clan Kaiken',
 'Shinobi', '1.0', 'NAS Core Set',
 'Funny, you don''t look like a rat.  So why do you smell like one?'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (38,
 'http://htkb.info/ND/NAS/Standees/Adzuki.png', 
 'http://htkb.info/ND/NAS/Standees/Adzuki_back.png', 
@@ -611,7 +611,7 @@ VALUES ('Jorogumo',
 'Shinobi', '1.0', 'NAS Core Set',
 'Come in, come in.  Here.  Sit, by my fire.  Stay a while.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (39,
 'http://htkb.info/ND/NAS/Standees/Jorogumo.png', 
 'http://htkb.info/ND/NAS/Standees/Jorogumo_back.png', 
@@ -635,7 +635,7 @@ VALUES ('Kappa',
 'Shinobi', '1.0', 'NAS Core Set',
 'Stare not too long into pools of still water, for the kappa may stare back.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (40,
 'http://htkb.info/ND/NAS/Standees/Kappa.png', 
 'http://htkb.info/ND/NAS/Standees/Kappa_back.png', 
@@ -659,7 +659,7 @@ VALUES ('Komuso',
 'Masculine', '1.0', 'NAS Core Set',
 'All life flows with the elements.  Here, let me demonstrate with my spear.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (41,
 'http://htkb.info/ND/NAS/Standees/Komuso.png', 
 'http://htkb.info/ND/NAS/Standees/Komuso_back.png', 
@@ -682,7 +682,7 @@ VALUES ('Kunoichi Candy',
 'Shinobi', '1.0', 'NAS Core Set',
 'Here, tough guy; have a swig of this.  Cola brews it himself.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (42,
 'http://htkb.info/ND/NAS/Standees/Kunoichi_Candy.png', 
 'http://htkb.info/ND/NAS/Standees/Kunoichi_Candy_back.png', 
@@ -707,7 +707,7 @@ VALUES ('Miyamoto Musashi',
 'Shinobi', '1.0', 'NAS Core Set',
 'These?  Oh, they''re just in case anyone makes trouble.  Or I find a boat.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (43,
 'http://htkb.info/ND/NAS/Standees/Miyamoto_Musashi.png', 
 'http://htkb.info/ND/NAS/Standees/Miyamoto_Musashi_back.png', 
@@ -728,7 +728,7 @@ VALUES ('Mochizuki',
 'Shinobi', '1.0', 'NAS Core Set',
 'You never hear the thunder until it is upon you.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (44,
 'http://htkb.info/ND/NAS/Standees/Mochizuki.png', 
 'http://htkb.info/ND/NAS/Standees/Mochizuki_back.png', 
@@ -752,7 +752,7 @@ VALUES ('Momotaro',
 'Shinobi', '1.0', 'NAS Core Set',
 'Injustice is a wound that festers.  The cure should be swift and strong.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (45,
 'http://htkb.info/ND/NAS/Standees/Momotaro.png', 
 'http://htkb.info/ND/NAS/Standees/Momotaro_back.png', 
@@ -773,7 +773,7 @@ VALUES ('Moon Princess',
 'Shinobi', '1.0', 'NAS Core Set',
 'I suggest we wait for the moon to rise.  Then we shall have the advantage.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (46,
 'http://htkb.info/ND/NAS/Standees/Moon_Princess.png', 
 'http://htkb.info/ND/NAS/Standees/Moon_Princess_back.png', 
@@ -804,7 +804,7 @@ VALUES ('Ondori Clan Kaiken',
 'Shinobi', '1.0', 'NAS Core Set',
 'Well, well.  What do you say now, my fine, featherless friend?'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (47,
 'http://htkb.info/ND/NAS/Standees/Kiji.png', 
 'http://htkb.info/ND/NAS/Standees/Kiji_back.png', 
@@ -824,7 +824,7 @@ VALUES ('Onibaba',
 'Shinobi', '1.0', 'NAS Core Set',
 'Oh, there''s a pretty thing, a pretty thing.  He won''t be needing it anymore, no, no.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (48,
 'http://htkb.info/ND/NAS/Standees/Onibaba.png', 
 'http://htkb.info/ND/NAS/Standees/Onibaba_back.png', 
@@ -844,7 +844,7 @@ VALUES ('Onryo',
 'Shinobi', '1.0', 'NAS Core Set',
 'Into the darkness, under the trees, into the water, follow me please.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (49,
 'http://htkb.info/ND/NAS/Standees/Onryo.png', 
 'http://htkb.info/ND/NAS/Standees/Onryo_back.png', 
@@ -867,7 +867,7 @@ VALUES ('Shojo',
 'Shinobi', '1.0', 'NAS Core Set',
 'We''ve got a hold full of saki, and we''ll sail while the saiki holds!'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (50,
 'http://htkb.info/ND/NAS/Standees/Shojo.png', 
 'http://htkb.info/ND/NAS/Standees/Shojo_back.png', 
@@ -891,7 +891,7 @@ VALUES ('Stealth Cola',
 'Shinobi', '1.0', 'NAS Core Set',
 'Shake it up really well, it makes it work better.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (51,
 'http://htkb.info/ND/NAS/Standees/Stealth_Cola.png', 
 'http://htkb.info/ND/NAS/Standees/Stealth_Cola_back.png', 
@@ -914,7 +914,7 @@ VALUES ('Sun Empire Wandering Samurai',
 'Shinobi', '1.0', 'NAS Core Set',
 'Come at me, boy.  I''ll show you how true warriors fight.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (52,
 'http://htkb.info/ND/NAS/Standees/Sun_Empire_Wandering_Samurai.png', 
 'http://htkb.info/ND/NAS/Standees/Sun_Empire_Wandering_Samurai_back.png', 
@@ -937,7 +937,7 @@ VALUES ('Tengu',
 'Shinobi', '1.0', 'NAS Core Set',
 'Do not meddle in the affairs of the tengu, for they are strange and quick to anger.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (53,
 'http://htkb.info/ND/NAS/Standees/Tengu.png', 
 'http://htkb.info/ND/NAS/Standees/Tengu_back.png', 
@@ -958,7 +958,7 @@ VALUES ('Yagyu Jubei',
 'Shinobi', '1.0', 'NAS Core Set',
 'Wait, wait.  Attack me again.  I simply must learn how you did that.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (54,
 'http://htkb.info/ND/NAS/Standees/Yagyu_Jubei.png', 
 'http://htkb.info/ND/NAS/Standees/Yagyu_Jubei_back.png', 
@@ -981,7 +981,7 @@ VALUES ('Yokozuna',
 'Shinobi', '1.0', 'NAS Core Set',
 'Up you go, boss.  You haven''t had enough, but you''ve had all you can handle.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (55,
 'http://htkb.info/ND/NAS/Standees/Yokozuna.png', 
 'http://htkb.info/ND/NAS/Standees/Yokozuna_back.png', 
