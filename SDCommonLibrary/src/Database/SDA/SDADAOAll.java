@@ -693,7 +693,7 @@ public class SDADAOAll extends SDEDAO{
                         rs.getString("ModelSize"),
                         rs.getString("Link"),
                         rs.getString("PictureFront"),
-                        rs.getString("StandieFront"),
+                        rs.getString("StandeeFront"),
                         new ArrayList<SDE.Keyword>(),
                         new ArrayList<SDE.Ability>()
                     );
