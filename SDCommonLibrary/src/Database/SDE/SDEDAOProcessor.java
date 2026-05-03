@@ -55,8 +55,8 @@ public class SDEDAOProcessor {
         ExploreCharacter result = new ExploreCharacter();
     
         try{
-            result.setStandieFront(rs.getString("StandieFront"));
-            result.setStandieBack(rs.getString("StandieBack"));
+            result.setStandeeFront(rs.getString("StandeeFront"));
+            result.setStandeeBack(rs.getString("StandeeBack"));
             result.setGender(rs.getString("Gender"));
             result.setModelSize(rs.getString("ModelSize"));
             result.setCreatureType(rs.getString("CreatureType"));

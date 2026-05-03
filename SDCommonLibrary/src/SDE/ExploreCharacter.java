@@ -5,8 +5,8 @@ import java.util.ArrayList;
 
 public class ExploreCharacter extends Character implements KeywordInterface, AbilityInterface {
     
-    private String              standieFront;
-    private String              standieBack;
+    private String              standeeFront;
+    private String              standeeBack;
     private String              gender;
     private String              modelSize;
     private String              creatureType;
@@ -25,8 +25,8 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
     
     public ExploreCharacter(){
         super();
-        this.standieFront   = "";
-        this.standieBack    = "";
+        this.standeeFront   = "";
+        this.standeeBack    = "";
         this.gender         = "";
         this.modelSize      = "";
         this.creatureType   = "";
@@ -61,8 +61,8 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         String              author,
         String              sourceURL,
         ArrayList<String>   affinityList,
-        String              standieFront,
-        String              standieBack,
+        String              standeeFront,
+        String              standeeBack,
         String              gender,
         String              modelSize,
         String              creatureType,
@@ -94,8 +94,8 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
             sourceURL,
             affinityList
         );
-        this.standieFront   = standieFront;
-        this.standieBack    = standieBack;
+        this.standeeFront   = standeeFront;
+        this.standeeBack    = standeeBack;
         this.gender         = gender;
         this.modelSize      = modelSize;
         this.creatureType   = creatureType;
@@ -119,8 +119,8 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
     }
 
     public void partialClone(ExploreCharacter source){
-        this.standieFront   = source.standieFront;
-        this.standieBack    = source.standieBack;
+        this.standeeFront   = source.standeeFront;
+        this.standeeBack    = source.standeeBack;
         this.gender         = source.gender;
         this.modelSize      = source.modelSize;
         this.creatureType   = source.creatureType;
@@ -138,20 +138,20 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         this.abilities      = source.abilities;
     }
 
-    public String getStandieFront() {
-        return standieFront;
+    public String getStandeeFront() {
+        return standeeFront;
     }
 
-    public void setStandieFront(String standieFront) {
-        this.standieFront = standieFront;
+    public void setStandeeFront(String standeeFront) {
+        this.standeeFront = standeeFront;
     }
 
-    public String getStandieBack() {
-        return standieBack;
+    public String getStandeeBack() {
+        return standeeBack;
     }
 
-    public void setStandieBack(String standieBack) {
-        this.standieBack = standieBack;
+    public void setStandeeBack(String standeeBack) {
+        this.standeeBack = standeeBack;
     }
     
     public String getGender(){

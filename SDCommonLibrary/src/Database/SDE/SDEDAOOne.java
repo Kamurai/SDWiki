@@ -195,8 +195,8 @@ public class SDEDAOOne extends SDEDAO{
                     result.setMode(rs.getString("PlayMode"));
                     result.setFlavor(rs.getString("Flavor"));
                     
-                    result.setStandieFront(rs.getString("StandieFront"));
-                    result.setStandieBack(rs.getString("StandieBack"));
+                    result.setStandeeFront(rs.getString("StandeeFront"));
+                    result.setStandeeBack(rs.getString("StandeeBack"));
                     result.setGender(rs.getString("Gender"));
                     result.setModelSize(rs.getString("ModelSize"));
                     result.setCreatureType(rs.getString("CreatureType"));
@@ -468,8 +468,8 @@ public class SDEDAOOne extends SDEDAO{
                     result.setMode(rs.getString("PlayMode"));
                     result.setFlavor(rs.getString("Flavor"));
                     
-                    result.setStandieFront(rs.getString("StandieFront"));
-                    result.setStandieBack(rs.getString("StandieBack"));
+                    result.setStandeeFront(rs.getString("StandeeFront"));
+                    result.setStandeeBack(rs.getString("StandeeBack"));
                     result.setGender(rs.getString("Gender"));
                     result.setModelSize(rs.getString("ModelSize"));
                     result.setCreatureType(rs.getString("CreatureType"));
@@ -673,7 +673,7 @@ public class SDEDAOOne extends SDEDAO{
                         rs.getString("ModelSize"),
                         rs.getString("ExploreLink"),
                         rs.getString("ExplorePictureFront"),
-                        rs.getString("StandieFront"),
+                        rs.getString("StandeeFront"),
                         new ArrayList<SDE.Keyword>(),
                         new ArrayList<SDE.Ability>()
                     );
