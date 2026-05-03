@@ -6,8 +6,8 @@
 --Jawge --CardIndex 2358	--CharacterIndex 1204	--ExploreCharacterIndex 865
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2358, 
 'Jawge',
-'http://htkb.info/ND/SDE/2.0/Cards/Pets/Card_Pet_Jawge_2.0.png', 
-'http://htkb.info/ND/SDE/2.0/Cards/Pets/Card_Pet_Jawge_2.0_back.png', 
+'https://htkb.info/ND/SDE/2.0/Cards/Pets/Card_Pet_Jawge_2.0.png', 
+'https://htkb.info/ND/SDE/2.0/Cards/Pets/Card_Pet_Jawge_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Jawge.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
 '');
@@ -15,8 +15,8 @@ insert into Characters (CardIndex) VALUES (2358);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1204, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1204,
-'http://htkb.info/ND/SDE/Standees/Jawge.png', 
-'http://htkb.info/ND/SDE/Standees/Jawge_back.png',
+'https://htkb.info/ND/SDE/Standees/Jawge.png', 
+'https://htkb.info/ND/SDE/Standees/Jawge_back.png',
 'Either', 'Small', '', 3, 1, '2R', '3B', '0ST', '1B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (865, 708); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (865, 678); --Immune: Knockdown

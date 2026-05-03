@@ -13,10 +13,10 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2329); 
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1177,
-'https://htkb.info/ND/Common/Standies/Secret_of_Mana/Rabillion.png', 
-'https://htkb.info/ND/Common/Standies/Secret_of_Mana/Rabillion_back.png', 
+'https://htkb.info/ND/Common/Standees/Secret_of_Mana/Rabillion.png', 
+'https://htkb.info/ND/Common/Standees/Secret_of_Mana/Rabillion_back.png', 
 'Either', 'Small', 'Beast', 7, 2, '2R', '2ST', '2B', '1R 1B', 2, 0);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (838, 2208); --Spin Attack
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (838, 2209); --Summon Rabite
