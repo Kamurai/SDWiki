@@ -198,7 +198,7 @@ public class NASDAOOne extends NASDAO{
                     result.setStandeeBack(rs.getString("StandeeBack"));
                     result.setGender(rs.getString("Gender"));
                     result.setModelSize(rs.getString("ModelSize"));
-                    result.setCreatureType(rs.getString("CreatureType"));
+//                    result.setCreatureType(rs.getString("CreatureType"));
                     result.setMovement(rs.getInt("Movement"));
 //                    result.setActions(rs.getInt("Actions"));
 //                    result.setStrength(rs.getString("Strength"));

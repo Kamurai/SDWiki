@@ -31,7 +31,7 @@ VALUES ('Magouichi',
 'Shinobi', 'Custom', 'NAS Custom Set',
 'Calm down, jaybird.  You wouldn''t last a month in Kaedo with that attitude.'
 );
-insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (80,
 'http://htkb.info/ND/SDE/Standees/NAS/Magoichi.png', 
 'http://htkb.info/ND/SDE/Standees/NAS/Magoichi_back.png', 
