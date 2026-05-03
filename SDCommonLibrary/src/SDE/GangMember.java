@@ -15,7 +15,7 @@ public class GangMember implements KeywordInterface, AbilityInterface {
     
     private String  link;
     private String  pictureFront;
-    private String  standieFront;
+    private String  standeeFront;
     
     private ArrayList<Keyword>  keywords;
     private ArrayList<Ability>  abilities;
@@ -34,7 +34,7 @@ public class GangMember implements KeywordInterface, AbilityInterface {
         
         this.link           = "";
         this.pictureFront   = "";
-        this.standieFront   = "";
+        this.standeeFront   = "";
         
         this.keywords       = new ArrayList<Keyword>();
         this.abilities      = new ArrayList<Ability>();
@@ -53,7 +53,7 @@ public class GangMember implements KeywordInterface, AbilityInterface {
         
         String  link,
         String  pictureFront,
-        String  standieFront,
+        String  standeeFront,
     
         ArrayList<Keyword>  keywords,
         ArrayList<Ability>  abilities
@@ -70,7 +70,7 @@ public class GangMember implements KeywordInterface, AbilityInterface {
         
         this.link           = link;
         this.pictureFront   = pictureFront;
-        this.standieFront   = standieFront;
+        this.standeeFront   = standeeFront;
                 
         this.keywords       = keywords;
         this.abilities      = abilities;
@@ -164,12 +164,12 @@ public class GangMember implements KeywordInterface, AbilityInterface {
         this.pictureFront = pictureFront;
     }
 
-    public String getStandieFront() {
-        return standieFront;
+    public String getStandeeFront() {
+        return standeeFront;
     }
 
-    public void setStandieFront(String standieFront) {
-        this.standieFront = standieFront;
+    public void setStandeeFront(String standeeFront) {
+        this.standeeFront = standeeFront;
     }
 
     public String getModelSize(){
