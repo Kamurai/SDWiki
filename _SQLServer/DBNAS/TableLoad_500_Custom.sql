@@ -7,8 +7,8 @@
 --Yurei Clan --CardIndex 79 --TeamIndex 12
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Yurei Clan', 
-'http://htkb.info/ND/NAS/Custom/Cards/Teams/Card_Team_Yurei_Clan.png', 
-'http://htkb.info/ND/NAS/Custom/Cards/Teams/Card_Team_Yurei_Clan.png', 
+'https://htkb.info/ND/NAS/Custom/Cards/Teams/Card_Team_Yurei_Clan_Custom.png', 
+'https://htkb.info/ND/NAS/Custom/Cards/Teams/Card_Team_Yurei_Clan_Custom.png', 
 'http://htkb.online/SDWiki/NAS/Custom/Cards/Teams/Yurei_Clan.xhtml', 
 'Team', 'Custom', 'NAS Custom Set',
 ''
@@ -25,16 +25,16 @@ insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 --Magouichi --CardIndex 80 --ShinobiIndex 43
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Magouichi', 
-'http://htkb.info/ND/NAS/Custom/Cards/Shinobi/Card_Sohei_Magoichi.png', 
-'http://htkb.info/ND/NAS/Custom/Cards/Shinobi/Card_Sohei_Magoichi_back.png', 
+'https://htkb.info/ND/NAS/Custom/Cards/Shinobi/Card_Sohei_Magoichi_Custom.png', 
+'https://htkb.info/ND/NAS/Custom/Cards/Shinobi/Card_Sohei_Magoichi_Custom_back.png', 
 'http://htkb.online/SDWiki/NAS/Custom/Cards/Shinobi/Magoichi.xhtml', 
 'Shinobi', 'Custom', 'NAS Custom Set',
 'Calm down, jaybird.  You wouldn''t last a month in Kaedo with that attitude.'
 );
 insert into Shinobi (CardIndex, StandeeFront, StandeeBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (80,
-'http://htkb.info/ND/SDE/Standees/NAS/Magoichi.png', 
-'http://htkb.info/ND/SDE/Standees/NAS/Magoichi_back.png', 
+'https://htkb.info/ND/SDE/Standees/NAS/Magoichi.png', 
+'https://htkb.info/ND/SDE/Standees/NAS/Magoichi_back.png', 
 'Masculine', 'Small', 'Hero', 7, 3, 2, 22, 0, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (43, 0); --Air
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (43, 2); --Fire
