@@ -14,7 +14,7 @@ VALUES ('Claptrap',
 '"That looks like it hurts!"', 
 'Created as one of the early prototypes for Professor Zep''s mining robots, a failure in its programming led to it becoming extremely clumsy and annoying.  After blowing up Zep''s workshop by accident Claptrap fled to the Outer Rims where he''s decided to "help" the local raiders of the displaced mining colonies.'
 );
-insert into Characters (CardIndex, StandieFront, StandieBack, Gender) 
+insert into Characters (CardIndex, StandeeFront, StandeeBack, Gender) 
 VALUES (109,
 'http://htkb.info/ND/Common/Standees/Borderlands/Claptrap.png', 
 'http://htkb.info/ND/Common/Standees/Borderlands/Claptrap_back.png', 
@@ -26,10 +26,3 @@ insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 'TBD.',
 'Discord'
 );
-
-
-
-
-
-
-
