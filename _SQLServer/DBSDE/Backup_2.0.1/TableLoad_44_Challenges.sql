@@ -1217,12 +1217,12 @@ VALUES (2157, 'Single Target, A',
 'Challenge', '2.0', '2.0 Core Set', 'Arcade', 'We delighted in the loot we found at first, only to learn of the deadly poison that coated it. It slowed some of our group and, as they lagged behind, the Nether Elves struck. They knew who was weakest, they could sense it...<br><br><br>-First known journal entry from the torn pages of Iyana Stormseeker');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2157, 'All Heroes with two or more equipment cards suffer POISON.', 'Heroes may not gain wrath in any way.');
 
---Skeletal Hands At Your Ankles	--CardIndex 2158 --ChallengeIndex 122
+--Skeletal Hands at Your Ankles	--CardIndex 2158 --ChallengeIndex 122
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES (2158, 'Skeletal Hands At Your Ankles',
-'https://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Elrik_The_Lich_King/Card_Boss_Challenge_Skeletal_Hands_At_Your_Ankles_2.0.png', 
+VALUES (2158, 'Skeletal Hands at Your Ankles',
+'https://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Elrik_The_Lich_King/Card_Boss_Challenge_Skeletal_Hands_at_Your_Ankles_2.0.png', 
 'https://htkb.info/ND/SDE/2.0/Cards/Arcade/Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrik_the_Lich_King/Skeletal_Hands_At_Your_Ankles.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Challenge_Cards/Boss_Challenges/Elrik_the_Lich_King/Skeletal_Hands_at_Your_Ankles.xhtml', 
 'Boss Challenge', '2.0', '2.0 Core Set', 'Arcade', '"Stomp the finger bones! STOMP THE FINGER BONES!"');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2158, 'The dungeon boss immediately performs the following action:<br><br>Death''s Grasp: +1ST STR, Wave 3, ICE, IMMOBILE', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
 insert into ChallengeAssignments (ChallengeIndex, CharacterIndex) VALUES (122, 961); --Elrik The Lich King

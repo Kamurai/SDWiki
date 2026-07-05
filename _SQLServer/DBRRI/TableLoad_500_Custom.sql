@@ -7,8 +7,8 @@
 --Claptrap --CardIndex 109 --CharacterIndex 34 --RaiderIndex 25
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES ('Claptrap', 
-'http://htkb.info/ND/RRI/Custom/Raiders/Card_Character_Claptrap_Custom.png', 
-'http://htkb.info/ND/RRI/Custom/Raiders/Card_Character_Claptrap_Custom_back.png', 
+'http://htkb.info/ND/RRI/Custom/Raiders/Card_Raider_Claptrap_Custom.png', 
+'http://htkb.info/ND/RRI/Custom/Raiders/Card_Raider_Claptrap_Custom_back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Raiders/Claptrap.xhtml', 
 'Raider', 'Custom', 'RRI Custom Set',  
 '"That looks like it hurts!"', 

@@ -6,7 +6,7 @@
 --Acid Fog	--CardIndex 2021 --PlotIndex 0
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2021, 'Acid Fog',
-'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Acid_Fog.png', 
+'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Acid_Fog_2.0_PP.png', 
 'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Acid_Fog.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
@@ -18,7 +18,7 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2021,
 --Armies from the Grave	--CardIndex 2022 --PlotIndex 1
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2022, 'Armies from the Grave',
-'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Armies_from_the_Grave.png', 
+'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Armies_from_the_Grave_2.0_PP.png', 
 'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Armies_from_the_Grave.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
@@ -30,7 +30,7 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2022,
 --Blessings of Strength	--CardIndex 2023 --PlotIndex 2
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2023, 'Blessings of Strength',
-'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Blessings_of_Strength.png', 
+'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Blessings_of_Strength_2.0_PP.png', 
 'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Blessings_of_Strength.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
@@ -42,7 +42,7 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2023,
 --Brain Leeches	--CardIndex 2024 --PlotIndex 3
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2024, 'Brain Leeches',
-'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Brain_Leeches.png', 
+'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Brain_Leeches_2.0_PP.png', 
 'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Brain_Leeches.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
@@ -53,7 +53,7 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2024, 'Spawn four Skull Poi
 --Call the Lightning	--CardIndex 2025 --PlotIndex 4
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2025, 'Call the Lightning',
-'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Call_the_Lightning.png', 
+'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Call_the_Lightning_2.0_PP.png', 
 'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Call_the_Lightning.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
@@ -65,7 +65,7 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2025,
 --Flood the Dungeon	--CardIndex 2026 --PlotIndex 5
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2026, 'Flood the Dungeon',
-'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Flood_the_Dungeon.png', 
+'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Flood_the_Dungeon_2.0_PP.png', 
 'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Flood_the_Dungeon.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
@@ -77,7 +77,7 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2026,
 --Highway Robbery	--CardIndex 2027 --PlotIndex 6
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2027, 'Highway Robbery',
-'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Highway_Robbery.png', 
+'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Highway_Robbery_2.0_PP.png', 
 'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Highway_Robbery.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
@@ -89,7 +89,7 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2027,
 --Immortality Potion	--CardIndex 2028 --PlotIndex 7
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2028, 'Immortality Potion',
-'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Immortality_Potion.png', 
+'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Immortality_Potion_2.0_PP.png', 
 'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Immortality_Potion.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
@@ -101,7 +101,7 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2028,
 --Life for Life	--CardIndex 2029 --PlotIndex 8
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2029, 'Life for Life',
-'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Life_for_Life.png', 
+'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Life_for_Life_2.0_PP.png', 
 'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Life_for_Life.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
@@ -113,7 +113,7 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2029,
 --Obscenity Against the Goddess	--CardIndex 2030 --PlotIndex 9
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2030, 'Obscenity Against the Goddess',
-'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Obscenity_Against_the_Goddess.png', 
+'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Obscenity_Against_the_Goddess_2.0_PP.png', 
 'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Obscenity_Against_the_Goddess.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
@@ -125,7 +125,7 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2030,
 --Path of Champions	--CardIndex 2031 --PlotIndex 10
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2031, 'Path of Champions',
-'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Path_of_Champions.png', 
+'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Path_of_Champions_2.0_PP.png', 
 'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Path_of_Champions.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
@@ -137,7 +137,7 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2031,
 --Servants of the Consul	--CardIndex 2032 --PlotIndex 11
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2032, 'Servants of the Consul',
-'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Servants_of_the_Consul.png', 
+'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Servants_of_the_Consul_2.0_PP.png', 
 'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Servants_of_the_Consul.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
@@ -149,7 +149,7 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2032,
 --Spies in Every Corner	--CardIndex 2033 --PlotIndex 12
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2033, 'Spies in Every Corner',
-'https://htkb.info/ND/SDE/2.0/Cards/Explore_Plot/Card_Explore_Plot_Spies_In_Every_Corner.png', 
+'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Spies_in_Every_Corner_2.0_PP.png', 
 'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Spies_in_Every_Corner.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
@@ -161,7 +161,7 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2033,
 --Terrible Protection	--CardIndex 2034 --PlotIndex 13
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2034, 'Terrible Protection',
-'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Terrible_Protection.png', 
+'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Terrible_Protection_2.0_PP.png', 
 'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Terrible_Protection.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
@@ -173,7 +173,7 @@ insert into Plots (CardIndex, PowerUp, Plot) VALUES (2034,
 --Untouchable Tower, The	--CardIndex 2035 --PlotIndex 14
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES (2035, 'Untouchable Tower, The',
-'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Untouchable_Tower_The.png', 
+'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Untouchable_Tower_The_2.0_PP.png', 
 'https://htkb.info/ND/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/PP/Explore/Cards/Plot_Cards/Untouchable_Tower_The.xhtml', 
 'Plot Card', '2.0 PP', '2.0 Pet Parade', 'Explore', 
