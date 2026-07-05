@@ -3169,10 +3169,10 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Saru --CardIndex 892	--CharacterIndex 502	--ExploreCharacterIndex 397
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (892, 'Saru', 
-'https://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Saru_2.0.png', 
-'https://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Saru_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Saru.xhtml', 
-'Hero', '2.0', '2.0 Core Set', 'Default', 
+'https://htkb.info/ND/SDE/2.0/Devils_Island/Cards/Heroes/Card_Hero_Saru_2.0_DI.png', 
+'https://htkb.info/ND/SDE/2.0/Devils_Island/Cards/Heroes/Card_Hero_Saru_2.0_DI_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/DI/Cards/Heroes/Saru.xhtml', 
+'Hero', '2.0 DI', '2.0 DI Core Set', 'Default', 
 'Saru is a jovial and care-free miko shrine guardian of Clan Yamazaru. Her playful nature endeared her to a Sanctioned Witch named Lily who visited Yamazaru lands while traveling from far-off Crystalia. Saru and Lily quickly formed a close bond. So when Saru got word that Lily had been captured by Ijin pirates her playful nature quickly turned to brooding anger. She immediately set out to free Lily, and met some  unlikely allies along the way.');
 insert into Characters (CardIndex) VALUES (892);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (502, 3); --Ruby

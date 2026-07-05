@@ -1268,12 +1268,12 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (122
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (122, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (122, 2); --Armor
 
---Twilight Knight --CardIndex 208	--CharacterIndex 123	--ExploreCharacterIndex 123
+--Twilight Knight v1 --CardIndex 208	--CharacterIndex 123	--ExploreCharacterIndex 123
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (208, 
-'Twilight Knight', 
-'https://htkb.info/ND/SDE/FK/Cards/Heroes/Card_Hero_Twilight_Knight_FK.png', 
-'https://htkb.info/ND/SDE/FK/Cards/Heroes/Card_Hero_Twilight_Knight_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Twilight_Knight.xhtml', 
+'Twilight Knight (v1)', 
+'https://htkb.info/ND/SDE/FK/Cards/Heroes/Card_Hero_Twilight_Knight_v1_FK.png', 
+'https://htkb.info/ND/SDE/FK/Cards/Heroes/Card_Hero_Twilight_Knight_v1_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Twilight_Knight_v1.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'None know from where the Twilight Knight originate.  Some whisper that they come from the Dark Realm itself, and that they are the last and only Heroes from that benighted realm.  For their part, Twilight Knights reveal nothing.  Appearing only when situations are at their most dire, they drive back the shadows only to disappear as sliently and mysteriously as they arrived.');
 insert into Characters (CardIndex) VALUES (208);

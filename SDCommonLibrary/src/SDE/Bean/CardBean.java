@@ -316,9 +316,10 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Warbands") == 0){
             this.title      = "Warbands";
             this.header     = "Warbands";
-            if(version.compareTo("All") == 0){
-                this.cardList   = SDEDAONavigation.pullNavigationForWarbands();
-            }else if(version.compareTo("1.0") == 0){
+//            if(version.compareTo("All") == 0){
+//                this.cardList   = SDEDAONavigation.pullNavigationForWarbands();
+//            }else 
+            if(version.compareTo("1.0") == 0){
                 this.cardList   = SDEDAONavigation.pullNavigationForWarbandsByProductSet(version);
             }else if(Validator.includeFromVersion(version, "FK")){
                 this.cardList   = SDEDAONavigation.pullNavigationForWarbandsAllOrByProductSet(version, playMode);
