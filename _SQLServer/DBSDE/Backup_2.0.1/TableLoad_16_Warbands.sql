@@ -2099,21 +2099,34 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (6
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (670, 'Elite', '8 Bit', 2); 
 
 
---
--- --CardIndex 1166 --CharacterIndex 776 --ExploreCharacterIndex 671
-insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1166, '',
-'', 
-'', 
-'', 
-'', '', '', '',
-'');
+--Midnight Mutineer (Errata)
+--CardIndex 1166 --CharacterIndex 776 --ExploreCharacterIndex 671
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) 
+VALUES (1166, 
+'Midnight Mutineer Errata',
+'https://htkb.info/ND/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Midnight_Mutineer_errata_2.0.png', 
+'https://htkb.info/ND/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Midnight_Mutineer_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Forgotten_Stone/Midnight_Mutineer.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Nether elves do not require honorable combat. One of their favored strategies is assassination. Cut off the head and the body will die. On the high seas the chain of command is vital, and a ship without its captain is an easy target. Midnight Mutineers are experts at infiltrating a ship''s crew and, the night before their corsair brethren attack, eliminating the ship''s captain and key personnel.');
 insert into Characters (CardIndex) VALUES (1166); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (776, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (776, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (776,
-'', 
-'', 
-'', '', '', 0, 0, '', '', '', '', 0, 0);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (671, '', '', 0);
+'https://htkb.info/ND/SDE/Standees/Midnight_Mutineer.png', 
+'https://htkb.info/ND/SDE/Standees/Midnight_Mutineer_back.png', 
+'Feminine', 'Small', 'Nether Elf Pirate', 8, 3, '3B 1R', '1B', '3B', '3B', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (671, 453); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (671, 481); --Brutal Strike
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (671, 805); --Piracy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (671, 1022); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (671, 1919); --Weaken the Prey
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (671, 1628); --Shadow
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (671, 1114); --Finish The Cur
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (671, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (671, 3); --Will 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (671, 'Elite', '16 Bit', 3);
 
 -- --CardIndex 1167 --CharacterIndex 777 --ExploreCharacterIndex 672
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1167, '',
@@ -2396,8 +2409,11 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (685, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (685, 'Minion', '8 Bit', 1);
 
---Midnight Mutineer --CardIndex 1181 --CharacterIndex 791 --ExploreCharacterIndex 686
-insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1181, 'Midnight Mutineer',
+--Midnight Mutineer 
+--CardIndex 1181 --CharacterIndex 791 --ExploreCharacterIndex 686
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) 
+VALUES (1181, 
+'Midnight Mutineer',
 'https://htkb.info/ND/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Midnight_Mutineer_2.0.png', 
 'https://htkb.info/ND/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Midnight_Mutineer_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Forgotten_Stone/Midnight_Mutineer.xhtml', 
@@ -2415,7 +2431,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (686
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (686, 481); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (686, 805); --Piracy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (686, 1022); --Surefoot
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (686, 2006); --Weaken the Prey
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (686, 1916); --Weaken the Prey
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (686, 1628); --Shadow
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (686, 1114); --Finish The Cur
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (686, 1, 1); --Strength
