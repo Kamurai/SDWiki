@@ -5,32 +5,35 @@ const sql = require('mssql');
 // Import necessary classes from the discord.js library
 const { Client, GatewayIntentBits } = require('discord.js');
 
-const { poolPromiseSDE } = require('./DBSDE.js');
-const { poolPromiseNAS } = require('./DBNAS.js');
-const { poolPromiseRRI } = require('./DBRRI.js');
+//const { poolPromiseSDE } = require('./DBSDE.js');
+//const { poolPromiseNAS } = require('./DBNAS.js');
+//const { poolPromiseRRI } = require('./DBRRI.js');
 
 // Initialize the Discord client with required Gateway Intents
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,           // Required for basic server functionality
+		GatewayIntentBits.GuildMembers,
+		GatewayIntentBits.GuildPresences,
         GatewayIntentBits.GuildMessages,    // Allows the bot to see messages in servers
         GatewayIntentBits.MessageContent   // Required to read the text inside messages
     ]
 });
 
-/*
+
 // Configure your MSSQL database connections
 //Super Dungeon
 const dbSDEConfig = {
     user: 'publicAccess',
     password: 'Yellow23!23',
-    server: 'htkb.online', // or localhost
+    server: 'localhost', // or htkb.online
     database: 'SDE',
     options: {
         encrypt: true, // Use true for Azure, false for local if not using SSL
         trustServerCertificate: true // Change to false in strict production environments
+	}
 };
-
+/*
 //Ninja All Stars
 const dbNASConfig = {
     user: 'publicAccess',
@@ -87,12 +90,11 @@ client.on('guildMemberAdd', async (member) => {
     if (!channel) return;
 
     // Send the greeting message (mentions the user automatically)
-    channel.send(`${member}, Welcome to the server!  Be sure to #start-here.
-	And feel free to let everyone know what kind of Super Dungeon Fan you are!`);
+	channel.send(`${member}, welcome to the server!  Be sure to <#759744514675703818>.\nAnd feel free to let everyone know what kind of Super Dungeon Fan you are!`);
 });
 
 // This event triggers every time a message is sent in a server
-client.on('messageCreate', (message) => {
+client.on('messageCreate', async (message) => {
     // Ignore messages sent by bots (including this bot itself)
     if (message.author.bot) return;
 
@@ -103,7 +105,7 @@ client.on('messageCreate', (message) => {
     const args = message.content.slice(PREFIX.length).trim().split(";");
     const command = args[0].toLowerCase();
 	
-	var replyMessage = "https://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Abominable_Snowman_2.0.png";
+	var replyMessage = "https://htkb.info/ND/SDE/2.0/Cards/Heroes/Card_Hero_Zenryo_2.0.png";
 
 	// Command: !hello
 	if (command === 'hello') {
@@ -120,10 +122,13 @@ client.on('messageCreate', (message) => {
 		console.log('db Command');
 		
 		console.log('Establishing DB Connection');
-		connectDBSDE(); //Establish connection
+		await connectDBSDE(); //Establish connection
+		
+		//console.log('Pool: ');
+		//console.log(pool);
 		
 		//Make db call for stored procedure
-		replyMessage = executeDB();
+		replyMessage = await executeDB();
 		
 		//Disconnect?
 		
@@ -252,9 +257,12 @@ client.on('messageCreate', (message) => {
 async function connectDBSDE(){
 	try {
 		console.log('Pre DB Connection');
-		//pool = sql.connect(dbSDEConfig);
+		pool = await sql.connect(dbSDEConfig);
 		
-		pool = await poolPromiseSDE;
+		//pool = await poolPromiseSDE;
+		
+		//console.log('Pool: ');
+		//console.log(pool);
 		
 		console.log('Connected to MSSQL SDE Database');
 
@@ -264,6 +272,7 @@ async function connectDBSDE(){
 	}
 }
 
+/*
 async function connectDBNAS(){
 	try {
 		pool = await sql.connect(dbNASConfig);
@@ -285,25 +294,33 @@ async function connectDBRRI(){
 		console.error('Database connection failed:', err);
 	}
 }
-
+*/
 async function executeDB(){
 	let message = '';
 	
 	console.log('Executing DB Command');
 	
 	try {
+		
+		//console.log('Pool: ');
+		//console.log(pool);
+		
 		// Run a sample query
 		//let result = sql.query('SELECT TOP 1 * FROM HeroesViewMultiLine'); //DBSDEPullOneHero(http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Akkorokamui.xhtml)
-		let result = pool.request().query('SELECT TOP 1 * FROM HeroesViewMultiLine'); //DBSDEPullOneHero(http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Akkorokamui.xhtml)
+		let result = await pool.request().query('SELECT TOP 1 * FROM HeroesViewMultiLine'); //DBSDEPullOneHero(http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Akkorokamui.xhtml)
 		
 		
 		//const dbVersion = result.recordset[0].Version;
 		
+		message = result.recordset[0].PictureFront;
+
+		/*
 		message = { 
 			content: "Test result",
 			authorsText: "Bot",
 			reviewrsText: "Not Bot"
 		}; //"DB result here!"; //dbVersion.substring(0, 30);
+		*/
 	} catch (err) {
 		console.error('SQL error:', err);
 		message = 'Error querying the database.';
