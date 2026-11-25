@@ -2106,7 +2106,7 @@ VALUES (1166,
 'Midnight Mutineer Errata',
 'https://htkb.info/ND/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Midnight_Mutineer_errata_2.0.png', 
 'https://htkb.info/ND/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Midnight_Mutineer_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Forgotten_Stone/Midnight_Mutineer.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Forgotten_Stone/Midnight_Mutineer_errata.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Nether elves do not require honorable combat. One of their favored strategies is assassination. Cut off the head and the body will die. On the high seas the chain of command is vital, and a ship without its captain is an easy target. Midnight Mutineers are experts at infiltrating a ship''s crew and, the night before their corsair brethren attack, eliminating the ship''s captain and key personnel.');
 insert into Characters (CardIndex) VALUES (1166); 
