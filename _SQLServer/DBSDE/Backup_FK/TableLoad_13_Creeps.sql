@@ -45,8 +45,11 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (142, 2);
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (142, '', '8 Bit', 1);
 
---Ghost --CardIndex 228	--CharacterIndex 143	--ExploreCharacterIndex 143
-insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (228, 'Ghost',
+--Ghost 
+--CardIndex 228	--CharacterIndex 143	--ExploreCharacterIndex 143
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) 
+VALUES (228, 
+'Ghost',
 'https://htkb.info/ND/SDE/FK/Cards/Creeps/Card_Creep_Ghost_FK.png', 
 'https://htkb.info/ND/SDE/FK/Cards/Creeps/Card_Creep_Ghost_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Creeps/Ghost.xhtml', 
@@ -55,13 +58,14 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (228);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (143, 4); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143, 233); --Ghost
+--Insignificant
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143, 323); --Shallow Grave
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (143, 309); --Extra Scared
 insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (143,
 'https://htkb.info/ND/SDE/Standees/Ghost.png', 
 'https://htkb.info/ND/SDE/Standees/Ghost_back.png',
-'Either', 'Small', 'Undead Ghost', 5, 1, '0ST', '0ST', '2B', '3B', 1, 0);
+'Either', 'Small', 'Undead Ghost', 6, 1, '0ST', '0ST', '2B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (143, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (143, 2);
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (143, '', '8 Bit', 1);

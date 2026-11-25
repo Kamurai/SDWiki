@@ -39,8 +39,11 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 270); 
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 272); --Invader
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 215); --Emerald Glop
 
---Ghost --CardIndex 342	--CharacterIndex 257	--ArcadeCharacterIndex 5
-insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (342, 'Ghost',
+--Ghost 
+--CardIndex 342	--CharacterIndex 257	--ArcadeCharacterIndex 5
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) 
+VALUES (342, 
+'Ghost',
 'https://htkb.info/ND/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghost_FK.png', 
 'https://htkb.info/ND/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghost_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Creeps/Ghost.xhtml', 
