@@ -1520,7 +1520,9 @@ VALUES (2442, 'Dark Alchemy',
 'Challenge', '2.0', '2.0', 'Arcade', 'The corruption of the Dark Consul in this place has even seeped into our potions!  My delicious super slurpy grape soda was practically ruined.  What heinous alchemy is at work here?');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2442, 'All Heroes must roll their WILL.  Any Hero that rolls one of fewer stars suffers two wounds.', 'All Heroes must use their WILL for all defense rolls.');
 
---Twilight Knight v2 --CardIndex 2443	--CharacterIndex 1230	--ExploreCharacterIndex 884
+--Twilight Knight v2 
+insert into Components DEFAULT VALUES; --2443
+--CardIndex 2443	--CharacterIndex 1230	--ExploreCharacterIndex 884
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2443, 
 'Twilight Knight (v2)', 
@@ -1543,3 +1545,50 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (884
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (884, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (884, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (884, 4); --Dexterity
+
+--Ghost 
+insert into Components DEFAULT VALUES; --2444
+--CardIndex 2444	--CharacterIndex 1231	--ExploreCharacterIndex 885
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) 
+VALUES (2444, 
+'Ghost',
+'https://htkb.info/ND/SDE/2.0/Cards/Creeps/Card_Creep_Ghost_2.0.png', 
+'https://htkb.info/ND/SDE/2.0/Cards/Creeps/Card_Creep_Ghost_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Ghost.xhtml', 
+'Creep', '2.0', '2.0 Core Set', 'Explore', 
+'Boo!  Boooooo!  BOOOOOOO!');
+insert into Characters (CardIndex) VALUES (2444);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1231, 4); --Ruby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (885, 233); --Ghost
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (885, 323); --Shallow Grave
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (885, 1173); --Extra Scared
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (1231,
+'https://htkb.info/ND/SDE/Standees/Ghost.png', 
+'https://htkb.info/ND/SDE/Standees/Ghost_back.png',
+'Either', 'Small', 'Undead Ghost', 6, 1, '0ST', '0ST', '2B', '3B', 1, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (885, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (885, 2);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (885, '', '8 Bit', 1);
+
+
+--Ghost 
+insert into Components DEFAULT VALUES; --2445
+--CardIndex 2445	--CharacterIndex 1232	--ArcadeCharacterIndex 346
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) 
+VALUES (2445, 
+'Ghost',
+'https://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghost_2.0.png', 
+'https://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghost_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Ghost.xhtml', 
+'Creep', '2.0', '2.0 Core Set', 'Arcade', 
+'Boo!  Boooooo! BOOOOOOO!');
+insert into Characters (CardIndex) VALUES (2445);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (1232, 111, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1232, 3); --Ruby
+--GangMemberIndex 482
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (346, 0, 'Ghost', 'Undead Ghost', 'Creep', 8, 1, 0, 143);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (482, 217); --Extra Scared
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (482, 272); --Invader

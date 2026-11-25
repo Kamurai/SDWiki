@@ -4411,7 +4411,7 @@ insert into Components DEFAULT VALUES; --2440--SDE
 /*Enervating Bite											--Index 306*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Enervating Bite', 'Action', 'Offense', 0, 1, 3, 'HEX');
 /*Experimental Concoction									--Index 307*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Experimental Concoction', 'Potion', 'Support', 1, -1, -1, 'Fae Alchemist draws two treasure cards.  Choose one card and shuffle the other back into the deck.  Fae Alchemist gains the effects listed on the chosen card until the beginning of her next activation, then discards the card.  Note, Fae Alchemist gains this effect even if she has a treasure card equipped as normal.  Only Fae Alchemist may drink Experimental Concoction.');
 /*Explode													--Index 308*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Explode', 'Action', 'Offense', 0, 1, -1, 'DANGEROUS, SW, Wave 2');
-/*Extra Scared												--Index 309*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Extra Scared', 'Action', 'Support', 1, -1, 1, '1RANGE, Invader, a Hero with a Ghost on its card may not remove status effect tokens from its card at the end of its activation or when a heart is rolled.');
+/*Extra Scared												--Index 309*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Extra Scared', 'Action', 'Support', 1, -1, 1, '1RANGE, Invader, a Hero with a Ghost on its card may gain duplicate status effect tokens of the same type.  When the Ghost is destroyed, duplicate status tokens remain, but may be removed through normal means.  The effects of duplicate tokens are not cumulative.');
 /*Extreme Weather											--Index 310*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Extreme Weather', 'Action', 'Offense', 0, 1, -1, 'Wave 2, FIRE, ICE');
 /*Fae Curse													--Index 311*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Fae Curse', 'Action', 'Support', 1, 3, 6, 'RANGE6, WILL vs WILL, HEX, BANE');
 /*Fae Curse													--Index 312*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Fae Curse', 'Action', 'Support', 1, 1, 6, 'HEX, BANE');
@@ -5289,7 +5289,7 @@ insert into Components DEFAULT VALUES; --2440--SDE
 /*Foxy																--Index 1170*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Foxy', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 3, Stealth');
 /*Fragmentation Shell												--Index 1171*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Fragmentation Shell', 'Action', 'Offense', 0, 1, -1, 'Burst 2, KNOCKDOWN');
 /*Fragmentation Shell												--Index 1172*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Fragmentation Shell', 'Action', 'Offense', 1, 4, 10, '10MI, Burst 2, KNOCKDOWN.  This model must discard a crystal shell token from a square it occupies in order to take this action');
-/*																	--Index 1173*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('', '', '', '', '', -1, -1, -1, '');
+/*Extra Scared														--Index 1173*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Extra Scared', 'Action', 'Support', 1, -1, 1, '1RANGE, Invader, a Hero with a Ghost on its card may not remove status effect tokens from its card at the end of its activation or when a heart is rolled.');
 /*																	--Index 1174*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('', '', '', '', '', -1, -1, -1, '');
 /*Freelance	Fire Forge												--Index 1175*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Freelance Fire Forge', 'Action', 'Support', 1, 0, 2, '2RNG, FIRE');
 /*Freezer															--Index 1176*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Freezer', 'Action', 'Offense', 2, 3, -1, 'MA, Lance 3, IMMOBILE');
@@ -6049,10 +6049,10 @@ insert into Components DEFAULT VALUES; --2440--SDE
 /*Way of The Blade, The												--Index 1913*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Way of The Blade, The', 'Action', 'Offense', 2, 1, 2, '2SW, +1G STR');
 /*Weaken the Prey													--Index 1914*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Weaken the Prey', 'Action', 'Offense', 0, 1, 2, ' +1ST STR, BANE');
 /*Weaken the Prey													--Index 1915*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Weaken the Prey', 'Action', 'Offense', 0, 1, 2, ' +2ST STR, BANE');
-/*Weaken the Prey													--Index 1916*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Weaken the Prey', 'Action', 'Offense', 2, 0, -1, ' 1SW, +1G DEX, BANE');
+/*Weaken the Prey													--Index 1916*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Weaken the Prey', 'Action', 'Offense', 2, 0, -1, '1SW, +1G DEX, BANE');
 /*Whirling Iron														--Index 1917*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Whirling Iron', 'Action', 'Offense', 2, 1, -1, '0MI, Wave 1, Knockdown');
 /*White Mage														--Index 1918*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'White Mage', 'Potion', 'Offense', 1, 2, -1, 'Augment, Wave 5, Heal 1');
-/*																	--Index 1919*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('', '', '', '', '', -1, -1, -1, '');
+/*Weaken the Prey													--Index 1919*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Weaken the Prey', 'Action', 'Offense', 2, 0, -1, '1SW, +1G STR, BANE');
 /*White-Out Elixir													--Index 1920*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'White-Out Elixir', 'Potion', 'Emergency', 1, 2, -1, 'Augment, Stealth');
 /*Why Was I Built To Feel Loneliness?								--Index 1921*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Why Was I Built To Feel Loneliness?', 'Action', 'Support', 1, -1, -1, 'Roll 1G and spawn a number of Kabombs equal to the number of stars rolled within two squares of this model (they must be placed in unoccuppied squares).  Then destroy this model.');
 /*Wild Swing														--Index 1922*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Wild Swing', 'Action', 'Emergency', 0, 1, -1, 'Wave 2');
@@ -10681,8 +10681,11 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (142, 2);
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (142, '', '8 Bit', 1);
 
---Ghost --CardIndex 228	--CharacterIndex 143	--ExploreCharacterIndex 143
-insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (228, 'Ghost',
+--Ghost 
+--CardIndex 228	--CharacterIndex 143	--ExploreCharacterIndex 143
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) 
+VALUES (228, 
+'Ghost',
 'https://htkb.info/ND/SDE/FK/Cards/Creeps/Card_Creep_Ghost_FK.png', 
 'https://htkb.info/ND/SDE/FK/Cards/Creeps/Card_Creep_Ghost_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Creeps/Ghost.xhtml', 
@@ -10691,13 +10694,14 @@ insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardTy
 insert into Characters (CardIndex) VALUES (228);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (143, 4); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143, 233); --Ghost
+--Insignificant
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143, 323); --Shallow Grave
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (143, 309); --Extra Scared
 insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (143,
 'https://htkb.info/ND/SDE/Standees/Ghost.png', 
 'https://htkb.info/ND/SDE/Standees/Ghost_back.png',
-'Either', 'Small', 'Undead Ghost', 5, 1, '0ST', '0ST', '2B', '3B', 1, 0);
+'Either', 'Small', 'Undead Ghost', 6, 1, '0ST', '0ST', '2B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (143, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (143, 2);
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (143, '', '8 Bit', 1);
@@ -14520,8 +14524,11 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 270); 
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 272); --Invader
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 215); --Emerald Glop
 
---Ghost --CardIndex 342	--CharacterIndex 257	--ArcadeCharacterIndex 5
-insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (342, 'Ghost',
+--Ghost 
+--CardIndex 342	--CharacterIndex 257	--ArcadeCharacterIndex 5
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) 
+VALUES (342, 
+'Ghost',
 'https://htkb.info/ND/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghost_FK.png', 
 'https://htkb.info/ND/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghost_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Creeps/Ghost.xhtml', 
@@ -30145,21 +30152,34 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (6
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (670, 'Elite', '8 Bit', 2); 
 
 
---
--- --CardIndex 1166 --CharacterIndex 776 --ExploreCharacterIndex 671
-insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1166, '',
-'', 
-'', 
-'', 
-'', '', '', '',
-'');
+--Midnight Mutineer (Errata)
+--CardIndex 1166 --CharacterIndex 776 --ExploreCharacterIndex 671
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) 
+VALUES (1166, 
+'Midnight Mutineer Errata',
+'https://htkb.info/ND/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Midnight_Mutineer_errata_2.0.png', 
+'https://htkb.info/ND/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Midnight_Mutineer_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Forgotten_Stone/Midnight_Mutineer_errata.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Nether elves do not require honorable combat. One of their favored strategies is assassination. Cut off the head and the body will die. On the high seas the chain of command is vital, and a ship without its captain is an easy target. Midnight Mutineers are experts at infiltrating a ship''s crew and, the night before their corsair brethren attack, eliminating the ship''s captain and key personnel.');
 insert into Characters (CardIndex) VALUES (1166); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (776, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (776, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (776,
-'', 
-'', 
-'', '', '', 0, 0, '', '', '', '', 0, 0);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (671, '', '', 0);
+'https://htkb.info/ND/SDE/Standees/Midnight_Mutineer.png', 
+'https://htkb.info/ND/SDE/Standees/Midnight_Mutineer_back.png', 
+'Feminine', 'Small', 'Nether Elf Pirate', 8, 3, '3B 1R', '1B', '3B', '3B', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (671, 453); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (671, 481); --Brutal Strike
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (671, 805); --Piracy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (671, 1022); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (671, 1919); --Weaken the Prey
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (671, 1628); --Shadow
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (671, 1114); --Finish The Cur
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (671, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (671, 3); --Will 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (671, 'Elite', '16 Bit', 3);
 
 -- --CardIndex 1167 --CharacterIndex 777 --ExploreCharacterIndex 672
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1167, '',
@@ -30442,8 +30462,11 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (685, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (685, 'Minion', '8 Bit', 1);
 
---Midnight Mutineer --CardIndex 1181 --CharacterIndex 791 --ExploreCharacterIndex 686
-insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (1181, 'Midnight Mutineer',
+--Midnight Mutineer 
+--CardIndex 1181 --CharacterIndex 791 --ExploreCharacterIndex 686
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) 
+VALUES (1181, 
+'Midnight Mutineer',
 'https://htkb.info/ND/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Midnight_Mutineer_2.0.png', 
 'https://htkb.info/ND/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Midnight_Mutineer_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Forgotten_Stone/Midnight_Mutineer.xhtml', 
@@ -30461,7 +30484,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (686
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (686, 481); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (686, 805); --Piracy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (686, 1022); --Surefoot
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (686, 2006); --Weaken the Prey
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (686, 1916); --Weaken the Prey
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (686, 1628); --Shadow
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (686, 1114); --Finish The Cur
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (686, 1, 1); --Strength
@@ -50083,7 +50106,9 @@ VALUES (2442, 'Dark Alchemy',
 'Challenge', '2.0', '2.0', 'Arcade', 'The corruption of the Dark Consul in this place has even seeped into our potions!  My delicious super slurpy grape soda was practically ruined.  What heinous alchemy is at work here?');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2442, 'All Heroes must roll their WILL.  Any Hero that rolls one of fewer stars suffers two wounds.', 'All Heroes must use their WILL for all defense rolls.');
 
---Twilight Knight v2 --CardIndex 2443	--CharacterIndex 1230	--ExploreCharacterIndex 884
+--Twilight Knight v2 
+insert into Components DEFAULT VALUES; --2443
+--CardIndex 2443	--CharacterIndex 1230	--ExploreCharacterIndex 884
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 2443, 
 'Twilight Knight (v2)', 
@@ -50106,3 +50131,50 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (884
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (884, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (884, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (884, 4); --Dexterity
+
+--Ghost 
+insert into Components DEFAULT VALUES; --2444
+--CardIndex 2444	--CharacterIndex 1231	--ExploreCharacterIndex 885
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) 
+VALUES (2444, 
+'Ghost',
+'https://htkb.info/ND/SDE/2.0/Cards/Creeps/Card_Creep_Ghost_2.0.png', 
+'https://htkb.info/ND/SDE/2.0/Cards/Creeps/Card_Creep_Ghost_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Ghost.xhtml', 
+'Creep', '2.0', '2.0 Core Set', 'Explore', 
+'Boo!  Boooooo!  BOOOOOOO!');
+insert into Characters (CardIndex) VALUES (2444);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1231, 4); --Ruby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (885, 233); --Ghost
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (885, 323); --Shallow Grave
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (885, 1173); --Extra Scared
+insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (1231,
+'https://htkb.info/ND/SDE/Standees/Ghost.png', 
+'https://htkb.info/ND/SDE/Standees/Ghost_back.png',
+'Either', 'Small', 'Undead Ghost', 6, 1, '0ST', '0ST', '2B', '3B', 1, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (885, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (885, 2);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (885, '', '8 Bit', 1);
+
+
+--Ghost 
+insert into Components DEFAULT VALUES; --2445
+--CardIndex 2445	--CharacterIndex 1232	--ArcadeCharacterIndex 346
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) 
+VALUES (2445, 
+'Ghost',
+'https://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghost_2.0.png', 
+'https://htkb.info/ND/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghost_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Ghost.xhtml', 
+'Creep', '2.0', '2.0 Core Set', 'Arcade', 
+'Boo!  Boooooo! BOOOOOOO!');
+insert into Characters (CardIndex) VALUES (2445);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (1232, 111, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1232, 3); --Ruby
+--GangMemberIndex 482
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (346, 0, 'Ghost', 'Undead Ghost', 'Creep', 8, 1, 0, 143);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (482, 217); --Extra Scared
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (482, 272); --Invader

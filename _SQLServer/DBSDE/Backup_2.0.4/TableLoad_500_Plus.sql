@@ -885,7 +885,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (885
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (885, 323); --Shallow Grave
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (885, 1173); --Extra Scared
 insert into ExploreCharacters (CharacterIndex, StandeeFront, StandeeBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (885,
+VALUES (1231,
 'https://htkb.info/ND/SDE/Standees/Ghost.png', 
 'https://htkb.info/ND/SDE/Standees/Ghost_back.png',
 'Either', 'Small', 'Undead Ghost', 6, 1, '0ST', '0ST', '2B', '3B', 1, 0);
@@ -896,7 +896,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (885
 
 --Ghost 
 insert into Components DEFAULT VALUES; --2445
---CardIndex 2445	--CharacterIndex 1232	--ArcadeCharacterIndex 345
+--CardIndex 2445	--CharacterIndex 1232	--ArcadeCharacterIndex 346
 insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) 
 VALUES (2445, 
 'Ghost',
@@ -911,6 +911,6 @@ VALUES (1232, 111, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1232, 3); --Ruby
 --GangMemberIndex 482
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (345, 0, 'Ghost', 'Undead Ghost', 'Creep', 8, 1, 0, 143);
+VALUES (346, 0, 'Ghost', 'Undead Ghost', 'Creep', 8, 1, 0, 143);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (482, 217); --Extra Scared
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (482, 272); --Invader
